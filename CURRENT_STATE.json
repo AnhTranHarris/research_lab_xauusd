@@ -7,49 +7,42 @@
     "id": "R9B_Gamma_1_Toxicity_Ownership_Gate",
     "result_commit": "27a74224b3ba11c12cd1261d2f30eaeedf5ba1c0",
     "whitepaper_commit": "8ca151b316e369d95c0223efd25f33409b88f911",
-    "jan_jul": {
-      "net": -18383.295000068705,
-      "gross_loss": -34985.23800003746,
-      "max_drawdown": 18385.750000068605,
-      "loss_reduction_pct": 57.9262349540565,
-      "gross_loss_reduction_pct": 53.448906287597644,
-      "trade_retention_pct": 44.57258412515759,
-      "real_to_synth_bridge_closed_pct": 7.04205453006246
-    },
     "classification": "formal specialist breakthrough; not standalone profitable EA"
   },
-  "active_candidate": {
-    "id": "R9B_ACTIVITY_ANCHOR_FREEZE_001",
-    "frozen_rule": "256 ticks / $0.20 breakout / S1 eff>=0.70 / range>=0.75 / turns<=7 / H60 lifecycle",
-    "freeze_source_commit": "4d927b3c1440bcc1aefa2442322d7af998a1df5c",
-    "freeze_manifest_commit": "83b51882eb8e141c634e2980b91e8f954e5a3642",
-    "jan_mar_net": 7109.16349993844,
-    "april_net": 446.6959999822184,
-    "may_forward": {
-      "status": "VERIFIED_DURABLE",
-      "trades": 25016,
-      "net": -50.434500018493964,
-      "gross_loss": -5545.076000005633,
-      "max_drawdown": 182.08400001058817,
-      "profit_factor": 0.9909046332244242,
-      "result_commit": "8907320273ebe77d4ea0d13de446dacb9fb86acb"
+  "completed_stage": {
+    "id": "R9B_ACTIVITY_ANCHOR_STAGE_COMPLETE_001",
+    "result_commit": "0f88bc7e8dd5b1457712b88a783f43fc52a2eec4",
+    "july_commit": "f81913999bd9e05d67178f405fd752029ed8cc9f",
+    "classification": "Gamma promotion rejected; regime-dependent event-time mechanism preserved",
+    "jan_jul": {
+      "trades": 178962,
+      "net": 6438.321499887939,
+      "gross_loss": -40239.00900003435,
+      "max_drawdown": 1182.230000028494,
+      "profit_factor": 1.1600019896087015
     },
-    "interpretation": "May is approximately breakeven and does not reproduce Jan-Apr positive expectancy. No retuning is allowed. Evaluate June next under unchanged frozen rule."
+    "may_jul": {
+      "trades": 72128,
+      "net": -1117.538000032719,
+      "gross_loss": -15667.065500009976,
+      "profit_factor": 0.9286696031217839
+    },
+    "key_finding": "All six predeclared N/gap activity-anchor neighbors failed May-Jul; forward degradation is family-wide and concentrated in July, not a single-parameter miss."
   },
   "next_research": {
-    "campaign": "R9B_ACTIVITY_ANCHOR_FORWARD",
-    "next_bounded_unit": "June 2026 forward exact validation only",
+    "campaign": "R9B_EVENT_TIME_REGIME_OWNER",
+    "objective": "Preserve the high-trade positive activity-anchor mechanism only when a causal regime owner indicates compatible event-time structure; do not select parameters from May-Jul.",
     "priorities": [
-      "run June unchanged frozen activity-anchor candidate",
-      "persist immediately",
-      "if still viable, run July in a later bounded turn",
-      "only after May-Jul aggregate decide Gamma promotion or rejection"
+      "reconstruct directional-change/intrinsic-time regime ownership from community sources",
+      "use tick-arrival intensity, event duration, DC overshoot/renewal, completed multiscale state, and volatility-normalized path efficiency as candidate regime variables",
+      "fit/freeze only on Jan-Mar + April",
+      "then test the frozen owner with activity-anchor specialist and Gamma_1 chronologically",
+      "include monthly trade counts in all investor-facing outputs"
     ],
     "constraints": [
-      "no retuning from May forward",
-      "Jan-Mar discovery; April calibration; May-Jul frozen forward; August sealed",
-      "monthly trade count must be included in investor-facing breakthrough output",
-      "do not rerun VERIFIED_DURABLE May"
+      "May-Jul forward results may diagnose failure but may not tune the new owner",
+      "August sealed",
+      "no arithmetic addition of specialist PnL"
     ]
   }
 }
