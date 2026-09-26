@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_TRANSPARENT_SPECIALIST_RECERT_014",
+    "current_unit": "R9B_GAMMA2_NATIVE_R9_SPECIALIST_RECERT_015",
     "current_unit_state": "READY",
-    "source_equivalence_note": "013 quantifies the current Pareto frontier: 012 maximizes GL compression but loses too many winners; 013 recovers winner density with less GL protection. Next recertify transparent historical P4/P6/P7/P5 specialist mechanics in the current clean exact-tick one-ledger Gamma stack.",
+    "source_equivalence_note": "014 shows opportunity-generator dependence: regime mechanics that were historically useful on R9 activity events fail when translated to Gamma_2 sweeps. Next reconstruct the native R9 event population and recertify P4/P6 there, then integrate any survivor as a separate sleeve around Gamma_2.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -223,13 +223,52 @@
       "conclusion": "Separate regime experts recover materially more winners than 012 while preserving meaningful GL compression versus 010, but economics remain negative."
     },
     "transparent_specialist_recert_014": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+      "result_commit": "80c10a171c4d46573318b661144f1c86f84eb2c7",
+      "note_commit": "0bea55baa9ef1474cb334a8c2c1555b8e8feb0a5",
+      "p4": {
+        "trades": 117205,
+        "winners": 78518,
+        "win_rate": 0.6699202252,
+        "net": -21368.2405,
+        "gross_loss": -40704.27
+      },
+      "p6": {
+        "trades": 63977,
+        "winners": 44529,
+        "win_rate": 0.6960157557,
+        "net": -12490.0355,
+        "gross_loss": -24601.089
+      },
+      "p7": {
+        "trades": 5726,
+        "winners": 3820,
+        "win_rate": 0.6671323786,
+        "net": -1191.6395,
+        "gross_loss": -2362.297
+      },
+      "p5_h4": {
+        "trades": 117,
+        "winners": 62,
+        "win_rate": 0.5299145299,
+        "net": 861.0815,
+        "gross_loss": -2250.1865,
+        "profit_factor": 1.3826711697
+      },
+      "conclusion": "P4/P6 historical mechanisms are not portable to Gamma_2 sweep events; P7 is rejected; H4 structural partially survives but weakens in June/July. Next recertify P4/P6 on native R9 activity events."
+    },
+    "native_r9_specialist_recert_015": {
       "candidates": [
-        "P4_ROTATION",
-        "P6_EXPANSION",
-        "P7_COMPRESSION_RELEASE",
-        "P5_H1_H4_STRUCTURAL_TREND"
+        "P4_ROTATION_NATIVE_R9",
+        "P6_EXPANSION_NATIVE_R9"
       ],
-      "rule": "Historical results are archaeology only. Rebuild mechanisms transparently and recertify on current Dukascopy Jan-Jul chronology before any promotion."
+      "preserved_candidate": "P5_H4_STRUCTURAL",
+      "rejected_for_now": "P7_COMPRESSION_RELEASE",
+      "scoring_order": [
+        "gross_loss",
+        "winning_trades_and_success",
+        "net_profit"
+      ]
     }
   }
 }
