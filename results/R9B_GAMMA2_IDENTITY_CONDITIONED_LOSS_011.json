@@ -1,0 +1,37 @@
+{
+  "unit": "R9B_GAMMA2_IDENTITY_CONDITIONED_LOSS_011",
+  "status": "VERIFIED_DURABLE_REJECTED",
+  "priority_order": ["reduce_gross_loss","increase_successful_trades","increase_profit"],
+  "selected": {
+    "fade_loss_probability_threshold": 0.65,
+    "continue_loss_probability_threshold": 0.90
+  },
+  "hazard_auc_train": {
+    "fade_1s": 0.6478, "fade_2s": 0.6663, "fade_3s": 0.6783, "fade_5s": 0.6907,
+    "continue_1s": 0.6502, "continue_2s": 0.6715, "continue_3s": 0.6858, "continue_5s": 0.7002
+  },
+  "jan_jul": {
+    "trades": 233945, "winners": 167437, "win_rate": 0.7157109577,
+    "net": -42057.2725, "gross_profit": 64605.6195, "gross_loss": -106662.8920,
+    "profit_factor": 0.6056991170, "max_month_drawdown": 8241.6040
+  },
+  "jan_jul_identity_baseline": {
+    "trades": 232112, "winners": 167337, "win_rate": 0.7209321362,
+    "net": -41536.7975, "gross_profit": 64712.3395, "gross_loss": -106249.1370,
+    "profit_factor": 0.6090622600, "max_month_drawdown": 8160.9330
+  },
+  "may_jul": {
+    "trades": 90381, "winners": 64010, "win_rate": 0.7082240736,
+    "net": -16540.2930, "gross_profit": 20176.6275, "gross_loss": -36716.9205,
+    "profit_factor": 0.5495185115
+  },
+  "may_jul_identity_baseline": {
+    "trades": 89925, "winners": 63898, "win_rate": 0.7105699194,
+    "net": -16431.3925, "gross_profit": 20136.6870, "gross_loss": -36568.0795,
+    "profit_factor": 0.5506629628
+  },
+  "decision": "REJECT. Identity-specific time-varying loss hazard is statistically learnable but the April-selected early-close thresholds worsen frozen May-Jul GL, net, and success rate. Move loss reduction earlier to sequence-confirmed entry/ownership rather than tighter post-entry exits.",
+  "source_sha256": "3782f26c0b9ae23d773c8956ff11a5724f11a01221c7963426d0bcc9bcc0e739",
+  "full_local_result_sha256": "f04a1a779b1c01dceb15caa6c7a0dec0d09084f521ec12981c9dc6c8d1f543c0",
+  "august_sealed": true
+}
