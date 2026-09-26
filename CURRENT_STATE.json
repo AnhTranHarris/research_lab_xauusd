@@ -4,65 +4,45 @@
   "active_branch_role": "lightweight quant control plane",
   "production_repo": "AnhTranHarris/gold-MUWHAHA-miner",
   "latest_formal_breakthrough": {
+    "id": "R9B_Gamma_2_Structure_Aware_Sweep_Reclaim",
+    "result_commit": "e32ddfd25cfd412188376732d8dc61bf0ac71ea3",
+    "whitepaper_commit": "22facb69e4efa01a4459cad8d901b8953bcc64be",
+    "classification": "formal high-density specialist breakthrough",
+    "jan_jul": {
+      "trades": 215725,
+      "winners": 175143,
+      "win_rate": 0.811880866844362,
+      "net": 29583.116499865526,
+      "gross_loss": -45456.18900002444,
+      "max_drawdown": 217.28999999962616,
+      "profit_factor": 1.6508050311883742,
+      "r9_synth_trade_density_pct": 98.35097701306636,
+      "r9_synth_winner_count_pct": 91.63265946760421,
+      "r9_real_to_synth_bridge_closed_pct": 22.22220084444543
+    },
+    "interaction_note": "Gamma_1 + Gamma_2 integration is worse than Gamma_2 alone; preserve Gamma_1 but do not automatically stack it into the active HFT path."
+  },
+  "prior_formal_breakthrough": {
     "id": "R9B_Gamma_1_Toxicity_Ownership_Gate",
     "result_commit": "27a74224b3ba11c12cd1261d2f30eaeedf5ba1c0",
     "whitepaper_commit": "8ca151b316e369d95c0223efd25f33409b88f911",
-    "classification": "formal specialist breakthrough; not standalone profitable EA"
-  },
-  "completed_stage": {
-    "id": "R9B_ACTIVITY_ANCHOR_STAGE_COMPLETE_001",
-    "result_commit": "0f88bc7e8dd5b1457712b88a783f43fc52a2eec4",
-    "classification": "Gamma promotion rejected; regime-dependent event-time mechanism preserved",
-    "jan_jul": {
-      "trades": 178962,
-      "net": 6438.321499887939,
-      "gross_loss": -40239.00900003435,
-      "max_drawdown": 1182.230000028494,
-      "profit_factor": 1.1600019896087015
-    }
-  },
-  "active_major_candidate": {
-    "id": "R9B_EVENT_TIME_ACCURACY_OWNER_CANDIDATE_001",
-    "result_commit": "b552b7f262253772d9fd54842cefa1186b6e8c9a",
-    "source_commit": "b4877f776579d110775a7ebe1b7e04bd8e8b579d",
-    "status": "major candidate, not formal Gamma because May-Jul had already been examined before durable freeze",
-    "jan_jul": {
-      "trades": 94191,
-      "net": 12788.01549993806,
-      "gross_loss": -19091.609500017243,
-      "max_drawdown": 19.00050000009287,
-      "profit_factor": 1.6698238563870953,
-      "win_rate": 0.7199095454979775
-    },
-    "accuracy": {
-      "fav20_rate": 0.6184454990391863,
-      "false_reclaim5_rate": 0.10861971950610992
-    },
-    "parent_deltas": {
-      "net_improvement_pct": 98.63,
-      "gross_loss_reduction_pct": 52.56,
-      "trade_retention_pct": 52.63,
-      "win_rate_delta_pp": 3.14,
-      "fav20_delta_pp": 6.84,
-      "false_reclaim5_delta_pp": -6.34
-    },
-    "key_diagnosis": "Forward failure was winner compression/continuation failure: activity slowed, ATR collapsed, signals arrived later, and false-reclaim trades remained a disproportionate gross-loss source."
+    "status": "preserved historical specialist; not active by default in Gamma_2 path"
   },
   "next_research": {
-    "campaign": "R9B_ACCEPTANCE_RECLAIM_DC_OWNER",
-    "objective": "Improve accuracy and loss containment before further profit optimization.",
+    "campaign": "R9B_GAMMA_2_MONETIZATION",
+    "objective": "Preserve ~R9 SYNTH trade density while increasing successful-trade monetization and July/regime resilience.",
     "priorities": [
-      "convert first-break entry into explicit ARM -> ACCEPT / RECLAIM -> ENTER / ABSTAIN state machine",
-      "test quick-reclaim veto and renewed-extreme confirmation from Jan-Mar + April only",
-      "add directional-change/intrinsic-time regime variables: event count, overshoot size/age, renewal rate, activity acceleration",
-      "treat physical duration of fixed-N tick bars as state",
-      "keep Gamma_1 separate until independently certified chronological integration"
+      "HARVEST/MEDIUM/RUNNER state-dependent exits driven by structure, event-time persistence, MFE renewal spacing, giveback, directional-change overshoot, and activity duration",
+      "explicit slow/low-volatility July-like regime handling without materially reducing trade density",
+      "orthogonal FADE/rotation sleeves for rejected Gamma_2 events rather than simple abstention",
+      "monthly trade count and winning-trade count remain first-class investor metrics",
+      "compare every new layer against Gamma_2 alone as current active baseline"
     ],
     "constraints": [
-      "May-Jul may diagnose but must not tune the next owner",
-      "August sealed",
-      "monthly trade counts required in investor-facing outputs",
-      "no profitability/lifecycle optimization until entry accuracy and false-break containment stabilize"
+      "do not force Gamma_1 into Gamma_2 if integrated system value is worse",
+      "May-Jul remain forward evidence; August sealed",
+      "no arithmetic PnL addition; all combinations chronological",
+      "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ]
   }
 }
