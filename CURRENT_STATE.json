@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_REGIME_SPECIALIST_RECOVERY_013",
+    "current_unit": "R9B_GAMMA2_TRANSPARENT_SPECIALIST_RECERT_014",
     "current_unit_state": "READY",
-    "source_equivalence_note": "012 shows regime-aware specialization can materially compress loss but creates a winner-density hole. Next unit explicitly fills that hole using rotation, expansion, compression-release, structural-trend and Gamma_2 sweep/reclaim specialists in one chronological ledger.",
+    "source_equivalence_note": "013 quantifies the current Pareto frontier: 012 maximizes GL compression but loses too many winners; 013 recovers winner density with less GL protection. Next recertify transparent historical P4/P6/P7/P5 specialist mechanics in the current clean exact-tick one-ledger Gamma stack.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -188,6 +188,48 @@
       "winner_retention": 0.445705373,
       "conclusion": "Regime conversion is useful as a low-loss specialist, not a full system. Opposite-direction fallback recovers density but sacrifices the loss benefit. Recover rejected winners with genuinely different regime-owned sleeves."
     },
-    "universal_to_regime_rule": "Do not reject a universal primitive solely for being universal. It may be decomposed into regime/state-conditioned specialist logic if causal, reconstructible, and independently validated on Dukascopy. Universal rules never receive portfolio-wide authority by default."
+    "universal_to_regime_rule": "Do not reject a universal primitive solely for being universal. It may be decomposed into regime/state-conditioned specialist logic if causal, reconstructible, and independently validated on Dukascopy. Universal rules never receive portfolio-wide authority by default.",
+    "regime_specialist_recovery_013": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_CANDIDATE",
+      "result_commit": "e21b81c758ae17bf245bc1b9415129a0ba9ba6ad",
+      "note_commit": "a257a78344bf55ee92b62ca6a5b2ec3fb13d7a19",
+      "jan_jul": {
+        "trades": 165784,
+        "winners": 121331,
+        "win_rate": 0.7318619408,
+        "net": -27718.7725,
+        "gross_loss": -75797.927
+      },
+      "base_010": {
+        "trades": 232112,
+        "winners": 167337,
+        "win_rate": 0.7209321362,
+        "net": -41536.7975,
+        "gross_loss": -106249.137
+      },
+      "delta": {
+        "gross_loss_reduction_pct": 28.66019514,
+        "net_improvement": 13818.025,
+        "win_rate_delta_pp": 1.09298046,
+        "winner_retention": 0.7250697694
+      },
+      "may_jul": {
+        "trades": 61277,
+        "winners": 43947,
+        "win_rate": 0.7171858936,
+        "net": -11329.4335,
+        "gross_loss": -25319.441
+      },
+      "conclusion": "Separate regime experts recover materially more winners than 012 while preserving meaningful GL compression versus 010, but economics remain negative."
+    },
+    "transparent_specialist_recert_014": {
+      "candidates": [
+        "P4_ROTATION",
+        "P6_EXPANSION",
+        "P7_COMPRESSION_RELEASE",
+        "P5_H1_H4_STRUCTURAL_TREND"
+      ],
+      "rule": "Historical results are archaeology only. Rebuild mechanisms transparently and recertify on current Dukascopy Jan-Jul chronology before any promotion."
+    }
   }
 }
