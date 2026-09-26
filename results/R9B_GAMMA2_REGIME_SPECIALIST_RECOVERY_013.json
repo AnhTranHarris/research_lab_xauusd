@@ -1,1 +1,17 @@
-{"api_tool_source":"files/search","results":[],"next_cursor":null,"warnings":["No search results were found. A zero-result search does not establish that the searched content lacks the answer: the query may not match indexed text, parsed text may be missing, or retrieval may have failed. Retry once with a simpler question-equivalent query or an alternate short query. If results remain empty or parsed text appears unavailable, use `files.read` to inspect page images, or use the container tool to extract, render, or otherwise process the file(s); first use `files.materialize` for any file that is not already present in the container."]}
+{
+  "unit":"R9B_GAMMA2_REGIME_SPECIALIST_RECOVERY_013",
+  "status":"VERIFIED_DURABLE_DIAGNOSTIC_CANDIDATE",
+  "selected":{"depth":6,"leaf":600,"confidence":0.55,"transition_mode":"expert"},
+  "jan_jul":{"trades":165784,"winners":121331,"win_rate":0.7318619408,"net":-27718.7725,"gross_profit":48079.1545,"gross_loss":-75797.9270,"profit_factor":0.6343069844,"max_month_dd":5378.6630},
+  "base_010_jan_jul":{"trades":232112,"winners":167337,"win_rate":0.7209321362,"net":-41536.7975,"gross_profit":64712.3395,"gross_loss":-106249.1370,"profit_factor":0.6090622600,"max_month_dd":8160.9330},
+  "delta_vs_010":{"gross_loss_reduction_pct":28.66019514,"net_improvement":13818.0250,"win_rate_delta_pp":1.09298046,"winner_retention":0.7250697694},
+  "may_jul":{"trades":61277,"winners":43947,"win_rate":0.7171858936,"net":-11329.4335,"gross_profit":13990.0075,"gross_loss":-25319.4410,"profit_factor":0.5525401410},
+  "base_010_may_jul":{"trades":89925,"winners":63898,"win_rate":0.7105699194,"net":-16431.3925,"gross_profit":20136.6870,"gross_loss":-36568.0795,"profit_factor":0.5506629628},
+  "delta_may_jul":{"gross_loss_reduction_pct":30.76081286,"net_improvement":5101.9590,"win_rate_delta_pp":0.66159742,"winner_retention":0.6877680053},
+  "comparison_to_012":{"additional_winners":46748,"gross_loss_given_back":28879.4445,"net_change":-10520.8730},
+  "mechanism":"Explicit causal regime hierarchy with separate specialist action experts and feature ownership. It recovers a large share of the winner-density lost by 012 while retaining meaningful loss compression versus 010.",
+  "decision":"DO_NOT_PROMOTE. Preserve as the middle frontier between 012 low-loss filtering and 010 density. Next recertify transparent P4 rotation, P6 expansion, P7 compression-release, and P5 H1/H4 structural mechanisms inside the current one-ledger Gamma chronology.",
+  "source_sha256":"b8d50b06f1b8f883f1eead4d4aeaf4c876e30c8ba898c335c7e81b6add3a68c5",
+  "full_result_sha256":"8875f7ef2d8772774874219c08d8bc704323885a57b37fa9bfd62b025edfb252",
+  "august_sealed":true
+}
