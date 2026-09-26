@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_SOURCE_EQUIV_EVENT_LIFECYCLE_009",
+    "current_unit": "R9B_GAMMA2_EVENT_POPULATION_IDENTITY_010",
     "current_unit_state": "READY",
-    "source_equivalence_note": "STATE_CONTEXT_008 verified durable in Drive. Static context gating did not recover source equivalence. Next unit targets event-population and lifecycle-state identity.",
+    "source_equivalence_note": "EVENT_LIFECYCLE_009 ran the integrated trade-identity lifecycle stack across Jan-Jul on the reconstructed sweep population. It was economically negligible versus its own baseline and remained deeply negative, confirming lifecycle cannot rescue the wrong event population. Next recover event-population identity that preserves Gamma_2 winners while rejecting losing excess events.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -63,6 +63,55 @@
       "rule": "Accuracy remains a standing first-class objective. If robust accuracy stalls below 85%, monetization / REAL-to-SYNTH bridge closure becomes parallel or primary, but accuracy research continues. Reject density-collapse, cosmetic-accounting, and lookahead gains."
     },
     "system_gap_matrix_commit": "6ad9c1bf1e336e7c17295008370afc9680c6ccbb",
-    "loss_july_objectives": "Gross-loss compression and July-regime resilience are co-equal with accuracy and monetization after source equivalence."
+    "loss_july_objectives": "Gross-loss compression and July-regime resilience are co-equal with accuracy and monetization after source equivalence.",
+    "trade_awareness_contract": {
+      "regime": [
+        "ROTATION",
+        "EXPANSION",
+        "COMPRESSION_RELEASE",
+        "SLOW_PERSISTENCE",
+        "HOSTILE_VOLATILITY"
+      ],
+      "event": [
+        "SWEEP_RECLAIM",
+        "ACCEPTANCE",
+        "BREAKOUT",
+        "FAILED_EXPANSION",
+        "STRUCTURAL_RETURN"
+      ],
+      "specialist_owner": [
+        "SWEEP_FADE",
+        "ACCEPT_CONTINUE",
+        "ROTATION_FADE",
+        "COMPRESSION_RELEASE",
+        "STRUCTURAL_TREND"
+      ],
+      "trajectory": [
+        "IGNITION",
+        "EXTENSION",
+        "HEALTHY_PULLBACK",
+        "REACCELERATION",
+        "STALL",
+        "FAILED_ACCEPTANCE",
+        "EXHAUSTION"
+      ],
+      "lifecycle": [
+        "HARVEST",
+        "MEDIUM",
+        "RUNNER",
+        "FAIL_CONTAINMENT"
+      ],
+      "integration_rule": "One chronological account ledger; no arithmetic addition of sleeve PnLs."
+    },
+    "event_lifecycle_009": {
+      "status": "VERIFIED_DURABLE_SHADOW_DIAGNOSTIC",
+      "source_sha256": "203bc6263c0949c06311d6ff23a6934fb0910b3f05f6b28896f7aebdbcf5e369",
+      "result_sha256": "db84f01a7fccc00db88c114a953a0e3b431f10c0d1f5b6f514d790b114686aa4",
+      "frozen_profile": "RUN_B",
+      "jan_jul_net": -46209.74450015697,
+      "jan_jul_gross_loss": -107513.14300005061,
+      "jan_jul_win_rate": 0.6746037359234898,
+      "note": "Not comparable as a replacement for certified Gamma_2 because source equivalence is unresolved."
+    }
   }
 }
