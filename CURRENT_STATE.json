@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_SOURCE_EQUIV_STATE_CONTEXT_008",
+    "current_unit": "R9B_GAMMA2_SOURCE_EQUIV_EVENT_LIFECYCLE_009",
     "current_unit_state": "READY",
-    "source_equivalence_note": "SWEEPGEN_007 tested close/wick/same-bar/minute-reset sweep timing variants; all remained about 68% winners. Raw sweep timing is not the dominant mismatch. Next reconstruct richer event context: liquidity-source memory, auction-response taxonomy, and hierarchical structural ownership.",
+    "source_equivalence_note": "STATE_CONTEXT_008 verified durable in Drive. Static context gating did not recover source equivalence. Next unit targets event-population and lifecycle-state identity.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -62,6 +62,7 @@
       "baseline_win_rate": 0.811880866844362,
       "rule": "Accuracy remains a standing first-class objective. If robust accuracy stalls below 85%, monetization / REAL-to-SYNTH bridge closure becomes parallel or primary, but accuracy research continues. Reject density-collapse, cosmetic-accounting, and lookahead gains."
     },
-    "system_gap_matrix_commit": "6ad9c1bf1e336e7c17295008370afc9680c6ccbb"
+    "system_gap_matrix_commit": "6ad9c1bf1e336e7c17295008370afc9680c6ccbb",
+    "loss_july_objectives": "Gross-loss compression and July-regime resilience are co-equal with accuracy and monetization after source equivalence."
   }
 }
