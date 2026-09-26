@@ -1,0 +1,36 @@
+{
+  "schema": "r9b-research-lab-state-v1",
+  "updated": "2026-09-26",
+  "active_branch_role": "lightweight quant control plane",
+  "production_repo": "AnhTranHarris/gold-MUWHAHA-miner",
+  "latest_formal_breakthrough": {
+    "id": "R9B_Gamma_1_Toxicity_Ownership_Gate",
+    "result_commit": "27a74224b3ba11c12cd1261d2f30eaeedf5ba1c0",
+    "whitepaper_commit": "8ca151b316e369d95c0223efd25f33409b88f911",
+    "jan_jul": {
+      "net": -18383.295000068705,
+      "gross_loss": -34985.23800003746,
+      "max_drawdown": 18385.750000068605,
+      "loss_reduction_pct": 57.9262349540565,
+      "gross_loss_reduction_pct": 53.448906287597644,
+      "trade_retention_pct": 44.57258412515759,
+      "real_to_synth_bridge_closed_pct": 7.04205453006246
+    },
+    "classification": "formal specialist breakthrough; not standalone profitable EA"
+  },
+  "next_research": {
+    "campaign": "R9B_GAMMA_1_INTEGRATION",
+    "priorities": [
+      "positive action/entry ownership on Gamma_1 retained population",
+      "post-entry survival/persistence HARVEST vs RUNNER router",
+      "chronological integration with preserved H4 structural specialist",
+      "restore positive opportunity density without undoing Gamma_1 gross-loss protection"
+    ],
+    "constraints": [
+      "Jan-Mar discovery; April calibration; May-Jul frozen forward; August sealed",
+      "do not retune Gamma_1 from forward results",
+      "do not tighten Gamma_1 merely to delete more trades",
+      "combine specialists chronologically, never by arithmetic PnL addition"
+    ]
+  }
+}
