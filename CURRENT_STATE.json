@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_NATIVE_R9_META_OWNERSHIP_016",
+    "current_unit": "R9B_GAMMA2_CONFIDENCE_SPECIALIST_ROUTER_017",
     "current_unit_state": "READY",
-    "source_equivalence_note": "015 establishes a strong native-R9 exact-tick control with 99.87% trade-count match to MT5 R9 REAL. Next reconstruct the missing profitable P4/P6 ownership machinery using teacher-only oracle labels and causal regime-age/signal-fatigue/state-transition features.",
+    "source_equivalence_note": "016 materially improves native-R9 ownership: 42.1% GL reduction vs native control with ~93.5% winner retention, but remains negative and July still degrades. Next test separate regime-owned action models plus confidence-adaptive retest/rebreak proof rather than one universal tree.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -287,23 +287,67 @@
       "conclusion": "Native R9 simulator is strongly validated. Raw transparent P4/P6 remain negative on their native R9 opportunity population; historical positive results depended on additional meta-label/ownership/lifecycle logic."
     },
     "native_r9_meta_ownership_016": {
-      "objective": "Reconstruct causal P4/P6 take/fade/continue/abstain ownership on native R9 events.",
-      "new_state_features": [
-        "regime_age_duration",
-        "same_minute_wave_rearm_index",
-        "signal_fatigue",
-        "session",
-        "efficiency",
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_CANDIDATE",
+      "result_commit": "a40c80f6df4df117121e73f0fb3d3c166a917ce1",
+      "note_commit": "e2c3f4a82d672729aee0322c52cdb48437b20501",
+      "jan_jul": {
+        "trades": 141465,
+        "winners": 98937,
+        "win_rate": 0.6993744036,
+        "net": -16824.246,
+        "gross_loss": -43422.843,
+        "profit_factor": 0.612548492
+      },
+      "may_jul": {
+        "trades": 54447,
+        "winners": 36556,
+        "win_rate": 0.6714052198,
+        "net": -7980.9365,
+        "gross_loss": -15270.5945,
+        "profit_factor": 0.4773656978
+      },
+      "vs_native_r9": {
+        "gross_loss_reduction_pct": 42.06428193,
+        "net_improvement": 26869.185,
+        "win_rate_delta_pp": 25.18514274,
+        "trade_retention_pct": 59.85858876,
+        "winner_retention_pct": 93.54506259
+      },
+      "dominant_features": [
+        "regime_confidence",
         "ATR_ratio",
-        "bounded_retest_rebreak_confirmation"
+        "ATR_excess",
+        "short_path_returns"
+      ],
+      "rejected_or_weak_features": [
+        "simple_signal_fatigue_counts",
+        "same_minute_rearm_counts_as_standalone_edge"
+      ],
+      "july": {
+        "win_rate": 0.6136131013,
+        "net": -2579.33,
+        "gross_loss": -4238.1885,
+        "avg_win": 0.1729418786,
+        "avg_loss": -0.7241053306,
+        "abstain_pct": 0.3672407665
+      },
+      "conclusion": "Regime confidence materially concentrates native-R9 winners while compressing loss; July remains weak and payoff asymmetry remains negative. Next split ownership into per-regime specialists with confidence-adaptive confirmation."
+    },
+    "confidence_specialist_router_017": {
+      "objective": "Increase winning trades while retaining 016 loss compression using separate ROTATION, EXPANSION, and TRANSITION/STRESSED experts.",
+      "mechanisms": [
+        "regime-specific action model",
+        "regime-confidence action threshold",
+        "bounded retest/rebreak proof",
+        "July slow/noisy owner",
+        "specialist handoff instead of hard abstain"
       ],
       "validation": "Jan-Mar discovery; April calibration; May-Jul frozen; August sealed",
       "scoring_order": [
         "gross_loss",
         "winning_trades_and_success",
         "net_profit"
-      ],
-      "teacher_rule": "R9 overfit/oracle provides labels only; future information never enters holdout execution."
+      ]
     }
   }
 }
