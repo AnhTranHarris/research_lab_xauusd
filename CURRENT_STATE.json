@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_EVENT_POPULATION_IDENTITY_010",
+    "current_unit": "R9B_GAMMA2_IDENTITY_CONDITIONED_LOSS_011",
     "current_unit_state": "READY",
-    "source_equivalence_note": "EVENT_LIFECYCLE_009 ran the integrated trade-identity lifecycle stack across Jan-Jul on the reconstructed sweep population. It was economically negligible versus its own baseline and remained deeply negative, confirming lifecycle cannot rescue the wrong event population. Next recover event-population identity that preserves Gamma_2 winners while rejecting losing excess events.",
+    "source_equivalence_note": "Oracle-guided 010 shows opportunity capacity remains abundant but causal specialist ownership is only partially recovered. Next apply identity-conditioned loss containment before further profit expansion.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -112,6 +112,33 @@
       "jan_jul_gross_loss": -107513.14300005061,
       "jan_jul_win_rate": 0.6746037359234898,
       "note": "Not comparable as a replacement for certified Gamma_2 because source equivalence is unresolved."
+    },
+    "priority_order": [
+      "reduce_gross_loss",
+      "increase_successful_trades",
+      "increase_profit"
+    ],
+    "user_reporting_threshold": "TEMPORARILY_SUSPENDED_20PCT_GATE",
+    "oracle_reference_rule": {
+      "r9_overfit": "teacher/oracle for per-trade/tick expected path capacity only; never holdout execution input",
+      "r9_synth": "aggregate day/week/month/Jan-Jul economic target",
+      "r9b_gamma": "causal progressively more complex reconstruction"
+    },
+    "event_population_identity_010": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_CANDIDATE",
+      "result_commit": "b32c4dde80bbf6676fad5467e2c685cd96f14a73",
+      "note_commit": "26ef06be84d9547f1d6f70a29aa499a390c6e008",
+      "may_jul": {
+        "win_rate": 0.7105699194,
+        "net": -16431.3925,
+        "gross_loss": -36568.0795
+      },
+      "may_jul_baseline": {
+        "win_rate": 0.6711379387,
+        "net": -19293.4905,
+        "gross_loss": -38212.84
+      },
+      "mechanism": "five-scale structural ownership flips specialist ownership between FADE and CONTINUE; improves frozen forward results but remains negative"
     }
   }
 }
