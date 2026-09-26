@@ -43,6 +43,13 @@
       "May-Jul remain forward evidence; August sealed",
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
-    ]
+    ],
+    "current_unit": "R9B_GAMMA2_SOURCE_EQUIV_ALIGNMENT_005",
+    "current_unit_state": "READY",
+    "source_equivalence_note": "SEMANTICS_004 isolated CONT quota/cooldown effects: 27,756 vs 34,174 January trades, but both ~68% winners. Recover exact multiscale alignment-cache/lifecycle semantics before monetization.",
+    "durable_commits": {
+      "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
+      "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908"
+    }
   }
 }
