@@ -12,7 +12,6 @@
   "completed_stage": {
     "id": "R9B_ACTIVITY_ANCHOR_STAGE_COMPLETE_001",
     "result_commit": "0f88bc7e8dd5b1457712b88a783f43fc52a2eec4",
-    "july_commit": "f81913999bd9e05d67178f405fd752029ed8cc9f",
     "classification": "Gamma promotion rejected; regime-dependent event-time mechanism preserved",
     "jan_jul": {
       "trades": 178962,
@@ -20,29 +19,50 @@
       "gross_loss": -40239.00900003435,
       "max_drawdown": 1182.230000028494,
       "profit_factor": 1.1600019896087015
+    }
+  },
+  "active_major_candidate": {
+    "id": "R9B_EVENT_TIME_ACCURACY_OWNER_CANDIDATE_001",
+    "result_commit": "b552b7f262253772d9fd54842cefa1186b6e8c9a",
+    "source_commit": "b4877f776579d110775a7ebe1b7e04bd8e8b579d",
+    "status": "major candidate, not formal Gamma because May-Jul had already been examined before durable freeze",
+    "jan_jul": {
+      "trades": 94191,
+      "net": 12788.01549993806,
+      "gross_loss": -19091.609500017243,
+      "max_drawdown": 19.00050000009287,
+      "profit_factor": 1.6698238563870953,
+      "win_rate": 0.7199095454979775
     },
-    "may_jul": {
-      "trades": 72128,
-      "net": -1117.538000032719,
-      "gross_loss": -15667.065500009976,
-      "profit_factor": 0.9286696031217839
+    "accuracy": {
+      "fav20_rate": 0.6184454990391863,
+      "false_reclaim5_rate": 0.10861971950610992
     },
-    "key_finding": "All six predeclared N/gap activity-anchor neighbors failed May-Jul; forward degradation is family-wide and concentrated in July, not a single-parameter miss."
+    "parent_deltas": {
+      "net_improvement_pct": 98.63,
+      "gross_loss_reduction_pct": 52.56,
+      "trade_retention_pct": 52.63,
+      "win_rate_delta_pp": 3.14,
+      "fav20_delta_pp": 6.84,
+      "false_reclaim5_delta_pp": -6.34
+    },
+    "key_diagnosis": "Forward failure was winner compression/continuation failure: activity slowed, ATR collapsed, signals arrived later, and false-reclaim trades remained a disproportionate gross-loss source."
   },
   "next_research": {
-    "campaign": "R9B_EVENT_TIME_REGIME_OWNER",
-    "objective": "Preserve the high-trade positive activity-anchor mechanism only when a causal regime owner indicates compatible event-time structure; do not select parameters from May-Jul.",
+    "campaign": "R9B_ACCEPTANCE_RECLAIM_DC_OWNER",
+    "objective": "Improve accuracy and loss containment before further profit optimization.",
     "priorities": [
-      "reconstruct directional-change/intrinsic-time regime ownership from community sources",
-      "use tick-arrival intensity, event duration, DC overshoot/renewal, completed multiscale state, and volatility-normalized path efficiency as candidate regime variables",
-      "fit/freeze only on Jan-Mar + April",
-      "then test the frozen owner with activity-anchor specialist and Gamma_1 chronologically",
-      "include monthly trade counts in all investor-facing outputs"
+      "convert first-break entry into explicit ARM -> ACCEPT / RECLAIM -> ENTER / ABSTAIN state machine",
+      "test quick-reclaim veto and renewed-extreme confirmation from Jan-Mar + April only",
+      "add directional-change/intrinsic-time regime variables: event count, overshoot size/age, renewal rate, activity acceleration",
+      "treat physical duration of fixed-N tick bars as state",
+      "keep Gamma_1 separate until independently certified chronological integration"
     ],
     "constraints": [
-      "May-Jul forward results may diagnose failure but may not tune the new owner",
+      "May-Jul may diagnose but must not tune the next owner",
       "August sealed",
-      "no arithmetic addition of specialist PnL"
+      "monthly trade counts required in investor-facing outputs",
+      "no profitability/lifecycle optimization until entry accuracy and false-break containment stabilize"
     ]
   }
 }
