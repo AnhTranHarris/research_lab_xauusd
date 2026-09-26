@@ -1,0 +1,20 @@
+{
+  "unit":"R9B_GAMMA2_NATIVE_R9_META_OWNERSHIP_016",
+  "status":"VERIFIED_DURABLE_DIAGNOSTIC_CANDIDATE",
+  "selected":{"depth":4,"min_samples_leaf":800,"abstain_weight":1.5,"confidence_threshold":0.45},
+  "jan_jul":{"trades":141465,"winners":98937,"win_rate":0.6993744036,"net":-16824.2460,"gross_profit":26598.5970,"gross_loss":-43422.8430,"profit_factor":0.6125484920,"max_month_dd":2762.6940},
+  "may_jul":{"trades":54447,"winners":36556,"win_rate":0.6714052198,"net":-7980.9365,"gross_profit":7289.6580,"gross_loss":-15270.5945,"profit_factor":0.4773656978,"max_month_dd":2762.6940},
+  "native_r9_control":{"trades":236332,"win_rate_approx":0.4475229762,"net":-43693.4310,"gross_profit":31256.6075,"gross_loss":-74950.0385},
+  "delta_vs_native_r9":{"gross_loss_reduction_pct":42.06428193,"net_improvement":26869.1850,"win_rate_delta_pp":25.18514274,"trade_retention_pct":59.85858876,"winner_retention_pct":93.54506259},
+  "same_lifecycle_continue_baseline":{"jan_jul":{"trades":172548,"winners":114742,"win_rate":0.6649859749,"net":-33159.3640,"gross_loss":-62556.2570},"may_jul":{"trades":69299,"winners":44282,"win_rate":0.6389991198,"net":-13513.6410,"gross_loss":-22104.1930}},
+  "delta_vs_continue":{"jan_jul_gross_loss_reduction_pct":30.58593164,"jan_jul_net_improvement":16335.1180,"jan_jul_win_rate_delta_pp":3.43884286,"jan_jul_winner_retention_pct":86.22561922,"may_jul_gross_loss_reduction_pct":30.91539465,"may_jul_net_improvement":5532.7045,"may_jul_win_rate_delta_pp":3.24061,"may_jul_winner_retention_pct":82.55273023},
+  "oracle_teacher_ceiling":{"jan_jul":{"trades":195394,"winners":195394,"net":59365.2695,"gross_loss":0.0},"may_jul":{"trades":78585,"winners":78585,"net":17839.9230,"gross_loss":0.0}},
+  "teacher_neither_rate_note":"Only ~6-15% of native events per month have neither FADE nor CONTINUE profitable under teacher-only replay; July has the highest neither/abstain share.",
+  "feature_ablation":{"dominant":["regime_confidence","ATR_ratio","ATR_excess"],"secondary":["5s_directional_return","30s_directional_return","1s_directional_return","efficiency"],"regime_age":"small positive contribution","signal_fatigue_rearm_counts":"no incremental value in this shallow-tree screen"},
+  "july":{"trades":15632,"winners":9592,"win_rate":0.6136131013,"net":-2579.33,"gross_loss":-4238.1885,"avg_win":0.1729418786,"avg_loss":-0.7241053306,"abstain_pred_pct":0.3672407665},
+  "decision":"DO_NOT_PROMOTE. Preserve as a major ownership diagnostic. Regime confidence materially concentrates winners and reduces loss, but July remains weak and loss magnitude still dominates payoff. Next build explicit per-regime specialist routers with confidence-adaptive confirmation/retest logic and July-specific slow/stressed/noisy state ownership.",
+  "source_sha256":"28d6fff7feb1095ba631d985086103b4e3a6eb4a40e9aa524727a27f62b2e713",
+  "result_sha256":"b77e172397f39207f0492980b335f54a15ace822b79e2df146b8fe8e203061bf",
+  "ablation_sha256":"105286b8fa1d10f09b2d5f5da079e972d34343519dddb7f8a041e776206034ea",
+  "august_sealed":true
+}
