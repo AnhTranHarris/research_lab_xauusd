@@ -44,21 +44,24 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_SOURCE_EQUIV_SWEEPGEN_007",
+    "current_unit": "R9B_GAMMA2_SOURCE_EQUIV_STATE_CONTEXT_008",
     "current_unit_state": "READY",
-    "source_equivalence_note": "OWNERSHIP_006 rejected full original-R8 position occupancy as the missing helper semantics: only 16,215 January sweeps and ~68.3% winners. Next reverse-engineer r8_sweep_lifecycle_screen.sweep_signals event semantics, focusing tick-driven versus completed-second state transitions under frozen context/lifecycle.",
+    "source_equivalence_note": "SWEEPGEN_007 tested close/wick/same-bar/minute-reset sweep timing variants; all remained about 68% winners. Raw sweep timing is not the dominant mismatch. Next reconstruct richer event context: liquidity-source memory, auction-response taxonomy, and hierarchical structural ownership.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
       "alignment_005_result": "0b9dabef68dec662a4035af15bdd8c20ac5eafda",
       "alignment_005_note": "3d3751d43e4c7f6ad99c6ee6fb0ea35ab4c30206",
       "ownership_006_result": "2f4ff3f57f4bc18b0cc3833d3f79ea4795fd30e9",
-      "ownership_006_note": "1cddafbd98a157b57704108acc89a4fe362d1f6e"
+      "ownership_006_note": "1cddafbd98a157b57704108acc89a4fe362d1f6e",
+      "sweepgen_007_result": "ab2089270b1f3d5781226b06c721ea346439f3f4",
+      "sweepgen_007_source": "8996bc2cfaa632486694a4b04c03c1b3f2404ce6"
     },
     "accuracy_phase_gate": {
       "target_win_rate_gt": 0.85,
       "baseline_win_rate": 0.811880866844362,
-      "rule": "After source-equivalence, pursue causal accuracy improvements without material density/economic/robustness degradation. If robust integrated accuracy cannot exceed 85%, pivot research emphasis to winner monetization / REAL-to-SYNTH economic bridge closure."
-    }
+      "rule": "Accuracy remains a standing first-class objective. If robust accuracy stalls below 85%, monetization / REAL-to-SYNTH bridge closure becomes parallel or primary, but accuracy research continues. Reject density-collapse, cosmetic-accounting, and lookahead gains."
+    },
+    "system_gap_matrix_commit": "6ad9c1bf1e336e7c17295008370afc9680c6ccbb"
   }
 }
