@@ -44,12 +44,14 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_SOURCE_EQUIV_ALIGNMENT_005",
+    "current_unit": "R9B_GAMMA2_SOURCE_EQUIV_OWNERSHIP_006",
     "current_unit_state": "READY",
-    "source_equivalence_note": "SEMANTICS_004 isolated CONT quota/cooldown effects: 27,756 vs 34,174 January trades, but both ~68% winners. Recover exact multiscale alignment-cache/lifecycle semantics before monetization.",
+    "source_equivalence_note": "ALIGNMENT_005 reused exact frozen 1m/3m/5m/10m/20m alignment cache; results were virtually unchanged and remained ~68% winners. Next recover full R8 chronological position-occupancy ownership because detached sweep generation can admit events the live R8 state machine would not observe.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
-      "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908"
+      "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
+      "alignment_005_result": "0b9dabef68dec662a4035af15bdd8c20ac5eafda",
+      "alignment_005_note": "3d3751d43e4c7f6ad99c6ee6fb0ea35ab4c30206"
     }
   }
 }
