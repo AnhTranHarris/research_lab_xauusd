@@ -44,14 +44,21 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_SOURCE_EQUIV_OWNERSHIP_006",
+    "current_unit": "R9B_GAMMA2_SOURCE_EQUIV_SWEEPGEN_007",
     "current_unit_state": "READY",
-    "source_equivalence_note": "ALIGNMENT_005 reused exact frozen 1m/3m/5m/10m/20m alignment cache; results were virtually unchanged and remained ~68% winners. Next recover full R8 chronological position-occupancy ownership because detached sweep generation can admit events the live R8 state machine would not observe.",
+    "source_equivalence_note": "OWNERSHIP_006 rejected full original-R8 position occupancy as the missing helper semantics: only 16,215 January sweeps and ~68.3% winners. Next reverse-engineer r8_sweep_lifecycle_screen.sweep_signals event semantics, focusing tick-driven versus completed-second state transitions under frozen context/lifecycle.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
       "alignment_005_result": "0b9dabef68dec662a4035af15bdd8c20ac5eafda",
-      "alignment_005_note": "3d3751d43e4c7f6ad99c6ee6fb0ea35ab4c30206"
+      "alignment_005_note": "3d3751d43e4c7f6ad99c6ee6fb0ea35ab4c30206",
+      "ownership_006_result": "2f4ff3f57f4bc18b0cc3833d3f79ea4795fd30e9",
+      "ownership_006_note": "1cddafbd98a157b57704108acc89a4fe362d1f6e"
+    },
+    "accuracy_phase_gate": {
+      "target_win_rate_gt": 0.85,
+      "baseline_win_rate": 0.811880866844362,
+      "rule": "After source-equivalence, pursue causal accuracy improvements without material density/economic/robustness degradation. If robust integrated accuracy cannot exceed 85%, pivot research emphasis to winner monetization / REAL-to-SYNTH economic bridge closure."
     }
   }
 }
