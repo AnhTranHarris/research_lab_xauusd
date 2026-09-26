@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_NATIVE_R9_SPECIALIST_RECERT_015",
+    "current_unit": "R9B_GAMMA2_NATIVE_R9_META_OWNERSHIP_016",
     "current_unit_state": "READY",
-    "source_equivalence_note": "014 shows opportunity-generator dependence: regime mechanics that were historically useful on R9 activity events fail when translated to Gamma_2 sweeps. Next reconstruct the native R9 event population and recertify P4/P6 there, then integrate any survivor as a separate sleeve around Gamma_2.",
+    "source_equivalence_note": "015 establishes a strong native-R9 exact-tick control with 99.87% trade-count match to MT5 R9 REAL. Next reconstruct the missing profitable P4/P6 ownership machinery using teacher-only oracle labels and causal regime-age/signal-fatigue/state-transition features.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -258,17 +258,52 @@
       "conclusion": "P4/P6 historical mechanisms are not portable to Gamma_2 sweep events; P7 is rejected; H4 structural partially survives but weakens in June/July. Next recertify P4/P6 on native R9 activity events."
     },
     "native_r9_specialist_recert_015": {
-      "candidates": [
-        "P4_ROTATION_NATIVE_R9",
-        "P6_EXPANSION_NATIVE_R9"
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+      "result_commit": "3983a904bc6f70257442b40ca26165fbf8f70a3f",
+      "note_commit": "1b53797ee4a1bea030f6bc4e8d256722ba2eafd6",
+      "simulator_validation": {
+        "python_trades": 236332,
+        "mt5_real_trades": 236647,
+        "trade_count_match_pct": 99.86689035,
+        "python_net": -43693.431,
+        "mt5_real_net": -50285.28,
+        "python_gross_profit": 31256.6075,
+        "mt5_real_gross_profit": 30180.23,
+        "python_gross_loss": -74950.0385,
+        "mt5_real_gross_loss": -80465.51
+      },
+      "p4": {
+        "trades": 53884,
+        "win_rate_approx": 0.660121743,
+        "net": -10261.406,
+        "gross_loss": -18225.926
+      },
+      "p6": {
+        "trades": 59033,
+        "win_rate_approx": 0.677654871,
+        "net": -11151.1205,
+        "gross_loss": -22037.511
+      },
+      "conclusion": "Native R9 simulator is strongly validated. Raw transparent P4/P6 remain negative on their native R9 opportunity population; historical positive results depended on additional meta-label/ownership/lifecycle logic."
+    },
+    "native_r9_meta_ownership_016": {
+      "objective": "Reconstruct causal P4/P6 take/fade/continue/abstain ownership on native R9 events.",
+      "new_state_features": [
+        "regime_age_duration",
+        "same_minute_wave_rearm_index",
+        "signal_fatigue",
+        "session",
+        "efficiency",
+        "ATR_ratio",
+        "bounded_retest_rebreak_confirmation"
       ],
-      "preserved_candidate": "P5_H4_STRUCTURAL",
-      "rejected_for_now": "P7_COMPRESSION_RELEASE",
+      "validation": "Jan-Mar discovery; April calibration; May-Jul frozen; August sealed",
       "scoring_order": [
         "gross_loss",
         "winning_trades_and_success",
         "net_profit"
-      ]
+      ],
+      "teacher_rule": "R9 overfit/oracle provides labels only; future information never enters holdout execution."
     }
   }
 }
