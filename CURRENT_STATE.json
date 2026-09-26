@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_SEQUENCE_CONFIRMED_OWNERSHIP_012",
+    "current_unit": "R9B_GAMMA2_REGIME_SPECIALIST_RECOVERY_013",
     "current_unit_state": "READY",
-    "source_equivalence_note": "011 rejected global-style post-entry early loss containment even when conditioned by FADE/CONTINUE identity. Next test a sequence-confirmed ownership state machine before entry: reclaim/acceptance, displacement/structure shift, retest/secondary break, explicit expiry/flip/rotation.",
+    "source_equivalence_note": "012 shows regime-aware specialization can materially compress loss but creates a winner-density hole. Next unit explicitly fills that hole using rotation, expansion, compression-release, structural-trend and Gamma_2 sweep/reclaim specialists in one chronological ledger.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -165,6 +165,29 @@
       "Korean multi-bar breakout persistence and retest invalidation",
       "open-source sweep->state-shift->displacement->retest sequence machines",
       "gold-specific real-tick source code with explicit anti-overfit forward warning"
-    ]
+    ],
+    "sequence_confirmed_ownership_012": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_CANDIDATE",
+      "result_commit": "3090cc9692c927ca53df1d78d92f5b6cd7a36884",
+      "note_commit": "ba0b0ef546ea30048cc01e6ea8ac54e546e03479",
+      "regime_gated_jan_jul": {
+        "trades": 103487,
+        "winners": 74583,
+        "win_rate": 0.7206992183,
+        "net": -17197.8995,
+        "gross_loss": -46918.4825
+      },
+      "base_jan_jul": {
+        "trades": 232112,
+        "winners": 167337,
+        "win_rate": 0.7209321362,
+        "net": -41536.7975,
+        "gross_loss": -106249.137
+      },
+      "gross_loss_reduction_pct": 55.84106956,
+      "winner_retention": 0.445705373,
+      "conclusion": "Regime conversion is useful as a low-loss specialist, not a full system. Opposite-direction fallback recovers density but sacrifices the loss benefit. Recover rejected winners with genuinely different regime-owned sleeves."
+    },
+    "universal_to_regime_rule": "Do not reject a universal primitive solely for being universal. It may be decomposed into regime/state-conditioned specialist logic if causal, reconstructible, and independently validated on Dukascopy. Universal rules never receive portfolio-wide authority by default."
   }
 }
