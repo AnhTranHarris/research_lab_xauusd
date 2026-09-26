@@ -1,0 +1,18 @@
+{
+  "unit": "R9B_GAMMA2_EVENT_POPULATION_IDENTITY_010",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_CANDIDATE",
+  "role_of_r9_overfit": "teacher/oracle only; future outcomes never enter holdout execution",
+  "role_of_r9_synth": "aggregate economic target across day/week/month/Jan-Jul",
+  "priority_order": ["reduce_gross_loss","increase_successful_trades","increase_profit"],
+  "selected_router": {"depth":6,"min_samples_leaf":600,"abstain_weight":1.5},
+  "jan_jul": {"trades":232112,"winners":167337,"win_rate":0.7209321362,"net":-41536.7975,"gross_profit":64712.3395,"gross_loss":-106249.1370,"profit_factor":0.60906226},
+  "jan_jul_same_population_fade_baseline": {"trades":254427,"winners":171470,"win_rate":0.6739457683,"net":-46250.0335,"gross_loss":-107431.0315},
+  "may_jul_frozen": {"trades":89925,"winners":63898,"win_rate":0.7105699194,"net":-16431.3925,"gross_loss":-36568.0795},
+  "may_jul_same_population_fade_baseline": {"trades":98406,"winners":66044,"win_rate":0.6711379387,"net":-19293.4905,"gross_loss":-38212.8400},
+  "main_mechanism": "five-scale structural ownership materially changes whether the same sweep event should be faded or continued; oracle majority flips between align_fade <=2 and >=3",
+  "teacher_distribution_note": "Across every month only roughly 2-4% of candidate events had neither FADE nor CONTINUE positive under the fixed lifecycle; the main missing problem is causal action ownership rather than opportunity scarcity.",
+  "decision": "Do not promote. The router improves win rate and forward economics on the shadow population but remains negative; next priority is loss containment conditioned on specialist identity.",
+  "source_sha256": "05ca144c90f7268a91f66c593b46ed98dfebbafd47d7782ba93dbee9497e0845",
+  "result_sha256": "926043864c825af308a351981d870a345417fdc5dc2d4f19b2dd99d278916a2f",
+  "august_sealed": true
+}
