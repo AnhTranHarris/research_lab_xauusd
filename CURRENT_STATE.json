@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_IDENTITY_CONDITIONED_LOSS_011",
+    "current_unit": "R9B_GAMMA2_SEQUENCE_CONFIRMED_OWNERSHIP_012",
     "current_unit_state": "READY",
-    "source_equivalence_note": "Oracle-guided 010 shows opportunity capacity remains abundant but causal specialist ownership is only partially recovered. Next apply identity-conditioned loss containment before further profit expansion.",
+    "source_equivalence_note": "011 rejected global-style post-entry early loss containment even when conditioned by FADE/CONTINUE identity. Next test a sequence-confirmed ownership state machine before entry: reclaim/acceptance, displacement/structure shift, retest/secondary break, explicit expiry/flip/rotation.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -139,6 +139,32 @@
         "gross_loss": -38212.84
       },
       "mechanism": "five-scale structural ownership flips specialist ownership between FADE and CONTINUE; improves frozen forward results but remains negative"
-    }
+    },
+    "identity_conditioned_loss_011": {
+      "status": "VERIFIED_DURABLE_REJECTED",
+      "result_commit": "68ac61885a356fffbe0558a3723800f050f9506e",
+      "note_commit": "df3fc2c62a4a091f431e3ec8f07e642b3c22dd4e",
+      "source_sha256": "3782f26c0b9ae23d773c8956ff11a5724f11a01221c7963426d0bcc9bcc0e739",
+      "result_sha256": "f04a1a779b1c01dceb15caa6c7a0dec0d09084f521ec12981c9dc6c8d1f543c0",
+      "may_jul": {
+        "win_rate": 0.7082240736,
+        "net": -16540.293,
+        "gross_loss": -36716.9205
+      },
+      "baseline_may_jul": {
+        "win_rate": 0.7105699194,
+        "net": -16431.3925,
+        "gross_loss": -36568.0795
+      },
+      "conclusion": "Moderately predictive post-entry loss hazard does not translate into forward economic improvement; move loss control earlier into sequence-confirmed ownership."
+    },
+    "community_research_focus": [
+      "professional competing-risk exit modeling: informative state, strategy-specific policy",
+      "Chinese breakout-retest-secondary-break and false-transition invalidation",
+      "Japanese HTF liquidity ownership plus LTF execution",
+      "Korean multi-bar breakout persistence and retest invalidation",
+      "open-source sweep->state-shift->displacement->retest sequence machines",
+      "gold-specific real-tick source code with explicit anti-overfit forward warning"
+    ]
   }
 }
