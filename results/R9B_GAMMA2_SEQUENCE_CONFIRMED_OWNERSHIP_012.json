@@ -1,1 +1,19 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+{
+  "unit":"R9B_GAMMA2_SEQUENCE_CONFIRMED_OWNERSHIP_012",
+  "status":"VERIFIED_DURABLE_DIAGNOSTIC_CANDIDATE",
+  "priority_order":["reduce_gross_loss","increase_successful_trades","increase_profit"],
+  "baseline_010_jan_jul":{"trades":232112,"winners":167337,"win_rate":0.7209321362,"net":-41536.7975,"gross_loss":-106249.1370},
+  "direct_5s_jan_jul":{"trades":187718,"winners":127870,"win_rate":0.6811813465,"net":-31685.8105,"gross_loss":-78808.5150},
+  "retest_5s_strong_jan_jul":{"trades":79518,"winners":54750,"win_rate":0.6885233532,"net":-13468.3990,"gross_loss":-34218.1650},
+  "regime_gated_5s_jan_jul":{"trades":103487,"winners":74583,"win_rate":0.7206992183,"net":-17197.8995,"gross_loss":-46918.4825},
+  "regime_gated_delta_vs_base":{"gross_loss_reduction_pct":55.84106956,"net_improvement":24338.8980,"trade_retention":0.4458494175,"winner_retention":0.4457053730,"win_rate_delta_pp":-0.0232918},
+  "regime_gated_may_jul":{"trades":40856,"winners":29041,"win_rate":0.7108135892,"net":-7573.8445,"gross_loss":-16962.7800},
+  "baseline_010_may_jul":{"trades":89925,"winners":63898,"win_rate":0.7105699194,"net":-16431.3925,"gross_loss":-36568.0795},
+  "regime_gated_may_jul_delta":{"gross_loss_reduction_pct":53.61315051,"net_improvement":8857.5480,"trade_retention":0.4543341674,"winner_retention":0.4544899684,"win_rate_delta_pp":0.0243670},
+  "regime_routed_5s_jan_jul":{"trades":194280,"winners":133172,"win_rate":0.6854642784,"net":-32911.5465,"gross_loss":-82294.2675},
+  "interpretation":"Converting generic FADE/CONTINUE primitives into regime-gated specialists materially compresses gross loss while preserving win rate, but deletes too many winning opportunities. Allowing rejected events to simply flip to the opposite primitive recovers density but gives back most of the GL benefit and lowers success. Rejected events need genuinely complementary regime-owned sleeves.",
+  "decision":"DO_NOT_PROMOTE. Preserve REGIME_GATED_5S as a low-loss specialist candidate; next build rotation, expansion, compression-release and structural-trend recovery sleeves in one chronological ledger.",
+  "source_sha256":"26cddf41ecc5626c37da6c09bce53d146545a5d015b90e6020fcc484299c99e8",
+  "result_sha256":"24a2afb15321a6262bf3455e3388faa2645f9a31d19f22cc5fc273106d7a1c62",
+  "august_sealed":true
+}
