@@ -1,0 +1,18 @@
+{
+  "unit":"R9B_GAMMA2_TRANSPARENT_SPECIALIST_RECERT_014",
+  "status":"VERIFIED_DURABLE_DIAGNOSTIC",
+  "priority_order":["reduce_gross_loss","increase_successful_trades","increase_profit"],
+  "p4_translated_gamma":{"jan_jul":{"trades":117205,"winners":78518,"win_rate":0.6699202252,"net":-21368.2405,"gross_loss":-40704.27,"profit_factor":0.4750368819},"may_jul":{"trades":44510,"winners":28230,"win_rate":0.6342394967,"net":-8405.0280,"gross_loss":-13471.0550}},
+  "p6_translated_gamma":{"jan_jul":{"trades":63977,"winners":44529,"win_rate":0.6960157557,"net":-12490.0355,"gross_loss":-24601.0890,"profit_factor":0.4922974548},"may_jul":{"trades":26360,"winners":17799,"win_rate":0.6752276176,"net":-5118.7360,"gross_loss":-8701.7595}},
+  "p4_p6_union":{"jan_jul":{"trades":180680,"winners":122697,"win_rate":0.6790845694,"net":-33723.4480,"gross_loss":-65084.3285,"profit_factor":0.4818499510},"may_jul":{"trades":70702,"winners":45915,"win_rate":0.6494158581,"net":-13474.4205,"gross_loss":-22105.0390}},
+  "p7_native_compression_release":{"jan_jul":{"trades":5726,"winners":3820,"win_rate":0.6671323786,"net":-1191.6395,"gross_loss":-2362.2970,"profit_factor":0.4955589835},"may_jul":{"trades":2309,"winners":1495,"win_rate":0.6474664357,"net":-565.7810,"gross_loss":-916.2485}},
+  "p5_h1":{"jan_jul":{"trades":394,"winners":164,"win_rate":0.4162436548,"net":-171.8795,"gross_loss":-4041.3770,"profit_factor":0.9574700653},"may_jul":{"trades":186,"winners":81,"win_rate":0.4354838710,"net":16.2610,"gross_loss":-1477.4240}},
+  "p5_h4":{"jan_jul":{"trades":117,"winners":62,"win_rate":0.5299145299,"net":861.0815,"gross_loss":-2250.1865,"profit_factor":1.3826711697},"may_jul":{"trades":52,"winners":26,"win_rate":0.5,"net":89.51,"gross_loss":-738.7595},"monthly_net":{"jan":301.187,"feb":169.0665,"mar":197.634,"apr":103.684,"may":133.8615,"jun":-34.7115,"jul":-9.64}},
+  "p5_one_ledger_h4_priority":{"jan_jul":{"trades":402,"winners":177,"win_rate":0.4402985075,"net":623.4570,"gross_loss":-4692.0310,"profit_factor":1.1328757206},"may_jul":{"trades":181,"winners":83,"win_rate":0.4585635359,"net":96.3485,"gross_loss":-1565.25}},
+  "interpretation":"Historical P4/P6 mechanics fail when translated onto Gamma_2 sweep events, indicating opportunity-population dependence. P7 is rejected. P5 H1 fails; P5 H4 remains a low-frequency partial survivor but loses in June and July.",
+  "decision":"Do not promote. Next reconstruct the native R9 activity-event population and recertify P4/P6 where they were originally discovered; preserve H4 structural as an orthogonal candidate for later one-ledger integration.",
+  "dependency_010_source_sha256":"05ca144c90f7268a91f66c593b46ed98dfebbafd47d7782ba93dbee9497e0845",
+  "source_sha256":"739819ff1306b7b718f9fe9d0343010a2844ab6f25622dcdfba2a69bc8ad52aa",
+  "full_result_sha256":"df7bc87914042b15da5f6c3fcaf970ab70e8eff310e1623855e0bf6ebd540af7",
+  "august_sealed":true
+}
