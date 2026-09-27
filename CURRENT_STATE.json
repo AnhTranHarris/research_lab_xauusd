@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_EXTREME_VETO_MAY_FROZEN_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_EXTREME_VETO_JUNE_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1986,6 +1986,34 @@
         "veto_events": 1148,
         "result_sha256": "f9d54314c86f9916762ba46d7fd337e260369d42b99d463fdf8aa694d57af9a5",
         "decision": "FREEZE_JAN_EXTREME_VETO_FOR_MAY_JUL",
+        "august_accessed": false
+      },
+      "gl004_may_forward": {
+        "status": "VERIFIED_DURABLE_FROZEN_FORWARD",
+        "candidate": {
+          "trades": 21408,
+          "winners": 14871,
+          "net": -3521.7075000158884,
+          "gross_loss": -8130.011000004886,
+          "max_drawdown": 3523.847500015874
+        },
+        "delta_vs_gl001": {
+          "gl_reduction_pct": 2.7696848964687475,
+          "winner_retention_pct": 96.98056606234512,
+          "trade_retention_pct": 97.15893618952528,
+          "net_improvement": 84.50750000046173,
+          "dd_reduction_pct": 2.3129870441314595
+        },
+        "delta_vs_gamma014": {
+          "gl_reduction_pct": 16.630197127275075,
+          "winner_retention_pct": 85.4066161268091,
+          "trade_retention_pct": 83.87071498530852,
+          "net_improvement": 903.5880000031375,
+          "dd_reduction_pct": 20.376634366273453
+        },
+        "veto_events": 922,
+        "result_sha256": "1bb0dcb6101f590b8cfc9d132e2305d018c196cf07df58c641ea915646deb1ad",
+        "extreme_model_sha256": "f6604d0c514c5c5c928f561ab44b147038edffaebc8033efacba0d9aabd903d2",
         "august_accessed": false
       }
     },
