@@ -1,0 +1,132 @@
+{
+  "audit_id": "GAMMA2_FRESH_REPLAY_AUDIT_2026-09-26",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_SOURCE_EQUIVALENCE_BLOCKER",
+  "classification": "INDEPENDENT_REPLAY_OF_DOCUMENTED_CONTRACT_NOT_BINARY_SOURCE_EQUIVALENT",
+  "basis": "Dukascopy raw Jan-Jul exact ordered ticks; modeled $0.20 spread; completed modeled-bid seconds; literal archived Gamma_2 sweep/reclaim contract",
+  "formal_reference": {
+    "trades": 215725,
+    "winners": 175143,
+    "win_rate": 0.811880866844362,
+    "net": 29583.116499865526,
+    "gross_loss": -45456.18900002444,
+    "pf": 1.6508050311883742
+  },
+  "fresh_literal_aggregate": {
+    "trades": 203225,
+    "winners": 137145,
+    "win_rate": 0.6748431541395006,
+    "net": -37711.261000126804,
+    "gross_profit": 49188.11349991398,
+    "gross_loss": -86899.37450004078,
+    "pf": 0.5660352998270535
+  },
+  "monthly": [
+    {
+      "month": "Jan",
+      "trades": 29033,
+      "winners": 19731,
+      "win_rate": 0.6796059656253229,
+      "net": -4883.185500021441,
+      "gross_loss": -12136.23600000679,
+      "pf": 0.5976359144615588,
+      "maxdd": 4911.831500021265
+    },
+    {
+      "month": "Feb",
+      "trades": 30401,
+      "winners": 20041,
+      "win_rate": 0.6592217361271011,
+      "net": -5571.613500022115,
+      "gross_loss": -15467.498500007518,
+      "pf": 0.6397857416944694,
+      "maxdd": 5595.166000021857
+    },
+    {
+      "month": "Mar",
+      "trades": 39005,
+      "winners": 26390,
+      "win_rate": 0.6765799256505576,
+      "net": -7384.898000028716,
+      "gross_loss": -18129.30600000916,
+      "pf": 0.5926541258653264,
+      "maxdd": 7393.378500028694
+    },
+    {
+      "month": "Apr",
+      "trades": 27278,
+      "winners": 18429,
+      "win_rate": 0.6755993841190703,
+      "net": -5132.7555000203565,
+      "gross_loss": -11386.614500006523,
+      "pf": 0.5492290092004594,
+      "maxdd": 5137.559000020348
+    },
+    {
+      "month": "May",
+      "trades": 25213,
+      "winners": 17428,
+      "win_rate": 0.6912307143140444,
+      "net": -4288.763000018629,
+      "gross_loss": -9599.844000005713,
+      "pf": 0.5532465944221514,
+      "maxdd": 4290.32600001862
+    },
+    {
+      "month": "Jun",
+      "trades": 27742,
+      "winners": 18806,
+      "win_rate": 0.6778891211880903,
+      "net": -5702.594500013007,
+      "gross_loss": -11311.968500004223,
+      "pf": 0.4958795633128861,
+      "maxdd": 5705.44800001301
+    },
+    {
+      "month": "Jul",
+      "trades": 24553,
+      "winners": 16320,
+      "win_rate": 0.6646845599315766,
+      "net": -4747.45100000254,
+      "gross_loss": -8867.90700000086,
+      "pf": 0.4646480843786386,
+      "maxdd": 4750.816000002542
+    }
+  ],
+  "archived_007_control": {
+    "jan": {
+      "trades": 35102,
+      "winners": 23849,
+      "win_rate": 0.6794199760697396,
+      "net": -5916.024500025781,
+      "gross_loss": -14536.53100000821
+    },
+    "exact_match_to_persisted_007": true,
+    "generalized_jan_jul": {
+      "trades": 244586,
+      "winners": 164373,
+      "win_rate": 0.6720458243726133,
+      "net": -44915.770000151904,
+      "gross_loss": -103198.84850004912,
+      "pf": 0.5647648142107853
+    }
+  },
+  "raw_sha256": {
+    "Jan": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5",
+    "Feb": "ed3b3545c990c88d78519594c17c8915b0f679adcb0a94920ba7524f1f6d5c5d",
+    "Mar": "814ba35e72f219a58badd806ed5c0f30ef0fb4ffe56a48205d873706513bd177",
+    "Apr": "30375098f62aed6cabc32ec6b67c57c20baec9b6d9be1ce0a204e09806c1ec0f",
+    "May": "3a50e0f1eba3076154238290ec02842cf3744ab192e5c9a2acc1cc07367c6a0d",
+    "Jun": "34686ce53ba992dfb83ea35d555b6a4947a9216635853857c8bf11ce70c00ae2",
+    "Jul": "e171e8c2fb59f3f4147a6f845eb68e664fa9c0f4815caa33acdbb42cc2f768b7"
+  },
+  "local_artifact_hashes": {
+    "audit_script": "26cdf3c0ef0cc30242b8095f2367f8628aa36d0a12e767d13bdc09190c8f4888",
+    "control_script": "68920f2be7e5f997028e638908127392b6207d4f6074f88c9f392ac46deed7e6",
+    "result_json": "66d7ca6961792ec451f9909d08ac8506697f4ed65f64f70eeca1171d035bfb54",
+    "control_json": "ad50440a5eeade2efbc5ec39b4d07993d185f709782c87f353b01f528e951629",
+    "csv": "e0902b2bc3a9b6624bb7b463e00948f2141f0c9e01966970cfa5874f4e0f652d",
+    "note_md": "7434babd00e821c3322910f0c8cf8d09e56e92678e79c96ded4e61a8b657f0df"
+  },
+  "conclusion": "The stored formal +$29,583.12 Gamma_2 curve is not independently reproducible from the durable published/archived contract. Treat it as a historical result with a source-equivalence blocker until the missing helper semantics are recovered or a new fully preserved implementation reproduces it.",
+  "august_accessed": false
+}
