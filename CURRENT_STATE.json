@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_003_STATE_DURABILITY_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_002_MAY_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1764,6 +1764,54 @@
         "stopcap": "REJECTED_SYSTEM_LEVEL_OCCUPANCY_REPLACEMENT",
         "gamma01_overlay": "REDUNDANT_ON_GAMMA014_EVENT_POPULATION",
         "next": "STATE_DURABILITY",
+        "august_accessed": false
+      },
+      "gl002_sequence_risk": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC_CALIBRATION",
+        "note_commit": "afb6a4e84a6628a6433618be81c224a3b1361755",
+        "parent": "CAUSAL_GAMMA_014_PLUS_FROZEN_JAN_OWNERSHIP_SHADOW",
+        "mechanism": "CONTINUE-only pre-entry sequence-risk veto using frozen ownership confidence and action-relative ret30; no delayed proof",
+        "discovery": {
+          "screen_count": 432,
+          "eligible_count": 30,
+          "selected": {
+            "confidence_cap": 0.55,
+            "horizon": "ret30",
+            "ret_threshold": 0,
+            "owner": "CONTINUE"
+          },
+          "min_jan_feb_gl_reduction_pct": 2.1448322554427626,
+          "min_jan_feb_winner_retention_pct": 97.00402106813162,
+          "march": {
+            "additional_gl_reduction_pct": 1.6452701864311043,
+            "winner_retention_pct": 97.9655433379335,
+            "net_improvement": 64.88900000050216,
+            "dd_reduction_pct": 1.1211950336676302
+          }
+        },
+        "april": {
+          "best_numeric": {
+            "confidence_cap": 0.55,
+            "horizon": "ret30",
+            "ret_threshold": 0,
+            "additional_gl_reduction_pct": 2.726683438564738,
+            "winner_retention_pct": 97.28506787330316,
+            "net_improvement": 124.44350000047143,
+            "dd_reduction_pct": 3.0118555197089005
+          },
+          "robust_knee": {
+            "confidence_cap": 0.55,
+            "horizon": "ret30",
+            "ret_threshold": -0.05,
+            "owner": "CONTINUE",
+            "additional_gl_reduction_pct": 2.4920856943952536,
+            "winner_retention_pct": 97.44002975268084,
+            "net_improvement": 110.78600000043753,
+            "dd_reduction_pct": 2.681308590697979
+          }
+        },
+        "discovery_result_sha256": "4ef3434979ca4475b53df4812862ba1d2140e68e9a03638b74caa5901e2b2f96",
+        "april_result_sha256": "4a6c4afc82daf12f7c0ae9ffaf4cbed9f0a1d552a1042d20446e393cdf48484b",
         "august_accessed": false
       }
     },
