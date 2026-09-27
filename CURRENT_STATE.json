@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_002_SEQUENCE_RISK_DURABILITY_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_003_STATE_DURABILITY_DISCOVERY",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1757,7 +1757,15 @@
         "decision": "RETAIN_AS_RESEARCH_GL_CORE_NOT_FORMAL_PROMOTION",
         "august_accessed": false
       },
-      "current_research_parent": "CAUSAL_GAMMA_014_PLUS_FROZEN_JAN_OWNERSHIP_SHADOW"
+      "current_research_parent": "CAUSAL_GAMMA_014_PLUS_FROZEN_JAN_OWNERSHIP_SHADOW",
+      "gl002": {
+        "status": "VERIFIED_DURABLE_REJECTED_AS_CORE",
+        "note_commit": "8648e487fb8fdae94e53b9da9400ac8fb9f8d94b",
+        "stopcap": "REJECTED_SYSTEM_LEVEL_OCCUPANCY_REPLACEMENT",
+        "gamma01_overlay": "REDUNDANT_ON_GAMMA014_EVENT_POPULATION",
+        "next": "STATE_DURABILITY",
+        "august_accessed": false
+      }
     },
     "working_parent": "GL001_FROZEN_JAN_OWNERSHIP"
   },
@@ -1828,9 +1836,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA_DYNAMIC_GL_002_STATE_CONDITIONED_LIFECYCLE_DISCOVERY",
+      "id": "R9B_GAMMA_DYNAMIC_GL_003_STATE_DURABILITY_DISCOVERY",
       "state": "READY",
-      "scope": "Keep frozen GL001 ownership. On Jan-Mar discovery + April calibration, attribute residual GL by action/confidence/action-alignment/ATR state and test state-conditioned lifecycle geometry to reduce loser severity without further broad trade deletion. May-Jul not used for selection; August sealed."
+      "scope": "On Jan discovery only, augment frozen ownership with causal structural-owner age, exact alignment-state age, and recent owner-transition count. Test incremental GL value without broad feature stacking. Then freeze any survivor into Feb/Mar and April. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
