@@ -1,0 +1,18 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_HOLD_007_TOXIC_RISK_GEOMETRY",
+  "month": 2,
+  "status": "VERIFIED_DURABLE_MONTH_CHECKPOINT",
+  "caps": [
+    0.25,
+    0.35,
+    0.5,
+    0.75,
+    1,
+    1.5
+  ],
+  "output_sha256": "150967ad032d71b2ac6553b01bbcd712a3b1e33a2e5cb7a2aac0c819644283bb",
+  "source_sha256": "fbeedfcdfc9849e7c7ce375ef84d3335bb604d60e203cc4b73601d121c69053d",
+  "source_commit": "5325a6b8cc1dd1a13f415af397c2dc64d6bddd7e",
+  "rows": 32862,
+  "august_accessed": false
+}
