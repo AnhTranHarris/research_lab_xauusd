@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_008_JUNE_FROZEN_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_008_JULY_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2319,6 +2319,32 @@
         "dd_reduction_pct": 22.081945117586397
       },
       "result_sha256": "37cc5ca4c993f14d02b72e2f3d38a0401ef3743ea67d130b6e96990003bb2d0e",
+      "august_accessed": false
+    },
+    "gl008_june_forward": {
+      "status": "VERIFIED_DURABLE_FROZEN_FORWARD",
+      "candidate": {
+        "trades": 23082,
+        "winners": 15952,
+        "net": -4239.266500010783,
+        "gross_loss": -8968.292000003335,
+        "max_drawdown": 4239.501500010786
+      },
+      "delta_vs_gl004": {
+        "gl_reduction_pct": 2.2611614871380383,
+        "winner_retention_pct": 98.36591231423814,
+        "trade_retention_pct": 98.30494037478705,
+        "net_improvement": 105.96350000018356,
+        "dd_reduction_pct": 2.4384847191251167
+      },
+      "delta_vs_gamma014": {
+        "gl_reduction_pct": 17.538656863577188,
+        "winner_retention_pct": 84.72487784151264,
+        "trade_retention_pct": 83.29844821364128,
+        "net_improvement": 1106.0495000024457,
+        "dd_reduction_pct": 20.70311871652083
+      },
+      "result_sha256": "5fa617b366fd31d0f9d799e7ba0a033b51c5440dbfcfd6398a293ee56b579478",
       "august_accessed": false
     }
   },
