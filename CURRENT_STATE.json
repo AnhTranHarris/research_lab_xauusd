@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_009_ORTHOGONAL_OWNER_VETO_COMBINATION_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_009_FEB_REPLICATION",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2409,7 +2409,26 @@
       "decision": "RETAIN_AS_LOSS_CONTROL_COMPONENT_NOT_FORMAL_PROMOTION",
       "august_accessed": false
     },
-    "current_research_parent": "CAUSAL_GAMMA_014_PLUS_GL001_OWNERSHIP_PLUS_GL004_EXTREME_VETO_PLUS_GL008_TARGETED_FADE_OWNER_VETO_SHADOW"
+    "current_research_parent": "CAUSAL_GAMMA_014_PLUS_GL001_OWNERSHIP_PLUS_GL004_EXTREME_VETO_PLUS_GL008_TARGETED_FADE_OWNER_VETO_SHADOW",
+    "gl009_jan": {
+      "status": "VERIFIED_DURABLE_DISCOVERY_INTEGRATION",
+      "delta_vs_gl004": {
+        "gl_reduction_pct": 4.333372279379477,
+        "winner_retention_pct": 95.53975436328378,
+        "trade_retention_pct": 95.71767849191033,
+        "net_improvement": 82.90100000042094,
+        "dd_reduction_pct": 3.4286157399089765
+      },
+      "delta_vs_gamma014": {
+        "gl_reduction_pct": 17.342728972861114,
+        "winner_retention_pct": 82.98708590679394,
+        "trade_retention_pct": 81.87531742001015,
+        "net_improvement": 423.3005000020803,
+        "dd_reduction_pct": 18.13914302364977
+      },
+      "result_sha256": "fd40cbde2c2e3c1abbaa98ff68081bceacf3cd6fd61a7d4b78c62bb3e741a000",
+      "august_accessed": false
+    }
   },
   "gamma2_benchmark_recovery": {
     "status": "CAUSAL_RECERT_014_COMPLETE_RESEARCH_READY",
