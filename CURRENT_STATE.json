@@ -826,6 +826,43 @@
         "script_sha256": "79f08ff7845fc964209f9586bd8129c5c8b3b6f0f9581b7190e5cc67112aae22",
         "note_commit": "81224cbeee4d6e29dceab0deffe1a3120e3785ff",
         "august_accessed": false
+      },
+      "jan06": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+        "server_to_utc_offset_ms": -7200000,
+        "population": {
+          "gamma_raw": 1392,
+          "gamma_executable": 1044,
+          "r9_real": 1489,
+          "r9_synth": 1105,
+          "nonoverlap_suppressed": 348
+        },
+        "gamma_economics": {
+          "winners": 690,
+          "losers": 354,
+          "win_rate": 0.6609195402298851,
+          "net": -181.26800000078947,
+          "gross_loss": -370.1500000002661
+        },
+        "match_5s": {
+          "gamma_exec_real": {
+            "matches": 221,
+            "gamma_coverage": 0.21168582375478928,
+            "same_side_rate": 0.5384615384615384
+          },
+          "gamma_exec_synth": {
+            "matches": 192,
+            "gamma_coverage": 0.1839080459770115,
+            "same_side_rate": 0.4114583333333333
+          },
+          "r9_real_synth": {
+            "matches": 314,
+            "same_side_rate": 0.7961783439490446
+          }
+        },
+        "result_sha256": "eedf5e6066ba76083e7dd26813cb71a5c0119a7accdf6eb24ab516cd8aa57b69",
+        "note_commit": "1667d9f75148aeb151066d840b27d888379c319f",
+        "august_accessed": false
       }
     },
     "topic1_cache": {
