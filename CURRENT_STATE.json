@@ -568,7 +568,13 @@
         },
         "finding": "Hierarchical structure alone increases coverage and modestly lifts July conversion but worsens gross loss and net. Owner age, boundary distance and lower-timeframe conflict are the strongest structural diagnostics. Preserve as context only.",
         "next_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_B_ACCEPTANCE_SWEEP",
-        "august_sealed": true
+        "august_sealed": true,
+        "source_commits": {
+          "hierarchical_owner": "c5b4ccf2273fbf95e5e553e9b054e66929569a2d",
+          "freeze": "d188217cfb3735b4d58e220032f146beb9c90eb9",
+          "forward_eval": "c62c354218b419a002b3102bf4ce064c1e4280c0"
+        },
+        "note_commit_latest": "c519eae8156464cacfb4e73cde730e3ca33a5f7d"
       },
       "stage_b_acceptance_sweep": {
         "status": "READY",
