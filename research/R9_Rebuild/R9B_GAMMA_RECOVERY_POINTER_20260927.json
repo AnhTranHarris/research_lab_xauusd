@@ -20,9 +20,14 @@
       "unit": "R9B_GAMMA_DYNAMIC_ENTRY_010",
       "state": "NO_INCREMENTAL_VALUE",
       "sha256": "13b4b33adccf47ea4590474c5dad50acc1205404cf95aca3344144577077833b"
+    },
+    {
+      "unit": "R9B_GAMMA_DYNAMIC_ENTRY_011",
+      "state": "NO_PROMOTION",
+      "sha256": "2e5fdef35d60e2e2ad2bd56fd17f99b67a07ebdbd70b6466fa9c7653979d6c81"
     }
   ],
   "local_pending_durable": [],
-  "next": "R9B_GAMMA_DYNAMIC_ENTRY_011_EXPECTED_VALUE_GATE",
+  "next": "R9B_GAMMA_DYNAMIC_ENTRY_012_MULTI_SEVERITY_TAIL_GATE",
   "sealed_period_preserved": true
 }
