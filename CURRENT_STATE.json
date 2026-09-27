@@ -46,7 +46,7 @@
     ],
     "current_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020",
     "current_unit_state": "READY",
-    "source_equivalence_note": "019 modestly improves GL/net outside July but worsens July; flat MTF voting is too coarse. 020 now tests hierarchical structure/pattern/durability semantics in stages, with July used only as stress validation.",
+    "source_equivalence_note": "019 shows leading event-time and raw-tick features help modestly but do not solve July, while naive MTF structure adds essentially nothing. 020 must test richer hierarchical structure/pattern equations rather than equal-weight timeframe voting or generic feature stacking.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -452,16 +452,11 @@
     "forward_integrity_note": "May-Jun remain strict untouched forward for 018 parameter selection. July was used as mechanism-forensic stress analysis in 017A and is not a pristine mechanism-selection holdout for 018. August remains sealed.",
     "leading_tick_microstructure_019": {
       "status": "VERIFIED_DURABLE_DIAGNOSTIC_CANDIDATE",
-      "result_commit": "aaa78cd0016746756f3e3675ec1762dd1f9570e9",
-      "note_commit": "296823bc1c71f4414b2031e42e86987c3735b36a",
-      "baseline_017": {
-        "trades": 137288,
-        "winners": 97533,
-        "win_rate": 0.7104262572,
-        "net": -12342.1705,
-        "gross_loss": -38839.236,
-        "profit_factor": 0.6822241689
-      },
+      "result_path": "results/R9B_GAMMA2_LEADING_TICK_MICROSTRUCTURE_019.json",
+      "note_path": "notes/R9B_GAMMA2_LEADING_TICK_MICROSTRUCTURE_019.md",
+      "source_sha256": "482e39f694ccf3bb24f43097a7e38f06314e0546194b6e7952e6ea75c2e0e0e8",
+      "trainer_sha256": "81a3892d2d238f9c5bc713574180b8b22c015ed9e50f4a09b1fb9bda55b245",
+      "result_sha256": "4825217f84f6d23343c6e63a154daa8a8c1e6aedd121973211471854ea76a647",
       "selected_family": "BASE_EVENTTIME",
       "jan_jul": {
         "trades": 136450,
@@ -472,45 +467,24 @@
         "profit_factor": 0.6910718511
       },
       "delta_vs_017": {
-        "gross_loss_reduction_pct": 1.99894,
+        "gross_loss_reduction": 776.374,
         "net_improvement": 583.481,
+        "win_rate_delta_pp": -0.02174,
         "winner_retention_pct": 99.3592,
-        "trade_retention_pct": 99.3896,
-        "win_rate_delta_pp": -0.02174
+        "trade_retention_pct": 99.3896
       },
-      "may_jun_strict_forward": {
-        "gross_loss_reduction_pct": 4.87765,
+      "may_jun": {
+        "gross_loss_reduction": 484.3015,
         "net_improvement": 423.159,
-        "winner_retention_pct": 99.5559,
-        "trade_retention_pct": 99.5531,
-        "win_rate_delta_pp": 0.00198
+        "win_rate_delta_pp": 0.00198,
+        "winner_retention_pct": 99.5559
       },
       "july": {
-        "trades": 16042,
-        "winners": 9903,
-        "win_rate": 0.6173170428,
-        "net": -2563.0005,
-        "gross_loss": -4259.618
-      },
-      "july_delta_vs_017": {
-        "net": -150.8075,
-        "gross_loss": -124.599,
+        "net_change": -150.8075,
+        "gross_loss_change": -124.599,
         "win_rate_delta_pp": -0.36368
       },
-      "surviving_new_features": [
-        "raw_ret_5s_side",
-        "raw_ret_60s_side",
-        "dc20_state_side",
-        "dc10_age_s",
-        "gap_max64",
-        "gap_mean16",
-        "arrival_accel_16_64",
-        "actual_spread",
-        "sec_eff60",
-        "variance_ratio",
-        "CUSUM"
-      ],
-      "rejected_representation": "Simple 1m/3m/5m/10m/20m HH-HL/LH-LL voting did not change decisions; multi-timeframe hypothesis remains open but needs hierarchical state ownership."
+      "conclusion": "Event-time improves Jan-Jun modestly but worsens July; raw tick features contain some loss-control value but fail April density guard; simple equal-weight MTF structure adds essentially no edge. Next rebuild hierarchical structure/pattern state."
     },
     "roi_report_requirement": {
       "basis": "Dukascopy exact-tick Python backtest",
@@ -538,53 +512,39 @@
       "headline": "Gamma_2 +$29,583.12 Jan-Jul fixed 0.01 lot; 29.58% on $100k normalization; tested cost-sensitivity band 19.69%-29.58% on $100k normalization. Not a live-return forecast."
     },
     "hierarchical_pattern_state_020": {
-      "objective": "Improve July and Jan-Jul success by representing structure/pattern as hierarchical causal state rather than flat timeframe votes.",
+      "status": "READY",
+      "plan_commit": "fd8acfd62966648e0dca2ea73f5dcd2ba3b1af0f",
+      "plan_path": "notes/R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_PLAN.md",
+      "objective": "Test hierarchical multi-timeframe structural ownership, state duration/change-point probability, ordinal-pattern transitions, liquidity acceptance/sweep state, and leading tick pressure to improve May-Jun and July without density collapse.",
       "mechanisms": [
-        "highest-live accepted structural timeframe owner across 1m/3m/5m/10m/20m/H1 where causal history supports it",
-        "body-based accepted structure separate from wick liquidity sweep",
-        "persistent level registry with age/touch count/first penetration/reclaim/acceptance",
-        "ordinal-pattern transition network with permutation entropy, Jensen-Shannon time irreversibility, forbidden-pattern fraction",
-        "BOCPD-style causal run-length/change probability or bounded reconstructible equivalent",
-        "target-calibrated two-sided CUSUM breakpoint state",
-        "019 directional-change/event-time/tick-gap/arrival/spread descriptors retained",
-        "semantic routing into separate regime specialists, no indiscriminate all-feature stack"
+        "hierarchical structural owner",
+        "accepted break vs sweep ledger",
+        "semi-Markov duration hazard",
+        "BOCPD run-length/change probability",
+        "structural-owner-conditioned CUSUM",
+        "Hawkes-style up/down tick intensity",
+        "validated quote-volume imbalance/microprice",
+        "ordinal-pattern transition network",
+        "multiscale persistence/entropy",
+        "pattern-phase state machine"
       ],
       "validation": "Jan-Mar discovery; April calibration; May-Jun strict forward; July stress-validation; August sealed",
       "scoring_order": [
         "gross_loss",
         "winning_trades_and_success",
         "net_profit"
-      ],
-      "research_contract_commit": "4fea53467006bc4ccba2a6da70c126a7aa15de54",
-      "staged_execution": [
-        "020-A hierarchical structural owner",
-        "020-B acceptance/sweep memory",
-        "020-C ordinal pattern transition state",
-        "020-D BOCPD/CUSUM durability",
-        "020-E retained 019 tick/event-time descriptors",
-        "020-F integrated semantic router"
-      ],
-      "quant_equations": [
-        "normalized permutation entropy",
-        "Jensen-Shannon forward/reverse irreversibility",
-        "Bayesian online change-point run-length posterior",
-        "two-sided standardized CUSUM",
-        "variance ratio",
-        "path efficiency",
-        "directional-change intrinsic-time state"
-      ],
-      "secondary_shelf": [
-        "Hawkes tick-arrival intensity only if 020 core is insufficient and quote-tick semantics support it",
-        "hidden semi-Markov duration model",
-        "recurrence quantification"
-      ],
-      "first_action": "020-A only: build causal highest-timeframe structural owner with protected levels, accepted BOS/CHoCH, wick-sweep separation, structural age/touch memory and lower-timeframe confirm/transition/conflict states. Do not add ordinal/BOCPD/CUSUM until 020-A is measured."
+      ]
     },
     "super_handoff": {
       "title": "R9B Gamma — SUPER HANDOFF — 2026-09-26",
       "google_doc_id": "1f9uoW6l_HDxrkPSXXyuy0AxK_DIuy0bMOoFsMeEh_FM",
       "google_doc_url": "https://docs.google.com/document/d/1f9uoW6l_HDxrkPSXXyuy0AxK_DIuy0bMOoFsMeEh_FM/edit",
       "role": "Primary restart authority together with live Master Protocol; supersedes older execution pointers in historical handoff."
+    },
+    "super_new_chat_handoff": {
+      "google_doc_id": "1G7fk5JSsUrTlRu-nnDNciO7Jay0bDrYRD8f60QLLYNY",
+      "google_doc_url": "https://docs.google.com/document/d/1G7fk5JSsUrTlRu-nnDNciO7Jay0bDrYRD8f60QLLYNY/edit",
+      "purpose": "Self-contained restart document: authority docs, repos/branches, hard rules, benchmarks, research units through 019, July forensic, ROI status, local files/hashes, 020 equations and exact resume procedure."
     }
   }
 }
