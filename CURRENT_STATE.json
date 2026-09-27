@@ -46,7 +46,7 @@
     ],
     "current_unit": "R9B_GAMMA2_CONFIDENCE_PROOF_HANDOFF_018",
     "current_unit_state": "READY",
-    "source_equivalence_note": "017 improves the native-R9 ownership frontier with separate regime experts. July macro diagnostics show scheduled news is not the dominant fixed-cost failure source; next recover low-confidence winners via exact-tick bounded FADE/CONTINUE proof and handoff, especially July-like low-displacement/low-ATR-excess states.",
+    "source_equivalence_note": "017A July forensic shows cross-regime tradeability deterioration: toxic/neither events nearly double, regime age halves, and oracle excursion capacity falls ~45% while broad regime mix stays similar. Static viability is weak; amend 018 to use dynamic exact-tick proof/handoff.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -385,14 +385,17 @@
       "limitation": "Current shadow replay uses fixed modeled transaction-cost geometry and does not fully reproduce live news spread/slippage."
     },
     "confidence_proof_handoff_018": {
-      "objective": "Recover low-confidence winners without reopening the large-loss pool.",
+      "objective": "Recover low-confidence and July-like winners without reopening the large-loss pool.",
       "mechanisms": [
-        "exact-tick virtual FADE/CONTINUE acceptance levels",
-        "bounded first-touch proof",
-        "optional retest/rebreak renewal",
-        "event expiry",
-        "specialist handoff",
-        "July-like slow/noisy state owner"
+        "separate classification confidence from tradeability/viability confidence",
+        "regime durability/age and excursion-capacity state",
+        "two-stage viability -> action ownership -> lifecycle",
+        "exact-tick virtual FADE/CONTINUE OCO first-touch proof",
+        "prioritize approximately $0.30/5s and $0.30/10s candidates",
+        "entry only at actual proof tick",
+        "conditional retest/rebreak only for ambiguous/noisy proof states",
+        "expiry and specialist handoff for unresolved events",
+        "news remains execution-risk annotation"
       ],
       "validation": "Jan-Mar discovery; April calibration; May-Jul frozen; August sealed",
       "scoring_order": [
@@ -400,6 +403,37 @@
         "winning_trades_and_success",
         "net_profit"
       ]
+    },
+    "july_oracle_correlation_017A": {
+      "status": "VERIFIED_DURABLE_FORENSIC",
+      "result_commit": "0406a763b68523529c51fa28913d3debd8e81c88",
+      "note_commit": "ed1684c06ba3405116835a172d505c5bcc54aa42",
+      "key_causes": {
+        "teacher_neither_jan_jun_pct": 8.1225,
+        "teacher_neither_july_pct": 15.0386,
+        "gamma_success_vs_teacher_neither_pearson": -0.89742,
+        "oracle_best_mean_change_pct": -45.45,
+        "regime_age_change_pct": -48.87,
+        "atr_excess_change_pct": -50.86,
+        "wrong_owner_rate_july": 0.23839,
+        "toxic_executed_rate_july": 0.13953
+      },
+      "static_viability_auc": {
+        "tree": 0.5383,
+        "logistic": 0.52249
+      },
+      "first_touch_candidate": {
+        "threshold_price": 0.3,
+        "window_s": 5,
+        "all_coverage": 0.58678,
+        "all_selected_positive_rate": 0.79388,
+        "median_proof_s": 1.804,
+        "abstain_coverage": 0.45754,
+        "abstain_selected_positive_rate": 0.78948,
+        "teacher_profitable_abstain_selected_positive_rate": 0.88962,
+        "note": "Selection correlation only; 018 must enter at proof tick."
+      },
+      "architectural_conclusion": "Separate classification confidence from tradeability/viability, then dynamic ownership proof, then lifecycle. Broad regime label alone does not explain July."
     }
   }
 }
