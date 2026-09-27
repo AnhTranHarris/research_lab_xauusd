@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_001_H1_H4_STRUCTURAL_ARCHAEOLOGY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_002_H1_H4_FRESH_CAUSAL_RECONSTRUCTION",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2733,6 +2733,25 @@
       },
       "action": "No GL001-GL014 rerun. Stop at first-top-strategy closure per user scope. Next pointer unchanged.",
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_001_H1_H4_STRUCTURAL_ARCHAEOLOGY",
+      "august_accessed": false
+    },
+    "net001_h1_h4_archaeology": {
+      "status": "VERIFIED_DURABLE_ARCHAEOLOGY",
+      "historical_h1": {
+        "net_approx": 1390,
+        "trades_approx": 336,
+        "profit_factor_approx": 1.43,
+        "positive_months": 7
+      },
+      "historical_h4": {
+        "net_approx": 1159,
+        "trades_approx": 77,
+        "profit_factor_approx": 1.71,
+        "positive_months": 7
+      },
+      "exact_source_recovered": false,
+      "conclusion": "Historical H1/H4 performance evidence is credible project history, but exact original source/parameter contract is not currently recoverable from durable searchable code. Reconstruct fresh causal structural sleeves; do not back-fit historical metrics.",
+      "note_commit": "e95fae7f922d6d9849982ff84914ff4dcb1f3125",
       "august_accessed": false
     }
   },
