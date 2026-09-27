@@ -1,0 +1,204 @@
+{
+  "unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_B_ACCEPTANCE_SWEEP",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+  "classification": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+  "decision": "DO_NOT_PROMOTE. Acceptance/sweep memory improves April, May-Jun, and July with essentially no forward density loss, but Jan-Jul net is slightly worse than frozen 020-A. Preserve acceptance/sweep state for later phase/transition routing; do not grant standalone trade authority.",
+  "current_formal_build": "R9B_Gamma_2_Structure_Aware_Sweep_Reclaim",
+  "architecture": {
+    "frozen_parent": "020-A hierarchical structural owner",
+    "change": "Add only causal completed-bar acceptance/sweep memory: wick penetration vs accepted close, reclaim/failed acceptance, first/repeat penetration, touch and level age, ATR-normalized penetration/reclaim depth, owner-relative acceptance quality.",
+    "classifier": "Transparent CART; max_depth=4; min_samples_leaf=800; class_weight abstain=1.5; random_state=17. 020-A architecture held fixed.",
+    "discovery": "Jan-Mar",
+    "calibration": "April",
+    "forward": "May-Jun strict forward",
+    "stress": "July",
+    "sealed": "August"
+  },
+  "selected": {
+    "variant": "OWNER_SUMMARY",
+    "threshold": 0.45
+  },
+  "stageA_reference": {
+    "jan_jul": {
+      "trades": 234740,
+      "winners": 165215,
+      "win_rate": 0.7038212490414927,
+      "net": -42586.86950014577,
+      "gross_loss": -84552.45250004063,
+      "pf": 0.4963260290986201,
+      "maxdd_trade_sequence": 42588.72200014755
+    },
+    "may_jun": {
+      "trades": 66177,
+      "winners": 46374,
+      "win_rate": 0.7007570606101818,
+      "net": -12483.246500040512,
+      "gross_loss": -22016.234000011806,
+      "pf": 0.4329981004001947
+    },
+    "july": {
+      "trades": 30790,
+      "winners": 19510,
+      "win_rate": 0.6336472880805456,
+      "net": -6120.219000003553,
+      "gross_loss": -9360.799000001141,
+      "pf": 0.34618626038196026
+    }
+  },
+  "stageB": {
+    "jan_jul": {
+      "trades": 234294,
+      "winners": 165614,
+      "win_rate": 0.7068640255405602,
+      "net": -42939.855500145626,
+      "gross_loss": -84453.70950004029,
+      "pf": 0.49155749635692264,
+      "maxdd_trade_sequence": 42941.70800014623
+    },
+    "may_jun": {
+      "trades": 66193,
+      "winners": 46616,
+      "win_rate": 0.7042436511413593,
+      "net": -12182.762500040488,
+      "gross_loss": -21625.00950001172,
+      "pf": 0.4366355076036436
+    },
+    "july": {
+      "trades": 30785,
+      "winners": 19630,
+      "win_rate": 0.6376482052947864,
+      "net": -5999.235000003606,
+      "gross_loss": -9192.8570000012,
+      "pf": 0.34740255396088265
+    },
+    "months": {
+      "1": {
+        "trades": 33209,
+        "winners": 23617,
+        "win_rate": 0.7111626366346472,
+        "net": -6219.139500024471,
+        "gross_loss": -11721.584000006917,
+        "maxdd_trade_sequence": 6222.364000024458
+      },
+      "2": {
+        "trades": 33877,
+        "winners": 24873,
+        "win_rate": 0.734214954098651,
+        "net": -5912.03000002506,
+        "gross_loss": -15210.36400000651,
+        "maxdd_trade_sequence": 5931.078500024847
+      },
+      "3": {
+        "trades": 38223,
+        "winners": 28155,
+        "win_rate": 0.7365983831724354,
+        "net": -6755.027500028327,
+        "gross_loss": -15651.325500007215,
+        "maxdd_trade_sequence": 6776.651000028284
+      },
+      "4": {
+        "trades": 32007,
+        "winners": 22723,
+        "win_rate": 0.7099384509638517,
+        "net": -5871.661000023674,
+        "gross_loss": -11052.569500006724,
+        "maxdd_trade_sequence": 5873.271000023671
+      },
+      "5": {
+        "trades": 32598,
+        "winners": 23334,
+        "win_rate": 0.7158107859377876,
+        "net": -5607.808500024239,
+        "gross_loss": -10334.592500006753,
+        "maxdd_trade_sequence": 5608.832000024236
+      },
+      "6": {
+        "trades": 33595,
+        "winners": 23282,
+        "win_rate": 0.6930197946122935,
+        "net": -6574.954000016247,
+        "gross_loss": -11290.417000004967,
+        "maxdd_trade_sequence": 6576.607500016199
+      },
+      "7": {
+        "trades": 30785,
+        "winners": 19630,
+        "win_rate": 0.6376482052947864,
+        "net": -5999.235000003606,
+        "gross_loss": -9192.8570000012,
+        "maxdd_trade_sequence": 6005.482500003626
+      }
+    }
+  },
+  "delta_vs_020A": {
+    "april": {
+      "net_change": 101.51200000018252,
+      "gross_loss_improvement": 242.4945000001935,
+      "trades_delta": -253,
+      "winners_delta": -29,
+      "win_rate_pp": 0.46687671448808477
+    },
+    "may_jun": {
+      "net_change": 300.484000000024,
+      "gross_loss_improvement": 391.22450000008394,
+      "trades_delta": 16,
+      "winners_delta": 242,
+      "win_rate_pp": 0.34865905311775025
+    },
+    "july": {
+      "net_change": 120.98399999994763,
+      "gross_loss_improvement": 167.9419999999409,
+      "trades_delta": -5,
+      "winners_delta": 120,
+      "win_rate_pp": 0.40009172142407845
+    },
+    "may_jul": {
+      "net_change": 421.4679999999753,
+      "gross_loss_improvement": 559.1665000000285,
+      "trades_delta": 11,
+      "winners_delta": 362,
+      "win_rate_pp": 0.36557371350356416
+    },
+    "jan_jul": {
+      "net_change": -352.9859999998589,
+      "gross_loss_improvement": 98.7430000003369,
+      "trades_delta": -446,
+      "winners_delta": 399,
+      "win_rate_pp": 0.3042776499067479
+    }
+  },
+  "feature_importance": {
+    "owner_age": 0.13682207332155932,
+    "struct_conflict_count": 0.12034886149611905,
+    "owner_bos_age": 0.11924031915619689,
+    "owner_tf": 0.0968771833766013,
+    "owner_level_age": 0.08142306743486295,
+    "owner_fail_depth": 0.07929672667588233,
+    "accept_opp_count": 0.07684091049023105,
+    "owner_accept_quality": 0.07579236751584204,
+    "owner_pen_depth": 0.07360544629404678,
+    "lower_confirm": 0.05212806380943529,
+    "sweep_same_count": 0.04459519658771662,
+    "recent_pen_count": 0.04302978384150628
+  },
+  "reproducibility": {
+    "january_020A_source_equivalence": {
+      "trades": 33793,
+      "net": -6253.808000024798,
+      "exact_match": true
+    },
+    "execution_source_sha256": {
+      "source_equivalent_core": "7a37b2d4fbba73b83346fe835a21c13a37ae57d4a9065ac921143e135d4c5086",
+      "acceptance_feature_builder": "656e3a4163231bb8fca0fc38669330f472a2a0b8edd4f3b48012192f7e13e833",
+      "evaluator": "705e9ad4f852ac1cf35990d7573021fdcf5de139336630d7f28a7fa2f8af5d92",
+      "local_full_result": "877920213aed0624b60542debda8e7d12fc571d28490601f9eae40d9db817a57"
+    },
+    "production_source_commits": {
+      "source_equivalent_core": "5c8e7992d53692d329278ce9eaeb999148e44a39",
+      "acceptance_feature_builder": "39f399a587790d885f1ed4baca2c77ed250c0975",
+      "evaluator": "425c1c046e0922a2edb4c09e76a578ae3ec7ab1"
+    },
+    "august_accessed": false
+  },
+  "next_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_C_ORDINAL_TRANSITION"
+}
