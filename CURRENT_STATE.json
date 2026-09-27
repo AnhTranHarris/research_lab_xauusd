@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_017_POST_EXIT_REQUALIFICATION_BRIDGE",
+    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_018_BRIDGE_PERSISTENCE_OWNER",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2972,6 +2972,33 @@
       "screen_count": 180,
       "robust_candidates": 0,
       "conclusion": "Naive second/opposite Gamma re-entry remains negative Jan-Mar despite ~96-97% teacher best-action profitability and ~47-48% owner flips. Existing event-aligned causal features cannot identify the edge robustly. Rebuild close-anchored requalification bridge features.",
+      "august_accessed": false
+    },
+    "entry_017_requalification_bridge": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_FRONTIER",
+      "result_commit": "312c4ef154b74d33c3c040804acf69fb825f0cd0",
+      "note_commit": "e65b5555b4b2f6ef5a771853b7d015b9edc726ba",
+      "balanced_bridge_only": {
+        "min_entry_delta_pp": 1.0401,
+        "entry_delta_pp_jan_feb_mar": [
+          1.0401,
+          4.5258,
+          3.654
+        ],
+        "hold5_delta_pp_jan_feb_mar": [
+          -0.4304,
+          1.3935,
+          -0.5661
+        ],
+        "coverage_pct_jan_feb_mar": [
+          59.3173,
+          54.1116,
+          53.3964
+        ]
+      },
+      "conclusion": "Exact post-close→new-signal bridge state improves +1s executable entry accuracy in every replication while keeping +5s conditional persistence approximately neutral. Old event features add entry accuracy only with density loss and hold degradation. Retain bridge-only frontier; no promotion/integration yet.",
+      "source_sha256": "3395da77cb1b95a96e66caf42d68c16f763097df701270c94aa990603ec3565a",
+      "result_sha256": "2f44ac5cecb0f4d02b9d3a191142ad8e66de369ce17623fafb0a7b2cc95b13f7",
       "august_accessed": false
     }
   },
