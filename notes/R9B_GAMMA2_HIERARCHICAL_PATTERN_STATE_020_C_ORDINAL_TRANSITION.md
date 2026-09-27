@@ -109,6 +109,6 @@ Source SHA-256:
 - r9b020c_eval.py: `354b2a0cf7f39e6c30ac4defeb0d7c23d98e52d6f2b8c4e321c0cd614fb80546`
 - r9b020c_subscreen.py: `18fc031b9dfe5666f7681bf40419e305503c4dab512ffe0e9ec3714a974f739a`
 - r9b020c_finalize.py: `df69e59e308ec695e6018999a54aaa6da747476a66fa34555b91d287e2403002`
-- final result JSON: `d5c84be358447bc5e453bec37a7fb3f62bac8e83924d1a2d93195dfd486c6ee5`
+- final result JSON: `7fbe48cd313d78fecf35bbde54a9021e1d0cd003d5215144cbcc8cf34635e15a`
 
 Monthly 020-C cache hashes are bound inside the result JSON. August accessed: **false**.
