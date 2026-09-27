@@ -1,0 +1,29 @@
+{
+  "unit":"R9B_GAMMA2_CONFIDENCE_PROOF_HANDOFF_018",
+  "status":"VERIFIED_DURABLE_REJECTED",
+  "baseline_017":{"jan_jul":{"trades":137288,"winners":97533,"win_rate":0.7104262572,"net":-12342.1705,"gross_loss":-38839.2360,"profit_factor":0.6822241689},"may_jul":{"trades":53336,"winners":36175,"win_rate":0.6782473376,"net":-6921.7605,"gross_loss":-14064.0060}},
+  "causal_test":"Exact Dukascopy entry-at-proof replay. 017 high-confidence actions remain at signal; low-confidence/abstained candidates are delayed to actual first-touch proof tick. All entries merge chronologically in one-position ledger. No signal-time credit after observing proof.",
+  "proof_grid":["0.05/3s","0.05/5s","0.10/3s","0.10/5s","0.15/3s","0.15/5s","0.20/5s","0.25/5s","0.30/5s","0.30/10s","0.35/5s","0.35/10s"],
+  "modes":["ABSTAIN_ONLY","MARGIN_05","MARGIN_10","YOUNG_LOW_ENERGY"],
+  "april_selection":"No candidate met simultaneous requirements of less gross loss, >=98% winner retention, non-worse net and <=0.5pp success degradation.",
+  "least_bad_first_touch":{"mode":"MARGIN_05","threshold":0.35,"window_s":5,"april_delta":{"net":-679.294,"gross_loss":-574.883,"winners":-777,"win_rate_pp":-1.8448},"jan_jul":{"trades":131545,"winners":91129,"win_rate":0.6927591319,"net":-17972.6250,"gross_loss":-43472.2905},"may_jul":{"trades":47559,"winners":31632,"win_rate":0.6651107046,"net":-7641.5425,"gross_loss":-14038.5205}},
+  "winner_recovery_example":{"mode":"ABSTAIN_ONLY","threshold":0.35,"window_s":5,"jan_jul_winner_change":17056,"jan_jul_net_change":-5383.8110,"jan_jul_gross_loss_change":-9513.3720,"interpretation":"Proof can recover many winners, but it reopens too much loss and worsens economics."},
+  "pullback_reaccel_screen":{"status":"REJECTED","best_april_candidate":{"mode":"MARGIN_05","touch":0.30,"first_window_s":5,"pullback":0.15,"reaccel":0.05,"total_window_s":20,"april_net_delta":-803.5055,"april_gross_loss_delta":-780.7610,"april_winner_delta":-41},"interpretation":"Proof->micro-pullback->reacceleration also fails to preserve 017 economics."},
+  "main_diagnosis":"The July first-touch correlation is real as an ownership signal, but confirmation occurs after too much of the short-horizon excursion has already been spent. This is a confirmation-tax/latency problem, not a lack of correlation. Delayed proof is therefore unsuitable as the primary HFT entry trigger under the current spread/lifecycle geometry.",
+  "integration_lesson":"Use dynamic proof information as state/lifecycle context only if it arrives after entry; for better ownership before entry, move research toward leading raw-tick microstructure: signed tick imbalance, tick-arrival acceleration, extreme-renewal asymmetry, quote-gap/spread state, entropy/sequence structure, intrinsic-event clocks, and execution stability.",
+  "community_cross_reference":[
+    "MQL5 Microstructure Part 5: true microstructure is tick-level; bar aggregation erases spread/order-flow information.",
+    "MQL5 Microstructure Part 6: order-flow direction and confidence should be conditioned on noise and volatility.",
+    "MQL5 Microstructure Parts 7/8: separate regime label, confidence and directional response; adaptive thresholds can suppress stressed/noisy signals.",
+    "MQL5 Dynamic Multi-Pair Part 9: spread expansion, tick velocity, quote gaps, micro-volatility and execution stability should be separate execution-quality states.",
+    "MQL5 ORB/adaptive channel work: pending/confirmed/expired breakout states and retest confirmation are reconstructible, but our exact-tick replay shows confirmation lag is too expensive for this HFT path.",
+    "Directional-change intrinsic-time literature supports event-based clocks and overshoot state; candidate for earlier ownership features rather than delayed entry.",
+    "Hobbyist breakout discussions repeatedly warn that thin breakout edges can be consumed by fees/slippage and excessive confirmation."
+  ],
+  "forward_integrity":"May-Jun remain numerically untouched by proof-family selection. July informed mechanism-family design through 017A and is therefore a stress-validation month, not a pristine mechanism-selection holdout for 018. August remains sealed.",
+  "source_sha256":"d806a2adcb345ff212e88f3b11f54495349faf08a05bac615a0f9a0ebb36b4f9",
+  "full_result_sha256":"6940bb24059524f77a98a385e5ea4edcdd81d134f57225d763a39883d1a93716",
+  "pullback_screen_sha256":"9cdd6b74d3321671642a558c47fb0e4fa39bfa07d594bd5a1436755464c89cb1",
+  "pullback_source_sha256":"a5a5319e0272098a08d62ff44ea574fdb4f328d0d9a85b5d1a88b7d9b10d0ceb",
+  "august_sealed":true
+}
