@@ -28,6 +28,14 @@
     }
   ],
   "local_pending_durable": [],
-  "next": "R9B_GAMMA_DYNAMIC_ENTRY_012_MULTI_SEVERITY_TAIL_GATE",
-  "sealed_period_preserved": true
+  "next": "R9B_GAMMA_DYNAMIC_ENTRY_012_D3_L600",
+  "sealed_period_preserved": true,
+  "checkpoints": {
+    "entry012": {
+      "D3_L300": {
+        "state": "VERIFIED_DURABLE_CHECKPOINT",
+        "sha256": "6c46e95b5a72a2f1b06dc7c39e55c1bf284a00184f84f67ebfcaff32d159351c"
+      }
+    }
+  }
 }
