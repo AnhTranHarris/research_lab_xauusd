@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_007_FAILED_IGNITION_QUARANTINE_JULY_FROZEN_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_008_TARGETED_REGIME_OWNER_OVERRIDE_DISCOVERY",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2206,6 +2206,55 @@
         },
         "early_exit_signals": 651,
         "result_sha256": "9d6d6bd45ada1b87398b0a327d03b01852eeb20d7b88ae18e31f13c3fe791025",
+        "august_accessed": false
+      },
+      "gl007_july_forward": {
+        "status": "VERIFIED_DURABLE_FROZEN_FORWARD",
+        "candidate": {
+          "trades": 20072,
+          "winners": 13182,
+          "net": -4075.9335000021765,
+          "gross_loss": -7380.342500000734,
+          "max_drawdown": 4079.113500002178
+        },
+        "delta_vs_gl004": {
+          "gl_reduction_pct": 0.6585507482026748,
+          "winner_retention_pct": 98.93425397778445,
+          "trade_retention_pct": 99.93527508090615,
+          "net_improvement": -0.47099999999136344,
+          "dd_reduction_pct": -0.011547959890848754
+        },
+        "result_sha256": "e426be1da8e4c906e6a2d9f3fbf4ddac3424fc3cceaa5b82483706763d1b9ab9",
+        "august_accessed": false
+      },
+      "gl007_forward_summary": {
+        "status": "VERIFIED_DURABLE_REJECTED_AS_CORE",
+        "note_commit": "b91105dee76c2ed47892fef7e4166e9170e07383",
+        "gl004": {
+          "trades": 64973,
+          "winners": 44412,
+          "net": -11942.40000002904,
+          "gross_loss": -24735.050000009
+        },
+        "candidate": {
+          "trades": 64874,
+          "winners": 43849,
+          "net": -11934.116500028975,
+          "gross_loss": -24535.784000009196
+        },
+        "incremental_vs_gl004": {
+          "gl_reduction_pct": 0.8056017675312185,
+          "winner_retention_pct": 98.73232459695578,
+          "trade_retention_pct": 99.84762901512936,
+          "net_improvement": 8.283500000065033
+        },
+        "vs_gamma014": {
+          "gl_reduction_pct": 18.637269711203537,
+          "winner_retention_pct": 82.75894609693492,
+          "trade_retention_pct": 82.07535234432328,
+          "net_improvement": 3179.376000006001
+        },
+        "decision": "REJECT_AS_CORE; preserve quarantine architecture lesson",
         "august_accessed": false
       }
     },
