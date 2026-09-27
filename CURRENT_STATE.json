@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_C_ORDINAL_TRANSITION",
+    "current_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_D_BOCPD_CUSUM_DURABILITY",
     "current_unit_state": "READY",
     "source_equivalence_note": "019 shows leading event-time and raw-tick features help modestly but do not solve July, while naive MTF structure adds essentially nothing. 020 must test richer hierarchical structure/pattern equations rather than equal-weight timeframe voting or generic feature stacking.",
     "durable_commits": {
@@ -512,7 +512,7 @@
       "headline": "Gamma_2 +$29,583.12 Jan-Jul fixed 0.01 lot; 29.58% on $100k normalization; tested cost-sensitivity band 19.69%-29.58% on $100k normalization. Not a live-return forecast."
     },
     "hierarchical_pattern_state_020": {
-      "status": "IN_PROGRESS_STAGE_A_REJECTED_STAGE_B_REJECTED_STAGE_C_READY",
+      "status": "IN_PROGRESS_STAGE_A_REJECTED_STAGE_B_REJECTED_STAGE_C_REJECTED_STAGE_D_READY",
       "plan_commit": "fd8acfd62966648e0dca2ea73f5dcd2ba3b1af0f",
       "plan_path": "notes/R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_PLAN.md",
       "objective": "Test hierarchical multi-timeframe structural ownership, state duration/change-point probability, ordinal-pattern transitions, liquidity acceptance/sweep state, and leading tick pressure to improve May-Jun and July without density collapse.",
@@ -613,13 +613,69 @@
         }
       },
       "stage_c_ordinal_transition": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+        "result_commit": "e75f2bccafb352c6c1fc20fe8213258e0bcbd05f",
+        "note_commit": "b89e9f47a690b27ff7f46d00fd3eac8707ac3382",
+        "selected_variant": "TICK_D3_W90_COMPLEX",
+        "selected_threshold": 0.45,
+        "jan_jul": {
+          "trades": 234294,
+          "winners": 165624,
+          "win_rate": 0.7069067069579247,
+          "net": -42903.97150014568,
+          "gross_loss": -84501.08450004029,
+          "max_drawdown_trade_sequence": 42905.82400014618
+        },
+        "may_jun": {
+          "trades": 66193,
+          "winners": 46641,
+          "win_rate": 0.7046213345822065,
+          "net": -12228.715000040542,
+          "gross_loss": -21689.289000011726,
+          "max_drawdown_trade_sequence": 12230.555000040527
+        },
+        "july": {
+          "trades": 30785,
+          "winners": 19614,
+          "win_rate": 0.6371284716582751,
+          "net": -5945.219500003594,
+          "gross_loss": -9175.994500001198,
+          "max_drawdown_trade_sequence": 5951.467000003614
+        },
+        "delta_vs_020b": {
+          "jan_jul_net": 35.883999999947264,
+          "jan_jul_gross_loss_improvement": -47.375,
+          "jan_jul_winners": 10,
+          "may_jun_net": -45.95250000005399,
+          "may_jun_gross_loss_improvement": -64.27950000000419,
+          "may_jun_winners": 25,
+          "july_net": 54.01550000001225,
+          "july_gross_loss_improvement": 16.86250000000291,
+          "july_winners": -16
+        },
+        "finding": "Ordinal transition entropy/irreversibility contains weak context signal and modestly helps July, but the April-selected subset worsens strict May-Jun and full Jan-Jul gross loss. Reject standalone authority; preserve descriptors only.",
+        "source_commits": {
+          "ordinal_builder": "4b5b01abb0ffa14526fde816894f1efdf20d032b",
+          "evaluator": "373e099884ec81823a01f99ff6aa6ec8e703a457",
+          "subset_screen": "b53eaba3440dd902ba30c7bd08053c09c86639c0",
+          "finalizer": "bab54b5b5f6ebe46d41bfc8a486ff43324b883c7"
+        },
+        "source_sha256": {
+          "ordinal_builder": "7e40f3d33a875d930092b47663eab1737d495b0b79a1838d2bbace4ecfd6267c",
+          "evaluator": "354b2a0cf7f39e6c30ac4defeb0d7c23d98e52d6f2b8c4e321c0cd614fb80546",
+          "subset_screen": "18fc031b9dfe5666f7681bf40419e305503c4dab512ffe0e9ec3714a974f739a",
+          "finalizer": "df69e59e308ec695e6018999a54aaa6da747476a66fa34555b91d287e2403002",
+          "result_json": "d5c84be358447bc5e453bec37a7fb3f62bac8e83924d1a2d93195dfd486c6ee5"
+        },
+        "august_sealed": true
+      },
+      "stage_d_bocpd_cusum_durability": {
         "status": "READY",
         "scope": [
-          "ordinal permutation state",
-          "transition persistence/concentration",
-          "transition entropy",
-          "forbidden-pattern fraction",
-          "time-irreversibility diagnostic"
+          "empirical semi-Markov structural-state duration hazard",
+          "bounded causal BOCPD run length / change probability / run-length entropy",
+          "structural-owner and regime-conditioned CUSUM",
+          "durability/instability descriptors only; no future direction labels in execution"
         ],
         "validation": "Jan-Mar discovery; April calibration; May-Jun strict forward; July stress-validation; August sealed",
         "scoring_order": [
