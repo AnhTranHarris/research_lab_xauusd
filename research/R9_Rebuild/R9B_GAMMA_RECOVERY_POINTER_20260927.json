@@ -5,14 +5,14 @@
       "unit": "R9B_GAMMA_DYNAMIC_HOLD_003",
       "state": "REJECTED",
       "sha256": "6ff6da25ed23be53d53f28b33a8cf28d91466437f041a50a878cbe0e9391feec"
-    }
-  ],
-  "local_pending_durable": [
+    },
     {
       "unit": "R9B_GAMMA_DYNAMIC_ENTRY_008",
-      "sha256": "d1b8487dd77a95196baf13c56a90c0c430b82d78af6ecf52a9d1c3d030f344b6"
+      "state": "REJECTED",
+      "sha256": "7d4136dc676861b282afcdc8362e0c4741f557068d04f1234dd6c9cc2cb092ff"
     }
   ],
-  "next": "R9B_GAMMA_DYNAMIC_ENTRY_008",
+  "local_pending_durable": [],
+  "next": "R9B_GAMMA_DYNAMIC_ENTRY_009_SEQUENCE_STATE_OWNER",
   "sealed_period_preserved": true
 }
