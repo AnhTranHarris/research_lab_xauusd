@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_001_202607_FROZEN_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_002_STATE_CONDITIONED_LIFECYCLE_DISCOVERY",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1674,8 +1674,39 @@
         "result_sha256": "d61da876866dc733a17e8a573449d32417b4ee99ea229847c62fc7e41b1c1ff5",
         "model_sha256": "d7bd9421d5bc8e7ed67b96776e3f3a7e8b4bcbc43e1443f187781d9d2d8371ff",
         "august_accessed": false
+      },
+      "gl001_forward": {
+        "status": "VERIFIED_DURABLE_FROZEN_FORWARD",
+        "note_commit": "f63687841776c496532c6735f2561779ea3b6af8",
+        "parent": {
+          "trades": 79042,
+          "winners": 52984,
+          "net": -15113.492500034976,
+          "gross_loss": -30156.048000011302,
+          "profit_factor": 0.4988238346075948,
+          "max_drawdown": 15114.277500035027
+        },
+        "candidate": {
+          "trades": 66882,
+          "winners": 45754,
+          "net": -12328.41050002992,
+          "gross_loss": -25516.95850000925,
+          "profit_factor": 0.516854232449943,
+          "max_drawdown": 12330.70400002991
+        },
+        "delta": {
+          "gl_reduction_pct": 15.383612269088825,
+          "winner_retention_pct": 86.35437113090745,
+          "trade_retention_pct": 84.61577389236102,
+          "net_improvement": 2785.0820000050553,
+          "dd_reduction_pct": 18.416847910848976
+        },
+        "decision": "WORKING_RESEARCH_PARENT_NOT_FORMAL_BREAKTHROUGH",
+        "result_sha256": "548b574e25122f7840462eec18cc5da10d3626a020cb129cf18d66440a4dba6b",
+        "august_accessed": false
       }
-    }
+    },
+    "working_parent": "GL001_FROZEN_JAN_OWNERSHIP"
   },
   "gamma2_benchmark_recovery": {
     "status": "CAUSAL_RECERT_014_COMPLETE_RESEARCH_READY",
@@ -1744,9 +1775,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA_DYNAMIC_GL_001_202607_FROZEN_FORWARD",
+      "id": "R9B_GAMMA_DYNAMIC_GL_002_STATE_CONDITIONED_LIFECYCLE_DISCOVERY",
       "state": "READY",
-      "scope": "Apply same frozen January ownership model unchanged to July stress month. No forward tuning. August sealed."
+      "scope": "Keep frozen GL001 ownership. On Jan-Mar discovery + April calibration, attribute residual GL by action/confidence/action-alignment/ATR state and test state-conditioned lifecycle geometry to reduce loser severity without further broad trade deletion. May-Jul not used for selection; August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
