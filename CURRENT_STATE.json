@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_001_APR_FROZEN_JAN_REPLICATION",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_001_MAY_JUL_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1562,6 +1562,34 @@
         "interpretation": "Pooled Jan-Mar retraining nearly erases the ownership GL edge; distinguish refit instability from April regime shift using frozen January model before May-Jul.",
         "result_sha256": "57680d46563bf93cf2267564c3175729b6294448fee14df7649ca8f5c0df64e7",
         "august_accessed": false
+      },
+      "april_frozen_jan": {
+        "status": "VERIFIED_DURABLE_CALIBRATION",
+        "note_commit": "4bb819a18e94e9f88d1ac47897254ed5c64f96dc",
+        "parent": {
+          "trades": 26684,
+          "winners": 18068,
+          "net": -4735.9455000199305,
+          "gross_loss": -10883.775000006312,
+          "max_drawdown": 4744.660500019903
+        },
+        "frozen_model": {
+          "trades": 23462,
+          "winners": 16133,
+          "net": -4121.262000017414,
+          "gross_loss": -9593.229500005264,
+          "max_drawdown": 4131.788500017393
+        },
+        "delta": {
+          "gl_reduction_pct": 11.85751726767872,
+          "winner_retention_pct": 89.29045826876245,
+          "trade_retention_pct": 87.92534852345976,
+          "net_improvement": 614.6835000025167,
+          "dd_reduction_pct": 12.917088588318165
+        },
+        "model_sha256": "d7bd9421d5bc8e7ed67b96776e3f3a7e8b4bcbc43e1443f187781d9d2d8371ff",
+        "decision": "FREEZE_ORIGINAL_JANUARY_MODEL_FOR_FORWARD; DO_NOT_POOLED_REFIT",
+        "august_accessed": false
       }
     }
   },
@@ -1632,9 +1660,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA_DYNAMIC_GL_001_APR_FROZEN_JAN_REPLICATION",
+      "id": "R9B_GAMMA_DYNAMIC_GL_001_MAY_JUL_FROZEN_FORWARD",
       "state": "READY",
-      "scope": "Apply the original January-trained ownership router unchanged to April exact Gamma014 cache. Compare against pooled Jan-Mar retrain. Do not open May-Jul until resolved. August sealed."
+      "scope": "Apply frozen January ownership model unchanged to May, June and July Gamma014 caches. No tuning or selection on forward. Score GL/winners/net/DD. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
