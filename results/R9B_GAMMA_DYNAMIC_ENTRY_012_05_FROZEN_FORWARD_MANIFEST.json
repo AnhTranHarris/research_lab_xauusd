@@ -1,0 +1,6 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_012_05_FROZEN_FORWARD",
+  "status": "VERIFIED_DURABLE",
+  "august_accessed": false,
+  "note": "Full raw month cache/features/sequence and exact local manifest are durably stored in Google Drive polling-safe recovery folder."
+}

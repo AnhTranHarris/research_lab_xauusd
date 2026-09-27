@@ -1,0 +1,27 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_012_05_FROZEN_FORWARD",
+  "status": "VERIFIED_DURABLE_FROZEN_FORWARD",
+  "month": 5,
+  "frozen_params": {
+    "depth": 3,
+    "leaf": 600,
+    "severity_min": 0.6,
+    "opp_max": 0.45,
+    "base_conf_max": null
+  },
+  "delta_vs_gl001": {
+    "net_improvement": 348.58550000163086,
+    "gl_reduction_pct": 10.915618910779077,
+    "winner_retention_pct": 89.31785574540237,
+    "trade_retention_pct": 90.0608151039303,
+    "dd_reduction_pct": 9.665874611741804
+  },
+  "candidate": {
+    "trades": 19844,
+    "winners": 13696,
+    "net": -3257.6295000147193,
+    "gross_loss": -7448.880500004566,
+    "max_drawdown": 3258.608000014713
+  },
+  "august_accessed": false
+}

@@ -1,0 +1,1 @@
+See Drive polling-safe recovery folder for exact executable source SHA and file. This GitHub source capsule records the frozen contract: train only January first-14 days; D3/L600 multi-severity tail model; severity>=0.60; opportunity<=0.45; no confidence cap; no retuning in Apr-May-Jul; chronological non-overlap; August sealed.
