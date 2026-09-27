@@ -1,0 +1,44 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_HOLD_007_TOXIC_RISK_GEOMETRY",
+  "state": "STARTED",
+  "parent": "GL001 / Gamma014",
+  "hypothesis": "Keep the events that ENTRY006 would otherwise veto. For pre-entry toxic/low-opportunity events only, condition the initial catastrophic stop distance while preserving the GL001 owner, activation, trail, and 60s max hold. Earlier closes may causally admit later events through the same chronological non-overlap rule.",
+  "discovery": "January first 14 days",
+  "replication": [
+    "January heldout",
+    "February",
+    "March"
+  ],
+  "stop_caps": [
+    0.25,
+    0.35,
+    0.5,
+    0.75,
+    1,
+    1.5
+  ],
+  "risk_thresholds": [
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65
+  ],
+  "opportunity_max": [
+    0.3,
+    0.35,
+    0.4,
+    0.45
+  ],
+  "base_conf_max": [
+    null,
+    0.55,
+    0.6
+  ],
+  "score_order": [
+    "gross_loss_reduction",
+    "winner_retention",
+    "net_improvement"
+  ],
+  "august_accessed": false
+}
