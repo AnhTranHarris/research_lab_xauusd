@@ -1,0 +1,124 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_HOLD_PASS_001",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_NO_PROMOTION",
+  "date": "2026-09-27",
+  "parent": {
+    "causal_parent": "Gamma014",
+    "campaign_start": "R9B_GAMMA_DYNAMIC_GL_001_017_012_REBASE",
+    "working_loss_control_shadow": "GL009"
+  },
+  "scope": "User-directed ENTRY/ACTION and HOLD/PERSISTENCE revisit. Jan-Mar only; April and May-Jul not used for selection; August not accessed.",
+  "entry_001_acceptance_veto": {
+    "decision": "RETAIN_DIAGNOSTIC_COMPONENT_NOT_PROMOTION",
+    "mechanism": "Pre-entry boundary acceptance/reclaim memory + base state severe-loss veto; no delay, no flip, no lifecycle change.",
+    "selected": {
+      "loss_cut": -0.75,
+      "depth": 4,
+      "min_leaf": 400,
+      "risk_threshold": 0.6
+    },
+    "replication": {
+      "jan_heldout": {
+        "gl_reduction_pct": 5.2335,
+        "net_improvement": 182.6365,
+        "winner_retention_pct": 94.776,
+        "trade_retention_pct": 94.321,
+        "dd_reduction_pct": 8.236
+      },
+      "feb": {
+        "gl_reduction_pct": 4.3602,
+        "net_improvement": 184.125,
+        "winner_retention_pct": 94.954,
+        "trade_retention_pct": 94.648,
+        "dd_reduction_pct": 4.89
+      },
+      "mar": {
+        "gl_reduction_pct": 4.7545,
+        "net_improvement": 282.774,
+        "winner_retention_pct": 94.645,
+        "trade_retention_pct": 94.31,
+        "dd_reduction_pct": 4.898
+      }
+    },
+    "result_sha256": "c1ca0f2aab9fa47b430223c445f58054e744a22d58b3a01e6b76f63e846c1d8c"
+  },
+  "entry_002_lowconf_reowner": {
+    "decision": "REJECT",
+    "reason": "Recovered winners but worsened GL and net across Jan-Mar."
+  },
+  "entry_003_opportunity_action": {
+    "decision": "RETAIN_CAPACITY_MAP_NOT_PROMOTION",
+    "mechanism": "Two-stage opportunity-quality then FADE/CONTINUE action router at original event tick.",
+    "knee": {
+      "qopp": 0.5,
+      "qact": 0.5,
+      "min_gl_reduction_pct": 20.6342,
+      "min_winner_retention_pct": 66.2344,
+      "net_improved_each_month": true
+    },
+    "conclusion": "Opportunity quality has large loss-avoidance capacity, but global authority deletes too many winners.",
+    "result_sha256": "c99131cd59ddd0c7d2203dcde8c07fffa788ecb7b1209b5d8ca1067627a04e61"
+  },
+  "hold_001_remaining_value": {
+    "decision": "REJECT",
+    "checkpoints_ms": [
+      500,
+      1000,
+      2000,
+      3000,
+      5000
+    ],
+    "conclusion": "Observed-only early-close policy reduced GL ~3-5% but worsened net and often DD/winner retention.",
+    "result_sha256": "83fd4c7e294ec645c351c1e142a24a9437d33f18faa6d3da4681736deeb8e4ed"
+  },
+  "entry_hold_004_override_wide": {
+    "decision": "REJECT",
+    "result_sha256": "60176c9888ac003587fcae66cf6d7a6b331f5fad2224ac1e9fe64615fdd0c5dc"
+  },
+  "entry_hold_005_abstain_recovery": {
+    "decision": "REJECT",
+    "result_sha256": "a05c3a9704831b9a17345fcf1a0bcf1f10370c17feb300700bac9143f345d77f"
+  },
+  "causal_feature_contract": {
+    "entry_boundary_memory": [
+      "reclaim_distance",
+      "max_penetration",
+      "max_inside_depth",
+      "outside_tick_fraction",
+      "boundary_crossings",
+      "reclaim_count",
+      "max_outside_run_seconds",
+      "age_since_last_outside",
+      "age_since_first_outside",
+      "age_since_deepest_penetration",
+      "path_efficiency",
+      "path_travel",
+      "favorable_extreme_renewals",
+      "adverse_extreme_renewals",
+      "age_since_favorable_extreme",
+      "age_since_adverse_extreme"
+    ],
+    "hold_features": [
+      "current_executable_pnl",
+      "mfe_so_far",
+      "mae_so_far",
+      "giveback",
+      "recovery",
+      "path_efficiency",
+      "turns",
+      "favorable_extreme_renewals",
+      "adverse_extreme_renewals",
+      "ages_since_extremes",
+      "tick_count",
+      "travel"
+    ],
+    "future_information_in_execution": false
+  },
+  "next_unit": {
+    "id": "R9B_GAMMA_DYNAMIC_ENTRY_HOLD_006_OPPORTUNITY_SEVERITY_KNEE",
+    "state": "READY",
+    "objective": "Use opportunity score only inside already-toxic acceptance/durability states; parallel hold branch uses favorable-extreme renewal spacing after ignition for HARVEST/MEDIUM/RUNNER ownership."
+  },
+  "promotion": "NO_FORMAL_BREAKTHROUGH",
+  "august_accessed": false
+}
