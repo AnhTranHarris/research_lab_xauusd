@@ -2761,6 +2761,13 @@
       "purpose": "Polling-timeout/max-chat recovery handoff. Supersedes prior handoff resume pointer.",
       "resume_unit": "R9B_GAMMA_DYNAMIC_NET_002_H1_H4_FRESH_CAUSAL_RECONSTRUCTION",
       "august_sealed": true
+    },
+    "max_chat_handoff": {
+      "document_id": "1OeOLCe2Z6Xc-USt9X_ULfrgY20UrbXrViuiC0Sj-P4M",
+      "title": "R9B Gamma — MAX-CHAT HANDOFF — Dynamic Gross-Loss Reduction Campaign",
+      "url": "https://docs.google.com/document/d/1OeOLCe2Z6Xc-USt9X_ULfrgY20UrbXrViuiC0Sj-P4M/edit",
+      "resume_unit": "R9B_GAMMA_DYNAMIC_GL_001_017_012_REBASE",
+      "status": "VERIFIED_DURABLE_HANDOFF"
     }
   },
   "gamma2_benchmark_recovery": {
