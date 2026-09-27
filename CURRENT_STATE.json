@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JULY_CACHE_AND_CROSSWALK",
+    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC2_MULTI_ACTION_OWNERSHIP_ORACLE",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -737,7 +737,7 @@
       "august_accessed": false
     },
     "roadmap_doc_id": "1ekHCndF8sQVjZFhmbEMspbdzv_KOe2sYzzQF3GvACXE",
-    "roadmap_topic": "FORMAL TOPIC 1 — GAMMA↔R9 EVENT POPULATION CROSSWALK",
+    "roadmap_topic": "FORMAL TOPIC 2 — MULTI-ACTION OWNERSHIP ORACLE ON GAMMA EVENTS",
     "topic1_progress": {
       "jan02": {
         "status": "VERIFIED_DURABLE_DIAGNOSTIC",
@@ -1351,6 +1351,28 @@
       "summary_sha256": "0f50b586c77d40fcdeb6e578cbfafe26e286a57d37988636efe1bf69fb63f930",
       "note_commit": "7edbece9d8011c8e83803327e7cd9c0741c4ed66",
       "august_accessed": false
+    },
+    "topic1_closure": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_COMPLETE",
+      "result_commit": "261060f6b49bf44fa4c443391ff3beec9818f206",
+      "note_commit": "ab1e8e392b9259c5607e86c227c500d03400ecf6",
+      "closure_sha256": "219b454511a06d1d6fff76d21550b684f284de87bed9cbed52abd143179f3efd",
+      "recall_sheet_id": "1Lkz5HaxBGMpi0b2MDe2UF1mL3_KvGHqSNysoPqTEeOc",
+      "jan_jul_paired": {
+        "gamma_exec": 196185,
+        "r9_synth": 219320,
+        "r9_real": 236647,
+        "density_vs_synth": 0.8945148641254788,
+        "gamma_synth_5s_coverage": 0.2300736549685246,
+        "gamma_synth_5s_same_side": 0.3783149079469172,
+        "gamma_real_5s_coverage": 0.1800800265055942,
+        "gamma_real_5s_same_side": 0.37974468566899716,
+        "real_synth_5s_same_side": 0.7560107432935314,
+        "nonoverlap_suppression": 0.19238511602632977
+      },
+      "daily_detail_triggered_months": [],
+      "conclusion": "Event population/timing and action ownership are distinct bridge axes; Topic 1 complete.",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
@@ -1420,9 +1442,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JULY_CACHE_AND_CROSSWALK",
+      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC2_MULTI_ACTION_OWNERSHIP_ORACLE",
       "state": "READY",
-      "scope": "July frozen-forward stress Topic 1: staged exact Gamma014 cache, compact daily crosswalk, January 25% detail trigger, monthly checkpoint only. August sealed."
+      "scope": "Use causal Gamma event population and R9 overfit/SYNTH only as teacher labels. Quantify FADE/CONTINUE/LONG/SHORT/ABSTAIN capacity, then search causal entry-time ownership state under Jan-Mar discovery / April calibration / May-Jul frozen forward. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
