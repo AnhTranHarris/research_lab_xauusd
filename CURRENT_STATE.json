@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_EXTREME_VETO_FEB_REPLICATION",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_202603_VETO_REPLICATION",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1868,6 +1868,18 @@
         "contract": "Base GL001 action is preserved unless EXTREME depth4/leaf300 teacher model at confidence >=0.55 predicts ABSTAIN or disagrees; veto cannot create or flip trades.",
         "result_sha256": "280e6fab0267a153cccd7c0438386df84b9df2ef718a69db69783ca8d5db12fb",
         "august_accessed": false
+      },
+      "gl004_veto_feb": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+        "delta": {
+          "gl_reduction_vs_gl001_pct": 4.92615459718855,
+          "winner_retention_vs_gl001_pct": 95.22568952823242,
+          "trade_retention_vs_gl001_pct": 95.32836050446016,
+          "net_improvement_vs_gl001": 174.50700000088182,
+          "dd_reduction_vs_gl001_pct": 4.851673642177288
+        },
+        "result_sha256": "030e0f6d24bd91058fc1eca67225f0f8cf2ad00c80d02a12e0da6990f5965329",
+        "august_accessed": false
       }
     },
     "working_parent": "GL001_FROZEN_JAN_OWNERSHIP"
@@ -1939,9 +1951,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA_DYNAMIC_GL_004_EXTREME_VETO_FEB_REPLICATION",
+      "id": "R9B_GAMMA_DYNAMIC_GL_004_202603_VETO_REPLICATION",
       "state": "READY",
-      "scope": "Apply frozen January EXTREME veto unchanged to February GL001 ownership. No fitting. If survives, continue March then April. August sealed."
+      "scope": "Apply same frozen GL004 extreme veto unchanged to March GL001 ownership. No fitting. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
