@@ -45,7 +45,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA2_CAUSAL_RECERT_BASELINE_014",
-    "current_unit_state": "IN_PROGRESS_JAN_VERIFIED_M02_NEXT",
+    "current_unit_state": "IN_PROGRESS_JAN_MAR_VERIFIED_M04_NEXT",
     "source_equivalence_note": "Top-priority Gamma_2 recovery. All three missing runtime helper roles now have durable reconstructed causal source bodies. Production checkpoint 992245bb016311f8c2cd1f78ada7d40f1d24bab1 preserves completed Stage-7 through Stage-12 archaeology. Certified 81.188% Jan-Jul curve remains historical benchmark; exact causal source equivalence remains unresolved. Near-target ~82% compatibility variants consistently require future-completed-second/retrospective timestamp ownership and are forensic only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -831,8 +831,30 @@
         "max_drawdown": 4554.885500020489,
         "raw_signals": 34362
       },
-      "next_month": "2026-02",
-      "august_sealed": true
+      "next_month": "2026-04",
+      "august_sealed": true,
+      "march": {
+        "status": "VERIFIED_DURABLE",
+        "commit": "5633e1a3b975f4311b2b9654381ceaed5126c3ef",
+        "trades": 35573,
+        "winners": 24169,
+        "win_rate": 0.6794197846681472,
+        "net": -6589.631500026144,
+        "gross_profit": 9916.168999982045,
+        "gross_loss": -16505.80050000819,
+        "profit_factor": 0.6007687418721148,
+        "max_drawdown": 6594.313500026137,
+        "raw_signals": 41595
+      },
+      "february": {
+        "status": "VERIFIED_DURABLE",
+        "commit": "f0236071e4652992450a4f944d5fb0cd24890435",
+        "trades": 28188,
+        "winners": 18834,
+        "win_rate": 0.668156662409536,
+        "net": -4450.956500020821,
+        "gross_loss": -13668.407500006782
+      }
     }
   },
   "current_gamma_build_contract": {
