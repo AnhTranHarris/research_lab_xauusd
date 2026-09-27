@@ -487,6 +487,13 @@
         "R9 SYNTH benchmark gap",
         "research frontier status"
       ]
+    },
+    "roi_report": {
+      "status": "CREATED_CURRENT_BUILD_SNAPSHOT",
+      "google_doc_id": "1Pv4ydRjg1Iek7e_JIuwlFSH5FdJMxMOe_9ci5-wneDA",
+      "google_doc_url": "https://docs.google.com/document/d/1Pv4ydRjg1Iek7e_JIuwlFSH5FdJMxMOe_9ci5-wneDA/edit",
+      "basis": "Current formal Gamma_2 only; excludes 017 shadow and rejected 018.",
+      "headline": "Gamma_2 +$29,583.12 Jan-Jul fixed 0.01 lot; 29.58% on $100k normalization; tested cost-sensitivity band 19.69%-29.58% on $100k normalization. Not a live-return forecast."
     }
   }
 }
