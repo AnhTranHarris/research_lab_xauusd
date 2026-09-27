@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_002_MAY_FROZEN_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_PATH_ARCHETYPE_DISCOVERY",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1813,6 +1813,12 @@
         "discovery_result_sha256": "4ef3434979ca4475b53df4812862ba1d2140e68e9a03638b74caa5901e2b2f96",
         "april_result_sha256": "4a6c4afc82daf12f7c0ae9ffaf4cbed9f0a1d552a1042d20446e393cdf48484b",
         "august_accessed": false
+      },
+      "gl003": {
+        "status": "VERIFIED_DURABLE_REJECTED",
+        "result_sha256": "b64b0666204fc2c6cc014eefb6e1e45b3628f525b8bde284a5c65f16876fc413",
+        "conclusion": "Structural-owner age, exact alignment-state age and 30s owner-transition count add essentially zero incremental GL value to the January ownership model. Reject this durability representation; do not broaden 020 complexity blindly.",
+        "august_accessed": false
       }
     },
     "working_parent": "GL001_FROZEN_JAN_OWNERSHIP"
@@ -1884,9 +1890,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA_DYNAMIC_GL_003_STATE_DURABILITY_DISCOVERY",
+      "id": "R9B_GAMMA_DYNAMIC_GL_004_PATH_ARCHETYPE_DISCOVERY",
       "state": "READY",
-      "scope": "On Jan discovery only, augment frozen ownership with causal structural-owner age, exact alignment-state age, and recent owner-transition count. Test incremental GL value without broad feature stacking. Then freeze any survivor into Feb/Mar and April. August sealed."
+      "scope": "On January discovery only, add explicit pre-event tick-sequence archetype features (directional run, reversal density, recross, pullback/recovery, extreme renewal, half-window acceleration) to frozen ownership. Screen feature families separately before combinations. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
