@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JAN26_30_CROSSWALK",
+    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_FEBRUARY_CACHE_AND_CROSSWALK",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1039,6 +1039,50 @@
       "aggregate_sha256": "caec3c867fe5d3eeacc55710b58ffab69d6a95ff416101f863e03ee43ef1036e",
       "note_commit": "21bc2317b2846717b9a510356ee4d04c214be73c",
       "august_accessed": false
+    },
+    "topic1_january_full": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+      "days": 21,
+      "paired_population": {
+        "gamma_raw": 34360,
+        "gamma_executable": 28086,
+        "r9_real": 31915,
+        "r9_synth": 27977,
+        "nonoverlap_suppressed": 6274
+      },
+      "gamma_density_vs_synth": 1.0038960574757836,
+      "gamma_density_vs_real": 0.8800250665831114,
+      "pooled_5s": {
+        "gamma_exec_synth": {
+          "matches": 5802,
+          "gamma_coverage": 0.206579790643025,
+          "synth_coverage": 0.2073846373807056,
+          "same_side": 2145,
+          "opposite_side": 3657,
+          "same_side_rate": 0.36970010341261633,
+          "gamma_unmatched": 22284,
+          "synth_unmatched": 22175
+        },
+        "gamma_exec_real": {
+          "matches": 4716,
+          "gamma_coverage": 0.16791283913693655,
+          "real_coverage": 0.14776750744164185,
+          "same_side_rate": 0.39715860899067007
+        },
+        "r9_real_synth": {
+          "matches": 7734,
+          "real_coverage": 0.24233119222935923,
+          "synth_coverage": 0.2764413625478071,
+          "same_side_rate": 0.7763123868632015
+        }
+      },
+      "nonoverlap_suppression_pct": 0.18259604190919673,
+      "clock_offset_ms": -7200000,
+      "full_crosswalk_sha256": "4b8399b66f102ee4c53f62ccf2bbbd2503527020e9ea66053f79bffd3adb266c",
+      "summary_sha256": "361013a635c63b91a9b0f09565125e36dd1dce7c78391d59f84eab152133f039",
+      "note_commit": "b2cb950d1634ecb1238f3f86ff076dc0738b9675",
+      "conclusion": "January verifies that Gamma has near-SYNTH count but mostly different event timing and side; non-overlap is insufficient. Continue Feb/Mar discovery before Topic 2.",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
@@ -1108,9 +1152,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JAN26_30_CROSSWALK",
+      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_FEBRUARY_CACHE_AND_CROSSWALK",
       "state": "READY",
-      "scope": "Complete Jan-26..30 Topic-1 crosswalk from verified cache, then full-January aggregate and Topic-1 decision. No strategy changes. August sealed."
+      "scope": "Build exact causal Gamma014 February Topic-1 cache, verify against durable February baseline, then run R9 REAL/SYNTH daily crosswalk. Preserve discovery-only use of SYNTH teacher. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
