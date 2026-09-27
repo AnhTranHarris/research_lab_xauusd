@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_001_FEB_FROZEN_REPLICATION",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_001_APR_CALIBRATION",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1478,6 +1478,57 @@
         ],
         "cache_sha256": "d29a7eb54b1abb5d7811da8cc1cf47ac11c9f65058d58e9bdef78785b5c61af4",
         "august_accessed": false
+      },
+      "feb_mar_replication": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+        "note_commit": "a86f19ccf3c0ba9298efbb44426b2dffff36a101",
+        "february": {
+          "parent": {
+            "trades": 28188,
+            "winners": 18834,
+            "net": -4450.956500020821,
+            "gross_loss": -13668.407500006782,
+            "max_drawdown": 4472.950500020631
+          },
+          "ownership": {
+            "trades": 26008,
+            "winners": 17657,
+            "net": -3636.7040000191637,
+            "gross_loss": -12255.908500006046,
+            "max_drawdown": 3640.1150000191365,
+            "gl_reduction_pct": 10.334042206453354,
+            "winner_retention_pct": 93.75066369332059,
+            "net_improvement": 814.2525000016576
+          },
+          "failure_layer_decision": "REJECT_FROM_CURRENT_CORE",
+          "failure_vs_ownership": {
+            "additional_gl_reduction_pct": 0.519994091006343,
+            "net_change": -318.1010000003989,
+            "dd_reduction_pct": -8.700810276564011
+          }
+        },
+        "march": {
+          "parent": {
+            "trades": 35573,
+            "winners": 24169,
+            "net": -6589.631500026144,
+            "gross_loss": -16505.80050000819,
+            "max_drawdown": 6594.313500026137
+          },
+          "ownership": {
+            "trades": 32687,
+            "winners": 22463,
+            "net": -5778.782500023921,
+            "gross_loss": -14949.733000007342,
+            "max_drawdown": 5787.485500023899,
+            "gl_reduction_pct": 9.427397962310744,
+            "winner_retention_pct": 92.94137117795523,
+            "net_improvement": 810.849000002223
+          }
+        },
+        "current_core": "016_STYLE_OWNERSHIP_BASE_ONLY",
+        "path_augmentation": "DEFERRED_WEAKER_THAN_BASE",
+        "august_accessed": false
       }
     }
   },
@@ -1548,9 +1599,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA_DYNAMIC_GL_001_FEB_FROZEN_REPLICATION",
+      "id": "R9B_GAMMA_DYNAMIC_GL_001_APR_CALIBRATION",
       "state": "READY",
-      "scope": "Run frozen January-selected OWNERSHIP_BASE, OWNERSHIP_PLUS_FAILURE, and PATH_OWNERSHIP on February Gamma014 exact-tick population before any Jan-Feb refit. Score GL first, winner retention second, net third. August sealed."
+      "scope": "Train ownership on combined Jan-Mar discovery caches; use April only to choose stable depth/leaf/confidence neighborhood. Do not open May-Jul for candidate selection. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
