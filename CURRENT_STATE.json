@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_012_07_FROZEN_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_015_MICRO_RETEST_PRICE_IMPROVEMENT",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2891,6 +2891,47 @@
         "dd_reduction_pct": 9.34507736815737
       },
       "drive_recovery_folder": "/R9B_Gamma_Research/Entry_Hold_PASS_001/POLLING_SAFE_RECOVERY_20260927_2100",
+      "august_accessed": false
+    },
+    "polling_safe_recovery_20260927_2100": {
+      "status": "VERIFIED_DURABLE_RECOVERY_BARRIER",
+      "drive_folder": "/R9B_Gamma_Research/Entry_Hold_PASS_001/POLLING_SAFE_RECOVERY_20260927_2100",
+      "checkpoint_json_sha256": "3c861c9f68d2eae76b7fb07bc960b058c83b85180ede594b920a902657b487f4",
+      "checkpoint_md_sha256": "0cd694cca641945ce3f2163349e00dcb4f01d097a542618a0d9f64122a89a2b4",
+      "completed_chain": [
+        "ENTRY_HOLD_007",
+        "HOLD_003",
+        "ENTRY_008",
+        "ENTRY_009",
+        "ENTRY_010",
+        "ENTRY_011",
+        "ENTRY_012",
+        "ENTRY_013",
+        "ENTRY_014",
+        "HOLD_002B",
+        "HOLD_004"
+      ],
+      "entry_013_may_jul": {
+        "trades": 55428,
+        "winners": 37573,
+        "net": -10261.893500024786,
+        "gross_loss": -20885.39650000781,
+        "vs_gl009": {
+          "gl_reduction_pct": 10.71419952652633,
+          "winner_retention_pct": 89.20465337132003,
+          "trade_retention_pct": 90.00389711613406,
+          "net_improvement": 1038.5855000027132
+        },
+        "vs_gamma014": {
+          "gl_reduction_pct": 30.7422627129391,
+          "winner_retention_pct": 70.91386078816247,
+          "trade_retention_pct": 70.12474380708991,
+          "net_improvement": 4851.599000010241
+        },
+        "decision": "RESEARCH_SHADOW_ONLY_NOT_FORMAL_PROMOTION"
+      },
+      "hold_status": "HOLD002B checkpoint-alignment correction and HOLD004 ENTRY012-clean runner both rejected; no robust hold promotion.",
+      "execution_contract": "One bounded month or compact cached screen per execution call; durable artifact before dependent work; Drive immediate; GitHub at span barriers; no duplicate reruns after stream failure.",
       "august_accessed": false
     }
   },
