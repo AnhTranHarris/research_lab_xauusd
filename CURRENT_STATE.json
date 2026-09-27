@@ -614,8 +614,8 @@
       },
       "stage_c_ordinal_transition": {
         "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
-        "result_commit": "e75f2bccafb352c6c1fc20fe8213258e0bcbd05f",
-        "note_commit": "b89e9f47a690b27ff7f46d00fd3eac8707ac3382",
+        "result_commit": "1b2fe06517e281301acafe2894f62cc2f465b5e3",
+        "note_commit": "71a64d89807a01e4908b0ebc083aca99384953b3",
         "selected_variant": "TICK_D3_W90_COMPLEX",
         "selected_threshold": 0.45,
         "jan_jul": {
@@ -665,7 +665,7 @@
           "evaluator": "354b2a0cf7f39e6c30ac4defeb0d7c23d98e52d6f2b8c4e321c0cd614fb80546",
           "subset_screen": "18fc031b9dfe5666f7681bf40419e305503c4dab512ffe0e9ec3714a974f739a",
           "finalizer": "df69e59e308ec695e6018999a54aaa6da747476a66fa34555b91d287e2403002",
-          "result_json": "d5c84be358447bc5e453bec37a7fb3f62bac8e83924d1a2d93195dfd486c6ee5"
+          "result_json": "7fbe48cd313d78fecf35bbde54a9021e1d0cd003d5215144cbcc8cf34635e15a"
         },
         "august_sealed": true
       },
