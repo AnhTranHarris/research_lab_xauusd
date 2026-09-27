@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JANUARY_MULTI_DAY_CROSSWALK",
+    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JANUARY_CACHE_PRECOMPUTE",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -783,6 +783,49 @@
         "note_commit": "d877f21c79181c453ccdfee28c3fc9a66c65c0c3",
         "interpretation": "First-day QC supports event-population identity/timing plus action ownership as a major bridge axis; no strategy logic change authorized yet.",
         "august_accessed": false
+      },
+      "jan05": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+        "server_to_utc_offset_ms": -7200000,
+        "population": {
+          "gamma_raw": 1512,
+          "gamma_executable": 1172,
+          "r9_real": 1641,
+          "r9_synth": 1317,
+          "nonoverlap_suppressed": 340
+        },
+        "gamma_economics": {
+          "winners": 797,
+          "losers": 375,
+          "win_rate": 0.6800341296928327,
+          "net": -232.95100000087496,
+          "gross_profit": 225.34799999940878,
+          "gross_loss": -458.29900000028374
+        },
+        "match_5s": {
+          "gamma_exec_real": {
+            "matches": 211,
+            "gamma_coverage": 0.18003412969283278,
+            "real_coverage": 0.12858013406459476,
+            "same_side_rate": 0.4881516587677725
+          },
+          "gamma_exec_synth": {
+            "matches": 242,
+            "gamma_coverage": 0.20648464163822525,
+            "synth_coverage": 0.18375094912680334,
+            "same_side_rate": 0.4380165289256198
+          },
+          "r9_real_synth": {
+            "matches": 400,
+            "real_coverage": 0.2437538086532602,
+            "synth_coverage": 0.30372057706909644,
+            "same_side_rate": 0.765
+          }
+        },
+        "result_sha256": "acac984c8b6cf5039d763ce5b738d84dc690cb50ab06ea842c8ee806bae80a53",
+        "script_sha256": "79f08ff7845fc964209f9586bd8129c5c8b3b6f0f9581b7190e5cc67112aae22",
+        "note_commit": "81224cbeee4d6e29dceab0deffe1a3120e3785ff",
+        "august_accessed": false
       }
     }
   },
@@ -853,9 +896,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JANUARY_MULTI_DAY_CROSSWALK",
+      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JANUARY_CACHE_PRECOMPUTE",
       "state": "READY",
-      "scope": "Continue Formal Topic 1 from the durable Jan-02 machinery/QC checkpoint. Validate additional January days with per-day clock alignment, aggregate exact/near/Gamma-only/R9-only/same-side/opposite-side/non-overlap classes. Do not change Gamma logic yet. August sealed."
+      "scope": "Freeze/reuse compact January Gamma014 event/outcome/non-overlap and Dukascopy minute-close cache for Topic 1. Preserve exact 014 semantics; then continue January daily crosswalk without repeated monthly strategy replay. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
