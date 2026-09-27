@@ -110,4 +110,9 @@ Source hashes:
 - freeze JSON: 4c4ef4f86f7ca19cc48c43370386051d60b65328324356c214b48f784eb8ebba
 - result JSON payload before durable metadata augmentation: 4f030b06d9151ba3838071f30eaf420412bc7c5ea7d03b7770252aba261abdeb
 
+Source commits on production research branch:
+- hierarchical owner source: c5b4ccf2273fbf95e5e553e9b054e66929569a2d
+- freeze source: d188217cfb3735b4d58e220032f146beb9c90eb9
+- forward evaluator: c62c354218b419a002b3102bf4ce064c1e4280c0
+
 August accessed: false.
