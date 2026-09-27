@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_HOLD_007_TOXIC_RISK_GEOMETRY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_003_TOXIC_FAILED_IGNITION_CONTAINMENT",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2825,6 +2825,17 @@
         "runner": "51838215b4c30a1f39e7825cb6f9fa69da948f50"
       },
       "result_sha256": "73895a6d3eef8a0f368d5672c6cd1288182ebe36fdcf30510d350415aa5023c0",
+      "august_accessed": false
+    },
+    "entry_hold_007": {
+      "status": "VERIFIED_DURABLE_REJECTED",
+      "result_sha256": "3cdbb414c318db97682964f18a759815624b657d3e66f4fb674e9203e8e65583",
+      "executed_source_sha256": "9f504b9d4c5262724a96299e42f5124869301dcbc21a89b7ad8f5d592c4d2e83",
+      "screen_count": 360,
+      "eligible_95": 0,
+      "eligible_90": 0,
+      "eligible_85": 0,
+      "conclusion": "No robust candidate survived Jan-heldout/Feb/Mar positive-net and positive-loss-reduction gates.",
       "august_accessed": false
     }
   },
