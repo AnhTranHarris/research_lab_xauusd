@@ -1,0 +1,18 @@
+{
+  "status": "RECOVERY_POINTER",
+  "completed": [
+    {
+      "unit": "R9B_GAMMA_DYNAMIC_HOLD_003",
+      "state": "REJECTED",
+      "sha256": "6ff6da25ed23be53d53f28b33a8cf28d91466437f041a50a878cbe0e9391feec"
+    }
+  ],
+  "local_pending_durable": [
+    {
+      "unit": "R9B_GAMMA_DYNAMIC_ENTRY_008",
+      "sha256": "d1b8487dd77a95196baf13c56a90c0c430b82d78af6ecf52a9d1c3d030f344b6"
+    }
+  ],
+  "next": "R9B_GAMMA_DYNAMIC_ENTRY_008",
+  "sealed_period_preserved": true
+}
