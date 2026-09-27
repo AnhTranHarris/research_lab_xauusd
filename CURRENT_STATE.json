@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_202603_VETO_REPLICATION",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_EXTREME_VETO_MAR_REPLICATION",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1879,6 +1879,33 @@
           "dd_reduction_vs_gl001_pct": 4.851673642177288
         },
         "result_sha256": "030e0f6d24bd91058fc1eca67225f0f8cf2ad00c80d02a12e0da6990f5965329",
+        "august_accessed": false
+      },
+      "gl004_feb_replication": {
+        "status": "VERIFIED_DURABLE_REPLICATION",
+        "baseline_gl001": {
+          "trades": 26008,
+          "winners": 17657,
+          "net": -3636.7040000191637,
+          "gross_loss": -12255.908500006046,
+          "max_drawdown": 3640.1150000191365
+        },
+        "candidate": {
+          "trades": 24793,
+          "winners": 16814,
+          "net": -3462.197000018282,
+          "gross_loss": -11652.163500005776,
+          "max_drawdown": 3463.508500018266
+        },
+        "delta_vs_gl001": {
+          "gl_reduction_pct": 4.92615459718855,
+          "winner_retention_pct": 95.22568952823242,
+          "trade_retention_pct": 95.32836050446016,
+          "net_improvement": 174.50700000088182,
+          "dd_reduction_pct": 4.851673642177288
+        },
+        "veto_events": 1527,
+        "result_sha256": "d4132334b6e14aaf64ff77087f8c6272632b61bfdba1f8a09c5704698162653c",
         "august_accessed": false
       }
     },
