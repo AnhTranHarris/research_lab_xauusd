@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_LEADING_TICK_MICROSTRUCTURE_019",
-    "current_unit_state": "READY",
+    "current_unit": "R9B_GAMMA2_SOURCE_EQUIVALENCE_RECOVERY",
+    "current_unit_state": "ACTIVE_TOP_PRIORITY",
     "source_equivalence_note": "Canonical full Gamma current-build document now exists. Exact promoted event-population helper semantics remain unresolved; the document enforces January equivalence before Jan-Jul replay or MT5 translation.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -696,8 +696,8 @@
       "google_doc_url": "https://docs.google.com/document/d/1G7fk5JSsUrTlRu-nnDNciO7Jay0bDrYRD8f60QLLYNY/edit",
       "purpose": "Self-contained restart document: authority docs, repos/branches, hard rules, benchmarks, research units through 019, July forensic, ROI status, local files/hashes, 020 equations and exact resume procedure."
     },
-    "paused_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_D_BOCPD_CUSUM_DURABILITY",
-    "pause_reason": "Formal Gamma_2 source equivalence must be restored before benchmark-dependent optimization continues."
+    "paused_unit": "R9B_GAMMA2_LEADING_TICK_MICROSTRUCTURE_019",
+    "pause_reason": "Gamma_2 certified benchmark source-equivalence recovery is top priority."
   },
   "gamma2_benchmark_recovery": {
     "status": "SOURCE_EQUIVALENCE_BLOCKER_ACTIVE",
@@ -754,5 +754,30 @@
     "fail_closed_rule": "Before labeling a new Python implementation Gamma_2 or translating it to MT5, reproduce certified January target exactly/numerically negligibly, freeze logic, then reproduce the full Jan-Jul monthly contract. If January fails, resume source-equivalence archaeology.",
     "current_formal_build_only": true,
     "excluded_research": "010-019 shadow/rejected/unpromoted logic, Gamma_1 stacking, lot ladder, percentage-risk sizing, blanket news blackout"
+  },
+  "gamma2_source_equivalence_recovery": {
+    "status": "ACTIVE_TOP_PRIORITY",
+    "activated": "2026-09-27",
+    "authoritative_benchmark": {
+      "build_id": "R9B_Gamma_2_Structure_Aware_Sweep_Reclaim",
+      "trades": 215725,
+      "winners": 175143,
+      "win_rate": 0.811880866844362,
+      "net": 29583.116499865526,
+      "gross_loss": -45456.18900002444,
+      "profit_factor": 1.6508050311883742,
+      "result_commit": "e32ddfd25cfd412188376732d8dc61bf0ac71ea3",
+      "whitepaper_commit": "22facb69e4efa01a4459cad8d901b8953bcc64be"
+    },
+    "missing_original_runtime_helpers": {
+      "r9b_screen.py": "unknown original file body",
+      "r9b_r8_recert.py": "0fb6156d36cdc6b475911466816c6c0af1c8fcc345300463e8973b3116b3704c",
+      "r8_sweep_lifecycle_screen.py": "e9ae373f037abd2617471fda366ed73956db7ed7db595d4d162df982769e1e6c",
+      "r9b_sweep_structure_exit_candidate.py": "59ce14e5e877be9af7d60daad60035deac46f79794d09e4d80cc558b1799f297"
+    },
+    "drive_recovery_dossier_id": "1KRV4vcsGhVOFu2bjzbkWNM3oZBD7PW6pZZR6nTeD03w",
+    "current_finding": "Known causal reconstructions remain near 68%; retrospective/earlier timestamp ownership materially raises conversion and is being investigated only as forensic evidence. No retrospective variant may be promoted.",
+    "gate": "Recover historically supported source semantics and exact January benchmark with causality audit before Jan-Jul replay or downstream research.",
+    "august_sealed": true
   }
 }
