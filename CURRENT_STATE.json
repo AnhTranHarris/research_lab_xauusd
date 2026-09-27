@@ -30,7 +30,7 @@
   },
   "next_research": {
     "campaign": "R9B_GAMMA_2_MONETIZATION",
-    "objective": "Preserve ~R9 SYNTH trade density while increasing successful-trade monetization and July/regime resilience.",
+    "objective": "Search for causal reconstructible strategies/mechanisms/combinations that add durable value to the current-best Gamma parent and close the REAL→R9 SYNTH gap. Use R9 overfit/SYNTH as tick-by-tick teacher/capacity map only; never as future execution input.",
     "priorities": [
       "HARVEST/MEDIUM/RUNNER state-dependent exits driven by structure, event-time persistence, MFE renewal spacing, giveback, directional-change overshoot, and activity duration",
       "explicit slow/low-volatility July-like regime handling without materially reducing trade density",
@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC2_MULTI_ACTION_OWNERSHIP_ORACLE",
+    "current_unit": "R9B_GAMMA_DYNAMIC_STRATEGY_SEARCH",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1373,7 +1373,13 @@
       "daily_detail_triggered_months": [],
       "conclusion": "Event population/timing and action ownership are distinct bridge axes; Topic 1 complete.",
       "august_accessed": false
-    }
+    },
+    "research_governance": "DYNAMIC_STRATEGY_SEARCH",
+    "master_protocol_section": "101. DYNAMIC GAMMA STRATEGY-SEARCH CAMPAIGN",
+    "topic1_status": "COMPLETED_DURABLE_DIAGNOSTIC_BASELINE",
+    "roadmap_status": "HYPOTHESIS_LIBRARY_NOT_MANDATORY_SEQUENCE",
+    "august_sealed": true,
+    "dynamic_parent_rule": "Every viable carried-forward causal improvement updates the live Gamma research parent; subsequent search continues from that parent without restarting Topics 2–10."
   },
   "gamma2_benchmark_recovery": {
     "status": "CAUSAL_RECERT_014_COMPLETE_RESEARCH_READY",
