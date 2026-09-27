@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_002_STATE_CONDITIONED_LIFECYCLE_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_002_SEQUENCE_RISK_DURABILITY_DISCOVERY",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1704,7 +1704,60 @@
         "decision": "WORKING_RESEARCH_PARENT_NOT_FORMAL_BREAKTHROUGH",
         "result_sha256": "548b574e25122f7840462eec18cc5da10d3626a020cb129cf18d66440a4dba6b",
         "august_accessed": false
-      }
+      },
+      "july_forward": {
+        "status": "VERIFIED_DURABLE_FROZEN_FORWARD",
+        "parent": {
+          "trades": 25807,
+          "winners": 16744,
+          "net": -5342.881000002722,
+          "gross_loss": -9528.549500000938,
+          "max_drawdown": 5344.821000002775
+        },
+        "candidate": {
+          "trades": 20590,
+          "winners": 13660,
+          "net": -4210.130000002229,
+          "gross_loss": -7656.591500000732,
+          "max_drawdown": 4213.310000002227
+        },
+        "delta": {
+          "gl_reduction_pct": 19.645781343739905,
+          "winner_retention_pct": 81.58146201624461,
+          "trade_retention_pct": 79.78455457821522,
+          "net_improvement": 1132.7510000004931,
+          "dd_reduction_pct": 21.17023189363985
+        },
+        "result_sha256": "843f746d3e68bbb9f353d89532e45088c3ef89f7bba01f52bde7f123ff84cf67",
+        "model_sha256": "d7bd9421d5bc8e7ed67b96776e3f3a7e8b4bcbc43e1443f187781d9d2d8371ff",
+        "recovery": "SALVAGED_AFTER_POLLING_TIMEOUT_NO_RERUN",
+        "august_accessed": false
+      },
+      "may_july_forward_summary": {
+        "status": "VERIFIED_DURABLE_RESEARCH_SHADOW",
+        "note_commit": "6c326bf04be86111f43286f260e9adef48cc61c7",
+        "parent": {
+          "trades": 79042,
+          "winners": 52984,
+          "net": -15113.492500034976,
+          "gross_loss": -30156.048000011302
+        },
+        "candidate": {
+          "trades": 66882,
+          "winners": 45754,
+          "net": -12328.41050002992,
+          "gross_loss": -25516.95850000925
+        },
+        "delta": {
+          "gl_reduction_pct": 15.383612269088825,
+          "winner_retention_pct": 86.35437113090745,
+          "trade_retention_pct": 84.61577389236102,
+          "net_improvement": 2785.0820000050553
+        },
+        "decision": "RETAIN_AS_RESEARCH_GL_CORE_NOT_FORMAL_PROMOTION",
+        "august_accessed": false
+      },
+      "current_research_parent": "CAUSAL_GAMMA_014_PLUS_FROZEN_JAN_OWNERSHIP_SHADOW"
     },
     "working_parent": "GL001_FROZEN_JAN_OWNERSHIP"
   },
