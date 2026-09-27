@@ -1,0 +1,67 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_017_POST_EXIT_REQUALIFICATION_BRIDGE",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_FRONTIER",
+  "parent": "GL001 / causal Gamma014",
+  "scope": "Second/opposite same-minute requalification subclass only; Jan inner time-split selection, Jan-heldout/Feb/Mar frozen replication; no lifecycle/exit modification; no integrated PnL claim.",
+  "metrics": {
+    "balanced_bridge_only": {
+      "coverage_pct": {
+        "jan": 59.3173,
+        "feb": 54.1116,
+        "mar": 53.3964
+      },
+      "entry_exec_1s_pct": {
+        "jan": 30.7547,
+        "feb": 30.4529,
+        "mar": 27.3936
+      },
+      "parent_entry_exec_1s_pct": {
+        "jan": 29.7146,
+        "feb": 25.9271,
+        "mar": 23.7396
+      },
+      "entry_delta_pp": {
+        "jan": 1.0401,
+        "feb": 4.5258,
+        "mar": 3.654
+      },
+      "hold5_given_1s_pct": {
+        "jan": 67.1779,
+        "feb": 63.2094,
+        "mar": 64.2395
+      },
+      "parent_hold5_given_1s_pct": {
+        "jan": 67.6083,
+        "feb": 61.8159,
+        "mar": 64.8056
+      },
+      "hold5_delta_pp": {
+        "jan": -0.4304,
+        "feb": 1.3935,
+        "mar": -0.5661
+      }
+    },
+    "lower_density_combined": {
+      "coverage_pct": {
+        "jan": 42.9211,
+        "feb": 42.2767,
+        "mar": 35.4556
+      },
+      "entry_delta_pp": {
+        "jan": 3.4014,
+        "feb": 5.423,
+        "mar": 5.4326
+      },
+      "hold5_delta_pp": {
+        "jan": 0.5019,
+        "feb": -0.5021,
+        "mar": -2.3342
+      }
+    }
+  },
+  "interpretation": "Post-close→new-signal bridge state contains replicated entry-selection information. The balanced bridge-only profile improves +1s executable entry accuracy in every replication while keeping +5s conditional directional persistence approximately neutral. Adding the old event feature stack buys more entry accuracy only by lowering coverage and degrading hold persistence. Retain bridge-only as the research frontier; do not promote or integrate yet.",
+  "next_unit": "R9B_GAMMA_DYNAMIC_ENTRY_018_BRIDGE_PERSISTENCE_OWNER",
+  "source_sha256": "3395da77cb1b95a96e66caf42d68c16f763097df701270c94aa990603ec3565a",
+  "result_sha256": "2f44ac5cecb0f4d02b9d3a191142ad8e66de369ce17623fafb0a7b2cc95b13f7",
+  "august_accessed": false
+}
