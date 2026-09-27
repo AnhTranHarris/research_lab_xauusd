@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_FEBRUARY_CACHE_AND_CROSSWALK",
+    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_FEBRUARY_DAILY_CROSSWALK",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1083,6 +1083,19 @@
       "note_commit": "b2cb950d1634ecb1238f3f86ff076dc0738b9675",
       "conclusion": "January verifies that Gamma has near-SYNTH count but mostly different event timing and side; non-overlap is insufficient. Continue Feb/Mar discovery before Topic 2.",
       "august_accessed": false
+    },
+    "topic1_february_cache": {
+      "status": "VERIFIED_DURABLE_INFRASTRUCTURE",
+      "raw_signals": 32862,
+      "executable_trades": 28188,
+      "winners": 18834,
+      "net": -4450.956500020821,
+      "gross_loss": -13668.407500006782,
+      "cache_sha256": "55f424e72f1205bd8bfd44c79ef7a000f3ff54f9ed7ec2d3524a32c2b9eeca0d",
+      "source_sha256": "143914df34aea485363394d27eeb199bfca3d3f8d02843658cd57f08ea477399",
+      "dukas_sha256": "ed3b3545c990c88d78519594c17c8915b0f679adcb0a94920ba7524f1f6d5c5d",
+      "note_commit": "bd136b3efada17cf4be9aa352444546491b23b29",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
@@ -1152,9 +1165,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_FEBRUARY_CACHE_AND_CROSSWALK",
+      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_FEBRUARY_DAILY_CROSSWALK",
       "state": "READY",
-      "scope": "Build exact causal Gamma014 February Topic-1 cache, verify against durable February baseline, then run R9 REAL/SYNTH daily crosswalk. Preserve discovery-only use of SYNTH teacher. August sealed."
+      "scope": "Run February daily R9 REAL/SYNTH crosswalk from verified February cache, with day-specific clock QC and identical Topic-1 matching semantics. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
