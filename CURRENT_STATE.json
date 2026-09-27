@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_011_RETAINED_TRADE_LIFECYCLE_CAPTURE_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_001_H1_H4_STRUCTURAL_ARCHAEOLOGY",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2409,7 +2409,7 @@
       "decision": "RETAIN_AS_LOSS_CONTROL_COMPONENT_NOT_FORMAL_PROMOTION",
       "august_accessed": false
     },
-    "current_research_parent": "CAUSAL_GAMMA_014_PLUS_GL001_OWNERSHIP_PLUS_GL004_EXTREME_VETO_PLUS_GL008_TARGETED_FADE_OWNER_VETO_SHADOW",
+    "current_research_parent": "CAUSAL_GAMMA_014_PLUS_GL001_OWNERSHIP_PLUS_GL004_EXTREME_VETO_PLUS_GL002_CONTINUE_VETO_PLUS_GL008_FADE_OWNER_VETO_SHADOW",
     "gl009_jan": {
       "status": "VERIFIED_DURABLE_DISCOVERY_INTEGRATION",
       "delta_vs_gl004": {
@@ -2604,6 +2604,118 @@
       "note_commit": "b854d626d7f84a82d99b62da943476db7eb6ee17",
       "conclusion": "Existing ownership router cannot economically recover GL009 vetoed events by targeted action flip; broad recovery gives back GL and worsens net.",
       "august_accessed": false
+    },
+    "gl011": {
+      "status": "VERIFIED_DURABLE_REJECTED_FORWARD_REPLICATION",
+      "parent": "GL009",
+      "january": {
+        "selected": {
+          "atr_mult": 0.08,
+          "depth": 3,
+          "leaf": 200,
+          "predicted_delta_threshold": 0.1,
+          "runner_signals_test": 696
+        },
+        "net_improvement": 51.82100000003811,
+        "gp_change": 98.20350000014423,
+        "gl_reduction_pct": -0.7917146526071115,
+        "winner_retention_pct": 98.10554803788904
+      },
+      "february": {
+        "net_improvement": 70.68250000016906,
+        "gp_change": 983.879000001798,
+        "gl_reduction_pct": -8.304545737708073,
+        "winner_retention_pct": 85.33274403333753
+      },
+      "model_sha256": "b771201d0eac15a08bfa1e4b4bd43b624d375614d8ad4ea4ceee15b0b8b804e9",
+      "jan_result_sha256": "28727c5b27ad52667ca2efbd6c104440b0016c5be60632ed993d84e2ca531012",
+      "feb_result_sha256": "5bfa72c416b203c98bbac01e592cf821021c9010b28903706b63a6624a2ecad9",
+      "decision": "REJECT_CURRENT_RUNNER_INTEGRATION: GP recovery is real but forward GL/winner damage violates loss-first objective.",
+      "august_accessed": false
+    },
+    "gl012": {
+      "status": "VERIFIED_DURABLE_REJECTED",
+      "parent": "GL009",
+      "mechanism": "2s observed-only persistence-gated runner promotion",
+      "screen_count": 192,
+      "eligible_count": 0,
+      "result_sha256": "09e7ff25d8229be61e1c48f4ad6209601cd5352df4f9df536cd3462975cb4472",
+      "source_sha256": "b8eeac69a53cf060407dddc8bf9c5622e568c2d4a73396d2ab100488de76c5d6",
+      "decision": "REJECT: no Jan heldout policy met net, GL and winner-retention gates.",
+      "august_accessed": false
+    },
+    "gl013": {
+      "status": "VERIFIED_DURABLE_REJECTED_DIAGNOSTIC",
+      "parent": "GL009",
+      "residual_loss_diagnostic": {
+        "jan_gl009_gl": -5858.487000002947,
+        "low_mfe_loss_count_approx": 2399,
+        "low_mfe_loss_gl_approx": -4403,
+        "low_mfe_avg_loss_approx": -1.835,
+        "low_mfe_avg_hold_s_approx": 25.7,
+        "conclusion": "Residual loss is concentrated in long-hold trades with little favorable excursion, but simple fixed-time MFE starvation exits do not preserve economics."
+      },
+      "screen_count": 64,
+      "eligible_count": 0,
+      "result_sha256": "2f12a8c7a25165d0f48ea481e4235c433b15a88ab583764d9d6774a1fd9921b8",
+      "source_sha256": "5e13eae1b35cb8abfe7ec2a82130c2cf7e3fc6aa49bbc0a6199cbbc332abd95f",
+      "decision": "REJECT fixed-checkpoint MFE starvation containment.",
+      "august_accessed": false
+    },
+    "gl014": {
+      "status": "VERIFIED_DURABLE_MARGINAL_DIAGNOSTIC",
+      "parent": "GL009",
+      "best_jan": {
+        "stop_cap": 1,
+        "max_alignment": 2,
+        "action": "CONTINUE",
+        "base_conf_max": 0.65,
+        "signals": 1528,
+        "gl_reduction_pct": 1.0148097964513456,
+        "winner_retention_pct": 99.28958051420838,
+        "net_improvement": 11.60399999990841
+      },
+      "robust_knee": {
+        "stop_cap": 1,
+        "max_alignment": 1,
+        "action": "CONTINUE",
+        "gl_reduction_pct": 0.8552549489300157,
+        "winner_retention_pct": 99.6617050067659,
+        "net_improvement": 21.811499999967054
+      },
+      "result_sha256": "f7f6ebd7360acc83f72311481d77e929f4f048efdb9ba492545e4f774f5bc8bb",
+      "source_sha256": "8e8abbe6fe81961ef5e9c3a87707fadb631cc9454beef981066a1d47f63266b9",
+      "decision": "MARGINAL: preserve as diagnostic; do not spend forward budget yet.",
+      "august_accessed": false
+    },
+    "gl011_014_library_root": "/R9_Rebuild/R9B_GAMMA_DYNAMIC_GL_011_014/",
+    "net_recovery_campaign": {
+      "status": "READY",
+      "reason": "GL009 achieved material loss compression but remains net negative; GL010-014 show diminishing returns from local HFT veto/exit tweaks. Search now prioritizes orthogonal positive expectancy without reopening toxic HFT events.",
+      "archaeology_targets": [
+        {
+          "branch": "carson/r9-gamma-01-h1-structural-trend",
+          "commit": "d3f122d33b41159cf6f440a35c5068ca3b9cd3fd"
+        },
+        {
+          "branch": "carson/r10-from-r9-code-03-p5-structural-sleeve",
+          "commit": "eb8d37cc29341a4983da8416f084dd1cb7ddc23f"
+        },
+        {
+          "branch": "carson/r10-r9-breakthrough-research-04-structural-trend-core",
+          "commit": "51e3d32ca42623c46db9b0cd9f863bca2355e0b6"
+        },
+        {
+          "branch": "carson/r9-mod-01-p1-p5-breakthrough-foundation",
+          "commit": "5f39a4ba944c8673b34e544d71f3cc63e027164c"
+        }
+      ],
+      "historical_hypothesis_only": {
+        "H1": "~+$1.39K / ~336 trades / PF ~1.43 / positive 7 of 7 months",
+        "H4": "~+$1.16K / ~77 trades / PF ~1.7 / positive 7 of 7 months"
+      },
+      "contract": "Recover exact reconstructible H1/H4 source and parameters first; fresh recertification required. Do not arithmetic-add to GL009. Only chronological combined ledger counts.",
+      "august_sealed": true
     }
   },
   "gamma2_benchmark_recovery": {
