@@ -1,6 +1,6 @@
 {
   "schema": "r9b-research-lab-state-v1",
-  "updated": "2026-09-27",
+  "updated": "2026-09-26",
   "active_branch_role": "lightweight quant control plane",
   "production_repo": "AnhTranHarris/gold-MUWHAHA-miner",
   "latest_formal_breakthrough": {
@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_SOURCE_EQUIVALENCE_RECOVERY_BENCHMARK",
+    "current_unit": "R9B_GAMMA2_LEADING_TICK_MICROSTRUCTURE_019",
     "current_unit_state": "READY",
-    "source_equivalence_note": "019 shows leading event-time and raw-tick features help modestly but do not solve July, while naive MTF structure adds essentially nothing. 020 must test richer hierarchical structure/pattern equations rather than equal-weight timeframe voting or generic feature stacking.",
+    "source_equivalence_note": "Canonical full Gamma current-build document now exists. Exact promoted event-population helper semantics remain unresolved; the document enforces January equivalence before Jan-Jul replay or MT5 translation.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -738,5 +738,21 @@
     },
     "rule": "The later ~68% reconstructions are diagnostic source-equivalence failures and must not replace the formal Gamma_2 benchmark.",
     "august_sealed": true
+  },
+  "current_gamma_build_contract": {
+    "canonical_id": "R9B_Gamma_2_Structure_Aware_Sweep_Reclaim",
+    "google_doc_id": "1ckoRAa6AGOI9FbsAXa3gippWwnrGz92bSrTJVowZsHc",
+    "google_doc_url": "https://docs.google.com/document/d/1ckoRAa6AGOI9FbsAXa3gippWwnrGz92bSrTJVowZsHc/edit",
+    "github_spec_path": "research/R9_Rebuild/R9B_GAMMA_CURRENT_BUILD_SPEC.md",
+    "github_spec_commit": "6ad92a64370cf1ebad250957570d10e5f34f900d",
+    "github_manifest_path": "research/R9_Rebuild/R9B_GAMMA_CURRENT_BUILD_MANIFEST.json",
+    "github_manifest_commit": "d73c336bb1bd15a625881e222d66c1696ec73292",
+    "formal_result_commit": "e32ddfd25cfd412188376732d8dc61bf0ac71ea3",
+    "formal_whitepaper_commit": "22facb69e4efa01a4459cad8d901b8953bcc64be",
+    "roi_doc_id": "1Pv4ydRjg1Iek7e_JIuwlFSH5FdJMxMOe_9ci5-wneDA",
+    "source_equivalence_resolved": false,
+    "fail_closed_rule": "Before labeling a new Python implementation Gamma_2 or translating it to MT5, reproduce certified January target exactly/numerically negligibly, freeze logic, then reproduce the full Jan-Jul monthly contract. If January fails, resume source-equivalence archaeology.",
+    "current_formal_build_only": true,
+    "excluded_research": "010-019 shadow/rejected/unpromoted logic, Gamma_1 stacking, lot ladder, percentage-risk sizing, blanket news blackout"
   }
 }
