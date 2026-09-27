@@ -1,1 +1,31 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+{
+  "unit":"R9B_GAMMA2_LEADING_TICK_MICROSTRUCTURE_019",
+  "status":"VERIFIED_DURABLE_DIAGNOSTIC_CANDIDATE",
+  "architecture":"017 separate regime specialists held fixed: depth 4, leaf 800, existing per-regime confidence thresholds. Jan-Mar fit, April selection, May-Jun strict forward, July stress-validation. August sealed.",
+  "feature_families_tested":{
+    "tick_microstructure":["signed tick imbalance 16/32/64","signed run length","binary/transition entropy","tick-arrival acceleration","quote-gap mean/max","actual Dukascopy spread state"],
+    "event_time":["250ms/1s/5s/15s/45s/60s/300s side-aligned returns","multi-horizon vote","directional-change state/age/exhaustion at $0.05/$0.10/$0.20 thresholds"],
+    "equations":["variance ratio VR(2)/VR(4)","permutation entropy d=3","two-sided standardized CUSUM score","60s/300s path efficiency"],
+    "multi_timeframe_structure":["completed 1m/3m/5m/10m/20m HH-HL or LH-LL state","structural vote/conflict","completed body direction on same timeframes"]
+  },
+  "baseline_017_jan_jul":{"trades":137288,"winners":97533,"win_rate":0.7104262572,"net":-12342.1705,"gross_loss":-38839.2360,"profit_factor":0.6822241689},
+  "selected_family":"BASE_EVENTTIME",
+  "selected_jan_jul":{"trades":136450,"winners":96908,"win_rate":0.7102088677,"net":-11758.6895,"gross_loss":-38062.8620,"profit_factor":0.6910718511},
+  "delta_vs_017":{"gross_loss_reduction_pct":1.99894,"net_improvement":583.4810,"win_rate_delta_pp":-0.02174,"winner_retention_pct":99.3592,"trade_retention_pct":99.3896},
+  "april_selection":{"gross_loss_improvement":103.8120,"net_improvement":77.4470,"winner_retention_pct":99.4207,"trade_retention_pct":99.5638,"win_rate_delta_pp":-0.10288},
+  "may_jun_strict_forward":{"gross_loss_reduction_pct":4.87765,"net_improvement":423.1590,"win_rate_delta_pp":0.00198,"winner_retention_pct":99.5559,"trade_retention_pct":99.5531},
+  "july_stress":{"baseline":{"trades":16188,"winners":10052,"win_rate":0.6209537929,"net":-2412.1930,"gross_loss":-4135.0190},"event_time":{"trades":16042,"winners":9903,"win_rate":0.6173170428,"net":-2563.0005,"gross_loss":-4259.6180},"delta":{"net":-150.8075,"gross_loss":-124.5990,"win_rate_delta_pp":-0.36368}},
+  "feature_importance_selected":["regime_conf","atr_ratio","atr_excess","raw_ret_5s_side","eff10","range10","activity20_60","eff20","raw_ret_60s_side","dc20_state_side","disp_side","dc10_age_s"],
+  "ablation_findings":{
+    "tick_microstructure":"Reduced Jan-Jul GL more than selected event-time family, but failed April winner/trade-retention guard. Useful descriptors: gap_max64, gap_mean16, arrival acceleration, actual spread.",
+    "equations":"Small GL benefit overall and modest July benefit, but April net worsened. Useful descriptors: sec_eff60, variance ratio, CUSUM.",
+    "multi_timeframe_structure":"Simple two-bar HH/HL-LH/LL vote produced effectively no decision change. One 5m completed-body feature appeared, but the encoding is too coarse.",
+    "all_features":"Over-combination harmed July and lowered success. More complexity without semantic ownership is rejected."
+  },
+  "decision":"DO_NOT_PROMOTE. Preserve event-time and selected tick/equation descriptors. July failure demonstrates that simple timeframe voting/pattern labels are insufficient; next rebuild hierarchical multi-scale pattern/state mechanics rather than adding more generic features.",
+  "next_unit":"R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020",
+  "source_sha256":"482e39f694ccf3bb24f43097a7e38f06314e0546194b6e7952e6ea75c2e0e0e8",
+  "trainer_sha256":"81a3892d2d1d238f9c5bc713574180b8b22c015ed9e50f4a09b1fb9bda55b245",
+  "result_sha256":"4825217f84f6d23343c6e63a154daa8a8c1e6aedd121973211471854ea76a647",
+  "august_sealed":true
+}
