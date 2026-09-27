@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_EXTREME_VETO_JUNE_FROZEN_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_EXTREME_VETO_JULY_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2013,6 +2013,34 @@
         },
         "veto_events": 922,
         "result_sha256": "1bb0dcb6101f590b8cfc9d132e2305d018c196cf07df58c641ea915646deb1ad",
+        "extreme_model_sha256": "f6604d0c514c5c5c928f561ab44b147038edffaebc8033efacba0d9aabd903d2",
+        "august_accessed": false
+      },
+      "gl004_june_forward": {
+        "status": "VERIFIED_DURABLE_FROZEN_FORWARD",
+        "candidate": {
+          "trades": 23480,
+          "winners": 16217,
+          "net": -4345.230000010966,
+          "gross_loss": -9175.771000003393,
+          "max_drawdown": 4345.465000010984
+        },
+        "delta_vs_gl001": {
+          "gl_reduction_pct": 3.4003890610632963,
+          "winner_retention_pct": 96.76014319809069,
+          "trade_retention_pct": 96.79281061917719,
+          "net_improvement": 166.83550000037394,
+          "dd_reduction_pct": 3.699867377103404
+        },
+        "delta_vs_gamma014": {
+          "gl_reduction_pct": 15.630936083232363,
+          "winner_retention_pct": 86.13235606543445,
+          "trade_retention_pct": 84.73475279682425,
+          "net_improvement": 1000.0860000022622,
+          "dd_reduction_pct": 18.721146288895486
+        },
+        "veto_events": 1126,
+        "result_sha256": "3eda2e091c7a3e4621a5832be1bbfb083dad4224567584a9c5dc7ca9e4f4d2bf",
         "extreme_model_sha256": "f6604d0c514c5c5c928f561ab44b147038edffaebc8033efacba0d9aabd903d2",
         "august_accessed": false
       }
