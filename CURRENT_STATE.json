@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_007_FAILED_IGNITION_QUARANTINE_MAY_FROZEN_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_007_FAILED_IGNITION_QUARANTINE_JUNE_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2152,6 +2152,33 @@
           "dd_reduction_pct": 1.0110181589221585
         },
         "selection": "Jan-Feb discovery neighborhood found q25 as sole tested robust configuration; March replicated; April calibration positive. Freeze for May-Jul.",
+        "august_accessed": false
+      },
+      "gl007_may_forward": {
+        "status": "VERIFIED_DURABLE_FROZEN_FORWARD",
+        "candidate": {
+          "trades": 21384,
+          "winners": 14711,
+          "net": -3483.0725000158554,
+          "gross_loss": -8041.11950000498,
+          "max_drawdown": 3485.212500015841
+        },
+        "delta_vs_gl004": {
+          "gl_reduction_pct": 1.0933749044109855,
+          "winner_retention_pct": 98.92408042498823,
+          "trade_retention_pct": 99.88789237668162,
+          "net_improvement": 38.63500000003296,
+          "dd_reduction_pct": 1.0963868328541153
+        },
+        "delta_vs_gamma014": {
+          "gl_reduction_pct": 17.54174162974236,
+          "winner_retention_pct": 84.4877096255456,
+          "trade_retention_pct": 83.77668952007835,
+          "net_improvement": 942.2230000031705,
+          "dd_reduction_pct": 21.24961446295692
+        },
+        "early_exit_signals": 460,
+        "result_sha256": "d4237ced565e8c0fdfdafda6187838d4bbcddec245907fa8689a9dba96837b99",
         "august_accessed": false
       }
     },
