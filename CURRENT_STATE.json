@@ -2753,6 +2753,14 @@
       "conclusion": "Historical H1/H4 performance evidence is credible project history, but exact original source/parameter contract is not currently recoverable from durable searchable code. Reconstruct fresh causal structural sleeves; do not back-fit historical metrics.",
       "note_commit": "e95fae7f922d6d9849982ff84914ff4dcb1f3125",
       "august_accessed": false
+    },
+    "latest_handoff": {
+      "status": "VERIFIED_DURABLE",
+      "created_date": "2026-09-27",
+      "library_path": "/R9_Rebuild/Handoffs/R9B_Gamma_NEW_CHAT_HANDOFF_2026-09-27.docx",
+      "purpose": "Polling-timeout/max-chat recovery handoff. Supersedes prior handoff resume pointer.",
+      "resume_unit": "R9B_GAMMA_DYNAMIC_NET_002_H1_H4_FRESH_CAUSAL_RECONSTRUCTION",
+      "august_sealed": true
     }
   },
   "gamma2_benchmark_recovery": {
