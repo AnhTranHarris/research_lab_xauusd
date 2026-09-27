@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_002_H1_H4_FRESH_CAUSAL_RECONSTRUCTION",
+    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_HOLD_006_OPPORTUNITY_SEVERITY_KNEE",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2768,6 +2768,19 @@
       "url": "https://docs.google.com/document/d/1OeOLCe2Z6Xc-USt9X_ULfrgY20UrbXrViuiC0Sj-P4M/edit",
       "resume_unit": "R9B_GAMMA_DYNAMIC_GL_001_017_012_REBASE",
       "status": "VERIFIED_DURABLE_HANDOFF"
+    },
+    "user_directed_focus": "ENTRY/ACTION and HOLD/PERSISTENCE revisit rooted at R9B_GAMMA_DYNAMIC_GL_001_017_012_REBASE; this temporarily supersedes NET002 ordering without changing the causal parent or sealed-period rules.",
+    "entry_hold_pass_001": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_NO_PROMOTION",
+      "result_commit": "5149a2003554bb7b86d92686753531fde1d35936",
+      "note_commit": "94edd58a5a17559898f7720e1d634939633eb928",
+      "key_findings": {
+        "acceptance_veto": "~4.36-5.23% GL reduction with ~94.6-95.0% winner retention across Jan-heldout/Feb/Mar; retain as sub-threshold component.",
+        "opportunity_action": "At qopp=.50/qact=.50, >=20.63% GL reduction but min winner retention 66.23%; capacity map only, not global owner.",
+        "hold_remaining_value": "Observed-only early-close models reduce GL ~3-5% but worsen net/often DD; rejected."
+      },
+      "next_unit": "R9B_GAMMA_DYNAMIC_ENTRY_HOLD_006_OPPORTUNITY_SEVERITY_KNEE",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
