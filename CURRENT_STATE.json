@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_007_FAILED_IGNITION_QUARANTINE_JUNE_FROZEN_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_007_FAILED_IGNITION_QUARANTINE_JULY_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2179,6 +2179,33 @@
         },
         "early_exit_signals": 460,
         "result_sha256": "d4237ced565e8c0fdfdafda6187838d4bbcddec245907fa8689a9dba96837b99",
+        "august_accessed": false
+      },
+      "gl007_june_forward": {
+        "status": "VERIFIED_DURABLE_FROZEN_FORWARD",
+        "candidate": {
+          "trades": 23418,
+          "winners": 15956,
+          "net": -4375.110500010943,
+          "gross_loss": -9114.322000003483,
+          "max_drawdown": 4375.345500010956
+        },
+        "delta_vs_gl004": {
+          "gl_reduction_pct": 0.6696875935535755,
+          "winner_retention_pct": 98.3905777887402,
+          "trade_retention_pct": 99.7359454855196,
+          "net_improvement": -29.880499999976564,
+          "dd_reduction_pct": -0.6876249147075512
+        },
+        "delta_vs_gamma014": {
+          "gl_reduction_pct": 16.19594523708024,
+          "winner_retention_pct": 84.74612279583599,
+          "trade_retention_pct": 84.51100685673042,
+          "net_improvement": 970.2055000022856,
+          "dd_reduction_pct": 18.16225264038923
+        },
+        "early_exit_signals": 651,
+        "result_sha256": "9d6d6bd45ada1b87398b0a327d03b01852eeb20d7b88ae18e31f13c3fe791025",
         "august_accessed": false
       }
     },
