@@ -46,7 +46,7 @@
     ],
     "current_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020",
     "current_unit_state": "READY",
-    "source_equivalence_note": "019 modestly improves April and May-Jun using leading event-time features while preserving ~99% of 017 winners, but worsens July. Flat MTF structural voting is too coarse. Next rebuild market awareness as hierarchical pattern/state ownership with accepted body structure vs wick sweep, ordinal transition networks, causal change-point/run-length state, and persistent liquidity-level memory.",
+    "source_equivalence_note": "019 modestly improves GL/net outside July but worsens July; flat MTF voting is too coarse. 020 now tests hierarchical structure/pattern/durability semantics in stages, with July used only as stress validation.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -554,7 +554,37 @@
         "gross_loss",
         "winning_trades_and_success",
         "net_profit"
-      ]
+      ],
+      "research_contract_commit": "4fea53467006bc4ccba2a6da70c126a7aa15de54",
+      "staged_execution": [
+        "020-A hierarchical structural owner",
+        "020-B acceptance/sweep memory",
+        "020-C ordinal pattern transition state",
+        "020-D BOCPD/CUSUM durability",
+        "020-E retained 019 tick/event-time descriptors",
+        "020-F integrated semantic router"
+      ],
+      "quant_equations": [
+        "normalized permutation entropy",
+        "Jensen-Shannon forward/reverse irreversibility",
+        "Bayesian online change-point run-length posterior",
+        "two-sided standardized CUSUM",
+        "variance ratio",
+        "path efficiency",
+        "directional-change intrinsic-time state"
+      ],
+      "secondary_shelf": [
+        "Hawkes tick-arrival intensity only if 020 core is insufficient and quote-tick semantics support it",
+        "hidden semi-Markov duration model",
+        "recurrence quantification"
+      ],
+      "first_action": "020-A only: build causal highest-timeframe structural owner with protected levels, accepted BOS/CHoCH, wick-sweep separation, structural age/touch memory and lower-timeframe confirm/transition/conflict states. Do not add ordinal/BOCPD/CUSUM until 020-A is measured."
+    },
+    "super_handoff": {
+      "title": "R9B Gamma — SUPER HANDOFF — 2026-09-26",
+      "google_doc_id": "1f9uoW6l_HDxrkPSXXyuy0AxK_DIuy0bMOoFsMeEh_FM",
+      "google_doc_url": "https://docs.google.com/document/d/1f9uoW6l_HDxrkPSXXyuy0AxK_DIuy0bMOoFsMeEh_FM/edit",
+      "role": "Primary restart authority together with live Master Protocol; supersedes older execution pointers in historical handoff."
     }
   }
 }
