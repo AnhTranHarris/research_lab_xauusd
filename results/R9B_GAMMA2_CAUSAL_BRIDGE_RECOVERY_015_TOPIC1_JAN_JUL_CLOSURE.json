@@ -1,0 +1,71 @@
+{
+  "unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JAN_JUL_CLOSURE",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_COMPLETE",
+  "topic": "FORMAL TOPIC 1 — GAMMA↔R9 EVENT POPULATION CROSSWALK",
+  "parent": "causal Gamma 014",
+  "science_walls": {
+    "jan_mar": "discovery",
+    "april": "calibration",
+    "may_jul": "frozen_forward",
+    "august": "sealed"
+  },
+  "monthly_summary_sheet_id": "1Lkz5HaxBGMpi0b2MDe2UF1mL3_KvGHqSNysoPqTEeOc",
+  "jan_jul_paired_common_coverage": {
+    "totals": {
+      "graw": 242919,
+      "gexec": 196185,
+      "real": 236647,
+      "synth": 219320,
+      "winners": 132289,
+      "losers": 63896,
+      "net": -35179.88550012253,
+      "gp": 47052.90099991662,
+      "gl": -82232.78650003916
+    },
+    "density_vs_synth": 0.8945148641254788,
+    "win_rate": 0.6743074139205342,
+    "nonoverlap_suppression": 0.19238511602632977,
+    "pooled_5s": {
+      "gamma_exec_vs_r9_synth": {
+        "matches": 45137,
+        "same_side": 17076,
+        "a_count": 196185,
+        "b_count": 219320,
+        "a_coverage": 0.2300736549685246,
+        "b_coverage": 0.20580430421302207,
+        "same_side_rate": 0.3783149079469172
+      },
+      "gamma_exec_vs_r9_real": {
+        "matches": 35329,
+        "same_side": 13416,
+        "a_count": 196185,
+        "b_count": 236647,
+        "a_coverage": 0.1800800265055942,
+        "b_coverage": 0.14928987056670906,
+        "same_side_rate": 0.37974468566899716
+      },
+      "r9_real_vs_r9_synth": {
+        "matches": 61806,
+        "same_side": 46726,
+        "a_count": 236647,
+        "b_count": 219320,
+        "a_coverage": 0.2611738158523032,
+        "b_coverage": 0.28180740470545323,
+        "same_side_rate": 0.7560107432935314
+      }
+    }
+  },
+  "authoritative_full_gamma014_economics": {
+    "trades": 197574,
+    "winners": 133142,
+    "net": -35399.91300012262,
+    "gross_profit": 47325.46899991657,
+    "gross_loss": -82725.38200003919,
+    "note": "Economic authority; paired daily logger common intervals omit some Gamma events. Topic-1 aggregate is for crosswalk identity only."
+  },
+  "daily_detail_rule": "Create daily month tab only if Gamma↔SYNTH 5s coverage, Gamma↔SYNTH same-side rate, or Gamma density vs SYNTH <75% of January.",
+  "daily_detail_triggered_months": [],
+  "finding": "Gamma has broadly comparable opportunity density but mostly a different event-time population and much weaker near-time action-side coherence than R9 REAL↔SYNTH. Event population/timing and action ownership are distinct bridge axes. Proceed to Topic 2.",
+  "strategy_change_authorized": false,
+  "august_accessed": false
+}
