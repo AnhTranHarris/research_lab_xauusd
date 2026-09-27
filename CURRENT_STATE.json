@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_002_JUNE_FROZEN_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_EXTREME_NEIGHBORHOOD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1843,6 +1843,18 @@
         },
         "result_sha256": "be2f3b3c0aff76c713a428a86298952bc7bb13dace38826b3469ef4b85db7753",
         "august_accessed": false
+      },
+      "gl004_prelim": {
+        "status": "VERIFIED_DURABLE_DISCOVERY_SCREEN",
+        "result_sha256": "ad81ab36d325b09579abcf090325a812a6808d47174310446f2586ba732d0eeb",
+        "best_extreme": {
+          "incremental_gl_reduction_vs_gl001_pct": 16.75603719755657,
+          "winner_retention_vs_gl001_pct": 82.2827763496144,
+          "net_improvement_vs_gl001": 407.8205000018379,
+          "config": "EXTREME depth4 leaf300 conf0.50"
+        },
+        "decision": "PROMISING_BUT_TOO_DESTRUCTIVE; SEARCH_LOCAL_PARETO_NEIGHBORHOOD",
+        "august_accessed": false
       }
     },
     "working_parent": "GL001_FROZEN_JAN_OWNERSHIP"
@@ -1914,9 +1926,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA_DYNAMIC_GL_004_PATH_ARCHETYPE_DISCOVERY",
+      "id": "R9B_GAMMA_DYNAMIC_GL_004_EXTREME_NEIGHBORHOOD",
       "state": "READY",
-      "scope": "On January discovery only, add explicit pre-event tick-sequence archetype features (directional run, reversal density, recross, pullback/recovery, extreme renewal, half-window acceleration) to frozen ownership. Screen feature families separately before combinations. August sealed."
+      "scope": "January discovery only: EXTREME feature family local neighborhood depth3-4, leaf150/300/600, confidence .45/.50/.55. Seek higher winner retention while preserving meaningful incremental GL reduction. No broad feature stack. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
