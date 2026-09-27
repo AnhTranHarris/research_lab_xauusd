@@ -1,0 +1,63 @@
+{
+  "architecture": "020-A hierarchical owner + 020-B acceptance/sweep context frozen; ordinal transition representation added only as contextual features to the same transparent CART",
+  "august_accessed": false,
+  "cache_sha256": {
+    "R9B_020C_M01.npz": "86818daaa2c39041d98a917efd3e0c83392f734195b04603b8058d8cd8f46f1a",
+    "R9B_020C_M02.npz": "1ff5c6cbea883cc35b64d0c785c5d59da751e976a798686b7faea0a45aac730e",
+    "R9B_020C_M03.npz": "a1a6884bf4a0c7571d241a0594d6fa97cb33fbab099966495cac97ad54977669",
+    "R9B_020C_M04.npz": "1a91079e9f127e56dd95fe888e381ff3ef1cd101b43a39ff9f3b66203c2d7743",
+    "R9B_020C_M05.npz": "9e32b66190db28c0e20886e879b1d0f686f2fd46bcc9918b401b3c5a314f5c0b",
+    "R9B_020C_M06.npz": "08c71fdb983feef97126fb0b88f82e7342502add0853679daa52e901c870b3a8",
+    "R9B_020C_M07.npz": "a12cc1ef48738ee4fdded8eb8aebf180090ee29ea58f32e11f00e3621a5b6002"
+  },
+  "decision": "DO_NOT_PROMOTE",
+  "feature_importance": [
+    {"feature":"owner_age","importance":0.15027593324393376},
+    {"feature":"struct_conflict_count","importance":0.1321828929873733},
+    {"feature":"TICK_D3_W90_te","importance":0.12344576455114052},
+    {"feature":"owner_tf","importance":0.10640321980611651},
+    {"feature":"owner_level_age","importance":0.08720549745726133},
+    {"feature":"owner_fail_depth","importance":0.08709405810860246},
+    {"feature":"owner_pen_depth","importance":0.08084314807654067},
+    {"feature":"owner_bos_age","importance":0.06631820179852913},
+    {"feature":"accept_opp_count","importance":0.06627957037492796},
+    {"feature":"TICK_D3_W90_irr","importance":0.050971423919173024},
+    {"feature":"sweep_same_count","importance":0.04898028967640139}
+  ],
+  "finding": "The best April-selected ordinal subset gives a small July improvement and tiny Jan-Jul net gain, but worsens May-Jun gross loss and full Jan-Jul gross loss. The effect is not durable and does not add integrated system value. Preserve ordinal transition descriptors as research context only.",
+  "method_sources": [
+    {"role":"reconstructible ordinal encoding, transition network, entropy and time-irreversibility methodology; not performance evidence","title":"Ordinal Pattern Transition Networks in MQL5","type":"community_method","url":"https://www.mql5.com/en/articles/23451"},
+    {"role":"ordinal transition-network methodology; not strategy performance evidence","title":"Characterizing the statistical complexity of nonlinear time series via ordinal pattern transition networks","type":"academic_method","url":"https://www.sciencedirect.com/science/article/pii/S037843712300225X"},
+    {"role":"time-irreversibility/Jensen-Shannon diagnostic motivation","title":"Time irreversibility of time series","type":"academic_method","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC7513188/"},
+    {"role":"ordinal transition-network construction and network-state motivation","title":"Ordinal partition transition networks","type":"academic_method","url":"https://www.nature.com/articles/s41598-017-08245-x"}
+  ],
+  "monthly": [
+    {"month":1,"stageB":{"gross_loss":-11721.584000006917,"gross_profit":5502.444499982445,"max_drawdown_trade_sequence":6222.364000024458,"net":-6219.139500024471,"profit_factor":0.469428406602657,"trades":33209,"win_rate":0.7111626366346472,"winners":23617},"stageC":{"gross_loss":-11767.540000006906,"gross_profit":5541.206999982493,"max_drawdown_trade_sequence":6229.5575000244,"net":-6226.333000024413,"profit_factor":0.4708891578001214,"trades":33209,"win_rate":0.7111024119967478,"winners":23615},"delta":{"gross_loss_improvement":-45.95599999998922,"max_drawdown_improvement":-7.193499999942105,"net":-7.193499999942105,"win_rate_pp":-0.006022463789934207,"winners":-2}},
+    {"month":2,"stageB":{"gross_loss":-15210.36400000651,"gross_profit":9298.333999981449,"max_drawdown_trade_sequence":5931.078500024847,"net":-5912.03000002506,"profit_factor":0.611315679228812,"trades":33877,"win_rate":0.734214954098651,"winners":24873},"stageC":{"gross_loss":-15216.705500006508,"gross_profit":9316.912999981436,"max_drawdown_trade_sequence":5918.84100002486,"net":-5899.7925000250725,"profit_factor":0.6122818766504649,"trades":33877,"win_rate":0.7344511025179326,"winners":24881},"delta":{"gross_loss_improvement":-6.341499999998632,"max_drawdown_improvement":12.237499999987449,"net":12.237499999987449,"win_rate_pp":0.02361484192815455,"winners":8}},
+    {"month":3,"stageB":{"gross_loss":-15651.325500007215,"gross_profit":8896.297999978888,"max_drawdown_trade_sequence":6776.651000028284,"net":-6755.027500028327,"profit_factor":0.568405404384107,"trades":38223,"win_rate":0.7365983831724354,"winners":28155},"stageC":{"gross_loss":-15619.742500007213,"gross_profit":8867.1419999789,"max_drawdown_trade_sequence":6774.224000028269,"net":-6752.600500028312,"profit_factor":0.5676881036915177,"trades":38223,"win_rate":0.73670303220574,"winners":28159},"delta":{"gross_loss_improvement":31.583000000002357,"max_drawdown_improvement":2.4270000000151413,"net":2.4270000000151413,"win_rate_pp":0.0104649033304538,"winners":4}},
+    {"month":4,"stageB":{"gross_loss":-11052.569500006724,"gross_profit":5180.90849998305,"max_drawdown_trade_sequence":5873.271000023671,"net":-5871.661000023674,"profit_factor":0.4687514971048043,"trades":32007,"win_rate":0.7099384509638517,"winners":22723},"stageC":{"gross_loss":-11031.81300000674,"gross_profit":5180.501999982996,"max_drawdown_trade_sequence":5853.167500023734,"net":-5851.311000023743,"profit_factor":0.46959661118075796,"trades":32007,"win_rate":0.7096572624738339,"winners":22714},"delta":{"gross_loss_improvement":20.756499999984953,"max_drawdown_improvement":20.103499999937412,"net":20.349999999931242,"win_rate_pp":-0.02811884900177919,"winners":-9}},
+    {"month":5,"stageB":{"gross_loss":-10334.592500006753,"gross_profit":4726.783999982514,"max_drawdown_trade_sequence":5608.832000024236,"net":-5607.808500024239,"profit_factor":0.45737497632145874,"trades":32598,"win_rate":0.7158107859377876,"winners":23334},"stageC":{"gross_loss":-10419.654000006769,"gross_profit":4720.522499982505,"max_drawdown_trade_sequence":5700.155000024261,"net":-5699.131500024265,"profit_factor":0.45304023530718374,"trades":32598,"win_rate":0.7156574022946193,"winners":23329},"delta":{"gross_loss_improvement":-85.06150000001617,"max_drawdown_improvement":-91.32300000002579,"net":-91.32300000002579,"win_rate_pp":-0.015338364316830333,"winners":-5}},
+    {"month":6,"stageB":{"gross_loss":-11290.417000004967,"gross_profit":4715.46299998872,"max_drawdown_trade_sequence":6576.607500016199,"net":-6574.954000016247,"profit_factor":0.4176518015221799,"trades":33595,"win_rate":0.6930197946122935,"winners":23282},"stageC":{"gross_loss":-11269.635000004957,"gross_profit":4740.05149998868,"max_drawdown_trade_sequence":6531.237000016262,"net":-6529.583500016278,"profit_factor":0.4206038172475502,"trades":33595,"win_rate":0.6939127846405715,"winners":23312},"delta":{"gross_loss_improvement":20.782000000010157,"max_drawdown_improvement":45.37049999993724,"net":45.37049999996907,"win_rate_pp":0.0892990028278029,"winners":30}},
+    {"month":7,"stageB":{"gross_loss":-9192.8570000012,"gross_profit":3193.621999997595,"max_drawdown_trade_sequence":6005.482500003626,"net":-5999.235000003606,"profit_factor":0.34740255396088265,"trades":30785,"win_rate":0.6376482052947864,"winners":19630},"stageC":{"gross_loss":-9175.994500001198,"gross_profit":3230.774999997606,"max_drawdown_trade_sequence":5951.467000003614,"net":-5945.219500003594,"profit_factor":0.35208990153570646,"trades":30785,"win_rate":0.6371284716582751,"winners":19614},"delta":{"gross_loss_improvement":16.86250000000291,"max_drawdown_improvement":54.01550000001225,"net":54.01550000001225,"win_rate_pp":-0.05197336365112548,"winners":-16}}
+  ],
+  "scoring_order": ["gross_loss","winning_trades_and_success","net_profit"],
+  "selected_ordinal_features": ["pe","te","irr","forbid"],
+  "selected_threshold": 0.45,
+  "selected_variant": "TICK_D3_W90_COMPLEX",
+  "source_sha256": {
+    "r9b020c_eval.py": "354b2a0cf7f39e6c30ac4defeb0d7c23d98e52d6f2b8c4e321c0cd614fb80546",
+    "r9b020c_finalize.py": "df69e59e308ec695e6018999a54aaa6da747476a66fa34555b91d287e2403002",
+    "r9b020c_ordinal.py": "7e40f3d33a875d930092b47663eab1737d495b0b79a1838d2bbace4ecfd6267c",
+    "r9b020c_subscreen.py": "18fc031b9dfe5666f7681bf40419e305503c4dab512ffe0e9ec3714a974f739a"
+  },
+  "spans": {
+    "april": {"stageB":{"gross_loss":-11052.569500006724,"gross_profit":5180.90849998305,"max_drawdown_trade_sequence":5873.271000023671,"net":-5871.661000023674,"profit_factor":0.4687514971048043,"trades":32007,"win_rate":0.7099384509638517,"winners":22723},"stageC":{"gross_loss":-11031.81300000674,"gross_profit":5180.501999982996,"max_drawdown_trade_sequence":5853.167500023734,"net":-5851.311000023743,"profit_factor":0.46959661118075796,"trades":32007,"win_rate":0.7096572624738339,"winners":22714},"delta":{"gross_loss_improvement":20.756499999984953,"max_drawdown_improvement":20.103499999937412,"net":20.349999999931242,"trades":0,"win_rate_pp":-0.02811884900177919,"winners":-9}},
+    "may_jun": {"stageB":{"gross_loss":-21625.00950001172,"gross_profit":9442.246999971234,"max_drawdown_trade_sequence":12184.602500040422,"net":-12182.762500040488,"profit_factor":0.4366355076036436,"trades":66193,"win_rate":0.7042436511413593,"winners":46616},"stageC":{"gross_loss":-21689.289000011726,"gross_profit":9460.573999971184,"max_drawdown_trade_sequence":12230.555000040527,"net":-12228.715000040542,"profit_factor":0.43618645129243605,"trades":66193,"win_rate":0.7046213345822065,"winners":46641},"delta":{"gross_loss_improvement":-64.27950000000419,"max_drawdown_improvement":-45.95250000010492,"net":-45.95250000005399,"trades":0,"win_rate_pp":0.03776834408472096,"winners":25}},
+    "july": {"stageB":{"gross_loss":-9192.8570000012,"gross_profit":3193.621999997595,"max_drawdown_trade_sequence":6005.482500003626,"net":-5999.235000003606,"profit_factor":0.34740255396088265,"trades":30785,"win_rate":0.6376482052947864,"winners":19630},"stageC":{"gross_loss":-9175.994500001198,"gross_profit":3230.774999997606,"max_drawdown_trade_sequence":5951.467000003614,"net":-5945.219500003594,"profit_factor":0.35208990153570646,"trades":30785,"win_rate":0.6371284716582751,"winners":19614},"delta":{"gross_loss_improvement":16.86250000000291,"max_drawdown_improvement":54.01550000001225,"net":54.01550000001225,"trades":0,"win_rate_pp":-0.05197336365112548,"winners":-16}},
+    "may_jul": {"stageB":{"gross_loss":-30817.86650001292,"gross_profit":12635.868999968829,"max_drawdown_trade_sequence":18183.095000043842,"net":-18181.99750004409,"profit_factor":0.4100176434979213,"trades":96978,"win_rate":0.6831033842727217,"winners":66246},"stageC":{"gross_loss":-30865.283500012927,"gross_profit":12691.348999968792,"max_drawdown_trade_sequence":18175.03200004397,"net":-18173.934500044135,"profit_factor":0.4111852398816773,"trades":96978,"win_rate":0.6831961888263317,"winners":66255},"delta":{"gross_loss_improvement":-47.41700000000856,"max_drawdown_improvement":8.062999999870954,"net":8.062999999954627,"trades":0,"win_rate_pp":0.009280455361004858,"winners":9}},
+    "jan_jul": {"stageB":{"gross_loss":-84453.70950004029,"gross_profit":41513.85399989466,"max_drawdown_trade_sequence":42941.70800014623,"net":-42939.855500145626,"profit_factor":0.49155749635692264,"trades":234294,"win_rate":0.7068640255405602,"winners":165614},"stageC":{"gross_loss":-84501.08450004029,"gross_profit":41597.11299989461,"max_drawdown_trade_sequence":42905.82400014618,"net":-42903.97150014568,"profit_factor":0.4922672087110879,"trades":234294,"win_rate":0.7069067069579247,"winners":165624},"delta":{"gross_loss_improvement":-47.375,"max_drawdown_improvement":35.88400000004913,"net":35.883999999947264,"trades":0,"win_rate_pp":0.004268141736452069,"winners":10}}
+  },
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+  "unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_C_ORDINAL_TRANSITION",
+  "validation": "Jan-Mar discovery; April calibration; May-Jun strict forward; July stress-validation; August sealed"
+}
