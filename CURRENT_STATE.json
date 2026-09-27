@@ -2716,6 +2716,24 @@
       },
       "contract": "Recover exact reconstructible H1/H4 source and parameters first; fresh recertification required. Do not arithmetic-add to GL009. Only chronological combined ledger counts.",
       "august_sealed": true
+    },
+    "last_timeout_recovery": {
+      "status": "VERIFIED_DURABLE_NO_RERUN",
+      "date": "2026-09-27",
+      "classification": "CONTROL_PLANE_PRESENTATION_TIMEOUT",
+      "recovered_completed_through": "GL014",
+      "preserved_working_loss_control_parent": "GL009",
+      "may_jul_vs_gamma014": {
+        "gross_loss_reduction_pct": 22.431409115678065,
+        "winner_retention_pct": 79.49569681413257,
+        "trade_retention_pct": 77.91300827408213,
+        "net_improvement": 3813.013500007475,
+        "candidate_net": -11300.4790000275,
+        "candidate_gross_loss": -23391.621500008514
+      },
+      "action": "No GL001-GL014 rerun. Stop at first-top-strategy closure per user scope. Next pointer unchanged.",
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_001_H1_H4_STRUCTURAL_ARCHAEOLOGY",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
