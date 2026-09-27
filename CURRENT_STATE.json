@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_PATH_ARCHETYPE_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_002_JUNE_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1818,6 +1818,30 @@
         "status": "VERIFIED_DURABLE_REJECTED",
         "result_sha256": "b64b0666204fc2c6cc014eefb6e1e45b3628f525b8bde284a5c65f16876fc413",
         "conclusion": "Structural-owner age, exact alignment-state age and 30s owner-transition count add essentially zero incremental GL value to the January ownership model. Reject this durability representation; do not broaden 020 complexity blindly.",
+        "august_accessed": false
+      },
+      "gl002_may_forward": {
+        "status": "VERIFIED_DURABLE_FROZEN_FORWARD",
+        "candidate": {
+          "trades": 21210,
+          "winners": 14777,
+          "net": -3484.3655000157605,
+          "gross_loss": -8054.577000004805,
+          "max_drawdown": 3485.4340000157545
+        },
+        "delta_vs_gl001": {
+          "gl_reduction_pct": 3.67183270285219,
+          "winner_retention_pct": 96.36754923698969,
+          "net_improvement": 121.84950000058961,
+          "dd_reduction_pct": 3.3778742369441583
+        },
+        "delta_vs_gamma014": {
+          "gl_reduction_pct": 17.403740694424506,
+          "winner_retention_pct": 84.86675855731679,
+          "net_improvement": 940.9300000032654,
+          "dd_reduction_pct": 21.244609542772128
+        },
+        "result_sha256": "be2f3b3c0aff76c713a428a86298952bc7bb13dace38826b3469ef4b85db7753",
         "august_accessed": false
       }
     },
