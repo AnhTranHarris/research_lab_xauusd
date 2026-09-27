@@ -1,0 +1,18 @@
+{
+  "unit":"R9B_GAMMA2_CONFIDENCE_SPECIALIST_ROUTER_017",
+  "status":"VERIFIED_DURABLE_DIAGNOSTIC_CANDIDATE",
+  "method":"Separate transparent Jan-Mar ownership trees for TRANSITION, ROTATION and EXPANSION on validated native-R9 events. April calibrates fixed per-regime confidence thresholds; May-Jul frozen. July macro-event times are diagnostic only and never enter the model.",
+  "selected":{"depth":4,"min_samples_leaf":800,"abstain_weight":1.5,"thresholds":{"TRANSITION":0.45,"ROTATION":0.50,"EXPANSION":0.45}},
+  "jan_jul":{"trades":137288,"winners":97533,"win_rate":0.7104262572,"net":-12342.1705,"gross_profit":26497.0655,"gross_loss":-38839.2360,"profit_factor":0.6822241689,"max_month_dd":2414.2255},
+  "may_jul":{"trades":53336,"winners":36175,"win_rate":0.6782473376,"net":-6921.7605,"gross_profit":7142.2455,"gross_loss":-14064.0060,"profit_factor":0.5078386272,"max_month_dd":2414.2255},
+  "baseline_016_jan_jul":{"trades":141465,"winners":98937,"win_rate":0.6993744036,"net":-16824.2460,"gross_loss":-43422.8430},
+  "delta_vs_016":{"gross_loss_reduction_pct":10.55575058,"net_improvement":4482.0755,"win_rate_delta_pp":1.10518536,"trade_retention_pct":97.04732619,"winner_retention_pct":98.58091513},
+  "delta_may_jul_vs_016":{"gross_loss_reduction_pct":7.90138524,"net_improvement":1059.1760,"win_rate_delta_pp":0.68421179,"trade_retention_pct":97.95948353,"winner_retention_pct":98.95776343},
+  "july":{"trades":16188,"winners":10052,"win_rate":0.6209537929,"net":-2412.1930,"gross_loss":-4135.0190,"profit_factor":0.4166428256,"avg_win":0.1713913649,"avg_loss":-0.6970699595,"abstain_pct":0.3626522765},
+  "july_news_diagnostic":{"pm30m":{"trades":412,"trade_share":0.0254509513,"net":-55.0840,"gross_loss":-120.8275,"win_rate":0.6626213592},"pm60m":{"trades":816,"trade_share":0.0504077094,"net":-118.5105,"gross_loss":-231.4425,"win_rate":0.6531862745},"all_native_event_share_pm30m":0.0209713381,"news_state_shift":{"atr_ratio_delta":0.1279596066,"atr_excess_delta":0.6745417058,"regime_conf_delta":0.0385027122,"disp_side_delta":0.4650556355,"range10_delta":0.5377532585,"ret5_side_delta":0.3211032940},"teacher_pm30m":{"neither":82,"fade":268,"continue":299},"teacher_outside":{"neither":4572,"fade":12825,"continue":12901}},
+  "interpretation":"Per-regime confidence specialists improve the 016 ownership frontier while preserving nearly all winners. July still degrades. Scheduled major-news windows are not the main July loss source in fixed-cost replay; they are more active/displacing than ordinary July periods. Calendar data should therefore remain an execution-risk annotation, not the primary directional owner.",
+  "decision":"DO_NOT_PROMOTE. Preserve 017 as the new native-R9 ownership frontier. Next add an exact-tick bounded proof/handoff layer for low-confidence and July-like slow/noisy events rather than a blanket news blackout.",
+  "source_sha256":"f222e57848caab89064d94c88a4629fa2f950999ce28def726758d56b2fd61f6",
+  "result_sha256":"b1373d23d74da8b670e3ef93296d504bc18d0063ea9bf19f741dfebec9120e7e",
+  "august_sealed":true
+}
