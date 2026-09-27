@@ -993,6 +993,29 @@
       "aggregate_sha256": "6d38325a32bcbd80405558f5134901ab5a8f8d210f610ef482b19ef90af030a3",
       "note_commit": "55332647ff40efe7f80ae0cfae91eb4cbb6e37fe",
       "august_accessed": false
+    },
+    "topic1_first11days": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+      "days": 11,
+      "gamma_executable": 12249,
+      "r9_synth": 13006,
+      "r9_real": 17059,
+      "gamma_density_vs_synth": 0.9417960941104105,
+      "gamma_density_vs_real": 0.7180373996131074,
+      "winners": 8345,
+      "losers": 3904,
+      "win_rate": 0.6812801044983264,
+      "net": -2035.305500009098,
+      "gross_loss": -4377.924000002865,
+      "mean_5s_gamma_synth_coverage": 0.1939685745292032,
+      "mean_5s_gamma_synth_same_side": 0.3830564404030598,
+      "mean_5s_gamma_real_coverage": 0.19036012241012024,
+      "mean_5s_gamma_real_same_side": 0.47322018407380534,
+      "mean_5s_real_synth_same_side": 0.8094878727322746,
+      "mean_nonoverlap_suppression": 0.22487652722717577,
+      "aggregate_sha256": "d553274399062fe44011b1352d0c5cff5d0c1fdf6cbaec8e9b8c6c78dcb3a98a",
+      "note_commit": "f2f5fd22db531504fe299b577bb36fd8c8a57068",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
