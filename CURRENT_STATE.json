@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_012_06_FROZEN_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_012_07_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2848,6 +2848,50 @@
         "dd_reduction_pct": 9.665874611741804,
         "august_accessed": false
       }
+    },
+    "entry_012_discovery": {
+      "status": "VERIFIED_DURABLE_SUBTHRESHOLD_CANDIDATE",
+      "frozen_params": {
+        "depth": 3,
+        "leaf": 600,
+        "severity_min": 0.6,
+        "opp_max": 0.45,
+        "base_conf_max": null
+      },
+      "jan_mar": {
+        "min_gl_reduction_pct": 16.059596887490642,
+        "min_winner_retention_pct": 85.05987624092953,
+        "min_trade_retention_pct": 86.27588949735369,
+        "min_dd_reduction_pct": 13.662343085313092
+      },
+      "decision": "FROZEN_TO_APRIL_WITHOUT_RETUNING",
+      "august_accessed": false
+    },
+    "entry_012_calibration": {
+      "status": "VERIFIED_DURABLE_PASS_CALIBRATION",
+      "april": {
+        "gl_reduction_pct": 11.308954924927663,
+        "winner_retention_pct": 88.89233248620839,
+        "trade_retention_pct": 89.70675986701902,
+        "net_improvement": 347.716000001843,
+        "dd_reduction_pct": 8.472747334486394
+      },
+      "may": {
+        "gl_reduction_pct": 10.915618910779077,
+        "winner_retention_pct": 89.31785574540237,
+        "trade_retention_pct": 90.0608151039303,
+        "net_improvement": 348.58550000163086,
+        "dd_reduction_pct": 9.665874611741804
+      },
+      "june": {
+        "gl_reduction_pct": 11.528997556102292,
+        "winner_retention_pct": 88.06085918854414,
+        "trade_retention_pct": 89.15409349492951,
+        "net_improvement": 421.9575000011596,
+        "dd_reduction_pct": 9.34507736815737
+      },
+      "drive_recovery_folder": "/R9B_Gamma_Research/Entry_Hold_PASS_001/POLLING_SAFE_RECOVERY_20260927_2100",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
