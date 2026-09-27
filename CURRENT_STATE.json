@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_D_BOCPD_CUSUM_DURABILITY",
+    "current_unit": "R9B_GAMMA2_SOURCE_EQUIVALENCE_RECOVERY_BENCHMARK",
     "current_unit_state": "READY",
     "source_equivalence_note": "019 shows leading event-time and raw-tick features help modestly but do not solve July, while naive MTF structure adds essentially nothing. 020 must test richer hierarchical structure/pattern equations rather than equal-weight timeframe voting or generic feature stacking.",
     "durable_commits": {
@@ -695,6 +695,48 @@
       "google_doc_id": "1G7fk5JSsUrTlRu-nnDNciO7Jay0bDrYRD8f60QLLYNY",
       "google_doc_url": "https://docs.google.com/document/d/1G7fk5JSsUrTlRu-nnDNciO7Jay0bDrYRD8f60QLLYNY/edit",
       "purpose": "Self-contained restart document: authority docs, repos/branches, hard rules, benchmarks, research units through 019, July forensic, ROI status, local files/hashes, 020 equations and exact resume procedure."
-    }
+    },
+    "paused_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_D_BOCPD_CUSUM_DURABILITY",
+    "pause_reason": "Formal Gamma_2 source equivalence must be restored before benchmark-dependent optimization continues."
+  },
+  "gamma2_benchmark_recovery": {
+    "status": "SOURCE_EQUIVALENCE_BLOCKER_ACTIVE",
+    "formal_benchmark": {
+      "id": "R9B_Gamma_2_Structure_Aware_Sweep_Reclaim",
+      "trades": 215725,
+      "winners": 175143,
+      "win_rate": 0.811880866844362,
+      "net": 29583.116499865526,
+      "gross_profit": 75039.30549988998,
+      "gross_loss": -45456.18900002444,
+      "profit_factor": 1.6508050311883742,
+      "max_drawdown": 217.28999999962616
+    },
+    "provenance_commits": {
+      "frozen_source": "a314bf6114453e5175c2468d173d865c69099d16",
+      "jan_apr_freeze": "f76cbc5c1640f7714297f9857289b44c77239b3d",
+      "jan_jul_stage": "707cd70b6a81b68f2e89e03cc82d773d7c831c5b",
+      "formal_promotion": "e32ddfd25cfd412188376732d8dc61bf0ac71ea3",
+      "recovery_note": "ca22982bfd678247b6344a3d2949d86e960e4632"
+    },
+    "frozen_hashes": {
+      "hybrid_candidate": "59ce14e5e877be9af7d60daad60035deac46f79794d09e4d80cc558b1799f297",
+      "sweep_generator": "e9ae373f037abd2617471fda366ed73956db7ed7db595d4d162df982769e1e6c",
+      "r8_recert": "0fb6156d36cdc6b475911466816c6c0af1c8fcc345300463e8973b3116b3704c"
+    },
+    "missing_runtime_helpers": [
+      "r9b_screen.py",
+      "r9b_r8_recert.py",
+      "r8_sweep_lifecycle_screen.py"
+    ],
+    "january_equivalence_gate": {
+      "trades": 30943,
+      "winners": 25368,
+      "win_rate": 0.81983001,
+      "net": 5131.0509999771375,
+      "gross_loss": -6091.20650000407
+    },
+    "rule": "The later ~68% reconstructions are diagnostic source-equivalence failures and must not replace the formal Gamma_2 benchmark.",
+    "august_sealed": true
   }
 }
