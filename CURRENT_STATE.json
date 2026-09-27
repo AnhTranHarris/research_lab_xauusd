@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_B_ACCEPTANCE_SWEEP",
+    "current_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_C_ORDINAL_TRANSITION",
     "current_unit_state": "READY",
     "source_equivalence_note": "019 shows leading event-time and raw-tick features help modestly but do not solve July, while naive MTF structure adds essentially nothing. 020 must test richer hierarchical structure/pattern equations rather than equal-weight timeframe voting or generic feature stacking.",
     "durable_commits": {
@@ -512,7 +512,7 @@
       "headline": "Gamma_2 +$29,583.12 Jan-Jul fixed 0.01 lot; 29.58% on $100k normalization; tested cost-sensitivity band 19.69%-29.58% on $100k normalization. Not a live-return forecast."
     },
     "hierarchical_pattern_state_020": {
-      "status": "IN_PROGRESS_STAGE_A_REJECTED_STAGE_B_READY",
+      "status": "IN_PROGRESS_STAGE_A_REJECTED_STAGE_B_REJECTED_STAGE_C_READY",
       "plan_commit": "fd8acfd62966648e0dca2ea73f5dcd2ba3b1af0f",
       "plan_path": "notes/R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_PLAN.md",
       "objective": "Test hierarchical multi-timeframe structural ownership, state duration/change-point probability, ordinal-pattern transitions, liquidity acceptance/sweep state, and leading tick pressure to improve May-Jun and July without density collapse.",
@@ -577,14 +577,49 @@
         "note_commit_latest": "c519eae8156464cacfb4e73cde730e3ca33a5f7d"
       },
       "stage_b_acceptance_sweep": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+        "result_commit": "ae65ab08c76de532c257742a9ef3b64c7aaa84f5",
+        "note_commit": "8f49457323e46043f634a733ca0f59f261e67da9",
+        "selected_variant": "OWNER_SUMMARY",
+        "selected_threshold": 0.45,
+        "may_jun": {
+          "net": -12182.762500040488,
+          "gross_loss": -21625.00950001172,
+          "trades": 66193,
+          "winners": 46616,
+          "win_rate": 0.7042436511413593
+        },
+        "july": {
+          "net": -5999.235000003606,
+          "gross_loss": -9192.8570000012,
+          "trades": 30785,
+          "winners": 19630,
+          "win_rate": 0.6376482052947864
+        },
+        "jan_jul": {
+          "net": -42939.855500145626,
+          "gross_loss": -84453.70950004029,
+          "trades": 234294,
+          "winners": 165614,
+          "win_rate": 0.7068640255405602
+        },
+        "finding": "Acceptance/sweep memory improves April, May-Jun and July with near-zero forward density loss, but Jan-Mar degradation makes full Jan-Jul net slightly worse than 020-A. Preserve state descriptors only.",
+        "next_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_C_ORDINAL_TRANSITION",
+        "august_sealed": true,
+        "source_commits": {
+          "source_equivalent_core": "5c8e7992d53692d329278ce9eaeb999148e44a39",
+          "acceptance_feature_builder": "39f399a587790d885f1ed4baca2c77ed250c0975",
+          "evaluator": "425c1c046e0922a2edb4c09e76a578ae3ec7ab1"
+        }
+      },
+      "stage_c_ordinal_transition": {
         "status": "READY",
         "scope": [
-          "wick penetration versus accepted close beyond structural boundary",
-          "reclaim and failed acceptance",
-          "first versus repeated penetration",
-          "touch count and level age",
-          "normalized penetration and reclaim depth",
-          "owner-relative acceptance quality"
+          "ordinal permutation state",
+          "transition persistence/concentration",
+          "transition entropy",
+          "forbidden-pattern fraction",
+          "time-irreversibility diagnostic"
         ],
         "validation": "Jan-Mar discovery; April calibration; May-Jun strict forward; July stress-validation; August sealed",
         "scoring_order": [
