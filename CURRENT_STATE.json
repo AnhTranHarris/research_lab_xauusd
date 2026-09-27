@@ -1,6 +1,6 @@
 {
   "schema": "r9b-research-lab-state-v1",
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "active_branch_role": "lightweight quant control plane",
   "production_repo": "AnhTranHarris/gold-MUWHAHA-miner",
   "latest_formal_breakthrough": {
@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_SOURCE_EQUIVALENCE_RECOVERY",
-    "current_unit_state": "ACTIVE_TOP_PRIORITY",
-    "source_equivalence_note": "Canonical full Gamma current-build document now exists. Exact promoted event-population helper semantics remain unresolved; the document enforces January equivalence before Jan-Jul replay or MT5 translation.",
+    "current_unit": "R9B_GAMMA2_SOURCE_EQUIV_TIMESTAMP_ORIGIN_010",
+    "current_unit_state": "READY",
+    "source_equivalence_note": "Top-priority Gamma_2 recovery incident. The certified 81.188% Jan-Jul curve remains the historical benchmark; failed ~67-69% reconstructions are quarantined. Discrete January timestamp archaeology shows all tested source-like causal timestamps remain ~68% and negative, while near-82% variants require retrospective entry timestamps. Exact source equivalence and causality are unresolved.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -696,8 +696,46 @@
       "google_doc_url": "https://docs.google.com/document/d/1G7fk5JSsUrTlRu-nnDNciO7Jay0bDrYRD8f60QLLYNY/edit",
       "purpose": "Self-contained restart document: authority docs, repos/branches, hard rules, benchmarks, research units through 019, July forensic, ROI status, local files/hashes, 020 equations and exact resume procedure."
     },
-    "paused_unit": "R9B_GAMMA2_LEADING_TICK_MICROSTRUCTURE_019",
-    "pause_reason": "Gamma_2 certified benchmark source-equivalence recovery is top priority."
+    "paused_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_D_BOCPD_CUSUM_DURABILITY",
+    "pause_reason": "Paused until Gamma_2 certified benchmark source equivalence and causality are resolved.",
+    "source_equivalence_recovery": {
+      "status": "ACTIVE_TOP_PRIORITY",
+      "last_completed_unit": "R9B_GAMMA2_SOURCE_EQUIV_DISCRETE_TIMESTAMP_SEMANTICS_009",
+      "classification": "VERIFIED_DURABLE_DIAGNOSTIC_SOURCE_EQUIVALENCE_UNRESOLVED",
+      "recovery_manifest_commit": "e02aedc0956e943a1d64c68ac934716437d33232",
+      "recovery_note_commit": "dd6ff923dc60122fe598398c8e0dc3447ef2c48c",
+      "source_branch": "carson/r9b-gamma2-monetization",
+      "certified_january_target": {
+        "trades": 30943,
+        "winners": 25368,
+        "win_rate": 0.8198300100184209,
+        "net": 5131.0509999771375,
+        "gross_loss": -6091.20650000407
+      },
+      "last_unit_best_causal": {
+        "label": "lv-1_cont2_confirm_tick_alignsignal",
+        "trades": 27149,
+        "winners": 18513,
+        "win_rate": 0.6819035691922355,
+        "net": -4236.7540000199815,
+        "gross_loss": -11006.274000006313,
+        "retrospective_share": 0
+      },
+      "last_unit_near_target_retrospective": {
+        "label": "lv0_cont3_break_next_first_alignsignal",
+        "trades": 30923,
+        "winners": 25812,
+        "win_rate": 0.8347184943246128,
+        "net": 3495.233499977213,
+        "gross_loss": -5779.152500003691,
+        "retrospective_share": 0.9588008925395337,
+        "mean_entry_before_confirmation_ms": 4490.082107169421
+      },
+      "interpretation": "Event timestamp ownership has sufficient leverage to explain the scale of the 68%→82% gap. Retrospective/backdated scheduling is the leading hypothesis, not a proven diagnosis. Do not promote or deploy any backdated variant.",
+      "next_unit": "R9B_GAMMA2_SOURCE_EQUIV_TIMESTAMP_ORIGIN_010",
+      "next_scope": "January only. Recover timestamp/event origin from historically supported R8/S1 Python lineage or other durable pre-promotion artifacts. No arbitrary lag fitting; exact January fingerprint + causality audit required before Jan-Jul.",
+      "august_accessed": false
+    }
   },
   "gamma2_benchmark_recovery": {
     "status": "SOURCE_EQUIVALENCE_BLOCKER_ACTIVE",
