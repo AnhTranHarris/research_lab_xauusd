@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_SOURCE_EQUIV_PREPROMOTION_LINEAGE_013",
-    "current_unit_state": "READY",
+    "current_unit": "R9B_GAMMA2_CAUSAL_RECERT_BASELINE_014",
+    "current_unit_state": "IN_PROGRESS_JAN_VERIFIED_M02_NEXT",
     "source_equivalence_note": "Top-priority Gamma_2 recovery. All three missing runtime helper roles now have durable reconstructed causal source bodies. Production checkpoint 992245bb016311f8c2cd1f78ada7d40f1d24bab1 preserves completed Stage-7 through Stage-12 archaeology. Certified 81.188% Jan-Jul curve remains historical benchmark; exact causal source equivalence remains unresolved. Near-target ~82% compatibility variants consistently require future-completed-second/retrospective timestamp ownership and are forensic only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -738,7 +738,7 @@
     }
   },
   "gamma2_benchmark_recovery": {
-    "status": "SOURCE_EQUIVALENCE_BLOCKER_ACTIVE_HELPERS_REBUILT",
+    "status": "CAUSAL_RECERT_ACTIVE",
     "formal_benchmark": {
       "id": "R9B_Gamma_2_Structure_Aware_Sweep_Reclaim",
       "trades": 215725,
@@ -807,6 +807,32 @@
       "id": "R9B_GAMMA2_SOURCE_EQUIV_PREPROMOTION_LINEAGE_013",
       "scope": "Source-only archaeology of pre-promotion R8/S1/Gamma code and durable artifacts. No arbitrary lag/threshold fitting. January remains sole equivalence month. If no causal source-supported implementation can reproduce the fingerprint, issue a causality/reproducibility verdict and recertify a causal successor rather than laundering retrospective timing.",
       "state": "READY"
+    },
+    "source_lineage_013": {
+      "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
+      "result_commit": "86550b5d0a990f6a23d7dc85a5850583e03a3312",
+      "note_commit": "eba45c2f5aa8a9942c66ecee5e560fbaf0aa0d5d"
+    },
+    "causal_recert_014": {
+      "status": "IN_PROGRESS",
+      "frozen_helpers": [
+        "24125d9b3eb32243349385903b2e63e5d5cfad11",
+        "40e83b7dfbf59ef37459728dd625ed5e98a7ff96",
+        "5676801a6842eeb627cc12d272f17c2642d50c7e"
+      ],
+      "january": {
+        "status": "DETERMINISTIC_VERIFIED",
+        "trades": 28088,
+        "winners": 19087,
+        "win_rate": 0.6795428652805469,
+        "net": -4510.0870000207515,
+        "gross_loss": -11511.55100000661,
+        "profit_factor": 0.6082120471847657,
+        "max_drawdown": 4554.885500020489,
+        "raw_signals": 34362
+      },
+      "next_month": "2026-02",
+      "august_sealed": true
     }
   },
   "current_gamma_build_contract": {
@@ -826,7 +852,7 @@
     "excluded_research": "010-019 shadow/rejected/unpromoted logic, Gamma_1 stacking, lot ladder, percentage-risk sizing, blanket news blackout"
   },
   "gamma2_source_equivalence_recovery": {
-    "status": "ACTIVE_TOP_PRIORITY_HELPERS_REBUILT",
+    "status": "HISTORICAL_SOURCE_EXHAUSTED_CAUSAL_RECERT_ACTIVE",
     "activated": "2026-09-27",
     "authoritative_benchmark": {
       "build_id": "R9B_Gamma_2_Structure_Aware_Sweep_Reclaim",
@@ -849,12 +875,14 @@
     "current_finding": "All three helper roles are durably rebuilt. Exact historical source equivalence is unresolved. Source-like causal variants do not reproduce the certified 81.98% January conversion; near-target compatibility variants rely on future-completed-second/backdated event ownership and remain non-deployable forensic evidence.",
     "gate": "Recover historically supported source semantics and exact January benchmark with causality audit before Jan-Jul replay or downstream research.",
     "august_sealed": true,
-    "last_completed_unit": "R9B_GAMMA2_SOURCE_EQUIV_ALIGNMENT_DIRECTION_010L",
+    "last_completed_unit": "R9B_GAMMA2_SOURCE_EQUIV_PREPROMOTION_LINEAGE_013",
     "recovery_checkpoint_commit": "992245bb016311f8c2cd1f78ada7d40f1d24bab1",
     "alignment_direction_result_commit": "1f99cf2002d2482333cced92e3c1c9369436b48c",
     "spread_gate_result_commit": "f99f48481ce630ba5ef3d3066f448e62396a7f6d",
-    "next_unit": "R9B_GAMMA2_SOURCE_EQUIV_PREPROMOTION_LINEAGE_013",
+    "next_unit": "R9B_GAMMA2_CAUSAL_RECERT_BASELINE_014",
     "next_scope": "Source-only pre-promotion lineage archaeology; no target fitting. If source evidence is exhausted without causal equivalence, formalize the historical benchmark as non-reproducible/non-deployable and certify a causal successor baseline before downstream research.",
-    "august_accessed": false
+    "august_accessed": false,
+    "lineage_result_commit": "86550b5d0a990f6a23d7dc85a5850583e03a3312",
+    "lineage_note_commit": "eba45c2f5aa8a9942c66ecee5e560fbaf0aa0d5d"
   }
 }
