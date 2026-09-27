@@ -1310,6 +1310,47 @@
       "summary_sha256": "af38aa9627554844bde339f980bffbc54c4f29f632776418d09159947dae3dbb",
       "note_commit": "c04f3e56c378473a0d9f563f1a69b748d919ab3b",
       "august_accessed": false
+    },
+    "topic1_july_full": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_FROZEN_FORWARD_STRESS",
+      "days": 22,
+      "paired_population": {
+        "gamma_raw": 33278,
+        "gamma_executable": 24759,
+        "r9_real": 30491,
+        "r9_synth": 24382
+      },
+      "gamma_density_vs_synth": 1.0154622262324666,
+      "winners": 16104,
+      "losers": 8655,
+      "net": -5153.008000002819,
+      "gross_profit": 4035.434499998141,
+      "gross_loss": -9188.44250000096,
+      "pooled_5s": {
+        "gamma_exec_synth": {
+          "matches": 4559,
+          "gamma_coverage": 0.18413506199765742,
+          "same_side_rate": 0.3897784601886379
+        },
+        "gamma_exec_real": {
+          "matches": 4164,
+          "gamma_coverage": 0.16818126741790865,
+          "same_side_rate": 0.43852065321805955
+        },
+        "r9_real_synth": {
+          "matches": 6578,
+          "same_side_rate": 0.8092125266038309
+        }
+      },
+      "january_ratio": {
+        "coverage": 0.8913508016660128,
+        "same_side": 1.0543098489577982,
+        "density": 1.0115212811829994
+      },
+      "daily_detail_flag_25pct_worse": false,
+      "summary_sha256": "0f50b586c77d40fcdeb6e578cbfafe26e286a57d37988636efe1bf69fb63f930",
+      "note_commit": "7edbece9d8011c8e83803327e7cd9c0741c4ed66",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
