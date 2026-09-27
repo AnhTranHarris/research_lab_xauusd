@@ -1,6 +1,6 @@
 {
   "schema": "r9b-research-lab-state-v1",
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "active_branch_role": "lightweight quant control plane",
   "production_repo": "AnhTranHarris/gold-MUWHAHA-miner",
   "latest_formal_breakthrough": {
@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020",
+    "current_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_B_ACCEPTANCE_SWEEP",
     "current_unit_state": "READY",
     "source_equivalence_note": "019 shows leading event-time and raw-tick features help modestly but do not solve July, while naive MTF structure adds essentially nothing. 020 must test richer hierarchical structure/pattern equations rather than equal-weight timeframe voting or generic feature stacking.",
     "durable_commits": {
@@ -512,7 +512,7 @@
       "headline": "Gamma_2 +$29,583.12 Jan-Jul fixed 0.01 lot; 29.58% on $100k normalization; tested cost-sensitivity band 19.69%-29.58% on $100k normalization. Not a live-return forecast."
     },
     "hierarchical_pattern_state_020": {
-      "status": "READY",
+      "status": "IN_PROGRESS_STAGE_A_REJECTED_STAGE_B_READY",
       "plan_commit": "fd8acfd62966648e0dca2ea73f5dcd2ba3b1af0f",
       "plan_path": "notes/R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_PLAN.md",
       "objective": "Test hierarchical multi-timeframe structural ownership, state duration/change-point probability, ordinal-pattern transitions, liquidity acceptance/sweep state, and leading tick pressure to improve May-Jun and July without density collapse.",
@@ -533,7 +533,60 @@
         "gross_loss",
         "winning_trades_and_success",
         "net_profit"
-      ]
+      ],
+      "stage_a_structural_owner": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+        "result_commit": "3b30c47c541cf5bd0068f373b1388e0c79ec70cc",
+        "note_commit": "615440b32f910aa0e445fe0bdffd3c30e9511d4e",
+        "frozen_threshold": 0.45,
+        "source_equivalence": {
+          "january_exact_v2_match": true,
+          "trades": 33793,
+          "net": -6253.808000024798
+        },
+        "jan_jul": {
+          "trades": 234740,
+          "winners": 165215,
+          "win_rate": 0.7038212490414927,
+          "net": -42586.86950014577,
+          "gross_loss": -84552.45250004063,
+          "profit_factor": 0.4963260290986201
+        },
+        "may_jun": {
+          "trades": 66177,
+          "winners": 46374,
+          "win_rate": 0.7007570606101818,
+          "net": -12483.246500040512,
+          "gross_loss": -22016.234000011806
+        },
+        "july": {
+          "trades": 30790,
+          "winners": 19510,
+          "win_rate": 0.6336472880805456,
+          "net": -6120.219000003553,
+          "gross_loss": -9360.799000001141
+        },
+        "finding": "Hierarchical structure alone increases coverage and modestly lifts July conversion but worsens gross loss and net. Owner age, boundary distance and lower-timeframe conflict are the strongest structural diagnostics. Preserve as context only.",
+        "next_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_B_ACCEPTANCE_SWEEP",
+        "august_sealed": true
+      },
+      "stage_b_acceptance_sweep": {
+        "status": "READY",
+        "scope": [
+          "wick penetration versus accepted close beyond structural boundary",
+          "reclaim and failed acceptance",
+          "first versus repeated penetration",
+          "touch count and level age",
+          "normalized penetration and reclaim depth",
+          "owner-relative acceptance quality"
+        ],
+        "validation": "Jan-Mar discovery; April calibration; May-Jun strict forward; July stress-validation; August sealed",
+        "scoring_order": [
+          "gross_loss",
+          "winning_trades_and_success",
+          "net_profit"
+        ]
+      }
     },
     "super_handoff": {
       "title": "R9B Gamma — SUPER HANDOFF — 2026-09-26",
