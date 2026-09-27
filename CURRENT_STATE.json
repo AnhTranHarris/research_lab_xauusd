@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_APRIL_CACHE_AND_CROSSWALK",
+    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_MAY_CACHE_AND_CROSSWALK",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1187,6 +1187,47 @@
       "recall_sheet_id": "1Lkz5HaxBGMpi0b2MDe2UF1mL3_KvGHqSNysoPqTEeOc",
       "note_commit": "d7342c376ad29b2824efa11032e92fbad76a8eb4",
       "august_accessed": false
+    },
+    "topic1_april_full": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_CALIBRATION",
+      "days": 21,
+      "paired_population": {
+        "gamma_raw": 33232,
+        "gamma_executable": 26624,
+        "r9_real": 33613,
+        "r9_synth": 31756
+      },
+      "gamma_density_vs_synth": 0.838392744678171,
+      "winners": 18028,
+      "losers": 8596,
+      "net": -4736.528000019886,
+      "gross_profit": 6132.490499986413,
+      "gross_loss": -10869.0185000063,
+      "pooled_5s": {
+        "gamma_exec_synth": {
+          "matches": 6137,
+          "gamma_coverage": 0.23050631009615385,
+          "same_side_rate": 0.36304383249144534
+        },
+        "gamma_exec_real": {
+          "matches": 4798,
+          "gamma_coverage": 0.18021334134615385,
+          "same_side_rate": 0.3984993747394748
+        },
+        "r9_real_synth": {
+          "matches": 8837,
+          "same_side_rate": 0.7680208215457734
+        }
+      },
+      "january_ratio": {
+        "coverage": 1.1158221691417747,
+        "same_side": 0.9819954853684689,
+        "density": 0.8351389951527877
+      },
+      "daily_detail_flag_25pct_worse": false,
+      "summary_sha256": "f99ffdfff79168944b2df29fad6faca52cc1642161458b8c613ff9f839b26dca",
+      "note_commit": "502a89f77fbf0de6ac44f62fb6b055c79fe05943",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
@@ -1256,9 +1297,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_APRIL_CACHE_AND_CROSSWALK",
+      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_MAY_CACHE_AND_CROSSWALK",
       "state": "READY",
-      "scope": "April calibration: build staged exact Gamma014 cache, run compact R9 REAL/SYNTH daily Topic-1 crosswalk, apply January 25% detail trigger, persist one monthly checkpoint. August sealed."
+      "scope": "May frozen-forward Topic 1: staged exact Gamma014 cache, compact daily crosswalk, January 25% detail trigger, monthly checkpoint only. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
