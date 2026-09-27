@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_002_H1_H4_FRESH_CAUSAL_RECONSTRUCTION",
+    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_017_POST_EXIT_REQUALIFICATION_BRIDGE",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2769,7 +2769,7 @@
       "resume_unit": "R9B_GAMMA_DYNAMIC_GL_001_017_012_REBASE",
       "status": "VERIFIED_DURABLE_HANDOFF"
     },
-    "user_directed_focus": "ENTRY/ACTION and HOLD/PERSISTENCE revisit rooted at R9B_GAMMA_DYNAMIC_GL_001_017_012_REBASE; this temporarily supersedes NET002 ordering without changing the causal parent or sealed-period rules.",
+    "user_directed_focus": "User explicitly directed Gamma entry/hold rebuild first, then hold/exit. This temporarily supersedes NET002 ordering; causal parent and sealed-period rules unchanged.",
     "entry_hold_pass_001": {
       "status": "VERIFIED_DURABLE_DIAGNOSTIC_NO_PROMOTION",
       "result_commit": "5149a2003554bb7b86d92686753531fde1d35936",
@@ -2957,9 +2957,21 @@
       "august_accessed": false
     },
     "entry_hold_pass_status": {
-      "status": "POLLING_SAFE_PASS_CHECKPOINT_COMPLETE_NO_FORMAL_PROMOTION",
-      "strongest_research_shadow": "ENTRY013_GL009_PLUS_ENTRY012",
-      "conclusion": "Entry-side toxicity/severity gating materially compresses loss but costs density; hold/persistence variants and micro-retest entry did not produce a robust positive-expectancy bridge. Stop local entry/hold refinement here to avoid diminishing-return compute.",
+      "status": "USER_REOPENED_FOR_ARCHITECTURAL_REBUILD_AFTER_ENTRY016",
+      "prior_local_refinement_pass": "closed without promotion",
+      "new_scope": "First-wave / requalification / second-wave causal state machine; close-anchored transition features before hold/exit research.",
+      "august_accessed": false
+    },
+    "entry_016_second_wave_requalification": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECT_DIRECT_TRANSPLANT",
+      "source_commit": "89e689fc1f12f66635a16ab45ee8d32302c94332",
+      "result_commit": "5c3ce46f6c1aee152eb98ec1c0c51b5b8caa88f9",
+      "note_commit": "1e351525b973d9bafaeb4feec28cc82aa7f3f35b",
+      "source_sha256": "d5038fb89fcb85c4f7be50a28fe7c8af43bf45fdbcb457331da669733a3381ae",
+      "result_sha256": "ed8ce2af65a6fe61a8dc4ac5f9d6c4ef00cd330199ed2996fe29fdff1178f773",
+      "screen_count": 180,
+      "robust_candidates": 0,
+      "conclusion": "Naive second/opposite Gamma re-entry remains negative Jan-Mar despite ~96-97% teacher best-action profitability and ~47-48% owner flips. Existing event-aligned causal features cannot identify the edge robustly. Rebuild close-anchored requalification bridge features.",
       "august_accessed": false
     }
   },
