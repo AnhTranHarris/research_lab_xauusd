@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JANUARY_MULTI_DAY_CROSSWALK",
+    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JANUARY_REMAINDER_CROSSWALK",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -863,6 +863,99 @@
         "result_sha256": "eedf5e6066ba76083e7dd26813cb71a5c0119a7accdf6eb24ab516cd8aa57b69",
         "note_commit": "1667d9f75148aeb151066d840b27d888379c319f",
         "august_accessed": false
+      },
+      "jan07": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+        "server_to_utc_offset_ms": -7200000,
+        "population": {
+          "gamma_raw": 1430,
+          "gamma_executable": 1093,
+          "r9_real": 1567,
+          "r9_synth": 1243
+        },
+        "gamma_economics": {
+          "winners": 740,
+          "losers": 353,
+          "net": -176.41200000081608,
+          "gross_loss": -389.3975000002556
+        },
+        "match_5s": {
+          "gamma_exec_synth": {
+            "gamma_coverage": 0.20768526989935956,
+            "same_side_rate": 0.3832599118942731
+          },
+          "gamma_exec_real": {
+            "gamma_coverage": 0.21134492223238793,
+            "same_side_rate": 0.48917748917748916
+          },
+          "r9_real_synth": {
+            "same_side_rate": 0.7982954545454546
+          }
+        },
+        "result_sha256": "14cddcffa3ac501865e94140dd9f0eaa1181f213c6df920f40d9d69b5bb9647b",
+        "august_accessed": false
+      },
+      "jan08": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+        "server_to_utc_offset_ms": -7200000,
+        "population": {
+          "gamma_raw": 1459,
+          "gamma_executable": 1126,
+          "r9_real": 1572,
+          "r9_synth": 1175
+        },
+        "gamma_economics": {
+          "winners": 770,
+          "losers": 356,
+          "net": -217.67400000081398,
+          "gross_loss": -426.65600000025825
+        },
+        "match_5s": {
+          "gamma_exec_synth": {
+            "gamma_coverage": 0.19005328596802842,
+            "same_side_rate": 0.32710280373831774
+          },
+          "gamma_exec_real": {
+            "gamma_coverage": 0.1811722912966252,
+            "same_side_rate": 0.39705882352941174
+          },
+          "r9_real_synth": {
+            "same_side_rate": 0.8097982708933718
+          }
+        },
+        "result_sha256": "dc730acba23743b574e9677fa3a77bd00e5987b025bb9f38e9b96908a22c8fae",
+        "august_accessed": false
+      },
+      "jan09": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+        "server_to_utc_offset_ms": -7200000,
+        "population": {
+          "gamma_raw": 1349,
+          "gamma_executable": 1053,
+          "r9_real": 1485,
+          "r9_synth": 988
+        },
+        "gamma_economics": {
+          "winners": 707,
+          "losers": 346,
+          "net": -168.31750000077136,
+          "gross_loss": -365.44750000025124
+        },
+        "match_5s": {
+          "gamma_exec_synth": {
+            "gamma_coverage": 0.17094017094017094,
+            "same_side_rate": 0.3333333333333333
+          },
+          "gamma_exec_real": {
+            "gamma_coverage": 0.19943019943019943,
+            "same_side_rate": 0.5
+          },
+          "r9_real_synth": {
+            "same_side_rate": 0.8415094339622642
+          }
+        },
+        "result_sha256": "07b4e651e00155d3e616317822fa3b303ce4462f6e2b6c4b695b0afff8773937",
+        "august_accessed": false
       }
     },
     "topic1_cache": {
@@ -877,6 +970,28 @@
         "2026-01-05"
       ],
       "note_commit": "b9658bee0a4bd588d31645333ecb928afa74cdd4",
+      "august_accessed": false
+    },
+    "topic1_first6days": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+      "days": 6,
+      "gamma_executable": 6528,
+      "r9_synth": 6911,
+      "r9_real": 9279,
+      "gamma_density_vs_synth": 0.9445811025900738,
+      "gamma_density_vs_real": 0.7035240866472681,
+      "winners": 4409,
+      "losers": 2119,
+      "win_rate": 0.6753982843137255,
+      "net": -1133.2940000048502,
+      "gross_loss": -2364.668500001574,
+      "mean_5s_gamma_synth_coverage": 0.19029395368585056,
+      "mean_5s_gamma_synth_same_side": 0.37605480099361993,
+      "mean_5s_gamma_real_coverage": 0.19679712517036987,
+      "mean_5s_gamma_real_same_side": 0.4834423979974987,
+      "mean_5s_real_synth_same_side": 0.8065879467866943,
+      "aggregate_sha256": "6d38325a32bcbd80405558f5134901ab5a8f8d210f610ef482b19ef90af030a3",
+      "note_commit": "55332647ff40efe7f80ae0cfae91eb4cbb6e37fe",
       "august_accessed": false
     }
   },
@@ -947,9 +1062,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JANUARY_MULTI_DAY_CROSSWALK",
+      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JANUARY_REMAINDER_CROSSWALK",
       "state": "READY",
-      "scope": "Continue Topic 1 additional January daily crosswalks using the verified cache. Revalidate R9 server clock per day. Aggregate population/timing/direction classes; no Gamma logic changes. August sealed."
+      "scope": "Continue full-January Topic 1 daily crosswalk using verified cache; preserve per-day clock QC and aggregate population/timing/direction classes. No strategy changes. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
