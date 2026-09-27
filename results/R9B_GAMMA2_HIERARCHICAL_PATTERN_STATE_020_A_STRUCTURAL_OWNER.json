@@ -1,0 +1,88 @@
+{
+  "unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_A_STRUCTURAL_OWNER",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+  "classification": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+  "decision": "DO_NOT_PROMOTE. Hierarchical structural ownership alone increases coverage and modestly improves July success rate, but materially worsens gross loss and net. Preserve owner-age/distance/conflict context for 020-B acceptance/sweep state.",
+  "frozen_threshold": 0.45,
+  "source_equivalence": {
+    "cache_recovery_only": true,
+    "exact_match": true,
+    "january_exact_v2_trades": 33793,
+    "january_exact_v2_net": -6253.808000024798
+  },
+  "jan_jul": {
+    "trades": 234740,
+    "winners": 165215,
+    "win_rate": 0.7038212490414927,
+    "net": -42586.86950014577,
+    "gross_profit": 41965.58299989486,
+    "gross_loss": -84552.45250004063,
+    "profit_factor": 0.4963260290986201
+  },
+  "may_jun": {
+    "trades": 66177,
+    "winners": 46374,
+    "win_rate": 0.7007570606101818,
+    "net": -12483.246500040512,
+    "gross_profit": 9532.987499971292,
+    "gross_loss": -22016.234000011806,
+    "profit_factor": 0.4329981004001947
+  },
+  "may_jul": {
+    "trades": 96967,
+    "winners": 65884,
+    "win_rate": 0.679447647137686,
+    "net": -18603.465500044065,
+    "gross_profit": 12773.567499968882,
+    "gross_loss": -31377.033000012947,
+    "profit_factor": 0.40709927863363027
+  },
+  "july": {
+    "trades": 30790,
+    "winners": 19510,
+    "win_rate": 0.6336472880805456,
+    "net": -6120.219000003553,
+    "gross_profit": 3240.5799999975884,
+    "gross_loss": -9360.799000001141,
+    "profit_factor": 0.34618626038196026
+  },
+  "reference_017": {
+    "jan_jul": {"trades":137288,"winners":97533,"win_rate":0.7104262572,"net":-12342.1705,"gross_loss":-38839.236,"profit_factor":0.6822241689},
+    "may_jul": {"trades":53336,"winners":36175,"win_rate":0.6782473376,"net":-6921.7605,"gross_loss":-14064.006,"profit_factor":0.5078386272},
+    "july": {"trades":16188,"winners":10052,"win_rate":0.6209537929,"net":-2412.193,"gross_loss":-4135.019,"profit_factor":0.4166428256}
+  },
+  "reference_019": {
+    "jan_jul": {"trades":136450,"winners":96908,"win_rate":0.7102088677,"net":-11758.6895,"gross_loss":-38062.862,"profit_factor":0.6910718511},
+    "july": {"trades":16042,"winners":9903,"win_rate":0.6173170428,"net":-2563.0005,"gross_loss":-4259.618}
+  },
+  "delta_vs_017": {
+    "jan_jul": {"trades_delta":97452,"winners_delta":67682,"win_rate_delta_pp":-0.6605008158507286,"net_change":-30244.699000145767,"gross_loss_improvement":-45713.21650004063},
+    "may_jul": {"trades_delta":43631,"winners_delta":29709,"win_rate_delta_pp":0.12003095376860173,"net_change":-11681.705000044065,"gross_loss_improvement":-17313.027000012946},
+    "july": {"trades_delta":14602,"winners_delta":9458,"win_rate_delta_pp":1.2693495180545633,"net_change":-3708.0260000035532,"gross_loss_improvement":-5225.780000001141}
+  },
+  "delta_vs_019": {
+    "jan_jul": {"trades_delta":98290,"winners_delta":68307,"win_rate_delta_pp":-0.6387618658507344,"net_change":-30828.180000145767,"gross_loss_improvement":-46489.59050004063},
+    "july": {"trades_delta":14748,"winners_delta":9607,"win_rate_delta_pp":1.6330245280545608,"net_change":-3557.2185000035533,"gross_loss_improvement":-5101.181000001141}
+  },
+  "feature_importance": {
+    "owner_age": 0.2271072140828297,
+    "owner_dist": 0.19890270862949605,
+    "lower_conflict": 0.167689970863366,
+    "owner_bos_age": 0.12637149582649454,
+    "owner_tf": 0.12004567442725682,
+    "struct_align_count": 0.09111611328107685,
+    "struct_conflict_count": 0.036909448094293466,
+    "lower_confirm": 0.03185737479518657
+  },
+  "owner_coverage": {"1":0.9997928565087444,"2":1.0,"3":1.0,"4":1.0,"5":1.0,"6":1.0,"7":1.0},
+  "teacher_neither": {"1":0.06007161246411979,"2":0.04684108640816566,"3":0.04751867176724699,"4":0.06,"5":0.052986423952683034,"6":0.06685079591351865,"7":0.10659947669347805},
+  "source_hashes": {
+    "r9b_020a_hierarchical_owner.py": "1d5312f771768ba618d2b8792072216f4ecacf58eb50d2ca81b6fe0f1c081a0d",
+    "r9b_020a_freeze.py": "897b92fdf32de4435ab68cac9bf14282b3f95d2f878784b123e6992377b6aff8",
+    "r9b_020a_forward_eval.py": "466f3f576c91967417967f40fe053c669ef2f8d096c9124a8c442f6a12cf6431",
+    "freeze_json": "4c4ef4f86f7ca19cc48c43370386051d60b65328324356c214b48f784eb8ebba"
+  },
+  "next_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020_B_ACCEPTANCE_SWEEP",
+  "august_sealed": true,
+  "august_accessed": false
+}
