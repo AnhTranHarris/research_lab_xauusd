@@ -1,0 +1,14 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_002_RENEWAL_PERSISTENCE_OWNER",
+  "month": 2,
+  "status": "VERIFIED_DURABLE_MONTH_CHECKPOINT",
+  "profile": {
+    "cp_ms": 1000,
+    "trail": 0.15,
+    "maxhold_ms": 120000
+  },
+  "output_sha256": "509647cca263fe04472529ee6b56c78b34403b3130a3df8783470636e79e31ba",
+  "source_sha256": "59256d06e55392facb54e306d48e28d0ef30398047f589f93b8c069a47454532",
+  "rows": 32862,
+  "august_accessed": false
+}
