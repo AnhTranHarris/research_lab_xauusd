@@ -1,0 +1,59 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_002_RENEWAL_PERSISTENCE_OWNER",
+  "status": "VERIFIED_DURABLE_REJECTED",
+  "parent": "GL001 / Gamma014",
+  "runner_profile": {
+    "checkpoint_ms": 1000,
+    "post_checkpoint_trail": 0.15,
+    "max_hold_ms": 120000,
+    "activation_unchanged": true,
+    "stop_never_loosened": true,
+    "selected_from": "January first14 capacity only"
+  },
+  "training": {
+    "screen_count": 450,
+    "training_eligible": 87
+  },
+  "replication": {
+    "robust_95_count": 0,
+    "example": {
+      "mfe_min": 0.08,
+      "renew_min": 6,
+      "agefav_max": 0.5,
+      "giveback_max": 0.03,
+      "jan_heldout": {
+        "net_improvement": 0.3190000000040527,
+        "gl_reduction_pct": -0.014390763525764705
+      },
+      "feb": {
+        "net_improvement": -4.593000000000757,
+        "gl_reduction_pct": -0.031034011064903683
+      },
+      "mar": {
+        "net_improvement": -8.851999999997133,
+        "gl_reduction_pct": -0.10706880183071928
+      }
+    }
+  },
+  "conclusion": "Runner extension has oracle/capacity value, but simple causal favorable-extreme-renewal ownership does not replicate. Reject current HOLD002 implementation; do not globally widen runner lifecycle.",
+  "result_sha256": "73895a6d3eef8a0f368d5672c6cd1288182ebe36fdcf30510d350415aa5023c0",
+  "runner_months": {
+    "01": {
+      "output_sha256": "61191929371c18a96dc35e7b41c036f86b40557c3698493c0d80d0aaa0fe414d",
+      "checkpoint_commit": "24ffb7e356f871c79ee748cf814e7b3372c2619f"
+    },
+    "02": {
+      "output_sha256": "509647cca263fe04472529ee6b56c78b34403b3130a3df8783470636e79e31ba",
+      "checkpoint_commit": "992ef06803d0e669c3fd6953c1eb9487c4c0b286"
+    },
+    "03": {
+      "output_sha256": "599b320ecb6b22025cc3046547bf0b10a59f8691be58b96bc19f0a6d2c97276c",
+      "checkpoint_commit": "9d85b9eeff43b50489215f45d7b23e92bd8cb720"
+    }
+  },
+  "source_commits": {
+    "screen": "6ceae938a41d8b524df5cea408d566856b9223ed",
+    "runner": "51838215b4c30a1f39e7825cb6f9fa69da948f50"
+  },
+  "august_accessed": false
+}
