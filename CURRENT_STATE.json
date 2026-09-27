@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_LEADING_TICK_MICROSTRUCTURE_019",
+    "current_unit": "R9B_GAMMA2_HIERARCHICAL_PATTERN_STATE_020",
     "current_unit_state": "READY",
-    "source_equivalence_note": "018 rejects delayed proof as an entry layer. Next move ownership earlier into leading raw-tick microstructure so tradeability and side can be inferred before the short-horizon excursion is consumed.",
+    "source_equivalence_note": "019 modestly improves April and May-Jun using leading event-time features while preserving ~99% of 017 winners, but worsens July. Flat MTF structural voting is too coarse. Next rebuild market awareness as hierarchical pattern/state ownership with accepted body structure vs wick sweep, ordinal transition networks, causal change-point/run-length state, and persistent liquidity-level memory.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -451,24 +451,66 @@
     },
     "forward_integrity_note": "May-Jun remain strict untouched forward for 018 parameter selection. July was used as mechanism-forensic stress analysis in 017A and is not a pristine mechanism-selection holdout for 018. August remains sealed.",
     "leading_tick_microstructure_019": {
-      "objective": "Improve pre-entry tradeability and ownership on native-R9 events using leading tick microstructure, then feed decisions into separate 017 regime specialists.",
-      "features": [
-        "signed tick imbalance and run structure",
-        "tick-arrival velocity and acceleration",
-        "extreme-renewal asymmetry",
-        "quote-gap frequency/size",
-        "actual Dukascopy spread state",
-        "quote-volume imbalance and local micro-VWAP when supported",
-        "tick-sequence entropy/compressibility",
-        "directional-change multi-threshold state and overshoot age",
-        "execution-stability state"
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_CANDIDATE",
+      "result_commit": "aaa78cd0016746756f3e3675ec1762dd1f9570e9",
+      "note_commit": "296823bc1c71f4414b2031e42e86987c3735b36a",
+      "baseline_017": {
+        "trades": 137288,
+        "winners": 97533,
+        "win_rate": 0.7104262572,
+        "net": -12342.1705,
+        "gross_loss": -38839.236,
+        "profit_factor": 0.6822241689
+      },
+      "selected_family": "BASE_EVENTTIME",
+      "jan_jul": {
+        "trades": 136450,
+        "winners": 96908,
+        "win_rate": 0.7102088677,
+        "net": -11758.6895,
+        "gross_loss": -38062.862,
+        "profit_factor": 0.6910718511
+      },
+      "delta_vs_017": {
+        "gross_loss_reduction_pct": 1.99894,
+        "net_improvement": 583.481,
+        "winner_retention_pct": 99.3592,
+        "trade_retention_pct": 99.3896,
+        "win_rate_delta_pp": -0.02174
+      },
+      "may_jun_strict_forward": {
+        "gross_loss_reduction_pct": 4.87765,
+        "net_improvement": 423.159,
+        "winner_retention_pct": 99.5559,
+        "trade_retention_pct": 99.5531,
+        "win_rate_delta_pp": 0.00198
+      },
+      "july": {
+        "trades": 16042,
+        "winners": 9903,
+        "win_rate": 0.6173170428,
+        "net": -2563.0005,
+        "gross_loss": -4259.618
+      },
+      "july_delta_vs_017": {
+        "net": -150.8075,
+        "gross_loss": -124.599,
+        "win_rate_delta_pp": -0.36368
+      },
+      "surviving_new_features": [
+        "raw_ret_5s_side",
+        "raw_ret_60s_side",
+        "dc20_state_side",
+        "dc10_age_s",
+        "gap_max64",
+        "gap_mean16",
+        "arrival_accel_16_64",
+        "actual_spread",
+        "sec_eff60",
+        "variance_ratio",
+        "CUSUM"
       ],
-      "validation": "Jan-Mar discovery; April calibration; May-Jun strict forward; July stress-validation; August sealed",
-      "scoring_order": [
-        "gross_loss",
-        "winning_trades_and_success",
-        "net_profit"
-      ]
+      "rejected_representation": "Simple 1m/3m/5m/10m/20m HH-HL/LH-LL voting did not change decisions; multi-timeframe hypothesis remains open but needs hierarchical state ownership."
     },
     "roi_report_requirement": {
       "basis": "Dukascopy exact-tick Python backtest",
@@ -494,6 +536,25 @@
       "google_doc_url": "https://docs.google.com/document/d/1Pv4ydRjg1Iek7e_JIuwlFSH5FdJMxMOe_9ci5-wneDA/edit",
       "basis": "Current formal Gamma_2 only; excludes 017 shadow and rejected 018.",
       "headline": "Gamma_2 +$29,583.12 Jan-Jul fixed 0.01 lot; 29.58% on $100k normalization; tested cost-sensitivity band 19.69%-29.58% on $100k normalization. Not a live-return forecast."
+    },
+    "hierarchical_pattern_state_020": {
+      "objective": "Improve July and Jan-Jul success by representing structure/pattern as hierarchical causal state rather than flat timeframe votes.",
+      "mechanisms": [
+        "highest-live accepted structural timeframe owner across 1m/3m/5m/10m/20m/H1 where causal history supports it",
+        "body-based accepted structure separate from wick liquidity sweep",
+        "persistent level registry with age/touch count/first penetration/reclaim/acceptance",
+        "ordinal-pattern transition network with permutation entropy, Jensen-Shannon time irreversibility, forbidden-pattern fraction",
+        "BOCPD-style causal run-length/change probability or bounded reconstructible equivalent",
+        "target-calibrated two-sided CUSUM breakpoint state",
+        "019 directional-change/event-time/tick-gap/arrival/spread descriptors retained",
+        "semantic routing into separate regime specialists, no indiscriminate all-feature stack"
+      ],
+      "validation": "Jan-Mar discovery; April calibration; May-Jun strict forward; July stress-validation; August sealed",
+      "scoring_order": [
+        "gross_loss",
+        "winning_trades_and_success",
+        "net_profit"
+      ]
     }
   }
 }
