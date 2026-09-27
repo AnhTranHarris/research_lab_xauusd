@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JANUARY_CACHE_PRECOMPUTE",
+    "current_unit": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JANUARY_MULTI_DAY_CROSSWALK",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -827,6 +827,20 @@
         "note_commit": "81224cbeee4d6e29dceab0deffe1a3120e3785ff",
         "august_accessed": false
       }
+    },
+    "topic1_cache": {
+      "status": "VERIFIED_DURABLE_INFRASTRUCTURE",
+      "library_path": "/R9_Rebuild/R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015/topic1/R9B_GAMMA2_TOPIC1_JANUARY_CACHE.npz",
+      "cache_sha256": "cdccba49b9ddcadb554024e7888ed6db1ea8d921cb153bb1443e37f0d37ba914",
+      "source_sha256": "6c49cb41a5b915a4714198d9c3a3a4592c27ddf3418b6a0ec783d78711fba92b",
+      "raw_signals": 34362,
+      "executable_trades": 28088,
+      "regression_days": [
+        "2026-01-02",
+        "2026-01-05"
+      ],
+      "note_commit": "b9658bee0a4bd588d31645333ecb928afa74cdd4",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
@@ -896,9 +910,9 @@
       "conclusion": "Alignment-direction reinterpretations do not reproduce the certified January fingerprint."
     },
     "next_unit": {
-      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JANUARY_CACHE_PRECOMPUTE",
+      "id": "R9B_GAMMA2_CAUSAL_BRIDGE_RECOVERY_015_TOPIC1_JANUARY_MULTI_DAY_CROSSWALK",
       "state": "READY",
-      "scope": "Freeze/reuse compact January Gamma014 event/outcome/non-overlap and Dukascopy minute-close cache for Topic 1. Preserve exact 014 semantics; then continue January daily crosswalk without repeated monthly strategy replay. August sealed."
+      "scope": "Continue Topic 1 additional January daily crosswalks using the verified cache. Revalidate R9 server clock per day. Aggregate population/timing/direction classes; no Gamma logic changes. August sealed."
     },
     "source_lineage_013": {
       "status": "VERIFIED_DURABLE_FORENSIC_SOURCE_EXHAUSTED",
