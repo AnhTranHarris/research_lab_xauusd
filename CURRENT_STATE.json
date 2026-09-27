@@ -44,9 +44,9 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA2_CONFIDENCE_PROOF_HANDOFF_018",
+    "current_unit": "R9B_GAMMA2_LEADING_TICK_MICROSTRUCTURE_019",
     "current_unit_state": "READY",
-    "source_equivalence_note": "017A July forensic shows cross-regime tradeability deterioration: toxic/neither events nearly double, regime age halves, and oracle excursion capacity falls ~45% while broad regime mix stays similar. Static viability is weak; amend 018 to use dynamic exact-tick proof/handoff.",
+    "source_equivalence_note": "018 rejects delayed proof as an entry layer. Next move ownership earlier into leading raw-tick microstructure so tradeability and side can be inferred before the short-horizon excursion is consumed.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
       "semantics_004_note": "c947e47183c50707e4362318891ebe7c525f3908",
@@ -385,24 +385,38 @@
       "limitation": "Current shadow replay uses fixed modeled transaction-cost geometry and does not fully reproduce live news spread/slippage."
     },
     "confidence_proof_handoff_018": {
-      "objective": "Recover low-confidence and July-like winners without reopening the large-loss pool.",
-      "mechanisms": [
-        "separate classification confidence from tradeability/viability confidence",
-        "regime durability/age and excursion-capacity state",
-        "two-stage viability -> action ownership -> lifecycle",
-        "exact-tick virtual FADE/CONTINUE OCO first-touch proof",
-        "prioritize approximately $0.30/5s and $0.30/10s candidates",
-        "entry only at actual proof tick",
-        "conditional retest/rebreak only for ambiguous/noisy proof states",
-        "expiry and specialist handoff for unresolved events",
-        "news remains execution-risk annotation"
-      ],
-      "validation": "Jan-Mar discovery; April calibration; May-Jul frozen; August sealed",
-      "scoring_order": [
-        "gross_loss",
-        "winning_trades_and_success",
-        "net_profit"
-      ]
+      "status": "VERIFIED_DURABLE_REJECTED",
+      "result_commit": "8034fe5741a9a0bfba8dba887da2f9652653d7cd",
+      "note_commit": "bd546e1131bb74abb19113ed029190ecc6e4a0e5",
+      "baseline_017_jan_jul": {
+        "trades": 137288,
+        "winners": 97533,
+        "win_rate": 0.7104262572,
+        "net": -12342.1705,
+        "gross_loss": -38839.236
+      },
+      "least_bad_first_touch": {
+        "mode": "MARGIN_05",
+        "threshold": 0.35,
+        "window_s": 5,
+        "jan_jul": {
+          "trades": 131545,
+          "winners": 91129,
+          "win_rate": 0.6927591319,
+          "net": -17972.625,
+          "gross_loss": -43472.2905
+        }
+      },
+      "winner_recovery_example": {
+        "mode": "ABSTAIN_ONLY",
+        "threshold": 0.35,
+        "window_s": 5,
+        "winner_change": 17056,
+        "net_change": -5383.811,
+        "gross_loss_change": -9513.372
+      },
+      "pullback_reaccel": "Rejected; best April variant still worsened net, GL and winner count.",
+      "conclusion": "First-touch proof is predictive as a selection variable but loses edge when entry occurs at the proof tick. Confirmation tax/latency is too expensive for this HFT path."
     },
     "july_oracle_correlation_017A": {
       "status": "VERIFIED_DURABLE_FORENSIC",
@@ -434,6 +448,45 @@
         "note": "Selection correlation only; 018 must enter at proof tick."
       },
       "architectural_conclusion": "Separate classification confidence from tradeability/viability, then dynamic ownership proof, then lifecycle. Broad regime label alone does not explain July."
+    },
+    "forward_integrity_note": "May-Jun remain strict untouched forward for 018 parameter selection. July was used as mechanism-forensic stress analysis in 017A and is not a pristine mechanism-selection holdout for 018. August remains sealed.",
+    "leading_tick_microstructure_019": {
+      "objective": "Improve pre-entry tradeability and ownership on native-R9 events using leading tick microstructure, then feed decisions into separate 017 regime specialists.",
+      "features": [
+        "signed tick imbalance and run structure",
+        "tick-arrival velocity and acceleration",
+        "extreme-renewal asymmetry",
+        "quote-gap frequency/size",
+        "actual Dukascopy spread state",
+        "quote-volume imbalance and local micro-VWAP when supported",
+        "tick-sequence entropy/compressibility",
+        "directional-change multi-threshold state and overshoot age",
+        "execution-stability state"
+      ],
+      "validation": "Jan-Mar discovery; April calibration; May-Jun strict forward; July stress-validation; August sealed",
+      "scoring_order": [
+        "gross_loss",
+        "winning_trades_and_success",
+        "net_profit"
+      ]
+    },
+    "roi_report_requirement": {
+      "basis": "Dukascopy exact-tick Python backtest",
+      "current_formal_build": "R9B_Gamma_2_Structure_Aware_Sweep_Reclaim",
+      "exclude_from_deployable_roi": [
+        "017 research shadow",
+        "018 rejected delayed-proof layer"
+      ],
+      "required_sections": [
+        "backtest-implied ROI vs live expectation",
+        "fixed-lot return",
+        "small-balance survivability",
+        "monthly and cumulative path",
+        "gross loss and drawdown",
+        "transaction-cost/slippage sensitivity",
+        "R9 SYNTH benchmark gap",
+        "research frontier status"
+      ]
     }
   }
 }
