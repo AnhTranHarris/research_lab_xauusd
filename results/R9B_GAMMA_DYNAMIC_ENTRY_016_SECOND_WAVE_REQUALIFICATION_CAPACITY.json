@@ -1,0 +1,63 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_016_SECOND_WAVE_REQUALIFICATION_CAPACITY",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECT_DIRECT_TRANSPLANT",
+  "parent": "GL001 / Gamma014",
+  "date": "2026-09-27",
+  "source_sha256": "d5038fb89fcb85c4f7be50a28fe7c8af43bf45fdbcb457331da669733a3381ae",
+  "local_full_result_sha256": "ed8ce2af65a6fe61a8dc4ac5f9d6c4ef00cd330199ed2996fe29fdff1178f773",
+  "state_definition": "Second executed Gamma trade in the same UTC minute, after prior trade close, with current executed direction opposite prior executed direction.",
+  "naive_second_opposite": {
+    "january": {
+      "trades": 2722,
+      "win_rate": 0.7013225569,
+      "net": -347.601500002,
+      "gross_loss": -1110.1320000006,
+      "expectancy": -0.1277007715
+    },
+    "february": {
+      "trades": 3101,
+      "win_rate": 0.6833279587,
+      "net": -375.1695000023,
+      "gross_loss": -1461.9135000007,
+      "expectancy": -0.1209833925
+    },
+    "march": {
+      "trades": 4225,
+      "win_rate": 0.6821301775,
+      "net": -759.3570000031,
+      "gross_loss": -1952.740000001,
+      "expectancy": -0.1797294675
+    }
+  },
+  "oracle_capacity_teacher_only": {
+    "january": {
+      "win_rate": 0.9698750918,
+      "net": 1287.045999998,
+      "gross_loss": -9.6000000001,
+      "teacher_profitable_pct": 96.9875091844,
+      "teacher_action_flip_pct": 48.0896399706
+    },
+    "february": {
+      "win_rate": 0.9680748146,
+      "net": 1809.8974999978,
+      "gross_loss": -13.1875000001,
+      "teacher_profitable_pct": 96.8074814576,
+      "teacher_action_flip_pct": 47.2750725572
+    },
+    "march": {
+      "win_rate": 0.9630769231,
+      "net": 1981.3069999968,
+      "gross_loss": -18.1165000001,
+      "teacher_profitable_pct": 96.3076923077,
+      "teacher_action_flip_pct": 48.1656804734
+    }
+  },
+  "transparent_screen": {
+    "screen_count": 180,
+    "eligible_robust": 0,
+    "eligible_robust_density30": 0
+  },
+  "conclusion": "R9 SYNTH's second/opposite re-entry effect does not transfer as a naive Gamma rule. The enormous oracle gap proves action ownership capacity exists, but current event-aligned F/S features cannot causally identify it across Jan-heldout/Feb/Mar. Next rebuild requalification features anchored specifically to the previous trade close and the close-to-new-signal exact-tick bridge, then retest ownership before any hold/exit work.",
+  "next_unit": "R9B_GAMMA_DYNAMIC_ENTRY_017_POST_EXIT_REQUALIFICATION_BRIDGE",
+  "august_accessed": false
+}
