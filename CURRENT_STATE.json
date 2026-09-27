@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_008_TARGETED_REGIME_OWNER_OVERRIDE_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_008_MAY_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2258,7 +2258,43 @@
         "august_accessed": false
       }
     },
-    "working_parent": "GL001_FROZEN_JAN_OWNERSHIP"
+    "working_parent": "GL001_FROZEN_JAN_OWNERSHIP",
+    "gl008": {
+      "status": "VERIFIED_DURABLE_CALIBRATION_READY_FORWARD",
+      "parent": "GL004_EXTREME_VETO_SHADOW",
+      "mechanism": "Jan-trained per-regime router consulted only on GL004-retained FADE events with fade alignment exactly 2; confident disagreement vetoes; no create/flip.",
+      "model_sha256": "2b8dff99aabde5a5196440e65306d599722869fe920e0299ce46c9c76d1a2d0f",
+      "contract": {
+        "depth": 4,
+        "leaf": 75,
+        "confidence_threshold": 0.45,
+        "target": "FADE_ALIGNMENT_2",
+        "mode": "DISAGREE_VETO"
+      },
+      "jan_heldout": {
+        "gl_reduction_pct": 2.587462655272471,
+        "winner_retention_pct": 97.42512389571213,
+        "net_improvement": 29.39950000023964
+      },
+      "feb": {
+        "gl_reduction_pct": 3.370550027039576,
+        "winner_retention_pct": 97.07386701558225,
+        "net_improvement": 103.44150000050286
+      },
+      "mar": {
+        "gl_reduction_pct": 3.085787930293321,
+        "winner_retention_pct": 97.34733092749683,
+        "net_improvement": 192.45000000057098
+      },
+      "apr": {
+        "gl_reduction_pct": 2.1161454125243857,
+        "winner_retention_pct": 97.88546821775178,
+        "net_improvement": 62.13350000035098
+      },
+      "note_commit": "2cdd76d082126b4ec21dba53a29cbcc98fe8ac1f",
+      "library_root": "/R9_Rebuild/R9B_GAMMA_DYNAMIC_GL_008/",
+      "august_accessed": false
+    }
   },
   "gamma2_benchmark_recovery": {
     "status": "CAUSAL_RECERT_014_COMPLETE_RESEARCH_READY",
