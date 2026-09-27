@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_202605_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_004_EXTREME_VETO_MAY_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1931,6 +1931,61 @@
         },
         "result_sha256": "a1d93c9e707ecad5792088984c4f5954f35fdac147f84044988a87efe9281c75",
         "decision": "FREEZE_GL001_PLUS_GL004_FOR_FORWARD",
+        "august_accessed": false
+      },
+      "gl004_mar_replication": {
+        "status": "VERIFIED_DURABLE_REPLICATION",
+        "baseline_gl001": {
+          "trades": 32687,
+          "winners": 22463,
+          "net": -5778.782500023921,
+          "gross_loss": -14949.733000007342,
+          "max_drawdown": 5787.485500023899
+        },
+        "candidate": {
+          "trades": 31024,
+          "winners": 21337,
+          "net": -5478.279000022714,
+          "gross_loss": -14187.835000006959,
+          "max_drawdown": 5488.835500022667
+        },
+        "delta_vs_gl001": {
+          "gl_reduction_pct": 5.096398711602467,
+          "winner_retention_pct": 94.98731246939411,
+          "trade_retention_pct": 94.9123504757243,
+          "net_improvement": 300.5035000012067,
+          "dd_reduction_pct": 5.160272107809147
+        },
+        "veto_events": 2127,
+        "result_sha256": "6d6a9d320d9045bfb501dac1e61061eb80d1144699c04b9def50a3824dff1ce4",
+        "august_accessed": false
+      },
+      "gl004_april_calibration": {
+        "status": "VERIFIED_DURABLE_CALIBRATION",
+        "baseline_gl001": {
+          "trades": 23462,
+          "winners": 16133,
+          "net": -4121.262000017414,
+          "gross_loss": -9593.229500005264,
+          "max_drawdown": 4131.788500017393
+        },
+        "candidate": {
+          "trades": 22652,
+          "winners": 15559,
+          "net": -4012.5460000167977,
+          "gross_loss": -9280.246000005085,
+          "max_drawdown": 4022.677500016779
+        },
+        "delta_vs_gl001": {
+          "gl_reduction_pct": 3.262545736031926,
+          "winner_retention_pct": 96.44207524948862,
+          "trade_retention_pct": 96.54760889949706,
+          "net_improvement": 108.71600000061608,
+          "dd_reduction_pct": 2.640769245573787
+        },
+        "veto_events": 1148,
+        "result_sha256": "f9d54314c86f9916762ba46d7fd337e260369d42b99d463fdf8aa694d57af9a5",
+        "decision": "FREEZE_JAN_EXTREME_VETO_FOR_MAY_JUL",
         "august_accessed": false
       }
     },
