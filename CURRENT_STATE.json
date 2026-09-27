@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_002_RENEWAL_PERSISTENCE_OWNER",
+    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_HOLD_007_TOXIC_RISK_GEOMETRY",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2814,6 +2814,17 @@
           "dd_reduction_pct": 9.34057631764422
         }
       },
+      "august_accessed": false
+    },
+    "hold_002": {
+      "status": "VERIFIED_DURABLE_REJECTED",
+      "result_commit": "d631bdf5fd60acca326c14c54b270a32ee59524b",
+      "note_commit": "28c9f155ac05aaeab52bce12259435db92b1a072",
+      "source_commits": {
+        "screen": "6ceae938a41d8b524df5cea408d566856b9223ed",
+        "runner": "51838215b4c30a1f39e7825cb6f9fa69da948f50"
+      },
+      "result_sha256": "73895a6d3eef8a0f368d5672c6cd1288182ebe36fdcf30510d350415aa5023c0",
       "august_accessed": false
     }
   },
