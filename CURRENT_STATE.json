@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_001_MAY_JUL_FROZEN_FORWARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_001_MAY_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -1589,6 +1589,36 @@
         },
         "model_sha256": "d7bd9421d5bc8e7ed67b96776e3f3a7e8b4bcbc43e1443f187781d9d2d8371ff",
         "decision": "FREEZE_ORIGINAL_JANUARY_MODEL_FOR_FORWARD; DO_NOT_POOLED_REFIT",
+        "august_accessed": false
+      },
+      "april_frozen_january": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+        "recovery": "SALVAGED_AFTER_POLLING_TIMEOUT_NO_RERUN",
+        "note_commit": "bac63831383d3ccdfaa23c321d3982a8bf0b34c0",
+        "parent": {
+          "trades": 26684,
+          "winners": 18068,
+          "net": -4735.9455000199305,
+          "gross_loss": -10883.775000006312,
+          "max_drawdown": 4744.660500019903
+        },
+        "candidate": {
+          "trades": 23462,
+          "winners": 16133,
+          "net": -4121.262000017414,
+          "gross_loss": -9593.229500005264,
+          "max_drawdown": 4131.788500017393
+        },
+        "delta": {
+          "gl_reduction_pct": 11.85751726767872,
+          "winner_retention_pct": 89.29045826876245,
+          "trade_retention_pct": 87.92534852345976,
+          "net_improvement": 614.6835000025167,
+          "dd_reduction_pct": 12.917088588318165
+        },
+        "conclusion": "Original January-trained ownership transfers to April; pooled Jan-Mar retraining erased the edge. Freeze January router for May-Jul.",
+        "result_sha256": "487a24ad73a62c4785a6471f62a5c262bdf455149352b7de3135fc3107de5a7a",
+        "source_sha256": "54dfda1efe61de2688dfcb99dad86cab11f41657df7e2be8493f2e7534f53af6",
         "august_accessed": false
       }
     }
