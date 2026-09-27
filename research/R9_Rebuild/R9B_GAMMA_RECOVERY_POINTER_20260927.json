@@ -10,9 +10,19 @@
       "unit": "R9B_GAMMA_DYNAMIC_ENTRY_008",
       "state": "REJECTED",
       "sha256": "7d4136dc676861b282afcdc8362e0c4741f557068d04f1234dd6c9cc2cb092ff"
+    },
+    {
+      "unit": "R9B_GAMMA_DYNAMIC_ENTRY_009",
+      "state": "REJECTED",
+      "sha256": "b900e2cc393180f42c935902b49c1ac30404d7211fcd651d33e125bb1f0ec6d3"
+    },
+    {
+      "unit": "R9B_GAMMA_DYNAMIC_ENTRY_010",
+      "state": "NO_INCREMENTAL_VALUE",
+      "sha256": "13b4b33adccf47ea4590474c5dad50acc1205404cf95aca3344144577077833b"
     }
   ],
   "local_pending_durable": [],
-  "next": "R9B_GAMMA_DYNAMIC_ENTRY_009_SEQUENCE_STATE_OWNER",
+  "next": "R9B_GAMMA_DYNAMIC_ENTRY_011_EXPECTED_VALUE_GATE",
   "sealed_period_preserved": true
 }
