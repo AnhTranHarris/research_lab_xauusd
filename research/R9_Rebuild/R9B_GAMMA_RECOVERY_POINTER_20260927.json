@@ -28,13 +28,17 @@
     }
   ],
   "local_pending_durable": [],
-  "next": "R9B_GAMMA_DYNAMIC_ENTRY_012_D3_L600",
+  "next": "R9B_GAMMA_DYNAMIC_ENTRY_012_D3_L1000",
   "sealed_period_preserved": true,
   "checkpoints": {
     "entry012": {
       "D3_L300": {
         "state": "VERIFIED_DURABLE_CHECKPOINT",
         "sha256": "6c46e95b5a72a2f1b06dc7c39e55c1bf284a00184f84f67ebfcaff32d159351c"
+      },
+      "D3_L600": {
+        "state": "VERIFIED_DURABLE_CHECKPOINT",
+        "sha256": "0c5a36c65c91547bbb98f4d371d66e60ae166bf164f6d9d0140d34b1f836f1cc"
       }
     }
   }
