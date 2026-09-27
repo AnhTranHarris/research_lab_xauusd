@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_GL_006_LOW_ALIGN_FADE_TAIL_VETO_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_GL_007_FAILED_IGNITION_QUARANTINE_MAY_FROZEN_FORWARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2113,6 +2113,45 @@
         "eligible_count": 0,
         "result_sha256": "312cfad634cfc2b119b601b2066beef3356ff9a93b0ded31c0ae6b0df06356b6",
         "conclusion": "Orthogonal rejected-event expected-PnL recovery using RUN/PHASE path archetypes found no configuration that simultaneously improved combined net+winners, had positive recovery-only expectancy, and preserved at least half of GL004 incremental loss benefit. Do not loosen loss-control core via generic recovery.",
+        "august_accessed": false
+      },
+      "gl006_tail_veto": {
+        "status": "VERIFIED_DURABLE_REJECTED",
+        "screen_count": 648,
+        "eligible_count": 0,
+        "result_sha256": "34626eb3ba3aca9466ed54aacbbf2b0f04e37af552b6049089fd5a9b05abbd09",
+        "conclusion": "Low-alignment FADE toxic-tail pre-entry classifier produced no configuration with positive incremental GL+net and >=97% GL004 winner retention on January heldout. Reject this representation.",
+        "august_accessed": false
+      },
+      "gl007_quarantine": {
+        "status": "VERIFIED_DURABLE_CALIBRATION_READY_FORWARD",
+        "mechanism": "2s ownership-conditioned failed-ignition classifier plus 25s fixed causal rearm quarantine; no future exit-time ownership",
+        "model_sha256": "f7eb6e486de9e8d4082199d219c5176b3acfe4e3b0dbfce783fe02d42d184162",
+        "jan": {
+          "gl_reduction_pct": 3.1877624826741813,
+          "winner_retention_pct": 97.03727644904116,
+          "net_improvement": 64.68400000011388,
+          "dd_reduction_pct": 3.0360214591009527
+        },
+        "feb": {
+          "gl_reduction_pct": 2.275585988814228,
+          "winner_retention_pct": 97.37718567860117,
+          "net_improvement": 10.56700000019191,
+          "dd_reduction_pct": 0.10177541069300335
+        },
+        "mar": {
+          "gl_reduction_pct": 2.969018881313042,
+          "winner_retention_pct": 97.13642967614942,
+          "net_improvement": 137.69650000020192,
+          "dd_reduction_pct": 2.5343809265121466
+        },
+        "apr": {
+          "gl_reduction_pct": 1.5183595348635084,
+          "winner_retention_pct": 98.39321293142233,
+          "net_improvement": 40.67000000004555,
+          "dd_reduction_pct": 1.0110181589221585
+        },
+        "selection": "Jan-Feb discovery neighborhood found q25 as sole tested robust configuration; March replicated; April calibration positive. Freeze for May-Jul.",
         "august_accessed": false
       }
     },
