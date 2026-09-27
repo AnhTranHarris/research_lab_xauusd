@@ -1,0 +1,73 @@
+{
+  "unit":"R9B_GAMMA2_JULY_ORACLE_CORRELATION_017A",
+  "status":"VERIFIED_DURABLE_FORENSIC",
+  "purpose":"Side-step July forensic before 018. Compare R9 teacher/oracle per-event capacity against current 017 regime-specialist ownership on the validated native-R9 event population. No new strategy is promoted.",
+  "july_vs_jan_jun":{
+    "teacher_neither_pct":{"jan_jun":8.1225,"july":15.0386,"relative_change_pct":85.15},
+    "teacher_both_positive_pct":{"jan_jun":44.2745,"july":33.0501,"delta_pp":-11.2244},
+    "teacher_one_positive_pct":{"jan_jun":47.6030,"july":51.9113,"delta_pp":4.3083},
+    "oracle_best_mean":{"jan_jun":0.291264,"july":0.158885,"change_pct":-45.45},
+    "oracle_best_median":{"jan_jun":0.1865,"july":0.1050,"change_pct":-43.70},
+    "action_gap_mean":{"jan_jun":0.95910,"july":0.71405,"change_pct":-25.55},
+    "regime_age_mean_s":{"jan_jun":95.4595,"july":48.8089,"change_pct":-48.87},
+    "regime_conf_mean":{"jan_jun":0.51766,"july":0.53991,"change_pct":4.30},
+    "atr_excess_mean":{"jan_jun":2.79341,"july":1.37281,"change_pct":-50.86},
+    "disp_side_mean":{"jan_jun":1.44139,"july":0.95595,"change_pct":-33.68},
+    "range10_mean":{"jan_jun":1.65442,"july":1.10622,"change_pct":-33.14},
+    "ret5_side_mean":{"jan_jun":0.93490,"july":0.61768,"change_pct":-33.93},
+    "ret30_side_mean":{"jan_jun":1.04741,"july":0.71507,"change_pct":-31.73}
+  },
+  "cross_regime_degradation":{
+    "transition":{"teacher_neither_jan_jun":0.07925,"teacher_neither_july":0.14679,"selected_positive_jan_jun":0.71744,"selected_positive_july":0.61048},
+    "rotation":{"teacher_neither_jan_jun":0.08706,"teacher_neither_july":0.17248,"selected_positive_jan_jun":0.80858,"selected_positive_july":0.67232},
+    "expansion":{"teacher_neither_jan_jun":0.07773,"teacher_neither_july":0.13351,"selected_positive_jan_jun":0.70794,"selected_positive_july":0.62376}
+  },
+  "router_failure_classes":{
+    "jan_jun":{"wrong_owner_loss_rate_of_acted":0.20306,"toxic_executed_rate_of_acted":0.07578,"positive_action_rate":0.72115,"abstained_profitable_rate":0.90647},
+    "july":{"wrong_owner_loss_rate_of_acted":0.23839,"toxic_executed_rate_of_acted":0.13953,"positive_action_rate":0.62208,"abstained_profitable_rate":0.83053},
+    "july_counts":{"wrong_owner_losses":4702,"toxic_executed":2752,"abstained_profitable":9321},
+    "july_salvage_capacity":{"wrong_owner_opposite_action_oracle_net":808.734,"wrong_owner_chosen_net":-3906.6125,"abstained_oracle_net":1647.2895,"all_oracle_best_net":5113.5825}
+  },
+  "daily_correlations_july":{
+    "gamma_success_vs_teacher_neither":{"pearson":-0.89742,"spearman":-0.87615},
+    "gamma_success_vs_oracle_best_mean":{"pearson":0.50436,"spearman":0.58692}
+  },
+  "static_viability_test":{
+    "target":"teacher_y>0 (at least one direction profitable)",
+    "tree_auc_july":0.53830,
+    "logistic_auc_july":0.52249,
+    "interpretation":"Current pre-entry static state is not sufficient to separate toxic from viable events."
+  },
+  "exact_tick_first_touch_diagnostic":{
+    "important_caveat":"Selection correlation only. Profitability must be replayed with entry at the proof tick; using signal-time PnL after observing proof would be look-ahead.",
+    "touch_0_30_within_5s":{"all_event_coverage":0.58678,"all_selected_action_positive_rate":0.79388,"median_touch_s":1.804,"current_abstain_coverage":0.45754,"current_abstain_selected_positive_rate":0.78948,"abstained_teacher_profitable_subset_coverage":0.48890,"abstained_teacher_profitable_subset_selected_positive_rate":0.88962,"abstained_teacher_profitable_subset_owner_accuracy":0.69827},
+    "touch_0_30_within_10s":{"all_event_coverage":0.79051,"all_selected_action_positive_rate":0.76545,"median_touch_s":2.63,"current_abstain_coverage":0.69723,"current_abstain_selected_positive_rate":0.75668},
+    "current_wrong_owner_subset_touch_0_30_5s":{"coverage":0.62250,"selected_profitable_rate":0.75333},
+    "toxic_event_touch_0_30_5s_coverage":0.42136,
+    "crude_retest_0_10_rebreak_1_5x_30s":{"coverage":0.62051,"selected_positive_rate":0.63678,"abstain_selected_positive_rate":0.61386},
+    "interpretation":"Fast first displacement contains materially more action information than the tested crude mandatory retest/rebreak sequence. Retest should be conditional, not universal."
+  },
+  "cause_model":[
+    "OPPORTUNITY_VIABILITY: July true no-edge/neither-side events nearly double.",
+    "DIRECTION_OWNERSHIP: one-side-only events increase and wrong-owner losses rise.",
+    "STATE_DURABILITY: regime age roughly halves even though classification confidence rises slightly; confidence is not durability.",
+    "MONETIZATION_CAPACITY: teacher-best excursion/payoff shrinks about 45%, matching winner-compression seen in formal Gamma_2 July.",
+    "STATIC_FEATURE_LIMIT: pre-entry correct winners and wrong-owner losses are very similar; dynamic post-event proof is required.",
+    "NEWS: scheduled macro windows are a minority of July fixed-cost loss and should remain secondary execution-risk context."
+  ],
+  "required_changes_to_018":[
+    "Separate classification confidence from tradeability/viability confidence.",
+    "Add regime durability/age and excursion-capacity state.",
+    "Use two-stage logic: viability -> action ownership -> lifecycle.",
+    "For young/low-energy/low-confidence states, require exact-tick OCO first-touch proof before entry.",
+    "Prioritize 0.30/5s and 0.30/10s proof candidates for causal entry-at-proof replay.",
+    "Do not require retest/rebreak universally; test it only as a conditional confirmation after first touch.",
+    "Treat unresolved proof-window events as expiry/handoff, not forced entries.",
+    "Keep news as spread/slippage/size annotation unless incremental value replicates."
+  ],
+  "forensic_result_sha256":"848f4ec29d9b644517cc3c6f48bb45ec90f7b730c4a06a8b65cdacdfa633d209",
+  "proof_result_sha256":"f254caa871f06dfb840afb289206af521a155c1b723d19d69eacb5bababbaf62",
+  "forensic_source_sha256":"cebfd1bd49c04b906b624a1b6dfdb76956e660f0448b63430b2517eb5ea33028",
+  "proof_source_sha256":"1f581aada75bed332ae93ac7e76dd862e5c432aee4259c2c8c0635f881541310",
+  "august_sealed":true
+}
