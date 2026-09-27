@@ -1,0 +1,54 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_HOLD_006_OPPORTUNITY_SEVERITY_KNEE",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_NO_PROMOTION",
+  "parent": "GL001 / Gamma014",
+  "mechanism": "Preserve GL001 action/lifecycle. Veto only when pre-entry acceptance/reclaim severe-loss risk is high AND opportunity-quality probability is low. Optional base-confidence cap. No delayed proof or flip.",
+  "training": "January first 14 days",
+  "replication": [
+    "January heldout",
+    "February",
+    "March"
+  ],
+  "screen_count": 245,
+  "best_90": {
+    "params": {
+      "risk_threshold": 0.55,
+      "opp_max": 0.35,
+      "base_conf_max": null
+    },
+    "jan": {
+      "gl_reduction_pct": 8.805700422576203,
+      "net_improvement": 211.33650000098442,
+      "winner_retention_pct": 91.32133676092545,
+      "trade_retention_pct": 90.51125902846621,
+      "dd_reduction_pct": 9.587583771201896
+    },
+    "feb": {
+      "gl_reduction_pct": 8.365153019868677,
+      "net_improvement": 298.71250000173677,
+      "winner_retention_pct": 91.4594778274905,
+      "trade_retention_pct": 90.77207013226699,
+      "dd_reduction_pct": 8.10519722591887
+    },
+    "mar": {
+      "gl_reduction_pct": 8.886376097821712,
+      "net_improvement": 541.8780000023044,
+      "winner_retention_pct": 90.94510973601034,
+      "trade_retention_pct": 90.1551075351057,
+      "dd_reduction_pct": 9.34057631764422
+    }
+  },
+  "best_85": {
+    "params": {
+      "risk_threshold": 0.45,
+      "opp_max": 0.35,
+      "base_conf_max": 0.55
+    },
+    "min_gl_reduction_pct": 12.263964252411958,
+    "min_winner_retention_pct": 86.13014668403466,
+    "min_trade_retention_pct": 85.20455244540142
+  },
+  "decision": "RETAIN_SUBTHRESHOLD_TARGETED_ENTRY_COMPONENT_NOT_PROMOTION",
+  "result_sha256": "0cdb181bc785d3806bdb64c22ac5e94b3617d66f04485863c4633a26754e25d2",
+  "august_accessed": false
+}
