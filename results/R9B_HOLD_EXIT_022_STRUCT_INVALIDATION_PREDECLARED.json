@@ -1,1 +1,34 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+{
+  "august_accessed": false,
+  "buffers_price": [
+    0,
+    0.1,
+    0.25
+  ],
+  "confirmation_ms": [
+    0,
+    500,
+    1500
+  ],
+  "execution": "modify all RAW events then first eligible one-position chronological reselection, no backdated exits",
+  "experiment": "HOLD_EXIT_022_JAN_SWEEP_LEVEL_CAUSAL_INVALIDATION",
+  "gate": "Jan net improvement>0 AND gross_loss reduction>0 AND winners/trades retention both>=95%; Jan-Mar discovery only, April calibration, May-Jul frozen forward, August sealed",
+  "jan_golden": {
+    "net": -4510.0870000207515,
+    "raw": 34362,
+    "trades": 28088,
+    "winners": 19087
+  },
+  "mechanism": "intratrade contrary executable bid/ask recrosses original causal sweep-reclaim level and remains contra; close on actual observed qualifying tick strictly before parent original exit",
+  "ownership_modes": [
+    "all",
+    "weak_only",
+    "strong_only"
+  ],
+  "parent": "CAUSAL_RECERT_014",
+  "precision": "fixed H=$0.10 mid reconstruction (parent equivalent modeled cost), not variable broker bid/ask",
+  "source_data": "Dukascopy 2026 January gzip checked versus NET024 January source and RAW cache fingerprint",
+  "source_sha256": "710b3729a5e24b22eb11de9f20014709cb4931095b45352b0eb4cf0d489be0af",
+  "status": "PREDECLARED_SOURCE_TEST_PASS_BEFORE_MARKET_REPLAY",
+  "variants": 27
+}
