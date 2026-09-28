@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_022_H1_COMPRESSION_EXPANSION_OWNER",
-    "current_unit_state": "READY_JAN_MAR_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_023_INTEGRATED_LEDGER",
+    "current_unit_state": "RECONSTRUCT_CAUSAL014_TRADE_LEDGER",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4351,6 +4351,42 @@
       "may_july_accessed": false,
       "august_accessed": false,
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_022_H1_COMPRESSION_EXPANSION_OWNER"
+    },
+    "net022_h1_compression_expansion_owner": {
+      "status": "VERIFIED_DURABLE_RETAINED_FRONTIER",
+      "decision": "RETAIN_H1_COMPRESSION_EXPANSION_FRONTIER",
+      "result_commit": "3d9852a92afdc8be10fae055b07a42c0c0e114cd",
+      "discovery_result_sha256": "9958848e2c7bd6783d7a3ff931d07e03d406b86b3628bffb453279b220f3d435",
+      "forward_result_sha256": "da8468e45b29a0b537420ffbdd38c5f27c7410695ff8634657d5f161d1b398e9",
+      "frozen_rule": {
+        "tf_min": 60,
+        "lookback": 13,
+        "body_fraction_min": 0,
+        "atr_break_buffer": 0.1,
+        "boundary": "body",
+        "hold_bars": 8,
+        "compression_lookback_bars": 2,
+        "compression_reference_bars": 13,
+        "compression_max_ratio": 1,
+        "signal_range_min_ratio": 1,
+        "signal_body_fraction_min": 0.25
+      },
+      "may_july": {
+        "trades": 57,
+        "winners": 27,
+        "net": 270.757,
+        "gross_profit": 912.048,
+        "gross_loss": -641.291,
+        "pf": 1.4222
+      },
+      "july": {
+        "trades": 21,
+        "winners": 9,
+        "net": 88.95,
+        "pf": 1.48227
+      },
+      "august_accessed": false,
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_023_INTEGRATED_LEDGER"
     }
   },
   "gamma2_benchmark_recovery": {
