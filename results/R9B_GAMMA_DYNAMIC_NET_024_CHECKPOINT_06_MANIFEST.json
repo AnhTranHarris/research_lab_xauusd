@@ -1,0 +1,16 @@
+{
+  "april_sha256": "14bfd582043bddce8679c81cb7ae2e466b511bf5e573a546a490c37e427807b4",
+  "august_accessed": false,
+  "baseline_golden_pass": true,
+  "discovery_sha256": "994be634c52ad5ccbc17a147f8921ff6cf64ea9d8ce02093a8e7b5b516939089",
+  "engine_sha256": "d0910568189e562fda08394ee89bde9789934fbb4aa50dade32b17d61ea6c03f",
+  "ledger_sha256": "18092d4aee0b72744d555889c1e5a3093d4cef7296349163593fd15831118e5f",
+  "month": 6,
+  "next_stage": "NET024_FROZEN_FORWARD_07",
+  "raw_cache_sha256": "9c6e36d959b398e6c494ee4385999d3a18b2512faffe9ab061fd40f22565d7a2",
+  "result_sha256": "09d833b3986afb666db59a94e8c0ab99a7c31632dc4cf8bcb7d31ff7ca7dbc19",
+  "rule": "veto_contra_weak_align|2",
+  "runner_sha256": "a2b2507923ace57d90d1a1d0a2e299f06d0201ba1ee26854aa056826a13e09bc",
+  "stage": "FROZEN_FORWARD",
+  "status": "COMPLETED_LOCAL"
+}
