@@ -3604,6 +3604,12 @@
           "coverage_pct": 64.527027027
         }
       }
+    },
+    "session_handoff_20260927": {
+      "status": "VERIFIED_DURABLE",
+      "google_doc_id": "1YM6g6BSePWNv557tg5e2fM7WLPckQ7NqJcDW8RCD9z0",
+      "title": "R9B Gamma — CHAT SESSION HANDOFF — Entry-Hold Freeze to HOLD_EXIT013 — 2026-09-27",
+      "note": "Use the LATEST RESUME CORRECTION appended at end of the doc; live CURRENT_STATE always supersedes earlier embedded pointers."
     }
   },
   "gamma2_benchmark_recovery": {
