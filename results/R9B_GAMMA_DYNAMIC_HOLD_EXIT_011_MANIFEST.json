@@ -1,0 +1,18 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_011_RUNNER_FEATURE_REBUILD",
+  "status": "COMPLETED_LOCAL",
+  "source_sha256": "a503a7739d5d4a8f4c2ceb3c890e2054bb88a2ba0f55f6fe1c1c4ce90c2dad9c",
+  "result_sha256": "1004645fc3d5d6a7fb546dc8f26bddb1885e351b9efa9a9eb07e1f58cc2afe8f",
+  "discovery_sha256": "95505c2f4e13ef57df003565f8f00faffa1d0349126bf41a5561bff68893b7f0",
+  "chunk_sha256": {
+    "5000": "f21e4f28d1ae3300aa0ffd95eebe9de6216e9d8beef256f2a5d6bc8c1cd00a8a",
+    "8000": "956372a7d2c843b90b62cd47fc0d7af46abf70fad02c7acb321d1c19a953d77c",
+    "10000": "fb106baf1fcf632124fb892eb9b85c9c19769faa9404e68ad08ad4595114e328",
+    "15000": "f39c6f47a696ca870d7f8d7c02e02a290f0f6cc5b0172e49d57180e6bd09b5a6",
+    "20000": "88652ee00e6d1846a100c873dd5d337fb089a17407450beb3593537b75c7ccd6",
+    "30000": "a6ea12b9689f932aa64948b02eab5b513bd05ca765d38ed94eaff59e1559dea4"
+  },
+  "evaluated_grid_size": 207360,
+  "eligible_count": 0,
+  "august_accessed": false
+}
