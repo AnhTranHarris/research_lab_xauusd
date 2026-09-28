@@ -50,5 +50,26 @@
     "first_incomplete_stage": "ALPHA_000_JAN_SOURCE_AND_R9_EXECUTION_PREFLIGHT",
     "next_action": "Await additional user direction before executing research."
   },
-  "scope_note": "Explicitly covers all Jan-Jul 2026 for research/reporting at monthly, weekly and daily resolution. Accessing all months for diagnostics does not make them untouched OOS; freeze a new validation split before optimizing. No code execution, backtests, broker orders, or EA release performed."
+  "scope_note": "Explicitly covers all Jan-Jul 2026 for research/reporting at monthly, weekly and daily resolution. Accessing all months for diagnostics does not make them untouched OOS; freeze a new validation split before optimizing. No code execution, backtests, broker orders, or EA release performed.",
+  "architecture_contract": {
+    "status": "MANDATORY_DESIGN_RULE_NOT_BACKTEST_RESULT",
+    "document": "research/R10_Alpha/TEMPORAL_RECONSTRUCTION_CONTRACT.md",
+    "origin": "user timeframe clarification",
+    "source": "ordered milliseconds ticks",
+    "required_internal_intervals_ms": [
+      250,
+      1000,
+      5000,
+      15000,
+      30000,
+      45000
+    ],
+    "aggregation": "causally aligned deterministic nested minute/hour/day views with independent 45-second boundary",
+    "mt5_implementation": "MqlTick.time_msc and validated OnTick/CopyTicks catch-up; no native subminute chart dependency",
+    "parity": "same-tick Python/MQL5 decision-and-execution comparison, then Coinexx real tick tester",
+    "user_clarification_pending": [
+      "weekly boundary",
+      "timezone/session-day boundary"
+    ]
+  }
 }
