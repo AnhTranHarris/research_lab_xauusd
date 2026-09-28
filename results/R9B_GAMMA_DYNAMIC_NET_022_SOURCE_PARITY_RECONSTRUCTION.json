@@ -1,0 +1,78 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_NET_022_SOURCE_PARITY_RECONSTRUCTION",
+  "status": "RECONSTRUCTED_PARITY_CERTIFIED_NOT_BYTE_IDENTICAL_ORIGINAL",
+  "parent": "NET002 completed-H1 accepted BOS",
+  "reconstruction": {
+    "source_path": "scripts/r9b_net_022_h1_compression_expansion_reconstructed.py",
+    "source_sha256": "66418ab469e72bc7c9e74e25d2b39ee274fc589e18405b7b7abe95f0509a2fd1",
+    "source_commit": "7ecdeb60d1b85223dc647c0d521076a8bf3fe111",
+    "parent_drive_source_id": "19dWWOJmVg0_x8g4PMXcbKl_V-y51ETIN",
+    "parent_drive_source_sha256": "115267863e58fb8eb4dadcb7cc9d2a89a93312d31f21289d585d702128f037dc",
+    "original_net022_source_available": false
+  },
+  "exact_semantics": {
+    "tf_min": 60,
+    "lookback": 13,
+    "boundary": "body",
+    "atr_break_buffer": 0.1,
+    "body_fraction_min": 0,
+    "hold_bars": 8,
+    "compression_lookback_bars": 2,
+    "compression_reference_bars": 13,
+    "compression_reference_statistic": "median_range",
+    "compression_metric": "mean(prior_2_ranges)/median(prior_13_ranges)",
+    "compression_max_ratio": 1,
+    "signal_range_metric": "current_signal_range/median(prior_13_ranges)",
+    "signal_range_min_ratio": 1,
+    "signal_body_fraction_min": 0.25,
+    "entry": "first actual bid/ask quote at-or-after completed H1 signal close",
+    "exit": "first actual bid/ask quote at-or-after +8 H1 hours",
+    "sleeve_concurrency": "one position; signal time <= prior exit blocked"
+  },
+  "monthly": {
+    "1": {
+      "trades": 17,
+      "winners": 12,
+      "net": 237.675,
+      "pf": 3.4331006101305808
+    },
+    "2": {
+      "trades": 19,
+      "winners": 9,
+      "net": 99.301,
+      "pf": 1.3340745924196376
+    },
+    "3": {
+      "trades": 14,
+      "winners": 7,
+      "net": 160.296,
+      "pf": 1.5010549611305477
+    },
+    "4": {
+      "trades": 18,
+      "winners": 11,
+      "net": 274.255,
+      "pf": 2.9176391617779984
+    },
+    "5": {
+      "trades": 19,
+      "winners": 8,
+      "net": 5.965,
+      "pf": 1.0228742129199826
+    },
+    "6": {
+      "trades": 17,
+      "winners": 10,
+      "net": 175.842,
+      "pf": 1.8968007466454635
+    },
+    "7": {
+      "trades": 21,
+      "winners": 9,
+      "net": 88.95,
+      "pf": 1.4822706571242683
+    }
+  },
+  "parity": "PASS_ALL_SEVEN_MONTHS_EXACT_RECORDED_FINGERPRINTS",
+  "august_accessed": false
+}
