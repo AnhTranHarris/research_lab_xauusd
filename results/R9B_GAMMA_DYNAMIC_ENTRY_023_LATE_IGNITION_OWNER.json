@@ -1,0 +1,46 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_023_LATE_IGNITION_OWNER",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_BREAKTHROUGH_CANDIDATE",
+  "parent": "ENTRY017 selections non-positive at +1s",
+  "exact_rule": {
+    "checkpoint_ms": 4000,
+    "feature": "current executable P/L",
+    "threshold_gt": 0.016749999951571226,
+    "then": "LATE_IGNITION",
+    "else": "NO_LATE_IGNITION",
+    "diagnostic_only": true
+  },
+  "replication": {
+    "jan_heldout": {
+      "coverage_pct": 23.4332425068,
+      "base_5s_accuracy_pct": 26.0217983651,
+      "selected_5s_accuracy_pct": 83.1395348837,
+      "delta_pp": 57.1177365186,
+      "winner_recall_pct": 74.8691099476
+    },
+    "feb": {
+      "coverage_pct": 28.5347043702,
+      "base_5s_accuracy_pct": 31.3624678663,
+      "selected_5s_accuracy_pct": 84.984984985,
+      "delta_pp": 53.6225171187,
+      "winner_recall_pct": 77.3224043716
+    },
+    "mar": {
+      "coverage_pct": 28.3272283272,
+      "base_5s_accuracy_pct": 30.9523809524,
+      "selected_5s_accuracy_pct": 85.775862069,
+      "delta_pp": 54.8234811166,
+      "winner_recall_pct": 78.5009861933
+    }
+  },
+  "decision": "RETAIN_LATE_IGNITION_FRONTIER_NO_EXIT_CHANGE",
+  "source_sha256": "377cac8fba17f93865986ac5c787736aa7e1cf07286757bc174de42c9c3c6aeb",
+  "result_sha256": "db25ee4f4431affa65fd138c0239afaab3ee5eb71cff991da9049af566894308",
+  "model_sha256": "3625783393e11d5a88d2e2dd0efce970bac6ed72fbfadd1909f3a591a3999329",
+  "drive_source_id": "1A4pIpK7VjXHZMvi-2_ZbRuRzRgvmv84K",
+  "drive_result_id": "1alEs7jaxbJoLgGZo-po1NvBLLZjZH846",
+  "drive_model_id": "1WJJbap_jb_oR3ayJjnSs-a8tpe-1IeE-",
+  "drive_manifest_id": "10Wa3nkfN3BukY7vX7sCnTCS8ex3eD2S4",
+  "next_unit": "R9B_GAMMA_DYNAMIC_ENTRY_024_ENTRY_HOLD_ARCHITECTURE_REBASE",
+  "august_accessed": false
+}
