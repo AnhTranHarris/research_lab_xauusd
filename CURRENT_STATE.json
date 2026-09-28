@@ -50,7 +50,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
-    "current_unit_state": "ARMED_TRAJECTORY_JAN_VERIFIED_NEXT_FROZEN_FEB_REPLICATION",
+    "current_unit_state": "FEB_FAIL_BOTH_NEXT_MARCH_FROZEN_DIAGNOSTIC",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4596,7 +4596,7 @@
       "note": "Frozen rule worked consistently as tiny context-dependent loss compression but all monthly PF values declined, GP and winners fell, and net remained negative; no build-ready claims. July source raw-cache generic next hint RAW_08 is inert metadata; never accessed August."
     },
     "hold_exit_022_state_dependent_harvest_failure_rebuild": {
-      "status": "ARMED_TRAJECTORY_JAN_DISCOVERY_VERIFIED_SMALL_EFFECT",
+      "status": "VERIFIED_DURABLE_FROZEN_FEB_FAILURE_BOTH",
       "parent": "CAUSAL_RECERT_014",
       "net024_context": "OPTIONAL_CAUSAL_H1_OWNER_ABLATION_ONLY_NOT_ALWAYS_ON_GATE",
       "entry_hold_017_024": "FROZEN_DIAGNOSTIC_STATE_SEMANTICS_ENGAGING_LIFECYCLE_ONLY_AFTER_SOURCE_RECERT",
@@ -4619,7 +4619,7 @@
       "calibration_window": "APRIL",
       "forward_window": "MAY_JUL_FROZEN",
       "july_historical_contamination_note": "Old July research forensics mean not every new mechanism can claim July as truly untouched; label appropriately.",
-      "first_incomplete_stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_FEB_EXACT_TICK_REPLICATION",
+      "first_incomplete_stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_MAR_FROZEN_DIAGNOSTIC",
       "mql5_build_blockers": "Reconstruct missing ENTRY017/021/023 dedicated source bodies if used, golden-parity certify all carried state semantics; dynamic exit requires full tick replay and resulting entry opportunity reevaluation.",
       "test_rules": "one position, chronological raw candidate stream, avoid future features, apply actual newly chosen exit timestamp before selecting next entry; run with/without H1 context",
       "august_accessed": false,
@@ -5134,6 +5134,35 @@
         "april_accessed": false,
         "may_jul_accessed": false,
         "august_accessed": false
+      },
+      "armed_trajectory_feb_exact_tick_replication": {
+        "status": "VERIFIED_DURABLE_FROZEN_REPLICATION_FAILED_BOTH",
+        "parent_trades": 28188,
+        "parent_winners": 18834,
+        "parent_net": -4450.956500020821,
+        "parent_gl": -13668.407500006775,
+        "original_raw_32862_pnl_exit_hold_exact": true,
+        "at07": {
+          "net_delta": -1.472,
+          "gl_improvement": 0,
+          "strict_gate": false
+        },
+        "at11": {
+          "net_delta": -0.261,
+          "gl_improvement": 0,
+          "strict_gate": false
+        },
+        "jan_contract_sha256": "d6a2ec4ca4ffccad16cd79fe33a2040f555b2bedce03a9f789bf10eb75a76f41",
+        "result_sha256": "66d2599522e14aa12c1dc95864aec50770df8144f54b989a65775f74de5c5d8c",
+        "git_source_commit": "6ea852e79547c0f2c6438bdba1540c64a0da0d5c",
+        "git_result_commit": "9c5a2e86a736a534570ddf81ce58e7bd5a0caa83",
+        "git_manifest_commit": "a9137fe1ddd506b3fcb9307e6010f09283b25237",
+        "git_note_commit": "c90cdad41f2018d5fd37edc5ee14c8e59d29ed6f",
+        "library_path": "/R9_Gamma_Checkpoints/HOLD_EXIT_022",
+        "martch_diagnostic_only": true,
+        "august_accessed": false,
+        "april_accessed": false,
+        "may_jul_accessed": false
       }
     }
   },
