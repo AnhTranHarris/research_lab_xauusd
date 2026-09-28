@@ -1,1 +1,412 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+{
+  "august_accessed": false,
+  "base_raw_sha256": "7b8eff38f79a8246309e0d276158eb1dded9210deb54b79a3c8be189a9d9960d",
+  "baseline": {
+    "gross_loss": -11511.55100000661,
+    "gross_profit": 7001.463999985857,
+    "maxdd": 4554.885500020489,
+    "net": -4510.0870000207515,
+    "pf": 0.6082120471847657,
+    "trades": 28088,
+    "win_rate": 0.6795428652805469,
+    "winners": 19087
+  },
+  "duration_s": 8.941,
+  "exact_raw_pnl_and_exit_timestamp_source_parity": true,
+  "frozen_parameter_grid": {
+    "owner_modes": [
+      "weak_only",
+      "strong_only",
+      "both"
+    ],
+    "widths": [
+      0.025,
+      0.1,
+      0.2,
+      0.4
+    ]
+  },
+  "monetization_diagnostic_count": 1,
+  "monetization_diagnostics": [
+    {
+      "delta": {
+        "gross_loss": -53.45850000025348,
+        "gross_profit": 62.72800000026746,
+        "maxdd": -9.30650000001242,
+        "net": 9.269500000013068,
+        "pf": 0.0026125267148002784,
+        "trades": -8,
+        "winners": -377
+      },
+      "metrics": {
+        "gross_loss": -11565.009500006863,
+        "gross_profit": 7064.191999986125,
+        "maxdd": 4545.579000020477,
+        "net": -4500.817500020738,
+        "pf": 0.610824573899566,
+        "trades": 28080,
+        "win_rate": 0.6663105413105413,
+        "winners": 18710
+      },
+      "owner_mode": "weak_only",
+      "source_comparison_count_different_raw_pnl": 7255,
+      "strong_trail_width": 0.04,
+      "trade_retention_pct": 99.97151808601538,
+      "trail_width_price": 0.1,
+      "weak_trail_width": 0.1,
+      "winner_retention_pct": 98.02483365641537
+    }
+  ],
+  "month": 1,
+  "next": "FEB_MAR_FROZEN_DISCOVERY_FOR_PREDECLARED_SHORTLIST_IF_ANY_OTHERWISE_REJECT_AND_CLOSE_RUNNER_GRID",
+  "parent": "CAUSAL_RECERT_014",
+  "partial_value_gate": "positive net and GP, <=5% GL deterioration, winner/trade >=95%; retain as diagnostic only until a distinct loss-control complement closes the tail",
+  "raw_candidates": 34362,
+  "source_data_sha256": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5",
+  "source_semantics": "original init stop 3.0 weak / 1.0 strong, activate favorable executable +.18 weak/+ .10 strong, 60s maxhold; original entry generator untouched, only post-activation trail distance changed; source-equivalent mid/fixed $0.10 halfspread each side",
+  "source_sha256": "4a23916632d5591bf1d25107f2b316432d410648fa3a1935f5fff2e483da52f1",
+  "stage": "JAN_RUNNER_TRAIL_GEOMETRY_SOURCE_EXACT",
+  "status": "COMPLETED_LOCAL",
+  "strict_eligible": [],
+  "strict_eligible_count": 0,
+  "strict_gate": "positive net AND no worse GL, winner/trade >=95% Jan, then Feb-Mar replication before April/forward",
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
+  "variants": [
+    {
+      "delta": {
+        "gross_loss": 28.351500000120723,
+        "gross_profit": -47.496500000038395,
+        "maxdd": 17.38499999992473,
+        "net": -19.144999999917673,
+        "pf": -0.0026345249983846797,
+        "trades": 3,
+        "winners": 177
+      },
+      "metrics": {
+        "gross_loss": -11483.199500006489,
+        "gross_profit": 6953.967499985819,
+        "maxdd": 4572.270500020414,
+        "net": -4529.232000020669,
+        "pf": 0.6055775221863811,
+        "trades": 28091,
+        "win_rate": 0.6857712434587591,
+        "winners": 19264
+      },
+      "owner_mode": "weak_only",
+      "source_comparison_count_different_raw_pnl": 5412,
+      "strong_trail_width": 0.04,
+      "trade_retention_pct": 100.01068071774424,
+      "trail_width_price": 0.025,
+      "weak_trail_width": 0.025,
+      "winner_retention_pct": 100.92733273956095
+    },
+    {
+      "delta": {
+        "gross_loss": 18.38700000013887,
+        "gross_profit": -22.752000000024054,
+        "maxdd": 3.792999999888707,
+        "net": -4.364999999886095,
+        "pf": -0.0010065813981551264,
+        "trades": 2,
+        "winners": 184
+      },
+      "metrics": {
+        "gross_loss": -11493.16400000647,
+        "gross_profit": 6978.711999985833,
+        "maxdd": 4558.678500020378,
+        "net": -4514.452000020638,
+        "pf": 0.6072054657866106,
+        "trades": 28090,
+        "win_rate": 0.6860448558205767,
+        "winners": 19271
+      },
+      "owner_mode": "strong_only",
+      "source_comparison_count_different_raw_pnl": 3274,
+      "strong_trail_width": 0.025,
+      "trade_retention_pct": 100.00712047849615,
+      "trail_width_price": 0.025,
+      "weak_trail_width": 0.05,
+      "winner_retention_pct": 100.96400691570179
+    },
+    {
+      "delta": {
+        "gross_loss": 46.73850000025959,
+        "gross_profit": -70.24850000006245,
+        "maxdd": 21.177999999813437,
+        "net": -23.509999999803767,
+        "pf": -0.00364782077618242,
+        "trades": 5,
+        "winners": 361
+      },
+      "metrics": {
+        "gross_loss": -11464.81250000635,
+        "gross_profit": 6931.215499985795,
+        "maxdd": 4576.063500020303,
+        "net": -4533.597000020555,
+        "pf": 0.6045642264085833,
+        "trades": 28093,
+        "win_rate": 0.6922720962517354,
+        "winners": 19448
+      },
+      "owner_mode": "both",
+      "source_comparison_count_different_raw_pnl": 8686,
+      "strong_trail_width": 0.025,
+      "trade_retention_pct": 100.01780119624038,
+      "trail_width_price": 0.025,
+      "weak_trail_width": 0.025,
+      "winner_retention_pct": 101.89133965526274
+    },
+    {
+      "delta": {
+        "gross_loss": -53.45850000025348,
+        "gross_profit": 62.72800000026746,
+        "maxdd": -9.30650000001242,
+        "net": 9.269500000013068,
+        "pf": 0.0026125267148002784,
+        "trades": -8,
+        "winners": -377
+      },
+      "metrics": {
+        "gross_loss": -11565.009500006863,
+        "gross_profit": 7064.191999986125,
+        "maxdd": 4545.579000020477,
+        "net": -4500.817500020738,
+        "pf": 0.610824573899566,
+        "trades": 28080,
+        "win_rate": 0.6663105413105413,
+        "winners": 18710
+      },
+      "owner_mode": "weak_only",
+      "source_comparison_count_different_raw_pnl": 7255,
+      "strong_trail_width": 0.04,
+      "trade_retention_pct": 99.97151808601538,
+      "trail_width_price": 0.1,
+      "weak_trail_width": 0.1,
+      "winner_retention_pct": 98.02483365641537
+    },
+    {
+      "delta": {
+        "gross_loss": -89.31400000070789,
+        "gross_profit": 192.85350000067683,
+        "maxdd": -100.60049999996954,
+        "net": 103.53949999996803,
+        "pf": 0.011941493088480803,
+        "trades": -10,
+        "winners": -972
+      },
+      "metrics": {
+        "gross_loss": -11600.865000007318,
+        "gross_profit": 7194.317499986534,
+        "maxdd": 4454.28500002052,
+        "net": -4406.547500020783,
+        "pf": 0.6201535402732465,
+        "trades": 28078,
+        "win_rate": 0.6451670346890804,
+        "winners": 18115
+      },
+      "owner_mode": "strong_only",
+      "source_comparison_count_different_raw_pnl": 7058,
+      "strong_trail_width": 0.1,
+      "trade_retention_pct": 99.96439760751923,
+      "trail_width_price": 0.1,
+      "weak_trail_width": 0.05,
+      "winner_retention_pct": 94.90752868444491
+    },
+    {
+      "delta": {
+        "gross_loss": -142.7725000009632,
+        "gross_profit": 255.61650000094414,
+        "maxdd": -109.94199999998182,
+        "net": 112.84399999998095,
+        "pf": 0.014482225887548217,
+        "trades": -18,
+        "winners": -1349
+      },
+      "metrics": {
+        "gross_loss": -11654.323500007573,
+        "gross_profit": 7257.080499986801,
+        "maxdd": 4444.943500020508,
+        "net": -4397.2430000207705,
+        "pf": 0.622694273072314,
+        "trades": 28070,
+        "win_rate": 0.6319201995012469,
+        "winners": 17738
+      },
+      "owner_mode": "both",
+      "source_comparison_count_different_raw_pnl": 14313,
+      "strong_trail_width": 0.1,
+      "trade_retention_pct": 99.93591569353461,
+      "trail_width_price": 0.1,
+      "weak_trail_width": 0.1,
+      "winner_retention_pct": 92.93236234086027
+    },
+    {
+      "delta": {
+        "gross_loss": -204.11550000116222,
+        "gross_profit": 300.27250000119784,
+        "maxdd": -95.86350000002858,
+        "net": 96.15700000003471,
+        "pf": 0.015033459161988949,
+        "trades": -16,
+        "winners": -1655
+      },
+      "metrics": {
+        "gross_loss": -11715.666500007772,
+        "gross_profit": 7301.736499987055,
+        "maxdd": 4459.022000020461,
+        "net": -4413.930000020717,
+        "pf": 0.6232455063467547,
+        "trades": 28072,
+        "win_rate": 0.6209746366486179,
+        "winners": 17432
+      },
+      "owner_mode": "weak_only",
+      "source_comparison_count_different_raw_pnl": 11095,
+      "strong_trail_width": 0.04,
+      "trade_retention_pct": 99.94303617203076,
+      "trail_width_price": 0.2,
+      "weak_trail_width": 0.2,
+      "winner_retention_pct": 91.32917692670404
+    },
+    {
+      "delta": {
+        "gross_loss": -322.66150000169364,
+        "gross_profit": 455.4340000016955,
+        "maxdd": -128.99600000000282,
+        "net": 132.77250000000004,
+        "pf": 0.02190153240342574,
+        "trades": -19,
+        "winners": -2328
+      },
+      "metrics": {
+        "gross_loss": -11834.212500008303,
+        "gross_profit": 7456.897999987553,
+        "maxdd": 4425.889500020487,
+        "net": -4377.314500020751,
+        "pf": 0.6301135795881915,
+        "trades": 28069,
+        "win_rate": 0.5970643770707899,
+        "winners": 16759
+      },
+      "owner_mode": "strong_only",
+      "source_comparison_count_different_raw_pnl": 9714,
+      "strong_trail_width": 0.2,
+      "trade_retention_pct": 99.93235545428652,
+      "trail_width_price": 0.2,
+      "weak_trail_width": 0.05,
+      "winner_retention_pct": 87.80321684916436
+    },
+    {
+      "delta": {
+        "gross_loss": -526.5720000028559,
+        "gross_profit": 756.0835000028937,
+        "maxdd": -224.9675000000807,
+        "net": 229.5115000000369,
+        "pf": 0.036202991603478174,
+        "trades": -35,
+        "winners": -3981
+      },
+      "metrics": {
+        "gross_loss": -12038.123000009466,
+        "gross_profit": 7757.547499988751,
+        "maxdd": 4329.918000020409,
+        "net": -4280.575500020715,
+        "pf": 0.6444150387882439,
+        "trades": 28053,
+        "win_rate": 0.5384807328984422,
+        "winners": 15106
+      },
+      "owner_mode": "both",
+      "source_comparison_count_different_raw_pnl": 20809,
+      "strong_trail_width": 0.2,
+      "trade_retention_pct": 99.8753916263173,
+      "trail_width_price": 0.2,
+      "weak_trail_width": 0.2,
+      "winner_retention_pct": 79.14287211190863
+    },
+    {
+      "delta": {
+        "gross_loss": -690.6315000023897,
+        "gross_profit": 834.7240000027641,
+        "maxdd": -137.37100000041664,
+        "net": 144.09250000037446,
+        "pf": 0.03398356003409386,
+        "trades": -323,
+        "winners": -3670
+      },
+      "metrics": {
+        "gross_loss": -12202.182500009,
+        "gross_profit": 7836.187999988621,
+        "maxdd": 4417.514500020073,
+        "net": -4365.994500020377,
+        "pf": 0.6421956072188596,
+        "trades": 27765,
+        "win_rate": 0.5552674230145868,
+        "winners": 15417
+      },
+      "owner_mode": "weak_only",
+      "source_comparison_count_different_raw_pnl": 13001,
+      "strong_trail_width": 0.04,
+      "trade_retention_pct": 98.85004272287098,
+      "trail_width_price": 0.4,
+      "weak_trail_width": 0.4,
+      "winner_retention_pct": 80.77225336616546
+    },
+    {
+      "delta": {
+        "gross_loss": -809.0230000022493,
+        "gross_profit": 1055.8475000026292,
+        "maxdd": -236.7775000003794,
+        "net": 246.82450000037989,
+        "pf": 0.04576004047792703,
+        "trades": -264,
+        "winners": -3418
+      },
+      "metrics": {
+        "gross_loss": -12320.574000008859,
+        "gross_profit": 8057.3114999884865,
+        "maxdd": 4318.10800002011,
+        "net": -4263.262500020372,
+        "pf": 0.6539720876626928,
+        "trades": 27824,
+        "win_rate": 0.563146923519264,
+        "winners": 15669
+      },
+      "owner_mode": "strong_only",
+      "source_comparison_count_different_raw_pnl": 10969,
+      "strong_trail_width": 0.4,
+      "trade_retention_pct": 99.06009683850755,
+      "trail_width_price": 0.4,
+      "weak_trail_width": 0.05,
+      "winner_retention_pct": 82.09252370723529
+    },
+    {
+      "delta": {
+        "gross_loss": -1469.1820000045554,
+        "gross_profit": 1857.6290000053104,
+        "maxdd": -357.8325000009663,
+        "net": 388.4470000007541,
+        "pf": 0.07426813324753712,
+        "trades": -574,
+        "winners": -6945
+      },
+      "metrics": {
+        "gross_loss": -12980.733000011165,
+        "gross_profit": 8859.092999991168,
+        "maxdd": 4197.053000019523,
+        "net": -4121.640000019997,
+        "pf": 0.6824801804323029,
+        "trades": 27514,
+        "win_rate": 0.44130260958057715,
+        "winners": 12142
+      },
+      "owner_mode": "both",
+      "source_comparison_count_different_raw_pnl": 23970,
+      "strong_trail_width": 0.4,
+      "trade_retention_pct": 97.95642267160353,
+      "trail_width_price": 0.4,
+      "weak_trail_width": 0.4,
+      "winner_retention_pct": 63.61397810027768
+    }
+  ]
+}
