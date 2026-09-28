@@ -48,7 +48,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
-    "current_unit_state": "HOLD_EXIT_022_REJECTED_JAN_MAR_VERIFIED_NEXT_NET002_007_SOURCE_AUDIT",
+    "current_unit_state": "NET002_NET007_SOURCE_AUDIT_VERIFIED_NEXT_EVENT_LIFECYCLE_MAPPING_PREDECLARATION",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -5265,7 +5265,37 @@
       "acceptance": "Preserve versioned source and subcomponent causality. Rebuild independent causal tick event populations. No unverified historical gain inherited, no combined standalone PnL arithmetic, no direct MT5 promotion.",
       "starting_parent": "CAUSAL_RECERT_014 source-negative; past structure code existence does not imply positive edge",
       "august_accessed": false
-    }
+    },
+    "net002_net007_source_audit": {
+      "status": "VERIFIED_DURABLE_SOURCE_INVENTORY_COMPLETE",
+      "result_path": "results/R9B_GAMMA_HISTORICAL_NET002_NET007_SOURCE_AUDIT.json",
+      "result_commit": "ac74cfd7edc478d678f876f64601ff105019af30",
+      "conclusion": "CREDIBLE_ARCHITECTURAL_COMPOSITION_LOSS_RISK_NOT_PROVEN_PROFIT_EDGE",
+      "source_blobs": {
+        "NET002": "069265e00cd3a2df644061a561be6dd69e4d105c",
+        "NET003": "08ef7513b46076a98fc702c61c5f40d3f365229c",
+        "NET004": "2fb13845d4a1ec8033619eeb55c791941dd27935",
+        "NET005": "44b9863cad02e9f59ede350e142b220e32ea2934",
+        "NET006": "0024553d9d3247bea7fdfbafbe887f36987d0a13",
+        "NET007": "c1149ffa282aab96462baaf8b051432caf119202"
+      },
+      "retained_for_mapping": [
+        "NET002_H1_STRUCTURAL_OWNER_CONTEXT",
+        "NET003_M15_RETEST_RECLAIM_CHILD_STATE",
+        "NET006_PERSISTENT_H4_OWNER_AGE",
+        "NET007_FAILED_ACCEPTANCE_STATE_TRANSITION",
+        "NET004_TRANSPARENT_STATE_DESCRIPTORS"
+      ],
+      "rejected_as_direct_authority": [
+        "NET002_STANDALONE_8H_FORWARD",
+        "NET003_STANDALONE_RETEST_FORWARD",
+        "NET004_DECISION_TREE_ROUTER",
+        "NET006_STANDALONE_HIERARCHICAL_GATE",
+        "NET007_IMMEDIATE_REVERSAL_SPECIALIST"
+      ],
+      "august_accessed": false
+    },
+    "first_incomplete_stage": "NET002_NET007_EVENT_LIFECYCLE_MAPPING_PREDECLARATION"
   },
   "gamma2_benchmark_recovery": {
     "status": "CAUSAL_RECERT_014_COMPLETE_RESEARCH_READY",
