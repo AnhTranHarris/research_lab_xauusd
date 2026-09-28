@@ -20,14 +20,14 @@ Only explicitly allowed `2026-01` … `2026-07` files can be resolved by the loa
 
 ## Install and run locally (Windows or Linux)
 
-The downloadable ZIP puts the source under \`r10_alpha_dukas_engine/\`; in the GitHub Alpha branch start from \`scripts/r10_alpha_dukas/\`. Python 3.11 with NumPy, pandas and Numba is recommended.
+The downloadable ZIP puts the source under `r10_alpha_dukas_engine/`; in the GitHub Alpha branch start from `scripts/r10_alpha_dukas/`. Python 3.11 with NumPy, pandas and Numba is recommended.
 
-\`\`\`powershell
+```powershell
 cd "C:\path\to\r10_alpha_dukas_engine"
 py -3.11 -m pip install -r requirements.txt
 py -3.11 -m alpha_dukas.cli prepare --data-root "C:\path\to\DukascopyTicks" --cache ".\cache" --months 2026-01 2026-02 2026-03 2026-04 2026-05 2026-06 2026-07
 py -3.11 -m pytest -q
-\`\`\`
+```
 
 Point --data-root to the existing folder with the seven XAUUSD monthly .csv.gz archives. The large local binary caches are rebuilt on the first run and are not in GitHub or the ZIP.
 
