@@ -1,1 +1,21 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+{
+  "April_calibration_not_accessed": true,
+  "May_July_forward_not_accessed": true,
+  "all_months_required": true,
+  "august_sealed": true,
+  "baseline_strong_trail": 0.04,
+  "baseline_weak_trail": 0.05,
+  "chosen_from": "JAN_2026_PARTIAL_MONETIZATION_weak_only_0.10",
+  "independent_source_exactness": "full original raw event PNL and exit time parity per month",
+  "monthly_gate": "candidate net improvement>0 AND GP improvement>0 AND GL deterioration no greater than 5% parent GL AND winners and trades >=95% of parent",
+  "no_new_parameter_selection": true,
+  "source_sha256": "47becf4376c187597ec7c4abe61d816b144e75e7281671f889d3cb14e0f36151",
+  "stage": "HOLD_EXIT_022_RUNNER_WEAK_0P10_FEB_MAR_DISCOVERY_REPLICATION",
+  "status": "PREDECLARED_BEFORE_FEB_MAR_OUTCOMES",
+  "strong_trail": 0.04,
+  "target_months": [
+    2,
+    3
+  ],
+  "weak_trail": 0.1
+}
