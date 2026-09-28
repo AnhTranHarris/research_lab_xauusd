@@ -1,0 +1,11 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_010_RUNNER_CAPTURE_REBUILD",
+  "status": "COMPLETED_LOCAL_EARLY_REJECT",
+  "source_sha256": "abd260ec62312c9d066a1c57792f57977f8c9f282b60562f3475498a898bab23",
+  "discovery_sha256": "30a2032f77435a4c216d94611e8f023724a56cfe4469a77e5d9b46b061fad5ad",
+  "replication_01_sha256": "eacc1123ce902951fa47f50e0105f738a5268fa0dd9ae7e6cf8009e06d4e607d",
+  "result_sha256": "226a686f8873ef98681f88183f63bd5d350c6a39ac6e1a238ef89c431a65bb3f",
+  "first_unrun_month": 2,
+  "stop_reason": "Jan heldout replication gate failed; no duplicate/futile forward compute.",
+  "august_accessed": false
+}
