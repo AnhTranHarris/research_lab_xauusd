@@ -47,7 +47,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION",
-    "current_unit_state": "FROZEN_FORWARD_JULY_READY",
+    "current_unit_state": "FORWARD_MAY_JUL_COMPLETE_FINAL_AUDIT_READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4501,7 +4501,7 @@
       "april_evaluator_commit": "12d32a6fa9fc29d1f58ec0ee4a17687ca3372a19",
       "april_manifest_commit": "41188739ede03633bc2fe816057c5d29b939a143",
       "checkpoint_library_path": "/R9_Gamma_Checkpoints/NET024",
-      "first_incomplete_stage": "NET024_FROZEN_FORWARD_JULY",
+      "first_incomplete_stage": "NET024_FORWARD_FINAL_AUDIT",
       "may_jul_accessed": true,
       "august_accessed": false,
       "status_note": "Research only; April calibration did not show profitability (net remains negative) and PF decreased slightly. No promotion or MT5-build authorization.",
@@ -4537,6 +4537,22 @@
         "ledger_sha256": "18092d4aee0b72744d555889c1e5a3093d4cef7296349163593fd15831118e5f",
         "result_commit": "ea832818438f5ad7fbcb160a3680ed97433cab4f",
         "checkpoint_commit": "72a59d613596bc0198adde8d45951e69645433bb"
+      },
+      "july": {
+        "status": "VERIFIED_DURABLE_FROZEN_FORWARD",
+        "trades": 25082,
+        "winners": 16194,
+        "net": -5223.955000002518,
+        "gross_loss": -9250.571000000884,
+        "pf": 0.4352829679376529,
+        "net_delta": 118.92600000020411,
+        "gross_loss_reduction": 277.9785000000538,
+        "winner_retention_pct": 96.71524128045867,
+        "trade_retention_pct": 97.19068469795018,
+        "result_sha256": "622df0b49191ec2e1d5a6b70870f8fd8507a185dbdd03b3f4eb0381bcbb303bb",
+        "ledger_sha256": "1de5bbefdd462ea7273dab451bc432ffa221ea9741fa83ba5016f69b20a33be7",
+        "result_commit": "ab1dec83cf232e64f3b0ed58a79209064ddd72a2",
+        "checkpoint_commit": "ea2670368157eee4073eb2ed680bf339edac212d"
       }
     }
   },
