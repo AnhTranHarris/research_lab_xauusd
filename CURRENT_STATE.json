@@ -50,7 +50,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
-    "current_unit_state": "ARMED_TRAJECTORY_JAN_PREDECLARED_NEXT_EXACT_TICK_DISCOVERY",
+    "current_unit_state": "ARMED_TRAJECTORY_JAN_VERIFIED_NEXT_FROZEN_FEB_REPLICATION",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4596,7 +4596,7 @@
       "note": "Frozen rule worked consistently as tiny context-dependent loss compression but all monthly PF values declined, GP and winners fell, and net remained negative; no build-ready claims. July source raw-cache generic next hint RAW_08 is inert metadata; never accessed August."
     },
     "hold_exit_022_state_dependent_harvest_failure_rebuild": {
-      "status": "ARMED_TRAJECTORY_JAN_PREDECLARED_LIB_VERIFIED_GITHUB_MANIFEST_ONLY",
+      "status": "ARMED_TRAJECTORY_JAN_DISCOVERY_VERIFIED_SMALL_EFFECT",
       "parent": "CAUSAL_RECERT_014",
       "net024_context": "OPTIONAL_CAUSAL_H1_OWNER_ABLATION_ONLY_NOT_ALWAYS_ON_GATE",
       "entry_hold_017_024": "FROZEN_DIAGNOSTIC_STATE_SEMANTICS_ENGAGING_LIFECYCLE_ONLY_AFTER_SOURCE_RECERT",
@@ -4619,7 +4619,7 @@
       "calibration_window": "APRIL",
       "forward_window": "MAY_JUL_FROZEN",
       "july_historical_contamination_note": "Old July research forensics mean not every new mechanism can claim July as truly untouched; label appropriately.",
-      "first_incomplete_stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_JAN_EXACT_TICK_DISCOVERY",
+      "first_incomplete_stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_FEB_EXACT_TICK_REPLICATION",
       "mql5_build_blockers": "Reconstruct missing ENTRY017/021/023 dedicated source bodies if used, golden-parity certify all carried state semantics; dynamic exit requires full tick replay and resulting entry opportunity reevaluation.",
       "test_rules": "one position, chronological raw candidate stream, avoid future features, apply actual newly chosen exit timestamp before selecting next entry; run with/without H1 context",
       "august_accessed": false,
@@ -4681,7 +4681,7 @@
         "market_tick_count": 9135062,
         "august_accessed": false
       },
-      "current_research_interpretation": "January original source-golden reproduces exact CAUSAL014 28,088 trades; no universal early-negative/low-MFE fixed checkpoint exit among 18 causally executed variants improves net or PF. Slow-ignition recovery makes premature winner liquidation expensive. Do not carry this family forward unchanged. Next test structurally corroborated invalidation and bankable harvest as DISTINCT mechanism.",
+      "current_research_interpretation": "Frozen January armed-trajectory screen yields two strict but immaterial survivors AT07/AT11. Next stage is frozen February replication; do not retune January. Historical structure-loss concern preserved as separate NET002-NET007 parity archaeology lane after current historical sequence.",
       "pending_source_closure": [
         "ENTRY017 frozen model/source body needs dedicated parity if state transplanted",
         "ENTRY021 dedicated model/source body parity if transplanted",
@@ -5063,6 +5063,76 @@
         "github_full_source_pending": true,
         "verification": "12 unique enumerated variants; no market replay conducted",
         "historical_structural_code_preserved": "NET002/003/004/005/006/007 exist GitHub; integrated equivalence unverified",
+        "august_accessed": false
+      },
+      "armed_trajectory_jan_exact_tick_discovery": {
+        "status": "VERIFIED_DURABLE_SMALL_EFFECT_REPLICATION_CANDIDATES",
+        "parent": {
+          "trades": 28088,
+          "winners": 19087,
+          "net": -4510.0870000207515,
+          "gross_profit": 7001.463999985857,
+          "gross_loss": -11511.551000006612,
+          "pf": 0.6082120471847656,
+          "maxdd": 4554.885500020489
+        },
+        "raw_candidates": 34362,
+        "raw_armed_candidates": 25203,
+        "exact_parent_raw_parity": true,
+        "numerical_parity_rule": "ask=ask_raw/1000; bid=bid_raw/1000; mid=(ask+bid)*0.5 exactly. Algebraic rewrite (ask_raw+bid_raw)/2000 changed 610 threshold outcomes.",
+        "strict_survivors": [
+          {
+            "id": "AT07",
+            "profile": "RENEWAL_PLUS_EFFICIENCY",
+            "decision_ms": 750,
+            "runner_trail": 0.08,
+            "raw_promoted": 722,
+            "selected_promoted": 612,
+            "delta_net": 0.143499999994674,
+            "delta_gp": 0.143499999994674,
+            "delta_gl_improvement": 0,
+            "maxdd_improvement": 2.281499999994594,
+            "trades_retained_pct": 100,
+            "winners_retained_pct": 100,
+            "material": false
+          },
+          {
+            "id": "AT11",
+            "profile": "RENEWAL_PLUS_EFFICIENCY_STRONG_OWNER",
+            "decision_ms": 750,
+            "runner_trail": 0.08,
+            "raw_promoted": 289,
+            "selected_promoted": 255,
+            "delta_net": 2.143999999994776,
+            "delta_gp": 2.143999999994776,
+            "delta_gl_improvement": 0,
+            "maxdd_improvement": 2.143999999994776,
+            "trades_retained_pct": 100,
+            "winners_retained_pct": 100,
+            "material": false
+          }
+        ],
+        "best_nominal_but_rejected": {
+          "id": "AT10",
+          "delta_net": 12.623500000001513,
+          "delta_gp": 15.482000000012704,
+          "delta_gl_improvement": -2.8585000000093714,
+          "winners_forfeited": 15
+        },
+        "interpretation": "AT07 and AT11 pass strict January gate but are immaterial small-effect signals, not promoted Gamma alpha. Freeze unchanged for February replication only.",
+        "historical_forensic_flag": "NET002-NET007 source families remain extant but are not proven lifecycle-parity-integrated into CAUSAL014. Preserve for later dedicated historical-combination archaeology.",
+        "github_summary_commit": "62ef5da5add74d599d05517845ca74c95b6f6b61",
+        "github_note_commit": "1709c845c38bbc16007635975958967c41378752",
+        "local_artifact_hashes": {
+          "script_sha256": "ca00ad43ea37146a2e8dfffb421ff8bd3be89e5083b935b07a00358c4e99569f",
+          "result_sha256": "ba6cb2a9971b3ff65f56d01f9e6efa1f4780d1ba272c26ac373239c7f0901a49",
+          "manifest_sha256": "b0ce274a3905e95358c9f1965a122c1a363ae1cf99eda7650bbd68d05daebe72",
+          "audit_npz_sha256": "bb94df704313aba6779a368fd298c801513813cd0ed78338cdeafb4149f51d55"
+        },
+        "library_full_artifact_sync": "PARTIAL_NOTE_ONLY_CONTAINER_BRIDGE_FAILURE",
+        "january_only": true,
+        "april_accessed": false,
+        "may_jul_accessed": false,
         "august_accessed": false
       }
     }
