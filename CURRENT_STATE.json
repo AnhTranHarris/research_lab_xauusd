@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_001_STATE_CONDITIONED_ECONOMIC_LIFECYCLE",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_002_WAITING_RISK_CONTAINMENT",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -3240,6 +3240,42 @@
       "conclusion": "Entry/hold architecture is frozen for the next phase. HOLD/EXIT research must consume ENTRY017/018/019/020/021/023 state semantics exactly unless a later explicit recertification replaces them.",
       "source_sha256": "9cd7a5301d5b7b080d28e68c28320f096d2bbbe6b19c57616a976557b719d438",
       "result_sha256": "64b6a3149fb4fa5a6164fa8fc05ba4f179065d11c48bf4e61e2336bc0fae2207",
+      "august_accessed": false
+    },
+    "hold_exit_001_state_conditioned_lifecycle": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED_AS_REPLACEMENT",
+      "result_commit": "922880f4d28d5c1dcbb0382e8a0a744bce232f5c",
+      "note_commit": "5dc96c92ff02e5a08656c2a5f1e54e47dee644b2",
+      "manifest_commit": "a352e68153b5b8ad48e49b591919a9f8ca9bbd47",
+      "drive_cache_source_id": "15AkqpwLWBKbCxtpS5eiBrRUc5KUX1mjM",
+      "drive_result_id": "1th89q-18or3N7oNZo3NldOqT3in_acsw",
+      "drive_manifest_id": "1Xu8qJpnCwQwmiI2wMVYLgPywPd-lJoxO",
+      "chosen_horizons": {
+        "STRONG_RUNNER": 1000,
+        "WEAK_RECOVERY_REJECT": 1000,
+        "RECOVERY_CERTIFIED": 4000,
+        "DELAYED_RUNNER": 30000,
+        "FAILED_IGNITION_CANDIDATE": 6000,
+        "LATE_IGNITION": 5000,
+        "NO_LATE_IGNITION": 4000
+      },
+      "replication": {
+        "jan_heldout": {
+          "delta_net_vs_canonical": -56.172,
+          "gl_reduction_pct_vs_canonical": -22.5118
+        },
+        "feb": {
+          "delta_net_vs_canonical": 4.9175,
+          "gl_reduction_pct_vs_canonical": -8.93862
+        },
+        "mar": {
+          "delta_net_vs_canonical": 24.5325,
+          "gl_reduction_pct_vs_canonical": -5.02084
+        }
+      },
+      "conclusion": "State-conditioned horizons alone fail because unresolved trades accumulate adverse path while waiting for +4/+4.5s ownership resolution. Preserve specialist horizon findings, but add causal waiting-risk containment before judging hold/exit economics.",
+      "source_sha256": "6531ebaeea3097e3cf13950477983c5293c6f208b55abeee73ecba10c5b117bc",
+      "result_sha256": "ef391580899a13a330eb0486315810cefb1ee4cf9e3a4312f84280bbea8237d6",
       "august_accessed": false
     }
   },
