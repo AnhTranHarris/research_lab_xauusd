@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_011_RUNNER_FEATURE_REBUILD",
-    "current_unit_state": "STARTED_CHUNKED_DISCOVERY_NEXT_5000",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_012_LATE_PERSISTENCE_RUNNER_CAPTURE",
+    "current_unit_state": "STARTED_CHUNKED_DISCOVERY_NEXT_8000",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3454,24 +3454,36 @@
       "august_accessed": false
     },
     "hold_exit_011_runner_feature_rebuild": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+      "result_commit": "12ecb3a32db31a680c17f23afac6ca210a4ea440",
+      "manifest_commit": "6aed9bc153d5b4e6f3041b2dab034a38de0dad5e",
+      "note_commit": "ed2a9abce9702614a0abdea6b15508fcfbdeb22d",
+      "drive_source_v2_id": "1rsLIdGQ2L4EdqZhKgEkuadAvSqPCxb6z",
+      "drive_discovery_id": "1vt8wjHopwhT_soGbwezS5H0sgNsMke5k",
+      "drive_result_id": "1PMuBGjRiF-Iq123gMBO4MuYDXs-xS8CQ",
+      "drive_manifest_id": "1SqkNAKLGJXBQ7lbh0xfxTnFz7lQzEA-D",
+      "evaluated_grid_size": 207360,
+      "eligible_count": 0,
+      "conclusion": "+2s protected persistence proof remains too early/noisy; zero causal rules improved both net and GP in both January halves while preserving >=95% STRONG_RUNNER winners.",
+      "source_sha256": "a503a7739d5d4a8f4c2ceb3c890e2054bb88a2ba0f55f6fe1c1c4ce90c2dad9c",
+      "result_sha256": "1004645fc3d5d6a7fb546dc8f26bddb1885e351b9efa9a9eb07e1f58cc2afe8f",
+      "august_accessed": false
+    },
+    "hold_exit_012_late_persistence_runner_capture": {
       "status": "STARTED_POLLING_SAFE",
       "parent": "HOLD_EXIT005 + frozen ENTRY017-024 ownership",
-      "mechanism": "Protected STRONG_RUNNER extension: +1s profit lock -> +2s causal persistence/renewal proof -> longer runner trail only if proof survives.",
-      "source_sha256": "a503a7739d5d4a8f4c2ceb3c890e2054bb88a2ba0f55f6fe1c1c4ce90c2dad9c",
-      "input_sha256": {
-        "hold_exit_001_jan": "a59253380db68e89fc6fe7ba6064e62b27ebe102a3d21283829b9a76d7b37856",
-        "entry017_jan": "48284d6a9441c574a4fcf38de2bf15f218460692f15a9af6f5327d893da65e4f"
-      },
-      "drive_source_id": "1si_kfjpsEddP0B8vCAXks1E0KFUrxAXd",
-      "drive_started_id": "1Rb-bosGhiT9AodIKu5kuzGOluCg6zQwp",
+      "mechanism": "Protected +1s to +5s STRONG_RUNNER wait; only +5s persistence-confirmed events may extend under causal peak-giveback trail.",
+      "source_sha256": "75a76df258a92c57d4562994107fbd9a396393c6631c59c89856b004a5d69e3f",
+      "drive_source_v1_id": "1rCzTW2pgY7d6CMGlZ0QtBLM3wYv5h2ET",
+      "drive_started_id": "1ihY9tOIEwCDLUPonASF0UYgYYZXUJJgi",
+      "drive_source_v2_id": "1QfT288g8hS7b2bQsM6GYJUldaLEU3VTf",
+      "execution_contract": "Discovery split by max horizon: 8000,10000,15000,20000,30000 ms; persist each chunk immediately before the next.",
       "completed_units": [
         "STARTED_MANIFEST",
         "SOURCE_V2_CHUNKED"
       ],
-      "first_incomplete_unit": "DISCOVERY_CHUNK_5000",
-      "august_accessed": false,
-      "drive_source_v2_id": "1rsLIdGQ2L4EdqZhKgEkuadAvSqPCxb6z",
-      "execution_contract": "Discovery split into independent max-horizon chunks: 5000,8000,10000,15000,20000,30000 ms. Persist each chunk immediately; consolidate only after all six exist."
+      "first_incomplete_unit": "DISCOVERY_CHUNK_8000",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
