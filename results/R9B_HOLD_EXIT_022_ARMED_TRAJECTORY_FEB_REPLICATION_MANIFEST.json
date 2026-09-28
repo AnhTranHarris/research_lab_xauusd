@@ -1,0 +1,13 @@
+{
+  "audit_sha256": "351701886b17071173e82ac3218c80be5fec838f1139e9f115b12995be71564b",
+  "august_accessed": false,
+  "feb_market_sha256": "ed3b3545c990c88d78519594c17c8915b0f679adcb0a94920ba7524f1f6d5c5d",
+  "feb_raw_cache_sha256": "c855f777d57c25ecbf49768afa1ab07eab138dd1e07ce30b246e42a788e42586",
+  "result_sha256": "66d2599522e14aa12c1dc95864aec50770df8144f54b989a65775f74de5c5d8c",
+  "script_sha256": "876aed3780d7efd44f2b68dc5f4fcb9bb229a08f22ccf7da76f1402cb329a58b",
+  "source_equivalent_original_raw_parity": true,
+  "source_jan_contract_sha256": "d6a2ec4ca4ffccad16cd79fe33a2040f555b2bedce03a9f789bf10eb75a76f41",
+  "source_jan_discovery_sha256": "ba6cb2a9971b3ff65f56d01f9e6efa1f4780d1ba272c26ac373239c7f0901a49",
+  "stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_FEB_EXACT_TICK_REPLICATION",
+  "status": "VERIFIED_FEB_FROZEN_REPLICATION"
+}
