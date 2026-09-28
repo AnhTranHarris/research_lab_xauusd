@@ -1,0 +1,69 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_021_REENTRY_BRANCH_CLOSURE",
+  "status": "VERIFIED_DURABLE_ARCHITECTURAL_DECISION",
+  "parent": "Frozen ENTRY017-024 entry/hold architecture with STRONG_RUNNER bank-at-+1s",
+  "scope": "Close bank-then-fresh-reentry research branch after repeated failure to survive April calibration.",
+  "evidence": {
+    "hold_exit_013": {
+      "decision": "REJECT_SELECTOR",
+      "jan_net": 92.346,
+      "feb_net": 39.8235,
+      "mar_net": -61.1555,
+      "mar_pf": 0.7170815995
+    },
+    "hold_exit_017": {
+      "decision": "REJECT_FROZEN_STRUCTURAL_RULE",
+      "jan_net": 12.816,
+      "feb_net": 2.5515,
+      "mar_net": 0.1955,
+      "april_net": -9.8985,
+      "april_pf": 0.1838644515
+    },
+    "hold_exit_018": {
+      "decision": "REJECT_STRUCTURAL_QUALITY_ROUTER",
+      "eligible_discovery_candidates": 0
+    },
+    "hold_exit_019": {
+      "decision": "REJECT_ONLINE_REGIME_ABSTENTION",
+      "jan_net": 9.248,
+      "feb_net": 28.1485,
+      "mar_net": 6.621,
+      "april_net": -7.862,
+      "april_pf": 0.314679219
+    },
+    "hold_exit_020": {
+      "decision": "REJECT_OPPORTUNITY_RESET_RULE",
+      "eligible_discovery_candidates": 0
+    }
+  },
+  "conclusion": "Repeated Jan-Mar apparent edge does not survive the April calibration wall. Do not continue tuning the same fresh-reentry population without materially new causal information. Preserve bank-first insight, but pivot research capital to the orthogonal completed-bar H1/H4 structural sleeve already retained in the roadmap.",
+  "next_unit": "R9B_GAMMA_DYNAMIC_NET_002_H1_H4_FRESH_CAUSAL_RECONSTRUCTION",
+  "validation_contract": "Fresh reconstruction from disclosed semantics. Jan-Mar discovery, April calibration, May-Jul frozen forward, August sealed. Exact chronological tick execution for finalists. Historical H1/H4 profits are reference targets only.",
+  "may_july_accessed": false,
+  "august_accessed": false,
+  "artifacts": {
+    "hold017": {
+      "drive_result_id": "1RA0kYdwpWBlMa5OgbtQOOsVS9GDXsNZ3",
+      "result_sha256": "b75e6af2b85fdfad75982a707388bc97852656afa8c63e22fd3aca2a4cdc3c1c",
+      "source_commits": [
+        "2f0b4a42342dfbdd0b9579bf45483512a4a89b7c",
+        "05b9528eac5abc787ae1a3c60b4a3e5267c6a4cd"
+      ]
+    },
+    "hold018": {
+      "drive_result_id": "1K1j7HDzzK-dERl2N9SnbI04n7k2Pwinx",
+      "result_sha256": "ee0daedacca9421b8e7326f1b9ec2fd8bf04df92c331722841421c6722dae9a9",
+      "source_commit": "d790d547b8567b67ab5f109e2580dd16abb055a0"
+    },
+    "hold019": {
+      "drive_result_id": "1zLwcM6brXinvUHxYmGxuaMJDil-U8cKx",
+      "result_sha256": "8a1c7e38f1cdc68be750b0267653f89d07acd4be12556320f54fbdb5804716e4",
+      "source_commit": "a22ca4ceeb8ee2d4dec15e0345b38dd414def354"
+    },
+    "hold020": {
+      "drive_result_id": "1aflfTvH45KmHzvCmkA8RX6Tj3SmLts80",
+      "result_sha256": "49c4e40c431c3eb57b68e07ad625ec76bab7c420ec8c5f918e9715e78e70e992",
+      "source_commit": "cf86194e792d0d7325c54aff3a6179558ba060b1"
+    }
+  }
+}
