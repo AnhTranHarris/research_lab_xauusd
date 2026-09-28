@@ -1,0 +1,63 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_020_RECOVERY_RUNNER_TIMING_STATE",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_BREAKTHROUGH_CANDIDATE",
+  "parent": "ENTRY019 RECOVERY_RUNNER population",
+  "purpose": "Characterize when weak/recovery runners become durably favorable and test whether an earlier causal checkpoint can certify recovery without using future ticks. No exit change.",
+  "checkpoint_ms": [
+    1250,
+    1500,
+    2000,
+    2500,
+    3000,
+    4000,
+    5000
+  ],
+  "candidate_rule": {
+    "checkpoint_ms": 4000,
+    "pnl_min": 0.05,
+    "giveback_max": 0.5,
+    "validation_coverage_pct": 59.2592592593,
+    "validation_5s_accuracy_pct": 100,
+    "validation_5s_recall_pct": 76.1904761905
+  },
+  "replication": {
+    "jan_heldout": {
+      "coverage_pct": 52.9914529915,
+      "base_5s_accuracy_pct": 59.8290598291,
+      "selected_5s_accuracy_pct": 85.4838709677,
+      "delta_pp": 25.6548111387,
+      "runner_recall_pct": 75.7142857143
+    },
+    "feb": {
+      "coverage_pct": 46.2857142857,
+      "base_5s_accuracy_pct": 57.1428571429,
+      "selected_5s_accuracy_pct": 82.7160493827,
+      "delta_pp": 25.5731922399,
+      "runner_recall_pct": 67
+    },
+    "mar": {
+      "coverage_pct": 43.2950191571,
+      "base_5s_accuracy_pct": 56.3218390805,
+      "selected_5s_accuracy_pct": 90.2654867257,
+      "delta_pp": 33.9436476452,
+      "runner_recall_pct": 69.387755102
+    }
+  },
+  "teacher_timing_summary": {
+    "jan": {
+      "dip_below_zero_after_1s_pct": 59.8290598291,
+      "durable_positive_by_4s_pct": 54.7008547009
+    },
+    "feb": {
+      "dip_below_zero_after_1s_pct": 64.5714285714,
+      "durable_positive_by_4s_pct": 48.5714285714
+    },
+    "mar": {
+      "dip_below_zero_after_1s_pct": 66.6666666667,
+      "durable_positive_by_4s_pct": 48.6590038314
+    }
+  },
+  "interpretation": "Recovery runners are genuinely non-monotonic. A causal +4s certification state requiring executable PnL >= $0.05 and giveback <= $0.50 raises subsequent +5s directional accuracy by >25 percentage points in every replication while retaining 67-76% of +5s recovery runners. This is a material subclass breakthrough candidate, but it is not yet an exit rule or whole-system promotion.",
+  "next_unit": "R9B_GAMMA_DYNAMIC_ENTRY_021_RECOVERY_TRAJECTORY_OWNER",
+  "august_accessed": false
+}
