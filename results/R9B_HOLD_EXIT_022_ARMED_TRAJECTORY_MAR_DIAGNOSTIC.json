@@ -1,0 +1,398 @@
+{
+  "audit_sha256": "fc75f2b4901dc0f54ccad5ba6d6e6a0c99e05cdfcc006f86346fc3b899d79903",
+  "elapsed_s": 9.553,
+  "execution": "Independent March Dukascopy midpoint, modeled fixed halfspread .10 each side, no true broker spread/slippage; one position strict event stream",
+  "february_frozen_gate_failed_both": true,
+  "frozen_ids": [
+    "AT07",
+    "AT11"
+  ],
+  "january_contract_sha256": "d6a2ec4ca4ffccad16cd79fe33a2040f555b2bedce03a9f789bf10eb75a76f41",
+  "january_discovery_script_sha256": "ca00ad43ea37146a2e8dfffb421ff8bd3be89e5083b935b07a00358c4e99569f",
+  "january_discovery_sha256": "ba6cb2a9971b3ff65f56d01f9e6efa1f4780d1ba272c26ac373239c7f0901a49",
+  "mar_armed_raw_count": 31300,
+  "mar_market_sha256": "814ba35e72f219a58badd806ed5c0f30ef0fb4ffe56a48205d873706513bd177",
+  "mar_raw_cache_sha256": "cbbc07490bbd8f5be6fffa90a5d338c1985259cd16e9edd73bf8760bcf66b64f",
+  "market_ticks": 9433179,
+  "next": "CLOSE_JAN_MAR_FROZEN_DISCOVERY_AS_NO_PROMOTION_THEN_HISTORICAL_COMBINATION_SOURCE_FORENSICS",
+  "original_parent_all_41595_raw_pnl_exit_hold_parity": true,
+  "parent": {
+    "gl": -16505.80050000824,
+    "gp": 9916.168999982023,
+    "maxdd": 6594.313500026137,
+    "net": -6589.631500026144,
+    "pf": 0.6007687418721117,
+    "trades": 35573,
+    "winners": 24169
+  },
+  "promotion_permitted": false,
+  "raw_candidates": 41595,
+  "stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_MAR_FROZEN_DIAGNOSTIC",
+  "status": "VERIFIED_MAR_FROZEN_DIAGNOSTIC",
+  "time_walls": {
+    "april_accessed": false,
+    "august_accessed": false,
+    "february_replication_completed_failed": true,
+    "january_original_predeclared_only": true,
+    "march_accessed": true,
+    "march_diagnostic_only": true,
+    "may_jul_accessed": false
+  },
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
+  "unit_tests": [
+    "original_stop_order",
+    "unqualified_parent_invariant",
+    "time_limit_stop_precedence",
+    "equal_time_entry_blocked"
+  ],
+  "variants": [
+    {
+      "daily": [
+        {
+          "net": -346.51200000127665,
+          "trades": 1729,
+          "utc_day_index": 20514
+        },
+        {
+          "net": -388.2260000014294,
+          "trades": 1983,
+          "utc_day_index": 20515
+        },
+        {
+          "net": -297.12950000118053,
+          "trades": 1603,
+          "utc_day_index": 20516
+        },
+        {
+          "net": -218.61300000108622,
+          "trades": 1536,
+          "utc_day_index": 20517
+        },
+        {
+          "net": -278.8910000009546,
+          "trades": 1314,
+          "utc_day_index": 20518
+        },
+        {
+          "net": -65.33750000015516,
+          "trades": 215,
+          "utc_day_index": 20520
+        },
+        {
+          "net": -253.0010000012444,
+          "trades": 1662,
+          "utc_day_index": 20521
+        },
+        {
+          "net": -253.98300000099334,
+          "trades": 1347,
+          "utc_day_index": 20522
+        },
+        {
+          "net": -209.85700000093584,
+          "trades": 1227,
+          "utc_day_index": 20523
+        },
+        {
+          "net": -252.36900000098558,
+          "trades": 1298,
+          "utc_day_index": 20524
+        },
+        {
+          "net": -257.71750000097654,
+          "trades": 1268,
+          "utc_day_index": 20525
+        },
+        {
+          "net": -40.84250000009979,
+          "trades": 132,
+          "utc_day_index": 20527
+        },
+        {
+          "net": -240.43800000091687,
+          "trades": 1267,
+          "utc_day_index": 20528
+        },
+        {
+          "net": -204.73000000078446,
+          "trades": 1059,
+          "utc_day_index": 20529
+        },
+        {
+          "net": -226.04050000097322,
+          "trades": 1342,
+          "utc_day_index": 20530
+        },
+        {
+          "net": -251.09150000131012,
+          "trades": 1796,
+          "utc_day_index": 20531
+        },
+        {
+          "net": -361.35350000116705,
+          "trades": 1611,
+          "utc_day_index": 20532
+        },
+        {
+          "net": -55.11150000011821,
+          "trades": 168,
+          "utc_day_index": 20534
+        },
+        {
+          "net": -557.4780000018127,
+          "trades": 2449,
+          "utc_day_index": 20535
+        },
+        {
+          "net": -398.6420000015487,
+          "trades": 2151,
+          "utc_day_index": 20536
+        },
+        {
+          "net": -306.54050000123334,
+          "trades": 1714,
+          "utc_day_index": 20537
+        },
+        {
+          "net": -331.60550000136936,
+          "trades": 1861,
+          "utc_day_index": 20538
+        },
+        {
+          "net": -221.62900000109767,
+          "trades": 1446,
+          "utc_day_index": 20539
+        },
+        {
+          "net": -32.81000000011136,
+          "trades": 152,
+          "utc_day_index": 20541
+        },
+        {
+          "net": -258.7025000011654,
+          "trades": 1593,
+          "utc_day_index": 20542
+        },
+        {
+          "net": -279.4665000012292,
+          "trades": 1650,
+          "utc_day_index": 20543
+        }
+      ],
+      "delta": {
+        "dd_improvement": 1.5134999999881984,
+        "gl_improvement": 0.0,
+        "gp": 1.5134999999681895,
+        "net": 1.5134999999881984,
+        "pf": 9.169503775152688e-05,
+        "trades": 0,
+        "winners": 0
+      },
+      "frozen_delay_ms": 750,
+      "frozen_profile": "RENEWAL_PLUS_EFFICIENCY",
+      "frozen_width": 0.08,
+      "id": "AT07",
+      "material_net_and_gl_mar": false,
+      "max_quote_gap_overshoot": 14.592500000000655,
+      "original_jan_strict": true,
+      "original_parent_winner_forfeited": 0,
+      "raw_decision_count": 6128,
+      "raw_promoted": 869,
+      "reason_counts": {
+        "hard_initial": 7124,
+        "harvest_trail": 25982,
+        "maxhold": 1713,
+        "runner_trail": 754
+      },
+      "results": {
+        "gl": -16505.80050000824,
+        "gp": 9917.682499981991,
+        "maxdd": 6592.800000026149,
+        "net": -6588.118000026156,
+        "pf": 0.6008604369098632,
+        "trades": 35573,
+        "winners": 24169
+      },
+      "retention": {
+        "trades_pct": 100.0,
+        "winners_pct": 100.0
+      },
+      "selected_promoted": 754,
+      "strict_eligible_mar": true
+    },
+    {
+      "daily": [
+        {
+          "net": -345.94550000127674,
+          "trades": 1729,
+          "utc_day_index": 20514
+        },
+        {
+          "net": -387.64750000142976,
+          "trades": 1983,
+          "utc_day_index": 20515
+        },
+        {
+          "net": -297.1695000011805,
+          "trades": 1603,
+          "utc_day_index": 20516
+        },
+        {
+          "net": -218.45300000108637,
+          "trades": 1536,
+          "utc_day_index": 20517
+        },
+        {
+          "net": -278.98100000095474,
+          "trades": 1314,
+          "utc_day_index": 20518
+        },
+        {
+          "net": -65.33750000015516,
+          "trades": 215,
+          "utc_day_index": 20520
+        },
+        {
+          "net": -252.72800000124334,
+          "trades": 1662,
+          "utc_day_index": 20521
+        },
+        {
+          "net": -253.96800000099392,
+          "trades": 1347,
+          "utc_day_index": 20522
+        },
+        {
+          "net": -209.9605000009351,
+          "trades": 1227,
+          "utc_day_index": 20523
+        },
+        {
+          "net": -252.36900000098558,
+          "trades": 1298,
+          "utc_day_index": 20524
+        },
+        {
+          "net": -257.2710000009756,
+          "trades": 1268,
+          "utc_day_index": 20525
+        },
+        {
+          "net": -40.84250000009979,
+          "trades": 132,
+          "utc_day_index": 20527
+        },
+        {
+          "net": -240.38650000091639,
+          "trades": 1267,
+          "utc_day_index": 20528
+        },
+        {
+          "net": -205.74650000078418,
+          "trades": 1059,
+          "utc_day_index": 20529
+        },
+        {
+          "net": -226.5320000009733,
+          "trades": 1342,
+          "utc_day_index": 20530
+        },
+        {
+          "net": -250.93350000131068,
+          "trades": 1796,
+          "utc_day_index": 20531
+        },
+        {
+          "net": -360.1435000011661,
+          "trades": 1611,
+          "utc_day_index": 20532
+        },
+        {
+          "net": -55.11150000011821,
+          "trades": 168,
+          "utc_day_index": 20534
+        },
+        {
+          "net": -558.6665000018129,
+          "trades": 2449,
+          "utc_day_index": 20535
+        },
+        {
+          "net": -400.42550000154733,
+          "trades": 2151,
+          "utc_day_index": 20536
+        },
+        {
+          "net": -306.8205000012322,
+          "trades": 1714,
+          "utc_day_index": 20537
+        },
+        {
+          "net": -331.2055000013679,
+          "trades": 1861,
+          "utc_day_index": 20538
+        },
+        {
+          "net": -220.7675000010986,
+          "trades": 1446,
+          "utc_day_index": 20539
+        },
+        {
+          "net": -32.78500000011081,
+          "trades": 152,
+          "utc_day_index": 20541
+        },
+        {
+          "net": -258.55750000116586,
+          "trades": 1593,
+          "utc_day_index": 20542
+        },
+        {
+          "net": -278.8480000012278,
+          "trades": 1650,
+          "utc_day_index": 20543
+        }
+      ],
+      "delta": {
+        "dd_improvement": 2.028999999994994,
+        "gl_improvement": 0.0,
+        "gp": 2.028999999991356,
+        "net": 2.028999999994994,
+        "pf": 0.00012292648272282936,
+        "trades": 0,
+        "winners": 0
+      },
+      "frozen_delay_ms": 750,
+      "frozen_profile": "RENEWAL_PLUS_EFFICIENCY_STRONG_OWNER",
+      "frozen_width": 0.08,
+      "id": "AT11",
+      "material_net_and_gl_mar": false,
+      "max_quote_gap_overshoot": 14.592500000000655,
+      "original_jan_strict": true,
+      "original_parent_winner_forfeited": 0,
+      "raw_decision_count": 6128,
+      "raw_promoted": 349,
+      "reason_counts": {
+        "hard_initial": 7124,
+        "harvest_trail": 26421,
+        "maxhold": 1713,
+        "runner_trail": 315
+      },
+      "results": {
+        "gl": -16505.80050000824,
+        "gp": 9918.197999982014,
+        "maxdd": 6592.284500026142,
+        "net": -6587.602500026149,
+        "pf": 0.6008916683548345,
+        "trades": 35573,
+        "winners": 24169
+      },
+      "retention": {
+        "trades_pct": 100.0,
+        "winners_pct": 100.0
+      },
+      "selected_promoted": 315,
+      "strict_eligible_mar": true
+    }
+  ]
+}
