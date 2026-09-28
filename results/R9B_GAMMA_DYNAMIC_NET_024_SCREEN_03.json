@@ -1,0 +1,498 @@
+{
+  "august_accessed": false,
+  "month": 3,
+  "parent": {
+    "gross_loss": -16505.80050000819,
+    "gross_profit": 9916.168999982045,
+    "maxdd": 6594.313500026137,
+    "net": -6589.631500026144,
+    "pf": 0.6007687418721148,
+    "trades": 35573,
+    "win_rate": 0.6794197846681472,
+    "winners": 24169
+  },
+  "rules": [
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 272.5755000001118,
+        "net": 80.92400000040197,
+        "trades": -537,
+        "winners": -380
+      },
+      "metrics": {
+        "gross_loss": -16233.225000008078,
+        "gross_profit": 9724.517499982336,
+        "maxdd": 6513.389500025735,
+        "net": -6508.707500025742,
+        "pf": 0.5990502503339599,
+        "trades": 35036,
+        "win_rate": 0.6789873273204704,
+        "winners": 23789
+      },
+      "owner_hours": 1,
+      "retention": {
+        "trades_pct": 98.49042813369691,
+        "winners_pct": 98.42773801150234
+      },
+      "rule": "veto_contra"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 16229.91650000801,
+        "net": 6494.538500025637,
+        "trades": -34904,
+        "winners": -23729
+      },
+      "metrics": {
+        "gross_loss": -275.8840000001792,
+        "gross_profit": 180.79099999967275,
+        "maxdd": 107.98550000043178,
+        "net": -95.09300000050644,
+        "pf": 0.6553152774338321,
+        "trades": 669,
+        "win_rate": 0.6576980568011959,
+        "winners": 440
+      },
+      "owner_hours": 1,
+      "retention": {
+        "trades_pct": 1.8806398110926825,
+        "winners_pct": 1.820513881418346
+      },
+      "rule": "active_match_only"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 547.1145000002907,
+        "net": 174.67200000090725,
+        "trades": -1205,
+        "winners": -820
+      },
+      "metrics": {
+        "gross_loss": -15958.6860000079,
+        "gross_profit": 9543.726499982664,
+        "maxdd": 6419.64150002523,
+        "net": -6414.959500025237,
+        "pf": 0.5980270869404875,
+        "trades": 34368,
+        "win_rate": 0.6793819832402235,
+        "winners": 23349
+      },
+      "owner_hours": 1,
+      "retention": {
+        "trades_pct": 96.61259944339808,
+        "winners_pct": 96.60722413008399
+      },
+      "rule": "neutral_only"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 195.84300000005533,
+        "net": 62.02950000025794,
+        "trades": -343,
+        "winners": -263
+      },
+      "metrics": {
+        "gross_loss": -16309.957500008135,
+        "gross_profit": 9782.35549998225,
+        "maxdd": 6532.284000025879,
+        "net": -6527.602000025886,
+        "pf": 0.5997781110084052,
+        "trades": 35230,
+        "win_rate": 0.6785694010786262,
+        "winners": 23906
+      },
+      "owner_hours": 1,
+      "retention": {
+        "trades_pct": 99.03578556770584,
+        "winners_pct": 98.91182920269766
+      },
+      "rule": "veto_contra_weak_align"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 76.73250000005646,
+        "net": 18.894500000144035,
+        "trades": -194,
+        "winners": -117
+      },
+      "metrics": {
+        "gross_loss": -16429.068000008134,
+        "gross_profit": 9858.330999982132,
+        "maxdd": 6575.419000025993,
+        "net": -6570.737000026,
+        "pf": 0.600054184447788,
+        "trades": 35379,
+        "win_rate": 0.679838322168518,
+        "winners": 24052
+      },
+      "owner_hours": 1,
+      "retention": {
+        "trades_pct": 99.45464256599107,
+        "winners_pct": 99.51590880880467
+      },
+      "rule": "veto_contra_strong_align"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 480.26300000021183,
+        "net": 157.34400000072128,
+        "trades": -992,
+        "winners": -678
+      },
+      "metrics": {
+        "gross_loss": -16025.537500007978,
+        "gross_profit": 9593.249999982556,
+        "maxdd": 6436.969500025416,
+        "net": -6432.287500025423,
+        "pf": 0.598622667101043,
+        "trades": 34581,
+        "win_rate": 0.6793036638616582,
+        "winners": 23491
+      },
+      "owner_hours": 2,
+      "retention": {
+        "trades_pct": 97.21136817249038,
+        "winners_pct": 97.19475360999627
+      },
+      "rule": "veto_contra"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 15956.229000007892,
+        "net": 6390.114500025255,
+        "trades": -34355,
+        "winners": -23349
+      },
+      "metrics": {
+        "gross_loss": -549.5715000002983,
+        "gross_profit": 350.0544999994099,
+        "maxdd": 205.02250000086224,
+        "net": -199.5170000008884,
+        "pf": 0.6369589762191451,
+        "trades": 1218,
+        "win_rate": 0.6732348111658456,
+        "winners": 820
+      },
+      "owner_hours": 2,
+      "retention": {
+        "trades_pct": 3.4239451269221037,
+        "winners_pct": 3.392775869916008
+      },
+      "rule": "active_match_only"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 1029.8345000005102,
+        "net": 356.8610000016097,
+        "trades": -2210,
+        "winners": -1498
+      },
+      "metrics": {
+        "gross_loss": -15475.96600000768,
+        "gross_profit": 9243.195499983147,
+        "maxdd": 6237.452500024528,
+        "net": -6232.770500024534,
+        "pf": 0.5972612953516802,
+        "trades": 33363,
+        "win_rate": 0.6795252225519288,
+        "winners": 22671
+      },
+      "owner_hours": 2,
+      "retention": {
+        "trades_pct": 93.78742304556826,
+        "winners_pct": 93.80197774008026
+      },
+      "rule": "neutral_only"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 279.239500000087,
+        "net": 78.04150000038862,
+        "trades": -514,
+        "winners": -386
+      },
+      "metrics": {
+        "gross_loss": -16226.561000008103,
+        "gross_profit": 9714.970999982348,
+        "maxdd": 6516.272000025749,
+        "net": -6511.590000025755,
+        "pf": 0.5987079455700747,
+        "trades": 35059,
+        "win_rate": 0.6783707464559742,
+        "winners": 23783
+      },
+      "owner_hours": 2,
+      "retention": {
+        "trades_pct": 98.5550839119557,
+        "winners_pct": 98.40291282221027
+      },
+      "rule": "veto_contra_weak_align"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 201.02350000012666,
+        "net": 79.30250000033266,
+        "trades": -478,
+        "winners": -292
+      },
+      "metrics": {
+        "gross_loss": -16304.777000008064,
+        "gross_profit": 9794.447999982254,
+        "maxdd": 6515.011000025805,
+        "net": -6510.329000025811,
+        "pf": 0.6007103317007899,
+        "trades": 35095,
+        "win_rate": 0.6803533266847129,
+        "winners": 23877
+      },
+      "owner_hours": 2,
+      "retention": {
+        "trades_pct": 98.65628426053468,
+        "winners_pct": 98.79184078778601
+      },
+      "rule": "veto_contra_strong_align"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 940.7790000004134,
+        "net": 355.52150000137044,
+        "trades": -1878,
+        "winners": -1281
+      },
+      "metrics": {
+        "gross_loss": -15565.021500007777,
+        "gross_profit": 9330.911499983004,
+        "maxdd": 6238.792000024767,
+        "net": -6234.110000024773,
+        "pf": 0.5994795124425842,
+        "trades": 33695,
+        "win_rate": 0.6792699213533165,
+        "winners": 22888
+      },
+      "owner_hours": 4,
+      "retention": {
+        "trades_pct": 94.72071514912996,
+        "winners_pct": 94.6998220861434
+      },
+      "rule": "veto_contra"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 15481.005000007654,
+        "net": 6229.25750002449,
+        "trades": -33299,
+        "winners": -22639
+      },
+      "metrics": {
+        "gross_loss": -1024.7955000005368,
+        "gross_profit": 664.4214999988826,
+        "maxdd": 371.3725000016075,
+        "net": -360.37400000165417,
+        "pf": 0.6483454503835493,
+        "trades": 2274,
+        "win_rate": 0.6728232189973615,
+        "winners": 1530
+      },
+      "owner_hours": 4,
+      "retention": {
+        "trades_pct": 6.3924886852388045,
+        "winners_pct": 6.330423269477429
+      },
+      "rule": "active_match_only"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 1965.5745000009501,
+        "net": 715.8955000030246,
+        "trades": -4152,
+        "winners": -2811
+      },
+      "metrics": {
+        "gross_loss": -14540.22600000724,
+        "gross_profit": 8666.489999984122,
+        "maxdd": 5878.418000023113,
+        "net": -5873.736000023119,
+        "pf": 0.5960354398879224,
+        "trades": 31421,
+        "win_rate": 0.6797364819706566,
+        "winners": 21358
+      },
+      "owner_hours": 4,
+      "retention": {
+        "trades_pct": 88.32822646389116,
+        "winners_pct": 88.36939881666598
+      },
+      "rule": "neutral_only"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 579.5035000001826,
+        "net": 200.4525000007734,
+        "trades": -1036,
+        "winners": -777
+      },
+      "metrics": {
+        "gross_loss": -15926.297000008008,
+        "gross_profit": 9537.117999982638,
+        "maxdd": 6393.861000025364,
+        "net": -6389.17900002537,
+        "pf": 0.5988283403215351,
+        "trades": 34537,
+        "win_rate": 0.6773026030054724,
+        "winners": 23392
+      },
+      "owner_hours": 4,
+      "retention": {
+        "trades_pct": 97.0876788575605,
+        "winners_pct": 96.78513798667716
+      },
+      "rule": "veto_contra_weak_align"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 360.8755000002311,
+        "net": 155.51900000059595,
+        "trades": -840,
+        "winners": -503
+      },
+      "metrics": {
+        "gross_loss": -16144.92500000796,
+        "gross_profit": 9710.81249998241,
+        "maxdd": 6438.794500025541,
+        "net": -6434.112500025548,
+        "pf": 0.6014777089381105,
+        "trades": 34733,
+        "win_rate": 0.6813693029683586,
+        "winners": 23666
+      },
+      "owner_hours": 4,
+      "retention": {
+        "trades_pct": 97.63865853315717,
+        "winners_pct": 97.91882163101494
+      },
+      "rule": "veto_contra_strong_align"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 1602.4910000007767,
+        "net": 607.6970000024485,
+        "trades": -3366,
+        "winners": -2292
+      },
+      "metrics": {
+        "gross_loss": -14903.309500007414,
+        "gross_profit": 8921.37499998372,
+        "maxdd": 5986.616500023689,
+        "net": -5981.934500023695,
+        "pf": 0.598617038717426,
+        "trades": 32207,
+        "win_rate": 0.679262272176856,
+        "winners": 21877
+      },
+      "owner_hours": 8,
+      "retention": {
+        "trades_pct": 90.53776740786552,
+        "winners_pct": 90.51677769042989
+      },
+      "rule": "veto_contra"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 14435.865500007145,
+        "net": 5727.92350002297,
+        "trades": -31256,
+        "winners": -21294
+      },
+      "metrics": {
+        "gross_loss": -2069.9350000010445,
+        "gross_profit": 1208.2269999978707,
+        "maxdd": 872.8635000031309,
+        "net": -861.7080000031738,
+        "pf": 0.5837028698955576,
+        "trades": 4317,
+        "win_rate": 0.6659717396340051,
+        "winners": 2875
+      },
+      "owner_hours": 8,
+      "retention": {
+        "trades_pct": 12.13560846709583,
+        "winners_pct": 11.895403202449419
+      },
+      "rule": "active_match_only"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 3672.4260000018203,
+        "net": 1469.4050000056222,
+        "trades": -7683,
+        "winners": -5167
+      },
+      "metrics": {
+        "gross_loss": -12833.37450000637,
+        "gross_profit": 7713.147999985848,
+        "maxdd": 5124.908500020515,
+        "net": -5120.226500020522,
+        "pf": 0.6010225915235327,
+        "trades": 27890,
+        "win_rate": 0.6813194693438508,
+        "winners": 19002
+      },
+      "owner_hours": 8,
+      "retention": {
+        "trades_pct": 78.40215894076968,
+        "winners_pct": 78.62137448798046
+      },
+      "rule": "neutral_only"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 925.8255000003082,
+        "net": 329.18950000124096,
+        "trades": -1688,
+        "winners": -1264
+      },
+      "metrics": {
+        "gross_loss": -15579.975000007882,
+        "gross_profit": 9319.532999982981,
+        "maxdd": 6265.124000024896,
+        "net": -6260.442000024903,
+        "pf": 0.5981738096484921,
+        "trades": 33885,
+        "win_rate": 0.6759628154050464,
+        "winners": 22905
+      },
+      "owner_hours": 8,
+      "retention": {
+        "trades_pct": 95.25482809996345,
+        "winners_pct": 94.77016012247094
+      },
+      "rule": "veto_contra_weak_align"
+    },
+    {
+      "delta_vs_parent": {
+        "gross_loss_improvement": 674.6890000004678,
+        "net": 280.484500001201,
+        "trades": -1669,
+        "winners": -1022
+      },
+      "metrics": {
+        "gross_loss": -15831.111500007722,
+        "gross_profit": 9521.96449998278,
+        "maxdd": 6313.829000024936,
+        "net": -6309.147000024943,
+        "pf": 0.6014716338760001,
+        "trades": 33904,
+        "win_rate": 0.6827218027371401,
+        "winners": 23147
+      },
+      "owner_hours": 8,
+      "retention": {
+        "trades_pct": 95.3082393950468,
+        "winners_pct": 95.77144275725102
+      },
+      "rule": "veto_contra_strong_align"
+    }
+  ],
+  "status": "VERIFIED_LOCAL_SCREEN",
+  "unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION"
+}
