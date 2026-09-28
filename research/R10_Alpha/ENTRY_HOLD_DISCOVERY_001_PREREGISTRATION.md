@@ -1,3 +1,5 @@
+> **QUARANTINED / NOT AN ACTIVE ALPHA RESEARCH PARENT — owner-directed pre-bootstrap reset, September 28, 2026.** This was one of six exploratory configurations tested under a subsequently invalidated Gamma-era startup path. Results remain read-only historical negatives, not approved EA science or a baseline. New reset research starts at [CLEAN_RESTART_INITIAL_ENTRY_HOLD_RESEARCH_RECORD.md](CLEAN_RESTART_INITIAL_ENTRY_HOLD_RESEARCH_RECORD.md). The original research body below is preserved.
+
 # R10 Alpha — ENTRY/HOLD initial accuracy discovery 001 (PREREGISTERED)
 
 **Scientific status:** initial exploratory search, not owner-reviewed >10% candidate, not accepted Alpha EA. **Feed:** exact uploaded Dukascopy XAUUSD Bid/Ask ticks; independent from Coinexx MT5 R9 historical tester and R9 SYNTH. **Period selection:** January 2026 exploratory mechanism design; do not choose mechanisms based on February–July results in advance, and do not use August. Keep each month / day / ISO week separately accounted for.
