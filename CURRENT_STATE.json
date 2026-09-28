@@ -48,7 +48,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
-    "current_unit_state": "NET002_NET007_JAN_POSTHOC_LOSS_AUDIT_COMPLETE_NEXT_FROZEN_COMBINATION_HYPOTHESES",
+    "current_unit_state": "JANUARY_ONLY_RECONSTRUCTION_FAST_PATH_PREDECLARED",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -5255,7 +5255,7 @@
     },
     "historical_net002_net007_source_reconciliation": {
       "status": "JAN_SOURCE_STRUCTURAL_MAPPING_AND_POSTHOC_LOSS_ATTRIBUTION_VERIFIED_NEXT_COMPOSITION_PREDECLARATION",
-      "first_incomplete_stage": "NET002_NET007_HISTORICAL_COMBINATION_IDENTITY_AND_COMPLEMENTARITY_PREDECLARATION",
+      "first_incomplete_stage": "NET002_NET007_JAN_FAST_PARITY_HARNESS_AND_FAILURE_INJECTION",
       "source_families": [
         "NET002 completed H1/H4 break of structure and ATR/body quality",
         "NET003 H1-break-M15-retest/reclaim",
@@ -5405,6 +5405,16 @@
         "score_classification": "POSTHOC_LABELS_ONLY; NO TRADE SELECTION, NO PROFIT CLAIM",
         "august_accessed": false,
         "next": "NET002_NET007_HISTORICAL_COMBINATION_IDENTITY_AND_COMPLEMENTARITY_PREDECLARATION"
+      },
+      "january_fast_rebuild": {
+        "scope": "JAN_ONLY_SOURCE_RECONSTRUCTION_DEBUG",
+        "status": "PREDECLARATION_VERIFIED_DURABLE",
+        "file": "results/R9B_GAMMA_NET002_007_JAN_FAST_REBUILD_PREDECLARATION.json",
+        "blob": "0bdcbd51e7385ce6c82267632632268e27e8dc87",
+        "commit": "5a1f3fce5a4edfa9eb536e6b7caf9a0fe7701654",
+        "fast_path": "CACHE_ONLY_FIRST; FULL_RAW_JAN_ONLY_ON_ACTUAL_SIGNAL_PRICE_OR_LIFECYCLE_CHANGE",
+        "no_oos_claims": true,
+        "august_sealed": true
       }
     },
     "net002_net007_source_audit": {
@@ -5436,7 +5446,7 @@
       ],
       "august_accessed": false
     },
-    "first_incomplete_stage": "NET002_NET007_HISTORICAL_COMBINATION_IDENTITY_AND_COMPLEMENTARITY_PREDECLARATION",
+    "first_incomplete_stage": "NET002_NET007_JAN_FAST_PARITY_HARNESS_AND_FAILURE_INJECTION",
     "session_handoff_20260928_max_chat": {
       "status": "DURABLE_GOOGLE_DOCS_HANDOFF_VERIFIED",
       "date": "2026-09-28",
