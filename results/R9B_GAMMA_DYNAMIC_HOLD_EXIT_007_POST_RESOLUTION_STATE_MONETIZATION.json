@@ -1,0 +1,72 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_007_POST_RESOLUTION_STATE_MONETIZATION",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+  "parent": "HOLD_EXIT005 conservative late hazard + frozen ENTRY017-024 ownership",
+  "screen_count": 17010,
+  "eligible_discovery_count": 536,
+  "discovery_best": {
+    "RECOVERY_CERTIFIED": {
+      "bank_ms": 4000,
+      "extend_ms": 6000,
+      "feature_set": "compact",
+      "depth": 1,
+      "leaf": 5,
+      "threshold": 0.35
+    },
+    "LATE_IGNITION": {
+      "bank_ms": 4000,
+      "extend_ms": 5000,
+      "feature_set": "micro",
+      "depth": 2,
+      "leaf": 8,
+      "threshold": 0.6
+    }
+  },
+  "replication": {
+    "RECOVERY_CERTIFIED": {
+      "jan_heldout": {
+        "net_improvement": -9.2465,
+        "winner_delta": -10
+      },
+      "feb": {
+        "net_improvement": -8.3195,
+        "winner_delta": -15
+      },
+      "mar": {
+        "net_improvement": -9.147,
+        "winner_delta": -13
+      }
+    },
+    "LATE_IGNITION": {
+      "jan_heldout": {
+        "net_improvement": -7.526,
+        "gl_reduction_pct": 88.551
+      },
+      "feb": {
+        "net_improvement": -14.511,
+        "gl_reduction_pct": 61.4242
+      },
+      "mar": {
+        "net_improvement": 6.1405,
+        "gl_reduction_pct": 72.8355
+      }
+    }
+  },
+  "decision": "REJECT_POST_RESOLUTION_BANK_VS_FIXED_EXTENSION",
+  "conclusion": "Resolution-time classifiers can reduce late-state gross loss, but they do not robustly improve net across Jan-heldout/Feb/Mar. RECOVERY_CERTIFIED extension destroys previously banked winners. Move from horizon classification to causal profit-lock/trailing mechanics after ownership resolves.",
+  "source_sha256": "e7d7b947082794803b954f7881ba6757723e3e812fa0602de049594743b697ae",
+  "result_sha256": "83202cb6c249e7e32cfc762ca7f46aa8e24677da52b7a034fdf3e7d4930a9be2",
+  "model_sha256": "6d07d31ca7fdd179887b40caa67c1bf98f844fa92b3b0d627f9e97c04419b14f",
+  "drive": {
+    "cache_source": "1eVmTu2_aFSVCHQrDq83xETu9dhWodBmm",
+    "jan_cache": "1CYhPtB_v4HUASgsYF9tIRqlog2hafSga",
+    "feb_cache": "10UzxQBAv7M2TPCdmEIkotzrnBagfpDDl",
+    "mar_cache": "1zNJZc1nDtwLGWKwkTuM8vwWsJMcmV6gT",
+    "screen_source": "1IPwyS75qVPIZRqJep1dHF-ypJLQgHK_G",
+    "result": "13_ItjHegyXwGag5FKdw5RCacDo7ebgoX",
+    "model": "1JS4wiJJqLN69aQCL0ww1ythU1WTJLK52",
+    "manifest": "1GmRztjLhhsY2S1bt3lCKZjeHSgqIp0gX"
+  },
+  "next_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_008_STATE_CONDITIONED_PROFIT_LOCK",
+  "august_accessed": false
+}
