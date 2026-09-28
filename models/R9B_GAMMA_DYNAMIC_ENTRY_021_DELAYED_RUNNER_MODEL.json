@@ -1,0 +1,62 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_021_RECOVERY_TRAJECTORY_OWNER",
+  "role": "DELAYED_RUNNER classifier inside ENTRY020 RECOVERY_UNCERTAIN",
+  "checkpoint_ms": 4500,
+  "exact_rule": {
+    "feature": "local_mae_exec_between_4s_and_4_5s",
+    "threshold_gt": -0.23999999463558197,
+    "then": "DELAYED_RUNNER",
+    "else": "FAILED_IGNITION_CANDIDATE",
+    "diagnostic_only": true
+  },
+  "tree": {
+    "classes": [
+      0,
+      1
+    ],
+    "children_left": [
+      1,
+      -1,
+      -1
+    ],
+    "children_right": [
+      2,
+      -1,
+      -1
+    ],
+    "feature": [
+      3,
+      -2,
+      -2
+    ],
+    "threshold": [
+      -0.23999999463558197,
+      -2,
+      -2
+    ],
+    "n_node_samples": [
+      29,
+      9,
+      20
+    ],
+    "class_probability": [
+      [
+        0.5862068966,
+        0.4137931034
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0.4,
+        0.6
+      ]
+    ],
+    "probability_threshold": 0.35
+  },
+  "training": "January days0-13 ENTRY019 RECOVERY_RUNNER events that fail ENTRY020 +4s certification; +5s outcome label only.",
+  "source_sha256": "0b87ad40f72c51f1ed0cea72f24f340691cb127b9b31fb47d6cbbc7abbc6ffca",
+  "model_sha256": "f28c7726fedbe1aa44553c38923a8d48271fcab293363f2307b049f863623111",
+  "august_accessed": false
+}
