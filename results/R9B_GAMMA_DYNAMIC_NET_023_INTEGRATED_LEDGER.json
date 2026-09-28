@@ -1,0 +1,197 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_NET_023_INTEGRATED_LEDGER",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_RETAINED_MECHANISM_NOT_PROMOTED",
+  "parent": "CAUSAL_RECERT_014",
+  "added_sleeve": "NET022_H1_COMPRESSION_EXPANSION_OWNER_RECONSTRUCTED_PARITY_CERTIFIED",
+  "arbitration": "strict chronological first-eligible; no preemption; parent CAUSAL014 wins exact timestamp ties; one position total; candidate event engines continue independently while portfolio busy",
+  "parent_metrics": {
+    "trades": 197574,
+    "winners": 133142,
+    "win_rate": 0.6738842155344327,
+    "net": -35399.91300012262,
+    "gross_profit": 47325.46899991657,
+    "gross_loss": -82725.38200003919,
+    "pf": 0.5720791836282383,
+    "maxdd_continuous": 35400.69800012309
+  },
+  "net022_standalone": {
+    "trades": 125,
+    "winners": 66,
+    "win_rate": 0.528,
+    "net": 1042.2839999999978,
+    "gross_profit": 2541.4350000000013,
+    "gross_loss": -1499.1510000000035,
+    "pf": 1.6952495112233494
+  },
+  "integrated": {
+    "trades": 148818,
+    "winners": 99977,
+    "win_rate": 0.6718071738633767,
+    "net": -25494.342500092815,
+    "gross_profit": 38136.451999936995,
+    "gross_loss": -63630.794500029806,
+    "pf": 0.5993395540569454,
+    "maxdd_continuous": 25495.127500093047
+  },
+  "delta_vs_parent": {
+    "net_improvement": 9905.570500029808,
+    "net_improvement_pct_of_parent_loss": 27.981906339700597,
+    "gross_loss_reduction": 19094.58750000938,
+    "gross_loss_reduction_pct": 23.081897040983545,
+    "gross_profit_change": -9189.016999979576,
+    "gross_profit_retention_pct": 80.58335776874019,
+    "trade_change": -48756,
+    "trade_retention_pct": 75.32266391326795,
+    "winner_change": -33165,
+    "winner_retention_pct": 75.0905048744949,
+    "continuous_dd_reduction": 9905.570500030044,
+    "continuous_dd_reduction_pct": 27.981285849210096,
+    "pf_change": 0.027260370428707104,
+    "win_rate_pp": -0.20770416710559347
+  },
+  "integrated_attribution": {
+    "CAUSAL014": {
+      "trades": 148712,
+      "winners": 99916,
+      "win_rate": 0.6718758405508635,
+      "net": -26773.707500092816,
+      "gross_profit": 35730.716999936994,
+      "gross_loss": -62504.4245000298,
+      "pf": 0.5716510036808667
+    },
+    "NET022": {
+      "trades": 106,
+      "winners": 61,
+      "win_rate": 0.5754716981132075,
+      "net": 1279.3650000000002,
+      "gross_profit": 2405.735000000003,
+      "gross_loss": -1126.3700000000026,
+      "pf": 2.1358301446238777
+    }
+  },
+  "monthly": [
+    {
+      "month": 1,
+      "parent_net": -4510.0870000207515,
+      "integrated_net": -3249.2965000159793,
+      "net_improvement": 1260.7905000047722,
+      "parent_gross_loss": -11511.55100000661,
+      "integrated_gross_loss": -9142.210000005136,
+      "gross_loss_reduction": 2369.3410000014737,
+      "parent_trades": 28088,
+      "integrated_trades": 21565,
+      "parent_winners": 19087,
+      "integrated_winners": 14607,
+      "net022_integrated_net": 167.65799999999945
+    },
+    {
+      "month": 2,
+      "parent_net": -4450.956500020821,
+      "integrated_net": -3049.988000015047,
+      "net_improvement": 1400.9685000057743,
+      "parent_gross_loss": -13668.407500006782,
+      "integrated_gross_loss": -10136.738500004963,
+      "gross_loss_reduction": 3531.669000001819,
+      "parent_trades": 28188,
+      "integrated_trades": 20324,
+      "parent_winners": 18834,
+      "integrated_winners": 13495,
+      "net022_integrated_net": 171.48499999999785
+    },
+    {
+      "month": 3,
+      "parent_net": -6589.631500026144,
+      "integrated_net": -5189.315000021354,
+      "net_improvement": 1400.3165000047902,
+      "parent_gross_loss": -16505.80050000819,
+      "integrated_gross_loss": -13661.149500006642,
+      "gross_loss_reduction": 2844.651000001548,
+      "parent_trades": 35573,
+      "integrated_trades": 29044,
+      "parent_winners": 24169,
+      "integrated_winners": 19774,
+      "net022_integrated_net": 170.7460000000019
+    },
+    {
+      "month": 4,
+      "parent_net": -4735.74550001993,
+      "integrated_net": -3186.9650000143565,
+      "net_improvement": 1548.7805000055732,
+      "parent_gross_loss": -10883.57500000631,
+      "integrated_gross_loss": -7934.352000004568,
+      "gross_loss_reduction": 2949.2230000017425,
+      "parent_trades": 26683,
+      "integrated_trades": 19221,
+      "parent_winners": 18068,
+      "integrated_winners": 12976,
+      "net022_integrated_net": 234.27900000000227
+    },
+    {
+      "month": 5,
+      "parent_net": -4425.295500019026,
+      "integrated_net": -3331.5015000144504,
+      "net_improvement": 1093.7940000045755,
+      "parent_gross_loss": -9751.745500006073,
+      "integrated_gross_loss": -7571.585000004714,
+      "gross_loss_reduction": 2180.1605000013587,
+      "parent_trades": 25525,
+      "integrated_trades": 19379,
+      "parent_winners": 17412,
+      "integrated_winners": 13093,
+      "net022_integrated_net": 130.47799999999734
+    },
+    {
+      "month": 6,
+      "parent_net": -5345.316000013228,
+      "integrated_net": -3755.756000010067,
+      "net_improvement": 1589.5600000031613,
+      "parent_gross_loss": -10875.75300000429,
+      "integrated_gross_loss": -8246.39050000327,
+      "gross_loss_reduction": 2629.3625000010197,
+      "parent_trades": 27710,
+      "integrated_trades": 20852,
+      "parent_winners": 18828,
+      "integrated_winners": 14106,
+      "net022_integrated_net": 240.59900000000107
+    },
+    {
+      "month": 7,
+      "parent_net": -5342.881000002722,
+      "integrated_net": -3731.5205000015617,
+      "net_improvement": 1611.3605000011607,
+      "parent_gross_loss": -9528.549500000938,
+      "integrated_gross_loss": -6938.369000000515,
+      "gross_loss_reduction": 2590.1805000004224,
+      "parent_trades": 25807,
+      "integrated_trades": 18433,
+      "parent_winners": 16744,
+      "integrated_winners": 11926,
+      "net022_integrated_net": 164.12000000000035
+    }
+  ],
+  "monthly_ledger_sha256": {
+    "1": "c21bfc09f846089a3f52804ffe790fa9ae31449ebc9869fee45c1df21c735477",
+    "2": "4d52f532f48d361e1f7e8172434571d6c8404a106b529c4acabb35b482a97620",
+    "3": "b8d718cfac443b20ee01439ed22c64f49f5b9f592680938862a4ad14a3f59939",
+    "4": "87ac357d856c3a143e9a653fa2f1f140473e2b8f01b520ca55fad6bb0185ccd9",
+    "5": "b4a212362840ea8639d353de129e19d9a1ec45cbbbdb4c36fdebcfd0ce4a73b4",
+    "6": "d6e3052d3de7748aedaa1b208d9818824d3932b175d17f4a9ade625fc67da407",
+    "7": "a26bb14c48922b12938a5968b2556af34cc49b79429582694f44c6c890d1bc18"
+  },
+  "net022_source_reconstruction": {
+    "classification": "RECONSTRUCTED_PARITY_CERTIFIED_NOT_BYTE_IDENTICAL_ORIGINAL",
+    "source_path": "scripts/r9b_net_022_h1_compression_expansion_reconstructed.py",
+    "source_sha256": "66418ab469e72bc7c9e74e25d2b39ee274fc589e18405b7b7abe95f0509a2fd1",
+    "parity_result_path": "results/R9B_GAMMA_DYNAMIC_NET_022_SOURCE_PARITY_RECONSTRUCTION.json",
+    "all_seven_months_exact_parity": true
+  },
+  "net023_source": {
+    "path": "scripts/r9b_net_023_integrated_ledger.py",
+    "local_sha256": "64f60d9de736c428796d89a93d174f8317db212da8510f14c462fe1ccdfebfe3",
+    "helper_dependencies": "scripts/causal014/* restored from exact historical gold-MUWHAHA-miner commits"
+  },
+  "interpretation": "NET022 structural ownership is causally defensive in every month, but strict 8-hour exclusive occupancy suppresses too much HFT participation. The integrated ledger cuts gross loss and drawdown materially while retaining only about 75% of parent trades/winners and remains negative. Retain H1 compression-expansion as a structural ownership/context mechanism; reject wholesale exclusive-position promotion.",
+  "decision": "RETAIN_MECHANISM_REJECT_EXCLUSIVE_OCCUPANCY_PROMOTION",
+  "next_unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION",
+  "august_accessed": false
+}
