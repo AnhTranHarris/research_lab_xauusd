@@ -3607,9 +3607,14 @@
     },
     "session_handoff_20260927": {
       "status": "VERIFIED_DURABLE",
-      "google_doc_id": "1YM6g6BSePWNv557tg5e2fM7WLPckQ7NqJcDW8RCD9z0",
+      "native_google_doc_id": "1YM6g6BSePWNv557tg5e2fM7WLPckQ7NqJcDW8RCD9z0",
+      "drive_docx_id": "1OuWAa-tsMi0wuPvLpV-NAAHJbi5QJ2vz",
       "title": "R9B Gamma — CHAT SESSION HANDOFF — Entry-Hold Freeze to HOLD_EXIT013 — 2026-09-27",
-      "note": "Use the LATEST RESUME CORRECTION appended at end of the doc; live CURRENT_STATE always supersedes earlier embedded pointers."
+      "qa": "DOCX exported from native Google Doc and visually inspected page-by-page (10 pages).",
+      "exact_resume_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_013_BANK_THEN_REQUALIFIED_REENTRY",
+      "exact_resume_stage": "REPLICATION_MONTH_3",
+      "strict_rule": "Run one scientific stage only in the first new-chat turn; persist/sync/advance pointer; STOP.",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
