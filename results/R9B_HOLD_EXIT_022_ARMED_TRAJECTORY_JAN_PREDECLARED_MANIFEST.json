@@ -1,0 +1,10 @@
+{
+  "august_accessed": false,
+  "contract_sha256": "d6a2ec4ca4ffccad16cd79fe33a2040f555b2bedce03a9f789bf10eb75a76f41",
+  "january_raw_cache_sha256": "7b8eff38f79a8246309e0d276158eb1dded9210deb54b79a3c8be189a9d9960d",
+  "original_parent_sha256": "c63e1c5896ae12964033c674647558e869f7eeba2fff395f8b32cab026ff9d23",
+  "predeclaration_source_sha256": "44ac2aaf036b855fdc4b934ccaf6f48316edf40b0b6698702cf82c0745af6ef1",
+  "stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_JAN_DISCOVERY_PREDECLARATION",
+  "status": "PREDECLARED_VALIDATED_NO_MARKET_DATA_READ",
+  "variants": 12
+}
