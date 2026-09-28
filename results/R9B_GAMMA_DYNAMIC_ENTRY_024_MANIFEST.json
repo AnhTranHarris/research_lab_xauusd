@@ -1,0 +1,10 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_024_ENTRY_HOLD_ARCHITECTURE_REBASE",
+  "status": "VERIFIED_DURABLE",
+  "source_sha256": "9cd7a5301d5b7b080d28e68c28320f096d2bbbe6b19c57616a976557b719d438",
+  "result_sha256": "64b6a3149fb4fa5a6164fa8fc05ba4f179065d11c48bf4e61e2336bc0fae2207",
+  "drive_source_id": "1SvuRmLx7egRdmwuIZntWc7vlcQopT1zo",
+  "drive_result_id": "14-v4zLi14ejZIRiEz9qh3LYueKK_JDfb",
+  "drive_manifest_id": "1vZQlrtAd2ni7KMj0SPVh1UcR35y8nddp",
+  "august_accessed": false
+}
