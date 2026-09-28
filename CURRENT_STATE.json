@@ -48,7 +48,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
-    "current_unit_state": "NET002_NET007_JAN_SOURCE_EVENT_DESCRIPTORS_VERIFIED_NEXT_LOSS_ATTRIBUTION",
+    "current_unit_state": "NET002_NET007_JAN_POSTHOC_LOSS_AUDIT_COMPLETE_NEXT_FROZEN_COMBINATION_HYPOTHESES",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -5254,8 +5254,8 @@
       "next_stage": "HISTORICAL_NET002_NET007_STRUCTURAL_INDICATOR_COMBINATION_SOURCE_TO_PARENT_ARCHAEOLOGY"
     },
     "historical_net002_net007_source_reconciliation": {
-      "status": "JAN_NET002_NET007_SOURCE_EVENTS_AND_NET004_DESCRIPTOR_VISIBLE_REBUILT",
-      "first_incomplete_stage": "NET002_NET007_JAN_STRUCTURAL_COMPOSITION_LOSS_ATTRIBUTION_DIAGNOSTIC",
+      "status": "JAN_SOURCE_STRUCTURAL_MAPPING_AND_POSTHOC_LOSS_ATTRIBUTION_VERIFIED_NEXT_COMPOSITION_PREDECLARATION",
+      "first_incomplete_stage": "NET002_NET007_HISTORICAL_COMBINATION_IDENTITY_AND_COMPLEMENTARITY_PREDECLARATION",
       "source_families": [
         "NET002 completed H1/H4 break of structure and ATR/body quality",
         "NET003 H1-break-M15-retest/reclaim",
@@ -5346,6 +5346,65 @@
         "no_promotion": true,
         "august_accessed": false,
         "next": "NET002_NET007_JAN_STRUCTURAL_COMPOSITION_LOSS_ATTRIBUTION_DIAGNOSTIC"
+      },
+      "january_loss_attribution": {
+        "status": "VERIFIED_DURABLE_JAN_POSTHOC_NO_ALPHA",
+        "source": "scripts/r9b_net002_007_jan_loss_attribution.py",
+        "source_blob": "1d216c38fc5354af09621b607708d0de07250479",
+        "source_sha256": "713fdbeb342b0139d48555f339715b73874e39966d3cafe0685059fc7fd7c994",
+        "result": "results/R9B_GAMMA_NET002_007_JAN_STRUCTURAL_LOSS_ATTRIBUTION.json",
+        "result_blob": "dd34d291adc3cec888e178b5baa113fcd074d1b9",
+        "result_sha256": "bd76eea956a0cae66b6b9c3784468a25aa7d3ad90b3dee0b9969c5748480659b",
+        "manifest": "results/R9B_GAMMA_NET002_007_JAN_STRUCTURAL_LOSS_ATTRIBUTION_MANIFEST.json",
+        "manifest_blob": "cb45961f5a1de401d85253202154ead5f9310d20",
+        "manifest_sha256": "979fc3b059bf7f7f38fd02ee9b1eb84e6ff9875d08f56dad8180676afd8f4dfc",
+        "library_path": "/R9_Gamma_Checkpoints/NET002_NET007_JAN_MAPPING",
+        "source_commit": "9079e96ec2e0553f2cd5d098870e2f8d353e622b",
+        "result_commit": "c5033f230806897d9300acddee4f1b81d3ed5712",
+        "source_month": "2026-01",
+        "parent_exact_net": -4510.0870000207515,
+        "parent_selected": 28088,
+        "h1_direction_cohorts": {
+          "same": {
+            "trades": 12320,
+            "net": -1919.0025000090218,
+            "gl": -5079.018500002789
+          },
+          "opposite": {
+            "trades": 15052,
+            "net": -2477.7705000111955,
+            "gl": -6181.654000003633
+          },
+          "missing": {
+            "trades": 716,
+            "net": -113.31400000053418,
+            "gl": -250.87850000018716
+          }
+        },
+        "h4_direction_cohorts": {
+          "same": {
+            "trades": 9673,
+            "net": -1441.695000007161,
+            "gl": -4075.4080000021686
+          },
+          "opposite": {
+            "trades": 15971,
+            "net": -2640.570500011755,
+            "gl": -6538.676000003835
+          },
+          "neutral": {
+            "trades": 2444,
+            "net": -427.8215000018354,
+            "gl": -897.4670000006054
+          }
+        },
+        "all_h1_h4_direction_cohorts_negative_in_january": true,
+        "three_disjoint_partition_checks": "PASS",
+        "descriptor_observability_check": "PASS",
+        "future_feature_violations": 0,
+        "score_classification": "POSTHOC_LABELS_ONLY; NO TRADE SELECTION, NO PROFIT CLAIM",
+        "august_accessed": false,
+        "next": "NET002_NET007_HISTORICAL_COMBINATION_IDENTITY_AND_COMPLEMENTARITY_PREDECLARATION"
       }
     },
     "net002_net007_source_audit": {
@@ -5377,7 +5436,7 @@
       ],
       "august_accessed": false
     },
-    "first_incomplete_stage": "NET002_NET007_JAN_STRUCTURAL_COMPOSITION_LOSS_ATTRIBUTION_DIAGNOSTIC",
+    "first_incomplete_stage": "NET002_NET007_HISTORICAL_COMBINATION_IDENTITY_AND_COMPLEMENTARITY_PREDECLARATION",
     "session_handoff_20260928_max_chat": {
       "status": "DURABLE_GOOGLE_DOCS_HANDOFF_VERIFIED",
       "date": "2026-09-28",
