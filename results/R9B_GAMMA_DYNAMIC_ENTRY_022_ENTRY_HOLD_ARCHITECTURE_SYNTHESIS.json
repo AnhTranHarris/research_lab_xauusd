@@ -1,0 +1,50 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_022_ENTRY_HOLD_ARCHITECTURE_SYNTHESIS",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC",
+  "parent_chain": [
+    "ENTRY017 action owner",
+    "ENTRY018 STRONG_RUNNER",
+    "ENTRY019 RECOVERY_RUNNER",
+    "ENTRY020 RECOVERY_CERTIFIED",
+    "ENTRY021 DELAYED_RUNNER"
+  ],
+  "gate": {
+    "min_persistence_recall_of_1s_correct_5s_winners_pct": 90.6801007557,
+    "min_persistence_recall_of_all_5s_winners_pct": 39.8230088496,
+    "max_late_ignition_share_of_5s_winners_pct": 56.0840707965,
+    "max_failed_candidate_5s_positive_pct": 14.0625,
+    "ready_for_exit_research": false
+  },
+  "monthly": {
+    "jan": {
+      "entry_accuracy_1s_pct": 30.7547169811,
+      "late_ignition_share_of_5s_winners_pct": 46.5853658537,
+      "persistence_recall_of_1s_correct_5s_winners_pct": 94.0639269406,
+      "persist_state_5s_accuracy_pct": 77.7358490566,
+      "failed_candidate_5s_positive_pct": 8.1081081081
+    },
+    "feb": {
+      "entry_accuracy_1s_pct": 30.452920143,
+      "late_ignition_share_of_5s_winners_pct": 53.1204644412,
+      "persistence_recall_of_1s_correct_5s_winners_pct": 91.0216718266,
+      "persist_state_5s_accuracy_pct": 72.2358722359,
+      "failed_candidate_5s_positive_pct": 14.0625
+    },
+    "mar": {
+      "entry_accuracy_1s_pct": 27.3936170213,
+      "late_ignition_share_of_5s_winners_pct": 56.0840707965,
+      "persistence_recall_of_1s_correct_5s_winners_pct": 90.6801007557,
+      "persist_state_5s_accuracy_pct": 76.4331210191,
+      "failed_candidate_5s_positive_pct": 7.6086956522
+    }
+  },
+  "conclusion": "Persistence ownership is now strong conditional on correct +1s ignition: >90% of +5s winners in that subset are captured, and terminal failed-ignition candidates are only ~8-14% positive at +5s. The dominant unresolved gap is late ignition: 46.6-56.1% of all +5s winners were non-positive at +1s and are excluded before the persistence state machine can help them.",
+  "decision": "ENTRY_HOLD_NOT_COMPLETE_LATE_IGNITION_GAP",
+  "next_unit": "R9B_GAMMA_DYNAMIC_ENTRY_023_LATE_IGNITION_OWNER",
+  "source_sha256": "d596455d6a21ae55163330bba730d7e4c058fdbd0e4688325ea4b7bb1099ad94",
+  "result_sha256": "d18e9bdd7bf3f0e56a8abf6b735bfd240b8ba07f9f3ca5d26f0f3cb621eabdc6",
+  "drive_source_id": "11QflbpJqQGj_RIcDWtQISIQ0FfOwmybJ",
+  "drive_result_id": "1fYlx5vbpzQL9m50wIaohkqD3brozo4cE",
+  "drive_manifest_id": "1rumVvfXFGzXqiDXGEaiLVSTOwPxX4g9a",
+  "august_accessed": false
+}
