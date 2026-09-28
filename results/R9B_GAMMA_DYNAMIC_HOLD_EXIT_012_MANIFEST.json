@@ -1,0 +1,17 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_012_LATE_PERSISTENCE_RUNNER_CAPTURE",
+  "status": "COMPLETED_LOCAL",
+  "source_sha256": "75a76df258a92c57d4562994107fbd9a396393c6631c59c89856b004a5d69e3f",
+  "result_sha256": "13de949d19fe40728e2dfae6d517448c8d10af1f8bb7f8e3d74d3d040365039e",
+  "discovery_sha256": "1ae2a52c865973702a0c44608d16d506823ae303686cb098b9b03ffcce096d18",
+  "chunk_sha256": {
+    "8000": "8c836ed11997ccc7b068dc4fbb8a774115cf62ea22617c011f677ee0c61592d9",
+    "10000": "58e4ee9e7b7dd9e0489fe4b5495887c7a18183527e217cd98b849263b4b931d0",
+    "15000": "893ceda465f5669687a1910f8d42f4f6259eb446ebb79e348f0f2d659cc526a9",
+    "20000": "dc360f739022976480cd9854ee18aefb912376b49123ff43360249135dab5409",
+    "30000": "8d1c44e38a22c2ac3f6686b6caf163c22c2d92ad35b461c8d77afb6c8c7400a7"
+  },
+  "evaluated_grid_size": 343000,
+  "eligible_count": 0,
+  "august_accessed": false
+}
