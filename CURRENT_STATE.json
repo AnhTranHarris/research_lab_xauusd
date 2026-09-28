@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_018_SESSION_RANGE_STATE_ROUTER",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_019_PRIOR_DAY_LIQUIDITY_MAP",
     "current_unit_state": "READY_JAN_MAR_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -4272,6 +4272,46 @@
       "may_july_accessed": false,
       "august_accessed": false,
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_018_SESSION_RANGE_STATE_ROUTER"
+    },
+    "net018_session_range_state_router": {
+      "status": "REJECTED_FROZEN_FORWARD",
+      "decision": "REJECT_SESSION_RANGE_STATE_FROZEN_FORWARD",
+      "discovery_result_sha256": "2d5c7ca33861ecea017f5e077e05894c20c8976fe10ef1e02d0903e220fdb25f",
+      "forward_result_sha256": "0a4fb9679807c2daf0538b1bb944e52cd59fd123ba24f426bebfe2eb53bc418d",
+      "source_sha256": "acbab659549ddbb663557bd84a99345cd445a2d9d5fd5606efc6601119b85e8d",
+      "forward_source_sha256": "2e8b3f19f52a00825840aaad0def21ab6cf7424292600309558c1138b53475b5",
+      "frozen_rule": {
+        "history_sessions": 5,
+        "compression_max_ratio": 0.9,
+        "extended_min_ratio": 1.3
+      },
+      "april": {
+        "trades": 21,
+        "net": 155.6289999999999,
+        "pf": 2.0231547529042113
+      },
+      "may": {
+        "trades": 16,
+        "net": 12.798999999999978,
+        "pf": 1.0760017576779655
+      },
+      "june": {
+        "trades": 20,
+        "net": 13.30199999999968,
+        "pf": 1.0725549125381109
+      },
+      "july": {
+        "trades": 16,
+        "net": -112.4300000000012,
+        "pf": 0.36451503504408284
+      },
+      "may_july": {
+        "trades": 52,
+        "net": -86.32900000000154,
+        "pf": 0.8367025371646452
+      },
+      "august_accessed": false,
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_019_PRIOR_DAY_LIQUIDITY_MAP"
     }
   },
   "gamma2_benchmark_recovery": {
