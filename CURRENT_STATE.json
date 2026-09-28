@@ -3036,7 +3036,14 @@
       },
       "conclusion": "First-second observed path state improves directional persistence accuracy across all replications, but runner recall is only ~55-63%; retain as research frontier only. No exit/lifecycle change yet.",
       "result_sha256": "7d2d6fc4a89877ef713de732b98ac319bcbdc4c8453445b8d22a8b0a9bb18b6",
-      "august_accessed": false
+      "august_accessed": false,
+      "model_artifact_commit": "a43c21b4c521fcd1569b1e94ac4ec42330c71959",
+      "model_sha256": "86523ba17d90c3f14af0ea5f55e7d98779efc3569c342a9edc349c1e43e84877",
+      "exact_rule": {
+        "hold_if_exec_pnl_1s_gt": 0.27175000309944153,
+        "raw_mid_displacement_equivalent_gt": 0.4717500030994415,
+        "else": "HARVEST_CANDIDATE_DIAGNOSTIC_ONLY"
+      }
     }
   },
   "gamma2_benchmark_recovery": {
