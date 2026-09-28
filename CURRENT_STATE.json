@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_023_LATE_IGNITION_OWNER",
+    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_024_ENTRY_HOLD_ARCHITECTURE_REBASE",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -3186,6 +3186,40 @@
       "conclusion": "Persistence ownership is strong once +1s ignition is correct, but 46.6-56.1% of all +5s winners are late ignitions and never reach the persistence chain. Entry/hold remains incomplete.",
       "source_sha256": "d596455d6a21ae55163330bba730d7e4c058fdbd0e4688325ea4b7bb1099ad94",
       "result_sha256": "d18e9bdd7bf3f0e56a8abf6b735bfd240b8ba07f9f3ca5d26f0f3cb621eabdc6",
+      "august_accessed": false
+    },
+    "entry_023_late_ignition_owner": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_BREAKTHROUGH_CANDIDATE",
+      "result_commit": "047807f3887403b383da637068dfa30a53b63399",
+      "model_commit": "bac0fb6dde8ca288e650ae27311de087a1153cf1",
+      "manifest_commit": "57839d7f3ca5e103bee3bc6aa33d32cb2b297a4b",
+      "note_commit": "423c869a6c38549df88e9a702933a2b3363a36cb",
+      "drive_source_id": "1A4pIpK7VjXHZMvi-2_ZbRuRzRgvmv84K",
+      "drive_result_id": "1alEs7jaxbJoLgGZo-po1NvBLLZjZH846",
+      "drive_model_id": "1WJJbap_jb_oR3ayJjnSs-a8tpe-1IeE-",
+      "drive_manifest_id": "10Wa3nkfN3BukY7vX7sCnTCS8ex3eD2S4",
+      "exact_rule": "Inside ENTRY017 selections with +1s executable P/L <=0, at +4s classify LATE_IGNITION iff current executable P/L > $0.01675.",
+      "replication": {
+        "jan_heldout": {
+          "accuracy_delta_pp": 57.1177365186,
+          "winner_recall_pct": 74.8691099476,
+          "coverage_pct": 23.4332425068
+        },
+        "feb": {
+          "accuracy_delta_pp": 53.6225171187,
+          "winner_recall_pct": 77.3224043716,
+          "coverage_pct": 28.5347043702
+        },
+        "mar": {
+          "accuracy_delta_pp": 54.8234811166,
+          "winner_recall_pct": 78.5009861933,
+          "coverage_pct": 28.3272283272
+        }
+      },
+      "conclusion": "Late-ignition winners are strongly separable by +4s current executable P/L; retain as diagnostic frontier only.",
+      "source_sha256": "377cac8fba17f93865986ac5c787736aa7e1cf07286757bc174de42c9c3c6aeb",
+      "result_sha256": "db25ee4f4431affa65fd138c0239afaab3ee5eb71cff991da9049af566894308",
+      "model_sha256": "3625783393e11d5a88d2e2dd0efce970bac6ed72fbfadd1909f3a591a3999329",
       "august_accessed": false
     }
   },
