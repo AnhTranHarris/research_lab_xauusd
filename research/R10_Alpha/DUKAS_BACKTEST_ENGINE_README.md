@@ -34,9 +34,9 @@ python -m pytest -q
 
 Implement an offline candidate selector producing CSV files named `2026-01.csv` through `2026-07.csv` with header:
 
-`ready_ms,known_at_ms,side,stop_usd,target_usd,max_hold_ms,expires_ms,signal_id`
+`ready_ms,known_at_ms,side,stop_usd,target_usd,max_hold_ms,expires_ms,signal_id,observation_type`
 
-Each month's producer sees only price data observable by each timestamp, with completed bar IDs and typed side. `side` is `1=BUY`, `-1=SELL`; bracket distances are positive in $/oz; signal IDs unique; prospective market order expires when the first executable tick arrives beyond `expires_ms`. No future labels may be used. The engine intentionally does NOT bless externally generated signals as causal just because a CSV field says `known_at_ms`.
+Each month's producer sees only price data observable by each timestamp, with completed bar IDs and typed side. `side` is `1=BUY`, `-1=SELL`; bracket distances are positive in $/oz; signal IDs unique; prospective market order expires when the first executable tick arrives beyond `expires_ms`. Set observation_type to `completed_bar` or `tick_observed`. A `tick_observed` signal MUST be first eligible strictly after the observation timestamp, while a completed_bar may become eligible at its exact bar end. No future labels may be used. The engine intentionally does NOT bless externally generated signals as causal just because a CSV field says `known_at_ms`.
 
 ```bash
 python -m alpha_dukas.cli signals --data-root /mnt/data --cache ./cache --signals-folder ./my_candidates --output ./results --months 2026-01 2026-02 --tag MY_CANDIDATE_DIAGNOSTIC
