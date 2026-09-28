@@ -3047,38 +3047,31 @@
     },
     "entry_019_multi_horizon_persistence_state": {
       "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_FRONTIER",
-      "source_commit": "abef8b310cfc2fa8659217f63980734abdf88eb7",
-      "result_commit": "40bf9d1d6ef264d5c3d6823aab85fe0210f9cdd1",
-      "model_commit": "5810444f58d5121a8fa1692b5025d0f7413c7eef",
-      "manifest_commit": "bb3c8f9bfac22a0766e2754a2383586a6c1f2b91",
-      "note_commit": "3d54a9292390b2d6fb7d5700eaff8e580ac9ddee",
-      "source_sha256": "fc5c7d10ec0a9521ff9d824251cd9beb523522327cecc84c46c174a50dd6c3f6",
+      "source_commit": "5492ba079a265609a34b090cfeaa663927ef4684",
+      "result_commit": "ad401fd7d625015e7b695a616685d3901ff8bab3",
+      "model_commit": "d8ac7980b4aec6d1c90175f12e21b0b5db79cef2",
+      "manifest_commit": "2af028c7915a7520ee08b95fba123683a5c46314",
+      "note_path": "notes/R9B_GAMMA_DYNAMIC_ENTRY_019_MULTI_HORIZON_PERSISTENCE_STATE.md",
       "result_sha256": "394e1ec597eb2a81c7bce6693b12379db8506e854123f29ceeab3dc75b45dca2",
       "model_sha256": "2c0dbc29e91b1083e6344fbc033c4eb56db3c267e6159119eab35a5621e6f84c",
-      "state_machine": [
-        "STRONG_RUNNER",
-        "RECOVERY_RUNNER",
-        "HARVEST_CANDIDATE"
-      ],
       "replication": {
         "jan_heldout": {
-          "combined_5s_delta_pp": 2.0274,
-          "runner_recall_pct": 95.4338,
-          "coverage_pct": 92.638
+          "combined_5s_delta_pp": 2.0273839028,
+          "runner_recall_pct": 95.4337899543,
+          "coverage_pct": 92.6380368098
         },
         "feb": {
-          "combined_5s_delta_pp": 1.1218,
-          "runner_recall_pct": 93.808,
-          "coverage_pct": 92.1722
+          "combined_5s_delta_pp": 1.1218168447,
+          "runner_recall_pct": 93.8080495356,
+          "coverage_pct": 92.1722113503
         },
         "mar": {
-          "combined_5s_delta_pp": 0.947,
-          "runner_recall_pct": 92.4433,
-          "coverage_pct": 91.1003,
-          "combined_3s_delta_pp": -0.6944
+          "combined_5s_delta_pp": 0.9470186875,
+          "runner_recall_pct": 92.443324937,
+          "coverage_pct": 91.1003236246
         }
       },
-      "conclusion": "Recovery persistence is non-monotonic. ENTRY019 restores >92% total 5s runner recall while preserving positive 5s accuracy uplift, but March 3s accuracy slips slightly; retain as 5s recovery diagnostic only, no exit change.",
+      "conclusion": "Persistence is non-monotonic. STRONG_RUNNER plus a separate RECOVERY_RUNNER restores >92% of +5s persistent runners across all replications while preserving a positive +5s accuracy delta. March +3s combined accuracy is slightly worse than baseline, so this remains diagnostic and is not an exit rule.",
       "august_accessed": false
     },
     "session_artifact_audit": {
@@ -3088,6 +3081,14 @@
       "entry016_archive_doc_id": "1RoVap7SuDRPpmiG_fwAHbZqanZAc1hdMqZJv4mK5cdA",
       "private_research_registry_doc_id": "1j0_O14mLAyUCOHQYMwYB8VZtiQzNeRKrlRKYX0wSXIY",
       "rule": "Future MT5 work must use the private artifact registry plus exact Drive/GitHub artifacts; do not reconstruct helper logic from chat.",
+      "august_accessed": false
+    },
+    "session_artifact_audit_20260927": {
+      "status": "VERIFIED_DURABLE",
+      "scope": "ENTRY016-ENTRY019 source/result/model/cache/manifest artifacts created in this chat",
+      "finding": "ENTRY017-ENTRY019 raw helper/cache/result/model artifacts are mirrored in the dedicated Drive recovery folder. ENTRY016 exact source/result/note are mirrored in a native Google Doc archive and remain canonical in GitHub. ENTRY019 empty GitHub placeholders were detected and repaired from durable local/Drive artifacts before advancing.",
+      "drive_recovery_folder_id": "1Wb2QQGCpIp8v587_28F8aDZQdaHEU_W8",
+      "entry016_archive_doc_id": "1RoVap7SuDRPpmiG_fwAHbZqanZAc1hdMqZJv4mK5cdA",
       "august_accessed": false
     }
   },
