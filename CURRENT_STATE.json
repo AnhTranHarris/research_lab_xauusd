@@ -32,7 +32,8 @@
     "campaign": "R9B_GAMMA_2_MONETIZATION",
     "objective": "Search for causal reconstructible strategies/mechanisms/combinations that add durable value to the current-best Gamma parent and close the REAL→R9 SYNTH gap. Use R9 overfit/SYNTH as tick-by-tick teacher/capacity map only; never as future execution input.",
     "priorities": [
-      "HOLD_EXIT_022 causal HARVEST/MEDIUM/RUNNER profit geometry and event-time persistence source audit, January source-golden",
+      "Replicate weak-only .10 trailing against unchanged strong .04 on Feb and Mar causal raw-event ledger without adjustment",
+      "Accept only monthwise positive net and GP and >=95% winner/trade retention with <=5% original GL deterioration; freeze before April",
       "HOLD_EXIT_022 bankable HARVEST/MEDIUM/RUNNER economics with original CAUSAL014 chronology and optional NET024 H1 owner ablation",
       "Restore source-equivalent ENTRY017/021/023 diagnostics on identical CAUSAL014 event population before promoted MQL5 state machine",
       "No production MQL5 work before verified integrated positive economic value and source closure",
@@ -47,7 +48,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
-    "current_unit_state": "JAN_LONG_STALL_REJECTED_RUNNER_GEOMETRY_READY",
+    "current_unit_state": "JAN_RUNNER_PARTIAL_VALUE_REPLICATION_READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4616,7 +4617,7 @@
       "calibration_window": "APRIL",
       "forward_window": "MAY_JUL_FROZEN",
       "july_historical_contamination_note": "Old July research forensics mean not every new mechanism can claim July as truly untouched; label appropriately.",
-      "first_incomplete_stage": "HOLD_EXIT_022_CAUSAL_RUNNER_TRAIL_GEOMETRY_DISCOVERY",
+      "first_incomplete_stage": "HOLD_EXIT_022_RUNNER_WEAK_0P10_FEB_MAR_DISCOVERY_REPLICATION",
       "mql5_build_blockers": "Reconstruct missing ENTRY017/021/023 dedicated source bodies if used, golden-parity certify all carried state semantics; dynamic exit requires full tick replay and resulting entry opportunity reevaluation.",
       "test_rules": "one position, chronological raw candidate stream, avoid future features, apply actual newly chosen exit timestamp before selecting next entry; run with/without H1 context",
       "august_accessed": false,
@@ -4753,6 +4754,48 @@
         "decision": "No activity-censored late-stall early close improves Jan net; reject this mechanism alone and pivot to positive ignition runner monetization.",
         "library_path": "/R9_Gamma_Checkpoints/HOLD_EXIT_022",
         "august_accessed": false
+      },
+      "january_runner_geometry": {
+        "status": "VERIFIED_DURABLE_DIAGNOSTIC_PARTIAL_VALUE_REPLICATION_PENDING",
+        "source_parity": "EXACT_RAW_PNL_AND_EXIT_TIMESTAMPS_ALL_34362",
+        "parent_golden": {
+          "trades": 28088,
+          "winners": 19087,
+          "net": -4510.0870000207515,
+          "gross_profit": 7001.463999985857,
+          "gross_loss": -11511.55100000661,
+          "pf": 0.6082120471847657
+        },
+        "variants_predeclared": 12,
+        "strict_eligible_count": 0,
+        "partial_monetization_count": 1,
+        "diagnostic_rule": {
+          "owner": "weak_only",
+          "new_weak_trail_width": 0.1,
+          "strong_width_unchanged": 0.04,
+          "jan_net_improvement": 9.269500000013068,
+          "jan_gp_improvement": 62.72800000026746,
+          "jan_gross_loss_change": -53.45850000025348,
+          "jan_winners_retained_pct": 98.02483365641537,
+          "jan_trades_retained_pct": 99.97151808601538
+        },
+        "disqualified_max_net_example": {
+          "owner": "both",
+          "trail": 0.4,
+          "net_improvement": 388.4470000007541,
+          "additional_gross_loss": 1469.1820000045554,
+          "winners_retained_pct": 63.61397810027768
+        },
+        "source_commit": "b0bb4eb8191e59a9e25d29e27fc5d2d6e6f85635",
+        "predeclared_contract_commit": "304a0235c1fbe09f78d62163ef1e2fee2ff711e5",
+        "result_commit": "7a6bda00d2454ce2d978f86be9ebeb24d241191a",
+        "manifest_commit": "ee3756895f90d9cecd04650468b561accff9ba2f",
+        "note_commit": "a3953eb7cfac870a7f8fba1f92c26ffa365d83a2",
+        "source_sha256": "4a23916632d5591bf1d25107f2b316432d410648fa3a1935f5fff2e483da52f1",
+        "result_sha256": "33efb4fa8ff97a4c620459299407cac1005b747d2f703b1a5796225a7ee96a93",
+        "aug_accessed": false,
+        "library_path": "/R9_Gamma_Checkpoints/HOLD_EXIT_022",
+        "next": "Feb and Mar discovery replicate Jan partial weak-only .10 with strict frozen semantics; do not tune April/May-Jul."
       }
     }
   },
