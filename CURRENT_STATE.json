@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_008_INTRINSIC_TIME_ROTATION_SLEEVE",
-    "current_unit_state": "READY_JAN_MAR_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_014_NEW_MECHANISM_RESEARCH",
+    "current_unit_state": "QUOTE_VOLUME_IMBALANCE_MICROPRICE_DISCOVERY_READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4092,6 +4092,49 @@
       "decision": "REJECT_FAILED_AUCTION_FADE_FROZEN_FORWARD",
       "august_accessed": false,
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_008_INTRINSIC_TIME_ROTATION_SLEEVE"
+    },
+    "net008_to_013": {
+      "NET008": {
+        "decision": "REJECT_INTRINSIC_TIME_ROTATION",
+        "result_sha256": "24ed483d1e51745e3eb95d6501d99b779ae209d66415b90a745cf41b702c6085"
+      },
+      "NET009": {
+        "decision": "REJECT_MULTI_THRESHOLD_DC_STATE",
+        "result_sha256": "76f0920279eeede7d53722207939b0f55dd3f2e9381c073799b3f6d03afc4ca7"
+      },
+      "NET010": {
+        "decision": "REJECT_EVENT_TIME_STATE_COMBINATION",
+        "april": {
+          "net": -45.594999999997526,
+          "pf": 0.9243285496872442
+        },
+        "result_sha256": "122278b8fdd1b03c64cdddfc45c10ed15e797ac19e451b38eb3b735e8f1b5dd2"
+      },
+      "NET011": {
+        "decision": "REJECT_STATE_CHANGEPOINT_SLEEVE",
+        "april": {
+          "net": -19.524999999996908,
+          "pf": 0.9663280211223816
+        },
+        "result_sha256": "534d974ede273ad7e48ad7d4742102441bf5e8190b24e93cdae450b6fd524154"
+      },
+      "NET012": {
+        "decision": "REJECT_SPECIALIST_MIXTURE",
+        "april": {
+          "net": -94.70499999999902,
+          "pf": 0.8397120724117927
+        },
+        "result_sha256": "59a8432e4cdc89092c192ea3780a80a2fecba287ce4a4e05fd08c9e761fabce3"
+      },
+      "NET013": {
+        "decision": "REJECT_EXECUTION_GEOMETRY_REBUILD",
+        "eligible_candidates": 0,
+        "result_sha256": "47ee6706ebffca84e2e15972a2f566f1f4d12f6588ad252cfd62a83ebb35434c"
+      },
+      "conclusion": "Clock-bar continuation/fade routing, intrinsic-time reversal, multi-threshold DC, CUSUM augmentation, specialist mixture, and execution-geometry rescue all failed promotion gates. Start a new mechanism family.",
+      "data_capability_note": "Dukascopy tick CSV contains ask_volume and bid_volume columns; quote-volume imbalance/microprice research is now directly testable.",
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_014_QUOTE_IMBALANCE_MICROPRICE",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
