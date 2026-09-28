@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_020_RECOVERY_RUNNER_TIMING_STATE",
+    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_021_RECOVERY_TRAJECTORY_OWNER",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -3089,6 +3089,40 @@
       "finding": "ENTRY017-ENTRY019 raw helper/cache/result/model artifacts are mirrored in the dedicated Drive recovery folder. ENTRY016 exact source/result/note are mirrored in a native Google Doc archive and remain canonical in GitHub. ENTRY019 empty GitHub placeholders were detected and repaired from durable local/Drive artifacts before advancing.",
       "drive_recovery_folder_id": "1Wb2QQGCpIp8v587_28F8aDZQdaHEU_W8",
       "entry016_archive_doc_id": "1RoVap7SuDRPpmiG_fwAHbZqanZAc1hdMqZJv4mK5cdA",
+      "august_accessed": false
+    },
+    "entry_020_recovery_runner_timing_state": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_BREAKTHROUGH_CANDIDATE",
+      "source_blob_sha": "b452fdd4621ab1e99ba725323826da56b2f4d1ab",
+      "result_blob_sha": "f7be6e1909a5f5c79efefb722632a1d0025c83c7",
+      "note_commit": "689edc2d6fc9a51ed9d748889c933eef0ae84bea",
+      "manifest_commit": "ee56826dc2694a24e801965757c57dfc422ca44b",
+      "drive_source_id": "1fGWxBnKRM6Cxmkbnu9HPKDGk6bfjOZbH",
+      "drive_result_id": "1XAPSiy6cStx3SIDJOkz9sRmrlFpTyocy",
+      "drive_manifest_id": "1PH9GdAP3rn1BJUttTbdc6nx923M2-Smu",
+      "candidate_rule": {
+        "checkpoint_ms": 4000,
+        "pnl_min": 0.05,
+        "giveback_max": 0.5
+      },
+      "replication": {
+        "jan_heldout": {
+          "delta_pp": 25.6548111387,
+          "coverage_pct": 52.9914529915,
+          "runner_recall_pct": 75.7142857143
+        },
+        "feb": {
+          "delta_pp": 25.5731922399,
+          "coverage_pct": 46.2857142857,
+          "runner_recall_pct": 67
+        },
+        "mar": {
+          "delta_pp": 33.9436476452,
+          "coverage_pct": 43.2950191571,
+          "runner_recall_pct": 69.387755102
+        }
+      },
+      "conclusion": "A +4s observed-only certification state materially improves subsequent +5s directional accuracy in every replication. Diagnostic only; do not alter exits yet.",
       "august_accessed": false
     }
   },
