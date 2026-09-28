@@ -1,0 +1,1000 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_012_LATE_PERSISTENCE_RUNNER_CAPTURE",
+  "phase": "DISCOVERY",
+  "status": "COMPLETED_LOCAL_DISCOVERY",
+  "chunks": [
+    {
+      "max_horizon_ms": 8000,
+      "sha256": "8c836ed11997ccc7b068dc4fbb8a774115cf62ea22617c011f677ee0c61592d9",
+      "eligible_count": 0,
+      "retained_rows": 44
+    },
+    {
+      "max_horizon_ms": 10000,
+      "sha256": "58e4ee9e7b7dd9e0489fe4b5495887c7a18183527e217cd98b849263b4b931d0",
+      "eligible_count": 0,
+      "retained_rows": 35
+    },
+    {
+      "max_horizon_ms": 15000,
+      "sha256": "893ceda465f5669687a1910f8d42f4f6259eb446ebb79e348f0f2d659cc526a9",
+      "eligible_count": 0,
+      "retained_rows": 208
+    },
+    {
+      "max_horizon_ms": 20000,
+      "sha256": "dc360f739022976480cd9854ee18aefb912376b49123ff43360249135dab5409",
+      "eligible_count": 0,
+      "retained_rows": 35
+    },
+    {
+      "max_horizon_ms": 30000,
+      "sha256": "8d1c44e38a22c2ac3f6686b6caf163c22c2d92ad35b461c8d77afb6c8c7400a7",
+      "eligible_count": 0,
+      "retained_rows": 205
+    }
+  ],
+  "evaluated_grid_size": 343000,
+  "retained_rows": 527,
+  "eligible_count": 0,
+  "best": null,
+  "top": [
+    {
+      "lock_abs": 0.1,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 0,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 16,
+          "win_rate_pct": 84.21052631578947,
+          "net": 14.791500000000454,
+          "gp": 14.924999999999999,
+          "gl": -0.13349999999954892,
+          "avg": 0.7785000000000238,
+          "pf": 111.7977528093665
+        },
+        "delta": {
+          "net_improvement": 0.6765000000004875,
+          "gp_improvement": 0.8100000000000325,
+          "gl_change": -0.13349999999954892,
+          "winner_delta": -3,
+          "winner_retention_pct": 84.21052631578947
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 11,
+          "win_rate_pct": 61.111111111111114,
+          "net": 12.066999999999462,
+          "gp": 13.164999999998871,
+          "gl": -1.0979999999994106,
+          "avg": 0.670388888888859,
+          "pf": 11.98998178506916
+        },
+        "delta": {
+          "net_improvement": 0.9090000000005585,
+          "gp_improvement": 2.0069999999999677,
+          "gl_change": -1.0979999999994106,
+          "winner_delta": -7,
+          "winner_retention_pct": 61.111111111111114
+        }
+      },
+      "eligible": false,
+      "min_net": 0.6765000000004875,
+      "sum_net": 1.585500000001046,
+      "min_gp": 0.8100000000000325,
+      "min_winner_retention": 61.111111111111114
+    },
+    {
+      "lock_abs": 0.1,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 250,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 16,
+          "win_rate_pct": 84.21052631578947,
+          "net": 14.791500000000454,
+          "gp": 14.924999999999999,
+          "gl": -0.13349999999954892,
+          "avg": 0.7785000000000238,
+          "pf": 111.7977528093665
+        },
+        "delta": {
+          "net_improvement": 0.6765000000004875,
+          "gp_improvement": 0.8100000000000325,
+          "gl_change": -0.13349999999954892,
+          "winner_delta": -3,
+          "winner_retention_pct": 84.21052631578947
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 11,
+          "win_rate_pct": 61.111111111111114,
+          "net": 12.066999999999462,
+          "gp": 13.164999999998871,
+          "gl": -1.0979999999994106,
+          "avg": 0.670388888888859,
+          "pf": 11.98998178506916
+        },
+        "delta": {
+          "net_improvement": 0.9090000000005585,
+          "gp_improvement": 2.0069999999999677,
+          "gl_change": -1.0979999999994106,
+          "winner_delta": -7,
+          "winner_retention_pct": 61.111111111111114
+        }
+      },
+      "eligible": false,
+      "min_net": 0.6765000000004875,
+      "sum_net": 1.585500000001046,
+      "min_gp": 0.8100000000000325,
+      "min_winner_retention": 61.111111111111114
+    },
+    {
+      "lock_abs": 0.1,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 500,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 16,
+          "win_rate_pct": 84.21052631578947,
+          "net": 14.791500000000454,
+          "gp": 14.924999999999999,
+          "gl": -0.13349999999954892,
+          "avg": 0.7785000000000238,
+          "pf": 111.7977528093665
+        },
+        "delta": {
+          "net_improvement": 0.6765000000004875,
+          "gp_improvement": 0.8100000000000325,
+          "gl_change": -0.13349999999954892,
+          "winner_delta": -3,
+          "winner_retention_pct": 84.21052631578947
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 11,
+          "win_rate_pct": 61.111111111111114,
+          "net": 12.066999999999462,
+          "gp": 13.164999999998871,
+          "gl": -1.0979999999994106,
+          "avg": 0.670388888888859,
+          "pf": 11.98998178506916
+        },
+        "delta": {
+          "net_improvement": 0.9090000000005585,
+          "gp_improvement": 2.0069999999999677,
+          "gl_change": -1.0979999999994106,
+          "winner_delta": -7,
+          "winner_retention_pct": 61.111111111111114
+        }
+      },
+      "eligible": false,
+      "min_net": 0.6765000000004875,
+      "sum_net": 1.585500000001046,
+      "min_gp": 0.8100000000000325,
+      "min_winner_retention": 61.111111111111114
+    },
+    {
+      "lock_abs": 0.1,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 750,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 16,
+          "win_rate_pct": 84.21052631578947,
+          "net": 14.791500000000454,
+          "gp": 14.924999999999999,
+          "gl": -0.13349999999954892,
+          "avg": 0.7785000000000238,
+          "pf": 111.7977528093665
+        },
+        "delta": {
+          "net_improvement": 0.6765000000004875,
+          "gp_improvement": 0.8100000000000325,
+          "gl_change": -0.13349999999954892,
+          "winner_delta": -3,
+          "winner_retention_pct": 84.21052631578947
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 11,
+          "win_rate_pct": 61.111111111111114,
+          "net": 12.066999999999462,
+          "gp": 13.164999999998871,
+          "gl": -1.0979999999994106,
+          "avg": 0.670388888888859,
+          "pf": 11.98998178506916
+        },
+        "delta": {
+          "net_improvement": 0.9090000000005585,
+          "gp_improvement": 2.0069999999999677,
+          "gl_change": -1.0979999999994106,
+          "winner_delta": -7,
+          "winner_retention_pct": 61.111111111111114
+        }
+      },
+      "eligible": false,
+      "min_net": 0.6765000000004875,
+      "sum_net": 1.585500000001046,
+      "min_gp": 0.8100000000000325,
+      "min_winner_retention": 61.111111111111114
+    },
+    {
+      "lock_abs": 0.1,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 1000,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 16,
+          "win_rate_pct": 84.21052631578947,
+          "net": 14.791500000000454,
+          "gp": 14.924999999999999,
+          "gl": -0.13349999999954892,
+          "avg": 0.7785000000000238,
+          "pf": 111.7977528093665
+        },
+        "delta": {
+          "net_improvement": 0.6765000000004875,
+          "gp_improvement": 0.8100000000000325,
+          "gl_change": -0.13349999999954892,
+          "winner_delta": -3,
+          "winner_retention_pct": 84.21052631578947
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 11,
+          "win_rate_pct": 61.111111111111114,
+          "net": 12.066999999999462,
+          "gp": 13.164999999998871,
+          "gl": -1.0979999999994106,
+          "avg": 0.670388888888859,
+          "pf": 11.98998178506916
+        },
+        "delta": {
+          "net_improvement": 0.9090000000005585,
+          "gp_improvement": 2.0069999999999677,
+          "gl_change": -1.0979999999994106,
+          "winner_delta": -7,
+          "winner_retention_pct": 61.111111111111114
+        }
+      },
+      "eligible": false,
+      "min_net": 0.6765000000004875,
+      "sum_net": 1.585500000001046,
+      "min_gp": 0.8100000000000325,
+      "min_winner_retention": 61.111111111111114
+    },
+    {
+      "lock_abs": 0.05,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 0,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 15,
+          "win_rate_pct": 78.94736842105263,
+          "net": 14.601500000001764,
+          "gp": 14.83000000000175,
+          "gl": -0.2284999999999855,
+          "avg": 0.7685000000000928,
+          "pf": 64.90153172867699
+        },
+        "delta": {
+          "net_improvement": 0.48650000000179716,
+          "gp_improvement": 0.7150000000017833,
+          "gl_change": -0.2284999999999855,
+          "winner_delta": -4,
+          "winner_retention_pct": 78.94736842105263
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 11,
+          "win_rate_pct": 61.111111111111114,
+          "net": 11.98049999999912,
+          "gp": 13.07849999999853,
+          "gl": -1.0979999999994106,
+          "avg": 0.6655833333332845,
+          "pf": 11.911202185797405
+        },
+        "delta": {
+          "net_improvement": 0.8225000000002165,
+          "gp_improvement": 1.9204999999996257,
+          "gl_change": -1.0979999999994106,
+          "winner_delta": -7,
+          "winner_retention_pct": 61.111111111111114
+        }
+      },
+      "eligible": false,
+      "min_net": 0.48650000000179716,
+      "sum_net": 1.3090000000020137,
+      "min_gp": 0.7150000000017833,
+      "min_winner_retention": 61.111111111111114
+    },
+    {
+      "lock_abs": 0.05,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 250,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 15,
+          "win_rate_pct": 78.94736842105263,
+          "net": 14.601500000001764,
+          "gp": 14.83000000000175,
+          "gl": -0.2284999999999855,
+          "avg": 0.7685000000000928,
+          "pf": 64.90153172867699
+        },
+        "delta": {
+          "net_improvement": 0.48650000000179716,
+          "gp_improvement": 0.7150000000017833,
+          "gl_change": -0.2284999999999855,
+          "winner_delta": -4,
+          "winner_retention_pct": 78.94736842105263
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 11,
+          "win_rate_pct": 61.111111111111114,
+          "net": 11.98049999999912,
+          "gp": 13.07849999999853,
+          "gl": -1.0979999999994106,
+          "avg": 0.6655833333332845,
+          "pf": 11.911202185797405
+        },
+        "delta": {
+          "net_improvement": 0.8225000000002165,
+          "gp_improvement": 1.9204999999996257,
+          "gl_change": -1.0979999999994106,
+          "winner_delta": -7,
+          "winner_retention_pct": 61.111111111111114
+        }
+      },
+      "eligible": false,
+      "min_net": 0.48650000000179716,
+      "sum_net": 1.3090000000020137,
+      "min_gp": 0.7150000000017833,
+      "min_winner_retention": 61.111111111111114
+    },
+    {
+      "lock_abs": 0.05,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 500,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 15,
+          "win_rate_pct": 78.94736842105263,
+          "net": 14.601500000001764,
+          "gp": 14.83000000000175,
+          "gl": -0.2284999999999855,
+          "avg": 0.7685000000000928,
+          "pf": 64.90153172867699
+        },
+        "delta": {
+          "net_improvement": 0.48650000000179716,
+          "gp_improvement": 0.7150000000017833,
+          "gl_change": -0.2284999999999855,
+          "winner_delta": -4,
+          "winner_retention_pct": 78.94736842105263
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 11,
+          "win_rate_pct": 61.111111111111114,
+          "net": 11.98049999999912,
+          "gp": 13.07849999999853,
+          "gl": -1.0979999999994106,
+          "avg": 0.6655833333332845,
+          "pf": 11.911202185797405
+        },
+        "delta": {
+          "net_improvement": 0.8225000000002165,
+          "gp_improvement": 1.9204999999996257,
+          "gl_change": -1.0979999999994106,
+          "winner_delta": -7,
+          "winner_retention_pct": 61.111111111111114
+        }
+      },
+      "eligible": false,
+      "min_net": 0.48650000000179716,
+      "sum_net": 1.3090000000020137,
+      "min_gp": 0.7150000000017833,
+      "min_winner_retention": 61.111111111111114
+    },
+    {
+      "lock_abs": 0.05,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 750,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 15,
+          "win_rate_pct": 78.94736842105263,
+          "net": 14.601500000001764,
+          "gp": 14.83000000000175,
+          "gl": -0.2284999999999855,
+          "avg": 0.7685000000000928,
+          "pf": 64.90153172867699
+        },
+        "delta": {
+          "net_improvement": 0.48650000000179716,
+          "gp_improvement": 0.7150000000017833,
+          "gl_change": -0.2284999999999855,
+          "winner_delta": -4,
+          "winner_retention_pct": 78.94736842105263
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 11,
+          "win_rate_pct": 61.111111111111114,
+          "net": 11.98049999999912,
+          "gp": 13.07849999999853,
+          "gl": -1.0979999999994106,
+          "avg": 0.6655833333332845,
+          "pf": 11.911202185797405
+        },
+        "delta": {
+          "net_improvement": 0.8225000000002165,
+          "gp_improvement": 1.9204999999996257,
+          "gl_change": -1.0979999999994106,
+          "winner_delta": -7,
+          "winner_retention_pct": 61.111111111111114
+        }
+      },
+      "eligible": false,
+      "min_net": 0.48650000000179716,
+      "sum_net": 1.3090000000020137,
+      "min_gp": 0.7150000000017833,
+      "min_winner_retention": 61.111111111111114
+    },
+    {
+      "lock_abs": 0.05,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 1000,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 15,
+          "win_rate_pct": 78.94736842105263,
+          "net": 14.601500000001764,
+          "gp": 14.83000000000175,
+          "gl": -0.2284999999999855,
+          "avg": 0.7685000000000928,
+          "pf": 64.90153172867699
+        },
+        "delta": {
+          "net_improvement": 0.48650000000179716,
+          "gp_improvement": 0.7150000000017833,
+          "gl_change": -0.2284999999999855,
+          "winner_delta": -4,
+          "winner_retention_pct": 78.94736842105263
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 11,
+          "win_rate_pct": 61.111111111111114,
+          "net": 11.98049999999912,
+          "gp": 13.07849999999853,
+          "gl": -1.0979999999994106,
+          "avg": 0.6655833333332845,
+          "pf": 11.911202185797405
+        },
+        "delta": {
+          "net_improvement": 0.8225000000002165,
+          "gp_improvement": 1.9204999999996257,
+          "gl_change": -1.0979999999994106,
+          "winner_delta": -7,
+          "winner_retention_pct": 61.111111111111114
+        }
+      },
+      "eligible": false,
+      "min_net": 0.48650000000179716,
+      "sum_net": 1.3090000000020137,
+      "min_gp": 0.7150000000017833,
+      "min_winner_retention": 61.111111111111114
+    },
+    {
+      "lock_abs": 0.0,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 0,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 14,
+          "win_rate_pct": 73.68421052631578,
+          "net": 14.541500000001363,
+          "gp": 14.783500000001553,
+          "gl": -0.24200000000018923,
+          "avg": 0.7653421052632297,
+          "pf": 61.08884297516526
+        },
+        "delta": {
+          "net_improvement": 0.426500000001397,
+          "gp_improvement": 0.6685000000015862,
+          "gl_change": -0.24200000000018923,
+          "winner_delta": -5,
+          "winner_retention_pct": 73.68421052631578
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 9,
+          "win_rate_pct": 50.0,
+          "net": 12.02199999999939,
+          "gp": 13.181499999998959,
+          "gl": -1.1594999999995708,
+          "avg": 0.667888888888855,
+          "pf": 11.3682621819783
+        },
+        "delta": {
+          "net_improvement": 0.8640000000004857,
+          "gp_improvement": 2.0235000000000554,
+          "gl_change": -1.1594999999995708,
+          "winner_delta": -9,
+          "winner_retention_pct": 50.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.426500000001397,
+      "sum_net": 1.2905000000018827,
+      "min_gp": 0.6685000000015862,
+      "min_winner_retention": 50.0
+    },
+    {
+      "lock_abs": 0.0,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 250,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 14,
+          "win_rate_pct": 73.68421052631578,
+          "net": 14.541500000001363,
+          "gp": 14.783500000001553,
+          "gl": -0.24200000000018923,
+          "avg": 0.7653421052632297,
+          "pf": 61.08884297516526
+        },
+        "delta": {
+          "net_improvement": 0.426500000001397,
+          "gp_improvement": 0.6685000000015862,
+          "gl_change": -0.24200000000018923,
+          "winner_delta": -5,
+          "winner_retention_pct": 73.68421052631578
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 9,
+          "win_rate_pct": 50.0,
+          "net": 12.02199999999939,
+          "gp": 13.181499999998959,
+          "gl": -1.1594999999995708,
+          "avg": 0.667888888888855,
+          "pf": 11.3682621819783
+        },
+        "delta": {
+          "net_improvement": 0.8640000000004857,
+          "gp_improvement": 2.0235000000000554,
+          "gl_change": -1.1594999999995708,
+          "winner_delta": -9,
+          "winner_retention_pct": 50.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.426500000001397,
+      "sum_net": 1.2905000000018827,
+      "min_gp": 0.6685000000015862,
+      "min_winner_retention": 50.0
+    },
+    {
+      "lock_abs": 0.0,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 500,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 14,
+          "win_rate_pct": 73.68421052631578,
+          "net": 14.541500000001363,
+          "gp": 14.783500000001553,
+          "gl": -0.24200000000018923,
+          "avg": 0.7653421052632297,
+          "pf": 61.08884297516526
+        },
+        "delta": {
+          "net_improvement": 0.426500000001397,
+          "gp_improvement": 0.6685000000015862,
+          "gl_change": -0.24200000000018923,
+          "winner_delta": -5,
+          "winner_retention_pct": 73.68421052631578
+        }
+      },
+      "validation": {
+        "base": {
+          "trades": 18,
+          "winners": 18,
+          "win_rate_pct": 100.0,
+          "net": 11.157999999998903,
+          "gp": 11.157999999998903,
+          "gl": 0.0,
+          "avg": 0.619888888888828,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 18,
+          "winners": 9,
+          "win_rate_pct": 50.0,
+          "net": 12.02199999999939,
+          "gp": 13.181499999998959,
+          "gl": -1.1594999999995708,
+          "avg": 0.667888888888855,
+          "pf": 11.3682621819783
+        },
+        "delta": {
+          "net_improvement": 0.8640000000004857,
+          "gp_improvement": 2.0235000000000554,
+          "gl_change": -1.1594999999995708,
+          "winner_delta": -9,
+          "winner_retention_pct": 50.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.426500000001397,
+      "sum_net": 1.2905000000018827,
+      "min_gp": 0.6685000000015862,
+      "min_winner_retention": 50.0
+    },
+    {
+      "lock_abs": 0.0,
+      "pre_giveback": 0.75,
+      "proof_pnl_5s": 1.5,
+      "renewal_from_1s": 1.0,
+      "max_horizon_ms": 30000,
+      "trail": 1.5,
+      "stale_ms": 750,
+      "fit": {
+        "base": {
+          "trades": 19,
+          "winners": 19,
+          "win_rate_pct": 100.0,
+          "net": 14.114999999999966,
+          "gp": 14.114999999999966,
+          "gl": 0.0,
+          "avg": 0.7428947368421035,
+          "pf": null
+        },
+        "candidate": {
+          "trades": 19,
+          "winners": 14,
+          "win_rate_pct": 73.68421052631578,
