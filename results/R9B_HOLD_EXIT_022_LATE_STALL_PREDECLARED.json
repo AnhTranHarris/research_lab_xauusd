@@ -1,1 +1,36 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+{
+  "august_sealed": true,
+  "current_executable_pnl_lte": [
+    -0.25,
+    -0.75
+  ],
+  "gate": "positive Jan net+gross-loss deltas, >=95% winner/trade count retention; independent event lifecycle then one-position full portfolio replay",
+  "horizons_ms": [
+    15000,
+    30000,
+    45000
+  ],
+  "hypothesis": "No trailing activation by 15/30/45s plus negative contemporaneous trade PnL signals long unresolved bad outcome; trade closes at first qualifying real quote, strictly preceding original parent exit",
+  "no_future_exit_truth_as_feature": true,
+  "original_activation_net_mfe": {
+    "strong_align": 0.1,
+    "weak_align": 0.18
+  },
+  "owner_modes": [
+    "all",
+    "weak_only",
+    "strong_only"
+  ],
+  "parent": "CAUSAL_RECERT_014",
+  "parent_golden": [
+    34362,
+    28088,
+    19087,
+    -4510.0870000207515
+  ],
+  "source_sha256": "de057bccd13e308aba8b839d244b8fe46cda5f0fc94d91049a330a5aa2028693",
+  "stage": "JAN_LONG_UNIGNITED_STALL_DISCOVERY",
+  "status": "PREDECLARED_BEFORE_COMPUTE",
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
+  "variants": 18
+}
