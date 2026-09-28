@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_021_DAILY_H4_H1_HIERARCHICAL_OWNER",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_022_H1_COMPRESSION_EXPANSION_OWNER",
     "current_unit_state": "READY_JAN_MAR_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -4340,6 +4340,17 @@
       "august_accessed": false,
       "conclusion": "Short 2-4 minute fixed-dollar structural pullback/reacceleration family is uneconomic under actual Dukascopy bid/ask; fail-fast before additional months.",
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_021_DAILY_H4_H1_HIERARCHICAL_OWNER"
+    },
+    "net021_daily_h4_h1_owner": {
+      "status": "REJECTED_JAN_MAR_DISCOVERY",
+      "decision": "REJECT_DAILY_H4_H1_OWNER",
+      "result_sha256": "939d3bfdbd45c34c30ac0541ab5db459de0ea2b62a172bfc6e1c9662e247767d",
+      "source_sha256": "9cb2a0c008e84b70b2e1e5dcf9984dbd21b1d0431b31a2f032f2bb7ecc41aae5",
+      "eligible_candidates": 0,
+      "april_accessed": false,
+      "may_july_accessed": false,
+      "august_accessed": false,
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_022_H1_COMPRESSION_EXPANSION_OWNER"
     }
   },
   "gamma2_benchmark_recovery": {
