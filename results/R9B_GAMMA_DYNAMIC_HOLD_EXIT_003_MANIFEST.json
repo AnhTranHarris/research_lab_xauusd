@@ -1,0 +1,11 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_003_DYNAMIC_WAITING_HAZARD",
+  "status": "VERIFIED_DURABLE",
+  "source_sha256": {
+    "cache_builder": "8f47337382c1f3ffa5c4983f718ca48c3edff9209008e5483f4dfed2e7eb537c",
+    "screen": "15f65604602a10f444cbaa25e64d60b442669f8e0c4dd924b2365d4576961046"
+  },
+  "result_sha256": "e545233e956f4439e868d36b2be8fd2db1fee30459508a1585af434f1915122a",
+  "drive_result_id": "1eohZTnes3Z6Ucz_okOQVQvPsDtFnsUrC",
+  "august_accessed": false
+}
