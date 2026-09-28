@@ -1,0 +1,9 @@
+{
+  "unit":"R9B_GAMMA_DYNAMIC_ENTRY_019_MULTI_HORIZON_PERSISTENCE_STATE",
+  "status":"COMPLETED_LOCAL",
+  "source_sha256":"fc5c7d10ec0a9521ff9d824251cd9beb523522327cecc84c46c174a50dd6c3f6",
+  "result_sha256":"394e1ec597eb2a81c7bce6693b12379db8506e854123f29ceeab3dc75b45dca2",
+  "model_sha256":"2c0dbc29e91b1083e6344fbc033c4eb56db3c267e6159119eab35a5621e6f84c",
+  "input_sha256":{"1":"d9fd18c8d8f7c5845f2162e8d7efbb01dd6b14fb56fc867f220c8d46923feda3","2":"d0a5f4cdf05298d7784eff3c2f7a7974b5228f2bb6a3a445a386ac110c049761","3":"15f94df2cd044d0763b3ef9db4c8795b466a8f363052801ecea53f76f41aff75"},
+  "august_accessed":false
+}
