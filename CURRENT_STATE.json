@@ -45,7 +45,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_013_BANK_THEN_REQUALIFIED_REENTRY",
-    "current_unit_state": "SELECTOR_STARTED_NEXT_CP3000",
+    "current_unit_state": "SELECTOR_DISCOVERY_DURABLE_NEXT_REPLICATION_MONTH1",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3499,7 +3499,7 @@
         "CAPACITY_MONTH_3",
         "CAPACITY_MAP_SUMMARY"
       ],
-      "first_incomplete_unit": "SELECTOR_CHUNK_3000",
+      "first_incomplete_unit": "REPLICATION_MONTH_1",
       "august_accessed": false,
       "month1": {
         "cache_sha256": "a6dffae970dff76a562350236ea3befe99c293849e88240d3b4312dc38610632",
@@ -3527,7 +3527,7 @@
         "conclusion": "Unconditional bank-then-same-direction reentry is not robust; requires causal requalification selector."
       },
       "selector_phase": {
-        "status": "STARTED_POLLING_SAFE",
+        "status": "DISCOVERY_VERIFIED_DURABLE_REPLICATION_READY",
         "source_sha256": "b978efe96c2802a60b1345b25e7251d9df3ea172ecfc12b53b38748cac79d46e",
         "drive_source_id": "17xZSkBqY_PPjfr2hcTKlS2d9CYFxeMKY",
         "drive_started_id": "1VhfePwToXO9kYe2ZYmV_ce4LYwubwjbR",
@@ -3539,8 +3539,30 @@
           8000,
           10000
         ],
-        "completed_chunks": [],
-        "first_incomplete_chunk": 3000
+        "completed_chunks": [
+          3000,
+          4000,
+          5000,
+          6000,
+          8000,
+          10000
+        ],
+        "first_incomplete_chunk": 3000,
+        "discovery_sha256": "83cf7bd37bf0a1f45eb4023a78d8e7c9296242425988be2e0d6a87036b806cb0",
+        "drive_discovery_id": "1kdTrVAYlkuKWj-VTOiqGlq_iTjGLLK8u",
+        "best": {
+          "checkpoint_ms": 10000,
+          "hold_ms": 20000,
+          "mode": "path",
+          "depth": 4,
+          "leaf": 2,
+          "class_weight_0": 3,
+          "threshold": 0.35,
+          "fit_net": 7.65,
+          "validation_net": 7.9105,
+          "validation_pf": 4.359
+        },
+        "first_incomplete_unit": "REPLICATION_MONTH_1"
       }
     }
   },
