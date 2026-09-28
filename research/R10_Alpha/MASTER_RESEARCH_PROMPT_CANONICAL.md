@@ -1,6 +1,6 @@
-99. Canonical R10 Alpha Master Research Prompt — ACTIVE DEFAULT FOR R10 ALPHA (replaces legacy R9B Gamma prompt)
+99. CANONICAL R10 ALPHA MASTER RESEARCH PROMPT — ACTIVE SOLE LINEAGE (GAMMA RETIRED)
 
-Status: ACTIVE / USER-GOVERNED / CURRENT ALPHA RESEARCH COMMAND.
+Status: ACTIVE / USER-GOVERNED / CURRENT ALPHA RESEARCH COMMAND. ALL Gamma and Gamma-related science, builds, queues, baselines and investor claims are DEAD / RETIRED; no Gamma fallback or resumption. Keep historical sources READ-ONLY. Only alpha/CURRENT_STATE.json authorizes the current scientific checkpoint.
 Scope: XAUUSD only; Dukascopy January–July 2026; August SEALED. GitHub branch: alpha. The former R9B Gamma Section 99 prompt is archived at research/R10_Alpha/archives/GAMMA_SECTION99_ORIGINAL_MASTER_PROMPT_ARCHIVE_2026-09-28.md and is NOT the active R10 Alpha campaign command. Preserve Gamma branches/history separately.
 
 ACTIVATION AND FIRST READ
