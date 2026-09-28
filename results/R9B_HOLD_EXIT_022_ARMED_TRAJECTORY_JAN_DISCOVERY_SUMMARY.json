@@ -1,0 +1,75 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
+  "stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_JAN_EXACT_TICK_DISCOVERY",
+  "status": "VERIFIED_JAN_DISCOVERY_SMALL_EFFECT_REPLICATION_CANDIDATES",
+  "parent": {
+    "trades": 28088,
+    "winners": 19087,
+    "net": -4510.0870000207515,
+    "gross_profit": 7001.463999985857,
+    "gross_loss": -11511.551000006612,
+    "pf": 0.6082120471847656,
+    "maxdd": 4554.885500020489
+  },
+  "raw_candidates": 34362,
+  "raw_armed_candidates": 25203,
+  "exact_parent_raw_parity": true,
+  "numerical_parity_rule": "Must reproduce historical midpoint operation order exactly: ask=ask_raw/1000, bid=bid_raw/1000, mid=(ask+bid)*0.5. Algebraically equivalent (ask_raw+bid_raw)/2000 produced 610 raw-PnL mismatches at threshold boundaries.",
+  "strict_eligible": [
+    {
+      "id": "AT07",
+      "profile": "RENEWAL_PLUS_EFFICIENCY",
+      "decision_ms": 750,
+      "runner_trail": 0.08,
+      "raw_promoted": 722,
+      "selected_promoted": 612,
+      "delta_net": 0.143499999994674,
+      "delta_gp": 0.143499999994674,
+      "delta_gl_improvement": 0,
+      "maxdd_improvement": 2.281499999994594,
+      "trades_retained_pct": 100,
+      "winners_retained_pct": 100,
+      "material": false
+    },
+    {
+      "id": "AT11",
+      "profile": "RENEWAL_PLUS_EFFICIENCY_STRONG_OWNER",
+      "decision_ms": 750,
+      "runner_trail": 0.08,
+      "raw_promoted": 289,
+      "selected_promoted": 255,
+      "delta_net": 2.143999999994776,
+      "delta_gp": 2.143999999994776,
+      "delta_gl_improvement": 0,
+      "maxdd_improvement": 2.143999999994776,
+      "trades_retained_pct": 100,
+      "winners_retained_pct": 100,
+      "material": false
+    }
+  ],
+  "diagnostic_noneligible_best_net": {
+    "id": "AT10",
+    "delta_net": 12.623500000001513,
+    "delta_gp": 15.482000000012704,
+    "delta_gl_improvement": -2.8585000000093714,
+    "winners_forfeited": 15,
+    "strict_eligible": false
+  },
+  "decision": "Freeze AT07 and AT11 unchanged for February exact-tick replication. No January retuning or indicator-combination expansion inside HOLD_EXIT_022.",
+  "historical_forensic_flag": "NET002-NET007 historical structural/indicator source families still exist but are not proven lifecycle-parity-integrated into CAUSAL014. Preserve for later dedicated historical-combination archaeology.",
+  "local_artifact_hashes": {
+    "script_sha256": "ca00ad43ea37146a2e8dfffb421ff8bd3be89e5083b935b07a00358c4e99569f",
+    "result_sha256": "ba6cb2a9971b3ff65f56d01f9e6efa1f4780d1ba272c26ac373239c7f0901a49",
+    "manifest_sha256": "b0ce274a3905e95358c9f1965a122c1a363ae1cf99eda7650bbd68d05daebe72",
+    "audit_npz_sha256": "bb94df704313aba6779a368fd298c801513813cd0ed78338cdeafb4149f51d55",
+    "predeclared_contract_sha256": "d6a2ec4ca4ffccad16cd79fe33a2040f555b2bedce03a9f789bf10eb75a76f41"
+  },
+  "durable_sync_note": "Full result/source/audit Library upload was blocked by container-session bridge failure after computation; research note did upload to Library. This compact GitHub summary records the verified stage without pretending the blocked archival succeeded.",
+  "month_wall": {
+    "jan": true,
+    "feb_mar": false,
+    "april": false,
+    "may_jul": false,
+    "august": false
+  }
+}
