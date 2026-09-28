@@ -1,0 +1,82 @@
+{
+  "unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
+  "stage": "NET002_NET007_SOURCE_AUDIT",
+  "status": "VERIFIED_SOURCE_INVENTORY_COMPLETE",
+  "scope": "Historical archaeology only; no new market screen, no parameter tuning, no August access.",
+  "components": [
+    {
+      "id": "NET002",
+      "source": "scripts/r9b_net_002_h1_h4_bos.py",
+      "git_blob_sha": "069265e00cd3a2df644061a561be6dd69e4d105c",
+      "mechanism": "Completed H1/H4 break-of-structure using prior wick/body boundaries, ATR breakout buffer, body fraction quality, fixed completed-bar horizon, exact tick bid/ask entry/exit.",
+      "historical_result": "H1 frozen candidate (60m, 13-bar, body boundary, 0.10 ATR buffer, 8h hold) passed Jan-Mar and April but failed May-Jul frozen forward.",
+      "verdict": "SOURCE_RETAIN; STANDALONE_FORWARD_REJECTED",
+      "causal014_integration": "NOT_PARITY_PROVEN"
+    },
+    {
+      "id": "NET003",
+      "source": "scripts/r9b_net_003_h1_retest_reclaim.py",
+      "git_blob_sha": "08ef7513b46076a98fc702c61c5f40d3f365229c",
+      "mechanism": "NET002 H1 BOS followed by bounded M15 retest/penetration and completed-bar reclaim, optional owner-direction body, fresh entry after reclaim.",
+      "historical_result": "720m wait / 0.20 ATR touch / 0.05 penetration / 0.20 reclaim / owner body / 240m hold passed Jan-Mar and April but failed May-Jul frozen forward.",
+      "verdict": "SOURCE_RETAIN; STANDALONE_FORWARD_REJECTED",
+      "causal014_integration": "EVENT_SET_DIFFERENT; NOT_PARITY_PROVEN"
+    },
+    {
+      "id": "NET004",
+      "source": "scripts/r9b_net_004_structural_state.py",
+      "git_blob_sha": "2fb13845d4a1ec8033619eeb55c791941dd27935",
+      "mechanism": "Structural-state classifier over BOS strength, body/close/wick geometry, ATR ratio, H1 efficiency/alignment, M15 alignment/conflict/efficiency; router can abstain only.",
+      "historical_result": "Zero eligible replicated candidates across Jan-Mar; April not opened for a frozen winner.",
+      "verdict": "REJECTED_AS_ROUTER; DESCRIPTORS_RETAIN",
+      "causal014_integration": "NOT_PARITY_PROVEN"
+    },
+    {
+      "id": "NET005",
+      "source": "scripts/r9b_net_005_h4_specialist.py",
+      "git_blob_sha": "44b9863cad02e9f59ede350e142b220e32ea2934",
+      "mechanism": "Independent H4 completed body/wick BOS specialist using NET002 causal cache.",
+      "historical_result": "Historical specialist screen retained source; no evidence here of parity-integrated CAUSAL014 portfolio authority.",
+      "verdict": "SOURCE_RETAIN; PORTFOLIO_ROLE_UNPROVEN",
+      "causal014_integration": "NOT_PARITY_PROVEN"
+    },
+    {
+      "id": "NET006",
+      "source": "scripts/r9b_net_006_hierarchical_owner.py",
+      "git_blob_sha": "0024553d9d3247bea7fdfbafbe887f36987d0a13",
+      "mechanism": "Persistent completed-H4 BOS owner + H4 3-bar net direction + optional H4 body alignment gates fixed H1 BOS entries.",
+      "historical_result": "No Jan-Mar replicated eligible candidate; best examples failed February. Rejected hierarchical owner gate.",
+      "verdict": "REJECTED_AS_STANDALONE_GATE; HIERARCHICAL_STATE_RETAIN",
+      "causal014_integration": "NOT_PARITY_PROVEN"
+    },
+    {
+      "id": "NET007",
+      "source": "scripts/r9b_net_007_failed_acceptance.py",
+      "git_blob_sha": "c1149ffa282aab96462baaf8b051432caf119202",
+      "mechanism": "After H1 BOS, first M15 close back through broken H1 boundary by ATR depth marks failed acceptance; optional reversal body; fresh opposite-direction trade.",
+      "historical_result": "Zero eligible Jan-Mar candidates; rejected failed-acceptance specialist.",
+      "verdict": "REJECTED_STANDALONE; FAILURE_STATE_DESCRIPTOR_RETAIN",
+      "causal014_integration": "EVENT_SET_DIFFERENT; NOT_PARITY_PROVEN"
+    }
+  ],
+  "forensic_conclusion": {
+    "lost_structure_risk": "CREDIBLE",
+    "reason": "Historical source preserves multi-layer structural ownership and confirmation logic that is not demonstrated as source-to-event/lifecycle parity integrated into CAUSAL014. The loss may be architectural composition rather than a missing scalar indicator.",
+    "not_proven": "No evidence yet that simply recombining NET002-NET007 would restore historical profitability; several standalone forms failed frozen forward or discovery replication.",
+    "highest_value_recovery_targets": [
+      "NET002 H1 structural break owner as context rather than standalone 8h trade",
+      "NET003 M15 retest/reclaim as child-state confirmation",
+      "NET006 persistent H4 owner/age as parent state",
+      "NET007 failed-acceptance as state transition rather than immediate reversal trade",
+      "NET004 transparent descriptors as context features, not black-box authority"
+    ]
+  },
+  "next_stage": "NET002_NET007_EVENT_LIFECYCLE_MAPPING_PREDECLARATION",
+  "rules": [
+    "No arithmetic PnL addition",
+    "No terminal/future labels",
+    "One chronological account ledger",
+    "Exact source operation ordering",
+    "August SEALED"
+  ]
+}
