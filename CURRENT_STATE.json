@@ -5,7 +5,7 @@
   "repository": "AnhTranHarris/research_lab_xauusd",
   "branch": "alpha",
   "updated_utc": "2026-09-28",
-  "stage": "WORKSPACE_CREATED_AWAITING_USER_DIRECTION",
+  "stage": "R9_REAL_SYNTH_CORRELATION_REFERENCE_ASSEMBLED_AWAITING_NEXT_USER_DIRECTION",
   "scope": {
     "symbol": "XAUUSD",
     "start_date_inclusive": "2026-01-01",
@@ -45,10 +45,11 @@
     "alpha_backtests_run": 0,
     "alpha_strategy_candidates_promoted": 0,
     "alpha_ea_builds_authorized": 0,
-    "dataset_sha_verified_in_alpha": false,
+    "dataset_sha_verified_in_alpha": true,
     "forward_validation_split": "NOT_YET_SELECTED_AFTER_SCOPE_EXPANSION",
     "first_incomplete_stage": "ALPHA_000_JAN_SOURCE_AND_R9_EXECUTION_PREFLIGHT",
-    "next_action": "Await additional user direction before executing research."
+    "next_action": "Obtain user scope/validation/timezone clarification, then rerun source-equivalent REAL/SYNTH tick correlations as required; only then launch four category mechanism experiments.",
+    "dataset_verified_scope": "7 PROJECT compressed Dukascopy gz copies: length+SHA-256 ONLY; data schema/chronology/CRC not yet tested"
   },
   "scope_note": "Explicitly covers all Jan-Jul 2026 for research/reporting at monthly, weekly and daily resolution. Accessing all months for diagnostics does not make them untouched OOS; freeze a new validation split before optimizing. No code execution, backtests, broker orders, or EA release performed.",
   "architecture_contract": {
@@ -71,5 +72,20 @@
       "weekly boundary",
       "timezone/session-day boundary"
     ]
+  },
+  "correlation_checkpoint": {
+    "status": "HISTORICAL_PAIRED_CORRELATION_IMPORTED_AND_REPORT_SUMMARIES_RECHECKED__NEW_ALPHA_FULL_TICK_REPLAY_PENDING",
+    "drive_doc": "https://docs.google.com/document/d/1lGVmzuT0tkGmdKafnWaBp3Vvtqh1AEkO25zPkjq9v0c/edit",
+    "github_markdown": "research/R10_Alpha/R9_REAL_SYNTH_CORRELATION_FAST_REFERENCE.md",
+    "prior_corpus": "https://drive.google.com/drive/folders/1ES78vXb2mFsOsa50BiwCLsT6BXgLe-Oe",
+    "source_manifest": "research/R10_Alpha/source_manifest.json",
+    "source_partition_checks": "compressed sha-256 for 7 project Dukascopy market archives; original tester workbook headers plus dual-copy equal hash",
+    "research_queue": [
+      "ENTRY",
+      "HOLD",
+      "EXIT",
+      "PROFIT"
+    ],
+    "four_category_research_executed": false
   }
 }
