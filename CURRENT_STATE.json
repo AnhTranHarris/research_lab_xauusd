@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_003_DYNAMIC_WAITING_HAZARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_004_BRANCH_SPECIFIC_WAITING_REBUILD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -3293,6 +3293,23 @@
       "conclusion": "Static stops reduce waiting GL but are not net-robust; move to causal path-conditioned waiting hazard.",
       "source_sha256": "b606c27fd5617cff7536b7018effa3775cb610e8e22bf4d6916a3e36efb3ec69",
       "result_sha256": "1ecff7b9115e3134c8d6dc36ce8f5dc218d85910cfbfc27c5f8886d7f3f83eb8",
+      "august_accessed": false
+    },
+    "hold_exit_003_dynamic_waiting_hazard": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED_TWO_BRANCH_POLICY",
+      "result_commit": "447da83da3112712e16ccce506cb5ee5d810ab8f",
+      "note_commit": "80b6873752773ab14228e2563b584b59b1966a94",
+      "manifest_commit": "deb4793790d0f4fabb7efae965bd7b9bd8492c78",
+      "drive": {
+        "cache_builder": "1rVR2Z5em-8EdIZQsmQZHTWsyl21YjTFA",
+        "screen": "1lT6d6HDcZjbG6JvB1k4jZU6j38Cf4cRn",
+        "result": "1eohZTnes3Z6Ucz_okOQVQvPsDtFnsUrC",
+        "model": "1IUAzFbz5_IdDnyhukp8XvpUyNdEcwd1Z",
+        "manifest": "1VWr2bLWeM_IgcA4SnTdWNoN4iDi6uxQA"
+      },
+      "recovery_eligible_count": 0,
+      "late_eligible_count": 8,
+      "conclusion": "Economic wait-value labels did not robustly solve recovery waiting risk; rebuild around frozen future ownership identity as teacher-only label.",
       "august_accessed": false
     }
   },
