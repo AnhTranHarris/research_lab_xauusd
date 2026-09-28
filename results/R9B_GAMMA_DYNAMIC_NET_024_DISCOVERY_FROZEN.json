@@ -1,0 +1,165 @@
+{
+  "august_accessed": false,
+  "calibration_policy": "Run April once with frozen selected rule; compare to CAUSAL014 for GL, trade/winner retention, net, before any May-Jul read. If April fails, stop or reject, do not retune Apr then claim untouched forward.",
+  "discovery_source_sha256": "d0910568189e562fda08394ee89bde9789934fbb4aa50dade32b17d61ea6c03f",
+  "eligible_variants_ranked": [
+    {
+      "all_months_positive_gl_delta": true,
+      "all_months_positive_net_delta": true,
+      "cumulative_gl_reduction": 990.5150000003596,
+      "cumulative_net_improvement": 250.00350000153503,
+      "min_trade_retention_pct": 96.97388959841066,
+      "min_winner_retention_pct": 96.59127110544759,
+      "variant": "veto_contra_weak_align|2"
+    },
+    {
+      "all_months_positive_gl_delta": true,
+      "all_months_positive_net_delta": true,
+      "cumulative_gl_reduction": 927.9565000004495,
+      "cumulative_net_improvement": 236.9650000016154,
+      "min_trade_retention_pct": 96.62267631616291,
+      "min_winner_retention_pct": 96.38419878942338,
+      "variant": "veto_contra|1"
+    },
+    {
+      "all_months_positive_gl_delta": true,
+      "all_months_positive_net_delta": true,
+      "cumulative_gl_reduction": 795.164500000501,
+      "cumulative_net_improvement": 300.4135000014121,
+      "min_trade_retention_pct": 96.84617567759331,
+      "min_winner_retention_pct": 96.94170117871934,
+      "variant": "veto_contra_strong_align|2"
+    },
+    {
+      "all_months_positive_gl_delta": true,
+      "all_months_positive_net_delta": true,
+      "cumulative_gl_reduction": 382.23750000025757,
+      "cumulative_net_improvement": 116.92200000073353,
+      "min_trade_retention_pct": 98.24038597984958,
+      "min_winner_retention_pct": 98.2956355527238,
+      "variant": "veto_contra_strong_align|1"
+    }
+  ],
+  "frozen_rule": {
+    "contra_veto_only_when_parent_align_lt": 3,
+    "decision": "if latest H1 signal <= candidate timestamp and is younger than 2h, reject parent raw event only when side is opposite and parent five-scale alignment count <3; otherwise allow",
+    "execution": "all accepted raw CAUSAL014 entry events chronological; first eligible; no preemption; one position; exclude entry time equal to previous exit",
+    "feature_observability": "completed H1 bar at close timestamp, never a partial H1 state",
+    "net022_breakout_atr_buffer": 0.1,
+    "net022_h1_compression_prior": 2,
+    "net022_h1_compression_ratio_max": 1.0,
+    "net022_h1_lookback": 13,
+    "net022_h1_signal_expansion_ratio_min": 1.0,
+    "net022_signal_body_min": 0.25,
+    "owner_duration_h": 2
+  },
+  "frozen_variant": "veto_contra_weak_align|2",
+  "gate": "positive GL and net deltas in each Jan-Mar; >=95% trade and winner retention in each discovery month; rank eligible by sum GL reduction",
+  "next_stage": "NET024_APRIL_CALIBRATION",
+  "rejected_variants": [
+    "active_match_only|1",
+    "neutral_only|1",
+    "veto_contra_weak_align|1",
+    "veto_contra|2",
+    "active_match_only|2",
+    "neutral_only|2",
+    "veto_contra|4",
+    "active_match_only|4",
+    "neutral_only|4",
+    "veto_contra_weak_align|4",
+    "veto_contra_strong_align|4",
+    "veto_contra|8",
+    "active_match_only|8",
+    "neutral_only|8",
+    "veto_contra_weak_align|8",
+    "veto_contra_strong_align|8"
+  ],
+  "screen_sha256": {
+    "1": "db59d56209bbf3751758186bcae286bdff75ae2b04aa683dce5ecda855f5b3fc",
+    "2": "4cbd3c935465ba8045d868d238df5e6094b78799542412d164f3c646635b909b",
+    "3": "cfa63251c648f7398fd92089241be7759d736cc31cae37840c54aca94f9e222c"
+  },
+  "selected_discovery_metrics": {
+    "all_months_positive_gl_delta": true,
+    "all_months_positive_net_delta": true,
+    "cumulative_gl_reduction": 990.5150000003596,
+    "cumulative_net_improvement": 250.00350000153503,
+    "min_trade_retention_pct": 96.97388959841066,
+    "min_winner_retention_pct": 96.59127110544759,
+    "months": [
+      {
+        "delta": {
+          "gross_loss_improvement": 268.7785000001204,
+          "net": 68.88150000052701,
+          "trades": -727,
+          "winners": -548
+        },
+        "metrics": {
+          "gross_loss": -11242.77250000649,
+          "gross_profit": 6801.566999986264,
+          "maxdd": 4486.004000019962,
+          "net": -4441.2055000202245,
+          "pf": 0.6049723944856429,
+          "trades": 27361,
+          "win_rate": 0.6775702642447279,
+          "winners": 18539
+        },
+        "month": 1,
+        "retention": {
+          "trades_pct": 97.41170606664767,
+          "winners_pct": 97.12893592497511
+        }
+      },
+      {
+        "delta": {
+          "gross_loss_improvement": 442.4970000001522,
+          "net": 103.0805000006194,
+          "trades": -853,
+          "winners": -642
+        },
+        "metrics": {
+          "gross_loss": -13225.91050000663,
+          "gross_profit": 8878.034499986428,
+          "maxdd": 4369.8700000200115,
+          "net": -4347.876000020202,
+          "pf": 0.6712607423119926,
+          "trades": 27335,
+          "win_rate": 0.6655203950978599,
+          "winners": 18192
+        },
+        "month": 2,
+        "retention": {
+          "trades_pct": 96.97388959841066,
+          "winners_pct": 96.59127110544759
+        }
+      },
+      {
+        "delta": {
+          "gross_loss_improvement": 279.239500000087,
+          "net": 78.04150000038862,
+          "trades": -514,
+          "winners": -386
+        },
+        "metrics": {
+          "gross_loss": -16226.561000008103,
+          "gross_profit": 9714.970999982348,
+          "maxdd": 6516.272000025749,
+          "net": -6511.590000025755,
+          "pf": 0.5987079455700747,
+          "trades": 35059,
+          "win_rate": 0.6783707464559742,
+          "winners": 23783
+        },
+        "month": 3,
+        "retention": {
+          "trades_pct": 98.5550839119557,
+          "winners_pct": 98.40291282221027
+        }
+      }
+    ],
+    "variant": "veto_contra_weak_align|2"
+  },
+  "stage": "FROZEN_DISCOVERY_JAN_MAR",
+  "status": "FROZEN_BEFORE_APRIL",
+  "unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION"
+}
