@@ -1,7 +1,7 @@
 {
   "schema": "r10-alpha-source-locators-v1",
   "created_utc": "2026-09-28",
-  "verification_status": "LOCATORS_ONLY_NO_ALPHA_BYTE_OR_TRADE_VALIDATION",
+  "verification_status": "LOCAL_PROJECT_COMPRESSED_SHA_256_AND_MT5_TESTER_HEADERS_CHECKED__ORIGINAL_MT5_LOG_PARTS_NOT_ASSEMBLED",
   "market_data": {
     "name": "Dukascopy original XAUUSD ticks Jan-Jul 2026",
     "role": "DUKAS_MARKET",
@@ -15,7 +15,52 @@
       "2026-06",
       "2026-07"
     ],
-    "hashes_verified_in_alpha": false
+    "hashes_verified_in_alpha": true,
+    "verification_scope": "LOCAL_COMPRESSED_BYTES_SHA256_AND_LENGTH_ONLY__NO_FULL_GZIP_CRC_OR_TICK_SCHEMA_CHRONOLOGY_CHECK_THIS_TURN",
+    "project_local_copies": [
+      {
+        "month": "01",
+        "file": "XAUUSD_DUKAS_2026_01_ticks.csv(3).gz",
+        "compressed_bytes": 68690420,
+        "compressed_sha256": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5"
+      },
+      {
+        "month": "02",
+        "file": "XAUUSD_DUKAS_2026_02_ticks.csv(3).gz",
+        "compressed_bytes": 59425317,
+        "compressed_sha256": "ed3b3545c990c88d78519594c17c8915b0f679adcb0a94920ba7524f1f6d5c5d"
+      },
+      {
+        "month": "03",
+        "file": "XAUUSD_DUKAS_2026_03_ticks.csv(3).gz",
+        "compressed_bytes": 73441502,
+        "compressed_sha256": "814ba35e72f219a58badd806ed5c0f30ef0fb4ffe56a48205d873706513bd177"
+      },
+      {
+        "month": "04",
+        "file": "XAUUSD_DUKAS_2026_04_ticks.csv(3).gz",
+        "compressed_bytes": 55259580,
+        "compressed_sha256": "30375098f62aed6cabc32ec6b67c57c20baec9b6d9be1ce0a204e09806c1ec0f"
+      },
+      {
+        "month": "05",
+        "file": "XAUUSD_DUKAS_2026_05_ticks.csv(3).gz",
+        "compressed_bytes": 60157474,
+        "compressed_sha256": "3a50e0f1eba3076154238290ec02842cf3744ab192e5c9a2acc1cc07367c6a0d"
+      },
+      {
+        "month": "06",
+        "file": "XAUUSD_DUKAS_2026_06_ticks.csv(3).gz",
+        "compressed_bytes": 60563202,
+        "compressed_sha256": "34686ce53ba992dfb83ea35d555b6a4947a9216635853857c8bf11ce70c00ae2"
+      },
+      {
+        "month": "07",
+        "file": "XAUUSD_DUKAS_2026_07_ticks.csv(2).gz",
+        "compressed_bytes": 53057690,
+        "compressed_sha256": "e171e8c2fb59f3f4147a6f845eb68e664fa9c0f4815caa33acdbb42cc2f768b7"
+      }
+    ]
   },
   "mt5_tick_logs": {
     "role": [
@@ -32,12 +77,48 @@
       "R9_SYNTH_MT5_REPORT"
     ],
     "folder": "https://drive.google.com/drive/folders/1FeQSPtlWXtgncXE6bsCtWNlKFS9t17Pr",
-    "report_trading_costs_verified_in_alpha": false
+    "report_trading_costs_verified_in_alpha": false,
+    "header_values_verified_in_alpha": true,
+    "project_local_originals": [
+      {
+        "role": "R9_REAL_MT5_REPORT",
+        "file": "ReportTester-871471_jan2026_jul2026_R9_ticklog_real(4).xlsx",
+        "compressed_bytes": 106675295,
+        "sha256": "19d5ffd785beaae2a9d0baa5efb50efcd36a7db635c7ef82957be442429c1064",
+        "duplicate_3_copy_identical": true,
+        "trades": 236647,
+        "net_usd": -50285.28,
+        "gp_usd": 30180.23,
+        "gl_usd": -80465.51,
+        "pf": 0.37507,
+        "history_quality": "99% real ticks"
+      },
+      {
+        "role": "R9_SYNTH_MT5_REPORT",
+        "file": "ReportTester-871471_jan2026_jul2026_R9_ticklog_synth(4).xlsx",
+        "compressed_bytes": 98625766,
+        "sha256": "e5fcf4d6879193fac88e7a8e101db1111d59e1a7f5abfb793c970b06cfce7cc7",
+        "duplicate_3_copy_identical": true,
+        "trades": 219342,
+        "net_usd": 309122.85,
+        "gp_usd": 325361.51,
+        "gl_usd": -16238.66,
+        "pf": 20.036229,
+        "history_quality": "100% generated ticks"
+      }
+    ]
   },
   "overfit": {
     "role": "R9_OVERFIT_TEACHER_NONCAUSAL",
     "source_document": "https://docs.google.com/document/d/18Ru-eSQ0ofNM2EvvSp5kaenZEML3KC5GRk8KrAN_SWs/edit",
     "never_live_input": true
   },
-  "note": "Source identity, hashes, date coverage and quote scaling must be reverified per file before trade reconstruction. Retain separate records for REAL, SYNTH, OVERFIT and Dukascopy."
+  "note": "Source identity, hashes, date coverage and quote scaling must be reverified per file before trade reconstruction. Retain separate records for REAL, SYNTH, OVERFIT and Dukascopy.",
+  "correlation_reference": {
+    "status": "PRIOR_PAIRED_R9_ANALYSIS_WITH_FAST_FILE_CROSS_REFERENCE__NEW_ALPHA_FULL_REPLAY_PENDING",
+    "drive_doc": "https://docs.google.com/document/d/1lGVmzuT0tkGmdKafnWaBp3Vvtqh1AEkO25zPkjq9v0c/edit",
+    "github": "research/R10_Alpha/R9_REAL_SYNTH_CORRELATION_FAST_REFERENCE.md",
+    "historical_corpus_folder": "https://drive.google.com/drive/folders/1ES78vXb2mFsOsa50BiwCLsT6BXgLe-Oe",
+    "single_month_pnl_correlation_aggregation_replay": "NOT_PERFORMED"
+  }
 }
