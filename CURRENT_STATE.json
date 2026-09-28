@@ -32,10 +32,10 @@
     "campaign": "R9B_GAMMA_2_MONETIZATION",
     "objective": "Search for causal reconstructible strategies/mechanisms/combinations that add durable value to the current-best Gamma parent and close the REAL→R9 SYNTH gap. Use R9 overfit/SYNTH as tick-by-tick teacher/capacity map only; never as future execution input.",
     "priorities": [
-      "NET024 frozen May-Jun-Jul evaluation of 2h H1 opposition veto; no May-Jul parameter selection",
-      "Assess monthly gross-loss, winners and trade retention versus CAUSAL014 with exact chronological replay",
-      "Preserve NET022 as structural context; exclusive 8-hour occupancy rejected",
-      "HARVEST/MEDIUM/RUNNER state-dependent exits driven by structure, event-time persistence, MFE renewal spacing, giveback, directional-change overshoot, and activity duration",
+      "HOLD_EXIT_022 prepare source complete causal post-entry state and January golden parent regression",
+      "HOLD_EXIT_022 Jan-Mar discovery of loss-tail containment and runner/harvest actions, frozen April/MAY-JUL walls",
+      "HOLD_EXIT_022 compare dynamic exits against CAUSAL014 with NET024 H1 context only as optional ablation",
+      "No production MQL5 work before verified integrated positive economic value and source closure",
       "orthogonal FADE/rotation sleeves for rejected Gamma_2 events rather than simple abstention",
       "monthly trade count and winning-trade count remain first-class investor metrics",
       "compare every new layer against Gamma_2 alone as current active baseline"
@@ -46,8 +46,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION",
-    "current_unit_state": "FORWARD_MAY_JUL_COMPLETE_FINAL_AUDIT_READY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
+    "current_unit_state": "READY_RESEARCH_PRE-REGISTER",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4453,7 +4453,7 @@
       "august_accessed": false
     },
     "net024_h1_ownership_sequential_permission": {
-      "status": "VERIFIED_DURABLE_APRIL_FROZEN_CALIBRATION_PASS",
+      "status": "VERIFIED_DURABLE_FINAL_RETAINED_OPTIONAL_CONTEXT_NOT_PROMOTED",
       "parent": "CAUSAL_RECERT_014",
       "retained_net022": "RECONSTRUCTED_PARITY_CERTIFIED",
       "frozen_rule": {
@@ -4501,7 +4501,7 @@
       "april_evaluator_commit": "12d32a6fa9fc29d1f58ec0ee4a17687ca3372a19",
       "april_manifest_commit": "41188739ede03633bc2fe816057c5d29b939a143",
       "checkpoint_library_path": "/R9_Gamma_Checkpoints/NET024",
-      "first_incomplete_stage": "NET024_FORWARD_FINAL_AUDIT",
+      "first_incomplete_stage": null,
       "may_jul_accessed": true,
       "august_accessed": false,
       "status_note": "Research only; April calibration did not show profitability (net remains negative) and PF decreased slightly. No promotion or MT5-build authorization.",
@@ -4553,7 +4553,73 @@
         "ledger_sha256": "1de5bbefdd462ea7273dab451bc432ffa221ea9741fa83ba5016f69b20a33be7",
         "result_commit": "ab1dec83cf232e64f3b0ed58a79209064ddd72a2",
         "checkpoint_commit": "ea2670368157eee4073eb2ed680bf339edac212d"
-      }
+      },
+      "decision": "RETAIN_H1_VETO_AS_OPTIONAL_CAUSAL_LOSS_CONTEXT_NOT_PROMOTED",
+      "final_result_commit": "2ede90650d8877a70cb4c1e676a9a6bfa895a320",
+      "final_manifest_commit": "ee838a83a1d09c9cca2a125ed040546fcae67f3e",
+      "finalizer_source_commit": "3c9fa528c8daed74527f6eb9b442d2248b7075f8",
+      "final_note_commit": "5bc1479bfaf0cc81ecf0e6dbc3bf6f4622269a35",
+      "jan_jul": {
+        "trades": 192669,
+        "winners": 129449,
+        "net": -34651.749500119564,
+        "gross_profit": 45869.11449991887,
+        "gross_loss": -80520.86400003843,
+        "pf": 0.569655021335799,
+        "continuous_maxdd": 34652.53450012016,
+        "net_improvement_vs_ca014": 748.1635000030583,
+        "gross_loss_reduction": 2204.518000000753,
+        "gross_loss_reduction_pct": 2.6648628833164034,
+        "winner_retention_pct": 97.22626969701521,
+        "trade_retention_pct": 97.51738589085609,
+        "all_months_net_and_gl_improved": true,
+        "all_months_pf_decreased": true
+      },
+      "may_jul_forward": {
+        "trades": 76802,
+        "winners": 51311,
+        "net": -14686.025000033915,
+        "gross_loss": -29183.199000011,
+        "pf": 0.4967643883034078,
+        "net_improvement": 427.4675000010611,
+        "gross_loss_reduction": 972.8490000003003,
+        "winner_retention_pct": 96.84244300166088,
+        "trade_retention_pct": 97.16606361175072
+      },
+      "final_result_sha256": "a6a777b0a80ab06b2f848fd6545ad9c370e1f3b91e5301a5e7793683b9544349",
+      "final_ledger_sha256": "c8c5db92bf2647dd221769e34487ba4ff9f31f835b61fd6afa9ce3ad6aba35f0",
+      "final_manifest_sha256": "15d9a8272f67b9a4d54c5a02acc228a602af55e55ff8bef202be0f4103b249df",
+      "promotion": "NO_FORMAL_GAMMA_PROMOTION_NO_MQL5_TRANSLATION_AUTHORITY",
+      "note": "Frozen rule worked consistently as tiny context-dependent loss compression but all monthly PF values declined, GP and winners fell, and net remained negative; no build-ready claims. July source raw-cache generic next hint RAW_08 is inert metadata; never accessed August."
+    },
+    "hold_exit_022_state_dependent_harvest_failure_rebuild": {
+      "status": "READY_DISCOVERY_NOT_RUN",
+      "parent": "CAUSAL_RECERT_014",
+      "net024_context": "OPTIONAL_CAUSAL_H1_OWNER_ABLATION_ONLY_NOT_ALWAYS_ON_GATE",
+      "entry_hold_017_024": "FROZEN_DIAGNOSTIC_STATE_SEMANTICS_ENGAGING_LIFECYCLE_ONLY_AFTER_SOURCE_RECERT",
+      "hypothesis": "Condition HARVEST/MEDIUM/RUNNER/FAIL_CONTAINMENT on causal observable ignition, recovery, late ignition, current MFE/MAE, stalled extreme renewal, giveback, failure acceptance and structural ownership to reduce gross loss and improve realized favorable excursion without destroying winner/trade counts.",
+      "control": "Exact CAUSAL014 parent 197574 trades/133142 winners/-35399.913 net/-82725.382 GL, 0.01 lot, fixed modeled $0.20 round-trip cost; no synthetic teacher input.",
+      "priority_order": [
+        "gross_loss_tail_containment",
+        "winning_trade_and_trade_density_retention",
+        "net_and_gross_profit_monetization",
+        "profit_factor_and_drawdown"
+      ],
+      "selected_actions": [
+        "UNCHANGED_PARENT",
+        "HARVEST",
+        "MEDIUM",
+        "RUNNER",
+        "FAIL_CONTAINMENT"
+      ],
+      "discovery_window": "JAN_MAR",
+      "calibration_window": "APRIL",
+      "forward_window": "MAY_JUL_FROZEN",
+      "july_historical_contamination_note": "Old July research forensics mean not every new mechanism can claim July as truly untouched; label appropriately.",
+      "first_incomplete_stage": "HOLD_EXIT_022_CAUSAL_POSTENTRY_STATE_SOURCE_AND_JAN_DISCOVERY",
+      "mql5_build_blockers": "Reconstruct missing ENTRY017/021/023 dedicated source bodies if used, golden-parity certify all carried state semantics; dynamic exit requires full tick replay and resulting entry opportunity reevaluation.",
+      "test_rules": "one position, chronological raw candidate stream, avoid future features, apply actual newly chosen exit timestamp before selecting next entry; run with/without H1 context",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
