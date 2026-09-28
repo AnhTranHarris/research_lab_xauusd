@@ -48,7 +48,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
-    "current_unit_state": "JAN_FAST_PARITY_GATE_PASS_AND_FAULT_INJECTION_VERIFIED",
+    "current_unit_state": "JAN_ONLY_FAST_CONCORDANCE_REPLAY_VERIFIED_NEXT_SOURCE_REBUILD_PLAN",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -5255,7 +5255,7 @@
     },
     "historical_net002_net007_source_reconciliation": {
       "status": "JAN_SOURCE_STRUCTURAL_MAPPING_AND_POSTHOC_LOSS_ATTRIBUTION_VERIFIED_NEXT_COMPOSITION_PREDECLARATION",
-      "first_incomplete_stage": "NET002_NET007_JAN_CACHED_SOURCE_CONCORDANCE_REPLAY",
+      "first_incomplete_stage": "NET002_NET007_JAN_FAST_SOURCE_CLOSURE_GAPS_AND_CORRECTION_PLAN",
       "source_families": [
         "NET002 completed H1/H4 break of structure and ATR/body quality",
         "NET003 H1-break-M15-retest/reclaim",
@@ -5427,7 +5427,41 @@
         "fast_elapsed_seconds": 0.393594,
         "all_mutants_rejected": 5,
         "january_raw_gzip_reloaded": false,
-        "library_path": "/R9_Gamma_Checkpoints/NET002_NET007_JAN_MAPPING"
+        "library_path": "/R9_Gamma_Checkpoints/NET002_NET007_JAN_MAPPING",
+        "concordance": {
+          "status": "JAN_ONLY_CAUSAL_SOURCE_SCREEN_VERIFIED_DURABLE_NOT_OOS",
+          "source": "scripts/r9b_jan_cached_concordance.py",
+          "source_blob": "77f40fc2a2d3f5eeb3a71b945be2a62b7f02ed72",
+          "result": "results/R9B_GAMMA_NET002_007_JAN_CACHED_CONCORDANCE.json",
+          "result_blob": "ba39658abe92c62a97f88849895c48af16f50f75",
+          "result_sha256": "01abef302bab9020820de2252ab54f5f748d286242bdc657e98413d8115197a4",
+          "original_selected": 28088,
+          "original_net": -4510.0870000207515,
+          "raw_first_selected_by_variants": [
+            6360,
+            4414,
+            5766,
+            25644
+          ],
+          "naive_parent_filtered_by_variants": [
+            6068,
+            4186,
+            5515,
+            25644
+          ],
+          "newly_selected_originally_blocked": [
+            311,
+            251,
+            283,
+            0
+          ],
+          "all_variant_nets_negative": true,
+          "elapsed_sec": 0.168989,
+          "scope": "JANUARY ONLY - frozen post-signal structural context screen, no independent retest/H4 trades",
+          "possible_research_bug": "Filtering original selected trades instead of filtering all raw events and greedily reselecting misses eligible new entries; also raw generator quota state remains unchanged by this screen.",
+          "august_sealed": true,
+          "not_forward_validated": true
+        }
       }
     },
     "net002_net007_source_audit": {
@@ -5459,7 +5493,7 @@
       ],
       "august_accessed": false
     },
-    "first_incomplete_stage": "NET002_NET007_JAN_CACHED_SOURCE_CONCORDANCE_REPLAY",
+    "first_incomplete_stage": "NET002_NET007_JAN_FAST_SOURCE_CLOSURE_GAPS_AND_CORRECTION_PLAN",
     "session_handoff_20260928_max_chat": {
       "status": "DURABLE_GOOGLE_DOCS_HANDOFF_VERIFIED",
       "date": "2026-09-28",
