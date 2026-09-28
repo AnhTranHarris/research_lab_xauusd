@@ -1,0 +1,25 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_013_BANK_THEN_REQUALIFIED_REENTRY",
+  "status": "VERIFIED_DURABLE_REJECTED",
+  "parent": "STRONG_RUNNER bank at +1s + flat bridge + fresh same-direction re-entry",
+  "frozen_rule": {"checkpoint_ms":10000,"hold_ms":20000,"mode":"path","depth":4,"leaf":2,"w0":3.0,"threshold":0.35},
+  "replication": {
+    "1":{"selected_trades":130,"winners":70,"win_rate_pct":53.84615384615385,"net":92.34600000000408,"gp":324.6475000000047,"gl":-232.30150000000046,"pf":1.3975264903584526,"coverage_pct":70.27027027027027},
+    "2":{"selected_trades":191,"winners":91,"win_rate_pct":47.64397905759162,"net":39.82350000000478,"gp":323.632500000005,"gl":-283.8090000000002,"pf":1.1403179603184,"coverage_pct":64.52702702702703},
+    "3":{"selected_trades":162,"winners":70,"win_rate_pct":43.20987654320987,"net":-61.15549999999473,"gp":155.00400000000545,"gl":-216.15950000000007,"pf":0.7170815994670852,"coverage_pct":53.64238410596026}
+  },
+  "robust": false,
+  "decision": "REJECT_SELECTOR",
+  "reason": "March frozen replication is negative with PF < 1 after positive January-heldout and February; selector does not satisfy cross-month robustness.",
+  "next_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_014_REENTRY_FEATURE_REBUILD",
+  "artifact_refs": {
+    "selector_discovery_drive_id":"1kdTrVAYlkuKWj-VTOiqGlq_iTjGLLK8u",
+    "model_drive_id":"1zghPewU1SiiCWKiqPeoA0PsGG8LK3mGA",
+    "replication_drive_ids":{"1":"11TBKdFHZpSCd2zuBxQUH5rVGKapPPQ6g","2":"1dJscW2BCWMMvQpNZFONjmB8spu_aJtX4","3":"1J1BrPqeJv0JH8qZspdEL4ai-AVBzH3MW"},
+    "replication_sha256":{"1":"3ca0985752f0325cd9afeaf823c00db5f2f20ac06f2c6780b6c6b6bc364f1590","2":"b8e264b5327c901ffec2b2a92fccb8fd7ae05512429216a99de0d334bfda56ac","3":"a1ea906596bde8120b392a63d901cb4cd9f50bc3fe3979b0777efc025ea38153"},
+    "model_sha256":"db2141b5492b75833feae09d289341ef9cfc19561ebfd78839b3cf5d20c2db0b",
+    "source_sha256":"854742a9be08c3032d4119ce68e497d7e0f6da9b65f1fd66655f1be7c130311a",
+    "finalization_sha256":"4715b4c19083a423c78da207cebb67b0d765e004a88f779b6bc56c4775adbc85"
+  },
+  "august_accessed": false
+}
