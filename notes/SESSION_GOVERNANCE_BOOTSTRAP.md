@@ -38,3 +38,7 @@ If the user or assistant changes a governing document, remount the affected file
 
 ## Execution
 Use Master Protocol Sections 107–108. Ordinary Chat checkpoint batching is the default. Do not use Work unless the user explicitly authorizes it. August remains sealed unless explicitly authorized.
+
+
+## CURRENT_STATE materialization fallback
+The Master Protocol and CURRENT Governing Handoff are mandatory physical local mounts. A full local CURRENT_STATE.json is preferred. If the live GitHub connector verifies the file and blob/content identity but cannot directly materialize raw bytes into the runtime filesystem, create /mnt/data/r9b_governance/CURRENT_STATE_IDENTITY.json instead with repository, branch, path, blob SHA, current unit, current unit state, sealed-data state, and representation marker. Record the chosen representation in SESSION_GOVERNANCE_LOCK.json. This fallback applies only to CURRENT_STATE, never to the two governing Google Docs.
