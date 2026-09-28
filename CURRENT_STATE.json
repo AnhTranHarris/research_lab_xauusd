@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_005_SEQUENTIAL_HAZARD_REBUILD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_006_RECOVERY_WAITING_SPECIALIST",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -3332,6 +3332,43 @@
         "mar_gl_reduction_pct": 8.4975
       },
       "conclusion": "Ownership-label hazard reduces GL in all replications but hard checkpoint cuts sacrifice too many valuable February states; move to sequential/conservative hazard.",
+      "august_accessed": false
+    },
+    "recovery_poll_timeout_safe_rule": {
+      "status": "MANDATORY_HARD_RULE",
+      "master_protocol_updated": true,
+      "handoff_updated": true,
+      "rule": "Every remaining task is split into bounded independently recoverable units. Persist result+manifest before dependent work; mirror implementation-relevant artifacts to Drive/GitHub; after any polling/stream timeout salvage verified artifacts first and resume first incomplete unit; never rerun an identical VERIFIED_DURABLE unit solely due to UI timeout; never weaken causality/validation/history to shorten a unit."
+    },
+    "hold_exit_005_conservative_late_wait_hazard": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_FRONTIER",
+      "drive_source_id": "1umNT3n3Ykz0cSBm7s_xki6C4LhqyWzVZ",
+      "drive_result_id": "1mAsnIg6ukop-6qjBQ7Mduy1JnZSdNN1A",
+      "drive_manifest_id": "1yF52H3cWH02OWMaViPuoQ_Hcdq5hKFC_",
+      "source_sha256": "ee8c6cb163f7bbe6f4187ea8bcda83accac64b2765402e67a5006bb128895fed",
+      "result_sha256": "2ef83879761f55018438f51fe908d539c992451a3354a037dd28f8153c2a3af3",
+      "exact_rule": "In the +1s non-positive late-wait branch only, CUT at +3s iff executable P/L at +2s <= -$1.00 and at +3s <= -$0.50; otherwise wait for frozen +4s late-ignition ownership.",
+      "replication": {
+        "jan_heldout": {
+          "net_improvement_vs_hold_exit001": 8.206,
+          "gl_reduction_pct_vs_hold_exit001": 3.7564,
+          "late_ignition_survival_pct": 97.093,
+          "winner_delta": -3
+        },
+        "feb": {
+          "net_improvement_vs_hold_exit001": 7.8995,
+          "gl_reduction_pct_vs_hold_exit001": 1.4422,
+          "late_ignition_survival_pct": 98.7988,
+          "winner_delta": -2
+        },
+        "mar": {
+          "net_improvement_vs_hold_exit001": 8.511,
+          "gl_reduction_pct_vs_hold_exit001": 1.0045,
+          "late_ignition_survival_pct": 98.4914,
+          "winner_delta": -4
+        }
+      },
+      "conclusion": "Small but replicated conservative loss-control improvement in late-wait branch; retain as frozen research frontier. Recovery waiting branch remains unresolved.",
       "august_accessed": false
     }
   },
