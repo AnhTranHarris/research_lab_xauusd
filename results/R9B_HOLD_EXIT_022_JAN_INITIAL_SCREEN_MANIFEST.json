@@ -1,0 +1,17 @@
+{
+  "august_accessed": false,
+  "baseline_parity_pass": true,
+  "expected_jan_parent_net": -4510.0870000207515,
+  "expected_jan_parent_trades": 28088,
+  "expected_jan_raw_count": 34362,
+  "market_sha256": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5",
+  "next": "HOLD_EXIT_022_FEB_MARCH_DISCOVERY_NEIGHBORHOOD_AND_SOURCE_PARITY",
+  "result_sha256": "b3cb258bfcfcd05ef0d167c2eeeab7e4ae4848373e4ffb70693c9014d1d728d4",
+  "source_raw_cache_sha256": "7b8eff38f79a8246309e0d276158eb1dded9210deb54b79a3c8be189a9d9960d",
+  "source_sha256": "22a4669aee415a61f4e9264f57649373a1f8fe827916ddab582f3757fadd74db",
+  "stage": "JAN_POSTENTRY_SOURCE_GOLDEN_AND_EARLY_FAILURE_DISCOVERY",
+  "state_cache_sha256": "4ddcf58584ba34101009364bc4f5e4515f27b514b48273621ebfb8a6ab45096a",
+  "status": "COMPLETED_LOCAL",
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
+  "variants": 18
+}
