@@ -3082,10 +3082,12 @@
       "august_accessed": false
     },
     "session_artifact_audit": {
-      "status": "IN_PROGRESS_FINAL_SYNC",
-      "scope": "Entry/hold session helper/result/model artifacts; prior 007-015 already in polling-safe recovery folder; 016 exact Google Docs archive created; 017 raw helper sources mirrored to GitHub; 018/019 raw source/result/model artifacts in Drive and GitHub.",
-      "entry016_archive_doc_id": "1RoVap7SuDRPpmiG_fwAHbZqanZAc1hdMqZJv4mK5cdA",
+      "status": "VERIFIED_DURABLE_COMPLETE",
+      "scope": "Entry/hold session helper/result/model artifacts. Prior 007-015/HOLD004 retained in polling-safe recovery folder. ENTRY016 exact GitHub text mirrored to native Google Doc. ENTRY017 raw helpers in Drive and now mirrored to GitHub. ENTRY018 and ENTRY019 raw sources/results/models/manifests are in Drive and GitHub.",
       "recovery_folder_id": "1Wb2QQGCpIp8v587_28F8aDZQdaHEU_W8",
+      "entry016_archive_doc_id": "1RoVap7SuDRPpmiG_fwAHbZqanZAc1hdMqZJv4mK5cdA",
+      "private_research_registry_doc_id": "1j0_O14mLAyUCOHQYMwYB8VZtiQzNeRKrlRKYX0wSXIY",
+      "rule": "Future MT5 work must use the private artifact registry plus exact Drive/GitHub artifacts; do not reconstruct helper logic from chat.",
       "august_accessed": false
     }
   },
