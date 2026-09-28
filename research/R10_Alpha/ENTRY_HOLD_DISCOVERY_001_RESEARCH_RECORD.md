@@ -51,5 +51,7 @@ Reconstructible public development background (NOT third-party profit evidence):
 - [MetaQuotes conditioned order-flow momentum measurement, June 23 2026](https://www.mql5.com/en/articles/22939).
 - [TradingView Gold Smart Scalper open-source trend/value-zone/reentry specification](https://www.tradingview.com/script/zMAKRynu-Gold-Smart-Scalper-V3-Clean-Chart/).
 - [r/algotrading: using actual Bid/Ask and time/processing delay](https://www.reddit.com/r/algotrading/comments/zivzzd).
+- [Japanese MQL5 implementation: chronological breakout → retest → bullish/bearish confirmation with explicit duplicate-event suppression](https://www.mql5.com/ja/articles/19968). Educational code mechanics only, no transferred performance claims.
+- [Chinese XAUUSD trading explanation: key-level break → pullback → confirmation](https://dongyicaijing.com/archives/lianghua/2345.html). Strategy-outline source only; its forecasts/results are NOT evidence.
 
 **Owner-governing gates:** the **system-wide >10%** versus currently owner-approved EA or **specific Entry/Hold >10% KPI** must be predeclared and measured under matched costs, with unacceptable system degradation disqualifying. No approved Alpha EA is designated; no Gate A/B candidate, no MT5 coding and no Coinexx M1 real-tick report result are asserted. Future MT5 outputs remain **normal M1 reports only**, with “Every tick based on real ticks” internal modeling—never new ticklogger exports. August SEALED.
