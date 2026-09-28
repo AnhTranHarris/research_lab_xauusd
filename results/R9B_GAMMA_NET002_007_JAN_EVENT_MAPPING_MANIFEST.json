@@ -1,0 +1,17 @@
+{
+  "unit": "NET002_NET007_JAN_EVENT_VISIBILITY_AND_ZERO_DELTA_IDENTITY_MAPPING",
+  "status": "COMPLETED_LOCAL_PARITY_VERIFIED",
+  "input_sha256": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5",
+  "source_sha256": "42dfa35cacad1706a89664f691c1199f69e188a280813a5b3151e1fd81f7bf17",
+  "parent_raw": 34362,
+  "parent_selected": 28088,
+  "result_sha256": "ec37bcfd3f6dae6e26b46e28de9d2e360cc8fbc4bf742002e6d49c9c547f9250",
+  "audit_sha256": "3fa88617bcc157ec4e6fcc2e62d48f888d93c380c8d18d1f2c79fcd4cc69ce6a",
+  "source_code_location": "/mnt/data/r9b_research/r9b_net002_007_jan_asof_mapping.py",
+  "result_location": "/mnt/data/r9b_research/R9B_GAMMA_NET002_007_JAN_EVENT_MAPPING_SUMMARY.json",
+  "audit_location": "/mnt/data/r9b_research/R9B_GAMMA_NET002_007_JAN_EVENT_MAPPING_AUDIT.npz",
+  "next": "NET002_NET007_JAN_MAPPING_SOURCE_PARITY_AND_EVENTS_AUDIT",
+  "august_sealed": true,
+  "production_mql5_authorized": false,
+  "completed_utc": "2026-09-28T17:43:58.146615+00:00"
+}
