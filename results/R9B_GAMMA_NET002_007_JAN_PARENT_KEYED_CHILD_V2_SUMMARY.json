@@ -1,0 +1,46 @@
+{
+  "stage": "NET002_NET007_JAN_PARENT_KEYED_CHILD_ASOF_CORRECTION_V2",
+  "status": "JANUARY_CAUSAL_MAPPING_CORRECTION_EXACT_ZERO_DELTA_PARENT",
+  "root_cause": "global-latest-child-asof-then-discard-wrong-BOS falsely hides earlier visible child of current BOS",
+  "source_parent_cache_sha256": "3fa88617bcc157ec4e6fcc2e62d48f888d93c380c8d18d1f2c79fcd4cc69ce6a",
+  "output_source_npz_sha256": "35e37b0028cf386aaf4107acdd98e2995f3989ea58f465720c74bf0d880e1e08",
+  "original_parent_economics_unchanged": {
+    "raw_events": 34362,
+    "selected": 28088,
+    "winners": 19087,
+    "net": -4510.0870000207515,
+    "gross_profit": 7001.463999985857,
+    "gross_loss": -11511.55100000661
+  },
+  "child_fixes": {
+    "retest": {
+      "previous_raw_attached": 11458,
+      "corrected_raw_attached": 12153,
+      "restored_raw_links": 695,
+      "previous_selected_attached": 9233,
+      "corrected_selected_attached": 9782,
+      "restored_selected_links": 549,
+      "false_existing_link_count": 0,
+      "negative_age_count": 0,
+      "first_corrected_raw_event_ms": 1767613509897
+    },
+    "failed": {
+      "previous_raw_attached": 13349,
+      "corrected_raw_attached": 20501,
+      "restored_raw_links": 7152,
+      "previous_selected_attached": 10811,
+      "corrected_selected_attached": 16567,
+      "restored_selected_links": 5756,
+      "false_existing_link_count": 0,
+      "negative_age_count": 0,
+      "first_corrected_raw_event_ms": 1767617166967
+    }
+  },
+  "source_eligibility_semantics": "first completed M15 child for each originating H1 BOS, visible only at or after child M15 bar end, current BOS parent ID must match",
+  "no_execution_changes": true,
+  "no_new_trade_approval": true,
+  "jan_month_only": true,
+  "august_sealed": true,
+  "elapsed_seconds": 0.387339,
+  "next": "NET002_NET007_JAN_V2_FAST_DIFFERENTIAL_REPLAY"
+}
