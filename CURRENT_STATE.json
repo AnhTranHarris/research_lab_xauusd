@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_016_SESSION_LIQUIDITY_SWEEP_RECLAIM",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_017_SESSION_RANGE_EXPANSION",
     "current_unit_state": "READY_JAN_MAR_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -4198,6 +4198,43 @@
       "august_accessed": false,
       "conclusion": "Equal-quote-volume and fixed-tick activity-bucket flow did not produce a Jan-Mar robust sparse H1 event filter; April was not used.",
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_016_SESSION_LIQUIDITY_SWEEP_RECLAIM"
+    },
+    "net016_session_liquidity_sweep_reclaim": {
+      "status": "REJECTED_APRIL_CALIBRATION",
+      "decision": "REJECT_SESSION_SWEEP_RECLAIM",
+      "result_sha256": "c4a3b94869fad77eb5dceec363adf3ebe8fc0b36b11844c3148e93dfb08989cf",
+      "source_sha256": "1e2dd528a523e9ac5c5d405857edd43ab5a9d8bb52c741a903a853d9eba0026a",
+      "eligible_candidates": 9,
+      "frozen_candidate": {
+        "transition": "AL",
+        "tf_min": 15,
+        "reclaim_frac": 0,
+        "sweep_frac": 0,
+        "hold_min": 120
+      },
+      "jan": {
+        "trades": 13,
+        "net": 31.463999999998123,
+        "pf": 1.4578779632405001
+      },
+      "feb": {
+        "trades": 9,
+        "net": 167.3789999999981,
+        "pf": 8.509152086137208
+      },
+      "mar": {
+        "trades": 16,
+        "net": 93.39200000000255,
+        "pf": 1.9316839584996368
+      },
+      "april": {
+        "trades": 16,
+        "net": -99.33199999999943,
+        "pf": 0.42584318372301444
+      },
+      "may_july_accessed": false,
+      "august_accessed": false,
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_017_SESSION_RANGE_EXPANSION"
     }
   },
   "gamma2_benchmark_recovery": {
