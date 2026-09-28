@@ -5,7 +5,7 @@
   "repository": "AnhTranHarris/research_lab_xauusd",
   "branch": "alpha",
   "updated_utc": "2026-09-28",
-  "stage": "DUKASCO_PYTHON_ENGINE_READY__OWNER_DEFINED_GATE_AND_COMPACT_M1_REPORT_CONTRACT_LOCKED__AWAITING_RESEARCH",
+  "stage": "ENTRY_HOLD_DISCOVERY_001_JANUARY_SCREEN_COMPLETED_ALL_SIX_REJECTED__NEXT_ENTRY_CONFIRMATION",
   "scope": {
     "symbol": "XAUUSD",
     "start_date_inclusive": "2026-01-01",
@@ -42,13 +42,13 @@
     "DUKASCOPY": "independent tick-market evidence; verify hashes and schema"
   },
   "scientific_state": {
-    "alpha_backtests_run": 0,
+    "alpha_backtests_run": 6,
     "alpha_strategy_candidates_promoted": 0,
     "alpha_ea_builds_authorized": 0,
     "dataset_sha_verified_in_alpha": true,
-    "forward_validation_split": "NOT_YET_SELECTED_AFTER_SCOPE_EXPANSION",
-    "first_incomplete_stage": "ALPHA_001_FOUR_CATEGORY_RESEARCH_CANDIDATE_SCREENING",
-    "next_action": "Start owner-requested ENTRY/HOLD/EXIT/PROFIT causal tests using the seven-month Dukascopy month-block engine. Predeclare comparable >10% overall or category-specific metrics, preserve approved incumbent and require human review before MQL5 coding. Owner later supplies Coinexx M1 Strategy Tester report using internally 'Every tick based on real ticks'; NO NEW MT5 TICKLOGS.",
+    "forward_validation_split": "JAN_2026_EXPLORATORY_USED__FUTURE_MONTHS_STRATEGY_HOLDOUT_STATUS_UNCOMMITTED__FREEZE_BEFORE_FUTURE_MONTH_USE",
+    "first_incomplete_stage": "ALPHA_ENTRY_HOLD_DISCOVERY_002_PREREGISTER_DELAYED_ACCEPTANCE_AND_VOLATILITY_AWARE_EXECUTION",
+    "next_action": "Using frozen Entry/Hold001 negative Jan evidence and R9 original eight-session R9 1/3/10/20/30s markout comparisons, design and preregister a new causal break→pullback→reclaim→acceptance strategy; test on original Dukascopy chronology, with exact Bid/Ask costs, $100-$500 survivability, matched baseline, and count rejected parent events. Do NOT rewrite 001 params to manufacture success; don't inspect August. Owner-approved cumulative Alpha EA still NOT DESIGNATED; two 10% candidate gates not yet evaluable.",
     "dataset_verified_scope": "FULL 7 MARKET GZIP SHA256+CRC+PARSE+TIMESTAMP ORDER+MONTH MEMBERSHIP+BID<=ASK; NUMERIC MEMMAP REPLAY CACHES 57,527,562 TICKS",
     "infrastructure_smoke_runs": 1,
     "infrastructure_smoke_status": "SEVEN_MONTH_CONTIGUOUS_DETERMINISTIC_M1_PROBE_REPLAYED__UNVALIDATED_STRATEGY_RESULTS_EXCLUDED",
@@ -207,5 +207,30 @@
     "source_storage_policy": "NO_DUPLICATED_TICK_FILES_IN_DRIVE_OR_GITHUB_REPORT_ONLY",
     "august": "SEALED",
     "status_current_new_candidate": "NONE_SCREENED_OR_APPROVED"
+  },
+  "entry_hold_discovery_001": {
+    "status": "INITIAL_JANUARY_SIX_WAY_CAUSAL_REPLAY_COMPLETED_ALL_FAILED",
+    "prereg": "research/R10_Alpha/ENTRY_HOLD_DISCOVERY_001_PREREGISTRATION.md",
+    "record": "research/R10_Alpha/ENTRY_HOLD_DISCOVERY_001_RESEARCH_RECORD.md",
+    "code": "scripts/r10_alpha_dukas/entry_hold_discovery_001.py",
+    "results": "results/R10_Alpha/ENTRY_HOLD_001_COMPACT_RESULTS.json",
+    "daily": "results/R10_Alpha/ENTRY_HOLD_001_DAILY_JAN_UTC.csv",
+    "weekly": "results/R10_Alpha/ENTRY_HOLD_001_WEEKLY_UTC_ISO_PROVISIONAL.csv",
+    "r9_eight_day_markout": "results/R10_Alpha/R9_ENTRY_MARKOUT_EIGHT_DAYS.csv",
+    "source_market": "DUKASCOPY_INDEPENDENT_XAUUSD_2026_JAN",
+    "source_hash": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5",
+    "source_rows": 9135062,
+    "source_days": 26,
+    "baseline_root_event_count": 14292,
+    "filtered_pullback_events": 5160,
+    "filtered_quality_events": 1014,
+    "results_detail": "All six $200-account simulations reached near margin extinction ($7-$9 final balance). $100k diagnostic fixed-0.01 lot 120s variants A/B/C: 14.37%, 15.30%, 15.83% net win-rate, profit factor 0.220/0.252/0.264, all negative; quality filter retained 7.1% root opportunities.",
+    "source_spread": "JAN_DUKASCOPY_MEDIAN_APPROX_0_70_USD_VS_ARCHIVED_8_R9_REAL_DAY_ENTRY_MEDIAN_AVERAGE_0_205_USD",
+    "r9_sample_benchmark": "Existing R9 archived eight-day fixed-horizon 10s executable hypothetical markout positive: REAL 36.15%, SYNTH 86.15%, DIFFERENT UNPAIRED TRADE POPULATIONS AND POSSIBLY POST_EXIT",
+    "temporal_guard_tests": "18_PASSED",
+    "out_of_sample": false,
+    "augmented_teacher_decision": "NOT_DEPLOYABLE",
+    "approved_cumulative_ea": "NOT_YET_DESIGNATED_FOR_ALPHA",
+    "status_mt5_report": "NO_NEW_MT5_REPORT_REQUESTED_OR_CREATED"
   }
 }
