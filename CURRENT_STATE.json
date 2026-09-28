@@ -33,7 +33,11 @@
     "master_protocol": "https://docs.google.com/document/d/1ycB5bQ3P24w7BZz54RwgJbc5CX5aRcqgr0KiI0Iidkw/edit",
     "alpha_handoff": "https://docs.google.com/document/d/14ElgUCCXZeu7y4go9RAR5-v06rU_yOPqskQCCsqPRA4/edit",
     "drive_workspace": "https://drive.google.com/drive/folders/1QoEK99ax1fIGZ-fGc-OwWsBcnjiTmhPA",
-    "gamma_main": "READ_ONLY_HISTORY_NOT_ACTIVE_ALPHA_PARENT"
+    "gamma_main": "READ_ONLY_HISTORY_NOT_ACTIVE_ALPHA_PARENT",
+    "canonical_master_research_prompt": "https://docs.google.com/document/d/1ycB5bQ3P24w7BZz54RwgJbc5CX5aRcqgr0KiI0Iidkw/edit#section-99",
+    "canonical_master_research_prompt_repository_path": "research/R10_Alpha/MASTER_RESEARCH_PROMPT_CANONICAL.md",
+    "legacy_gamma_master_prompt_archive": "research/R10_Alpha/archives/GAMMA_SECTION99_ORIGINAL_MASTER_PROMPT_ARCHIVE_2026-09-28.md",
+    "startup_instruction": "R10 Alpha canonical Section 99 replaces old Gamma default; read Sections 112,114,115 and live alpha CURRENT_STATE then resume first incomplete VERIFIED_DURABLE experiment"
   },
   "reference_roles": {
     "R9_REAL": "execution baseline; re-verification pending",
