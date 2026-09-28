@@ -47,7 +47,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
-    "current_unit_state": "JAN_STRUCTURAL_INVALIDATION_REJECTED_HARVEST_SOURCE_AUDIT_READY",
+    "current_unit_state": "JAN_LONG_STALL_REJECTED_RUNNER_GEOMETRY_READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4616,7 +4616,7 @@
       "calibration_window": "APRIL",
       "forward_window": "MAY_JUL_FROZEN",
       "july_historical_contamination_note": "Old July research forensics mean not every new mechanism can claim July as truly untouched; label appropriately.",
-      "first_incomplete_stage": "HOLD_EXIT_022_CAUSAL_HARVEST_RUNNER_PROOF_DESIGN",
+      "first_incomplete_stage": "HOLD_EXIT_022_CAUSAL_RUNNER_TRAIL_GEOMETRY_DISCOVERY",
       "mql5_build_blockers": "Reconstruct missing ENTRY017/021/023 dedicated source bodies if used, golden-parity certify all carried state semantics; dynamic exit requires full tick replay and resulting entry opportunity reevaluation.",
       "test_rules": "one position, chronological raw candidate stream, avoid future features, apply actual newly chosen exit timestamp before selecting next entry; run with/without H1 context",
       "august_accessed": false,
@@ -4726,6 +4726,33 @@
         "library_checkpoint": "/R9_Gamma_Checkpoints/HOLD_EXIT_022",
         "aug_accessed": false,
         "decision": "Original sweep-level adversarial quote return is not standalone early-exit alpha; do not run same 27 rules on calibration/forward."
+      },
+      "january_late_unignited_stall": {
+        "status": "VERIFIED_DURABLE_REJECTED_DISCOVERY",
+        "predeclared_variants": 18,
+        "variant_positive_net_count": 0,
+        "hypothesis": "no observed original trailing activation at 15/30/45 sec, current executable pnl <= -.25 or -.75, owner all/weak/strong",
+        "least_net_damaging": {
+          "owner": "strong_only",
+          "horizon_ms": 45000,
+          "pnl_lte": -0.75,
+          "net_delta": -5.772499999889078,
+          "GL_delta": -5.778999999882217,
+          "winner_change": 9,
+          "trade_change": 25
+        },
+        "source_commit": "3973f2ac21601cc0c7c56142a4a4c63e1a2b7a72",
+        "contract_commit": "822cf5df1453b873a84f54a68f809dd8d8c131d5",
+        "result_commit": "3d2de7d912f9dd2c951a1c2d493758c5dde61e4d",
+        "manifest_commit": "48e1df9cc84e394ac9075a593d0b4703fef03a84",
+        "note_commit": "c5f5593129d51c2f2e79580a064e2c58ccc1432f",
+        "source_sha256": "de057bccd13e308aba8b839d244b8fe46cda5f0fc94d91049a330a5aa2028693",
+        "observation_cache_sha256": "9c3a24944b27ad5f1de95430a5401d6ec296c8b0af18732f394237ee08ac342e",
+        "result_sha256": "1c1a8ac135e5d6b9749d1f3065835d8d424825c0183c1ef590ba08ff2995be52",
+        "note_sha256": "2ebce6e9c29b8512bf8615e6778feb3e0155b2c87b0c5a7c6aeda4ae180592a3",
+        "decision": "No activity-censored late-stall early close improves Jan net; reject this mechanism alone and pivot to positive ignition runner monetization.",
+        "library_path": "/R9_Gamma_Checkpoints/HOLD_EXIT_022",
+        "august_accessed": false
       }
     }
   },
