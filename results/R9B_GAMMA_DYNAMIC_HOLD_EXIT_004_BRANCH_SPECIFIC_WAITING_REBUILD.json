@@ -1,0 +1,60 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_004_BRANCH_SPECIFIC_WAITING_REBUILD",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBTHRESHOLD",
+  "parent": "Frozen ENTRY017-024 ownership + HOLD_EXIT001",
+  "recovery_best": {
+    "checkpoint_ms": 3000,
+    "feature_set": "compact",
+    "depth": 2,
+    "leaf": 8,
+    "class_weight_0": 0.75,
+    "threshold": 0.55,
+    "jan_min_net_improvement": 0.2065,
+    "jan_min_gl_reduction_pct": 19.0725,
+    "jan_min_valuable_recall_pct": 87.5
+  },
+  "late_best": {
+    "checkpoint_ms": 3000,
+    "feature_set": "path",
+    "depth": 4,
+    "leaf": 12,
+    "class_weight_0": 0.75,
+    "threshold": 0.25,
+    "jan_min_net_improvement": 0.1025,
+    "jan_min_gl_reduction_pct": 0.5774,
+    "jan_min_valuable_recall_pct": 94.7368
+  },
+  "replication": {
+    "jan_heldout": {
+      "net_improvement_vs_hold1": 33.1695,
+      "gl_reduction_pct_vs_hold1": 12.2303,
+      "valuable_state_survival_pct": 84.5238,
+      "net_improvement_vs_canonical": -23.0025
+    },
+    "feb": {
+      "net_improvement_vs_hold1": -8.7985,
+      "gl_reduction_pct_vs_hold1": 4.728,
+      "valuable_state_survival_pct": 83.3333,
+      "net_improvement_vs_canonical": -3.881
+    },
+    "mar": {
+      "net_improvement_vs_hold1": 31.304,
+      "gl_reduction_pct_vs_hold1": 8.4975,
+      "valuable_state_survival_pct": 80.7267,
+      "net_improvement_vs_canonical": 55.8365
+    }
+  },
+  "conclusion": "Ownership-identity teacher labels materially improve January and March and reduce GL in all three replications, but February net reverses. The failure is now narrow: the classifier is cutting too many valuable February states. A sequential/conservative hazard policy is needed rather than one hard checkpoint decision.",
+  "decision": "RETAIN_CAPACITY_NOT_FINAL",
+  "next_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_005_SEQUENTIAL_HAZARD_REBUILD",
+  "source_sha256": "d2c901532672ef3af1e1a6df3e09433bb278d85db134c997b81926f9adf8777e",
+  "result_sha256": "3f57f1b1cd9a2d5a55e4524425deb262c480df53d0a07c5c2f504f5dccd69cc3",
+  "model_sha256": "7c9f8167b5a5e5e6539aa69835d7feb5da0aeedf982976e6ae27a070fdc122c2",
+  "drive": {
+    "source": "1GDT-L1SwqX4QVCX-VXwFrrI_fpm8czhl",
+    "result": "1eqYZjpgzZtiaA6K2M_awjOq5AquebEG-",
+    "model": "1bxGSITmFErEcPEFnL7LoqSFGk15wipUl",
+    "manifest": "14fwuFZzxaYVq3y-JoQJoy6RVFA127ccj"
+  },
+  "august_accessed": false
+}
