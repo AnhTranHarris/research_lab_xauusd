@@ -1,1 +1,13 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+{
+  "august_accessed": false,
+  "eligible": 0,
+  "jan_golden": true,
+  "market_sha256": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5",
+  "next": "FEB_MAR_DISCOVERY_IF_JAN_ELIGIBLE_ELSE_HARVEST_RUNNER_GEOMETRY",
+  "observations_sha256": "9c3a24944b27ad5f1de95430a5401d6ec296c8b0af18732f394237ee08ac342e",
+  "parent_raw_sha256": "7b8eff38f79a8246309e0d276158eb1dded9210deb54b79a3c8be189a9d9960d",
+  "results_sha256": "1c1a8ac135e5d6b9749d1f3065835d8d424825c0183c1ef590ba08ff2995be52",
+  "source_sha256": "de057bccd13e308aba8b839d244b8fe46cda5f0fc94d91049a330a5aa2028693",
+  "status": "COMPLETED_LOCAL",
+  "variants": 18
+}
