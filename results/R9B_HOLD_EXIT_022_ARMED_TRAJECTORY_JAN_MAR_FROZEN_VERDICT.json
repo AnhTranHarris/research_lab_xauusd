@@ -1,0 +1,150 @@
+{
+  "execution_model": "Midquote and fixed modeled $0.10 spread each side, 0.01-lot XAUUSD equivalent; not variable-spread Coinexx MT5 REAL",
+  "frozen_ids": [
+    "AT07",
+    "AT11"
+  ],
+  "historical_combinations_source_gap": "NET002-NET007 source families are present but parity into active CAUSAL014 engine/portfolio not established; separate hypotheses, not validated inheritance",
+  "interpretation": "Slight gross-profit changes after causal armed runner promotion do not address gross loss and fail February frozen gate. Neither candidate qualifies for April calibration or future months. No MT5 live/demo promotion.",
+  "next": "HISTORICAL_NET002_NET007_STRUCTURAL_INDICATOR_COMBINATION_SOURCE_TO_PARENT_ARCHAEOLOGY",
+  "parent": {
+    "gl": -41685.75900002158,
+    "gp": 26135.083999953866,
+    "maxdd": 15554.8170000677,
+    "net": -15550.675000067717,
+    "pf": 0.6269547353075744,
+    "trades": 91849,
+    "winners": 62090
+  },
+  "retention": "100% original trade and winning-position counts for these frozen candidates in each month",
+  "source_input_sha256": {
+    "hold022_results/HOLD022_ARMED_TRAJECTORY_FEB_REPLICATION.json": "66d2599522e14aa12c1dc95864aec50770df8144f54b989a65775f74de5c5d8c",
+    "hold022_results/HOLD022_ARMED_TRAJECTORY_FEB_REPLICATION_AUDIT.npz": "351701886b17071173e82ac3218c80be5fec838f1139e9f115b12995be71564b",
+    "hold022_results/HOLD022_ARMED_TRAJECTORY_JAN_DISCOVERY.json": "ba6cb2a9971b3ff65f56d01f9e6efa1f4780d1ba272c26ac373239c7f0901a49",
+    "hold022_results/HOLD022_ARMED_TRAJECTORY_JAN_DISCOVERY_AUDIT.npz": "bb94df704313aba6779a368fd298c801513813cd0ed78338cdeafb4149f51d55",
+    "hold022_results/HOLD022_ARMED_TRAJECTORY_MAR_DIAGNOSTIC.json": "b7d8c6f0addc8ae14f0818c39ff5bcbaed0cab98cce80939a2b52f6601023b74",
+    "hold022_results/HOLD022_ARMED_TRAJECTORY_MAR_DIAGNOSTIC_AUDIT.npz": "fc75f2b4901dc0f54ccad5ba6d6e6a0c99e05cdfcc006f86346fc3b899d79903",
+    "hold022_stage/HOLD022_ARMED_TRAJECTORY_JAN_PREDECLARED.json": "d6a2ec4ca4ffccad16cd79fe33a2040f555b2bedce03a9f789bf10eb75a76f41",
+    "hold022_stage/NET024_RAW_01.npz": "7b8eff38f79a8246309e0d276158eb1dded9210deb54b79a3c8be189a9d9960d",
+    "hold022_stage/NET024_RAW_02.npz": "c855f777d57c25ecbf49768afa1ab07eab138dd1e07ce30b246e42a788e42586",
+    "hold022_stage/NET024_RAW_03.npz": "cbbc07490bbd8f5be6fffa90a5d338c1985259cd16e9edd73bf8760bcf66b64f"
+  },
+  "stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_JAN_MAR_FROZEN_VERDICT",
+  "status": "VERIFIED_HISTORICAL_REPLICATION_REJECTED_STANDALONE",
+  "time_walls": {
+    "apr_used": false,
+    "aug_used": false,
+    "feb_used": true,
+    "jan_used": true,
+    "mar_used": true,
+    "may_jul_used": false
+  },
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
+  "validation": "Exact February and March original raw exits/PnL/hold times, Jan source frozen, 1-position raw event reselection separately and across months, no new parameters",
+  "variants": {
+    "AT07": {
+      "aggregate": {
+        "gl": -41685.75900002158,
+        "gp": 26135.26899995385,
+        "maxdd": 15554.632000067713,
+        "net": -15550.490000067728,
+        "pf": 0.6269591732740267,
+        "trades": 91849,
+        "winners": 62090
+      },
+      "any_strict_eligibility_failure": true,
+      "delta": {
+        "gl": 0.0,
+        "gp": 0.18499999998311978,
+        "maxdd": -0.18499999998675776,
+        "net": 0.18499999998857675,
+        "pf": 4.437966452330855e-06,
+        "trades": 0,
+        "winners": 0
+      },
+      "material_net_and_GL_5pct": false,
+      "monthly": [
+        {
+          "gl_improvement": 0.0,
+          "gp_delta": 0.143499999994674,
+          "month": "jan",
+          "month_strict_gate": true,
+          "net_delta": 0.143499999994674,
+          "trades_change": 0,
+          "winners_change": 0
+        },
+        {
+          "gl_improvement": 0.0,
+          "gp_delta": -1.4719999999942956,
+          "month": "feb",
+          "month_strict_gate": false,
+          "net_delta": -1.4719999999952051,
+          "trades_change": 0,
+          "winners_change": 0
+        },
+        {
+          "gl_improvement": 0.0,
+          "gp_delta": 1.5134999999681895,
+          "month": "mar",
+          "month_strict_gate": true,
+          "net_delta": 1.5134999999881984,
+          "trades_change": 0,
+          "winners_change": 0
+        }
+      ],
+      "promotion": "REJECT_STANDALONE_FROZEN_REPLICATION"
+    },
+    "AT11": {
+      "aggregate": {
+        "gl": -41685.75900002158,
+        "gp": 26138.99599995385,
+        "maxdd": 15550.905000067714,
+        "net": -15546.76300006773,
+        "pf": 0.6270485803062941,
+        "trades": 91849,
+        "winners": 62090
+      },
+      "any_strict_eligibility_failure": true,
+      "delta": {
+        "gl": 0.0,
+        "gp": 3.91199999998571,
+        "maxdd": -3.91199999998571,
+        "net": 3.91199999998571,
+        "pf": 9.384499871967211e-05,
+        "trades": 0,
+        "winners": 0
+      },
+      "material_net_and_GL_5pct": false,
+      "monthly": [
+        {
+          "gl_improvement": 0.0,
+          "gp_delta": 2.143999999994776,
+          "month": "jan",
+          "month_strict_gate": true,
+          "net_delta": 2.143999999994776,
+          "trades_change": 0,
+          "winners_change": 0
+        },
+        {
+          "gl_improvement": 0.0,
+          "gp_delta": -0.261000000002241,
+          "month": "feb",
+          "month_strict_gate": false,
+          "net_delta": -0.261000000002241,
+          "trades_change": 0,
+          "winners_change": 0
+        },
+        {
+          "gl_improvement": 0.0,
+          "gp_delta": 2.028999999991356,
+          "month": "mar",
+          "month_strict_gate": true,
+          "net_delta": 2.028999999994994,
+          "trades_change": 0,
+          "winners_change": 0
+        }
+      ],
+      "promotion": "REJECT_STANDALONE_FROZEN_REPLICATION"
+    }
+  }
+}
