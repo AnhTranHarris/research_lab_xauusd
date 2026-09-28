@@ -52,7 +52,7 @@
     "dataset_sha_verified_in_alpha": true,
     "forward_validation_split": "JAN_2026_CLEAN_RESTART_EXPLORATORY_USED; FEB_JUL_NOT_ACCESSED_FOR_NEW_STRATEGY__REQUIRES_PREDECLARED_FORWARD_SPLIT; AUG_SEALED",
     "first_incomplete_stage": "CLEAN_ALPHA_ENTRY_HOLD_001_COST_AWARE_ENTRY_EXCURSION_AND_SURVIVAL_PREREGISTRATION",
-    "next_action": "OWNER-REQUESTED SCIENTIFIC RESET supersedes old ENTRY_HOLD_002. Quarantine original Alpha ENTRY_HOLD_DISCOVERY_001 and associated 002 queue. Clean initial January clock-defined no-Gamma Entry/Hold baseline is complete and NEGATIVE after costs; result SHA256 925fd3fd.... No Alpha EA baseline designated. Next study must preregister a truly new sequential portfolio and small-account stress model, freeze validation before any Feb-Jul tick research, honor sealed August and compact M1 Coinexx report human-gate workflow. Do not reuse original Gamma model or the Alpha001 2-of-3 M15/M30/H1 structural vote.",
+    "next_action": "CLEAN SCIENCE only. Recheck active Alpha clean initial January fixed-horizon diagnostic and independent 16-file R9 historical tick markout archive, all negative as strategy evidence. Preregister CLEAN_ALPHA_ENTRY_HOLD_001_COST_AWARE_ENTRY_EXCURSION_AND_SURVIVAL before further market source reads; explicitly choose full chronological capital-aware simulator and freeze holdout months. Former ENTRY_HOLD_DISCOVERY_001 six variants and queued 002 are QUARANTINED. Never use Gamma signals. No formal >10% pass, approved Alpha EA, MQL5 or Coinexx MT5 tested. August SEALED.",
     "dataset_verified_scope": "FULL 7 MARKET GZIP SHA256+CRC+PARSE+TIMESTAMP ORDER+MONTH MEMBERSHIP+BID<=ASK; NUMERIC MEMMAP REPLAY CACHES 57,527,562 TICKS",
     "infrastructure_smoke_runs": 1,
     "infrastructure_smoke_status": "SEVEN_MONTH_CONTIGUOUS_DETERMINISTIC_M1_PROBE_REPLAYED__UNVALIDATED_STRATEGY_RESULTS_EXCLUDED",
@@ -347,7 +347,24 @@
       "internal_engine_passed": 15,
       "new_tests_passed": 6,
       "type": "FIXED_HORIZON_EXECUTABLE_PRICE_MARKOUT_NOT_REALIZED_MARGIN_PORTFOLIO",
-      "formal_10percent_gate": "NOT_EVALUABLE_NO_OWNER_APPROVED_ALPHA_EA"
+      "formal_10percent_gate": "NOT_EVALUABLE_NO_OWNER_APPROVED_ALPHA_EA",
+      "historical_r9_recheck": {
+        "evidence": "FORENSIC_ONLY_NOT_STRATEGY",
+        "source": "scripts/r10_alpha_dukas/CLEAN_RESTART_R9_EIGHT_DAY_RAW_REFERENCE_RECHECK.py",
+        "result": "results/R10_Alpha/CLEAN_RESTART_R9_8DAY_MARKOUT_RECHECK.json",
+        "days": 8,
+        "source_gzip_files": 16,
+        "all_source_sha256_match_original_daily_manifests": true,
+        "real_source_rows": 3462369,
+        "synth_source_rows": 3324449,
+        "real_events": 11433,
+        "synth_events": 12073,
+        "positive_quote_side_markout_10s": {
+          "REAL": 0.3615019266959405,
+          "SYNTH": 0.861509152654684
+        },
+        "warning": "UNPAIRED_HISTORICAL_R9_ENTRY_POPULATIONS_EIGHT_DATES_FIXED_HORIZON_CAN_EXCEED_EXIT__NOT_NEW_ALPHA_PNL"
+      }
     }
   }
 }
