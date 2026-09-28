@@ -32,12 +32,12 @@
     "campaign": "R9B_GAMMA_2_MONETIZATION",
     "objective": "Search for causal reconstructible strategies/mechanisms/combinations that add durable value to the current-best Gamma parent and close the REAL→R9 SYNTH gap. Use R9 overfit/SYNTH as tick-by-tick teacher/capacity map only; never as future execution input.",
     "priorities": [
-      "HOLD_EXIT_022 historical reconstruction of original exit-reason/trajectory HARVEST versus RUNNER and true post-entry path states from source-equivalent tick replay; avoid repeating generic early-cut and widened trail rule",
+      "HOLD_EXIT_022 exit-reason trajectory HARVEST-vs-RUNNER source closure on CAUSAL014 event population; recover historical mechanism definitions without reusing rejected rules",
+      "Reconstruct source-equivalent ENTRY017/021/023 state semantics only if required for the exit-trajectory mechanism",
+      "After source closure, perform one bounded causal trajectory discovery stage; do not release April/May-Jul until frozen gates require them",
       "Investigate incremental state-owned runner/harvest action only if enough causal observability can be reconstructed and original correct source golden remains exact",
       "Repair/reconstruct ENTRY017/021/023 missing dedicated Python source bodies when an integrated Hold/Exit model actually requires them; prove golden regression and complete source closure",
       "Jan-Mar discovery, Apr calibration, May-Jul frozen forward for viable candidates; August sealed",
-      "HOLD_EXIT_022 bankable HARVEST/MEDIUM/RUNNER economics with original CAUSAL014 chronology and optional NET024 H1 owner ablation",
-      "Restore source-equivalent ENTRY017/021/023 diagnostics on identical CAUSAL014 event population before promoted MQL5 state machine",
       "No production MQL5 work before verified integrated positive economic value and source closure",
       "orthogonal FADE/rotation sleeves for rejected Gamma_2 events rather than simple abstention",
       "monthly trade count and winning-trade count remain first-class investor metrics",
@@ -50,7 +50,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
-    "current_unit_state": "HOLD_EXIT_022_JAN_MAR_RUNNER_DISCOVERY_REJECTED_NEXT_TRAJECTORY_SOURCE_CLOSURE_READY",
+    "current_unit_state": "HISTORICAL_RECONCILED_THROUGH_RUNNER_DISCOVERY_NEXT_EXIT_TRAJECTORY_SOURCE_CLOSURE",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4596,7 +4596,7 @@
       "note": "Frozen rule worked consistently as tiny context-dependent loss compression but all monthly PF values declined, GP and winners fell, and net remained negative; no build-ready claims. July source raw-cache generic next hint RAW_08 is inert metadata; never accessed August."
     },
     "hold_exit_022_state_dependent_harvest_failure_rebuild": {
-      "status": "HISTORICAL_REBUILD_CONTINUES_RUNNER_REJECTED_SOURCE_AUDITED",
+      "status": "VERIFIED_DURABLE_HISTORICAL_RECONCILIATION_THROUGH_RUNNER_DISCOVERY",
       "parent": "CAUSAL_RECERT_014",
       "net024_context": "OPTIONAL_CAUSAL_H1_OWNER_ABLATION_ONLY_NOT_ALWAYS_ON_GATE",
       "entry_hold_017_024": "FROZEN_DIAGNOSTIC_STATE_SEMANTICS_ENGAGING_LIFECYCLE_ONLY_AFTER_SOURCE_RECERT",
@@ -4927,7 +4927,92 @@
         ],
         "error_ledger": "1IxoubDEFYUOvQAxl7MoAThp3yqiAUxpvclH79dH6sBc",
         "artifact_read_contract": "On upload of new Library file, use files.search to rediscover exact filename first, files.read, exact source size including LF, compare GitHub fetched readback and git blob hash; never trust a raw ref-to-file read placeholder"
-      }
+      },
+      "structural_invalidation_jan": {
+        "status": "VERIFIED_DURABLE_REJECTED_JAN_FAIL_FAST",
+        "tests": 27,
+        "eligible": 0,
+        "hypothesis": "opposite executable quote re-penetrates original causal sweep/reclaim level and persists contra before parent exit",
+        "parent_net": -4510.0870000207515,
+        "parent_gl": -11511.55100000661,
+        "result_sha256": "9bdd1c3dd85dfe7719e3d00eeebee9122fe59e8f91c06bbacf55f55af16e0e6a",
+        "source_commit": "6e23312110f9f9cb00b8b1f54ed901994121ffe3",
+        "result_commit": "a23d9d0bf2e48c4acc67809aef4263d3a1194e3e",
+        "manifest_commit": "137ca27bb8cd00dd6768d3fd47414cd652073bf4",
+        "decision": "REJECT_SWEEP_LEVEL_CONTRA_REPENETRATION_AS_STANDALONE_EARLY_INVALIDATION; do not spend Feb-Mar/forward budget"
+      },
+      "late_stall_jan": {
+        "status": "VERIFIED_DURABLE_REJECTED_JAN_FAIL_FAST",
+        "variants": 18,
+        "eligible": 0,
+        "result_sha256": "1c1a8ac135e5d6b9749d1f3065835d8d424825c0183c1ef590ba08ff2995be52",
+        "result_commit": "63f564401102b6eac1abce8905e893b27f29d07f",
+        "manifest_commit": "1df5e07c853a969eca57b745a37044f01529f13f",
+        "decision": "REJECT_LONG_UNIGNITED_STALL_FIXED_CHECKPOINT_FAMILY; no Feb-Mar expansion"
+      },
+      "runner_geometry_jan": {
+        "status": "VERIFIED_DURABLE_PARTIAL_DIAGNOSTIC_ONLY",
+        "strict_eligible": 0,
+        "partial_diagnostic": {
+          "owner_mode": "weak_only",
+          "strong_trail": 0.04,
+          "weak_trail": 0.1,
+          "jan_net_delta": 9.269500000013068,
+          "jan_gp_delta": 62.72800000026746,
+          "jan_gl_delta": -53.45850000025348,
+          "winner_retention_pct": 98.02483365641537,
+          "trade_retention_pct": 99.97151808601538
+        },
+        "result_sha256": "33efb4fa8ff97a4c620459299407cac1005b747d2f703b1a5796225a7ee96a93",
+        "result_commit": "ba7e609efd388a72d4bd3343d21fbf14f944da85",
+        "manifest_commit": "7c55e1f975a2898e49fb2fc9e6426975472e5ae2"
+      },
+      "runner_jan_mar_discovery": {
+        "status": "VERIFIED_DURABLE_REJECTED_STANDALONE",
+        "frozen_rule": {
+          "strong_trail": 0.04,
+          "weak_trail": 0.1
+        },
+        "feb_gate_pass": false,
+        "mar_gate_pass": true,
+        "monthly_gates_all_pass": false,
+        "jan_mar_parent": {
+          "net": -15550.675000067717,
+          "gross_profit": 26135.083999953862,
+          "gross_loss": -41685.759000021586,
+          "pf": 0.6269547353075742,
+          "trades": 91849,
+          "winners": 62090
+        },
+        "jan_mar_candidate": {
+          "net": -15532.62900006759,
+          "gross_profit": 26398.591999955,
+          "gross_loss": -41931.22100002259,
+          "pf": 0.6295688837666038,
+          "trades": 91826,
+          "winners": 60625
+        },
+        "delta": {
+          "net": 18.046000000125787,
+          "gross_profit": 263.5080000011367,
+          "gross_loss": -245.46200000100362,
+          "pf": 0.0026141484590296304,
+          "trades": -23,
+          "winners": -1465
+        },
+        "winner_retention_pct": 97.64052182315993,
+        "trade_retention_pct": 99.97495889993358,
+        "decision": "REJECT_AS_STANDALONE_HARVEST_RULE: February fails frozen monthly net gate and Jan-Mar gross loss worsens; retain source-exact trajectory economics only",
+        "verdict_result_sha256": "4d63b45d54097fe872a79b5b9936e92ece4db1d6ea1285edb79604bf77eac0b3",
+        "verdict_commit": "d4284f4e2b1d24bb35e6d686400bb2262e852486",
+        "verdict_manifest_commit": "e4f862961fa118d2731eaba7dd174eed07c0cd9c",
+        "feb_result_commit": "a9ed4e0b28698410cbb3e3b85f307645285ca496",
+        "mar_result_commit": "f88cf1a7a2c256aa421e579c9b5c0ef1011f1a5d",
+        "april_accessed": false,
+        "may_jul_accessed": false,
+        "august_accessed": false
+      },
+      "reconciliation_note": "Recovered already-computed local HOLD_EXIT_022 stages after live GitHub pointer lag. SHA/manifests matched local results. No stage was recomputed. Library /R9_Gamma_Checkpoints/HOLD_EXIT_022 and GitHub now contain source/results/manifests. This turn was durability/state reconciliation only, per one-scientific-stage rule."
     }
   },
   "gamma2_benchmark_recovery": {
