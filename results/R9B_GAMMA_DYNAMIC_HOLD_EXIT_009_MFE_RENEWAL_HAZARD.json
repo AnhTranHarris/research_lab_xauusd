@@ -1,0 +1,46 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_009_MFE_RENEWAL_HAZARD",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+  "parent": "HOLD_EXIT005 LATE_IGNITION branch",
+  "discovery_rule": {
+    "max_horizon_ms": 5000,
+    "activation": 0.4,
+    "giveback": 0.2,
+    "stale_ms": 0
+  },
+  "replication": {
+    "jan_heldout": {
+      "net_improvement": -6.855,
+      "gp_improvement": -9.132,
+      "gl_reduction_pct": 18.2943,
+      "winner_delta": 5
+    },
+    "feb": {
+      "net_improvement": -1.0475,
+      "gp_improvement": -4.2645,
+      "gl_reduction_pct": 16.6185,
+      "winner_delta": 7
+    },
+    "mar": {
+      "net_improvement": 9.2335,
+      "gp_improvement": -1.1695,
+      "gl_reduction_pct": 35.8619,
+      "winner_delta": 6
+    }
+  },
+  "decision": "REJECT_MFE_RENEWAL_HAZARD",
+  "conclusion": "Activation/renewal hazard consistently converts some late-state losers to winners and reduces gross loss, but still clips too much gross profit in Jan-heldout and February. Next research should target winner-side runner capture rather than tighter loss harvesting.",
+  "source_sha256": "5b600d79d043d7ba2c586e237e896edb46bdec7cca7964d4c4222335a9cd5eb9",
+  "result_sha256": "3c11e5963c108aec0768a76f60c342596869e0c0969edd67ebf3eaf68fe59316",
+  "drive": {
+    "source": "1RvaQJhx-jFDC6JXLGhewi-0kDme_TOKm",
+    "discovery": "1bU8qIc1CKKznKLKqAE3tnACmoXaDl1eZ",
+    "jan_rep": "1lgC0unFlRtfeb3bB4WU3NbxB5QPfoHDG",
+    "feb_rep": "1krV5HKa7cKN6tS6-x8KgkK1GYa619piI",
+    "mar_rep": "1sjfd5IKmvCVfoLs12VY0-gEpB39KhJ-m",
+    "result": "1OXjS6C7VYoYohqtun65-Q4gXHlqudlyv",
+    "manifest": "1ZaZQZ4vzkFyfXVknksTDeMt6of1Qn9B2"
+  },
+  "next_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_010_RUNNER_CAPTURE_REBUILD",
+  "august_accessed": false
+}
