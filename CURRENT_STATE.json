@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_023_INTEGRATED_LEDGER",
-    "current_unit_state": "RECONSTRUCT_CAUSAL014_TRADE_LEDGER",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION",
+    "current_unit_state": "READY_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4393,6 +4393,86 @@
       "document_id": "1N5DRgTrg8JNo5t7tO1iA-Va0pAGFww8JV5S1ANRPmdQ",
       "title": "R9B Gamma — SESSION GOVERNING HANDOFF — CURRENT",
       "role": "Mount with Master Protocol in every new chat; defer live science pointer to CURRENT_STATE.json."
+    },
+    "net023_integrated_ledger": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_RETAINED_MECHANISM_NOT_PROMOTED",
+      "parent": "CAUSAL_RECERT_014",
+      "result_commit": "e95d732c43713b814a777389520e934b482ced93",
+      "note_commit": "10c340e92632c17ab4cb3a910c31928ae5375023",
+      "source_commit": "c3c89f3365e2403c3271df50ecdd110a972e7b29",
+      "manifest_commit": "b665a84ec8a0f2380b89446c709330ea788fc17a",
+      "net022_source_commit": "7ecdeb60d1b85223dc647c0d521076a8bf3fe111",
+      "net022_parity_commit": "af230065ce59b4cf932fca27c94bac9698114697",
+      "causal014_research_repo_mirror_commits": {
+        "r9b_screen.py": "345980af3bc9dd07dfdb58df880e32d77763cedd",
+        "r9b_r8_recert.py": "166edba6d22e2fcdf30ef0d9ffb4600824232a50",
+        "r8_sweep_lifecycle_screen.py": "7b8bcc38cd5a7966ffb7f489a1305e793c62fa20",
+        "r9b_sweep_structure_exit_candidate.py": "35231e65dbdb1fca4fa4fbe4d782224d492e32ac"
+      },
+      "exact_historical_helper_commits": {
+        "r9b_screen.py": "24125d9b3eb32243349385903b2e63e5d5cfad11",
+        "r9b_r8_recert.py": "40e83b7dfbf59ef37459728dd625ed5e98a7ff96",
+        "r8_sweep_lifecycle_screen.py": "5676801a6842eeb627cc12d272f17c2642d50c7e",
+        "wrapper": "a314bf6114453e5175c2468d173d865c69099d16"
+      },
+      "exact_helper_blob_sha": {
+        "r9b_screen.py": "9cfc940c0aea3329d1f3775e34a4110c69254aa4",
+        "r9b_r8_recert.py": "c720e6aaf65586beb1e263715592609634029258",
+        "r8_sweep_lifecycle_screen.py": "411542bd842d31089142ac8a6016af6a2117e663",
+        "wrapper": "e171190bc209890908f2e593e2909a0220d55f6f"
+      },
+      "exact_helper_sha256": {
+        "r9b_screen.py": "d4543e93f2b50b47ded56335b20372b001ff5ea6c41d5578c432985b497c9a0e",
+        "r9b_r8_recert.py": "09835f46484816b139504294403c9d197228bfa12523080a0294e689c348110c",
+        "r8_sweep_lifecycle_screen.py": "f195174cf6d23be6e54027cb8d549f20b45b966a8957e2fead31aa512db3dafd"
+      },
+      "helper_hash_correction_note": "Git blob verification proves these exact recovered bodies; older handoff SHA-256 entries for r9b_screen.py and r8_sweep_lifecycle_screen.py were stale.",
+      "library_checkpoint_path": "/R9_Gamma_Checkpoints/NET023",
+      "integrated": {
+        "trades": 148818,
+        "winners": 99977,
+        "win_rate": 0.6718071738633767,
+        "net": -25494.342500092815,
+        "gross_profit": 38136.451999936995,
+        "gross_loss": -63630.794500029806,
+        "pf": 0.5993395540569454,
+        "maxdd_continuous": 25495.127500093047
+      },
+      "delta_vs_parent": {
+        "net_improvement": 9905.570500029808,
+        "gross_loss_reduction": 19094.58750000938,
+        "gross_loss_reduction_pct": 23.081897040983545,
+        "continuous_dd_reduction_pct": 27.981285849210096,
+        "trade_retention_pct": 75.32266391326795,
+        "winner_retention_pct": 75.0905048744949
+      },
+      "decision": "RETAIN_NET022_AS_STRUCTURAL_OWNERSHIP_CONTEXT; REJECT_STRICT_8H_EXCLUSIVE_OCCUPANCY_PROMOTION",
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION",
+      "august_accessed": false
+    },
+    "net024_h1_ownership_sequential_permission": {
+      "status": "READY",
+      "parent": "CAUSAL_RECERT_014 plus frozen NET022 H1 ownership state",
+      "hypothesis": "Use NET022 H1 compression-expansion ownership as a causal permission/conflict context for sequential one-position CAUSAL014 opportunities instead of reserving the portfolio for an 8-hour structural hold.",
+      "discovery_plan": [
+        "same-direction permission",
+        "opposing-direction veto",
+        "neutral/outside-state control"
+      ],
+      "validation": "Jan-Mar discovery; April calibration; May-Jul frozen diagnostic forward; August sealed",
+      "scoring_order": [
+        "gross_loss",
+        "winner_and_trade_retention",
+        "net_profit"
+      ],
+      "constraints": [
+        "one chronological ledger",
+        "one live position total",
+        "no retrospective ownership",
+        "NET022 state derived only from completed H1 bars",
+        "do not use the 8-hour NET022 future exit outcome as a live feature"
+      ],
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
