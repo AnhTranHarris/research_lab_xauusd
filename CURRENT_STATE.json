@@ -32,8 +32,10 @@
     "campaign": "R9B_GAMMA_2_MONETIZATION",
     "objective": "Search for causal reconstructible strategies/mechanisms/combinations that add durable value to the current-best Gamma parent and close the REAL→R9 SYNTH gap. Use R9 overfit/SYNTH as tick-by-tick teacher/capacity map only; never as future execution input.",
     "priorities": [
+      "NET024 frozen May-Jun-Jul evaluation of 2h H1 opposition veto; no May-Jul parameter selection",
+      "Assess monthly gross-loss, winners and trade retention versus CAUSAL014 with exact chronological replay",
+      "Preserve NET022 as structural context; exclusive 8-hour occupancy rejected",
       "HARVEST/MEDIUM/RUNNER state-dependent exits driven by structure, event-time persistence, MFE renewal spacing, giveback, directional-change overshoot, and activity duration",
-      "explicit slow/low-volatility July-like regime handling without materially reducing trade density",
       "orthogonal FADE/rotation sleeves for rejected Gamma_2 events rather than simple abstention",
       "monthly trade count and winning-trade count remain first-class investor metrics",
       "compare every new layer against Gamma_2 alone as current active baseline"
@@ -45,7 +47,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION",
-    "current_unit_state": "READY_DISCOVERY",
+    "current_unit_state": "FROZEN_FORWARD_MAY_READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4451,28 +4453,58 @@
       "august_accessed": false
     },
     "net024_h1_ownership_sequential_permission": {
-      "status": "READY",
-      "parent": "CAUSAL_RECERT_014 plus frozen NET022 H1 ownership state",
-      "hypothesis": "Use NET022 H1 compression-expansion ownership as a causal permission/conflict context for sequential one-position CAUSAL014 opportunities instead of reserving the portfolio for an 8-hour structural hold.",
-      "discovery_plan": [
-        "same-direction permission",
-        "opposing-direction veto",
-        "neutral/outside-state control"
-      ],
-      "validation": "Jan-Mar discovery; April calibration; May-Jul frozen diagnostic forward; August sealed",
-      "scoring_order": [
-        "gross_loss",
-        "winner_and_trade_retention",
-        "net_profit"
-      ],
-      "constraints": [
-        "one chronological ledger",
-        "one live position total",
-        "no retrospective ownership",
-        "NET022 state derived only from completed H1 bars",
-        "do not use the 8-hour NET022 future exit outcome as a live feature"
-      ],
-      "august_accessed": false
+      "status": "VERIFIED_DURABLE_APRIL_FROZEN_CALIBRATION_PASS",
+      "parent": "CAUSAL_RECERT_014",
+      "retained_net022": "RECONSTRUCTED_PARITY_CERTIFIED",
+      "frozen_rule": {
+        "owner_duration_hours": 2,
+        "opposing_side_veto_when_parent_five_scale_align_lt": 3,
+        "h1_bar_completeness": "fully completed H1 only",
+        "h1_lookback_bars": 13,
+        "h1_compression_lookback_bars": 2,
+        "h1_compression_max_ratio": 1,
+        "h1_expansion_min_ratio": 1,
+        "h1_body_fraction_min": 0.25,
+        "h1_atr_break_buffer": 0.1,
+        "outside_owner_state": "allow_CAUSAL014",
+        "execution": "all raw CAUSAL014 signals, strict chronological first-eligible, one live position, no preemption"
+      },
+      "gate": "Jan-Mar predeclared positive gross-loss/net delta and >=95% per-month winners/trade retention; frozen BEFORE April.",
+      "discovery": {
+        "jan_mar_gross_loss_reduction": 990.5150000003596,
+        "jan_mar_net_improvement": 250.00350000153503,
+        "minimum_month_winner_retention_pct": 96.59127110544759,
+        "eligible_variants": 4,
+        "frozen_result_sha256": "994be634c52ad5ccbc17a147f8921ff6cf64ea9d8ce02093a8e7b5b516939089",
+        "frozen_commit": "bd8cc9f2abdbb098dc509075361af94f9720f8d6"
+      },
+      "april": {
+        "trades": 26112,
+        "winners": 17624,
+        "net": -4665.053000019471,
+        "gross_loss": -10642.421000006208,
+        "pf": 0.5616549091586632,
+        "baseline_trades": 26683,
+        "baseline_winners": 18068,
+        "baseline_net": -4735.74550001993,
+        "baseline_gross_loss": -10883.57500000631,
+        "net_improvement": 70.6925000004585,
+        "gross_loss_reduction": 241.15400000010231,
+        "winner_retention_pct": 97.54261678104938,
+        "trade_retention_pct": 97.86006071281341,
+        "frozen_gate_pass": true,
+        "result_sha256": "14bfd582043bddce8679c81cb7ae2e466b511bf5e573a546a490c37e427807b4",
+        "result_commit": "67bddaccc376b50e05e1ecfce19ef4eba6c6addf"
+      },
+      "source_commit": "3cc4fd062a85501b07edd1574444b3f3b7482363",
+      "discovery_freezer_commit": "53a94e2f78c039df2eaaf75d0f823991c2f902d0",
+      "april_evaluator_commit": "12d32a6fa9fc29d1f58ec0ee4a17687ca3372a19",
+      "april_manifest_commit": "41188739ede03633bc2fe816057c5d29b939a143",
+      "checkpoint_library_path": "/R9_Gamma_Checkpoints/NET024",
+      "first_incomplete_stage": "NET024_FROZEN_FORWARD_MAY",
+      "may_jul_accessed": false,
+      "august_accessed": false,
+      "status_note": "Research only; April calibration did not show profitability (net remains negative) and PF decreased slightly. No promotion or MT5-build authorization."
     }
   },
   "gamma2_benchmark_recovery": {
