@@ -32,3 +32,6 @@ At eventual MQL5 translation, the entry owner and persistence owner must be sepa
 R9B_GAMMA_DYNAMIC_ENTRY_019_MULTI_HORIZON_PERSISTENCE_STATE: determine whether one causal state can distinguish short persistence (2s), medium persistence (3s) and genuine runner persistence (5s+) without destroying runner recall. August remains sealed.
 
 Source SHA256: post1 cache c4950ff4e02cd04ba27e3863187f7f2bc550f34c36ee01845653adec0da7afc5; screen 8be506297a9c9c4803ce854abc2275f2fe77de6a47159b31325509f07ae4cd2c. Result SHA256: 7d2d6fc4a89877ef713de732b98ac319bcbdc4c8453445b8d22a8b0a9bb18b6.
+
+## Exact frozen tree
+The refit depth-1 tree collapses to one implementable rule: at **+1000 ms**, compute executable P/L under the research reference surface. If `exec_pnl_1s > 0.27175000309944153`, emit `HOLD_PERSIST`; otherwise emit `HARVEST_CANDIDATE`. With `H=0.10`, this is equivalent to selected-direction midpoint displacement > `0.4717500030994415`. The frozen model artifact is `models/R9B_GAMMA_DYNAMIC_ENTRY_018_PERSISTENCE_MODEL.json` (SHA-256 `86523ba17d90c3f14af0ea5f55e7d98779efc3569c342a9edc349c1e43e84877`). This remains diagnostic only and must not be turned into an exit until later economic validation.
