@@ -1,0 +1,43 @@
+{
+  "schema": "r10-alpha-source-locators-v1",
+  "created_utc": "2026-09-28",
+  "verification_status": "LOCATORS_ONLY_NO_ALPHA_BYTE_OR_TRADE_VALIDATION",
+  "market_data": {
+    "name": "Dukascopy original XAUUSD ticks Jan-Jul 2026",
+    "role": "DUKAS_MARKET",
+    "drive_folder": "https://drive.google.com/drive/folders/1lSCfO_awUKkbR4I6xDTy9orjIl0SrgIV",
+    "months": [
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07"
+    ],
+    "hashes_verified_in_alpha": false
+  },
+  "mt5_tick_logs": {
+    "role": [
+      "R9_REAL_MT5",
+      "R9_SYNTH_MT5"
+    ],
+    "folder": "https://drive.google.com/drive/folders/1CidEgLMNVfgBZg6UYLYqcanc0oqgt9Vj",
+    "transport": "SIX_ORDERED_PARTS_PER_ARCHIVE",
+    "hashes_verified_in_alpha": false
+  },
+  "mt5_reports": {
+    "role": [
+      "R9_REAL_MT5_REPORT",
+      "R9_SYNTH_MT5_REPORT"
+    ],
+    "folder": "https://drive.google.com/drive/folders/1FeQSPtlWXtgncXE6bsCtWNlKFS9t17Pr",
+    "report_trading_costs_verified_in_alpha": false
+  },
+  "overfit": {
+    "role": "R9_OVERFIT_TEACHER_NONCAUSAL",
+    "source_document": "https://docs.google.com/document/d/18Ru-eSQ0ofNM2EvvSp5kaenZEML3KC5GRk8KrAN_SWs/edit",
+    "never_live_input": true
+  },
+  "note": "Source identity, hashes, date coverage and quote scaling must be reverified per file before trade reconstruction. Retain separate records for REAL, SYNTH, OVERFIT and Dukascopy."
+}
