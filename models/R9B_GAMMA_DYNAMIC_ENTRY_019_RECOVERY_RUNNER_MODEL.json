@@ -1,0 +1,21 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_019_MULTI_HORIZON_PERSISTENCE_STATE",
+  "role": "RECOVERY_RUNNER classifier inside ENTRY018 weak population",
+  "strong_runner_rule": {"exec_pnl_1s_gt":0.27175000309944153},
+  "feature_set":"compact",
+  "feature_meaning":{"23":"exec_pnl_1s","7":"efficiency_1s","9":"breakeven_occupancy_1s","13":"age_since_last_favorable_extreme_s","19":"breakeven_recross_count_1s","20":"giveback_from_mfe_1s","22":"second_half_acceleration_1s"},
+  "hyperparameters":{"max_depth":3,"min_samples_leaf":3,"class_weight_0":1.0,"random_state":129},
+  "tree":{
+    "feature_indexes":[23,7,9,13,19,20,22],
+    "classes":[0,1],
+    "children_left":[1,2,3,-1,-1,6,-1,-1,-1],
+    "children_right":[8,5,4,-1,-1,7,-1,-1,-1],
+    "feature":[2,3,3,-2,-2,2,-2,-2,-2],
+    "threshold":[0.8660714328289032,0.4439999908208847,0.341499999165535,-2.0,-2.0,0.7416666746139526,-2.0,-2.0,-2.0],
+    "n_node_samples":[74,70,48,43,5,22,16,6,4],
+    "class_probability":[[0.36486486486486486,0.6351351351351351],[0.32857142857142857,0.6714285714285714],[0.3958333333333333,0.6041666666666666],[0.3488372093023256,0.6511627906976745],[0.8,0.2],[0.18181818181818182,0.8181818181818182],[0.0625,0.9375],[0.5,0.5],[1.0,0.0]],
+    "probability_threshold":0.45
+  },
+  "training":"January days0-13 ENTRY017-correct ignitions with exec_pnl_1s <= ENTRY018 strong threshold; target future +5s persistence is label only.",
+  "august_accessed":false
+}
