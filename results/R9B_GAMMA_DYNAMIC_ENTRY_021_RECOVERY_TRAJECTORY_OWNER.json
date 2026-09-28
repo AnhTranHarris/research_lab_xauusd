@@ -1,50 +1,68 @@
 {
   "unit": "R9B_GAMMA_DYNAMIC_ENTRY_021_RECOVERY_TRAJECTORY_OWNER",
-  "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_BREAKTHROUGH_CANDIDATE",
+  "status": "COMPLETED_LOCAL_DIAGNOSTIC",
   "parent": "ENTRY020 RECOVERY_UNCERTAIN",
+  "purpose": "Separate delayed runners from likely failed ignitions among recovery candidates not certified at +4s, using only post-4s observed trajectory before +5s. No exit change.",
+  "checkpoint_candidates_ms": [
+    4250,
+    4500,
+    4750
+  ],
+  "selection_contract": "Jan days0-6 fit / days7-13 select; validation requires positive accuracy delta, >=45% runner recall, >=20% coverage, >=5 selected. Refit Jan first14 then freeze Jan-heldout/Feb/Mar.",
   "candidate": {
     "checkpoint_ms": 4500,
-    "rule": "DELAYED_RUNNER when local MAE executable over +4.0s to +4.5s is greater than -$0.24",
-    "tree_depth": 1,
-    "probability_threshold": 0.35
-  },
-  "replication": {
-    "jan_heldout": {
-      "base_count": 55,
-      "selected": 19,
-      "coverage_pct": 34.5454545455,
-      "base_5s_accuracy_pct": 30.9090909091,
-      "selected_5s_accuracy_pct": 73.6842105263,
-      "delta_pp": 42.7751196172,
-      "runner_recall_pct": 82.3529411765
-    },
-    "feb": {
-      "base_count": 94,
-      "selected": 32,
-      "coverage_pct": 34.0425531915,
-      "base_5s_accuracy_pct": 35.1063829787,
-      "selected_5s_accuracy_pct": 78.125,
-      "delta_pp": 43.0186170213,
-      "runner_recall_pct": 75.7575757576
-    },
-    "mar": {
-      "base_count": 148,
-      "selected": 62,
-      "coverage_pct": 41.8918918919,
-      "base_5s_accuracy_pct": 30.4054054054,
-      "selected_5s_accuracy_pct": 64.5161290323,
-      "delta_pp": 34.1107236269,
-      "runner_recall_pct": 88.8888888889
+    "mode": "trajectory",
+    "depth": 1,
+    "leaf": 5,
+    "w0": 1.0,
+    "threshold": 0.35,
+    "validation": {
+      "base_count": 11,
+      "selected": 5,
+      "coverage_pct": 45.45454545454545,
+      "base_5s_accuracy_pct": 45.45454545454545,
+      "selected_5s_accuracy_pct": 80.0,
+      "delta_pp": 34.54545454545455,
+      "runner_recall_pct": 80.0,
+      "false_delayed_runner_pct": 20.0
     }
   },
+  "replication": {
+    "1": {
+      "base_count": 55,
+      "selected": 19,
+      "coverage_pct": 34.54545454545455,
+      "base_5s_accuracy_pct": 30.909090909090907,
+      "selected_5s_accuracy_pct": 73.68421052631578,
+      "delta_pp": 42.775119617224874,
+      "runner_recall_pct": 82.35294117647058,
+      "false_delayed_runner_pct": 26.31578947368421
+    },
+    "2": {
+      "base_count": 94,
+      "selected": 32,
+      "coverage_pct": 34.04255319148936,
+      "base_5s_accuracy_pct": 35.1063829787234,
+      "selected_5s_accuracy_pct": 78.125,
+      "delta_pp": 43.0186170212766,
+      "runner_recall_pct": 75.75757575757575,
+      "false_delayed_runner_pct": 21.875
+    },
+    "3": {
+      "base_count": 148,
+      "selected": 62,
+      "coverage_pct": 41.891891891891895,
+      "base_5s_accuracy_pct": 30.405405405405407,
+      "selected_5s_accuracy_pct": 64.51612903225806,
+      "delta_pp": 34.11072362685266,
+      "runner_recall_pct": 88.88888888888889,
+      "false_delayed_runner_pct": 35.483870967741936
+    }
+  },
+  "robust": true,
   "decision": "RETAIN_DELAYED_RUNNER_FRONTIER_NO_EXIT_CHANGE",
-  "source_sha256": "0b87ad40f72c51f1ed0cea72f24f340691cb127b9b31fb47d6cbbc7abbc6ffca",
-  "result_sha256": "f79c4aa185b3e5708cc4cd60fdc07f08d4f1084025e9806a971eea00c6da7fa3",
-  "model_sha256": "f28c7726fedbe1aa44553c38923a8d48271fcab293363f2307b049f863623111",
-  "drive_source_id": "1n33q03gZxiIK1fI1-iH4STdPfUqBaqe1",
-  "drive_result_id": "1jMkQ59w-xJ1TYSGHTURNHjbCNrSaualg",
-  "drive_model_id": "1CkI_SUcGevLDqadWJW9m-WRn5f1SsrFf",
-  "drive_manifest_id": "10M36gcJ_LgeEtkkIkSXVd_O_4_k0vsXI",
   "next_unit": "R9B_GAMMA_DYNAMIC_ENTRY_022_ENTRY_HOLD_ARCHITECTURE_SYNTHESIS",
-  "august_accessed": false
+  "model_sha256": "f28c7726fedbe1aa44553c38923a8d48271fcab293363f2307b049f863623111",
+  "august_accessed": false,
+  "elapsed_s": 10.738754272460938
 }
