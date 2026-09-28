@@ -1,0 +1,13 @@
+{
+  "august_accessed": false,
+  "dependencies": {
+    "HOLD022_JAN_RUNNER_TRAIL.json": "33efb4fa8ff97a4c620459299407cac1005b747d2f703b1a5796225a7ee96a93",
+    "HOLD022_RUNNER_REPLICATION_2026_02.json": "e49bda83feee49e3de376285d3de9f457caaadbc4f69040088f63c571381f48e",
+    "HOLD022_RUNNER_REPLICATION_2026_03.json": "3c254b05ad26b7885f05dba4a32408b50b74c63e73cf808c0b30ed8e8d1b5730"
+  },
+  "frozen_criterion_all_pass": false,
+  "next": "HOLD_EXIT_022_EXIT_REASON_TRAJECTORY_HARVEST_VS_RUNNER_SOURCE_CLOSURE",
+  "result_sha256": "4d63b45d54097fe872a79b5b9936e92ece4db1d6ea1285edb79604bf77eac0b3",
+  "source_sha256": "d95e76d3205fecd7ec549139b4e82b33c5764742eafd0b3154e244dee12350a3",
+  "status": "COMPLETED_LOCAL"
+}
