@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_007_POST_RESOLUTION_STATE_MONETIZATION",
-    "current_unit_state": "STARTED_MONTH1_DURABLE_NEXT_MONTH2",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_008_STATE_CONDITIONED_PROFIT_LOCK",
+    "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3387,18 +3387,18 @@
       "august_accessed": false
     },
     "hold_exit_007_post_resolution_state_monetization": {
-      "status": "STARTED_POLLING_SAFE",
-      "parent": "HOLD_EXIT005 conservative late hazard + frozen ENTRY017-024 ownership",
-      "completed_months": [
-        1
-      ],
-      "first_incomplete_month": 2,
-      "source_sha256": "cc8cc4a134baefa3d59f0949893d8172ce65df4dedad359277865df9b5690967",
-      "month1_cache_sha256": "077467abb162252ac5428d910a8826bb0a440c38e087483b029a8b4e2849fd96",
-      "drive_source_id": "1eVmTu2_aFSVCHQrDq83xETu9dhWodBmm",
-      "drive_month1_cache_id": "1CYhPtB_v4HUASgsYF9tIRqlog2hafSga",
-      "drive_month1_manifest_id": "1nqWIoZAjiBOMNWnHcu4r6BQkxVnr_56W",
-      "augustus_accessed": false,
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+      "result_commit": "d3933fd82453f0af46cdec865b530322bee5b405",
+      "note_commit": "afc47660b015857ffc22744903a99fb141be3632",
+      "manifest_commit": "16acd1216738d83be0795bfa9bf173d81d281b79",
+      "screen_count": 17010,
+      "eligible_discovery_count": 536,
+      "conclusion": "Resolution-time bank-vs-fixed-extension classifiers did not replicate net improvement. Move to state-conditioned causal profit-lock/trailing mechanics.",
+      "source_sha256": "e7d7b947082794803b954f7881ba6757723e3e812fa0602de049594743b697ae",
+      "result_sha256": "83202cb6c249e7e32cfc762ca7f46aa8e24677da52b7a034fdf3e7d4930a9be2",
+      "model_sha256": "6d07d31ca7fdd179887b40caa67c1bf98f844fa92b3b0d627f9e97c04419b14f",
+      "drive_result_id": "13_ItjHegyXwGag5FKdw5RCacDo7ebgoX",
+      "drive_manifest_id": "1GmRztjLhhsY2S1bt3lCKZjeHSgqIp0gX",
       "august_accessed": false
     }
   },
