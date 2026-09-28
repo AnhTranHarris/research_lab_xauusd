@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_010_RUNNER_CAPTURE_REBUILD",
-    "current_unit_state": "STARTED_DISCOVERY_DURABLE_NEXT_REPLICATION_MONTH1",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_011_RUNNER_FEATURE_REBUILD",
+    "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3432,33 +3432,25 @@
       "august_accessed": false
     },
     "hold_exit_010_runner_capture_rebuild": {
-      "status": "STARTED_POLLING_SAFE_DISCOVERY_DURABLE",
-      "parent": "HOLD_EXIT005 + frozen ENTRY017-024 ownership",
-      "discovery": {
-        "screen_count": 36288,
-        "eligible_count": 256,
-        "best": {
-          "ext_ms": 8000,
-          "feature_set": "core",
-          "depth": 1,
-          "leaf": 2,
-          "class_weight_0": 3,
-          "threshold": 0.35,
-          "fit_net_improvement": 3.1485,
-          "validation_net_improvement": 3.3,
-          "fit_gp_improvement": 3.1485,
-          "validation_gp_improvement": 3.3,
-          "winner_retention_pct": 100
-        }
-      },
-      "source_sha256": "abd260ec62312c9d066a1c57792f57977f8c9f282b60562f3475498a898bab23",
-      "discovery_sha256": "30a2032f77435a4c216d94611e8f023724a56cfe4469a77e5d9b46b061fad5ad",
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_EARLY_REJECT",
+      "source_commit": "2e32c16b0199940328a85af464680afc74680b44",
+      "result_commit": "a1e78763a2fd904d102f17a34e429dbd093e2c6b",
+      "manifest_commit": "d33e1a0d1265faed34c0330a11763c11694ca933",
+      "note_commit": "c317899e60f0e01c7e37c90742789f86ee6744a4",
       "drive_source_id": "1O3A7DOXnSJvLxiAGL8lHl_owPfevYGRJ",
       "drive_discovery_id": "1ibKkizpH4QqEsza0Eh70pVujs3kgZ0cV",
-      "completed_units": [
-        "DISCOVERY"
-      ],
-      "first_incomplete_unit": "REPLICATION_MONTH_1",
+      "drive_replication_01_id": "1UKy988U5Lo2UtrTfGeV0GJCTc3LxMLec",
+      "drive_result_id": "1OdYQWBGDuqaNMUGv_i5h0TKiK1-FiMuA",
+      "drive_manifest_id": "1vWPTt3uDvcDoWLx7552mdkMTA4QDrsZ2",
+      "jan_heldout": {
+        "net_improvement": -13.918,
+        "gp_improvement": 1.6615,
+        "winner_retention_pct": 96.7567567568,
+        "extended": 17
+      },
+      "conclusion": "+1s-only selective extension is not robust; it gains little GP but converts banked winners into losses. Fail-fast before Feb/Mar.",
+      "source_sha256": "abd260ec62312c9d066a1c57792f57977f8c9f282b60562f3475498a898bab23",
+      "result_sha256": "226a686f8873ef98681f88183f63bd5d350c6a39ac6e1a238ef89c431a65bb3f",
       "august_accessed": false
     }
   },
