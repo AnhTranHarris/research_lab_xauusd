@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_015_VOLUME_BUCKET_FLOW",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_016_SESSION_LIQUIDITY_SWEEP_RECLAIM",
     "current_unit_state": "READY_JAN_MAR_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -4180,6 +4180,24 @@
       "may_july_accessed": false,
       "august_accessed": false,
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_015_VOLUME_BUCKET_FLOW"
+    },
+    "net015_volume_bucket_flow": {
+      "status": "REJECTED_JAN_MAR_DISCOVERY",
+      "decision": "REJECT_VOLUME_BUCKET_FLOW",
+      "result_sha256": "757078702c5656d35a2dc3150960121bb2a736126c8088e632564e1e843b2942",
+      "source_sha256": "4e0cb416e556f71b41d41a77ea4c6044953856cf479b36d79e954bdef7ed18c7",
+      "eligible_candidates": 0,
+      "cache_sha256": {
+        "1": "e21b9bf1278463ff42c3a11497bd3791b7e0120a05843fe2e6552880d4f96189",
+        "2": "775cfa2d79b22eda22b2d5e6fa7bec27576e97c3a91b2f5328c39af55cf3436b",
+        "3": "f3910add4d80989fe2b3cd6708c03900e7c319d9c4635ba1d1cb3995aa393708",
+        "4": "0b6175846199eca858a1c2da416c0e78dbecd220eb8bf23988c6e3c1173cdd52"
+      },
+      "april_accessed": false,
+      "may_july_accessed": false,
+      "august_accessed": false,
+      "conclusion": "Equal-quote-volume and fixed-tick activity-bucket flow did not produce a Jan-Mar robust sparse H1 event filter; April was not used.",
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_016_SESSION_LIQUIDITY_SWEEP_RECLAIM"
     }
   },
   "gamma2_benchmark_recovery": {
