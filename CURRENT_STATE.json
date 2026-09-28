@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_002_WAITING_RISK_CONTAINMENT",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_003_DYNAMIC_WAITING_HAZARD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -3276,6 +3276,23 @@
       "conclusion": "State-conditioned horizons alone fail because unresolved trades accumulate adverse path while waiting for +4/+4.5s ownership resolution. Preserve specialist horizon findings, but add causal waiting-risk containment before judging hold/exit economics.",
       "source_sha256": "6531ebaeea3097e3cf13950477983c5293c6f208b55abeee73ecba10c5b117bc",
       "result_sha256": "ef391580899a13a330eb0486315810cefb1ee4cf9e3a4312f84280bbea8237d6",
+      "august_accessed": false
+    },
+    "hold_exit_002_waiting_risk_containment": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBTHRESHOLD",
+      "result_commit": "0afe004e8128c7259a5bdcdc2bfe86ce5b6ebeff",
+      "note_commit": "26aa3a7358332c528a09be9810751a68ede4bab2",
+      "manifest_commit": "2c1c4bbe65999b46445cffe68125c75bc4eb1018",
+      "drive_cache_source_id": "1jqfEqngUKWYGggSxYWr9nk_m17rCklXQ",
+      "drive_result_id": "1gHfmA-Pds-2T9m40PSRwPtOPgN9YpaPX",
+      "drive_manifest_id": "1RJmYniVuKtxIM5KUBdxYfH7Du9wMOU1_",
+      "best": {
+        "recovery_stop": -1,
+        "late_stop": -1.25
+      },
+      "conclusion": "Static stops reduce waiting GL but are not net-robust; move to causal path-conditioned waiting hazard.",
+      "source_sha256": "b606c27fd5617cff7536b7018effa3775cb610e8e22bf4d6916a3e36efb3ec69",
+      "result_sha256": "1ecff7b9115e3134c8d6dc36ce8f5dc218d85910cfbfc27c5f8886d7f3f83eb8",
       "august_accessed": false
     }
   },
