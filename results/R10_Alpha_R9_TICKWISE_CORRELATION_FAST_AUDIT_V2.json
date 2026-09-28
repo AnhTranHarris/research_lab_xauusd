@@ -1,0 +1,286 @@
+{
+  "schema": "r10-alpha-r9-tickwise-correlation-fast-audit-v2",
+  "status": "149_DAY_EVENT_INDEX_RECONCILED_AND_8_COMPLETE_DAY_PAIRS_DIRECT_TICK_VERIFIED;_NOT_149_DAY_DIRECT_TICK_PRICE_REPLAY",
+  "original_drive_folder": "https://drive.google.com/drive/folders/1CidEgLMNVfgBZg6UYLYqcanc0oqgt9Vj",
+  "doc": "https://docs.google.com/document/d/1vT8JxT7pG7Ry-TMjEZRYGY3nAJC1slS8AnW3ieL033A/edit",
+  "data_integrity": {
+    "historical_original_full_compressed_sha256": {
+      "REAL": "ad82ee99ba60f6c7dcc5b85654971fecb9f4a5047dc6f97aa97083b3c60a663c",
+      "SYNTH": "cd3a7dc68d2b260ea5f4a847bfef88bcb328d8687f3f8b35ce0d19602f88d6aa"
+    },
+    "full_149day_logged_rows": {
+      "REAL": 56608185,
+      "SYNTH": 54655160
+    },
+    "daily_index_matches_frozen_manifest": true,
+    "downloaded_and_verified_sample_daily_archives": 16
+  },
+  "new_direct_8day_audit": {
+    "trading_days": 8,
+    "real_logged_ticks": 3462369,
+    "synth_logged_ticks": 3324449,
+    "shared_unique_millisecond_keys": 19801,
+    "m1_bid_ohlc_equal_all_common_bars": true,
+    "unweighted_mean_bid_ohlc_match_pct_by_ms": {
+      "250": 1.5610625,
+      "1000": 0.4694,
+      "5000": 0.062075,
+      "15000": 0.0272625,
+      "30000": 0.1452125,
+      "45000": 0.415025,
+      "60000": 100
+    },
+    "unweighted_mean_bar_net_return_pearson_by_ms": {
+      "250": 0.019,
+      "1000": 0.065,
+      "5000": 0.201,
+      "15000": 0.38,
+      "30000": 0.833,
+      "45000": 0.777,
+      "60000": 1
+    },
+    "samples": [
+      {
+        "date_utc": "2026-01-02",
+        "real_rows": 341569,
+        "synth_rows": 330217,
+        "shared_unique_millisecond_keys": 1595,
+        "median_abs_bid_delta_on_shared_ms_usd": 0.36,
+        "median_real_spread_usd": 0.19,
+        "median_synth_spread_usd": 0.19,
+        "bid_250ms_ohlc_match_pct": 2.3145,
+        "real_source_sha256": "6bb8d01f928e5a06f864b87c274f2916c3a6554a2352208191830d685e28655d",
+        "synth_source_sha256": "8d1d3bb796686b284b1b6136f7fbd22db270b2f5229268c010a68ab6d885b2c7",
+        "real_file": "R9_REAL_2026-01-02_ticks.csv.gz",
+        "synth_file": "R9_SYNTH_2026-01-02_ticks.csv.gz",
+        "checks": "LOCAL_RAW_BYTES_SHA256_LENGTH_ROW_COUNT_AND_CHRONOLOGY_VERIFIED_AGAINST_FROZEN_DAILY_MANIFESTS"
+      },
+      {
+        "date_utc": "2026-01-30",
+        "real_rows": 674427,
+        "synth_rows": 635274,
+        "shared_unique_millisecond_keys": 5219,
+        "median_abs_bid_delta_on_shared_ms_usd": 2,
+        "median_real_spread_usd": 0.57,
+        "median_synth_spread_usd": 0.24,
+        "bid_250ms_ohlc_match_pct": 0.2361,
+        "real_source_sha256": "b54dfd22e3c809053b4db1bf073614d0a761532ca565c643bce434c27f444d58",
+        "synth_source_sha256": "5f2cc9fd306bd812196b6712faa7ade94700f64883b4e0266fb7288916577fbd",
+        "real_file": "R9_REAL_2026-01-30_ticks.csv.gz",
+        "synth_file": "R9_SYNTH_2026-01-30_ticks.csv.gz",
+        "checks": "LOCAL_RAW_BYTES_SHA256_LENGTH_ROW_COUNT_AND_CHRONOLOGY_VERIFIED_AGAINST_FROZEN_DAILY_MANIFESTS"
+      },
+      {
+        "date_utc": "2026-02-02",
+        "real_rows": 594529,
+        "synth_rows": 570377,
+        "shared_unique_millisecond_keys": 4289,
+        "median_abs_bid_delta_on_shared_ms_usd": 2.04,
+        "median_real_spread_usd": 0.26,
+        "median_synth_spread_usd": 0.2,
+        "bid_250ms_ohlc_match_pct": 0.2367,
+        "real_source_sha256": "24e4b31935ead7b0eb039fe84dc8972c59500b362cac21721739f1b0c050b3d7",
+        "synth_source_sha256": "dcedb28f7453c80d2dec5ffe5d386dad1661134ba61765337155fbbaeb6213a2",
+        "real_file": "R9_REAL_2026-02-02_ticks.csv.gz",
+        "synth_file": "R9_SYNTH_2026-02-02_ticks.csv.gz",
+        "checks": "LOCAL_RAW_BYTES_SHA256_LENGTH_ROW_COUNT_AND_CHRONOLOGY_VERIFIED_AGAINST_FROZEN_DAILY_MANIFESTS"
+      },
+      {
+        "date_utc": "2026-03-02",
+        "real_rows": 421053,
+        "synth_rows": 417064,
+        "shared_unique_millisecond_keys": 2307,
+        "median_abs_bid_delta_on_shared_ms_usd": 0.83,
+        "median_real_spread_usd": 0.2,
+        "median_synth_spread_usd": 0.19,
+        "bid_250ms_ohlc_match_pct": 1.0518,
+        "real_source_sha256": "e85b12c7b45c61a2c2676b7945bff53dc32e65a25653f0e5e8bc4a20145f1748",
+        "synth_source_sha256": "888c1ffd48cfc9f30313cb22f609720cadfd7b3ce7e215e3f8ffcb22d072868f",
+        "real_file": "R9_REAL_2026-03-02_ticks.csv.gz",
+        "synth_file": "R9_SYNTH_2026-03-02_ticks.csv.gz",
+        "checks": "LOCAL_RAW_BYTES_SHA256_LENGTH_ROW_COUNT_AND_CHRONOLOGY_VERIFIED_AGAINST_FROZEN_DAILY_MANIFESTS"
+      },
+      {
+        "date_utc": "2026-04-01",
+        "real_rows": 370298,
+        "synth_rows": 368323,
+        "shared_unique_millisecond_keys": 1726,
+        "median_abs_bid_delta_on_shared_ms_usd": 0.61,
+        "median_real_spread_usd": 0.18,
+        "median_synth_spread_usd": 0.17,
+        "bid_250ms_ohlc_match_pct": 1.4673,
+        "real_source_sha256": "d077924c6198fbd658b5ac0dfb51068cb6ca674f7106f830c0d15f8ea43ef13b",
+        "synth_source_sha256": "e2bf60d4f2b206065f96b037fa622b8c2a3c35f71ecfe967afe47bc4ff374577",
+        "real_file": "R9_REAL_2026-04-01_ticks.csv.gz",
+        "synth_file": "R9_SYNTH_2026-04-01_ticks.csv.gz",
+        "checks": "LOCAL_RAW_BYTES_SHA256_LENGTH_ROW_COUNT_AND_CHRONOLOGY_VERIFIED_AGAINST_FROZEN_DAILY_MANIFESTS"
+      },
+      {
+        "date_utc": "2026-05-01",
+        "real_rows": 350809,
+        "synth_rows": 349473,
+        "shared_unique_millisecond_keys": 1664,
+        "median_abs_bid_delta_on_shared_ms_usd": 0.36,
+        "median_real_spread_usd": 0.2,
+        "median_synth_spread_usd": 0.19,
+        "bid_250ms_ohlc_match_pct": 2.3289,
+        "real_source_sha256": "fd3b09e2904b650e691fff550a1e9558177e75c70db77fea0030b560c2f99781",
+        "synth_source_sha256": "b825578219102f6f3e528c69c102045618fc9d5e209d7f2720da7093d3187cc6",
+        "real_file": "R9_REAL_2026-05-01_ticks.csv.gz",
+        "synth_file": "R9_SYNTH_2026-05-01_ticks.csv.gz",
+        "checks": "LOCAL_RAW_BYTES_SHA256_LENGTH_ROW_COUNT_AND_CHRONOLOGY_VERIFIED_AGAINST_FROZEN_DAILY_MANIFESTS"
+      },
+      {
+        "date_utc": "2026-06-01",
+        "real_rows": 371243,
+        "synth_rows": 320815,
+        "shared_unique_millisecond_keys": 1555,
+        "median_abs_bid_delta_on_shared_ms_usd": 0.39,
+        "median_real_spread_usd": 0.21,
+        "median_synth_spread_usd": 0.2,
+        "bid_250ms_ohlc_match_pct": 2.4125,
+        "real_source_sha256": "a5fb36674183c0060715c65985a8d0e2e065ac2f72158c5c81591306dd31f83b",
+        "synth_source_sha256": "0bcc1bd555237c73dc0595234a2e3d790e65584a237b517646e60aa15e8d48bb",
+        "real_file": "R9_REAL_2026-06-01_ticks.csv.gz",
+        "synth_file": "R9_SYNTH_2026-06-01_ticks.csv.gz",
+        "checks": "LOCAL_RAW_BYTES_SHA256_LENGTH_ROW_COUNT_AND_CHRONOLOGY_VERIFIED_AGAINST_FROZEN_DAILY_MANIFESTS"
+      },
+      {
+        "date_utc": "2026-07-01",
+        "real_rows": 338441,
+        "synth_rows": 332906,
+        "shared_unique_millisecond_keys": 1446,
+        "median_abs_bid_delta_on_shared_ms_usd": 0.4,
+        "median_real_spread_usd": 0.2,
+        "median_synth_spread_usd": 0.19,
+        "bid_250ms_ohlc_match_pct": 2.4407,
+        "real_source_sha256": "023f1761186fc95594e197c6adc11635571cc2e2e72a989335b50bbfd633969b",
+        "synth_source_sha256": "4ae7bba95c7eee81d56e2d97be826760ee70a493aa77dd75619d42be559ebf73",
+        "real_file": "R9_REAL_2026-07-01_ticks.csv.gz",
+        "synth_file": "R9_SYNTH_2026-07-01_ticks.csv.gz",
+        "checks": "LOCAL_RAW_BYTES_SHA256_LENGTH_ROW_COUNT_AND_CHRONOLOGY_VERIFIED_AGAINST_FROZEN_DAILY_MANIFESTS"
+      }
+    ]
+  },
+  "full149_event_index": {
+    "source": "R9_REAL_EVENT_DAILY_INDEX.csv and R9_SYNTH_EVENT_DAILY_INDEX.csv, crosschecked to DAILY_TICK_MANIFEST.csv",
+    "day_count": 149,
+    "real": {
+      "entries": 236647,
+      "trail_moves": 285587,
+      "quality_rejects": 19801481,
+      "exit_max_hold": 4241
+    },
+    "synth": {
+      "entries": 219342,
+      "trail_moves": 6936274,
+      "quality_rejects": 14913486,
+      "exit_max_hold": 20088
+    },
+    "daily_count_pearson": {
+      "row_count": 0.969431,
+      "entry_total": 0.776546,
+      "quality_reject": 0.28058,
+      "trail_moves": 0.571053,
+      "exit_max_hold": -0.654643
+    },
+    "monthly": [
+      {
+        "month": "Jan",
+        "real_tick_rows": 7699274,
+        "synth_tick_rows": 7392680,
+        "real_entries": 31915,
+        "synth_entries": 27980,
+        "real_trail_moves": 38957,
+        "synth_trail_moves": 864954,
+        "real_quality_rejects": 2389511,
+        "synth_quality_rejects": 2055484
+      },
+      {
+        "month": "Feb",
+        "real_tick_rows": 7102818,
+        "synth_tick_rows": 6916826,
+        "real_entries": 35394,
+        "synth_entries": 33523,
+        "real_trail_moves": 44134,
+        "synth_trail_moves": 1051800,
+        "real_quality_rejects": 2139119,
+        "synth_quality_rejects": 1460687
+      },
+      {
+        "month": "Mar",
+        "real_tick_rows": 8859103,
+        "synth_tick_rows": 8812518,
+        "real_entries": 40297,
+        "synth_entries": 40985,
+        "real_trail_moves": 55051,
+        "synth_trail_moves": 1427618,
+        "real_quality_rejects": 2978097,
+        "synth_quality_rejects": 1619234
+      },
+      {
+        "month": "Apr",
+        "real_tick_rows": 7831685,
+        "synth_tick_rows": 7798140,
+        "real_entries": 33613,
+        "synth_entries": 31758,
+        "real_trail_moves": 40833,
+        "synth_trail_moves": 985997,
+        "real_quality_rejects": 2909552,
+        "synth_quality_rejects": 2138070
+      },
+      {
+        "month": "May",
+        "real_tick_rows": 8011360,
+        "synth_tick_rows": 7602592,
+        "real_entries": 31334,
+        "synth_entries": 28913,
+        "real_trail_moves": 32008,
+        "synth_trail_moves": 867225,
+        "real_quality_rejects": 3144880,
+        "synth_quality_rejects": 2402276
+      },
+      {
+        "month": "Jun",
+        "real_tick_rows": 9347508,
+        "synth_tick_rows": 8504707,
+        "real_entries": 33603,
+        "synth_entries": 31801,
+        "real_trail_moves": 39793,
+        "synth_trail_moves": 1028255,
+        "real_quality_rejects": 3338814,
+        "synth_quality_rejects": 2417254
+      },
+      {
+        "month": "Jul",
+        "real_tick_rows": 7756437,
+        "synth_tick_rows": 7627697,
+        "real_entries": 30491,
+        "synth_entries": 24382,
+        "real_trail_moves": 34811,
+        "synth_trail_moves": 710425,
+        "real_quality_rejects": 2901508,
+        "synth_quality_rejects": 2820481
+      }
+    ]
+  },
+  "historical_prior_study": {
+    "common_m1_minutes": 204625,
+    "strict_approx_paired_trades": 165630,
+    "full_period_m1_bid_ohlc_correlations_approx": 1,
+    "minute_entry_count_corr": 0.3411,
+    "paired_mfe_corr": 0.2644,
+    "paired_pnl_corr": 0.2132,
+    "source_folder": "https://drive.google.com/drive/folders/1ES78vXb2mFsOsa50BiwCLsT6BXgLe-Oe",
+    "status": "PRIOR_STUDY_NOT_FULL_PRICE_REPLAY_THIS_TURN"
+  },
+  "restrictions": [
+    "Never row-index join different streams",
+    "Never use next REAL tick to as-of align earlier SYNTH tick",
+    "Same-ms join reports sampling overlap not same causal tick",
+    "250ms as-of quote comparison only, not executable cross-feed fill",
+    "Source-index full calendar != full 149-day price-by-price replay",
+    "August sealed",
+    "No Alpha strategy backtests run"
+  ]
+}
