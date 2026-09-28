@@ -1,0 +1,78 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_NET_022_H1_COMPRESSION_EXPANSION_OWNER",
+  "status": "VERIFIED_DURABLE_RETAINED_FRONTIER",
+  "parent": "Frozen H1 accepted-BOS large-excursion child",
+  "frozen_rule": {
+    "tf_min": 60,
+    "lookback": 13,
+    "body_fraction_min": 0,
+    "atr_break_buffer": 0.1,
+    "boundary": "body",
+    "hold_bars": 8,
+    "compression_lookback_bars": 2,
+    "compression_reference_bars": 13,
+    "compression_max_ratio": 1,
+    "signal_range_min_ratio": 1,
+    "signal_body_fraction_min": 0.25
+  },
+  "validation": {
+    "january": {
+      "trades": 17,
+      "winners": 12,
+      "net": 237.675,
+      "pf": 3.4331
+    },
+    "february": {
+      "trades": 19,
+      "winners": 9,
+      "net": 99.301,
+      "pf": 1.3341
+    },
+    "march": {
+      "trades": 14,
+      "winners": 7,
+      "net": 160.296,
+      "pf": 1.5011
+    },
+    "april": {
+      "trades": 18,
+      "winners": 11,
+      "net": 274.255,
+      "pf": 2.9176
+    },
+    "may": {
+      "trades": 19,
+      "winners": 8,
+      "net": 5.965,
+      "pf": 1.02287
+    },
+    "june": {
+      "trades": 17,
+      "winners": 10,
+      "net": 175.842,
+      "pf": 1.8968
+    },
+    "july": {
+      "trades": 21,
+      "winners": 9,
+      "net": 88.95,
+      "pf": 1.48227
+    },
+    "may_july": {
+      "trades": 57,
+      "winners": 27,
+      "net": 270.757,
+      "gross_profit": 912.048,
+      "gross_loss": -641.291,
+      "pf": 1.4222
+    }
+  },
+  "discovery_result_sha256": "9958848e2c7bd6783d7a3ff931d07e03d406b86b3628bffb453279b220f3d435",
+  "forward_result_sha256": "da8468e45b29a0b537420ffbdd38c5f27c7410695ff8634657d5f161d1b398e9",
+  "source_sha256": "f53b525b5089703edd3a2a3f7ab942b5c66afd975ef1a5f1b68bbad4fb6afd6b",
+  "forward_source_sha256": "cbdbb0b894d2a48ff3ae480c164e4e4d2942966f229b782440bd6bfe02f724b3",
+  "decision": "RETAIN_H1_COMPRESSION_EXPANSION_FRONTIER",
+  "integration_rule": "Do not arithmetically add sleeve PnL to Gamma. Next unit must merge executable events in one chronological one-position ledger.",
+  "next_unit": "R9B_GAMMA_DYNAMIC_NET_023_INTEGRATED_LEDGER",
+  "august_accessed": false
+}
