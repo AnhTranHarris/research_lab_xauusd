@@ -1,7 +1,7 @@
 # R10 Alpha — Tick-to-Timeframe Reconstruction Contract
 **Status:** REQUIRED ARCHITECTURAL RULE, NOT A TRADING BREAKTHROUGH OR A TEST RESULT.
 **Scope:** XAUUSD January 1–July 31, 2026. August SEALED.
-**Authority:** user's timeframe-architecture clarification, R10 Alpha handoff, Master Sections 109–111.
+**Authority:** [ALPHA_ONLY_LOCK.md](ALPHA_ONLY_LOCK.md), canonical Alpha Master Protocol Section 99 and governing Sections 112, 114, 115. Gamma is a DEAD research branch, not a lineage or production parent.
 
 ## Single market stream, multiple causal views
 The canonical event stream is actual ordered ticks with millisecond timestamp, bid, ask, flags (where available), and stable input sequence order for ties. Python Dukascopy source ticks and MQL5 broker/MT5 real ticks remain **distinct datasets**, each source-verified. They are never claimed to generate identical profit merely because each is called 'tick data'.
@@ -29,12 +29,12 @@ All decisions are tick-driven. Historical Python must execute entries/exits/stop
 - Use `OnTick` as notification, but guard against event coalescing: MetaQuotes states that NewTick events are not queued when an OnTick event is already queued/processing. Evaluate catching up using `CopyTicksRange` / `CopyTicks` from the last processed millisecond+stable tie order, and explicitly handle duplicate timestamps, gaps and reconnects. Do **not** claim automatic lossless live feed capture without measurement.
 - The main EA chart may be M1; the internal 250ms / S1 / S5 / S15 / S30 / S45 series require no native MT5 chart periods. M1/H1/D1 platform candles can provide cross-checks but cannot silently replace the specified exact source-tick build.
 - Keep state calculation fast enough to avoid OnTick event loss, prove replay/restart recovery, use bounded tick-ring buffers, and log bar boundary/state/decision identities for diagnostics.
-- For Python↔MQL5 parity, replay the **same timestamped Bid/Ask tick input** through both implementations to compare OHLC, feature vectors, decision times, orders, fills, stops, trail behavior, positions and PnL. Separately certify real Coinexx MT5 history and demo behavior. Dukascopy and Coinexx cross-feed differences must be reported, not hidden.
+- For **optional local internal algorithm testing where identical tick inputs are available**, side-by-side Python/MQL5 replay can diagnose OHLC, features and states. However, this is NOT a prerequisite requiring the owner to export raw Coinexx ticks, and the owner will NOT upload new MT5 per-tick logs. The approved validation transfer is an ordinary compact Coinexx MT5 M1 Strategy Tester report from local 'Every tick based on real ticks' execution. That report supports aggregate broker real-tick tester comparisons, NOT proof of exact millisecond fills or source-equivalent Python-versus-MQL5 parity. Dukascopy and Coinexx cross-feed differences must be reported, not hidden. Owner must authorize implementation and separately approve the cumulative EA after the MT5 report.
 
 ## Scope and reporting
 Maintain **daily / weekly / monthly / Jan–Jul aggregate** tick-identity and trading ledgers. A weekly calendar definition and accounting/session time zone remain **PENDING USER DIRECTION**. Scope expansion does not make months previously observed for optimization untouched forward tests; validation partitioning must be frozen independently before certification. August remains sealed.
 
-**This file only establishes an engineering contract. No Alpha backtests have run and no EA has been compiled.**
+**Current verification (2026-09-28):** Engine infrastructure has been tested and six exploratory January ENTRY+HOLD variants were run and REJECTED; no >10% passing Alpha candidate, owner-approved Alpha cumulative EA baseline, new MQL5 build or new Coinexx MT5 report is established. Alpha CURRENT_STATE controls later updates; August remains SEALED. Gamma is retired.
 
 ## Relevant platform specifications
 - https://www.mql5.com/en/docs/constants/structures/mqltick
