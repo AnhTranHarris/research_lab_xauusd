@@ -48,7 +48,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
-    "current_unit_state": "NET002_NET007_EVENT_LIFECYCLE_PREDECLARED_NEXT_JAN_ASOF_SOURCE_PARITY",
+    "current_unit_state": "NET002_NET007_JAN_CAUSAL_MAPPING_VERIFIED_NEXT_SOURCE_EVENT_DESCRIPTOR_AUDIT",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -5254,8 +5254,8 @@
       "next_stage": "HISTORICAL_NET002_NET007_STRUCTURAL_INDICATOR_COMBINATION_SOURCE_TO_PARENT_ARCHAEOLOGY"
     },
     "historical_net002_net007_source_reconciliation": {
-      "status": "SOURCE_INVENTORY_AND_EVENT_LIFECYCLE_MAPPING_PREDECLARED",
-      "first_incomplete_stage": "NET002_NET007_JAN_EVENT_VISIBILITY_AND_ZERO_DELTA_IDENTITY_MAPPING",
+      "status": "JAN_CAUSAL_ZERO_DELTA_PARITY_VERIFIED_NEXT_DESCRIPTOR_SOURCE_IDENTITY_AUDIT",
+      "first_incomplete_stage": "NET002_NET007_JAN_SOURCE_EVENT_IDENTITY_AUDIT_AND_NET004_DESCRIPTORS",
       "source_families": [
         "NET002 completed H1/H4 break of structure and ATR/body quality",
         "NET003 H1-break-M15-retest/reclaim",
@@ -5278,6 +5278,45 @@
         "august_sealed": true,
         "production_mql5_authorized": false,
         "next": "NET002_NET007_JAN_EVENT_VISIBILITY_AND_ZERO_DELTA_IDENTITY_MAPPING"
+      },
+      "january_mapping": {
+        "status": "VERIFIED_DURABLE_EXACT_CAUSAL014_PARITY_ZERO_DELTA_CONTEXT",
+        "january_source_sha256": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5",
+        "ticks": 9135062,
+        "raw_events": 34362,
+        "selected_trades": 28088,
+        "winners": 19087,
+        "net": -4510.0870000207515,
+        "gross_profit": 7001.463999985857,
+        "gross_loss": -11511.55100000661,
+        "max_drawdown": 4554.885500020489,
+        "h1_bos": 108,
+        "m15_retest_children": 56,
+        "m15_failure_children": 68,
+        "raw_valid_h1_bos_asof": 33438,
+        "raw_valid_h4_non_neutral": 31211,
+        "raw_valid_retest_same_parent": 11458,
+        "raw_valid_failure_same_parent": 13349,
+        "retrospective_child_origin_blocked_retest": 21841,
+        "retrospective_child_origin_blocked_failure": 19741,
+        "future_visibility_violations": 0,
+        "source_path": "scripts/r9b_net002_007_jan_asof_mapping.py",
+        "source_blob": "47be0af0282f6916f92b69b6668a0388519a131a",
+        "source_commit": "6d5f3b6300aa5ecbb3ac040acf097daa9c22ab79",
+        "source_sha256": "42dfa35cacad1706a89664f691c1199f69e188a280813a5b3151e1fd81f7bf17",
+        "result_path": "results/R9B_GAMMA_NET002_007_JAN_EVENT_MAPPING_SUMMARY.json",
+        "result_blob": "8cc1009822a3f6fc1337a7cafbcf9db5e33ace71",
+        "result_sha256": "ec37bcfd3f6dae6e26b46e28de9d2e360cc8fbc4bf742002e6d49c9c547f9250",
+        "manifest_path": "results/R9B_GAMMA_NET002_007_JAN_EVENT_MAPPING_MANIFEST.json",
+        "manifest_blob": "433d006097739c7fcef300643fc07c65cbf3777a",
+        "manifest_sha256": "c1c9a7cbdee95ec72275d2f7fc4e1e1cc70e9671848dfdf5f326333cdfd5783e",
+        "audit_npz_sha256": "3fa88617bcc157ec4e6fcc2e62d48f888d93c380c8d18d1f2c79fcd4cc69ce6a",
+        "library_path": "/R9_Gamma_Checkpoints/NET002_NET007_JAN_MAPPING",
+        "no_strategy_change": true,
+        "no_market_forward_screen": true,
+        "august_accessed": false,
+        "production_mql5_authorized": false,
+        "next": "NET002_NET007_JAN_SOURCE_EVENT_IDENTITY_AUDIT_AND_NET004_DESCRIPTORS"
       }
     },
     "net002_net007_source_audit": {
@@ -5309,7 +5348,7 @@
       ],
       "august_accessed": false
     },
-    "first_incomplete_stage": "NET002_NET007_JAN_EVENT_VISIBILITY_AND_ZERO_DELTA_IDENTITY_MAPPING",
+    "first_incomplete_stage": "NET002_NET007_JAN_SOURCE_EVENT_IDENTITY_AUDIT_AND_NET004_DESCRIPTORS",
     "session_handoff_20260928_max_chat": {
       "status": "DURABLE_GOOGLE_DOCS_HANDOFF_VERIFIED",
       "date": "2026-09-28",
