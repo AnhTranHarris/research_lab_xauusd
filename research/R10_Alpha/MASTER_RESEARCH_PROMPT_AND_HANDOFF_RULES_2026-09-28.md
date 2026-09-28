@@ -1,5 +1,7 @@
 # R10 Alpha — SOLE ACTIVE Master Research Prompt, Acceptance Gates, MT5 Report Contract and Handoff Rules
 
+> **Latest owner-controlled scientific reset:** Former Alpha Entry/Hold001 (six old strategy configurations) and old planned 002 are QUARANTINED due wrong Gamma bootstrap. The newly preregistered [clean initial Entry/Hold diagnostic](CLEAN_RESTART_INITIAL_ENTRY_HOLD_RESEARCH_RECORD.md) is independently completed and NEGATIVE, not an EA trading backtest. The new first incomplete unit is stored in [live Alpha current state](../../CURRENT_STATE.json): CLEAN_ALPHA_ENTRY_HOLD_001_COST_AWARE_ENTRY_EXCURSION_AND_SURVIVAL_PREREGISTRATION. Original R9 REAL/SYNTH eight-day tick-price markouts were independently rerun from 16 SHA-matching original archives. No approved cumulative Alpha EA or Coinexx MT5 follow-up result exists.
+
 **HARD OWNER LOCK:** ALL Gamma / Gamma2 / Gamma Dynamic branches, experiments, controller queues and MQL5 build continuations are DEAD / RETIRED. They can be read only as historical failures; do not execute, resume, promote, or report them as Alpha. Work exclusively from `alpha/CURRENT_STATE.json` and [Alpha-only lock](ALPHA_ONLY_LOCK.md).
 
 **Scope:** XAUUSD, January–July 2026; August SEALED. **Branch:** `alpha`. **Status:** owner-governing workflow only. This file does not imply a candidate passed, an EA was built or MT5 was run.
