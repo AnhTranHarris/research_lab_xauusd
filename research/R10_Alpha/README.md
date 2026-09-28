@@ -1,5 +1,7 @@
 # R10 Alpha — Sole active research workspace
 
+**Owner-directed pre-bootstrap scientific reset (2026-09-28):** Former Alpha Entry/Hold001's six January strategies and suggested 002 follow-up are QUARANTINED; they may not supply the active Alpha benchmark. The newly preregistered [clean initial Entry/Hold accuracy record](CLEAN_RESTART_INITIAL_ENTRY_HOLD_RESEARCH_RECORD.md) is a completed negative January diagnostic, with an independent 16-archive-file historical R9 REAL/SYNTH markout recheck. Active next stage: [CURRENT_STATE.json](../../CURRENT_STATE.json) -> CLEAN_ALPHA_ENTRY_HOLD_001_COST_AWARE_ENTRY_EXCURSION_AND_SURVIVAL_PREREGISTRATION. No cumulative Alpha EA approved.
+
 **GAMMA DEAD:** Gamma, Gamma2 and Gamma Dynamic are permanently retired research paths and CANNOT provide the active experiment queue, currently approved MQL5 parent, baseline, user-report threshold, or accepted breakthrough. Their inherited repo files exist only as historical sources; do not resume them. Read [the Alpha-only lock](ALPHA_ONLY_LOCK.md) first.
 
 **Control plane:** [LIVE Alpha master protocol (Section 99)](https://docs.google.com/document/d/1ycB5bQ3P24w7BZz54RwgJbc5CX5aRcqgr0KiI0Iidkw/edit) → [canonical Alpha prompt](MASTER_RESEARCH_PROMPT_CANONICAL.md) → [CURRENT_STATE](../../CURRENT_STATE.json) → [active Alpha handoff](https://docs.google.com/document/d/14ElgUCCXZeu7y4go9RAR5-v06rU_yOPqskQCCsqPRA4/edit) → [source manifest](source_manifest.json). [Session bootstrap](../../notes/SESSION_GOVERNANCE_BOOTSTRAP.md) is Alpha-only.
