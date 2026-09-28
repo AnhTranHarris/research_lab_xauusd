@@ -1,0 +1,57 @@
+{
+  "april_calibration_sha256": "14bfd582043bddce8679c81cb7ae2e466b511bf5e573a546a490c37e427807b4",
+  "august_accessed": false,
+  "baseline": {
+    "gross_loss": -10875.75300000429,
+    "gross_profit": 5530.436999991063,
+    "maxdd": 5346.366000013231,
+    "net": -5345.316000013228,
+    "pf": 0.5085107210497408,
+    "trades": 27710,
+    "win_rate": 0.6794658967881632,
+    "winners": 18828
+  },
+  "calibration_gate": "APRIL_PASS_WITHOUT_FORWARD_TUNING",
+  "candidate": {
+    "gross_loss": -10489.594500004183,
+    "gross_profit": 5325.717499991292,
+    "maxdd": 5164.927000012889,
+    "net": -5163.877000012892,
+    "pf": 0.507714335381522,
+    "trades": 26888,
+    "win_rate": 0.6778116631954776,
+    "winners": 18225
+  },
+  "delta": {
+    "gross_loss_reduction": 386.15850000010687,
+    "gross_profit_change": -204.71949999977096,
+    "maxdd_reduction_month": 181.43900000034228,
+    "net_improvement": 181.43900000033682,
+    "pf_change": -0.0007963856682188242,
+    "trade_change": -822,
+    "win_rate_pp_change": -0.16542335926855722,
+    "winner_change": -603
+  },
+  "elapsed_s": 0.1387992239997402,
+  "engine_sha256": "d0910568189e562fda08394ee89bde9789934fbb4aa50dade32b17d61ea6c03f",
+  "forward_rule_changed": false,
+  "frozen_discovery_sha256": "994be634c52ad5ccbc17a147f8921ff6cf64ea9d8ce02093a8e7b5b516939089",
+  "h1_completed_signals": 29,
+  "ledger_file": "NET024_LEDGER_06.npz",
+  "ledger_sha256": "18092d4aee0b72744d555889c1e5a3093d4cef7296349163593fd15831118e5f",
+  "month": 6,
+  "raw_cache_sha256": "9c6e36d959b398e6c494ee4385999d3a18b2512faffe9ab061fd40f22565d7a2",
+  "raw_candidates": 35381,
+  "raw_market_input_sha256": "34686ce53ba992dfb83ea35d555b6a4947a9216635853857c8bf11ce70c00ae2",
+  "raw_veto_count": 1152,
+  "retention": {
+    "gross_profit_pct": 96.29831241183831,
+    "trades_pct": 97.03356189101407,
+    "winners_pct": 96.79732313575525
+  },
+  "selected_rule": "veto_contra_weak_align|2",
+  "source_sha256": "a2b2507923ace57d90d1a1d0a2e299f06d0201ba1ee26854aa056826a13e09bc",
+  "stage": "FROZEN_FORWARD",
+  "state": "COMPLETED_LOCAL",
+  "unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION"
+}
