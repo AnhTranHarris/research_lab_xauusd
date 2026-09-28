@@ -1,0 +1,151 @@
+{
+  "april_accessed": false,
+  "august_accessed": false,
+  "decision": "REJECT_AS_STANDALONE_HARVEST_RULE_BECAUSE_FEBRUARY_FAILS_NET_GATE_AND_JAN_MAR_GROSS_LOSS_WORSENS; retain only original source-exact replay and trajectory economics as historical model evidence",
+  "discovery_months": [
+    {
+      "candidate": {
+        "gross_loss": -11565.009500006863,
+        "gross_profit": 7064.191999986125,
+        "maxdd": 4545.579000020477,
+        "net": -4500.817500020738,
+        "pf": 0.610824573899566,
+        "trades": 28080,
+        "win_rate": 0.6663105413105413,
+        "winners": 18710
+      },
+      "delta": {
+        "gross_loss": -53.45850000025348,
+        "gross_profit": 62.72800000026746,
+        "maxdd": -9.30650000001242,
+        "net": 9.269500000013068,
+        "pf": 0.0026125267148002784,
+        "trades": -8,
+        "winners": -377
+      },
+      "month": 1,
+      "parent": {
+        "gross_loss": -11511.55100000661,
+        "gross_profit": 7001.463999985857,
+        "maxdd": 4554.885500020489,
+        "net": -4510.0870000207515,
+        "pf": 0.6082120471847657,
+        "trades": 28088,
+        "win_rate": 0.6795428652805469,
+        "winners": 19087
+      },
+      "pass": true
+    },
+    {
+      "candidate": {
+        "gross_loss": -13774.328500007114,
+        "gross_profit": 9277.161999986372,
+        "maxdd": 4519.585000020548,
+        "net": -4497.166500020741,
+        "pf": 0.6735110172507924,
+        "trades": 28185,
+        "win_rate": 0.6510555259890013,
+        "winners": 18350
+      },
+      "delta": {
+        "gross_loss": -105.92100000033133,
+        "gross_profit": 59.71100000041224,
+        "maxdd": 46.63449999991735,
+        "net": -46.20999999992,
+        "pf": -0.0008507180121770652,
+        "trades": -3,
+        "winners": -484
+      },
+      "month": 2,
+      "parent": {
+        "gross_loss": -13668.407500006782,
+        "gross_profit": 9217.45099998596,
+        "maxdd": 4472.950500020631,
+        "net": -4450.956500020821,
+        "pf": 0.6743617352629695,
+        "trades": 28188,
+        "win_rate": 0.668156662409536,
+        "winners": 18834
+      },
+      "pass": false
+    },
+    {
+      "candidate": {
+        "gross_loss": -16591.883000008613,
+        "gross_profit": 10057.237999982503,
+        "maxdd": 6539.992000026103,
+        "net": -6534.64500002611,
+        "pf": 0.6061541055935171,
+        "trades": 35561,
+        "win_rate": 0.6626641545513343,
+        "winners": 23565
+      },
+      "delta": {
+        "gross_loss": -86.08250000042244,
+        "gross_profit": 141.0690000004579,
+        "maxdd": -54.321500000034575,
+        "net": 54.98650000003363,
+        "pf": 0.005385363721402303,
+        "trades": -12,
+        "winners": -604
+      },
+      "month": 3,
+      "parent": {
+        "gross_loss": -16505.80050000819,
+        "gross_profit": 9916.168999982045,
+        "maxdd": 6594.313500026137,
+        "net": -6589.631500026144,
+        "pf": 0.6007687418721148,
+        "trades": 35573,
+        "win_rate": 0.6794197846681472,
+        "winners": 24169
+      },
+      "pass": true
+    }
+  ],
+  "do_not_release_april_may_july_for_rejected_rule": true,
+  "frozen_monthly_criterion": "positive net AND GP, no >5% GL deterioration, >=95% winner and trade count retention EACH discovery month",
+  "jan_mar_candidate": {
+    "gross_loss": -41931.22100002259,
+    "gross_profit": 26398.591999955,
+    "net": -15532.62900006759,
+    "pf": 0.6295688837666038,
+    "trades": 91826,
+    "winners": 60625
+  },
+  "jan_mar_delta": {
+    "gross_loss": -245.46200000100362,
+    "gross_profit": 263.5080000011367,
+    "net": 18.046000000125787,
+    "pf": 0.0026141484590296304,
+    "trades": -23,
+    "winners": -1465
+  },
+  "jan_mar_parent": {
+    "gross_loss": -41685.759000021586,
+    "gross_profit": 26135.083999953862,
+    "net": -15550.675000067717,
+    "pf": 0.6269547353075742,
+    "trades": 91849,
+    "winners": 62090
+  },
+  "may_jul_accessed": false,
+  "monthly_gates_all_pass": false,
+  "next": "HOLD_EXIT_022_EXIT_REASON_TRAJECTORY_HARVEST_VS_RUNNER_SOURCE_CLOSURE",
+  "no_tuning_after_february": true,
+  "parent": "CAUSAL_RECERT_014",
+  "selected_january_partial_diagnostic": {
+    "strong_trail": 0.04,
+    "weak_trail": 0.1
+  },
+  "source_inputs": {
+    "HOLD022_JAN_RUNNER_TRAIL.json": "33efb4fa8ff97a4c620459299407cac1005b747d2f703b1a5796225a7ee96a93",
+    "HOLD022_RUNNER_REPLICATION_2026_02.json": "e49bda83feee49e3de376285d3de9f457caaadbc4f69040088f63c571381f48e",
+    "HOLD022_RUNNER_REPLICATION_2026_03.json": "3c254b05ad26b7885f05dba4a32408b50b74c63e73cf808c0b30ed8e8d1b5730"
+  },
+  "stage": "JAN_MAR_FROZEN_WEAK_0P10_RUNNER_DISCOVERY_VERDICT",
+  "status": "COMPLETED_LOCAL",
+  "trade_retention_pct": 99.97495889993358,
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
+  "winner_retention_pct": 97.64052182315993
+}
