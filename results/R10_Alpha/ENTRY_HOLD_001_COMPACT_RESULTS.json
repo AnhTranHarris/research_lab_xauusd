@@ -1,0 +1,565 @@
+{
+  "id": "R10_ALPHA_ENTRY_HOLD_DISCOVERY_001",
+  "evidence": "EXPLORATORY_JANUARY_ONLY_NO_OWNER_APPROVED_EA_BASELINE",
+  "date_utc": "2026-09-28",
+  "market_feed": "Dukascopy XAUUSD, distinct from Coinexx MT5 R9 REAL/SYNTH",
+  "market_month": "2026-01",
+  "market_source_sha256": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5",
+  "market_tick_rows": 9135062,
+  "source_days": 26,
+  "completed_5s_bars": 344037,
+  "opportunity_root_count": 14292,
+  "family_opportunity_counts": {
+    "STRUCTURE_RESUME": 14292,
+    "STRUCTURE_PULLBACK_RESUME": 5160,
+    "STRUCTURE_PULLBACK_QUALITY": 1014
+  },
+  "research_broker_assumptions": {
+    "initial_usd_primary": 200,
+    "initial_usd_statistical_diagnostic": 100000,
+    "lot": 0.01,
+    "contract_oz_per_lot": 100,
+    "leverage": 500,
+    "roundtrip_commission_usd": 0.2,
+    "slippage_per_side_usd": 0.05,
+    "max_allowed_quote_spread_usd": 1.2,
+    "stop_usd": 1.2,
+    "take_profit_usd": 3.0,
+    "hold_limits_seconds": [
+      30,
+      120
+    ]
+  },
+  "observed_market_bidask_spread_usd": {
+    "jan_all_quotes_median": 0.7,
+    "jan_10th_percentile": 0.54,
+    "jan_90th_percentile": 1.354
+  },
+  "primary_small_200_account_results": [
+    {
+      "strategy": "STRUCTURE_RESUME_H30s",
+      "months": [
+        "2026-01"
+      ],
+      "trades": 161,
+      "wins": 8,
+      "win_rate": 0.049689,
+      "target_hit_count": 0,
+      "target_hit_rate": 0.0,
+      "net_usd": -192.617,
+      "gross_profit_after_fees": 2.444,
+      "gross_loss_after_fees": -195.061,
+      "profit_factor": 0.01253,
+      "max_drawdown_usd": 193.183,
+      "balance_final": 7.383,
+      "root_opportunities": 14292,
+      "relative_opportunity_retention": 1.0,
+      "rejections": {
+        "ONE_POSITION_ACTIVE": 12,
+        "SIGNAL_EXPIRED": 28,
+        "MARGIN_GATE": 13975,
+        "SPREAD_GATE": 116
+      },
+      "hold_ms": 30000,
+      "eligible_events": 14292
+    },
+    {
+      "strategy": "STRUCTURE_RESUME_H120s",
+      "months": [
+        "2026-01"
+      ],
+      "trades": 158,
+      "wins": 11,
+      "win_rate": 0.06962,
+      "target_hit_count": 3,
+      "target_hit_rate": 0.018987,
+      "net_usd": -192.572,
+      "gross_profit_after_fees": 15.117,
+      "gross_loss_after_fees": -207.689,
+      "profit_factor": 0.07279,
+      "max_drawdown_usd": 192.572,
+      "balance_final": 7.428,
+      "root_opportunities": 14292,
+      "relative_opportunity_retention": 1.0,
+      "rejections": {
+        "ONE_POSITION_ACTIVE": 68,
+        "MARGIN_GATE": 13923,
+        "SIGNAL_EXPIRED": 27,
+        "SPREAD_GATE": 116
+      },
+      "hold_ms": 120000,
+      "eligible_events": 14292
+    },
+    {
+      "strategy": "STRUCTURE_PULLBACK_RESUME_H30s",
+      "months": [
+        "2026-01"
+      ],
+      "trades": 194,
+      "wins": 34,
+      "win_rate": 0.175258,
+      "target_hit_count": 6,
+      "target_hit_rate": 0.030928,
+      "net_usd": -192.483,
+      "gross_profit_after_fees": 33.039,
+      "gross_loss_after_fees": -225.522,
+      "profit_factor": 0.1465,
+      "max_drawdown_usd": 192.483,
+      "balance_final": 7.517,
+      "root_opportunities": 14292,
+      "relative_opportunity_retention": 0.36104,
+      "rejections": {
+        "ONE_POSITION_ACTIVE": 1,
+        "MARGIN_GATE": 4900,
+        "SPREAD_GATE": 64,
+        "SIGNAL_EXPIRED": 1
+      },
+      "hold_ms": 30000,
+      "eligible_events": 5160
+    },
+    {
+      "strategy": "STRUCTURE_PULLBACK_RESUME_H120s",
+      "months": [
+        "2026-01"
+      ],
+      "trades": 208,
+      "wins": 34,
+      "win_rate": 0.163462,
+      "target_hit_count": 20,
+      "target_hit_rate": 0.096154,
+      "net_usd": -191.871,
+      "gross_profit_after_fees": 70.34,
+      "gross_loss_after_fees": -262.211,
+      "profit_factor": 0.26826,
+      "max_drawdown_usd": 191.871,
+      "balance_final": 8.129,
+      "root_opportunities": 14292,
+      "relative_opportunity_retention": 0.36104,
+      "rejections": {
+        "ONE_POSITION_ACTIVE": 12,
+        "MARGIN_GATE": 4875,
+        "SPREAD_GATE": 64,
+        "SIGNAL_EXPIRED": 1
+      },
+      "hold_ms": 120000,
+      "eligible_events": 5160
+    },
+    {
+      "strategy": "STRUCTURE_PULLBACK_QUALITY_H30s",
+      "months": [
+        "2026-01"
+      ],
+      "trades": 207,
+      "wins": 29,
+      "win_rate": 0.140097,
+      "target_hit_count": 8,
+      "target_hit_rate": 0.038647,
+      "net_usd": -191.011,
+      "gross_profit_after_fees": 41.052,
+      "gross_loss_after_fees": -232.063,
+      "profit_factor": 0.1769,
+      "max_drawdown_usd": 191.291,
+      "balance_final": 8.989,
+      "root_opportunities": 14292,
+      "relative_opportunity_retention": 0.07095,
+      "rejections": {
+        "MARGIN_GATE": 793,
+        "SPREAD_GATE": 14
+      },
+      "hold_ms": 30000,
+      "eligible_events": 1014
+    },
+    {
+      "strategy": "STRUCTURE_PULLBACK_QUALITY_H120s",
+      "months": [
+        "2026-01"
+      ],
+      "trades": 227,
+      "wins": 41,
+      "win_rate": 0.180617,
+      "target_hit_count": 21,
+      "target_hit_rate": 0.092511,
+      "net_usd": -191.877,
+      "gross_profit_after_fees": 81.308,
+      "gross_loss_after_fees": -273.185,
+      "profit_factor": 0.29763,
+      "max_drawdown_usd": 191.877,
+      "balance_final": 8.123,
+      "root_opportunities": 14292,
+      "relative_opportunity_retention": 0.07095,
+      "rejections": {
+        "ONE_POSITION_ACTIVE": 2,
+        "MARGIN_GATE": 771,
+        "SPREAD_GATE": 14
+      },
+      "hold_ms": 120000,
+      "eligible_events": 1014
+    }
+  ],
+  "research_unconstrained_100k_account_results": [
+    {
+      "strategy": "STRUCTURE_RESUME_H30s",
+      "months": [
+        "2026-01"
+      ],
+      "trades": 13147,
+      "wins": 1753,
+      "win_rate": 0.133338,
+      "target_hit_count": 295,
+      "target_hit_rate": 0.022439,
+      "net_usd": -13130.875,
+      "gross_profit_after_fees": 1908.309,
+      "gross_loss_after_fees": -15039.184,
+      "profit_factor": 0.12689,
+      "max_drawdown_usd": 13131.441,
+      "balance_final": 86869.125,
+      "root_opportunities": 14292,
+      "relative_opportunity_retention": 1.0,
+      "rejections": {
+        "ONE_POSITION_ACTIVE": 1004,
+        "SIGNAL_EXPIRED": 26,
+        "SPREAD_GATE": 115
+      },
+      "hold_ms": 30000,
+      "eligible_events": 14292
+    },
+    {
+      "strategy": "STRUCTURE_RESUME_H120s",
+      "months": [
+        "2026-01"
+      ],
+      "trades": 10037,
+      "wins": 1442,
+      "win_rate": 0.143668,
+      "target_hit_count": 778,
+      "target_hit_rate": 0.077513,
+      "net_usd": -10123.579,
+      "gross_profit_after_fees": 2855.414,
+      "gross_loss_after_fees": -12978.993,
+      "profit_factor": 0.22,
+      "max_drawdown_usd": 10123.579,
+      "balance_final": 89876.421,
+      "root_opportunities": 14292,
+      "relative_opportunity_retention": 1.0,
+      "rejections": {
+        "ONE_POSITION_ACTIVE": 4123,
+        "SIGNAL_EXPIRED": 19,
+        "SPREAD_GATE": 113
+      },
+      "hold_ms": 120000,
+      "eligible_events": 14292
+    },
+    {
+      "strategy": "STRUCTURE_PULLBACK_RESUME_H30s",
+      "months": [
+        "2026-01"
+      ],
+      "trades": 5024,
+      "wins": 778,
+      "win_rate": 0.154857,
+      "target_hit_count": 164,
+      "target_hit_rate": 0.032643,
+      "net_usd": -4944.136,
+      "gross_profit_after_fees": 951.121,
+      "gross_loss_after_fees": -5895.257,
+      "profit_factor": 0.16134,
+      "max_drawdown_usd": 4944.136,
+      "balance_final": 95055.864,
+      "root_opportunities": 14292,
+      "relative_opportunity_retention": 0.36104,
+      "rejections": {
+        "ONE_POSITION_ACTIVE": 71,
+        "SPREAD_GATE": 64,
+        "SIGNAL_EXPIRED": 1
+      },
+      "hold_ms": 30000,
+      "eligible_events": 5160
+    },
+    {
+      "strategy": "STRUCTURE_PULLBACK_RESUME_H120s",
+      "months": [
+        "2026-01"
+      ],
+      "trades": 4812,
+      "wins": 736,
+      "win_rate": 0.152951,
+      "target_hit_count": 451,
+      "target_hit_rate": 0.093724,
+      "net_usd": -4702.667,
+      "gross_profit_after_fees": 1588.079,
+      "gross_loss_after_fees": -6290.746,
+      "profit_factor": 0.25245,
+      "max_drawdown_usd": 4702.667,
+      "balance_final": 95297.333,
+      "root_opportunities": 14292,
+      "relative_opportunity_retention": 0.36104,
+      "rejections": {
+        "ONE_POSITION_ACTIVE": 283,
+        "SPREAD_GATE": 64,
+        "SIGNAL_EXPIRED": 1
+      },
+      "hold_ms": 120000,
+      "eligible_events": 5160
+    },
+    {
+      "strategy": "STRUCTURE_PULLBACK_QUALITY_H30s",
+      "months": [
+        "2026-01"
+      ],
+      "trades": 1000,
+      "wins": 156,
+      "win_rate": 0.156,
+      "target_hit_count": 34,
+      "target_hit_rate": 0.034,
+      "net_usd": -957.034,
+      "gross_profit_after_fees": 189.254,
+      "gross_loss_after_fees": -1146.288,
+      "profit_factor": 0.1651,
+      "max_drawdown_usd": 957.034,
+      "balance_final": 99042.966,
+      "root_opportunities": 14292,
+      "relative_opportunity_retention": 0.07095,
+      "rejections": {
+        "SPREAD_GATE": 14
+      },
+      "hold_ms": 30000,
+      "eligible_events": 1014
+    },
+    {
+      "strategy": "STRUCTURE_PULLBACK_QUALITY_H120s",
+      "months": [
+        "2026-01"
+      ],
+      "trades": 992,
+      "wins": 157,
+      "win_rate": 0.158266,
+      "target_hit_count": 93,
+      "target_hit_rate": 0.09375,
+      "net_usd": -938.042,
+      "gross_profit_after_fees": 335.723,
+      "gross_loss_after_fees": -1273.765,
+      "profit_factor": 0.26357,
+      "max_drawdown_usd": 938.042,
+      "balance_final": 99061.958,
+      "root_opportunities": 14292,
+      "relative_opportunity_retention": 0.07095,
+      "rejections": {
+        "ONE_POSITION_ACTIVE": 8,
+        "SPREAD_GATE": 14
+      },
+      "hold_ms": 120000,
+      "eligible_events": 1014
+    }
+  ],
+  "causal_markout_diagnostic_mid_future_not_realized_trade_accuracy": {
+    "STRUCTURE_RESUME": {
+      "n_root": 14292,
+      "1s": {
+        "n": 13968,
+        "favorable_50c": 0.04754,
+        "adverse_50c": 0.03658,
+        "signed_midmean_usd": 0.00876,
+        "signed_midmedian_usd": 0.0,
+        "positive_direction_fraction": 0.46385
+      },
+      "3s": {
+        "n": 13926,
+        "favorable_50c": 0.11432,
+        "adverse_50c": 0.10204,
+        "signed_midmean_usd": 0.01089,
+        "signed_midmedian_usd": 0.0,
+        "positive_direction_fraction": 0.49095
+      },
+      "10s": {
+        "n": 13901,
+        "favorable_50c": 0.22495,
+        "adverse_50c": 0.21617,
+        "signed_midmean_usd": -4e-05,
+        "signed_midmedian_usd": -0.01,
+        "positive_direction_fraction": 0.48795
+      },
+      "30s": {
+        "n": 13876,
+        "favorable_50c": 0.31709,
+        "adverse_50c": 0.32473,
+        "signed_midmean_usd": -0.00784,
+        "signed_midmedian_usd": -0.03,
+        "positive_direction_fraction": 0.4871
+      },
+      "60s": {
+        "n": 13837,
+        "favorable_50c": 0.36561,
+        "adverse_50c": 0.37754,
+        "signed_midmean_usd": 0.00386,
+        "signed_midmedian_usd": -0.03,
+        "positive_direction_fraction": 0.49274
+      },
+      "120s": {
+        "n": 13862,
+        "favorable_50c": 0.39857,
+        "adverse_50c": 0.41675,
+        "signed_midmean_usd": 0.00322,
+        "signed_midmedian_usd": -0.06925,
+        "positive_direction_fraction": 0.48557
+      }
+    },
+    "STRUCTURE_PULLBACK_RESUME": {
+      "n_root": 5160,
+      "1s": {
+        "n": 5124,
+        "favorable_50c": 0.07279,
+        "adverse_50c": 0.05113,
+        "signed_midmean_usd": 0.01539,
+        "signed_midmedian_usd": 0.0,
+        "positive_direction_fraction": 0.48361
+      },
+      "3s": {
+        "n": 5107,
+        "favorable_50c": 0.15861,
+        "adverse_50c": 0.13746,
+        "signed_midmean_usd": 0.02096,
+        "signed_midmedian_usd": 0.005,
+        "positive_direction_fraction": 0.50441
+      },
+      "10s": {
+        "n": 5104,
+        "favorable_50c": 0.27567,
+        "adverse_50c": 0.26117,
+        "signed_midmean_usd": -0.00625,
+        "signed_midmedian_usd": 0.005,
+        "positive_direction_fraction": 0.50098
+      },
+      "30s": {
+        "n": 5098,
+        "favorable_50c": 0.36446,
+        "adverse_50c": 0.35073,
+        "signed_midmean_usd": -0.02231,
+        "signed_midmedian_usd": 0.01,
+        "positive_direction_fraction": 0.50314
+      },
+      "60s": {
+        "n": 5079,
+        "favorable_50c": 0.40933,
+        "adverse_50c": 0.39161,
+        "signed_midmean_usd": -0.00222,
+        "signed_midmedian_usd": 0.06,
+        "positive_direction_fraction": 0.5125
+      },
+      "120s": {
+        "n": 5088,
+        "favorable_50c": 0.43436,
+        "adverse_50c": 0.42001,
+        "signed_midmean_usd": 0.01519,
+        "signed_midmedian_usd": 0.01,
+        "positive_direction_fraction": 0.50098
+      }
+    },
+    "STRUCTURE_PULLBACK_QUALITY": {
+      "n_root": 1014,
+      "1s": {
+        "n": 1008,
+        "favorable_50c": 0.0744,
+        "adverse_50c": 0.03571,
+        "signed_midmean_usd": 0.03573,
+        "signed_midmedian_usd": 0.0,
+        "positive_direction_fraction": 0.48313
+      },
+      "3s": {
+        "n": 999,
+        "favorable_50c": 0.14515,
+        "adverse_50c": 0.13213,
+        "signed_midmean_usd": 0.04569,
+        "signed_midmedian_usd": 0.0235,
+        "positive_direction_fraction": 0.52352
+      },
+      "10s": {
+        "n": 1000,
+        "favorable_50c": 0.274,
+        "adverse_50c": 0.236,
+        "signed_midmean_usd": 0.049,
+        "signed_midmedian_usd": 0.055,
+        "positive_direction_fraction": 0.522
+      },
+      "30s": {
+        "n": 1001,
+        "favorable_50c": 0.36563,
+        "adverse_50c": 0.33766,
+        "signed_midmean_usd": 0.06473,
+        "signed_midmedian_usd": 0.045,
+        "positive_direction_fraction": 0.51748
+      },
+      "60s": {
+        "n": 998,
+        "favorable_50c": 0.42285,
+        "adverse_50c": 0.3507,
+        "signed_midmean_usd": 0.16879,
+        "signed_midmedian_usd": 0.16825,
+        "positive_direction_fraction": 0.5491
+      },
+      "120s": {
+        "n": 992,
+        "favorable_50c": 0.44556,
+        "adverse_50c": 0.39214,
+        "signed_midmean_usd": 0.28314,
+        "signed_midmedian_usd": 0.10325,
+        "positive_direction_fraction": 0.51815
+      }
+    }
+  },
+  "historical_coinnexx_r9_real_synth_eight_sample_days_markout_only": {
+    "REAL": {
+      "entries": 11433,
+      "equal_day_count": 8,
+      "1s_positive_markout_share_weighted": 0.19332,
+      "1s_mean_markout_usd_weighted": -0.19948,
+      "3s_positive_markout_share_weighted": 0.28191,
+      "3s_mean_markout_usd_weighted": -0.20633,
+      "10s_positive_markout_share_weighted": 0.3615,
+      "10s_mean_markout_usd_weighted": -0.22779,
+      "20s_positive_markout_share_weighted": 0.40199,
+      "20s_mean_markout_usd_weighted": -0.22692,
+      "30s_positive_markout_share_weighted": 0.42515,
+      "30s_mean_markout_usd_weighted": -0.20053,
+      "mean_daily_median_entry_spread_unweighted": 0.205
+    },
+    "SYNTH": {
+      "entries": 12073,
+      "equal_day_count": 8,
+      "1s_positive_markout_share_weighted": 0.39444,
+      "1s_mean_markout_usd_weighted": 0.04535,
+      "3s_positive_markout_share_weighted": 0.52502,
+      "3s_mean_markout_usd_weighted": 0.35223,
+      "10s_positive_markout_share_weighted": 0.86151,
+      "10s_mean_markout_usd_weighted": 1.04317,
+      "20s_positive_markout_share_weighted": 0.67868,
+      "20s_mean_markout_usd_weighted": 1.38301,
+      "30s_positive_markout_share_weighted": 0.61326,
+      "30s_mean_markout_usd_weighted": 0.69442,
+      "mean_daily_median_entry_spread_unweighted": 0.18875
+    }
+  },
+  "source_time_check": "All signals completed 5s at end_ms, 2 of 3 completed H1/M30/M15 regimes, future-unobservable labels excluded, next actual tick executable fill",
+  "code_unit_tests": 18,
+  "owner_candidate_gates": {
+    "overall": ">10% improvement vs latest approved cumulative EA",
+    "category": ">10% predeclared category KPI vs latest approved cumulative EA",
+    "approved_EA_current": "NOT DESIGNATED",
+    "pass_status": "NOT APPLICABLE: no owner-approved Alpha EA designated; none of tested variants produced positive Jan net"
+  },
+  "oos_status": "Jan exploratory, no untouched future performance claimed",
+  "august": "SEALED",
+  "mt5_new_tick_uploads": "PROHIBITED",
+  "mt5_real_tick_M1_report": "NOT REQUESTED; NO CANDIDATE",
+  "decision": "REJECT_ALL_SIX_STATIC_STOP_TARGET_ENTRY_HOLD_PAIRS_IN_THIS_PREREG; CONTINUE_DIAGNOSTIC_RESEARCH",
+  "unverified": [
+    "Coinexx cost calibration",
+    "accepted baseline EA lineage",
+    "MT5 M1 real-tick report on proposed EA",
+    "future month validation"
+  ],
+  "files": {
+    "raw_trades_csv": "local only, not uploaded",
+    "daily_record": "daily_all_source_dates.csv",
+    "weekly_record": "weekly_UTC_ISO_PROVISIONAL.csv"
+  }
+}
