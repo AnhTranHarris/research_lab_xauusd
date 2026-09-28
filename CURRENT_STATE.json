@@ -45,7 +45,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_013_BANK_THEN_REQUALIFIED_REENTRY",
-    "current_unit_state": "READY",
+    "current_unit_state": "STARTED_NEXT_CAPACITY_MONTH1",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3483,6 +3483,19 @@
       "conclusion": "Even with causal profit-lock protection and +5s persistence proof, extending the original STRONG_RUNNER position does not robustly improve net+GP while preserving >=95% banked winners. Pivot to bank-then-requalified-reentry topology.",
       "source_sha256": "75a76df258a92c57d4562994107fbd9a396393c6631c59c89856b004a5d69e3f",
       "result_sha256": "13de949d19fe40728e2dfae6d517448c8d10af1f8bb7f8e3d74d3d040365039e",
+      "august_accessed": false
+    },
+    "hold_exit_013_bank_then_requalified_reentry": {
+      "status": "STARTED_POLLING_SAFE_CAPACITY_MAP",
+      "parent": "HOLD_EXIT005 + frozen ENTRY017-024 ownership; STRONG_RUNNER banked at +1s",
+      "mechanism": "Bank original STRONG_RUNNER at +1s, remain flat, then map capacity of a fresh same-direction re-entry at later causal checkpoints with a new $0.20 round-trip cost.",
+      "source_sha256": "23374802026bb170516772488224f723a11b5ed117579e79a952b1a2e41f86f0",
+      "drive_source_id": "1c50Rveru2oJqiAWvYx_F4ePdQRfvwzKV",
+      "drive_started_id": "1Fdi8gdzTSToOAEThL6xcCYYrHXVCrIRe",
+      "completed_units": [
+        "STARTED_MANIFEST"
+      ],
+      "first_incomplete_unit": "CAPACITY_MONTH_1",
       "august_accessed": false
     }
   },
