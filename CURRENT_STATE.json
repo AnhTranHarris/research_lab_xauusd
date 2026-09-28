@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_003_H1_H4_RETEST_RECLAIM_RECONSTRUCTION",
-    "current_unit_state": "READY_JAN_MAR_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_021_REENTRY_ABANDON_OR_NEW_SLEEVE",
+    "current_unit_state": "READY_ORTHOGONAL_SLEEVE_DESIGN",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3825,6 +3825,21 @@
       "parent": "NET002 completed-body H1/H4 structural ownership evidence",
       "hypothesis": "After completed HTF body-close BOS, require a causal lower-timeframe retest/penetration of the broken structural boundary followed by owner-direction reclaim/acceptance before entry. This aims to reject false July breakouts without numerically retuning the NET002 H1 threshold.",
       "validation": "Jan-Mar discovery; April calibration; May-Jul frozen forward only after freeze; August sealed.",
+      "august_accessed": false
+    },
+    "hold_exit_017_to_020_timeout_recovery": {
+      "status": "VERIFIED_DURABLE",
+      "summary_path": "results/R9B_GAMMA_DYNAMIC_HOLD_EXIT_017_TO_020_TIMEOUT_RECOVERY.json",
+      "summary_commit": "6a9b7e1db5e28efed11e4c7972dcb0db8123d858",
+      "decisions": {
+        "017": "REJECT_FROZEN_STRUCTURAL_RULE",
+        "018": "REJECT_STRUCTURAL_QUALITY_ROUTER",
+        "019": "REJECT_ONLINE_REGIME_ABSTENTION",
+        "020": "REJECT_OPPORTUNITY_RESET_RULE"
+      },
+      "conclusion": "Post-bank/fresh-signal re-entry family exhausted through structural, quality, online-regime, and reset variants; pivot orthogonal.",
+      "first_incomplete_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_021_REENTRY_ABANDON_OR_NEW_SLEEVE",
+      "may_july_accessed": false,
       "august_accessed": false
     }
   },
