@@ -47,7 +47,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION",
-    "current_unit_state": "FROZEN_FORWARD_MAY_READY",
+    "current_unit_state": "FROZEN_FORWARD_JUNE_READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4501,10 +4501,27 @@
       "april_evaluator_commit": "12d32a6fa9fc29d1f58ec0ee4a17687ca3372a19",
       "april_manifest_commit": "41188739ede03633bc2fe816057c5d29b939a143",
       "checkpoint_library_path": "/R9_Gamma_Checkpoints/NET024",
-      "first_incomplete_stage": "NET024_FROZEN_FORWARD_MAY",
-      "may_jul_accessed": false,
+      "first_incomplete_stage": "NET024_FROZEN_FORWARD_JUNE",
+      "may_jul_accessed": true,
       "august_accessed": false,
-      "status_note": "Research only; April calibration did not show profitability (net remains negative) and PF decreased slightly. No promotion or MT5-build authorization."
+      "status_note": "Research only; April calibration did not show profitability (net remains negative) and PF decreased slightly. No promotion or MT5-build authorization.",
+      "may": {
+        "status": "VERIFIED_DURABLE_FROZEN_FORWARD",
+        "trades": 24832,
+        "winners": 16892,
+        "net": -4298.193000018506,
+        "gross_loss": -9443.033500005935,
+        "pf": 0.5448292119247692,
+        "net_delta": 127.1025000005202,
+        "gross_loss_reduction": 308.7120000001378,
+        "winner_retention_pct": 97.01355387089363,
+        "trade_retention_pct": 97.28501469147895,
+        "result_sha256": "a602714cc7634bf6b5c2fe7b56e3ce1ae978152f51334c3a98690a942579fcd3",
+        "ledger_sha256": "aa685824f1f6e33c4da95bf72bab07cbc7220f848daa1c13fdb0cc513af7f5fd",
+        "result_commit": "cb1b379dea2b432b15376912f091b42423871fcf",
+        "checkpoint_commit": "a8525fbf7998d6990ce74e9c26d88fa0851e3963"
+      },
+      "forward_runner_commit": "abdf0bb91cdf04c81df69aae33c7eb35f7d6688b"
     }
   },
   "gamma2_benchmark_recovery": {
