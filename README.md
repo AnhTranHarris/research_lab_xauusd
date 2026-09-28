@@ -6,7 +6,7 @@
 
 **Sole live control plane:** [Alpha-only lock](research/R10_Alpha/ALPHA_ONLY_LOCK.md) → [canonical R10 Alpha master prompt](research/R10_Alpha/MASTER_RESEARCH_PROMPT_CANONICAL.md) → [Alpha CURRENT_STATE](CURRENT_STATE.json) → [active Alpha handoff](https://docs.google.com/document/d/14ElgUCCXZeu7y4go9RAR5-v06rU_yOPqskQCCsqPRA4/edit) → [source manifest](research/R10_Alpha/source_manifest.json).
 
-**Project:** Gold MUWHAHA Miner; XAUUSD only; original Dukascopy January–July 2026 causal tick-first Python engine. August SEALED. Current: initial January Entry+Hold accuracy discovery 001 was tested and rejected; next experiment 002 is NOT YET COMPLETED. **There is NO designated owner-approved Alpha cumulative EA and no qualifying >10% breakthrough or newly approved MT5 build.**
+**Project:** Gold MUWHAHA Miner; XAUUSD only; immutable Dukascopy Jan–Jul source, August SEALED. Initial clean, preregistered independent January Entry/Hold accuracy research is finished NEGATIVE. Old Alpha Entry/Hold001's six configurations and old 002 plan are QUARANTINED. Current next unit is [CLEAN_ALPHA_ENTRY_HOLD_001 in alpha/CURRENT_STATE](CURRENT_STATE.json); no >10% qualifying strategy, approved cumulative EA, MQL5 version, or new Coinexx tester result.
 
 **Research:** [Alpha workspace](research/R10_Alpha/README.md) • [Python engine](scripts/r10_alpha_dukas) • [Alpha results](results/R10_Alpha/README.md) • [real/synth correlation](research/R10_Alpha/R9_REAL_SYNTH_TICKWISE_CORRELATION_FAST_REFERENCE_V2.md).
 
