@@ -1,0 +1,759 @@
+{
+  "august": "SEALED",
+  "days": [
+    {
+      "buy": 777,
+      "date": "2026-01-02",
+      "entry_events": 1525,
+      "filename": "R9_REAL_2026-01-02_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.1948800548320817,
+          "observed": 1459,
+          "positive": 181,
+          "sum_markout_usd_per_oz": -284.3300000000072
+        },
+        "10": {
+          "mean_markout_usd_per_oz": -0.21962290502792217,
+          "observed": 1432,
+          "positive": 430,
+          "sum_markout_usd_per_oz": -314.49999999998454
+        },
+        "20": {
+          "mean_markout_usd_per_oz": -0.2103335649756795,
+          "observed": 1439,
+          "positive": 532,
+          "sum_markout_usd_per_oz": -302.6700000000028
+        },
+        "3": {
+          "mean_markout_usd_per_oz": -0.19303261623871354,
+          "observed": 1441,
+          "positive": 325,
+          "sum_markout_usd_per_oz": -278.1599999999862
+        },
+        "30": {
+          "mean_markout_usd_per_oz": -0.20715194346289487,
+          "observed": 1415,
+          "positive": 556,
+          "sum_markout_usd_per_oz": -293.11999999999625
+        }
+      },
+      "label": "REAL",
+      "rows": 341569,
+      "sell": 748,
+      "sha256_original_gzip": "6bb8d01f928e5a06f864b87c274f2916c3a6554a2352208191830d685e28655d"
+    },
+    {
+      "buy": 203,
+      "date": "2026-01-30",
+      "entry_events": 402,
+      "filename": "R9_REAL_2026-01-30_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.25344139650870806,
+          "observed": 401,
+          "positive": 116,
+          "sum_markout_usd_per_oz": -101.62999999999192
+        },
+        "10": {
+          "mean_markout_usd_per_oz": -0.8242394014962151,
+          "observed": 401,
+          "positive": 164,
+          "sum_markout_usd_per_oz": -330.51999999998225
+        },
+        "20": {
+          "mean_markout_usd_per_oz": -0.8783919597989844,
+          "observed": 398,
+          "positive": 172,
+          "sum_markout_usd_per_oz": -349.5999999999958
+        },
+        "3": {
+          "mean_markout_usd_per_oz": -0.35012437810943237,
+          "observed": 402,
+          "positive": 150,
+          "sum_markout_usd_per_oz": -140.74999999999181
+        },
+        "30": {
+          "mean_markout_usd_per_oz": -0.97909547738694,
+          "observed": 398,
+          "positive": 179,
+          "sum_markout_usd_per_oz": -389.6800000000021
+        }
+      },
+      "label": "REAL",
+      "rows": 674427,
+      "sell": 199,
+      "sha256_original_gzip": "b54dfd22e3c809053b4db1bf073614d0a761532ca565c643bce434c27f444d58"
+    },
+    {
+      "buy": 718,
+      "date": "2026-02-02",
+      "entry_events": 1475,
+      "filename": "R9_REAL_2026-02-02_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.19668707482993206,
+          "observed": 1470,
+          "positive": 547,
+          "sum_markout_usd_per_oz": -289.1300000000001
+        },
+        "10": {
+          "mean_markout_usd_per_oz": -0.19381731424677384,
+          "observed": 1467,
+          "positive": 680,
+          "sum_markout_usd_per_oz": -284.3300000000172
+        },
+        "20": {
+          "mean_markout_usd_per_oz": -0.24420477815701103,
+          "observed": 1465,
+          "positive": 690,
+          "sum_markout_usd_per_oz": -357.76000000002114
+        },
+        "3": {
+          "mean_markout_usd_per_oz": -0.1875629680054581,
+          "observed": 1469,
+          "positive": 651,
+          "sum_markout_usd_per_oz": -275.53000000001794
+        },
+        "30": {
+          "mean_markout_usd_per_oz": -0.15537678207739733,
+          "observed": 1473,
+          "positive": 729,
+          "sum_markout_usd_per_oz": -228.87000000000626
+        }
+      },
+      "label": "REAL",
+      "rows": 594529,
+      "sell": 757,
+      "sha256_original_gzip": "24e4b31935ead7b0eb039fe84dc8972c59500b362cac21721739f1b0c050b3d7"
+    },
+    {
+      "buy": 925,
+      "date": "2026-03-02",
+      "entry_events": 1827,
+      "filename": "R9_REAL_2026-03-02_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.1936458907887524,
+          "observed": 1813,
+          "positive": 424,
+          "sum_markout_usd_per_oz": -351.0800000000081
+        },
+        "10": {
+          "mean_markout_usd_per_oz": -0.24920492721163592,
+          "observed": 1786,
+          "positive": 671,
+          "sum_markout_usd_per_oz": -445.07999999998174
+        },
+        "20": {
+          "mean_markout_usd_per_oz": -0.209983286908075,
+          "observed": 1795,
+          "positive": 729,
+          "sum_markout_usd_per_oz": -376.9199999999946
+        },
+        "3": {
+          "mean_markout_usd_per_oz": -0.22377715877437443,
+          "observed": 1795,
+          "positive": 551,
+          "sum_markout_usd_per_oz": -401.6800000000021
+        },
+        "30": {
+          "mean_markout_usd_per_oz": -0.21943417366946552,
+          "observed": 1785,
+          "positive": 761,
+          "sum_markout_usd_per_oz": -391.68999999999596
+        }
+      },
+      "label": "REAL",
+      "rows": 421053,
+      "sell": 902,
+      "sha256_original_gzip": "e85b12c7b45c61a2c2676b7945bff53dc32e65a25653f0e5e8bc4a20145f1748"
+    },
+    {
+      "buy": 889,
+      "date": "2026-04-01",
+      "entry_events": 1761,
+      "filename": "R9_REAL_2026-04-01_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.18058587018952932,
+          "observed": 1741,
+          "positive": 353,
+          "sum_markout_usd_per_oz": -314.39999999997053
+        },
+        "10": {
+          "mean_markout_usd_per_oz": -0.16900115473440322,
+          "observed": 1732,
+          "positive": 699,
+          "sum_markout_usd_per_oz": -292.7099999999864
+        },
+        "20": {
+          "mean_markout_usd_per_oz": -0.13509237875287924,
+          "observed": 1732,
+          "positive": 767,
+          "sum_markout_usd_per_oz": -233.97999999998683
+        },
+        "3": {
+          "mean_markout_usd_per_oz": -0.17970080552358494,
+          "observed": 1738,
+          "positive": 538,
+          "sum_markout_usd_per_oz": -312.3199999999906
+        },
+        "30": {
+          "mean_markout_usd_per_oz": -0.10210312862108686,
+          "observed": 1726,
+          "positive": 770,
+          "sum_markout_usd_per_oz": -176.22999999999593
+        }
+      },
+      "label": "REAL",
+      "rows": 370298,
+      "sell": 872,
+      "sha256_original_gzip": "d077924c6198fbd658b5ac0dfb51068cb6ca674f7106f830c0d15f8ea43ef13b"
+    },
+    {
+      "buy": 789,
+      "date": "2026-05-01",
+      "entry_events": 1602,
+      "filename": "R9_REAL_2026-05-01_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.20050286441756482,
+          "observed": 1571,
+          "positive": 200,
+          "sum_markout_usd_per_oz": -314.9899999999943
+        },
+        "10": {
+          "mean_markout_usd_per_oz": -0.21455704270235781,
+          "observed": 1569,
+          "positive": 492,
+          "sum_markout_usd_per_oz": -336.6399999999994
+        },
+        "20": {
+          "mean_markout_usd_per_oz": -0.21529677419354548,
+          "observed": 1550,
+          "positive": 580,
+          "sum_markout_usd_per_oz": -333.7099999999955
+        },
+        "3": {
+          "mean_markout_usd_per_oz": -0.2041608168474851,
+          "observed": 1567,
+          "positive": 328,
+          "sum_markout_usd_per_oz": -319.92000000000917
+        },
+        "30": {
+          "mean_markout_usd_per_oz": -0.1907791371538961,
+          "observed": 1553,
+          "positive": 637,
+          "sum_markout_usd_per_oz": -296.28000000000065
+        }
+      },
+      "label": "REAL",
+      "rows": 350809,
+      "sell": 813,
+      "sha256_original_gzip": "fd3b09e2904b650e691fff550a1e9558177e75c70db77fea0030b560c2f99781"
+    },
+    {
+      "buy": 651,
+      "date": "2026-06-01",
+      "entry_events": 1306,
+      "filename": "R9_REAL_2026-06-01_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.23380915438323796,
+          "observed": 1289,
+          "positive": 135,
+          "sum_markout_usd_per_oz": -301.37999999999374
+        },
+        "10": {
+          "mean_markout_usd_per_oz": -0.2230751173708836,
+          "observed": 1278,
+          "positive": 380,
+          "sum_markout_usd_per_oz": -285.08999999998923
+        },
+        "20": {
+          "mean_markout_usd_per_oz": -0.23620015637215466,
+          "observed": 1279,
+          "positive": 431,
+          "sum_markout_usd_per_oz": -302.0999999999858
+        },
+        "3": {
+          "mean_markout_usd_per_oz": -0.23400628436762433,
+          "observed": 1273,
+          "positive": 258,
+          "sum_markout_usd_per_oz": -297.8899999999858
+        },
+        "30": {
+          "mean_markout_usd_per_oz": -0.1800392156862718,
+          "observed": 1275,
+          "positive": 481,
+          "sum_markout_usd_per_oz": -229.54999999999654
+        }
+      },
+      "label": "REAL",
+      "rows": 371243,
+      "sell": 655,
+      "sha256_original_gzip": "a5fb36674183c0060715c65985a8d0e2e065ac2f72158c5c81591306dd31f83b"
+    },
+    {
+      "buy": 753,
+      "date": "2026-07-01",
+      "entry_events": 1535,
+      "filename": "R9_REAL_2026-07-01_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.1906702057066916,
+          "observed": 1507,
+          "positive": 219,
+          "sum_markout_usd_per_oz": -287.33999999998423
+        },
+        "10": {
+          "mean_markout_usd_per_oz": -0.16940428380186817,
+          "observed": 1494,
+          "positive": 518,
+          "sum_markout_usd_per_oz": -253.08999999999105
+        },
+        "20": {
+          "mean_markout_usd_per_oz": -0.1832931726907583,
+          "observed": 1494,
+          "positive": 582,
+          "sum_markout_usd_per_oz": -273.83999999999287
+        },
+        "3": {
+          "mean_markout_usd_per_oz": -0.18774451097803926,
+          "observed": 1503,
+          "positive": 353,
+          "sum_markout_usd_per_oz": -282.179999999993
+        },
+        "30": {
+          "mean_markout_usd_per_oz": -0.14979784366575513,
+          "observed": 1484,
+          "positive": 610,
+          "sum_markout_usd_per_oz": -222.29999999998063
+        }
+      },
+      "label": "REAL",
+      "rows": 338441,
+      "sell": 782,
+      "sha256_original_gzip": "023f1761186fc95594e197c6adc11635571cc2e2e72a989335b50bbfd633969b"
+    },
+    {
+      "buy": 559,
+      "date": "2026-01-02",
+      "entry_events": 1083,
+      "filename": "R9_SYNTH_2026-01-02_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.06416435826409281,
+          "observed": 1083,
+          "positive": 285,
+          "sum_markout_usd_per_oz": -69.49000000001251
+        },
+        "10": {
+          "mean_markout_usd_per_oz": 0.41824561403507265,
+          "observed": 1083,
+          "positive": 915,
+          "sum_markout_usd_per_oz": 452.95999999998367
+        },
+        "20": {
+          "mean_markout_usd_per_oz": 0.5848753462603526,
+          "observed": 1083,
+          "positive": 730,
+          "sum_markout_usd_per_oz": 633.4199999999619
+        },
+        "3": {
+          "mean_markout_usd_per_oz": 0.03817174515232783,
+          "observed": 1083,
+          "positive": 457,
+          "sum_markout_usd_per_oz": 41.33999999997104
+        },
+        "30": {
+          "mean_markout_usd_per_oz": 0.30322550831790807,
+          "observed": 1082,
+          "positive": 678,
+          "sum_markout_usd_per_oz": 328.0899999999765
+        }
+      },
+      "label": "SYNTH",
+      "rows": 330217,
+      "sell": 524,
+      "sha256_original_gzip": "8d1d3bb796686b284b1b6136f7fbd22db270b2f5229268c010a68ab6d885b2c7"
+    },
+    {
+      "buy": 600,
+      "date": "2026-01-30",
+      "entry_events": 1211,
+      "filename": "R9_SYNTH_2026-01-30_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": 0.30117258464078317,
+          "observed": 1211,
+          "positive": 763,
+          "sum_markout_usd_per_oz": 364.71999999998843
+        },
+        "10": {
+          "mean_markout_usd_per_oz": 2.3804789430222937,
+          "observed": 1211,
+          "positive": 1101,
+          "sum_markout_usd_per_oz": 2882.7599999999975
+        },
+        "20": {
+          "mean_markout_usd_per_oz": 3.0504376548307004,
+          "observed": 1211,
+          "positive": 815,
+          "sum_markout_usd_per_oz": 3694.079999999978
+        },
+        "3": {
+          "mean_markout_usd_per_oz": 1.0243848059454859,
+          "observed": 1211,
+          "positive": 834,
+          "sum_markout_usd_per_oz": 1240.5299999999834
+        },
+        "30": {
+          "mean_markout_usd_per_oz": 1.555012386457461,
+          "observed": 1211,
+          "positive": 730,
+          "sum_markout_usd_per_oz": 1883.1199999999853
+        }
+      },
+      "label": "SYNTH",
+      "rows": 635274,
+      "sell": 611,
+      "sha256_original_gzip": "5f2cc9fd306bd812196b6712faa7ade94700f64883b4e0266fb7288916577fbd"
+    },
+    {
+      "buy": 1086,
+      "date": "2026-02-02",
+      "entry_events": 2190,
+      "filename": "R9_SYNTH_2026-02-02_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": 0.28091780821917434,
+          "observed": 2190,
+          "positive": 1370,
+          "sum_markout_usd_per_oz": 615.2099999999919
+        },
+        "10": {
+          "mean_markout_usd_per_oz": 2.2337031963470295,
+          "observed": 2190,
+          "positive": 1983,
+          "sum_markout_usd_per_oz": 4891.809999999995
+        },
+        "20": {
+          "mean_markout_usd_per_oz": 2.8597716894977196,
+          "observed": 2190,
+          "positive": 1503,
+          "sum_markout_usd_per_oz": 6262.900000000006
+        },
+        "3": {
+          "mean_markout_usd_per_oz": 0.9742374429223695,
+          "observed": 2190,
+          "positive": 1483,
+          "sum_markout_usd_per_oz": 2133.579999999989
+        },
+        "30": {
+          "mean_markout_usd_per_oz": 1.4569771689497786,
+          "observed": 2190,
+          "positive": 1317,
+          "sum_markout_usd_per_oz": 3190.780000000015
+        }
+      },
+      "label": "SYNTH",
+      "rows": 570377,
+      "sell": 1104,
+      "sha256_original_gzip": "dcedb28f7453c80d2dec5ffe5d386dad1661134ba61765337155fbbaeb6213a2"
+    },
+    {
+      "buy": 1011,
+      "date": "2026-03-02",
+      "entry_events": 2035,
+      "filename": "R9_SYNTH_2026-03-02_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": 0.003400491400494565,
+          "observed": 2035,
+          "positive": 848,
+          "sum_markout_usd_per_oz": 6.920000000006439
+        },
+        "10": {
+          "mean_markout_usd_per_oz": 0.8222751842751846,
+          "observed": 2035,
+          "positive": 1779,
+          "sum_markout_usd_per_oz": 1673.3300000000008
+        },
+        "20": {
+          "mean_markout_usd_per_oz": 1.089754299754305,
+          "observed": 2035,
+          "positive": 1392,
+          "sum_markout_usd_per_oz": 2217.6500000000106
+        },
+        "3": {
+          "mean_markout_usd_per_oz": 0.24958210422812846,
+          "observed": 2034,
+          "positive": 1151,
+          "sum_markout_usd_per_oz": 507.6500000000133
+        },
+        "30": {
+          "mean_markout_usd_per_oz": 0.49821042281219746,
+          "observed": 2034,
+          "positive": 1236,
+          "sum_markout_usd_per_oz": 1013.3600000000097
+        }
+      },
+      "label": "SYNTH",
+      "rows": 417064,
+      "sell": 1024,
+      "sha256_original_gzip": "888c1ffd48cfc9f30313cb22f609720cadfd7b3ce7e215e3f8ffcb22d072868f"
+    },
+    {
+      "buy": 924,
+      "date": "2026-04-01",
+      "entry_events": 1832,
+      "filename": "R9_SYNTH_2026-04-01_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.02875545851528698,
+          "observed": 1832,
+          "positive": 723,
+          "sum_markout_usd_per_oz": -52.68000000000575
+        },
+        "10": {
+          "mean_markout_usd_per_oz": 0.6454858078602574,
+          "observed": 1832,
+          "positive": 1605,
+          "sum_markout_usd_per_oz": 1182.5299999999916
+        },
+        "20": {
+          "mean_markout_usd_per_oz": 0.9199235390496893,
+          "observed": 1831,
+          "positive": 1280,
+          "sum_markout_usd_per_oz": 1684.379999999981
+        },
+        "3": {
+          "mean_markout_usd_per_oz": 0.14026746724891093,
+          "observed": 1832,
+          "positive": 980,
+          "sum_markout_usd_per_oz": 256.9700000000048
+        },
+        "30": {
+          "mean_markout_usd_per_oz": 0.5069797924631343,
+          "observed": 1831,
+          "positive": 1177,
+          "sum_markout_usd_per_oz": 928.2799999999988
+        }
+      },
+      "label": "SYNTH",
+      "rows": 368323,
+      "sell": 908,
+      "sha256_original_gzip": "e2bf60d4f2b206065f96b037fa622b8c2a3c35f71ecfe967afe47bc4ff374577"
+    },
+    {
+      "buy": 602,
+      "date": "2026-05-01",
+      "entry_events": 1221,
+      "filename": "R9_SYNTH_2026-05-01_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.0941031941031871,
+          "observed": 1221,
+          "positive": 223,
+          "sum_markout_usd_per_oz": -114.89999999999145
+        },
+        "10": {
+          "mean_markout_usd_per_oz": 0.3816380016380139,
+          "observed": 1221,
+          "positive": 972,
+          "sum_markout_usd_per_oz": 465.980000000015
+        },
+        "20": {
+          "mean_markout_usd_per_oz": 0.5651105651105666,
+          "observed": 1221,
+          "positive": 807,
+          "sum_markout_usd_per_oz": 690.0000000000018
+        },
+        "3": {
+          "mean_markout_usd_per_oz": 0.006003276003282648,
+          "observed": 1221,
+          "positive": 436,
+          "sum_markout_usd_per_oz": 7.330000000008113
+        },
+        "30": {
+          "mean_markout_usd_per_oz": 0.28253071253072687,
+          "observed": 1221,
+          "positive": 752,
+          "sum_markout_usd_per_oz": 344.97000000001754
+        }
+      },
+      "label": "SYNTH",
+      "rows": 349473,
+      "sell": 619,
+      "sha256_original_gzip": "b825578219102f6f3e528c69c102045618fc9d5e209d7f2720da7093d3187cc6"
+    },
+    {
+      "buy": 612,
+      "date": "2026-06-01",
+      "entry_events": 1221,
+      "filename": "R9_SYNTH_2026-06-01_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.0937100737100827,
+          "observed": 1221,
+          "positive": 223,
+          "sum_markout_usd_per_oz": -114.42000000001099
+        },
+        "10": {
+          "mean_markout_usd_per_oz": 0.40152334152334096,
+          "observed": 1221,
+          "positive": 994,
+          "sum_markout_usd_per_oz": 490.2599999999993
+        },
+        "20": {
+          "mean_markout_usd_per_oz": 0.5832923832923846,
+          "observed": 1221,
+          "positive": 815,
+          "sum_markout_usd_per_oz": 712.2000000000016
+        },
+        "3": {
+          "mean_markout_usd_per_oz": 0.00726453726453345,
+          "observed": 1221,
+          "positive": 455,
+          "sum_markout_usd_per_oz": 8.869999999995343
+        },
+        "30": {
+          "mean_markout_usd_per_oz": 0.23303030303031103,
+          "observed": 1221,
+          "positive": 741,
+          "sum_markout_usd_per_oz": 284.53000000000975
+        }
+      },
+      "label": "SYNTH",
+      "rows": 320815,
+      "sell": 609,
+      "sha256_original_gzip": "0bcc1bd555237c73dc0595234a2e3d790e65584a237b517646e60aa15e8d48bb"
+    },
+    {
+      "buy": 632,
+      "date": "2026-07-01",
+      "entry_events": 1280,
+      "filename": "R9_SYNTH_2026-07-01_ticks.csv.gz",
+      "horizons": {
+        "1": {
+          "mean_markout_usd_per_oz": -0.06860156250000742,
+          "observed": 1280,
+          "positive": 327,
+          "sum_markout_usd_per_oz": -87.8100000000095
+        },
+        "10": {
+          "mean_markout_usd_per_oz": 0.43319531249999627,
+          "observed": 1280,
+          "positive": 1052,
+          "sum_markout_usd_per_oz": 554.4899999999952
+        },
+        "20": {
+          "mean_markout_usd_per_oz": 0.6258124999999989,
+          "observed": 1280,
+          "positive": 851,
+          "sum_markout_usd_per_oz": 801.0399999999986
+        },
+        "3": {
+          "mean_markout_usd_per_oz": 0.04364062499999051,
+          "observed": 1280,
+          "positive": 542,
+          "sum_markout_usd_per_oz": 55.85999999998785
+        },
+        "30": {
+          "mean_markout_usd_per_oz": 0.3191640624999959,
+          "observed": 1280,
+          "positive": 771,
+          "sum_markout_usd_per_oz": 408.52999999999474
+        }
+      },
+      "label": "SYNTH",
+      "rows": 332906,
+      "sell": 648,
+      "sha256_original_gzip": "4ae7bba95c7eee81d56e2d97be826760ee70a493aa77dd75619d42be559ebf73"
+    }
+  ],
+  "month_coverage": "eight selected source dates Jan-Jul, not all 149 historical sessions",
+  "notes": [
+    "R9 REAL and SYNTH entries are unmatched populations",
+    "Markout ignores lifecycle closure and may run past original exit",
+    "Raw executable entry/exit sides include spread, no synthetic commission/slippage",
+    "Not a live strategy, forward test or trade realization"
+  ],
+  "status": "ORIGINAL_R9_EIGHT_DAY_FORENSIC_RECHECK_NOT_ALPHA_PNL",
+  "totals": {
+    "REAL": {
+      "entries": 11433,
+      "horizons": {
+        "1": {
+          "mean_spread_included_uncosted_markout_usd_per_oz": -0.19947382454892457,
+          "observed": 11251,
+          "positive": 2175,
+          "positive_fraction": 0.1933161496755844
+        },
+        "10": {
+          "mean_spread_included_uncosted_markout_usd_per_oz": -0.2277946052513605,
+          "observed": 11159,
+          "positive": 4034,
+          "positive_fraction": 0.3615019266959405
+        },
+        "20": {
+          "mean_spread_included_uncosted_markout_usd_per_oz": -0.22691714490674098,
+          "observed": 11152,
+          "positive": 4483,
+          "positive_fraction": 0.4019906743185079
+        },
+        "3": {
+          "mean_spread_included_uncosted_markout_usd_per_oz": -0.20633089023954027,
+          "observed": 11188,
+          "positive": 3154,
+          "positive_fraction": 0.2819091884161602
+        },
+        "30": {
+          "mean_spread_included_uncosted_markout_usd_per_oz": -0.20053290125123543,
+          "observed": 11109,
+          "positive": 4723,
+          "positive_fraction": 0.4251507786479431
+        }
+      },
+      "rows": 3462369
+    },
+    "SYNTH": {
+      "entries": 12073,
+      "horizons": {
+        "1": {
+          "mean_spread_included_uncosted_markout_usd_per_oz": 0.04535326762196277,
+          "observed": 12073,
+          "positive": 4762,
+          "positive_fraction": 0.3944338606808581
+        },
+        "10": {
+          "mean_spread_included_uncosted_markout_usd_per_oz": 1.043164085148677,
+          "observed": 12073,
+          "positive": 10401,
+          "positive_fraction": 0.861509152654684
+        },
+        "20": {
+          "mean_spread_included_uncosted_markout_usd_per_oz": 1.3830077866136465,
+          "observed": 12072,
+          "positive": 8193,
+          "positive_fraction": 0.6786779324055666
+        },
+        "3": {
+          "mean_spread_included_uncosted_markout_usd_per_oz": 0.35223078197481383,
+          "observed": 12072,
+          "positive": 6338,
+          "positive_fraction": 0.5250165672630881
+        },
+        "30": {
+          "mean_spread_included_uncosted_markout_usd_per_oz": 0.6944208782104397,
+          "observed": 12070,
+          "positive": 7402,
+          "positive_fraction": 0.6132560066280033
+        }
+      },
+      "rows": 3324449
+    }
+  }
+}
