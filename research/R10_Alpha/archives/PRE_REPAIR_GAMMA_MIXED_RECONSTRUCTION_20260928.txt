@@ -1,0 +1,432 @@
+# Native Google Docs text snapshot | ID 13xrtChGvE2MCpezzi2wN9alxHYE2NkGOweu8Fi2EJnk | revision ANLCKQk1h_pJCXXk8IAvbcyDe73E4zAk98lSoPoGZ2KdyUa1MHCYnptJ9-g0GwmImGqgZwtQqJVyAS6cShTVx82rFjkZQ8snbtBcqlOqv1I | GMM_MASTER BACKTEST RECONSTRUCTION PROTOCOL
+
+R10 ALPHA ACTIVE RESEARCH BOOTSTRAP — LIVE MASTER PROMPT SECTION 99; GOVERNANCE 114–115
+Current R10 Alpha handoff is Google Doc ID 14ElgUCCXZeu7y4go9RAR5-v06rU_yOPqskQCCsqPRA4. New Alpha chats must read its ACTIVE HANDOFF RULES, the actual REPLACED CANONICAL MASTER RESEARCH PROMPT in live Master Protocol Section 99, governance Sections 112, 114 and 115, and verify the existing GitHub alpha/CURRENT_STATE.json. The previous no-alpha-branch statement was true only at historical prelaunch creation; it no longer applies. The completed Dukascopy research engine is infrastructure, not evidence of a qualified >10% breakthrough or a pending authorized MT5 EA. Do not initiate an unauthorized build from this prompt.
+ALPHA SOURCE-ACCESS MAINTENANCE — TWO VERIFIED TICK-DATA SURFACES
+Drive R9 REAL/SYNTH tick logs, tester reports and overfit reference are indexed; Dukascopy January–July monthly XAUUSD .csv.gz ticks are visible both in the linked Drive source folder and as seven mounted ChatGPT Project source attachments. In an Alpha chat check Project files first, then use Drive fallback; do not ask for reuploads without checking both sources. Exact source IDs, month metadata, and validation precautions are in the addendum at the end of this document. August stays SEALED.
+R10 ALPHA APPLICABILITY NOTE
+The original R9 Gamma backtest protocol below is frozen historical provenance. For explicitly designated R10 Alpha work, the NEWEST appended ACTIVE SEPTEMBER 28 CORRECTION takes precedence over the older January-only preparation note and its early holdout assumptions. The validated January–July Dukascopy month-block engine already exists in the GitHub alpha branch. Read live Master Protocol Sections 112, 114 and 115; respect the dual >10% owner review gates and mandatory new-MT5-test M1 compact-report-only transfer.
+# R9 GAMMA MASTER BACKTEST RECONSTRUCTION PROTOCOL
+> **Project:** Gold MUWHAHA Miner R9 GAMMA  
+> **Instrument:** XAUUSD only  
+> **Purpose:** Authoritative instructions for rebuilding the Python research/backtesting environment and cross-referencing R9 MT5 behavior.  
+> **Scientific rule:** Preserve causal ordering. R9 SYNTH is a teacher/reference path; R9 REAL and causal market data are execution-path truth. August remains sealed unless explicitly authorized.
+## 1. Authoritative Data Sources
+### A. Primary Python market-data corpus
+**Google Drive folder:**  
+https://drive.google.com/drive/folders/1lSCfO_awUKkbR4I6xDTy9orjIl0SrgIV?usp=drive_link
+Verified contents: XAUUSD Dukascopy compressed tick files for **January through July 2026**:
+- XAUUSD_DUKAS_2026_01_ticks.csv.gz
+- XAUUSD_DUKAS_2026_02_ticks.csv.gz
+- XAUUSD_DUKAS_2026_03_ticks.csv.gz
+- XAUUSD_DUKAS_2026_04_ticks.csv.gz
+- XAUUSD_DUKAS_2026_05_ticks.csv.gz
+- XAUUSD_DUKAS_2026_06_ticks.csv.gz
+- XAUUSD_DUKAS_2026_07_ticks.csv.gz
+These files are the canonical source for rebuilding the Python tick stream and every derived candle series.
+### B. R9 MT5 tick-log corpus
+**Google Drive folder:**  
+https://drive.google.com/drive/folders/1CidEgLMNVfgBZg6UYLYqcanc0oqgt9Vj?usp=drive_link
+This folder contains the R9 MT5 Strategy Tester tick logs from the **M1 test configuration** for:
+1. **Every tick** — SYNTH
+2. **Every tick based on real ticks** — REAL
+Verified split archives:
+- GoldMuwahaha_R9_TickLog_SYNTH.csv.gz.part01
+- GoldMuwahaha_R9_TickLog_SYNTH.csv.gz.part02
+- GoldMuwahaha_R9_TickLog_REAL.csv.gz.part01
+- GoldMuwahaha_R9_TickLog_REAL.csv.gz.part02
+- GoldMuwahaha_R9_TickLog_REAL.csv.gz.part03
+Reassemble parts byte-for-byte in numeric order before gzip decompression. Never decompress individual split parts as independent gzip archives unless verification proves they were independently compressed.
+### C. R9 MT5 Strategy Tester reports
+**Google Drive folder:**  
+https://drive.google.com/drive/folders/1FeQSPtlWXtgncXE6bsCtWNlKFS9t17Pr?usp=drive_link
+Verified reports:
+- ReportTester-871471_jan2026_jul2026_R9_ticklog_synth.xlsx
+- ReportTester-871471_jan2026_jul2026_R9_ticklog_real.xlsx
+These reports are the authoritative MT5 summary evidence for the corresponding SYNTH and REAL runs.
+## 2. Required Python Reconstruction
+Build one canonical XAUUSD tick engine first. All candle engines MUST be derived from that exact ordered tick stream.
+Required representations:
+| ID | Resolution |
+|---|---|
+| TICK | native tick/event stream |
+| S025 | 0.25 second / 250 ms |
+| S1 | 1 second |
+| S5 | 5 seconds |
+| S15 | 15 seconds |
+| S30 | 30 seconds |
+| S45 | 45 seconds |
+| M1 | 1 minute |
+| M5 | 5 minutes |
+| M7 | 7 minutes |
+| M15 | 15 minutes |
+| M30 | 30 minutes |
+| M45 | 45 minutes |
+| H1 | 1 hour |
+| H4 | 4 hours |
+| H12 | 12 hours |
+| D1 | 1 day |
+Do not independently resample an already-resampled timeframe when canonical ticks are available. Every bar family should descend from the same canonical tick chronology.
+## 3. Canonical Tick Schema and Validation
+At load time:
+1. decompress each monthly CSV.GZ without altering row order;
+2. identify timestamp, bid, ask, and available volume fields;
+3. normalize timestamps to one explicit timezone convention, preferably UTC;
+4. sort only when source ordering is proven invalid; otherwise preserve source sequence;
+5. preserve duplicate timestamps because multiple legitimate ticks may share a timestamp;
+6. reject impossible bid/ask states only through explicit QC rules;
+7. compute spread as
+   `spread_t = ask_t - bid_t`;
+8. record source month and original row position for reproducibility.
+Before any strategy test, report:
+- rows/ticks;
+- first timestamp;
+- last timestamp;
+- duplicate-timestamp count;
+- non-monotonic timestamp count;
+- missing bid/ask count;
+- negative-spread count;
+- min/median/mean/max spread;
+- trading-day count;
+- file checksum if available.
+No silent cleaning.
+## 4. Candle Construction
+For interval `[t_0,t_1)`, define a price series `p_t`. Bid, ask, and mid-price bars should remain distinguishable when required.
+Mid:
+`m_t = (bid_t + ask_t)/2`
+OHLC:
+`O = first(p_t)`  
+`H = max(p_t)`  
+`L = min(p_t)`  
+`C = last(p_t)`
+Tick count:
+`N = number of ticks in [t_0,t_1)`
+Spread statistics:
+`S_mean = mean(ask_t-bid_t)`  
+`S_max = max(ask_t-bid_t)`
+Directional efficiency:
+`eta = |C-O| / (sum_k |p_k-p_{k-1}| + epsilon)`
+Range:
+`R = H-L`
+Turn count:
+`T = sum_{k=2}^n 1[sign(Delta p_k) != sign(Delta p_{k-1})]`
+For 250 ms bars, boundaries must be deterministic and aligned to UTC clock quarters:
+00.000–00.250, 00.250–00.500, 00.500–00.750, 00.750–01.000.
+For nonstandard M7 bars, document the anchor explicitly. Default anchor is UTC midnight unless project evidence specifies another causal session anchor.
+## 5. Empty-Bar Policy
+Never invent price movement. For intervals with zero ticks:
+- retain an explicit empty-bar flag;
+- do not fabricate H/L range;
+- forward-filled close may be supplied only as a separate analytical field when a downstream indicator requires it;
+- strategy execution must not treat a forward-filled bar as a traded market event.
+## 6. R9 SYNTH vs REAL Reconstruction
+The R9 logger corpus is not interchangeable with Dukascopy market data.
+Use it to reconstruct:
+- exact R9 event timing;
+- M1 bracket/event state;
+- entry state and direction;
+- spread;
+- displacement;
+- efficiency;
+- range;
+- turns;
+- ATR/session/gate state where logged;
+- position state;
+- entry price;
+- MFE;
+- MAE;
+- stop/trailing state;
+- exit/event markers.
+The purpose is to explain why the same R9 logic behaved differently under:
+- MT5 **Every tick** (SYNTH), and
+- MT5 **Every tick based on real ticks** (REAL).
+Do not train a Python model to imitate SYNTH profitability and then claim that result as real-path validation.
+## 7. Core Trade Mathematics
+For trade `i`, signed direction `d_i in {+1,-1}`, entry `P_i^0`, and mark `P_i(t)`:
+`E_i(t) = d_i [P_i(t)-P_i^0]`
+`MFE_i(t) = max_{0<=u<=t} E_i(u)`
+`MAE_i(t) = max_{0<=u<=t} [-E_i(u)]`
+Net trade P&L:
+`pi_i = V_i d_i(P_i^exit-P_i^0) - C_i`
+where `C_i` includes modeled spread, commission, and slippage.
+Profit factor:
+`PF = sum max(pi_i,0) / |sum min(pi_i,0)|`
+Win rate:
+`WR = N(pi_i>0)/N`
+Expectancy:
+`E[pi] = WR*AW - (1-WR)*AL`
+Loss efficiency:
+`LE = NetProfit / |GrossLoss|`
+Drawdown efficiency:
+`DE = NetProfit / MaxDrawdown`
+A useful loss-aware research objective is:
+`J = NetProfit - lambda|GrossLoss| - mu MaxDrawdown`
+## 8. Multi-Resolution Research Contract
+Each R9 GAMMA candidate must declare which temporal scales provide:
+- event detection;
+- regime/context;
+- action selection;
+- entry timing;
+- lifecycle/exit management.
+Higher timeframes must not leak unfinished-bar information into lower-timeframe decisions.
+At tick time `t`, a higher-timeframe feature is legal only if based on a bar completed at or before `t`, unless the feature is explicitly defined as a causal partial-bar feature using only observations already received.
+## 9. Causality / Anti-Look-Ahead Rules
+Hard failures:
+- using future ticks;
+- using completed bar H/L/C before that bar closes;
+- retrospective order scheduling;
+- choosing a pending-order time after seeing the future outcome;
+- using post-break returns as pre-break features;
+- favorable reconstruction of unknown intrabar ordering;
+- parameter selection using the sealed holdout;
+- reporting a contaminated experiment as validated.
+Any such result is **INVALIDATED**, regardless of profitability.
+Known invalidated historical post-R9/R10-era research includes approximately:
+- +$102K intrasecond/look-ahead result;
+- +$43K retrospective pending-order result;
+- preliminary entropy/PF>2 post-break leakage result.
+Do not resurrect these.
+## 10. Time-Split Discipline
+Primary research period currently verified in the Drive corpus:
+**January–July 2026.**
+August 2026 remains a sealed holdout unless Lord Harris explicitly authorizes unsealing.
+A research configuration may not use holdout results to:
+- choose features;
+- choose thresholds;
+- select specialists;
+- choose lifecycle parameters;
+- rank candidate models.
+## 11. R9 Benchmark Cross-Check
+Use the MT5 reports to independently extract and verify:
+- net profit;
+- gross profit;
+- gross loss;
+- profit factor;
+- total trades;
+- win rate;
+- average win/loss where derivable;
+- drawdown;
+- holding behavior where available.
+Project forensic benchmark presently recorded:
+**R9 SYNTH**
+- net ≈ +$309,122.85
+- gross loss ≈ -$16,238.66
+- trades ≈ 219,342
+- PF ≈ 20.04
+- win rate ≈ 87.14%
+- average hold ≈ 16 s
+**R9 REAL**
+- net ≈ -$50,285.28
+- gross loss ≈ -$80,465.51
+- trades ≈ 236,647
+- PF ≈ 0.375
+- win rate ≈ 43.26%
+- average hold ≈ 5 s
+Do not trust these transcribed values blindly. Re-extract them from the authoritative reports and flag any discrepancy.
+## 12. Backtest Engine Requirements
+The rebuilt Python engine must support:
+- deterministic replay;
+- bid/ask-aware execution;
+- fixed and configurable latency/slippage models;
+- commission/cost model;
+- multiple concurrent specialist sleeves;
+- independent per-sleeve lifecycle state;
+- one-position-per-scale constraints where required;
+- opposition-aware portfolio heat;
+- catastrophe memory;
+- KEEP/FLIP/ABSTAIN routing;
+- MFE/MAE logging;
+- trade-level reason codes;
+- monthly and daily attribution;
+- reproducible random seeds whenever stochastic procedures are used.
+The engine must never assume fills at an unavailable price.
+## 13. Required Validation Layers
+Every promoted experiment should produce:
+1. data-integrity report;
+2. strategy configuration;
+3. parameter set;
+4. per-month results;
+5. aggregate results;
+6. gross-loss analysis;
+7. drawdown analysis;
+8. MFE/MAE distributions;
+9. holding-time distribution;
+10. trade-count/activity analysis;
+11. cost sensitivity;
+12. parameter-neighborhood/robustness analysis;
+13. causal audit;
+14. comparison with prior champion;
+15. implementation mapping to the cumulative R9 GAMMA GitHub code.
+## 14. Cross-Reference With GitHub
+Repository:
+https://github.com/AnhTranHarris/gold-MUWHAHA-miner
+Research lineage:
+`carson/r10-r9-breakthrough-research-00-lineage`
+through
+`carson/r10-r9-breakthrough-research-14-integration`
+Historical R10 executable reconstruction began with:
+`carson/r10-from-r9-code-00-exact-r9-port`
+These historical R10 branches are research/provenance evidence only. They MUST NOT be treated as certified executable truth for the new cumulative line.
+Authoritative immutable R9 parent:
+`carson/mt5-r9-hybrid-gate-certification`
+EA: `Experts/GoldMuwahahaMiner_R9_HybridGate.mq5`
+Authoritative R9 GAMMA cumulative reconstruction begins with:
+`carson/r9-gamma-00-baseline`
+Required GAMMA branch pattern:
+`carson/r9-gamma-01-<breakthrough>`
+`carson/r9-gamma-02-<breakthrough>`
+...
+Before promoting any Python breakthrough into R9 GAMMA, determine:
+- which historical research milestone/evidence it belongs to;
+- which immediately preceding successful R9 GAMMA checkpoint is its parent;
+- whether equivalent logic already exists in MQL5;
+- whether Python and MQL5 definitions match;
+- which branch/commit implements it;
+- whether MT5 certification has occurred.
+Python research success alone is not MT5 certification. A GAMMA checkpoint is promoted only after causal/reproducibility review, cumulative-regression testing, implementation mapping, and the required MT5 certification evidence. Failed candidates roll back to the immediately preceding successful GAMMA checkpoint.
+## 15. Output Directory Contract
+Recommended local structure:
+```text
+data/
+  raw/dukas/
+  raw/r9_logger/
+  raw/mt5_reports/
+  canonical_ticks/
+  bars/
+    250ms/
+    1s/
+    5s/
+    15s/
+    30s/
+    45s/
+    1m/
+    5m/
+    7m/
+    15m/
+    30m/
+    45m/
+    1h/
+    4h/
+    12h/
+    1d/
+results/
+  qc/
+  experiments/
+  champions/
+  invalidated/
+  monthly/
+  comparisons/
+manifests/
+src/
+tests/
+```
+Do not overwrite raw evidence.
+## 16. Reproducibility Manifest
+Every run must record:
+- UTC run timestamp;
+- Git commit SHA;
+- source file names;
+- source file checksums where practical;
+- date coverage;
+- bar resolutions used;
+- strategy/specialist configuration;
+- parameters;
+- cost model;
+- random seed;
+- Python/package versions;
+- output paths;
+- aggregate metrics;
+- validation status.
+A result without a reproducibility manifest is exploratory only.
+## 17. Promotion Vocabulary
+**VALIDATED:** causal and supported by required testing.  
+**PROMOTED:** integrated into the cumulative R9 GAMMA implementation after passing the required validation gate.  
+**EXPERIMENTAL:** promising but not sufficiently certified.  
+**RECONSTRUCTED:** recovered from project evidence, exact original experiment may be unavailable.  
+**SUPERSEDED:** historically useful but replaced.  
+**INVALIDATED:** scientifically unusable due to leakage or methodological failure.
+## 18. Master Instruction to Future Research Agents
+When working on Gold MUWHAHA Miner R9 GAMMA:
+1. Read this file first.
+2. Verify source folders before testing.
+3. Rebuild/verify canonical ticks before rebuilding bars.
+4. Reconstruct all requested resolutions from the canonical tick chronology.
+5. Verify R9 SYNTH and REAL logger archives separately.
+6. Re-extract MT5 benchmark metrics from the two reports.
+7. Preserve the REAL-vs-SYNTH distinction.
+8. Preserve August as sealed.
+9. Run causal, bid/ask-aware tests.
+10. Test multiple parameter neighborhoods and monthly slices.
+11. Optimize profitability together with gross-loss containment and drawdown.
+12. Never promote a result because it is spectacular; promote it because it is reproducible, causal, robust, and implementation-compatible.
+13. Cross-check every promoted milestone against GitHub.
+14. Record failed and invalidated experiments so they are not unknowingly repeated.
+15. Preserve working R9 and validated R9 GAMMA mechanisms unless evidence justifies replacing them. Historical R10-era mechanisms are evidence/reconstruction candidates only until independently revalidated in GAMMA.
+## 19. Immediate Reconstruction Sequence
+Phase A — Data integrity  
+Verify Jan–Jul monthly archives and construct canonical tick manifests.
+Phase B — Resolution engine  
+Build and QC TICK, 250ms, 1s, 5s, 15s, 30s, 45s, 1m, 5m, 7m, 15m, 30m, 45m, 1h, 4h, 12h, and 1d representations.
+Phase C — R9 forensic engine  
+Reassemble SYNTH and REAL logger archives and reproduce their event/trade lifecycle statistics.
+Phase D — MT5 report reconciliation  
+Extract authoritative metrics from both Strategy Tester reports and reconcile them with logger-derived statistics.
+Phase E — R9 GAMMA breakthrough reconstruction  
+Reconstruct the post-R9 breakthrough sequence from project evidence, research records, and historical GitHub branches; independently revalidate each mechanism before promotion into the cumulative R9 GAMMA lineage.
+Phase F — Certification bridge  
+For every Python-promoted mechanism, map the exact state definitions, thresholds, lifecycle rules, and portfolio constraints into the next cumulative R9 GAMMA MQL5 checkpoint and require MT5 real-tick certification before calling the mechanism production-ready.
+---
+**This Markdown file is the controlling research protocol. If a later instruction conflicts with it, document the conflict explicitly and follow the user's newer explicit instruction. Never silently change the scientific protocol.**
+## R10 ALPHA MASTER RESEARCH PROMPT AND RECONSTRUCTION RULES — ALPHA-SPECIFIC OVERRIDE
+Activation: apply only to R10 Alpha requests; do not redirect a Gamma continuation to Alpha or resume the old Gamma CURRENT_STATE in Alpha. These rules supplement, not delete, the original R9 Gamma source and tick-resolution inventory above.
+Business goal: develop a reproducible, execution-aware, commercially viable XAUUSD R10 MT5 EA with measurable net PnL, gross-loss containment, drawdown control, trade velocity and $100–$500 account survival. No accuracy-only objective or assumption that a synthetic backtest guarantees live income.
+Three fixed R9 roles:
+1. R9 REAL: causal real-tick/MT5 execution starting baseline and loss/failure diagnostics, not a profit target.
+2. R9 SYNTH: aspirational performance and activity benchmark, explicitly tagged as generated-tick data; never a real-tick certificate.
+3. R9 OVERFIT: trade-by-trade behavioral teacher and what-if diagnostic, not a trade signal, future feature, or evidence of production performance.
+Reconstruction sprint: JANUARY ONLY at first. Verify source archive/hash, R9 REAL and SYNTH January trade IDs and exact entry/exit/cost semantics, and the overfit teacher action-by-action divergences. Build raw-tick/250ms/1s/5s/15s/30s/45s/M1 and higher completed-bar context only as demanded by tested mechanisms rather than rebuilding all resolutions speculatively. Tick-derived candles must preserve completed-bar end timestamps and forbid look-ahead.
+Fast reliability path: compute January golden tick ledger once, freeze immutable raw event IDs, independent lifecycle exits and minimal cached causal state; use fast in-memory/NPZ/Parquet differential screens and fault-injection tests for context-only or exactly replay-equivalent strategies. Re-run full January raw tick processing when generator/price/execution/stop/time/routing changes. Attach NET003/NET007-like children by source H1 BOS parent identity before as-of timestamps, assert no missed valid children, and strict single-account raw-first reselection; keep old Gamma investigation as test coverage, not imported market edge.
+Do not recycle standalone indicator gates or other known negative Gamma ideas. Test only explicitly different reconstructible multi-condition mechanisms, structural confirmations, entry/hold/exit ownership and realistic cost or tail-loss containment hypotheses. Frozen candidates require exact code/formula/state table: inputs, completed-time observability, signal timestamp, first executable tick, bid/ask/lot/cost arithmetic, exits, conflict/position rules, parameter bounds and candidate ID.
+Source closure: each retained improvement gets a fully saved Python source file with hash/readback, deterministic test fixtures (including future-visibility and missing-source negative tests), inputs/hashes, executable entrypoint, comparison versus R9 REAL/current Alpha, metrics and a concise MQL5 build contract. Rejected hypotheses receive short logged verdicts only. For meaningful/promoted changes create Alpha-named implementation-grade whitepapers; no unverifiable source placeholders or truncated file bodies.
+Evaluation boundaries: January is in-sample reconstruction/screening, NOT proof of profits. Before touching further periods, freeze the candidate and write its discovery/calibration/untouched-forward plan; the prior Jan–Mar / April / May–Jul gates remain default where appropriate but account honestly for any January overfitting. AUGUST SEALED. Require real-tick market costs, robustness, trade chronology, realistic broker constraints and later Python/MQL5/Coinexx MT5 tester parity before R10 production authorization; demo/live PnL claims require observed executions.
+Reporting: concise reproducible results-first update (sample window, candidate hash, count/win rate/avg win/avg loss/net/GP/GL/PF/DD, comparison to R9 REAL, in-sample versus forward/MT5/demo/live evidence class, next explicit engineering action). A negative screen is a rejected hypothesis, not a breakthrough. When a user requests only preparation or rules, stop after updating the requested artifacts.
+Alpha branch name (when user starts the new research chat): alpha. Preserve Gamma directory *shape* and artifact roles, with distinct R10_Alpha lineage, while leaving all previous Gamma records and branch content untouched. Treat master governing Sections 109–111 as controlling over this appended condensed protocol for Alpha.
+ALPHA DATA-ACCESS ADDENDUM — R9 REAL, R9 SYNTH, R9 OVERFIT AND DUKASCOPY TWO-SURFACE RECONSTRUCTION
+SCOPE: Research-source locator and handoff rule only. No Alpha branch created, no market test performed, and no change to Gamma experimental conclusions.
+A. Google Drive — source authority:
+(1) Dukascopy XAUUSD monthly tick files, January through July, seven compressed CSV/GZIP files: https://drive.google.com/drive/folders/1lSCfO_awUKkbR4I6xDTy9orjIl0SrgIV
+Names: XAUUSD_DUKAS_2026_01_ticks.csv.gz, ... 02, 03, 04, 05, 06, 07. The linked folder was inspected, and all seven separate files were present.
+(2) R9 original MT5 per-tick logger archives for 'Every tick' (SYNTH) and 'Every tick based on real ticks' (REAL): https://drive.google.com/drive/folders/1CidEgLMNVfgBZg6UYLYqcanc0oqgt9Vj
+The Drive listing contains six named parts for each R9 tick-log source: GoldMuwahaha_R9_TickLog_SYNTH.csv.gz.part01–part06 and GoldMuwahaha_R9_TickLog_REAL.csv.gz.part01–part06. Parts must be reconstructed in numerical byte order, validated by full source size/hash and compared with indexed daily partitions before using in a trade simulator; a single part is not a standalone compressed ledger.
+(3) R9 REAL/SYNTH MetaTrader 5 Strategy Tester report workbooks (M1 / one-minute chart setting): https://drive.google.com/drive/folders/1FeQSPtlWXtgncXE6bsCtWNlKFS9t17Pr
+Exact names: ReportTester-871471_jan2026_jul2026_R9_ticklog_real.xlsx (Drive file 1XofN5m44GU4RgfrjhGHZoK1uaQpGRJgq); ReportTester-871471_jan2026_jul2026_R9_ticklog_synth.xlsx (Drive file 18FRnz7k__Pu5C0LOHMdEFXEz5Ln_bMMG).
+(4) Validated daily tick logger lookup indexes: R9_REAL_TICK_DRIVE_INDEX, Drive Sheet ID 1tkXe4vjSqI5yB1_5gGp7QVDuMdND-AGzCmoUrBZQGlg; R9_SYNTH_TICK_DRIVE_INDEX, Drive Sheet ID 1VIx7mDN-sHBj2kQ5-JueV4V-sIHnFhPadOYClgLG_I8. These indexes locate underlying daily partitions; do not confuse log partitions with Dukascopy market ticks.
+(5) R9 OVERFIT teacher/behavioral reference in Google Drive: 'R9 REAL→SYNTH Monthly Overfit Reference — Tick-Level Teacher Benchmark', native Doc ID 18Ru-eSQ0ofNM2EvvSp5kaenZEML3KC5GRk8KrAN_SWs, and 'ZZ_HISTORICAL_JAN_ONLY__R9_SYNTH_TO_REAL_DIAGNOSTIC_OVERFIT_REFERENCE_2026-01', native Doc ID 1qB6__oIGgJnflplWwti-V0uvD4ncocke1fKV6H3BFOU. These are documented reference analyses and derivative-artifact pointers, NOT a separately verified third MT5 report workbook or a production-valid alpha model. Overfit/teacher outcomes must never be used as decision-time features.
+B. ChatGPT Project source attachments — second authorized raw-Dukascopy source:
+In the current project runtime, the seven byte-bearing monthly files are also mounted under /mnt/data/ with uploaded-name suffixes. January–June use XAUUSD_DUKAS_2026_0M_ticks.csv(3).gz for M=1..6; July uses XAUUSD_DUKAS_2026_07_ticks.csv(2).gz. The seven local file sizes matched the seven Google Drive folder-listing sizes exactly. These are separate Project attachment copies of the monthly compressed MARKET tick corpus, NOT the R9 EA SYNTH/REAL tester event logs. Existence in a given future session must be checked, never assumed merely from this record.
+C. Mandatory Alpha source resolution:
+At the start of the new Alpha research chat, inspect attached Project files and source index before any re-upload request. Verify for each needed month the exact name, compressed byte length, gzip format, checksum (SHA-256), date coverage, monotonic UTC timestamp ordering, bid/ask sanity and parsing schema. Use the existing local Project attachment if available and verified; otherwise retrieve the identical named original from its exact Google Drive file/folder. When both are accessible compare SHA-256 of actual bytes; equal file size alone is not proof of byte identity. Preserve the source bytes unmodified and record provenance, source kind, month, hash, test logic and exact cache build command before making any derived tick/candle or R9 reconstruction file.
+January-only debugging remains the default initial Alpha scope. The full January–July raw corpus is AVAILABLE FOR LATER FROZEN SCIENTIFIC VALIDATION, not permission to train over future months or to open sealed August. Dukascopy market ticks are independent market evidence; R9 MT5 REAL/SYNTH ticklogs are EA-specific strategy tester evidence; and OVERFIT is a deliberately contaminated diagnostic teacher. Keep these three evidence categories separately versioned in Python simulator inputs and outputs.
+D. Source availability checkpoint: Drive folder enumeration verified January–July seven original monthly gzip file entries; R9 REAL/SYNTH both six-part archives; both report workbooks; overfit Google Docs and daily indexes. Current Project attachment availability verified at /mnt/data for seven Jan–Jul monthly archives; Drive/Project byte-size agreement checked, but cross-store raw-byte SHA equality was NOT tested by downloading every Drive source. No relevant file needs to be re-uploaded merely because it is not exposed in the chat body. Any inaccessible, missing, corrupted or nonmatching file must be reported explicitly rather than silently replaced with synthetic ticks.
+END ALPHA DATA-ACCESS ADDENDUM.
+E. JANUARY–JULY CURRENT PROJECT FILE FINGERPRINTS — LOCAL PROJECT COPY ONLY (not independently downloaded Drive bytes):
+Month | /mnt/data filename | compressed bytes | locally computed SHA-256
+01 | XAUUSD_DUKAS_2026_01_ticks.csv(3).gz | 68690420 | d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5
+02 | XAUUSD_DUKAS_2026_02_ticks.csv(3).gz | 59425317 | ed3b3545c990c88d78519594c17c8915b0f679adcb0a94920ba7524f1f6d5c5d
+03 | XAUUSD_DUKAS_2026_03_ticks.csv(3).gz | 73441502 | 814ba35e72f219a58badd806ed5c0f30ef0fb4ffe56a48205d873706513bd177
+04 | XAUUSD_DUKAS_2026_04_ticks.csv(3).gz | 55259580 | 30375098f62aed6cabc32ec6b67c57c20baec9b6d9be1ce0a204e09806c1ec0f
+05 | XAUUSD_DUKAS_2026_05_ticks.csv(3).gz | 60157474 | 3a50e0f1eba3076154238290ec02842cf3744ab192e5c9a2acc1cc07367c6a0d
+06 | XAUUSD_DUKAS_2026_06_ticks.csv(3).gz | 60563202 | 34686ce53ba992dfb83ea35d555b6a4947a9216635853857c8bf11ce70c00ae2
+07 | XAUUSD_DUKAS_2026_07_ticks.csv(2).gz | 53057690 | e171e8c2fb59f3f4147a6f845eb68e664fa9c0f4815caa33acdbb42cc2f768b7
+Drive-listed sizes agree for the named base files; local SHA values are a project-session verification aid only until matching Drive bytes are checked. Future sessions may mount the same logical files with different harmless upload suffixes; select by verified month, content and SHA, not a hardcoded suffix.
+Fast-path instruction: Use only January Project .gz or verified Drive equivalent for initial rebuild; construct one causal trade ledger and reuse its compact test caches. Other months are stored, not opened for ongoing January logic tuning. When the user later authorizes evaluation, the frozen month plan applies.
+R10 ALPHA MASTER RESEARCH PROMPT — ACTIVE SEPTEMBER 28 CORRECTION: DUKASCOPY → HUMAN REVIEW → COINEXX M1 REPORT
+PRECEDENCE: This is an Alpha-only override to older January-only and prelaunch paragraphs in this document. It implements the live Master EA Research & Handoff Protocol Section 114. Preserve original R9 Gamma research provenance without replacing its earlier records.
+INPUT / SOURCE AND REPORT BUDGET: Read GitHub branch alpha/CURRENT_STATE.json, its R10 Alpha Dukascopy backtest-engine source/audit, and the original immutable Dukascopy XAUUSD January–July compressed market tick files. Reuse validated compact month-block numeric caches when available; never claim caches have transferred between runtime sessions without verifying. Use all 7 months for source coverage and monthly reporting; formally freeze a meaningful OOS evaluation plan before claiming forward validation. August is SEALED. Separate original R9 MT5 REAL/SYNTH, historical paired correlation, R9 OVERFIT diagnostic teacher and the different Dukascopy feed; never relabel one as another or attribute broker-specific outcomes to the market-feed replay.
+ENGINE: Tick-driven, stable timestamp/source-order, executable Bid/Ask, commission/slippage/spread/risk sizing, single chronological portfolio with month-boundary carry and $100–$500 survivability reporting. Rebuild custom 250 ms, 1s, 5s, 15s, 30s, 45s and M1, M5, M7, M15, M30, M45, H1, H4, H12, D1 bars on demand from raw tick order with half-open intervals and close-time signal visibility. Full daily, weekly, monthly and cross-month reports including zero-trade days. Keep all derived or duplicate tick data local, not in Drive or GitHub; persist only compact research packets, source hashes, manifests, summary tables and approved-source code.
+RESEARCH CATEGORIES: ENTRY (direction, entry quality, timing and opportunity), HOLD (persistence, survival and MFE/MAE), EXIT (stop/target/trail/order timing, avoidable losses), PROFIT (net expectancy, gross profit/loss, risk, velocity, withdrawal/survivability). Each candidate must declare a preregistered performance KPI, exact denominator, baseline, test months, and unacceptable regression constraints. A full SYSTEM candidate passes the research screener only with STRICTLY MORE THAN 10% improvement on its predefined overall KPI versus the current APPROVED cumulative EA control. A CATEGORY candidate passes the screener with STRICTLY MORE THAN 10% improvement on its category KPI versus the corresponding approved control, without unacceptable system-wide degradation. Improvements in one KPI must not be falsely labeled overall profit improvement. If net baseline is zero, tiny or negative, do not invent a naive percent improvement; choose a meaningful prespecified positive-denominator score or mark the percentage as undefined and report absolute changes. Neither gate confers automatic approval.
+TEACHER: Original R9 SYNTH defines aspirational comparable economic and trade-velocity results, not a guaranteed reproducible target and not automatically the >10% gate's denominator. R9 OVERFIT shows retrospective favorable trade outcomes; derive causal approximations of successful-trade entry/hold/exit behavior without teacher labels, oracle future information, future tick hindsight or trade memorization as live features. Historic results stay clearly labeled; no hypothetical oracle profit as executable return.
+CUMULATIVE PROMOTION PIPELINE: Python candidate → compact documented >10% research-gate packet with monthly breakdown and all tradeoffs → human owner reviews before coding → only upon explicit owner authorization, modify the latest owner-APPROVED MQL5 EA by adding the approved change while preserving earlier approved components → owner locally backtests the combined EA in Coinexx MT5 XAUUSD Strategy Tester, M1 timeframe/reporting, “Every tick based on real ticks” internally → owner exports the standard compact MT5 report → compare against prior approved EA's MT5 M1 real-tick tester report → owner explicitly promotes a new cumulative version, or reject and roll back. Repeat from last approved version. Do not launch MT5 builds, certify candidates or place orders by implication.
+HARD MT5 OUTPUT SIZE RULE: New Coinexx MT5 validations require ONLY one-minute (M1) Strategy Tester reports. DO NOT require/export/reconstruct a new per-tick MT5 logger, every-tick trading trace, six-part giant split archives or upload of tick-by-tick data for ChatGPT/Drive. Earlier original R9 ticklogger files, already stored, remain read-only historical references, not a recurrent output requirement. The real-tick test model is internal to MT5 even though the chart/report timeframe is M1. Analyze compact report metrics (gross and net, drawdown, PF, trades and dates, test settings). M1 reports alone cannot prove precise tick-by-tick Python ↔ MT5 fill parity; describe findings as broker real-tick tester aggregate confirmation and mark lower-level precision unverified. Any optional narrow diagnostic must fit storage budget and have owner's separate approval.
+HANDOFF: Save after each meaningful experiment a small provenance-linked manifest, category gate card, current approved EA version, pending owner decision, compact monthly comparison, accepted/rejected changes, methodology, source hashes and resume action in GitHub alpha and the active R10 Alpha handoff doc. Do not duplicate raw tick archives, inflate Google Drive, overwrite Gamma or use stale 'prelaunch' authority. The existing engine is infrastructure-tested; no new research candidate or Coinexx result is presumed.
+END ACTIVE R10 ALPHA MASTER RESEARCH PROMPT CORRECTION.
