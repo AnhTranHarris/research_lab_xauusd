@@ -1,0 +1,14 @@
+{
+  "script_sha256": "93c6928ef1edf5c1843492e39dc7b82b66d97298046315cea9dbfd8a79fac7b1",
+  "stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_JAN_MAR_FROZEN_VERDICT",
+  "status": "VERIFIED_HISTORICAL_REPLICATION_REJECTED_STANDALONE",
+  "time_walls": {
+    "apr_used": false,
+    "aug_used": false,
+    "feb_used": true,
+    "jan_used": true,
+    "mar_used": true,
+    "may_jul_used": false
+  },
+  "verdict_sha256": "fc82c7d5c842e8ce3b7d73bb631b96f2d7ff71a1860bf90e9bc56673be5c31e4"
+}
