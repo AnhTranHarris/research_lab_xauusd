@@ -5,7 +5,7 @@
   "repository": "AnhTranHarris/research_lab_xauusd",
   "branch": "alpha",
   "updated_utc": "2026-09-28",
-  "stage": "R9_REAL_SYNTH_CORRELATION_REFERENCE_ASSEMBLED_AWAITING_NEXT_USER_DIRECTION",
+  "stage": "R9_TICKWISE_CORRELATION_V2_REFERENCE_COMPLETED__FOLLOWUP_REAL_EXECUTION_PARITY_PENDING",
   "scope": {
     "symbol": "XAUUSD",
     "start_date_inclusive": "2026-01-01",
@@ -48,7 +48,7 @@
     "dataset_sha_verified_in_alpha": true,
     "forward_validation_split": "NOT_YET_SELECTED_AFTER_SCOPE_EXPANSION",
     "first_incomplete_stage": "ALPHA_000_JAN_SOURCE_AND_R9_EXECUTION_PREFLIGHT",
-    "next_action": "Obtain user scope/validation/timezone clarification, then rerun source-equivalent REAL/SYNTH tick correlations as required; only then launch four category mechanism experiments.",
+    "next_action": "Use the verified 149-day event indexes, eight direct raw-tick daily paired samples and original REAL/SYNTH reports to design source-equivalent complete R9 execution parity; preserve causal/OOS boundaries before ENTRY/HOLD/EXIT/PROFIT experimentation.",
     "dataset_verified_scope": "7 PROJECT compressed Dukascopy gz copies: length+SHA-256 ONLY; data schema/chronology/CRC not yet tested"
   },
   "scope_note": "Explicitly covers all Jan-Jul 2026 for research/reporting at monthly, weekly and daily resolution. Accessing all months for diagnostics does not make them untouched OOS; freeze a new validation split before optimizing. No code execution, backtests, broker orders, or EA release performed.",
@@ -74,18 +74,35 @@
     ]
   },
   "correlation_checkpoint": {
-    "status": "HISTORICAL_PAIRED_CORRELATION_IMPORTED_AND_REPORT_SUMMARIES_RECHECKED__NEW_ALPHA_FULL_TICK_REPLAY_PENDING",
-    "drive_doc": "https://docs.google.com/document/d/1lGVmzuT0tkGmdKafnWaBp3Vvtqh1AEkO25zPkjq9v0c/edit",
-    "github_markdown": "research/R10_Alpha/R9_REAL_SYNTH_CORRELATION_FAST_REFERENCE.md",
-    "prior_corpus": "https://drive.google.com/drive/folders/1ES78vXb2mFsOsa50BiwCLsT6BXgLe-Oe",
-    "source_manifest": "research/R10_Alpha/source_manifest.json",
-    "source_partition_checks": "compressed sha-256 for 7 project Dukascopy market archives; original tester workbook headers plus dual-copy equal hash",
-    "research_queue": [
-      "ENTRY",
-      "HOLD",
-      "EXIT",
-      "PROFIT"
+    "status": "DIRECT_EIGHT_COMPLETE_SESSION_TICK_ALIGNMENT_AND_FULL149_DAILY_EVENT_RECONCILIATION_VERIFIED__NOT_FULL_149_DAY_PRICE_TICK_REPLAY",
+    "doc": "https://docs.google.com/document/d/1vT8JxT7pG7Ry-TMjEZRYGY3nAJC1slS8AnW3ieL033A/edit",
+    "github_markdown": "research/R10_Alpha/R9_REAL_SYNTH_TICKWISE_CORRELATION_FAST_REFERENCE_V2.md",
+    "github_audit": "results/R10_Alpha_R9_TICKWISE_CORRELATION_FAST_AUDIT_V2.json",
+    "reproducible_daily_reference_code": "scripts/r10_alpha_r9_tickwise_corr.py",
+    "direct_days": [
+      "2026-01-02",
+      "2026-01-30",
+      "2026-02-02",
+      "2026-03-02",
+      "2026-04-01",
+      "2026-05-01",
+      "2026-06-01",
+      "2026-07-01"
     ],
-    "four_category_research_executed": false
+    "direct_sample_logged_ticks": {
+      "REAL": 3462369,
+      "SYNTH": 3324449
+    },
+    "full_index_days": 149,
+    "full_index_source_rows_checked": {
+      "REAL": 56608185,
+      "SYNTH": 54655160
+    },
+    "validation_note": "Raw daily compressed byte hashes, sizes and row counts match 16 frozen daily manifests. Full 149 day quote-by-quote joining NOT performed; prior full-period bar/paired trade correlations retained as historical evidence, separate from the eight-session fresh direct sample.",
+    "fast_source_paths": [
+      "https://drive.google.com/drive/folders/1CidEgLMNVfgBZg6UYLYqcanc0oqgt9Vj",
+      "https://drive.google.com/drive/folders/11GY1A1pFkwHfaylt2n_-P7Bd4dJ9zFO4",
+      "https://drive.google.com/drive/folders/1ES78vXb2mFsOsa50BiwCLsT6BXgLe-Oe"
+    ]
   }
 }
