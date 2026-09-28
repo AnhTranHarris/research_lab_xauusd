@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_020_MTF_STRUCTURAL_PULLBACK_REACCEL",
-    "current_unit_state": "READY_EXACT_TICK_JAN_MAR_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_021_DAILY_H4_H1_HIERARCHICAL_OWNER",
+    "current_unit_state": "READY_JAN_MAR_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4324,6 +4324,22 @@
       "august_accessed": false,
       "conclusion": "Session-range and prior-day liquidity-map families are exhausted under current causal confirmation geometry.",
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_020_MTF_STRUCTURAL_PULLBACK_REACCEL"
+    },
+    "net020_mtf_structural_pullback_reaccel": {
+      "status": "REJECTED_JANUARY_FAIL_FAST",
+      "decision": "REJECT_MTF_STRUCTURAL_PULLBACK_REACCEL",
+      "source_sha256": "5a4494e935a7f86f5bad758931d489f1203e1e4c042371507eb5ce0d353f8e8e",
+      "january_grid_sha256": "71840d4f03ffb07a6b801d959e5aa0b9a180a4f3c933309a51a704d114c333f7",
+      "january_signals": 1224,
+      "grid_candidates": 144,
+      "best_january_net": -462.5270000000137,
+      "february_accessed": false,
+      "march_accessed": false,
+      "april_accessed": false,
+      "may_july_accessed": false,
+      "august_accessed": false,
+      "conclusion": "Short 2-4 minute fixed-dollar structural pullback/reacceleration family is uneconomic under actual Dukascopy bid/ask; fail-fast before additional months.",
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_021_DAILY_H4_H1_HIERARCHICAL_OWNER"
     }
   },
   "gamma2_benchmark_recovery": {
