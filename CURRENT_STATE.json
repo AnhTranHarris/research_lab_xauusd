@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_014_REENTRY_FEATURE_REBUILD",
-    "current_unit_state": "READY_FEATURE_REBUILD_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_017_STRUCTURAL_REENTRY_REBUILD",
+    "current_unit_state": "BUILD_STRUCTURAL_CACHES_JAN_APR",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3639,6 +3639,50 @@
       "exact_resume_stage": "REPLICATION_MONTH_3",
       "strict_rule": "Run one scientific stage only in the first new-chat turn; persist/sync/advance pointer; STOP.",
       "august_accessed": false
+    },
+    "hold_exit_015_fresh_signal_topology": {
+      "status": "REJECTED_JAN_MAR_DISCOVERY",
+      "initial_result_sha256": "3e840824403366fda3f01815bd1d0c4670b08a09750585b64418043474ec3216",
+      "extended_result_sha256": "63b6f5746e6c80a34ccc0e016a30de7dbbb71487a33d5bbae9839709dfa89faa",
+      "decision": "NO_ROBUST_FRESH_SIGNAL_TOPOLOGY",
+      "near_miss": "FLIP fresh signal <=300s, 5s hold: Jan +7.146 PF1.136; Feb +5.683 PF1.073; Mar -2.558 PF0.949.",
+      "august_accessed": false
+    },
+    "hold_exit_016_fresh_signal_quality_router": {
+      "status": "REJECTED_APRIL_CALIBRATION",
+      "discovery": {
+        "eligible_candidates": 25,
+        "best": {
+          "max_gap_s": 300,
+          "orientation": "flip",
+          "feature_set": "both",
+          "depth": 3,
+          "leaf": 40,
+          "class_weight_0": 1,
+          "threshold": 0.4,
+          "jan_net": 13.226,
+          "feb_net": 12.5785,
+          "mar_net": 7.5465,
+          "min_pf": 1.267801
+        },
+        "source_sha256": "f6a4c097898541b7900ede41c5ee02084c0b2e12631131c3ca4c1cf0bcb5f726",
+        "result_sha256": "ef796df623877aefed63bd6c4fd16b4776bb563784e0d370a23a61a414f7eaba",
+        "model_sha256": "6e80e56cc649f67608b6cd10b32be0f4a7b7741f09937c5f0063912dd765d0ab"
+      },
+      "april": {
+        "selected_trades": 17,
+        "winners": 7,
+        "net": -4.099,
+        "pf": 0.5827565,
+        "coverage_pct": 18.27957,
+        "gate_pass": false,
+        "source_sha256": "3da967d00741dbd9ea12afb0f7fc66c5b6a97f9a3833634f008fb6222d76816e",
+        "result_sha256": "5d5b4eec6212ea2e6db82b9c5c6972de40b3d8710b585cac058141c9c2109c32"
+      },
+      "decision": "REJECT_FRESH_SIGNAL_QUALITY_ROUTER",
+      "may_july_accessed": false,
+      "august_accessed": false,
+      "next_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_017_STRUCTURAL_REENTRY_REBUILD"
     }
   },
   "gamma2_benchmark_recovery": {
