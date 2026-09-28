@@ -1,1 +1,53 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+{
+  "august_accessed": false,
+  "candidate": {
+    "gross_loss": -13774.328500007114,
+    "gross_profit": 9277.161999986372,
+    "maxdd": 4519.585000020548,
+    "net": -4497.166500020741,
+    "pf": 0.6735110172507924,
+    "trades": 28185,
+    "win_rate": 0.6510555259890013,
+    "winners": 18350
+  },
+  "delta": {
+    "gross_loss": -105.92100000033133,
+    "gross_profit": 59.71100000041224,
+    "maxdd": 46.63449999991735,
+    "net": -46.20999999992,
+    "pf": -0.0008507180121770652,
+    "trades": -3,
+    "winners": -484
+  },
+  "elapsed_seconds": 6.899,
+  "frozen_historical_source_sha256": "4a23916632d5591bf1d25107f2b316432d410648fa3a1935f5fff2e483da52f1",
+  "frozen_partial_monetization_gate_pass": false,
+  "market_sha256": "ed3b3545c990c88d78519594c17c8915b0f679adcb0a94920ba7524f1f6d5c5d",
+  "month": 2,
+  "next": "HOLD_EXIT_022_RUNNER_REPLICATION_MARCH",
+  "parent": {
+    "gross_loss": -13668.407500006782,
+    "gross_profit": 9217.45099998596,
+    "maxdd": 4472.950500020631,
+    "net": -4450.956500020821,
+    "pf": 0.6743617352629695,
+    "trades": 28188,
+    "win_rate": 0.668156662409536,
+    "winners": 18834
+  },
+  "parent_raw_sha256": "c855f777d57c25ecbf49768afa1ab07eab138dd1e07ce30b246e42a788e42586",
+  "raw_candidates": 32862,
+  "rule": {
+    "original_stop_and_activation_unchanged": true,
+    "strong_trail": 0.04,
+    "weak_trail": 0.1
+  },
+  "source_replay_exact_pnl_and_exit_parity": true,
+  "source_sha256": "47becf4376c187597ec7c4abe61d816b144e75e7281671f889d3cb14e0f36151",
+  "stage": "FROZEN_WEAK_ONLY_0P10_DISCOVERY_REPLICATION",
+  "status": "COMPLETED_LOCAL",
+  "tick_rows": 7538339,
+  "trade_retention_pct": 99.98935717326522,
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
+  "winner_retention_pct": 97.43017946267389
+}
