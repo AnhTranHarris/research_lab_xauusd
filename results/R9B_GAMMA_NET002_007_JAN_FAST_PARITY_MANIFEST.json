@@ -1,0 +1,9 @@
+{
+  "source_sha256": "08a61fad92e0c5cf53b7811a891b5c265f512af2a820362d40de636151a9637e",
+  "parent_cache_sha256": "3fa88617bcc157ec4e6fcc2e62d48f888d93c380c8d18d1f2c79fcd4cc69ce6a",
+  "descriptor_cache_sha256": "ac5c996d1b8126906a2ca2f17af26614737d7c24ab3dfeb4beefb5fbb8a96567",
+  "result_sha256": "838e4440d2d11f3fadde303ca79424ae799874899534bb1f65ac082b5b8ad12f",
+  "status": "COMPLETED_LOCAL_TO_BE_DURABLE_COMMITTED",
+  "next": "NET002_NET007_JAN_CACHED_SOURCE_CONCORDANCE_REPLAY",
+  "august_sealed": true
+}
