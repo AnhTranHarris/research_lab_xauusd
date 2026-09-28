@@ -1,4 +1,6 @@
-# R10 Alpha — Active Master Research Prompt, Acceptance Gates, MT5 Report Contract and Handoff Rules
+# R10 Alpha — SOLE ACTIVE Master Research Prompt, Acceptance Gates, MT5 Report Contract and Handoff Rules
+
+**HARD OWNER LOCK:** ALL Gamma / Gamma2 / Gamma Dynamic branches, experiments, controller queues and MQL5 build continuations are DEAD / RETIRED. They can be read only as historical failures; do not execute, resume, promote, or report them as Alpha. Work exclusively from `alpha/CURRENT_STATE.json` and [Alpha-only lock](ALPHA_ONLY_LOCK.md).
 
 **Scope:** XAUUSD, January–July 2026; August SEALED. **Branch:** `alpha`. **Status:** owner-governing workflow only. This file does not imply a candidate passed, an EA was built or MT5 was run.
 
@@ -45,4 +47,4 @@ The owner has not locked one universal profit/risk composite formula or per-cate
 
 On resumption read these live Google Docs, `alpha/CURRENT_STATE.json`, this contract, the exact committed source-manifest hashes and recent candidate ledger. Verify what actually ran; do not repeat already completed setup because of a chat interruption. Preserve approved EA identifier/commit, baseline cost/window/KPIs, the last authorized candidate, human-review status, M1 MT5 report links and the next incomplete action. If no owner-approved Alpha EA has been designated yet, explicitly say **“approved baseline not yet designated”** rather than inferring approval from R9 or prior Gamma research. Keep source models and results labeled **historical R9 / Dukascopy Python / Coinexx real-tick MT5 / demo / live**. Do not promote a model on in-sample gain, oracle hindsight or generated SYNTH results. Keep August sealed and avoid duplicate gigabyte assets.
 
-**Current position:** Seven-month Dukascopy tick research infrastructure is tested; the four-category candidate campaign and first qualifying >10% breakthrough have not been launched/established by this workflow update. No MT5 build or test was conducted as part of updating these rules.
+**Verified current position (2026-09-28):** Seven-month Dukascopy tick research infrastructure is tested; **ENTRY_HOLD_DISCOVERY_001** ran six exploratory January variants, all REJECTED on economics. The first incomplete unit is **ENTRY_HOLD_DISCOVERY_002_PREREGISTER_DELAYED_ACCEPTANCE_AND_VOLATILITY_AWARE_EXECUTION**, unless a newer Alpha CURRENT_STATE supersedes it. No >10% candidate, owner-designated cumulative Alpha EA, MQL5 authorization or new Coinexx tester result has been established. Gamma experiments are not the approved baseline.
