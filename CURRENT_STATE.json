@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_012_LATE_PERSISTENCE_RUNNER_CAPTURE",
-    "current_unit_state": "STARTED_CHUNKED_DISCOVERY_NEXT_8000",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_013_BANK_THEN_REQUALIFIED_REENTRY",
+    "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3470,19 +3470,19 @@
       "august_accessed": false
     },
     "hold_exit_012_late_persistence_runner_capture": {
-      "status": "STARTED_POLLING_SAFE",
-      "parent": "HOLD_EXIT005 + frozen ENTRY017-024 ownership",
-      "mechanism": "Protected +1s to +5s STRONG_RUNNER wait; only +5s persistence-confirmed events may extend under causal peak-giveback trail.",
-      "source_sha256": "75a76df258a92c57d4562994107fbd9a396393c6631c59c89856b004a5d69e3f",
-      "drive_source_v1_id": "1rCzTW2pgY7d6CMGlZ0QtBLM3wYv5h2ET",
-      "drive_started_id": "1ihY9tOIEwCDLUPonASF0UYgYYZXUJJgi",
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+      "result_commit": "bc0403bb19c8b0dbfb9cc8232b8f1324daef108c",
+      "manifest_commit": "a021e514492798d394896cd54c047465be607c57",
+      "note_commit": "b515d411577135343e18c1883ea13b20aee9c71e",
       "drive_source_v2_id": "1QfT288g8hS7b2bQsM6GYJUldaLEU3VTf",
-      "execution_contract": "Discovery split by max horizon: 8000,10000,15000,20000,30000 ms; persist each chunk immediately before the next.",
-      "completed_units": [
-        "STARTED_MANIFEST",
-        "SOURCE_V2_CHUNKED"
-      ],
-      "first_incomplete_unit": "DISCOVERY_CHUNK_8000",
+      "drive_discovery_id": "17ojeWmK0bo8oOiqHAU6tdWUqw27NIfUE",
+      "drive_result_id": "1CKGDcGTZE95W4m7UXzpE5o5yOjiTMidF",
+      "drive_manifest_id": "1WdF61B9vPEligqoTTfRz6R6jEDTfpkGC",
+      "evaluated_grid_size": 343000,
+      "eligible_count": 0,
+      "conclusion": "Even with causal profit-lock protection and +5s persistence proof, extending the original STRONG_RUNNER position does not robustly improve net+GP while preserving >=95% banked winners. Pivot to bank-then-requalified-reentry topology.",
+      "source_sha256": "75a76df258a92c57d4562994107fbd9a396393c6631c59c89856b004a5d69e3f",
+      "result_sha256": "13de949d19fe40728e2dfae6d517448c8d10af1f8bb7f8e3d74d3d040365039e",
       "august_accessed": false
     }
   },
