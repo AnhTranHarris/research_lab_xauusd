@@ -1,0 +1,86 @@
+# Native Google Docs text snapshot | ID 1eY7lrCBcQNpFfRm_PuFb6U39DY6inGbZ19uz9Ap6aDo | revision ANLCKQlHdomG5gFX5cru4SIYSaeRRiUtYeF3n4NWYUYOwu6DpXv9wJ1cOOQH80qxvokYjga0zLaXV26ULTUEPnUJ8MnRClAlBhotWxyT8Y4 | R10 Research Library — Master Index
+
+ALPHA SOURCE-ACCESS MAINTENANCE — TWO VERIFIED TICK-DATA SURFACES
+Drive R9 REAL/SYNTH tick logs, tester reports and overfit reference are indexed; Dukascopy January–July monthly XAUUSD .csv.gz ticks are visible both in the linked Drive source folder and as seven mounted ChatGPT Project source attachments. In an Alpha chat check Project files first, then use Drive fallback; do not ask for reuploads without checking both sources. Exact source IDs, month metadata, and validation precautions are in the addendum at the end of this document. August stays SEALED.
+R10 Research Library — Master Index
+Purpose
+This library is the formal scientific record for Gold MUWHAHA Miner R10. It is designed to be cross-checked against the GitHub implementation, the R9/R10 branch lineage, and the underlying tick-level experiments.
+Scientific status vocabulary
+VALIDATED — supported by causal tests and retained in the R10 research program.
+PROMOTED — implemented in the cumulative executable R10 code path.
+EXPERIMENTAL — promising but not yet sufficiently certified.
+RECONSTRUCTED — mechanism/result recovered from project evidence; exact original experiment code may not be preserved.
+SUPERSEDED — useful historically but replaced by a later method.
+INVALIDATED — excluded because of look-ahead, retrospective scheduling, synthetic-path substitution, or other methodological failure.
+Global ground rules
+1. XAUUSD only.
+2. R9 SYNTH is a teacher/reference ceiling, not execution truth.
+3. R9 REAL and causal Dukascopy Jan–Jul 2026 testing are the principal execution-path research truth.
+4. August 2026 remains sealed and must not be used for model selection or parameter tuning before explicit unsealing.
+5. Every decision must use information available at decision time.
+6. No retrospective pending-order placement, OHLC-order reconstruction that leaks the future, or post-event information in pre-event features.
+7. External community systems are admissible only when their logic is reconstructible well enough to test independently.
+8. Profit claims are research outcomes, not guarantees of future performance.
+Milestone paper sequence
+00 — Research Lineage and Scientific Ground Rules
+01 — R9 REAL vs SYNTH Tick-Path Forensics
+02 — Causal Action Harvester and Excursion-Control Architecture
+03 — Rotation and Expansion Specialists
+04 — H1/H4 Structural Trend Core
+05 — Boundary Auctions: Sweep/Reclaim vs Acceptance
+06 — Multiscale Boundary Ladder
+07 — Concurrency and the Four-Sleeve Portfolio Knee
+08 — State-Stability and Gross-Loss Filtering
+09 — Opposition Heat and KEEP/FLIP Routing
+10 — Cross-Scale Catastrophe Memory
+11 — Near-Immediate Favorable-Excursion Harvesting
+12 — Transparent S1 CONTINUE/FADE/ABSTAIN Router
+13 — Loss-Efficiency Frontier
+14 — Integrated R10 Architecture and Certification Manifest
+GitHub research lineage
+The repository contains dedicated branches carson/r10-r9-breakthrough-research-00-lineage through carson/r10-r9-breakthrough-research-14-integration, plus cumulative executable branches carson/r10-from-r9-code-00-exact-r9-port through later R10 rebuild branches. Each paper must cite its corresponding research branch and identify the executable checkpoint that implements the mechanism, when present.
+Core equations used across the library
+For trade i with entry price P_i^0, signed direction d_i ∈ {+1,-1}, and observed mark P_i(t):
+Signed excursion:
+E_i(t) = d_i [P_i(t) - P_i^0]
+Maximum favorable excursion:
+MFE_i(t) = max_{0≤u≤t} E_i(u)
+Maximum adverse excursion:
+MAE_i(t) = max_{0≤u≤t} [-E_i(u)]
+Net P&L before account-level sizing:
+π_i = V_i · d_i [P_i^exit - P_i^0] - C_i
+where V_i is the monetary value per price unit for the executed volume and C_i contains spread, commission, slippage, and modeled execution costs.
+Profit factor:
+PF = Σ_i max(π_i,0) / |Σ_i min(π_i,0)|
+Win rate:
+WR = N(π_i>0) / N
+Net expectancy:
+E[π] = (1/N) Σ_i π_i = WR·E[π|π>0] - (1-WR)·E[-π|π<0]
+Gross-loss efficiency objective:
+J = NetProfit - λ·|GrossLoss| - μ·MaxDrawdown
+where λ and μ are research penalties used to avoid optimizing net profit while tolerating destructive loss geometry.
+Action-value routing:
+a_t ∈ {CONTINUE, FADE, ABSTAIN}
+a_t* = argmax_a E[R_{t:t+H}(a) | x_t]
+where x_t contains only completed/causal state information at t.
+Cross-check requirement
+A paper is not complete until its mechanism, equations, reported result, failure modes, and implementation status agree with both the research branch and the current executable branch. Any discrepancy must be recorded rather than silently reconciled.
+ALPHA DATA-ACCESS ADDENDUM — R9 REAL, R9 SYNTH, R9 OVERFIT AND DUKASCOPY TWO-SURFACE RECONSTRUCTION
+SCOPE: Research-source locator and handoff rule only. No Alpha branch created, no market test performed, and no change to Gamma experimental conclusions.
+A. Google Drive — source authority:
+(1) Dukascopy XAUUSD monthly tick files, January through July, seven compressed CSV/GZIP files: https://drive.google.com/drive/folders/1lSCfO_awUKkbR4I6xDTy9orjIl0SrgIV
+Names: XAUUSD_DUKAS_2026_01_ticks.csv.gz, ... 02, 03, 04, 05, 06, 07. The linked folder was inspected, and all seven separate files were present.
+(2) R9 original MT5 per-tick logger archives for 'Every tick' (SYNTH) and 'Every tick based on real ticks' (REAL): https://drive.google.com/drive/folders/1CidEgLMNVfgBZg6UYLYqcanc0oqgt9Vj
+The Drive listing contains six named parts for each R9 tick-log source: GoldMuwahaha_R9_TickLog_SYNTH.csv.gz.part01–part06 and GoldMuwahaha_R9_TickLog_REAL.csv.gz.part01–part06. Parts must be reconstructed in numerical byte order, validated by full source size/hash and compared with indexed daily partitions before using in a trade simulator; a single part is not a standalone compressed ledger.
+(3) R9 REAL/SYNTH MetaTrader 5 Strategy Tester report workbooks: https://drive.google.com/drive/folders/1FeQSPtlWXtgncXE6bsCtWNlKFS9t17Pr
+Exact names: ReportTester-871471_jan2026_jul2026_R9_ticklog_real.xlsx (Drive file 1XofN5m44GU4RgfrjhGHZoK1uaQpGRJgq); ReportTester-871471_jan2026_jul2026_R9_ticklog_synth.xlsx (Drive file 18FRnz7k__Pu5C0LOHMdEFXEz5Ln_bMMG).
+(4) Validated daily tick logger lookup indexes: R9_REAL_TICK_DRIVE_INDEX, Drive Sheet ID 1tkXe4vjSqI5yB1_5gGp7QVDuMdND-AGzCmoUrBZQGlg; R9_SYNTH_TICK_DRIVE_INDEX, Drive Sheet ID 1VIx7mDN-sHBj2kQ5-JueV4V-sIHnFhPadOYClgLG_I8. These indexes locate underlying daily partitions; do not confuse log partitions with Dukascopy market ticks.
+(5) R9 OVERFIT teacher/behavioral reference in Google Drive: 'R9 REAL→SYNTH Monthly Overfit Reference — Tick-Level Teacher Benchmark', native Doc ID 18Ru-eSQ0ofNM2EvvSp5kaenZEML3KC5GRk8KrAN_SWs, and 'ZZ_HISTORICAL_JAN_ONLY__R9_SYNTH_TO_REAL_DIAGNOSTIC_OVERFIT_REFERENCE_2026-01', native Doc ID 1qB6__oIGgJnflplWwti-V0uvD4ncocke1fKV6H3BFOU. These are documented reference analyses and derivative-artifact pointers, NOT a separately verified third MT5 report workbook or a production-valid alpha model. Overfit/teacher outcomes must never be used as decision-time features.
+B. ChatGPT Project source attachments — second authorized raw-Dukascopy source:
+In the current project runtime, the seven byte-bearing monthly files are also mounted under /mnt/data/ with uploaded-name suffixes. January–June use XAUUSD_DUKAS_2026_0M_ticks.csv(3).gz for M=1..6; July uses XAUUSD_DUKAS_2026_07_ticks.csv(2).gz. The seven local file sizes matched the seven Google Drive folder-listing sizes exactly. These are separate Project attachment copies of the monthly compressed MARKET tick corpus, NOT the R9 EA SYNTH/REAL tester event logs. Existence in a given future session must be checked, never assumed merely from this record.
+C. Mandatory Alpha source resolution:
+At the start of the new Alpha research chat, inspect attached Project files and source index before any re-upload request. Verify for each needed month the exact name, compressed byte length, gzip format, checksum (SHA-256), date coverage, monotonic UTC timestamp ordering, bid/ask sanity and parsing schema. Use the existing local Project attachment if available and verified; otherwise retrieve the identical named original from its exact Google Drive file/folder. When both are accessible compare SHA-256 of actual bytes; equal file size alone is not proof of byte identity. Preserve the source bytes unmodified and record provenance, source kind, month, hash, test logic and exact cache build command before making any derived tick/candle or R9 reconstruction file.
+January-only debugging remains the default initial Alpha scope. The full January–July raw corpus is AVAILABLE FOR LATER FROZEN SCIENTIFIC VALIDATION, not permission to train over future months or to open sealed August. Dukascopy market ticks are independent market evidence; R9 MT5 REAL/SYNTH ticklogs are EA-specific strategy tester evidence; and OVERFIT is a deliberately contaminated diagnostic teacher. Keep these three evidence categories separately versioned in Python simulator inputs and outputs.
+D. Source availability checkpoint: Drive folder enumeration verified January–July seven original monthly gzip file entries; R9 REAL/SYNTH both six-part archives; both report workbooks; overfit Google Docs and daily indexes. Current Project attachment availability verified at /mnt/data for seven Jan–Jul monthly archives; Drive/Project byte-size agreement checked, but cross-store raw-byte SHA equality was NOT tested by downloading every Drive source. No relevant file needs to be re-uploaded merely because it is not exposed in the chat body. Any inaccessible, missing, corrupted or nonmatching file must be reported explicitly rather than silently replaced with synthetic ticks.
+END ALPHA DATA-ACCESS ADDENDUM.
+R10 Research Library indexing: cite the actual Drive folder IDs, individual paired R9 report workbooks, and two overfit reference documents in future Alpha research documentation. The seven Project archive hashes are listed in the live Master Backtest Reconstruction Protocol. No separate overfit trading-result workbook was independently verified by this locator audit.
