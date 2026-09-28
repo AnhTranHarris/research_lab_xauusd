@@ -1,0 +1,62 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_023_LATE_IGNITION_OWNER",
+  "role": "LATE_IGNITION classifier inside ENTRY017 selections non-positive at +1s",
+  "checkpoint_ms": 4000,
+  "exact_rule": {
+    "feature": "current_exec_pnl_at_4s",
+    "threshold_gt": 0.016749999951571226,
+    "then": "LATE_IGNITION",
+    "else": "NO_LATE_IGNITION",
+    "diagnostic_only": true
+  },
+  "tree": {
+    "classes": [
+      0,
+      1
+    ],
+    "children_left": [
+      1,
+      -1,
+      -1
+    ],
+    "children_right": [
+      2,
+      -1,
+      -1
+    ],
+    "feature": [
+      0,
+      -2,
+      -2
+    ],
+    "threshold": [
+      0.016749999951571226,
+      -2,
+      -2
+    ],
+    "n_node_samples": [
+      293,
+      216,
+      77
+    ],
+    "class_probability": [
+      [
+        0.6860068259,
+        0.3139931741
+      ],
+      [
+        0.9027777778,
+        0.0972222222
+      ],
+      [
+        0.0779220779,
+        0.9220779221
+      ]
+    ],
+    "probability_threshold": 0.3
+  },
+  "training": "January days0-13 ENTRY017 selections with +1s executable P/L <= 0. +5s persistence is label only.",
+  "source_sha256": "377cac8fba17f93865986ac5c787736aa7e1cf07286757bc174de42c9c3c6aeb",
+  "model_sha256": "3625783393e11d5a88d2e2dd0efce970bac6ed72fbfadd1909f3a591a3999329",
+  "august_accessed": false
+}
