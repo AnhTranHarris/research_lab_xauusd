@@ -1,0 +1,19 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_006_RECOVERY_WAITING_SPECIALIST",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+  "parent": "HOLD_EXIT005 conservative late hazard + frozen ENTRY017-024 ownership",
+  "mechanism": "At +3s cut recovery-wait events only when +2s and +3s executable P/L remain below screened thresholds, post-1s MFE by +3s remains below a ceiling, and recent 500ms slope is below a ceiling. Otherwise preserve frozen +4/+4.5s recovery ownership.",
+  "selection_contract": "Jan days0-6 / days7-13; require positive net and GL improvement in both halves and >=90% RECOVERY_CERTIFIED/DELAYED_RUNNER survival. Compact cached screen only; no raw-tick replay because no candidate crossed the gate.",
+  "screen_count": 14112,
+  "eligible_count": 0,
+  "robust_vs_hold005": false,
+  "decision": "REJECT_PRE_RESOLUTION_RECOVERY_CUTS",
+  "conclusion": "Conservative pre-resolution cuts in the recovery branch remain economically fragile. Preserve HOLD_EXIT005 only on the late-wait branch and move to post-resolution state-specific monetization.",
+  "next_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_007_POST_RESOLUTION_STATE_MONETIZATION",
+  "source_sha256": "ca9df6797703a807b6519716d644d82ffc59d38117afe639b72596ee7e09b777",
+  "result_sha256": "69ac1b4de304969cabdd50d18fa670643926c26353a52d9309b6c6c4964f13b2",
+  "drive_source_id": "1dY3TEq7Ye7oAFftRh9sw0dweU7qTYJP0",
+  "drive_result_id": "1N3dZdfTgpVsYtvGUh6yDqKhEjV0ZriMn",
+  "drive_manifest_id": "172vKJDGosEIxi6mHUscUslJsAc1ApKYw",
+  "august_accessed": false
+}
