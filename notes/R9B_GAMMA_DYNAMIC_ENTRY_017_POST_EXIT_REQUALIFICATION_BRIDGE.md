@@ -18,3 +18,6 @@ A combined bridge+old-event profile improved entry accuracy more (+3.40/+5.42/+5
 **Next:** R9B_GAMMA_DYNAMIC_ENTRY_018_BRIDGE_PERSISTENCE_OWNER — freeze the ENTRY017 bridge entry profile and model only whether a correctly ignited second-wave direction deserves continued directional ownership through +2/+3/+5s. This is an accuracy diagnostic first, not an exit rule.
 
 Source/result hashes: source 3395da77cb1b95a96e66caf42d68c16f763097df701270c94aa990603ec3565a; result 2f44ac5cecb0f4d02b9d3a191142ad8e66de369ce17623fafb0a7b2cc95b13f7. August sealed.
+
+## Frozen action-owner artifact
+The carried-forward ENTRY017 action owner is now explicitly frozen for later MT5 parity as `models/R9B_GAMMA_DYNAMIC_ENTRY_017_ENTRY_MODEL.json`. The exact 17-node tree, class probabilities, confidence threshold, feature contract, and January training boundary are preserved. Drive model ID `1rqKJiDD1sHVv4u-yKJLfr57IuYLa6-RZ`; freeze-helper ID `102DWpFZqoonlE5b0LR52IivbFLm7KjXh`; model SHA-256 `57e1a27941b7aefba27bcc5eb35bfd7e8aa1a3e72df6e658a4048e806003e50a`. Future descendants must use this frozen identity or explicitly recertify a replacement.
