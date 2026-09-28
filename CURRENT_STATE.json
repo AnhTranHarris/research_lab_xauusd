@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_019_PRIOR_DAY_LIQUIDITY_MAP",
-    "current_unit_state": "READY_JAN_MAR_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_020_MTF_STRUCTURAL_PULLBACK_REACCEL",
+    "current_unit_state": "READY_EXACT_TICK_JAN_MAR_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4312,6 +4312,18 @@
       },
       "august_accessed": false,
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_019_PRIOR_DAY_LIQUIDITY_MAP"
+    },
+    "net019_prior_day_liquidity": {
+      "status": "REJECTED_JAN_MAR_DISCOVERY",
+      "decision": "REJECT_PRIOR_DAY_LIQUIDITY_MAP",
+      "result_sha256": "65cf77d7a7d34cf13c01df4459718d09c6d12fc0807ff1748c5f46758da875fb",
+      "source_sha256": "6ac6cd0b1bf98dfce6fb4f34e006d5f8785241be8f676fd756f0b30caec844ed",
+      "eligible_candidates": 0,
+      "april_accessed": false,
+      "may_july_accessed": false,
+      "august_accessed": false,
+      "conclusion": "Session-range and prior-day liquidity-map families are exhausted under current causal confirmation geometry.",
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_020_MTF_STRUCTURAL_PULLBACK_REACCEL"
     }
   },
   "gamma2_benchmark_recovery": {
