@@ -1,0 +1,16 @@
+{
+  "august_accessed": false,
+  "exact_parent_all_raw_pnl_exit_hold_parity": true,
+  "jan_parent_selected": {
+    "net": -4510.0870000207515,
+    "trades": 28088,
+    "winners": 19087
+  },
+  "market_sha256": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5",
+  "observation_cache_sha256": "1fcdbe8fce778c3c8a33fabb3e3b929da1e949919b809112f08ef00276f0b057",
+  "parent_input_cache_sha256": "7b8eff38f79a8246309e0d276158eb1dded9210deb54b79a3c8be189a9d9960d",
+  "result_sha256": "67886b38e5013af4ac1656572c422b8c49982f5fce2879d42c2e00d9962301d3",
+  "source_sha256": "ca8a2303c758dd3f73da53f1d5ebae66db571d5236bc86c5ffa064daae240f87",
+  "stage": "EXIT_REASON_TRAJECTORY_HARVEST_VS_RUNNER_SOURCE_CLOSURE",
+  "status": "VERIFIED_LOCAL_SOURCE_CLOSURE"
+}
