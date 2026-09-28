@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_018_BRIDGE_PERSISTENCE_OWNER",
+    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_019_MULTI_HORIZON_PERSISTENCE_STATE",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2999,6 +2999,43 @@
       "conclusion": "Exact post-close→new-signal bridge state improves +1s executable entry accuracy in every replication while keeping +5s conditional persistence approximately neutral. Old event features add entry accuracy only with density loss and hold degradation. Retain bridge-only frontier; no promotion/integration yet.",
       "source_sha256": "3395da77cb1b95a96e66caf42d68c16f763097df701270c94aa990603ec3565a",
       "result_sha256": "2f44ac5cecb0f4d02b9d3a191142ad8e66de369ce17623fafb0a7b2cc95b13f7",
+      "august_accessed": false
+    },
+    "entry_018_bridge_persistence_owner": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_FRONTIER",
+      "source_commits": {
+        "post1_cache": "73b78dddeb8b16c66bd441bde47cfd045954cb97",
+        "screen": "5b004fc506daad263dacec16d255317a285b4e59"
+      },
+      "result_commit": "d32ad87df84a44a6bd24a72e6102f4fc18de0610",
+      "note_commit": "ec9d9cf2c60dbd3cb79e46f9a02701112ed6b704",
+      "retained_profile": {
+        "feature_set": "path",
+        "depth": 1,
+        "leaf": 20,
+        "class_weight_0": 3,
+        "probability_threshold": 0.4,
+        "decision_time_s": 1
+      },
+      "replication": {
+        "jan_heldout": {
+          "coverage_pct": 56.7485,
+          "hold5_delta_pp": 7.9572,
+          "runner_recall_pct": 63.4703
+        },
+        "feb": {
+          "coverage_pct": 57.9256,
+          "hold5_delta_pp": 5.3717,
+          "runner_recall_pct": 62.8483
+        },
+        "mar": {
+          "coverage_pct": 48.8673,
+          "hold5_delta_pp": 8.6082,
+          "runner_recall_pct": 55.4156
+        }
+      },
+      "conclusion": "First-second observed path state improves directional persistence accuracy across all replications, but runner recall is only ~55-63%; retain as research frontier only. No exit/lifecycle change yet.",
+      "result_sha256": "7d2d6fc4a89877ef713de732b98ac319bcbdc4c8453445b8d22a8b0a9bb18b6",
       "august_accessed": false
     }
   },
