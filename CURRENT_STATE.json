@@ -48,7 +48,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
-    "current_unit_state": "NET002_NET007_SOURCE_AUDIT_VERIFIED_NEXT_EVENT_LIFECYCLE_MAPPING_PREDECLARATION",
+    "current_unit_state": "NET002_NET007_EVENT_LIFECYCLE_PREDECLARED_NEXT_JAN_ASOF_SOURCE_PARITY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -5254,8 +5254,8 @@
       "next_stage": "HISTORICAL_NET002_NET007_STRUCTURAL_INDICATOR_COMBINATION_SOURCE_TO_PARENT_ARCHAEOLOGY"
     },
     "historical_net002_net007_source_reconciliation": {
-      "status": "PENDING_COMPONENT_CODE_AND_PORTFOLIO_CAUSAL_PARITY",
-      "first_incomplete_stage": "NET002_NET007_SOURCE_INVENTORY_AND_CAUSAL014_COMPOSITION_PROVENANCE",
+      "status": "SOURCE_INVENTORY_AND_EVENT_LIFECYCLE_MAPPING_PREDECLARED",
+      "first_incomplete_stage": "NET002_NET007_JAN_EVENT_VISIBILITY_AND_ZERO_DELTA_IDENTITY_MAPPING",
       "source_families": [
         "NET002 completed H1/H4 break of structure and ATR/body quality",
         "NET003 H1-break-M15-retest/reclaim",
@@ -5265,9 +5265,20 @@
         "NET007 failed higher timeframe acceptance"
       ],
       "question": "Which historically tested distinct structural ownership and indicator combinations actually survived source parity, and which were omitted from CAUSAL014? Compare exact code, entry event populations, lifecycle and chronological portfolio behavior before making any profitability claim.",
-      "acceptance": "Preserve versioned source and subcomponent causality. Rebuild independent causal tick event populations. No unverified historical gain inherited, no combined standalone PnL arithmetic, no direct MT5 promotion.",
+      "acceptance": "January event visibility and raw/selected CAUSAL014 zero-delta identity mapping must pass before mapping can inform any standalone or combined trading hypothesis; Jan raw 34362, selected 28088, winners 19087, net -4510.0870000207515.",
       "starting_parent": "CAUSAL_RECERT_014 source-negative; past structure code existence does not imply positive edge",
-      "august_accessed": false
+      "august_accessed": false,
+      "predeclaration": {
+        "status": "VERIFIED_DURABLE_SOURCE_ONLY",
+        "result_path": "results/R9B_GAMMA_HISTORICAL_NET002_NET007_EVENT_LIFECYCLE_MAPPING_PREDECLARATION.json",
+        "result_blob": "f356e285c2e3c15ecbcf66f3a44f575c44389653",
+        "result_commit": "80cbefe12418f81d9eecc7b76081d4cfaa9bd249",
+        "exact_readback": true,
+        "no_market_replay": true,
+        "august_sealed": true,
+        "production_mql5_authorized": false,
+        "next": "NET002_NET007_JAN_EVENT_VISIBILITY_AND_ZERO_DELTA_IDENTITY_MAPPING"
+      }
     },
     "net002_net007_source_audit": {
       "status": "VERIFIED_DURABLE_SOURCE_INVENTORY_COMPLETE",
@@ -5298,7 +5309,7 @@
       ],
       "august_accessed": false
     },
-    "first_incomplete_stage": "NET002_NET007_EVENT_LIFECYCLE_MAPPING_PREDECLARATION",
+    "first_incomplete_stage": "NET002_NET007_JAN_EVENT_VISIBILITY_AND_ZERO_DELTA_IDENTITY_MAPPING",
     "session_handoff_20260928_max_chat": {
       "status": "DURABLE_GOOGLE_DOCS_HANDOFF_VERIFIED",
       "date": "2026-09-28",
