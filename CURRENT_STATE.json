@@ -5,7 +5,7 @@
   "repository": "AnhTranHarris/research_lab_xauusd",
   "branch": "alpha",
   "updated_utc": "2026-09-28",
-  "stage": "DUKASCO_PYTHON_MONTH_BLOCK_BACKTEST_ENV_READY__AWAITING_RESEARCH_DIRECTION",
+  "stage": "DUKASCO_PYTHON_ENGINE_READY__OWNER_DEFINED_GATE_AND_COMPACT_M1_REPORT_CONTRACT_LOCKED__AWAITING_RESEARCH",
   "scope": {
     "symbol": "XAUUSD",
     "start_date_inclusive": "2026-01-01",
@@ -47,11 +47,14 @@
     "alpha_ea_builds_authorized": 0,
     "dataset_sha_verified_in_alpha": true,
     "forward_validation_split": "NOT_YET_SELECTED_AFTER_SCOPE_EXPANSION",
-    "first_incomplete_stage": "ALPHA_000_R9_EXECUTION_EQUIVALENCE_PREFLIGHT_AND_STRATEGY_RESEARCH_PLAN",
-    "next_action": "Review four category Entry/Hold/Exit/Profit user direction; define frozen validation plan and broker calibration, then develop causal strategies on fast Dukascopy month blocks without August or R9 SYNTH execution substitution.",
+    "first_incomplete_stage": "ALPHA_001_FOUR_CATEGORY_RESEARCH_CANDIDATE_SCREENING",
+    "next_action": "Start owner-requested ENTRY/HOLD/EXIT/PROFIT causal tests using the seven-month Dukascopy month-block engine. Predeclare comparable >10% overall or category-specific metrics, preserve approved incumbent and require human review before MQL5 coding. Owner later supplies Coinexx M1 Strategy Tester report using internally 'Every tick based on real ticks'; NO NEW MT5 TICKLOGS.",
     "dataset_verified_scope": "FULL 7 MARKET GZIP SHA256+CRC+PARSE+TIMESTAMP ORDER+MONTH MEMBERSHIP+BID<=ASK; NUMERIC MEMMAP REPLAY CACHES 57,527,562 TICKS",
     "infrastructure_smoke_runs": 1,
-    "infrastructure_smoke_status": "SEVEN_MONTH_CONTIGUOUS_DETERMINISTIC_M1_PROBE_REPLAYED__UNVALIDATED_STRATEGY_RESULTS_EXCLUDED"
+    "infrastructure_smoke_status": "SEVEN_MONTH_CONTIGUOUS_DETERMINISTIC_M1_PROBE_REPLAYED__UNVALIDATED_STRATEGY_RESULTS_EXCLUDED",
+    "broker_mt5_aggregate_validation": "PENDING_OWNER_LOCAL_M1_REPORT",
+    "tick_by_tick_mt5_parity": "NOT_REQUIRED_FOR_M1_REPORT_CANDIDATE_VALIDATION__DO_NOT_CLAIM_PROVEN",
+    "owner_approved_current_cumulative_EA": "NOT_YET_DESIGNATED_FOR_ALPHA"
   },
   "scope_note": "Explicitly covers all Jan-Jul 2026 for research/reporting at monthly, weekly and daily resolution. Accessing all months for diagnostics does not make them untouched OOS; freeze a new validation split before optimizing. No code execution, backtests, broker orders, or EA release performed.",
   "architecture_contract": {
@@ -144,5 +147,65 @@
     "reporting_week_timezone": "PROVISIONAL_UTC_ISO_PENDING_USER",
     "source_august": "SEALED",
     "valid_out_of_sample_claim": false
+  },
+  "review_contract": {
+    "status": "LIVE_USER_DIRECTIVE_SEPTEMBER_28_2026",
+    "source_docs": {
+      "master_protocol": "https://docs.google.com/document/d/1ycB5bQ3P24w7BZz54RwgJbc5CX5aRcqgr0KiI0Iidkw/edit",
+      "master_research_prompt": "https://docs.google.com/document/d/13xrtChGvE2MCpezzi2wN9alxHYE2NkGOweu8Fi2EJnk/edit",
+      "active_handoff": "https://docs.google.com/document/d/14ElgUCCXZeu7y4go9RAR5-v06rU_yOPqskQCCsqPRA4/edit",
+      "repo_research_handoff": "research/R10_Alpha/MASTER_RESEARCH_PROMPT_AND_HANDOFF_RULES_2026-09-28.md"
+    },
+    "candidate_screeners": [
+      {
+        "kind": "SYSTEM_WIDE",
+        "relative_improvement": "STRICTLY_GREATER_THAN_10_PERCENT",
+        "basis": "predeclared valid overall KPI compared with owner-approved cumulative EA",
+        "metric_definition": "PENDING_PER_EXPERIMENT_DECLARATION",
+        "decision": "QUALIFIED_FOR_HUMAN_REVIEW_ONLY"
+      },
+      {
+        "kind": "CATEGORY",
+        "category_options": [
+          "ENTRY",
+          "HOLD",
+          "EXIT",
+          "PROFIT"
+        ],
+        "relative_improvement": "STRICTLY_GREATER_THAN_10_PERCENT",
+        "basis": "predeclared category KPI; other system performance regressions limited",
+        "metric_definition": "PENDING_PER_CATEGORY_DECLARATION",
+        "decision": "QUALIFIED_FOR_HUMAN_REVIEW_ONLY"
+      }
+    ],
+    "post_python": "HUMAN_REVIEW_REQUIRED_BEFORE_MQL5_CODING",
+    "implementation": "AUTHORIZED_CHANGES_ADDED_TO_LATEST_OWNER_APPROVED_EA_ONLY",
+    "subsequent_validation": {
+      "terminal": "COINEXX_MT5_RUN_LOCALLY_BY_USER",
+      "symbol": "XAUUSD",
+      "timeframe_report": "M1_ONLY",
+      "tester_execution_model": "Every tick based on real ticks",
+      "requested_upload": "STANDARD_COMPACT_TESTER_REPORT_ONLY",
+      "forbidden_uploads": [
+        "NEW_TICK_BY_TICK_MT5_LOGGER",
+        "GIANT_GZIP_PARTS",
+        "EVERY_TICK_TRACE",
+        "RAW_NEW_BROKER_TICK_HISTORY"
+      ],
+      "evidence_class": "AGGREGATE_BROKER_REAL_TICK_TESTER_REPORT_NOT_EXACT_MILLISECOND_PYTHON_MT5_PARITY",
+      "new_approved_baseline_requires": "EXPLICIT_OWNER_SIGNOFF_AFTER_MT5_REPORT_REVIEW",
+      "direct_terminal_access": false,
+      "mt5_reports_received_for_new_alpha_candidates": 0
+    },
+    "distinct_references": {
+      "R9_SYNTH": "ASPIRATIONAL_TARGET_SEPARATE_FROM_10_PERCENT_CANDIDACY_DENOMINATOR",
+      "R9_OVERFIT": "HINDSIGHT_TEACHER_NONCAUSAL_DO_NOT_USE_AS_LIVE_FEATURE",
+      "R9_REAL": "HISTORICAL_ORIGINAL_TESTER_BASELINE",
+      "DUKASCOPY": "SEPARATE_PYTHON_MARKET_FEED",
+      "original_r9_ticklogs": "EXISTING_IMMUTABLE_HISTORICAL_ARCHIVES_NOT_NEW_TEST_OUTPUT"
+    },
+    "source_storage_policy": "NO_DUPLICATED_TICK_FILES_IN_DRIVE_OR_GITHUB_REPORT_ONLY",
+    "august": "SEALED",
+    "status_current_new_candidate": "NONE_SCREENED_OR_APPROVED"
   }
 }
