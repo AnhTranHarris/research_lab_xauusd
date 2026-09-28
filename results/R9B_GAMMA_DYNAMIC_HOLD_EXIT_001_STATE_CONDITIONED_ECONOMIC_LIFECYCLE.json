@@ -1,0 +1,46 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_001_STATE_CONDITIONED_ECONOMIC_LIFECYCLE",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED_AS_REPLACEMENT",
+  "parent": "Frozen ENTRY017/018/019/020/021/023 second-wave ownership architecture",
+  "chosen_horizons": {
+    "STRONG_RUNNER": 1000,
+    "WEAK_RECOVERY_REJECT": 1000,
+    "RECOVERY_CERTIFIED": 4000,
+    "DELAYED_RUNNER": 30000,
+    "FAILED_IGNITION_CANDIDATE": 6000,
+    "LATE_IGNITION": 5000,
+    "NO_LATE_IGNITION": 4000
+  },
+  "replication": {
+    "jan_heldout": {
+      "candidate_net": -169.7335,
+      "canonical_net": -113.5615,
+      "delta_net": -56.172,
+      "gl_reduction_pct": -22.5118,
+      "win_rate_delta_pp": -27.7358
+    },
+    "feb": {
+      "candidate_net": -213.9825,
+      "canonical_net": -218.9,
+      "delta_net": 4.9175,
+      "gl_reduction_pct": -8.93862,
+      "win_rate_delta_pp": -26.4005
+    },
+    "mar": {
+      "candidate_net": -372.9685,
+      "canonical_net": -397.501,
+      "delta_net": 24.5325,
+      "gl_reduction_pct": -5.02084,
+      "win_rate_delta_pp": -27.3936
+    }
+  },
+  "conclusion": "State-aware fixed horizons improve some specialist states and beat universal 5s economics, but they are not a robust replacement for the canonical lifecycle. The main failure is waiting-risk in NO_LATE_IGNITION / FAILED states: forcing trades to survive until +4/+4.5s creates large loss before the ownership state is known. Next research must add causal waiting-risk containment while preserving recovered late/recovery winners.",
+  "decision": "REJECT_AS_REPLACEMENT_RETAIN_DIAGNOSTIC",
+  "next_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_002_WAITING_RISK_CONTAINMENT",
+  "source_sha256": "6531ebaeea3097e3cf13950477983c5293c6f208b55abeee73ecba10c5b117bc",
+  "result_sha256": "ef391580899a13a330eb0486315810cefb1ee4cf9e3a4312f84280bbea8237d6",
+  "drive_cache_source_id": "15AkqpwLWBKbCxtpS5eiBrRUc5KUX1mjM",
+  "drive_result_id": "1th89q-18or3N7oNZo3NldOqT3in_acsw",
+  "drive_manifest_id": "1Xu8qJpnCwQwmiI2wMVYLgPywPd-lJoxO",
+  "august_accessed": false
+}
