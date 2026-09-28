@@ -3637,7 +3637,7 @@
       "qa": "DOCX exported from native Google Doc and visually inspected page-by-page (10 pages).",
       "exact_resume_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_013_BANK_THEN_REQUALIFIED_REENTRY",
       "exact_resume_stage": "REPLICATION_MONTH_3",
-      "strict_rule": "Run one scientific stage only in the first new-chat turn; persist/sync/advance pointer; STOP.",
+      "strict_rule": "SUPERSEDED FOR ORDINARY CHAT by Master Protocol Sections 107-108: checkpoint batching plus mandatory local governance mount.",
       "august_accessed": false
     },
     "hold_exit_015_fresh_signal_topology": {
@@ -4387,6 +4387,12 @@
       },
       "august_accessed": false,
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_023_INTEGRATED_LEDGER"
+    },
+    "current_governing_handoff": {
+      "status": "AUTHORITATIVE_STABLE_RESTART_ENTRYPOINT",
+      "document_id": "1N5DRgTrg8JNo5t7tO1iA-Va0pAGFww8JV5S1ANRPmdQ",
+      "title": "R9B Gamma — SESSION GOVERNING HANDOFF — CURRENT",
+      "role": "Mount with Master Protocol in every new chat; defer live science pointer to CURRENT_STATE.json."
     }
   },
   "gamma2_benchmark_recovery": {
@@ -4586,5 +4592,46 @@
     "scientific_invariants_unchanged": true,
     "august_sealed": true,
     "master_protocol_section": "107"
+  },
+  "governance_bootstrap": {
+    "status": "MANDATORY_NEW_CHAT_HARD_GATE",
+    "master_protocol_doc_id": "1ycB5bQ3P24w7BZz54RwgJbc5CX5aRcqgr0KiI0Iidkw",
+    "current_governing_handoff_doc_id": "1N5DRgTrg8JNo5t7tO1iA-Va0pAGFww8JV5S1ANRPmdQ",
+    "github_contract_path": "notes/SESSION_GOVERNANCE_BOOTSTRAP.md",
+    "github_contract_commit": "3180c5ecf24242430b3c2065d202dc9f9c0a2f38",
+    "local_paths": {
+      "master_protocol": "/mnt/data/r9b_governance/MASTER_PROTOCOL_CURRENT.docx",
+      "current_handoff": "/mnt/data/r9b_governance/CURRENT_HANDOFF_CURRENT.docx",
+      "current_state": "/mnt/data/r9b_governance/CURRENT_STATE.json",
+      "governance_lock": "/mnt/data/r9b_governance/SESSION_GOVERNANCE_LOCK.json"
+    },
+    "startup_sequence": [
+      "read live Master Protocol and record Drive revision",
+      "read live CURRENT Governing Handoff and record Drive revision",
+      "raw-download/export both native Docs so actual local DOCX files are mounted",
+      "copy/rename to canonical r9b_governance local paths",
+      "persist live GitHub CURRENT_STATE.json locally",
+      "create SESSION_GOVERNANCE_LOCK.json with IDs revisions hashes GitHub identity authority order execution mode and sealed-data state",
+      "verify files/hashes",
+      "read and use local snapshots as chat-session governing rules",
+      "only then resume first genuinely incomplete scientific unit"
+    ],
+    "local_bundle_role": "SESSION_WORKING_CONTROL_PLANE",
+    "no_user_reteaching": true,
+    "stale_handoff_rule": "live CURRENT_STATE supersedes stale science pointers in historical handoffs",
+    "remount_triggers": [
+      "runtime reset or missing local bundle",
+      "user says governance changed",
+      "assistant updates a governing document",
+      "revision conflict",
+      "hash/read failure"
+    ],
+    "execution_mode": "ORDINARY_CHAT_CHECKPOINT_BATCHING",
+    "work_mode": "DO_NOT_USE_UNLESS_USER_EXPLICITLY_AUTHORIZES",
+    "master_protocol_sections": [
+      "107",
+      "108"
+    ],
+    "august_sealed": true
   }
 }
