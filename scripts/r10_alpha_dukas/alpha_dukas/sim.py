@@ -84,10 +84,15 @@ class Signal:
     max_hold_ms: int
     expires_ms: int
     signal_id: str
+    observation_type: str='completed_bar'  # or 'tick_observed', never future teacher.
 
     def __post_init__(self):
         if self.side not in(-1,1) or self.ready_ms<self.known_at_ms:
             raise ValueError('Side or future-leaking observation time')
+        if self.observation_type not in ('completed_bar','tick_observed'):
+            raise ValueError('Must declare completed_bar or tick_observed evidence')
+        if self.observation_type=='tick_observed' and self.ready_ms<=self.known_at_ms:
+            raise ValueError('A tick-based signal must execute strictly AFTER observed tick')
         if self.stop_usd<=0 or self.target_usd<=0 or self.max_hold_ms<=0:
             raise ValueError('Invalid bracket/timeout')
         if self.expires_ms<self.ready_ms:raise ValueError('Invalid expiry')
@@ -306,7 +311,8 @@ def load_signals_csv(path:Path)->list[Signal]:
                 known_at_ms=int(row['known_at_ms']),side=int(row['side']),
                 stop_usd=float(row['stop_usd']),target_usd=float(row['target_usd']),
                 max_hold_ms=int(row['max_hold_ms']),expires_ms=int(row['expires_ms']),
-                signal_id=str(row['signal_id'])))
+                signal_id=str(row['signal_id']),
+                observation_type=str(row['observation_type'])))
     result.sort(key=lambda z:(z.ready_ms,z.signal_id))
     return result
 
