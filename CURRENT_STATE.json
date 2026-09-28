@@ -52,7 +52,7 @@
     "dataset_sha_verified_in_alpha": true,
     "forward_validation_split": "JAN_2026_EXPLORATORY_USED__FUTURE_MONTHS_STRATEGY_HOLDOUT_STATUS_UNCOMMITTED__FREEZE_BEFORE_FUTURE_MONTH_USE",
     "first_incomplete_stage": "ALPHA_ENTRY_HOLD_DISCOVERY_002_PREREGISTER_DELAYED_ACCEPTANCE_AND_VOLATILITY_AWARE_EXECUTION",
-    "next_action": "Using frozen Entry/Hold001 negative Jan evidence and R9 original eight-session R9 1/3/10/20/30s markout comparisons, design and preregister a new causal break→pullback→reclaim→acceptance strategy; test on original Dukascopy chronology, with exact Bid/Ask costs, $100-$500 survivability, matched baseline, and count rejected parent events. Do NOT rewrite 001 params to manufacture success; don't inspect August. Owner-approved cumulative Alpha EA still NOT DESIGNATED; two 10% candidate gates not yet evaluable.",
+    "next_action": "R10 ALPHA ONLY; Gamma/Gamma2/Gamma Dynamic are DEAD research lineages. Resume alpha/CURRENT_STATE's first incomplete Entry+Hold 002 after reading Alpha Section 99 and Alpha-only lock. Never run a Gamma unit or treat a Gamma EA as approved parent. Owner-approved Alpha cumulative EA remains NOT YET DESIGNATED; no 10% gate can be claimed on an invented control. Use only compact Coinexx M1 report if/when human-authorized.",
     "dataset_verified_scope": "FULL 7 MARKET GZIP SHA256+CRC+PARSE+TIMESTAMP ORDER+MONTH MEMBERSHIP+BID<=ASK; NUMERIC MEMMAP REPLAY CACHES 57,527,562 TICKS",
     "infrastructure_smoke_runs": 1,
     "infrastructure_smoke_status": "SEVEN_MONTH_CONTIGUOUS_DETERMINISTIC_M1_PROBE_REPLAYED__UNVALIDATED_STRATEGY_RESULTS_EXCLUDED",
@@ -236,5 +236,35 @@
     "augmented_teacher_decision": "NOT_DEPLOYABLE",
     "approved_cumulative_ea": "NOT_YET_DESIGNATED_FOR_ALPHA",
     "status_mt5_report": "NO_NEW_MT5_REPORT_REQUESTED_OR_CREATED"
+  },
+  "active_lineage_contract": {
+    "current": "R10_ALPHA_ONLY",
+    "active_branch": "alpha",
+    "retired_lineages": [
+      "R9B_GAMMA",
+      "GAMMA2",
+      "GAMMA_DYNAMIC",
+      "ALL_GAMMA_RESEARCH_BRANCHES"
+    ],
+    "gamma_status": "DEAD_NO_RESUME_NO_RESEARCH_NO_PROMOTION_NO_BASELINE_NO_PRODUCTION_NO_INVESTOR_CLAIM",
+    "gamma_archive_use": "READ_ONLY_FORENSIC_PRIOR_FAIL_INFORMATION_ONLY",
+    "forbidden_active_pointers": [
+      "main/CURRENT_STATE.json",
+      "notes/R9B_GAMMA*",
+      "Gamma CURRENT Governing Handoff",
+      "Gamma 015+ Roadmap",
+      "Gamma Controller Queue",
+      "Gamma Master Research Prompt",
+      "Gamma 20 percent user notification gate"
+    ],
+    "current_master_prompt_section": "99 R10 Alpha, plus 112 114 115",
+    "alpha_only_lock": "research/R10_Alpha/ALPHA_ONLY_LOCK.md",
+    "live_bootstrap": "notes/SESSION_GOVERNANCE_BOOTSTRAP.md",
+    "canonical_prompt": "research/R10_Alpha/MASTER_RESEARCH_PROMPT_CANONICAL.md",
+    "historical_branch_not_modified": true,
+    "owner_approval_required_before_mql5": true,
+    "owner_approval_required_after_m1_coinexx_report": true,
+    "new_ticklogger_upload": "FORBIDDEN_NO_NEW_TICK_LOGS",
+    "existing_historical_r9_real_synth_logs": "READ_ONLY_REFERENCE"
   }
 }
