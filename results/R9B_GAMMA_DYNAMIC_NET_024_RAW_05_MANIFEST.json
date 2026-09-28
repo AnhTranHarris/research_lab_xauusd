@@ -1,0 +1,28 @@
+{
+  "august_accessed": false,
+  "candidate_semantics": "independent CAUSAL014 raw outcomes; permission/veto is checked at every raw event before one-position replay",
+  "completed_h1_signals": 25,
+  "elapsed_s": 7.007810271999915,
+  "h1_lookahead_prevention": "bar close only; no future 8-hour exit check; cold month start",
+  "month": 5,
+  "next_stage": "NET024_RAW_06",
+  "parent": "CAUSAL_RECERT_014",
+  "parent_metrics": {
+    "avg_hold": 47.78151110675808,
+    "gl": -9751.745500006073,
+    "gp": 5326.449999987048,
+    "maxdd": 4425.645000019011,
+    "net": -4425.295500019026,
+    "pf": 0.5462047794401249,
+    "trades": 25525,
+    "win": 0.6821547502448579
+  },
+  "raw_cache": "NET024_RAW_05.npz",
+  "raw_cache_sha256": "d99e18d4b527fa120fdb81a5c621a9523c0ae6c9375596036367819159407dee",
+  "raw_candidates": 32556,
+  "raw_data_sha256": "3a50e0f1eba3076154238290ec02842cf3744ab192e5c9a2acc1cc07367c6a0d",
+  "source_sha256": "d0910568189e562fda08394ee89bde9789934fbb4aa50dade32b17d61ea6c03f",
+  "stage": "RAW_MONTH_CAUSAL_PARENT_AND_COMPLETED_H1",
+  "status": "VERIFIED_LOCAL",
+  "unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION"
+}
