@@ -1,0 +1,16 @@
+{
+  "unit": "NET002_NET007_JAN_SOURCE_EVENT_IDENTITY_AUDIT_AND_NET004_DESCRIPTORS",
+  "status": "COMPLETED_LOCAL_PARITY_VERIFIED",
+  "code_sha256": "6b96fc890bbea3f2b9e7705cc75dcf82fc0b08445545b63041160444a1f24a79",
+  "source_dependencies_sha256": {
+    "jan_parent_script": "42dfa35cacad1706a89664f691c1199f69e188a280813a5b3151e1fd81f7bf17",
+    "jan_parent_npz": "3fa88617bcc157ec4e6fcc2e62d48f888d93c380c8d18d1f2c79fcd4cc69ce6a"
+  },
+  "summary_sha256": "440ff40ec7b2a46a9b40d4ce43850f01b583c48f39c05d4312f8f87c38f58b3a",
+  "audit_npz_sha256": "ac5c996d1b8126906a2ca2f17af26614737d7c24ab3dfeb4beefb5fbb8a96567",
+  "input_sha256": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5",
+  "next": "NET002_NET007_HISTORICAL_COMBINATION_IDENTITY_AND_COMPLEMENTARITY_PREDECLARATION",
+  "completed_utc": "2026-09-28T17:48:03.514320+00:00",
+  "august_sealed": true,
+  "no_alpha_promotion": true
+}
