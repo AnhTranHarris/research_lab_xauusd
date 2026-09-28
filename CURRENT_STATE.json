@@ -5,7 +5,7 @@
   "repository": "AnhTranHarris/research_lab_xauusd",
   "branch": "alpha",
   "updated_utc": "2026-09-28",
-  "stage": "ENTRY_HOLD_DISCOVERY_001_JANUARY_SCREEN_COMPLETED_ALL_SIX_REJECTED__NEXT_ENTRY_CONFIRMATION",
+  "stage": "CLEAN_RESTART_INITIAL_ENTRY_HOLD_ACCURACY_JAN_COMPLETED_NEGATIVE__NO_APPROVED_EA",
   "scope": {
     "symbol": "XAUUSD",
     "start_date_inclusive": "2026-01-01",
@@ -46,19 +46,24 @@
     "DUKASCOPY": "independent tick-market evidence; verify hashes and schema"
   },
   "scientific_state": {
-    "alpha_backtests_run": 6,
+    "alpha_backtests_run": 0,
     "alpha_strategy_candidates_promoted": 0,
     "alpha_ea_builds_authorized": 0,
     "dataset_sha_verified_in_alpha": true,
-    "forward_validation_split": "JAN_2026_EXPLORATORY_USED__FUTURE_MONTHS_STRATEGY_HOLDOUT_STATUS_UNCOMMITTED__FREEZE_BEFORE_FUTURE_MONTH_USE",
-    "first_incomplete_stage": "ALPHA_ENTRY_HOLD_DISCOVERY_002_PREREGISTER_DELAYED_ACCEPTANCE_AND_VOLATILITY_AWARE_EXECUTION",
-    "next_action": "R10 ALPHA ONLY. Read ALPHA_ENTRY_001_BOOTSTRAP_CONTAMINATION_AUDIT.md before EntryHold002. 001 = quarantined negative January exploratory evidence, not Alpha approval or proven independent breakthrough. Predeclare independent Entry/Hold002 causal hypothesis and source provenance. No Gamma dependencies, no Gamma-derived baseline. Owner-approved cumulative EA NOT DESIGNATED, so formal >10% gate NOT EVALUABLE. Preserve August seal.",
+    "forward_validation_split": "JAN_2026_CLEAN_RESTART_EXPLORATORY_USED; FEB_JUL_NOT_ACCESSED_FOR_NEW_STRATEGY__REQUIRES_PREDECLARED_FORWARD_SPLIT; AUG_SEALED",
+    "first_incomplete_stage": "CLEAN_ALPHA_ENTRY_HOLD_001_COST_AWARE_ENTRY_EXCURSION_AND_SURVIVAL_PREREGISTRATION",
+    "next_action": "OWNER-REQUESTED SCIENTIFIC RESET supersedes old ENTRY_HOLD_002. Quarantine original Alpha ENTRY_HOLD_DISCOVERY_001 and associated 002 queue. Clean initial January clock-defined no-Gamma Entry/Hold baseline is complete and NEGATIVE after costs; result SHA256 925fd3fd.... No Alpha EA baseline designated. Next study must preregister a truly new sequential portfolio and small-account stress model, freeze validation before any Feb-Jul tick research, honor sealed August and compact M1 Coinexx report human-gate workflow. Do not reuse original Gamma model or the Alpha001 2-of-3 M15/M30/H1 structural vote.",
     "dataset_verified_scope": "FULL 7 MARKET GZIP SHA256+CRC+PARSE+TIMESTAMP ORDER+MONTH MEMBERSHIP+BID<=ASK; NUMERIC MEMMAP REPLAY CACHES 57,527,562 TICKS",
     "infrastructure_smoke_runs": 1,
     "infrastructure_smoke_status": "SEVEN_MONTH_CONTIGUOUS_DETERMINISTIC_M1_PROBE_REPLAYED__UNVALIDATED_STRATEGY_RESULTS_EXCLUDED",
     "broker_mt5_aggregate_validation": "PENDING_OWNER_LOCAL_M1_REPORT",
     "tick_by_tick_mt5_parity": "NOT_REQUIRED_FOR_M1_REPORT_CANDIDATE_VALIDATION__DO_NOT_CLAIM_PROVEN",
-    "owner_approved_current_cumulative_EA": "NOT_YET_DESIGNATED_FOR_ALPHA"
+    "owner_approved_current_cumulative_EA": "NOT_YET_DESIGNATED_FOR_ALPHA",
+    "alpha_clean_fixed_horizon_diagnostic_runs": 2,
+    "clean_restart_contamination_status": "ONE_OLD_ALPHA_STUDY_SIX_CONFIGURATIONS_QUARANTINED; ORIGINAL_DATA_NOT_DEMONSTRATED_CORRUPTED; ENGINE_RETESTED",
+    "clean_restart_authorization": "USER_EXPLICIT_2026_09_28_RESTART_BEFORE_GAMMA_BOOTSTRAP",
+    "clean_restart_tests": "21/21_PASSED_ENGINE_15_AND_CLEAN_NEW_6",
+    "clean_restart_first_horizon_results_status": "UNPROFITABLE_ALL_PREDECLARED_FAMILIES_JAN_ONLY; NO_STRATEGY_PROMOTION"
   },
   "scope_note": "Explicitly covers all Jan-Jul 2026 for research/reporting at monthly, weekly and daily resolution. Accessing all months for diagnostics does not make them untouched OOS; freeze a new validation split before optimizing. No code execution, backtests, broker orders, or EA release performed.",
   "architecture_contract": {
@@ -293,5 +298,56 @@
     "oos": "DO_NOT_CLAIM_UNTOUCHED_MAY_JUL_OR_COMPLETE_JAN_JUL_STRATEGY_OOS_WITHOUT_PRECOMMIT_NEW_PROTOCOL",
     "next_step": "ENTRY_HOLD_002_INDEPENDENT_PREREGISTRATION_WITH_ALPHA_ONLY_BOOTSTRAP_AND_NO_GAMMA_CODE_OR_GAMMA_RESULTS_AS_PARENT",
     "user_facing_summary": "Governance polluted; raw input not shown altered; six failed research variants quarantine; no proven approved Gamma carryover."
+  },
+  "clean_restart_entry_hold": {
+    "status": "FINISHED_NEGATIVE_EXPLORATORY_JAN_NOT_EA_BACKTEST",
+    "initial_001_quarantine": {
+      "prior_stage": "ENTRY_HOLD_DISCOVERY_001_JANUARY_SCREEN_COMPLETED_ALL_SIX_REJECTED__NEXT_ENTRY_CONFIRMATION",
+      "experimental_configs": 6,
+      "strategy_source": "scripts/r10_alpha_dukas/entry_hold_discovery_001.py",
+      "record": "research/R10_Alpha/ENTRY_HOLD_DISCOVERY_001_RESEARCH_RECORD.md",
+      "reason": "ERROR_STALE_GAMMA_BOOTSTRAP_GOVERNANCE_AND_UNAPPROVED_FORMER_STRATEGY_ARCHITECTURE",
+      "allowed_uses": "READ_ONLY_FORENSIC_HISTORICAL_FAILURE_ONLY",
+      "former_next_002": "VOIDED__DO_NOT_RESUME_OR_INHERIT",
+      "approval_status": "NEVER_APPROVED"
+    },
+    "new_clean_baseline": {
+      "preregistration": "research/R10_Alpha/CLEAN_RESTART_20260928_INITIAL_ENTRY_HOLD_PREREGISTRATION.md",
+      "source": "scripts/r10_alpha_dukas/CLEAN_RESTART_INITIAL_ENTRY_HOLD_ACCURACY.py",
+      "tests": "scripts/r10_alpha_dukas/tests/test_clean_restart_entry_hold.py",
+      "research_record": "research/R10_Alpha/CLEAN_RESTART_INITIAL_ENTRY_HOLD_RESEARCH_RECORD.md",
+      "result": "results/R10_Alpha/CLEAN_RESTART_INITIAL_ENTRY_HOLD_JAN_RESULT.json",
+      "daily": "results/R10_Alpha/CLEAN_RESTART_INITIAL_ENTRY_HOLD_JAN_DAILY.csv",
+      "january_raw_gzip_sha256": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5",
+      "jan_rows": 9135062,
+      "jan_source_dates": 26,
+      "root_candidates": 7964,
+      "fillable_root": 7597,
+      "net_h30_usd_per_0p01lot": {
+        "CALENDAR_NULL": -0.985916,
+        "FLOW_CONTINUE": -1.074079,
+        "FLOW_FADE": -0.939831,
+        "FLOW_AGREE": -1.050325
+      },
+      "strategy_months_tested": [
+        "2026-01"
+      ],
+      "future_months_not_tested": [
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07"
+      ],
+      "august": "SEALED",
+      "source_research_integrity": "NO_GAMMA_SIGNAL_IMPORT; GZIP_SHA_VALIDATED; 21_PASS; RUN_JSON_REPRODUCIBLE",
+      "artifact_sha256": "925fd3fde9ce5b4ff6931b8f4cb9b09c69d6f208e5379f1b1071cc35c07d95f8",
+      "test_count": 21,
+      "internal_engine_passed": 15,
+      "new_tests_passed": 6,
+      "type": "FIXED_HORIZON_EXECUTABLE_PRICE_MARKOUT_NOT_REALIZED_MARGIN_PORTFOLIO",
+      "formal_10percent_gate": "NOT_EVALUABLE_NO_OWNER_APPROVED_ALPHA_EA"
+    }
   }
 }
