@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_017_STRUCTURAL_REENTRY_REBUILD",
-    "current_unit_state": "BUILD_STRUCTURAL_CACHES_JAN_APR",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_002_H1_H4_FRESH_CAUSAL_RECONSTRUCTION",
+    "current_unit_state": "READY_FRESH_RECONSTRUCTION",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3683,6 +3683,82 @@
       "may_july_accessed": false,
       "august_accessed": false,
       "next_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_017_STRUCTURAL_REENTRY_REBUILD"
+    },
+    "hold_exit_017_structural_reentry_rebuild": {
+      "status": "VERIFIED_DURABLE_REJECTED_APRIL",
+      "decision": "REJECT_FROZEN_STRUCTURAL_RULE",
+      "source_commits": [
+        "2f0b4a42342dfbdd0b9579bf45483512a4a89b7c",
+        "05b9528eac5abc787ae1a3c60b4a3e5267c6a4cd"
+      ],
+      "result_sha256": "b75e6af2b85fdfad75982a707388bc97852656afa8c63e22fd3aca2a4cdc3c1c",
+      "drive_result_id": "1RA0kYdwpWBlMa5OgbtQOOsVS9GDXsNZ3",
+      "april": {
+        "trades": 19,
+        "winners": 5,
+        "net": -9.8985,
+        "pf": 0.1838644515
+      },
+      "may_july_accessed": false,
+      "august_accessed": false
+    },
+    "hold_exit_018_structural_quality_router": {
+      "status": "VERIFIED_DURABLE_REJECTED_DISCOVERY",
+      "decision": "REJECT_STRUCTURAL_QUALITY_ROUTER",
+      "source_commit": "d790d547b8567b67ab5f109e2580dd16abb055a0",
+      "result_sha256": "ee0daedacca9421b8e7326f1b9ec2fd8bf04df92c331722841421c6722dae9a9",
+      "drive_result_id": "1K1j7HDzzK-dERl2N9SnbI04n7k2Pwinx",
+      "eligible_discovery_candidates": 0,
+      "may_july_accessed": false,
+      "august_accessed": false
+    },
+    "hold_exit_019_online_regime_abstention": {
+      "status": "VERIFIED_DURABLE_REJECTED_APRIL",
+      "decision": "REJECT_ONLINE_REGIME_ABSTENTION",
+      "source_commit": "a22ca4ceeb8ee2d4dec15e0345b38dd414def354",
+      "result_sha256": "8a1c7e38f1cdc68be750b0267653f89d07acd4be12556320f54fbdb5804716e4",
+      "drive_result_id": "1zLwcM6brXinvUHxYmGxuaMJDil-U8cKx",
+      "jan_mar": {
+        "jan_net": 9.248,
+        "feb_net": 28.1485,
+        "mar_net": 6.621
+      },
+      "april": {
+        "trades": 12,
+        "winners": 4,
+        "net": -7.862,
+        "pf": 0.314679219
+      },
+      "may_july_accessed": false,
+      "august_accessed": false
+    },
+    "hold_exit_020_opportunity_reset_rebuild": {
+      "status": "VERIFIED_DURABLE_REJECTED_DISCOVERY",
+      "decision": "REJECT_OPPORTUNITY_RESET_RULE",
+      "source_commit": "cf86194e792d0d7325c54aff3a6179558ba060b1",
+      "result_sha256": "49c4e40c431c3eb57b68e07ad625ec76bab7c420ec8c5f918e9715e78e70e992",
+      "drive_result_id": "1aflfTvH45KmHzvCmkA8RX6Tj3SmLts80",
+      "eligible_discovery_candidates": 0,
+      "may_july_accessed": false,
+      "august_accessed": false
+    },
+    "hold_exit_021_reentry_branch_closure": {
+      "status": "VERIFIED_DURABLE_ARCHITECTURAL_DECISION",
+      "github_commit": "131eac5231444210fdda51360a956f38ce825104",
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_002_H1_H4_FRESH_CAUSAL_RECONSTRUCTION",
+      "conclusion": "Close same-chain fresh-reentry branch after repeated April failure; pivot to orthogonal completed-bar H1/H4 fresh causal reconstruction.",
+      "may_july_accessed": false,
+      "august_accessed": false
+    },
+    "h1_h4_fresh_causal_reconstruction": {
+      "status": "READY",
+      "archaeology_note_path": "notes/R9B_GAMMA_DYNAMIC_NET_001_H1_H4_STRUCTURAL_ARCHAEOLOGY.md",
+      "historical_reference": {
+        "h1": "~+$1.39K / ~336 trades / PF ~1.43 / all 7 months positive",
+        "h4": "~+$1.16K / ~77 trades / PF ~1.7 / all 7 months positive"
+      },
+      "rule": "Historical figures are reference targets only. Reconstruct from fresh causal completed-bar semantics; no numerical backfit.",
+      "validation": "Jan-Mar discovery; April calibration; May-Jul frozen forward; August sealed."
     }
   },
   "gamma2_benchmark_recovery": {
