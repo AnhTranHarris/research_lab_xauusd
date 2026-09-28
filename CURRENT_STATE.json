@@ -48,7 +48,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
-    "current_unit_state": "NET002_NET007_JAN_CAUSAL_MAPPING_VERIFIED_NEXT_SOURCE_EVENT_DESCRIPTOR_AUDIT",
+    "current_unit_state": "NET002_NET007_JAN_SOURCE_EVENT_DESCRIPTORS_VERIFIED_NEXT_LOSS_ATTRIBUTION",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -5254,8 +5254,8 @@
       "next_stage": "HISTORICAL_NET002_NET007_STRUCTURAL_INDICATOR_COMBINATION_SOURCE_TO_PARENT_ARCHAEOLOGY"
     },
     "historical_net002_net007_source_reconciliation": {
-      "status": "JAN_CAUSAL_ZERO_DELTA_PARITY_VERIFIED_NEXT_DESCRIPTOR_SOURCE_IDENTITY_AUDIT",
-      "first_incomplete_stage": "NET002_NET007_JAN_SOURCE_EVENT_IDENTITY_AUDIT_AND_NET004_DESCRIPTORS",
+      "status": "JAN_NET002_NET007_SOURCE_EVENTS_AND_NET004_DESCRIPTOR_VISIBLE_REBUILT",
+      "first_incomplete_stage": "NET002_NET007_JAN_STRUCTURAL_COMPOSITION_LOSS_ATTRIBUTION_DIAGNOSTIC",
       "source_families": [
         "NET002 completed H1/H4 break of structure and ATR/body quality",
         "NET003 H1-break-M15-retest/reclaim",
@@ -5317,6 +5317,35 @@
         "august_accessed": false,
         "production_mql5_authorized": false,
         "next": "NET002_NET007_JAN_SOURCE_EVENT_IDENTITY_AUDIT_AND_NET004_DESCRIPTORS"
+      },
+      "net004_net005_source_descriptor_audit": {
+        "status": "VERIFIED_DURABLE_CAUSAL_DESCRIPTORS_ONLY",
+        "source_path": "scripts/r9b_net004_net005_jan_descriptor_audit.py",
+        "source_blob": "409c21344f89b89e3e5cad7820895af837599600",
+        "source_sha256": "6b96fc890bbea3f2b9e7705cc75dcf82fc0b08445545b63041160444a1f24a79",
+        "source_commit": "4d5214e924285d7094042a9c643a65c7ff594b86",
+        "result_path": "results/R9B_GAMMA_NET004_NET005_JAN_DESCRIPTOR_SUMMARY.json",
+        "result_blob": "149b892cde200c1e72f5694678aa1b526e9a783e",
+        "result_sha256": "440ff40ec7b2a46a9b40d4ce43850f01b583c48f39c05d4312f8f87c38f58b3a",
+        "manifest_path": "results/R9B_GAMMA_NET004_NET005_JAN_DESCRIPTOR_MANIFEST.json",
+        "manifest_sha256": "a42eb5dc38055768c18c0d73d35794f90368fb9af7d850b60f4fa3d3585a50f4",
+        "audit_npz_sha256": "ac5c996d1b8126906a2ca2f17af26614737d7c24ab3dfeb4beefb5fbb8a96567",
+        "net004_descriptor_rows": 108,
+        "net004_features": 15,
+        "net004_nonfinite": 0,
+        "causal014_raw_asof_covered": 33438,
+        "independent_net005_h4_source_grid_candidates": 36,
+        "coincidence_with_ca014_timestamp": {
+          "H1": 0,
+          "H4": 0
+        },
+        "net004_future_feature_violations": 0,
+        "january_control_unchanged": true,
+        "library_path": "/R9_Gamma_Checkpoints/NET002_NET007_JAN_MAPPING",
+        "unresolved_historical_result_artifact_truncation": "GitHub old NET002-005 fat JSON result copies each 1000 lines, invalid JSON; exact historic frozen NET005 selection unknown; Error Ledger incident ERR-20260928-NET002-007-HISTORICAL-JSON-SOURCE-CLOSURE",
+        "no_promotion": true,
+        "august_accessed": false,
+        "next": "NET002_NET007_JAN_STRUCTURAL_COMPOSITION_LOSS_ATTRIBUTION_DIAGNOSTIC"
       }
     },
     "net002_net007_source_audit": {
@@ -5348,7 +5377,7 @@
       ],
       "august_accessed": false
     },
-    "first_incomplete_stage": "NET002_NET007_JAN_SOURCE_EVENT_IDENTITY_AUDIT_AND_NET004_DESCRIPTORS",
+    "first_incomplete_stage": "NET002_NET007_JAN_STRUCTURAL_COMPOSITION_LOSS_ATTRIBUTION_DIAGNOSTIC",
     "session_handoff_20260928_max_chat": {
       "status": "DURABLE_GOOGLE_DOCS_HANDOFF_VERIFIED",
       "date": "2026-09-28",
