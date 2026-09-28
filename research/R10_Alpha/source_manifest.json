@@ -16,7 +16,7 @@
       "2026-07"
     ],
     "hashes_verified_in_alpha": true,
-    "verification_scope": "LOCAL_COMPRESSED_BYTES_SHA256_AND_LENGTH_ONLY__NO_FULL_GZIP_CRC_OR_TICK_SCHEMA_CHRONOLOGY_CHECK_THIS_TURN",
+    "verification_scope": "FULL_COMPRESSED_SHA256_GZIP_CRC_AND_EVERY_TICK_MILLISECOND_UTC_MONTH_SORTED_AND_BID_ASK_COHERENT",
     "project_local_copies": [
       {
         "month": "01",
@@ -60,7 +60,27 @@
         "compressed_bytes": 53057690,
         "compressed_sha256": "e171e8c2fb59f3f4147a6f845eb68e664fa9c0f4815caa33acdbb42cc2f768b7"
       }
-    ]
+    ],
+    "month_cache": {
+      "data_market_ticks": 57527562,
+      "calendar_utc_dates_with_quotes": 181,
+      "cache_schema": "r10_alpha_dukas_tick_cache_v1",
+      "price_scale_raw_per_usd": 1000,
+      "source_hashes_verified": "JAN_TO_JUL_ALL_SEVEN",
+      "gzip_complete_decompression": "PASS_ALL_SEVEN",
+      "timestamp_nondecreasing": "PASS_ALL_SEVEN",
+      "same_millisecond_source_order_preserved": true,
+      "bid_not_above_ask": "PASS_ALL_SEVEN",
+      "volume_fields_stored_in_cache": true,
+      "byte_preserving_originals": "IMMUTABLE_LOCAL_ORIGINAL_GZIP",
+      "mmap_binary_cache_bytes": 1840881984,
+      "reproducible_script": "scripts/r10_alpha_dukas/alpha_dukas/data.py",
+      "audit": "results/R10_Alpha/DUKAS_SEVEN_MONTH_SOURCE_BAR_AUDIT.json",
+      "retention": "DERIVED_CACHE_LOCAL_ONLY_NOT_UPLOADED",
+      "august": "SEALED"
+    },
+    "monthly_bar_audit_pass": true,
+    "monthly_bar_interval_count": 16
   },
   "mt5_tick_logs": {
     "role": [
