@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_004_BRANCH_SPECIFIC_WAITING_REBUILD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_005_SEQUENTIAL_HAZARD_REBUILD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -3310,6 +3310,28 @@
       "recovery_eligible_count": 0,
       "late_eligible_count": 8,
       "conclusion": "Economic wait-value labels did not robustly solve recovery waiting risk; rebuild around frozen future ownership identity as teacher-only label.",
+      "august_accessed": false
+    },
+    "hold_exit_004_branch_specific_waiting_rebuild": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBTHRESHOLD",
+      "result_commit": "137b41f0112104c649b943868928ef95bd0a254f",
+      "note_commit": "3fee76ae6d6d6274da14037987c3218bad4d2014",
+      "manifest_commit": "de403392c3130f30451980f28ac56db172838d82",
+      "drive": {
+        "source": "1GDT-L1SwqX4QVCX-VXwFrrI_fpm8czhl",
+        "result": "1eqYZjpgzZtiaA6K2M_awjOq5AquebEG-",
+        "model": "1bxGSITmFErEcPEFnL7LoqSFGk15wipUl",
+        "manifest": "14fwuFZzxaYVq3y-JoQJoy6RVFA127ccj"
+      },
+      "replication": {
+        "jan_net_vs_hold1": 33.1695,
+        "feb_net_vs_hold1": -8.7985,
+        "mar_net_vs_hold1": 31.304,
+        "jan_gl_reduction_pct": 12.2303,
+        "feb_gl_reduction_pct": 4.728,
+        "mar_gl_reduction_pct": 8.4975
+      },
+      "conclusion": "Ownership-label hazard reduces GL in all replications but hard checkpoint cuts sacrifice too many valuable February states; move to sequential/conservative hazard.",
       "august_accessed": false
     }
   },
