@@ -19,7 +19,8 @@
 ## RETIRED Google Drive documents (no historical deletion)
 * Discovered and retitled **35 Gamma-era Google Docs**, including Gamma 015+ Roadmap, old Gamma CURRENT Governing Handoff, Gamma Controller Queue, Gamma Backend Status, old Gamma MT5 build specifications, old MT5 Vault snapshots, and associated Gamma research notes.
 * All 35 renamed with `ZZ_RETIRED_GAMMA__` prefix, **preserving original file IDs and historical records**.
-* All 35 also received a header tombstone: RETIRED; all prior `ACTIVE`, `CURRENT`, `NEXT`, `APPROVED` and `RESUME` claims within these files refer to a former, now-dead lineage and are NOT actionable for R10 Alpha.
+* All 35 also received a header tombstone (all write operations returned success; core high-risk sample readbacks verified): RETIRED; all prior `ACTIVE`, `CURRENT`, `NEXT`, `APPROVED` and `RESUME` claims within these files refer to a former, now-dead lineage and are NOT actionable for R10 Alpha.
+* A further **R9 Rebuild — Entry-Weighted Multi-Specialist Research** document (1Ryzl9Ic2s1bkZgsWkKZ9btqq4p4OmV80-UBh3z4) contains 218 Gamma references and an old ACTIVE research status; it was separately renamed `ZZ_RETIRED_GAMMA_R9__...` and prefixed with a hard retirement warning. Thus **36 historical research documents** were marked retired in this pass (35 Gamma-era + this additional R9 research manuscript).
 * Gamma historical files were NOT treated as the canonical scientific starting point. Original R9 REAL/SYNTH test reports, R9 OVERFIT teacher references and the two R10 Alpha correlation quick-reference docs remain intact.
 
 ## Alpha GitHub branch entrypoint fixes
@@ -34,6 +35,14 @@
 * `research/R10_Alpha/MASTER_RESEARCH_PROMPT_AND_HANDOFF_RULES_2026-09-28.md` — compact gate and transfer rules remain authoritative as long as consistent with newest user orders.
 * Neither default/main nor any former Gamma branch has been written to or reactivated.
 
+## Google Drive Alpha folder organization
+* The native **R10 Alpha Master Research Prompt** (same ID 13xrtChGvE2MCpezzi2wN9alxHYE2NkGOweu8Fi2EJnk) and **Alpha Verified Source Library/Index** (same ID 1eY7lrCBcQNpFfRm_PuFb6U39DY6inGbZ19uz9Ap6aDo) were moved into Alpha Drive **00_GOVERNANCE_AND_SOURCE_MANIFESTS** (folder 17S6qfVWkHVJMcYMp-QLnycFAtJbpmauc), with links unchanged.
+* The native **CURRENT R10 Alpha Governing Handoff** (same ID 14ElgUCCXZeu7y4go9RAR5-v06rU_yOPqskQCCsqPRA4) was moved to **05_HANDOFF_AND_CHECKPOINTS** (folder 1xZYzAXQ36uJUFnwxD8KvvMwcZ-wU2bPA), with stable link. The global live Master Protocol stays in its original source location to avoid disrupting linked protocol consumers.
+* The legacy Gamma handoff / roadmap / queue remain in their original historical locations with RETIRED prefix and tombstones. No original input tick archives moved or duplicated.
+
+## Governance verification after repairs
+11/11 active-doc readback checks passed: Master first paragraph Alpha-only stop, Section99 live, Section108 Alpha current Handoff and Alpha-only state, no old Gamma Handoff as current, standalone research Doc Alpha-only, active Handoff Alpha-only/EntryHold002, active Source Index Alpha-only, M1 internal real-tick reporting, strict owner gate references. Canonical Section99 source and GitHub mirror have also been compared and matched 33 nonblank paragraphs/lines under whitespace normalization. Verified active science pointer: Jan Entry/Hold001 six rejected, Entry/Hold002 next, approved cumulative Alpha EA **NOT YET DESIGNATED**. No new trading research result was manufactured by this administrative work.
+
 ## Remaining non-authoritative historical surfaces / setting limitations
 * GitHub `alpha` ancestry presently still contains **249 inherited paths with GAMMA/R9B in their filenames**, out of 365 total tree entries. These are old models, scripts, notes/results and source-provenance artifacts; they are retained for reproducibility and are **explicitly EXCLUDED** from the Alpha startup, candidate parent/experiment scheduling, MT5 build and investor reporting. **No bulk deletion or wholesale source rewrite performed**; retirement is logical/governance, not byte deletion. This is a deliberate transparent residual, not a valid alternative science queue.
 * GitHub repository **default branch remains `main`**, even though only `alpha` is the active research branch. Connected tools here can read the setting and write Alpha files, but cannot modify the repository default-branch setting. The owner can switch the default to `alpha` using GitHub web UI Settings → Branches → Default branch, if desired. Until then, always use explicit `/tree/alpha` and `/blob/alpha` links.
@@ -44,12 +53,12 @@
 Verify `alpha/CURRENT_STATE.json`, and **PREDECLARE Entry/Hold discovery 002** with causal break → pullback → reclaim → acceptance, frozen economics and per-day coverage. Preserve negative January discovery 001. Master Protocol Section99 is active; Gamma is retired; August sealed.
 
 ## Durable verification checklist
-[ ] Live Master first paragraph declares GAMMA DEAD / ALPHA ONLY.
-[ ] Live Section99 matches `MASTER_RESEARCH_PROMPT_CANONICAL.md` and references Alpha only.
-[ ] Live Section108 uses Alpha handoff and Alpha `CURRENT_STATE`, not Gamma/main.
-[ ] Handoff and Master Research Prompt first paragraph establish Alpha-only status.
-[ ] Gamma old CURRENT handoff, roadmap, queue, backend, build specs have RETIRED tombstone.
-[ ] GitHub `README`, `notes/SESSION_GOVERNANCE_BOOTSTRAP`, `CURRENT_STATE` and `ALPHA_ONLY_LOCK` link Alpha only.
-[ ] E/H001 is rejected; E/H002 incomplete; owner approved EA NOT DESIGNATED; no Alpha MT5 release assumed.
-[ ] August SEALED; M1 compact Coinexx tester report only; owner review pre-MQL5 and post-tester.
-[ ] If any retrieved file contradicts these checks, STOP research, mark `GOVERNANCE_CONFLICT`, repair only the live Alpha authority, and verify again.
+[x] Live Master first paragraph declares GAMMA DEAD / ALPHA ONLY.
+[x] Live Section99 matches `MASTER_RESEARCH_PROMPT_CANONICAL.md` and references Alpha only.
+[x] Live Section108 uses Alpha handoff and Alpha `CURRENT_STATE`, not Gamma/main.
+[x] Handoff and Master Research Prompt first paragraph establish Alpha-only status.
+[x] Gamma old CURRENT handoff, roadmap, queue, backend, build specs have RETIRED tombstone.
+[x] GitHub `README`, `notes/SESSION_GOVERNANCE_BOOTSTRAP`, `CURRENT_STATE` and `ALPHA_ONLY_LOCK` link Alpha only.
+[x] E/H001 is rejected; E/H002 incomplete; owner approved EA NOT DESIGNATED; no Alpha MT5 release assumed.
+[x] August SEALED; M1 compact Coinexx tester report only; owner review pre-MQL5 and post-tester.
+[x] If any retrieved file contradicts these checks, STOP research, mark `GOVERNANCE_CONFLICT`, repair only the live Alpha authority, and verify again.
