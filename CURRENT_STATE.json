@@ -5,7 +5,7 @@
   "repository": "AnhTranHarris/research_lab_xauusd",
   "branch": "alpha",
   "updated_utc": "2026-09-28",
-  "stage": "R9_TICKWISE_CORRELATION_V2_REFERENCE_COMPLETED__FOLLOWUP_REAL_EXECUTION_PARITY_PENDING",
+  "stage": "DUKASCO_PYTHON_MONTH_BLOCK_BACKTEST_ENV_READY__AWAITING_RESEARCH_DIRECTION",
   "scope": {
     "symbol": "XAUUSD",
     "start_date_inclusive": "2026-01-01",
@@ -47,9 +47,11 @@
     "alpha_ea_builds_authorized": 0,
     "dataset_sha_verified_in_alpha": true,
     "forward_validation_split": "NOT_YET_SELECTED_AFTER_SCOPE_EXPANSION",
-    "first_incomplete_stage": "ALPHA_000_JAN_SOURCE_AND_R9_EXECUTION_PREFLIGHT",
-    "next_action": "Use the verified 149-day event indexes, eight direct raw-tick daily paired samples and original REAL/SYNTH reports to design source-equivalent complete R9 execution parity; preserve causal/OOS boundaries before ENTRY/HOLD/EXIT/PROFIT experimentation.",
-    "dataset_verified_scope": "7 PROJECT compressed Dukascopy gz copies: length+SHA-256 ONLY; data schema/chronology/CRC not yet tested"
+    "first_incomplete_stage": "ALPHA_000_R9_EXECUTION_EQUIVALENCE_PREFLIGHT_AND_STRATEGY_RESEARCH_PLAN",
+    "next_action": "Review four category Entry/Hold/Exit/Profit user direction; define frozen validation plan and broker calibration, then develop causal strategies on fast Dukascopy month blocks without August or R9 SYNTH execution substitution.",
+    "dataset_verified_scope": "FULL 7 MARKET GZIP SHA256+CRC+PARSE+TIMESTAMP ORDER+MONTH MEMBERSHIP+BID<=ASK; NUMERIC MEMMAP REPLAY CACHES 57,527,562 TICKS",
+    "infrastructure_smoke_runs": 1,
+    "infrastructure_smoke_status": "SEVEN_MONTH_CONTIGUOUS_DETERMINISTIC_M1_PROBE_REPLAYED__UNVALIDATED_STRATEGY_RESULTS_EXCLUDED"
   },
   "scope_note": "Explicitly covers all Jan-Jul 2026 for research/reporting at monthly, weekly and daily resolution. Accessing all months for diagnostics does not make them untouched OOS; freeze a new validation split before optimizing. No code execution, backtests, broker orders, or EA release performed.",
   "architecture_contract": {
@@ -104,5 +106,43 @@
       "https://drive.google.com/drive/folders/11GY1A1pFkwHfaylt2n_-P7Bd4dJ9zFO4",
       "https://drive.google.com/drive/folders/1ES78vXb2mFsOsa50BiwCLsT6BXgLe-Oe"
     ]
+  },
+  "backtest_environment": {
+    "status": "BUILT_AND_TESTED",
+    "github_root": "scripts/r10_alpha_dukas",
+    "github_docs": "research/R10_Alpha/DUKAS_BACKTEST_ENGINE_README.md",
+    "source_bar_audit": "results/R10_Alpha/DUKAS_SEVEN_MONTH_SOURCE_BAR_AUDIT.json",
+    "test_count_passed": 15,
+    "data_scope": "JAN_JUL_2026_ONLY",
+    "source_market_tick_count": 57527562,
+    "source_daily_utc_date_count": 181,
+    "month_blocks": 7,
+    "custom_intervals_ms": [
+      250,
+      1000,
+      5000,
+      15000,
+      30000,
+      45000
+    ],
+    "native_derived_intervals_ms": [
+      60000,
+      300000,
+      420000,
+      900000,
+      1800000,
+      2700000,
+      3600000,
+      14400000,
+      43200000,
+      86400000
+    ],
+    "event_driven": "Numba exact bid/ask chronological one-account replay",
+    "portfolio_state": "CONTINUES_MONTH_BOUNDARY_NO_FORCED_CLOSE",
+    "research_signal_status": "EXTERNAL_CANDIDATES_SUPPORTED_BUT_NOT_YET_LAUNCHED",
+    "reporting_day_timezone": "UTC_DATA_SOURCE",
+    "reporting_week_timezone": "PROVISIONAL_UTC_ISO_PENDING_USER",
+    "source_august": "SEALED",
+    "valid_out_of_sample_claim": false
   }
 }
