@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_019_MULTI_HORIZON_PERSISTENCE_STATE",
+    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_020_RECOVERY_RUNNER_TIMING_STATE",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -3044,6 +3044,49 @@
         "raw_mid_displacement_equivalent_gt": 0.4717500030994415,
         "else": "HARVEST_CANDIDATE_DIAGNOSTIC_ONLY"
       }
+    },
+    "entry_019_multi_horizon_persistence_state": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_FRONTIER",
+      "source_commit": "abef8b310cfc2fa8659217f63980734abdf88eb7",
+      "result_commit": "40bf9d1d6ef264d5c3d6823aab85fe0210f9cdd1",
+      "model_commit": "5810444f58d5121a8fa1692b5025d0f7413c7eef",
+      "manifest_commit": "bb3c8f9bfac22a0766e2754a2383586a6c1f2b91",
+      "note_commit": "3d54a9292390b2d6fb7d5700eaff8e580ac9ddee",
+      "source_sha256": "fc5c7d10ec0a9521ff9d824251cd9beb523522327cecc84c46c174a50dd6c3f6",
+      "result_sha256": "394e1ec597eb2a81c7bce6693b12379db8506e854123f29ceeab3dc75b45dca2",
+      "model_sha256": "2c0dbc29e91b1083e6344fbc033c4eb56db3c267e6159119eab35a5621e6f84c",
+      "state_machine": [
+        "STRONG_RUNNER",
+        "RECOVERY_RUNNER",
+        "HARVEST_CANDIDATE"
+      ],
+      "replication": {
+        "jan_heldout": {
+          "combined_5s_delta_pp": 2.0274,
+          "runner_recall_pct": 95.4338,
+          "coverage_pct": 92.638
+        },
+        "feb": {
+          "combined_5s_delta_pp": 1.1218,
+          "runner_recall_pct": 93.808,
+          "coverage_pct": 92.1722
+        },
+        "mar": {
+          "combined_5s_delta_pp": 0.947,
+          "runner_recall_pct": 92.4433,
+          "coverage_pct": 91.1003,
+          "combined_3s_delta_pp": -0.6944
+        }
+      },
+      "conclusion": "Recovery persistence is non-monotonic. ENTRY019 restores >92% total 5s runner recall while preserving positive 5s accuracy uplift, but March 3s accuracy slips slightly; retain as 5s recovery diagnostic only, no exit change.",
+      "august_accessed": false
+    },
+    "session_artifact_audit": {
+      "status": "IN_PROGRESS_FINAL_SYNC",
+      "scope": "Entry/hold session helper/result/model artifacts; prior 007-015 already in polling-safe recovery folder; 016 exact Google Docs archive created; 017 raw helper sources mirrored to GitHub; 018/019 raw source/result/model artifacts in Drive and GitHub.",
+      "entry016_archive_doc_id": "1RoVap7SuDRPpmiG_fwAHbZqanZAc1hdMqZJv4mK5cdA",
+      "recovery_folder_id": "1Wb2QQGCpIp8v587_28F8aDZQdaHEU_W8",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
