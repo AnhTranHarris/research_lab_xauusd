@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_006_RECOVERY_WAITING_SPECIALIST",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_007_POST_RESOLUTION_STATE_MONETIZATION",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -3369,6 +3369,21 @@
         }
       },
       "conclusion": "Small but replicated conservative loss-control improvement in late-wait branch; retain as frozen research frontier. Recovery waiting branch remains unresolved.",
+      "august_accessed": false
+    },
+    "hold_exit_006_recovery_waiting_specialist": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+      "result_commit": "c7b8f764d7e5605666a6cca2f563c4060551c2f9",
+      "note_commit": "36fe6f8dd152a0c95407be607e9db745a57a25bf",
+      "manifest_commit": "977ab0ab07148781e7263f52e09ff6c319c59751",
+      "drive_source_id": "1dY3TEq7Ye7oAFftRh9sw0dweU7qTYJP0",
+      "drive_result_id": "1N3dZdfTgpVsYtvGUh6yDqKhEjV0ZriMn",
+      "drive_manifest_id": "172vKJDGosEIxi6mHUscUslJsAc1ApKYw",
+      "screen_count": 14112,
+      "eligible_count": 0,
+      "conclusion": "No conservative +2s/+3s pre-resolution recovery cut improved both net and gross loss in both January halves while retaining >=90% of RECOVERY_CERTIFIED/DELAYED_RUNNER states. Preserve recovery waiting through frozen resolution; move to post-resolution monetization.",
+      "source_sha256": "ca9df6797703a807b6519716d644d82ffc59d38117afe639b72596ee7e09b777",
+      "result_sha256": "69ac1b4de304969cabdd50d18fa670643926c26353a52d9309b6c6c4964f13b2",
       "august_accessed": false
     }
   },
