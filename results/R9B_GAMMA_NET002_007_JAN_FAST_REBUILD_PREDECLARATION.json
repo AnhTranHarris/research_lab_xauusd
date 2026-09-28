@@ -1,0 +1,102 @@
+{
+  "schema": "r9b-gamma-net002-007-january-only-fast-rebuild-v1",
+  "stage": "NET002_NET007_HISTORICAL_COMBINATION_IDENTITY_AND_COMPLEMENTARITY_PREDECLARATION",
+  "status": "FROZEN_JANUARY_DIAGNOSTIC_ONLY",
+  "authority": "CAUSAL014 January exact-tick control; structural source audit and three January context checkpoints VERIFIED_DURABLE",
+  "user_directive": "Restrict current old-strategy reconstruction/debug/testing to JANUARY 2026 for speed; DO NOT treat January as proof of forward viability.",
+  "gates": {
+    "immutable_parent": {
+      "raw_events": 34362,
+      "selected": 28088,
+      "winners": 19087,
+      "net": -4510.0870000207515,
+      "gp": 7001.463999985857,
+      "gl": -11511.55100000661,
+      "max_dd": 4554.885500020489
+    },
+    "january_raw_sha": "d2ebb9a8c19caad02c5d95d7c6504868722c286e1187d1dbad18098d8c5ec5c5",
+    "original_npz_sha": "3fa88617bcc157ec4e6fcc2e62d48f888d93c380c8d18d1f2c79fcd4cc69ce6a",
+    "descriptor_npz_sha": "ac5c996d1b8126906a2ca2f17af26614737d7c24ab3dfeb4beefb5fbb8a96567",
+    "source_original": "scripts/r9b_net002_007_jan_asof_mapping.py",
+    "source_descriptor": "scripts/r9b_net004_net005_jan_descriptor_audit.py",
+    "sealed": "AUGUST",
+    "execution_quote": "original modeled bid=mid-0.10; ask=mid+0.10, no executable H1/H4/M15 new-event trades in this cached sweep screen",
+    "date_range": "2026-01-01 through 2026-01-31 UTC ONLY",
+    "testing_scope": "SOURCE_PARITY_AND_CAUSAL_MECHANISM_RECONSTRUCTION; NO PROMOTION OR OUT_OF_SAMPLE_PROOF"
+  },
+  "velocity": "Use small January .npz event ledger to test eligibility and invariants first; full January gzip scan ONLY if signal generation, price normalization, lifecycle, new independent event pricing, or downstream owner state changes; no repeated seven-month sweeps.",
+  "hypotheses": [
+    {
+      "id": "JAN_DEBUG_A0",
+      "mechanism": "UNCHANGED CAUSAL014 control",
+      "eligible": "all original raw sweep events",
+      "purpose": "exact zero-delta golden invariant",
+      "signal_time": "actual original tick"
+    },
+    {
+      "id": "JAN_DEBUG_A1",
+      "mechanism": "source-context H1 BOS owner+H4 owner agree with raw side",
+      "eligible": "both completed non-neutral owner states equal raw side",
+      "purpose": "verify correct as-of joint ownership; context-only source debug",
+      "signal_time": "original raw tick"
+    },
+    {
+      "id": "JAN_DEBUG_A2",
+      "mechanism": "source-context same-origin M15 retest/reclaim child and H1 owner agree with raw side",
+      "eligible": "retest child previously completed and originating current H1 BOS, with child side equal raw side",
+      "purpose": "verify retest identity and difference between as-of context and independent child trade",
+      "signal_time": "original raw tick"
+    },
+    {
+      "id": "JAN_DEBUG_A3",
+      "mechanism": "source-context same-origin M15 failed-acceptance child agrees with raw side",
+      "eligible": "failure child previously completed and originating current H1 BOS, with child reversal side equal raw side",
+      "purpose": "verify causal failed-acceptance state without backdated reversal",
+      "signal_time": "original raw tick"
+    },
+    {
+      "id": "JAN_DEBUG_A4",
+      "mechanism": "source-context H4 owner with H1 BOS and NET004 descriptors visible",
+      "eligible": "completed H1 source event identifier maps exactly to NET004 row; nonneutral completed H4 owner visible",
+      "purpose": "source feature/time parity, not training tree",
+      "signal_time": "original raw tick"
+    },
+    {
+      "id": "JAN_SHADOW_B1",
+      "mechanism": "independent NET003 M15 retest/reclaim entry",
+      "eligible": "new entry only first real tick at or after completed M15 child, separate origin_source",
+      "purpose": "separate causal event/lifecycle source closure",
+      "status": "SHADOW_ONLY_NOT_IN_CACHED_PARENT_SCREEN"
+    },
+    {
+      "id": "JAN_SHADOW_B2",
+      "mechanism": "independent NET007 failed-acceptance reversal",
+      "eligible": "new entry only first real tick at or after completed M15 child, separate origin_source",
+      "purpose": "separate causal event/lifecycle source closure",
+      "status": "SHADOW_ONLY_NOT_IN_CACHED_PARENT_SCREEN"
+    },
+    {
+      "id": "JAN_SHADOW_B3",
+      "mechanism": "independent NET005 H4 BOS sleeve",
+      "eligible": "new entry only first real tick at or after completed H4 BOS, separate source",
+      "purpose": "source needs original frozen config, separate event ledger, one chronological portfolio",
+      "status": "SHADOW_ONLY_ORIGINAL_FROZEN_PARAMETER_UNKNOWN"
+    }
+  ],
+  "invariants": [
+    "historical CAUSAL014 signal generator and raw exits are immutable; all new A0-A4 screens operate only on raw original event ledger",
+    "for each eligible original raw event, compute independent frozen tick exit first, then strict single-position greedy selection with signal_time>prior_exit_time; never filter the already-selected account",
+    "for original event raw id, retain array source index and event timestamp+side; no backdated H1/H4/M15 entries",
+    "completed-state timestamp<=candidate original tick; child originating H1 identifier must equal current H1 owner id",
+    "no teacher/oracle, future outcome, optimized ratio or terminal label as input; terminal PnL read only after candidate chronology selected",
+    "no inherited standalone 8h H1/H4 lifecycle and no arithmetic PnL adding",
+    "independent fresh event populations B1-B3 require separate future causal tick-pricing contract, not evaluated in cached A0-A4 screen",
+    "failing mutant fixtures for future timestamps, wrong BOS parent, non-overlap collision, count/PnL alteration must be rejected",
+    "No January-derived optimization thresholds transferred to April or May-Jul; later certification needs freeze+untouched forward validation"
+  ],
+  "previous_failures": "NET002, NET003, NET004 tree, NET006 gate, NET007 immediate flip failed respective discovery/forward gates; January debugger does not rehabilitate them.",
+  "next": "NET002_NET007_JAN_FAST_PARITY_HARNESS_AND_FAILURE_INJECTION",
+  "promotion": "NONE",
+  "august_sealed": true,
+  "production_mql5_authorized": false
+}
