@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_007_FAILED_AUCTION_FADE_SLEEVE",
-    "current_unit_state": "READY_JAN_MAR_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_008_REGIME_DURATION_CHANGEPOINT",
+    "current_unit_state": "READY_CAUSAL_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3900,6 +3900,139 @@
         "august_accessed": false
       },
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_007_FAILED_AUCTION_FADE_SLEEVE"
+    },
+    "net003_retest_reclaim": {
+      "status": "VERIFIED_DURABLE_REJECTED_FROZEN_FORWARD",
+      "discovery": {
+        "eligible_candidates": 880,
+        "result_sha256": "3f3945b268dbf749ddf577a0b5b8a7d9f70829b6c28aad00885d0c662003c271",
+        "frozen": {
+          "wait_min": 720,
+          "touch_buffer_atr": 0.2,
+          "max_penetration_atr": 0.05,
+          "reclaim_atr": 0.2,
+          "require_owner_body": true,
+          "hold_min": 240
+        },
+        "april": {
+          "trades": 44,
+          "net": 76.561,
+          "pf": 1.1915648512
+        }
+      },
+      "forward": {
+        "may": {
+          "trades": 38,
+          "net": -10.417,
+          "pf": 0.9697366739
+        },
+        "jun": {
+          "trades": 41,
+          "net": 168.887,
+          "pf": 1.492972629
+        },
+        "jul": {
+          "trades": 40,
+          "net": -104.21,
+          "pf": 0.6539253454
+        },
+        "aggregate": {
+          "trades": 119,
+          "winners": 55,
+          "net": 54.26,
+          "pf": 1.05492342
+        }
+      },
+      "decision": "REJECT_RETEST_RECLAIM_FROZEN_FORWARD",
+      "github": {
+        "source": "45261111a6fba4690878c67c5af32a27478c27f3",
+        "forward_source": "a39d84ca84ed5a02c039a9b3fa3e6b6eb807f438",
+        "discovery_result": "68786b9b1ba02771fdae4d7bae738ea5e31c65ef",
+        "forward_result": "24999b80c1f128702dc411b7ad878a9018bab5cc"
+      },
+      "august_accessed": false
+    },
+    "net004_structural_state": {
+      "status": "VERIFIED_DURABLE_REJECTED_DISCOVERY",
+      "eligible_candidates": 0,
+      "result_sha256": "6ed2710b463485c911d6b0bfddb054ad209d82ebf7b46db53f57e4afbab3f70d",
+      "github": {
+        "source": "ea959efa891c7203b8a54d01216d67f35f4f6f2e",
+        "result": "31ddc5f678a9ad7204d99b0e24b74f447877e243"
+      },
+      "decision": "REJECT_STRUCTURAL_STATE_ROUTER",
+      "may_july_accessed": false,
+      "august_accessed": false
+    },
+    "net005_h4_specialist": {
+      "status": "VERIFIED_DURABLE_REJECTED_APRIL",
+      "eligible_candidates": 13,
+      "frozen": {
+        "lookback": 21,
+        "body_fraction_min": 0,
+        "atr_break_buffer": 0,
+        "boundary": "body",
+        "hold_bars": 4
+      },
+      "jan_mar": {
+        "jan": {
+          "trades": 12,
+          "net": 714.243,
+          "pf": 13.1037620742
+        },
+        "feb": {
+          "trades": 6,
+          "net": 67.239,
+          "pf": 1.6205149502
+        },
+        "mar": {
+          "trades": 9,
+          "net": 313.3,
+          "pf": 5.5519926773
+        }
+      },
+      "april": {
+        "trades": 9,
+        "net": -278.557,
+        "pf": 0.13480061
+      },
+      "decision": "REJECT_H4_BASELINE",
+      "github": {
+        "source": "2f834d2a4c4cab7560cde0ec0271f12826a86182",
+        "result": "999317f5bd3ca954c038147923d46ad997c5e71a"
+      },
+      "may_july_accessed": false,
+      "august_accessed": false
+    },
+    "net006_hierarchical_owner": {
+      "status": "VERIFIED_DURABLE_REJECTED_DISCOVERY",
+      "eligible_candidates": 0,
+      "result_sha256": "4f729c4993ac3bccc4761f6900de92d0d1e599945c34698cfc088a47aabda4ab",
+      "github": {
+        "source": "8e672e05e2dbe7940accb8ca98f88cfc6d75c55f",
+        "result": "5da8c03448a1a3e3dadba056dc16df949b48b765"
+      },
+      "decision": "REJECT_HIERARCHICAL_OWNER_GATE",
+      "may_july_accessed": false,
+      "august_accessed": false
+    },
+    "net007_failed_acceptance": {
+      "status": "VERIFIED_DURABLE_REJECTED_DISCOVERY",
+      "eligible_candidates": 0,
+      "result_sha256": "feae18a3f81f2ecbd2954728494ccac5d659531656ffc38768fd4c9b9ecbe564",
+      "github": {
+        "source": "7ad8635c316454e084179276f80cdf55c9590ad2",
+        "result": "b7b21208beaff4c61d2d1766ad15eed24a4c8479"
+      },
+      "decision": "REJECT_FAILED_ACCEPTANCE_SPECIALIST",
+      "may_july_accessed": false,
+      "august_accessed": false
+    },
+    "net008_regime_duration_changepoint": {
+      "status": "READY",
+      "rationale": "Durable audit shows prior acceptance/sweep and ordinal-transition work completed/rejected, but planned causal duration/change-point stage was not completed. Structural baseline/retest/H4/hierarchical/failure variants are now exhausted. Test run-length/CUSUM-style durability state without future data.",
+      "validation": "Jan-Mar discovery; April calibration; May-Jul frozen forward only after freeze; August sealed.",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
