@@ -1,0 +1,42 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION",
+  "status": "STARTED",
+  "start_utc": "2026-09-28T06:52:35.674813+00:00",
+  "parent": "CAUSAL_RECERT_014",
+  "net022": "RECONSTRUCTED_PARITY_CERTIFIED",
+  "source": "/mnt/data/net024_src/net024_h1_permission.py",
+  "source_sha256": "d0910568189e562fda08394ee89bde9789934fbb4aa50dade32b17d61ea6c03f",
+  "first_incomplete_stage": "JAN_RAW_CACHE_AND_GOLDEN_REGRESSION",
+  "discovery": [
+    1,
+    2,
+    3
+  ],
+  "calibration": [
+    4
+  ],
+  "frozen_forward": [
+    5,
+    6,
+    7
+  ],
+  "august_sealed": true,
+  "causality": "H1 ownership emitted at fully completed signal H1 close; parent signals replayed in raw chronological one-position ledger; no future profit labels as entry feature",
+  "variant_grid": {
+    "owner_hours": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "rules": [
+      "veto_contra",
+      "active_match_only",
+      "neutral_only",
+      "veto_contra_weak_align",
+      "veto_contra_strong_align"
+    ]
+  },
+  "promotion": "Independent Jan-Mar discovery, frozen April calibration, May-Jul frozen forward; compare gross loss, winners, trade count, net to full CAUSAL014",
+  "validation_note": "Raw H1 signal features use Dukascopy mid; CAUSAL014 replay uses fixed modeled $0.20 roundtrip spread. May-Jul untouched for parameter selection."
+}
