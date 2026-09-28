@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_002_H1_H4_FRESH_CAUSAL_RECONSTRUCTION",
-    "current_unit_state": "READY_FRESH_RECONSTRUCTION",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_003_H1_H4_RETEST_RECLAIM_RECONSTRUCTION",
+    "current_unit_state": "READY_JAN_MAR_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3751,14 +3751,81 @@
       "august_accessed": false
     },
     "h1_h4_fresh_causal_reconstruction": {
-      "status": "READY",
-      "archaeology_note_path": "notes/R9B_GAMMA_DYNAMIC_NET_001_H1_H4_STRUCTURAL_ARCHAEOLOGY.md",
-      "historical_reference": {
-        "h1": "~+$1.39K / ~336 trades / PF ~1.43 / all 7 months positive",
-        "h4": "~+$1.16K / ~77 trades / PF ~1.7 / all 7 months positive"
+      "status": "VERIFIED_DURABLE_REJECTED_FROZEN_FORWARD",
+      "mechanism": "Completed-bar H1/H4 accepted BOS baseline. Frozen winner: H1 13-bar body boundary, 0.10 ATR close buffer, no body-fraction floor, fixed 8-hour hold.",
+      "source_sha256": "115267863e58fb8eb4dadcb7cc9d2a89a93312d31f21289d585d702128f037dc",
+      "discovery_result_sha256": "dbb76dbdd9777b98a7b96a86d2f2f8107306a8adff6558d004a574988ce79d3e",
+      "forward_source_sha256": "4a5af62935dac3ed3a87866b08ff298b3b249833525b4de622c7dba782e6c346",
+      "forward_result_sha256": "30d80ea126eba5dd3cde8e502d90845348165e8c1162615208e8230c70240c71",
+      "github": {
+        "bos_source_commit": "2887e36089f2015cc299e37e76e63e2ff94671ab",
+        "forward_source_commit": "4d4b06a70a1af45f1fce13ab74b97688613da4c0",
+        "discovery_result_commit": "5077a8da100aa02d98ff14f2874511edfcf6bcd6",
+        "forward_result_commit": "afe3e03c1074d2a73faf14f9d5ab1d4a2ca6072f"
       },
-      "rule": "Historical figures are reference targets only. Reconstruct from fresh causal completed-bar semantics; no numerical backfit.",
-      "validation": "Jan-Mar discovery; April calibration; May-Jul frozen forward; August sealed."
+      "drive": {
+        "bos_source_id": "19dWWOJmVg0_x8g4PMXcbKl_V-y51ETIN",
+        "discovery_result_id": "19UBsmS_vOff46JM8ntTqMNXIFrWwGYrr",
+        "forward_source_id": "1YRiQlLU1_fcBTqrRDOoAdqwTlfdKox_2",
+        "forward_result_id": "1f0zqKNwVHuqjSac9u9V6RmYUnschlhfV"
+      },
+      "jan_apr": {
+        "jan": {
+          "trades": 36,
+          "net": 185.99,
+          "pf": 1.2593818292
+        },
+        "feb": {
+          "trades": 28,
+          "net": 218.589,
+          "pf": 1.6155615945
+        },
+        "mar": {
+          "trades": 33,
+          "net": 632.23,
+          "pf": 2.2069327571
+        },
+        "apr": {
+          "trades": 33,
+          "net": 123.383,
+          "pf": 1.2776845033
+        }
+      },
+      "may_jul": {
+        "may": {
+          "trades": 36,
+          "net": 58.923,
+          "pf": 1.1319333112
+        },
+        "jun": {
+          "trades": 34,
+          "net": 271.827,
+          "pf": 1.8282333082
+        },
+        "jul": {
+          "trades": 37,
+          "net": -241.31,
+          "pf": 0.604545976
+        },
+        "aggregate": {
+          "trades": 107,
+          "winners": 52,
+          "net": 89.44,
+          "gp": 1474.463,
+          "gl": -1385.023,
+          "pf": 1.0645765449
+        }
+      },
+      "decision": "REJECT_SIMPLE_H1_BOS_SLEEVE; July frozen forward fails. Preserve completed-body structural ownership but require lower-timeframe retest/reclaim or another causal ownership transition.",
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_003_H1_H4_RETEST_RECLAIM_RECONSTRUCTION",
+      "august_accessed": false
+    },
+    "h1_h4_retest_reclaim_reconstruction": {
+      "status": "READY",
+      "parent": "NET002 completed-body H1/H4 structural ownership evidence",
+      "hypothesis": "After completed HTF body-close BOS, require a causal lower-timeframe retest/penetration of the broken structural boundary followed by owner-direction reclaim/acceptance before entry. This aims to reject false July breakouts without numerically retuning the NET002 H1 threshold.",
+      "validation": "Jan-Mar discovery; April calibration; May-Jul frozen forward only after freeze; August sealed.",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
