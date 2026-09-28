@@ -2758,11 +2758,13 @@
       "august_accessed": false
     },
     "latest_handoff": {
-      "status": "VERIFIED_DURABLE",
-      "created_date": "2026-09-27",
-      "library_path": "/R9_Rebuild/Handoffs/R9B_Gamma_NEW_CHAT_HANDOFF_2026-09-27.docx",
-      "purpose": "Polling-timeout/max-chat recovery handoff. Supersedes prior handoff resume pointer.",
-      "resume_unit": "R9B_GAMMA_DYNAMIC_NET_002_H1_H4_FRESH_CAUSAL_RECONSTRUCTION",
+      "status": "DURABLE_GOOGLE_DOCS_HANDOFF_VERIFIED",
+      "created_date": "2026-09-28",
+      "document_id": "1IFJSgPe6Sn1R4MCgBX0PIElN3k6Ry6axMY3TvxI3ehM",
+      "url": "https://docs.google.com/document/d/1IFJSgPe6Sn1R4MCgBX0PIElN3k6Ry6axMY3TvxI3ehM/edit",
+      "purpose": "Max-chat handoff of source-audited historical multi-structural archaeology and MT5 build integrity; scientific pointer remains live CURRENT_STATE first_incomplete.",
+      "resume_unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
+      "first_incomplete_stage": "NET002_NET007_EVENT_LIFECYCLE_MAPPING_PREDECLARATION",
       "august_sealed": true
     },
     "max_chat_handoff": {
@@ -4395,7 +4397,8 @@
       "status": "AUTHORITATIVE_STABLE_RESTART_ENTRYPOINT",
       "document_id": "1N5DRgTrg8JNo5t7tO1iA-Va0pAGFww8JV5S1ANRPmdQ",
       "title": "R9B Gamma — SESSION GOVERNING HANDOFF — CURRENT",
-      "role": "Mount with Master Protocol in every new chat; defer live science pointer to CURRENT_STATE.json."
+      "role": "Mount with Master Protocol in every new chat; defer live science pointer to CURRENT_STATE.json.",
+      "latest_full_handoff_document_id": "1IFJSgPe6Sn1R4MCgBX0PIElN3k6Ry6axMY3TvxI3ehM"
     },
     "net023_integrated_ledger": {
       "status": "VERIFIED_DURABLE_DIAGNOSTIC_RETAINED_MECHANISM_NOT_PROMOTED",
@@ -5295,7 +5298,24 @@
       ],
       "august_accessed": false
     },
-    "first_incomplete_stage": "NET002_NET007_EVENT_LIFECYCLE_MAPPING_PREDECLARATION"
+    "first_incomplete_stage": "NET002_NET007_EVENT_LIFECYCLE_MAPPING_PREDECLARATION",
+    "session_handoff_20260928_max_chat": {
+      "status": "DURABLE_GOOGLE_DOCS_HANDOFF_VERIFIED",
+      "date": "2026-09-28",
+      "full_session_doc_id": "1IFJSgPe6Sn1R4MCgBX0PIElN3k6Ry6axMY3TvxI3ehM",
+      "current_governing_entrypoint_doc_id": "1N5DRgTrg8JNo5t7tO1iA-Va0pAGFww8JV5S1ANRPmdQ",
+      "historical_full_session_doc_id": "1gIuPBAsTf3gKPnGbKP5EBc-1p3Kwed_FU7MEGb_q8kE",
+      "mt5_artifact_manifest_doc_id": "11MsUF-H0e-G7kpNThwMU8rLbn1GKBEThAyXj3djbnjY",
+      "original_structural_source_mirror_doc_id": "15bH3WckMPiUFH7xf5FvyJeDRo-i5dTTY0Ighfx5eSgI",
+      "causal014_net022_net023_source_mirror_doc_id": "1MDzqxCGdBFRnsEC0TnEapz0fMVAbDhDVazzYNGBQckU",
+      "vault_folder_id": "1L1Z4uLqlV1yPkbSu-NhLQOm8Q4XksA6N",
+      "original_current_state_blob_sha_at_document_creation": "50e381e339d29cd54c0eb195cc12b3adfb0369bd",
+      "resume_unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
+      "resume_first_incomplete": "NET002_NET007_EVENT_LIFECYCLE_MAPPING_PREDECLARATION",
+      "notes": "User requested max-chat handoff. Updated CURRENT governing launcher, older Full Session Handoff, Research Ledger, Backend, Controller and MT5 Artifact Manifest; code text mirrors have exact 6/6 source delimiters and GitHub blob references. These Docs do not substitute for Git blob byte parity; missing ENTRY017/021/023 still remain build blockers if selected.",
+      "august_sealed": true,
+      "production_mql5_authorized": false
+    }
   },
   "gamma2_benchmark_recovery": {
     "status": "CAUSAL_RECERT_014_COMPLETE_RESEARCH_READY",
