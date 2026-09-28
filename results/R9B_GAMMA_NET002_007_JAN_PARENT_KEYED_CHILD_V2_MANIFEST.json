@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETED_LOCAL_SOURCE_MAPPING_CORRECTION",
+  "stage": "NET002_NET007_JAN_PARENT_KEYED_CHILD_ASOF_CORRECTION_V2",
+  "source_sha256": "a33c6b04f9c8bbc1e9de7d23cf4615e81c09643446f5724e247c99c090022703",
+  "parent_cache_sha256": "3fa88617bcc157ec4e6fcc2e62d48f888d93c380c8d18d1f2c79fcd4cc69ce6a",
+  "output_cache_sha256": "35e37b0028cf386aaf4107acdd98e2995f3989ea58f465720c74bf0d880e1e08",
+  "summary_sha256": "0c6d8ebe53bfd10d0e225fc28715aae990936f21e1012a26ec05aff4f6e4622a",
+  "next": "NET002_NET007_JAN_V2_FAST_DIFFERENTIAL_REPLAY",
+  "completed_utc": "2026-09-28T18:13:27.579693+00:00",
+  "august_sealed": true
+}
