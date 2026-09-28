@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_021_REENTRY_ABANDON_OR_NEW_SLEEVE",
-    "current_unit_state": "READY_ORTHOGONAL_SLEEVE_DESIGN",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_007_FAILED_AUCTION_FADE_SLEEVE",
+    "current_unit_state": "READY_JAN_MAR_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3841,6 +3841,65 @@
       "first_incomplete_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_021_REENTRY_ABANDON_OR_NEW_SLEEVE",
       "may_july_accessed": false,
       "august_accessed": false
+    },
+    "hold_exit_021_reentry_abandon_or_new_sleeve": {
+      "status": "VERIFIED_DURABLE_DECISION",
+      "decision": "ABANDON_POST_BANK_REENTRY_FAMILY_AND_ACTIVATE_ORTHOGONAL_STRUCTURAL_SLEEVE",
+      "rationale": "HOLD_EXIT013-020 repeatedly fail cross-month or April calibration; continued reskinning of post-bank/fresh-signal re-entry is not justified.",
+      "activated_branch": "R9B_GAMMA_DYNAMIC_NET_002_H1_H4_FRESH_CAUSAL_RECONSTRUCTION",
+      "august_accessed": false
+    },
+    "orthogonal_structural_branch": {
+      "NET002": {
+        "decision": "REJECT_H1_FROZEN_FORWARD",
+        "may_jul": {
+          "net": 89.43999999999642,
+          "pf": 1.0645765449382403,
+          "july_net": -241.30999999999995,
+          "july_pf": 0.6045459759754845
+        },
+        "result_sha256": "30d80ea126eba5dd3cde8e502d90845348165e8c1162615208e8230c70240c71"
+      },
+      "NET003": {
+        "decision": "REJECT_RETEST_RECLAIM_FROZEN_FORWARD",
+        "may_jul": {
+          "net": 54.2599999999984,
+          "pf": 1.0549234199900583,
+          "july_net": -104.21000000000049,
+          "july_pf": 0.653925345377256
+        },
+        "result_sha256": "a960d6e31e8cfab53e09c13d6d8a53bfca9041d398db05698efdbfa33af4ac5e"
+      },
+      "NET004": {
+        "decision": "REJECT_STRUCTURAL_STATE_ROUTER",
+        "eligible_candidates": 0,
+        "result_sha256": "6ed2710b463485c911d6b0bfddb054ad209d82ebf7b46db53f57e4afbab3f70d"
+      },
+      "NET005": {
+        "decision": "REJECT_H4_BASELINE",
+        "april_net": -278.5569999999998,
+        "april_pf": 0.13480061001935195,
+        "result_sha256": "ac00ce30f91b5c9aa5a89b478530dd8078c46e89abc97411f68f9535640b6ba7"
+      },
+      "NET006": {
+        "decision": "REJECT_STRUCTURAL_PHASE_ROUTER",
+        "jan_mar_best": {
+          "min_net": 67.23899999999867,
+          "min_pf": 1.6205149501660974
+        },
+        "april": {
+          "trades": 6,
+          "net": -272.0670000000009,
+          "pf": 0.017975289391329106
+        },
+        "result_sha256": "1654f369c17bb91c7490405d7f67ae1b4446a571da39222ea216f9c59423c16e",
+        "source_sha256": "e70996e7d6e480275cd222824b2e7af47ff2f9d36a895e7d961f1c2b6ef489b8"
+      },
+      "forward_integrity": {
+        "may_july_accessed_for_net006": false,
+        "august_accessed": false
+      },
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_007_FAILED_AUCTION_FADE_SLEEVE"
     }
   },
   "gamma2_benchmark_recovery": {
