@@ -1,0 +1,74 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_018_BRIDGE_PERSISTENCE_OWNER",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_FRONTIER",
+  "parent": "ENTRY017 balanced bridge-only entry profile",
+  "decision_time": "+1 second after entry",
+  "model": {
+    "feature_set": "path",
+    "depth": 1,
+    "min_samples_leaf": 20,
+    "class_weight_0": 3,
+    "probability_threshold": 0.4,
+    "selection_coverage_floor_pct": 50
+  },
+  "feature_indexes": [
+    23,
+    7,
+    9,
+    10,
+    19,
+    22,
+    4,
+    5
+  ],
+  "feature_meaning": [
+    "+1s executable PnL",
+    "+1s path efficiency",
+    "fraction of first second above executable breakeven",
+    "turn count",
+    "breakeven recross count",
+    "second-half acceleration",
+    "first-second MFE",
+    "first-second MAE"
+  ],
+  "replication": {
+    "jan_heldout": {
+      "ignitions": 326,
+      "hold_count": 185,
+      "coverage_pct": 56.7485,
+      "hold5_accuracy_pct": 75.1351,
+      "baseline_hold5_pct": 67.1779,
+      "delta_pp": 7.9572,
+      "runner_recall_pct": 63.4703
+    },
+    "feb": {
+      "ignitions": 511,
+      "hold_count": 296,
+      "coverage_pct": 57.9256,
+      "hold5_accuracy_pct": 68.5811,
+      "baseline_hold5_pct": 63.2094,
+      "delta_pp": 5.3717,
+      "runner_recall_pct": 62.8483
+    },
+    "mar": {
+      "ignitions": 618,
+      "hold_count": 302,
+      "coverage_pct": 48.8673,
+      "hold5_accuracy_pct": 72.8477,
+      "baseline_hold5_pct": 64.2395,
+      "delta_pp": 8.6082,
+      "runner_recall_pct": 55.4156
+    }
+  },
+  "min_hold2_delta_pp": 6.3223,
+  "min_hold3_delta_pp": 6.5604,
+  "min_hold5_delta_pp": 5.3717,
+  "interpretation": "Observed first-second path state contains replicated causal information about whether a correctly ignited second-wave direction persists. A one-split transparent owner improves 2s/3s/5s directional hold accuracy in every replication, but only retains roughly half of ignitions and 55-63% of persistent runners. Research frontier only; no exit modification or integrated PnL claim.",
+  "source_sha256": {
+    "post1_cache": "c4950ff4e02cd04ba27e3863187f7f2bc550f34c36ee01845653adec0da7afc5",
+    "screen": "8be506297a9c9c4803ce854abc2275f2fe77de6a47159b31325509f07ae4cd2c"
+  },
+  "result_sha256": "7d2d6fc4a89877ef713de732b98ac319bcbdc4c8453445b8d22a8b0a9bb18b6",
+  "next_unit": "R9B_GAMMA_DYNAMIC_ENTRY_019_MULTI_HORIZON_PERSISTENCE_STATE",
+  "august_accessed": false
+}
