@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETED_LOCAL_READY_TO_COMMIT",
+  "source_sha256": "0cde0bcfefc483bca59f50f9382c60bc77fb21bdc258fb89c3e339794e39fec5",
+  "dependency_source_hashes": {
+    "qa": "08a61fad92e0c5cf53b7811a891b5c265f512af2a820362d40de636151a9637e",
+    "screen": "76d74f95e070f38930d53838488e693c8b59a23d42b108f71323a726b71b378e",
+    "v2_join": "a33c6b04f9c8bbc1e9de7d23cf4615e81c09643446f5724e247c99c090022703"
+  },
+  "v2_cache_sha256": "35e37b0028cf386aaf4107acdd98e2995f3989ea58f465720c74bf0d880e1e08",
+  "result_sha256": "e10235c4b05178656a0b57754b196bd0cd08a0ecb6fa5af3104ada9acb34f973",
+  "next": "NET002_NET007_JAN_FAST_PARITY_QUICKSTART_AND_SOURCE_REPAIR_HANDOFF",
+  "august_sealed": true
+}
