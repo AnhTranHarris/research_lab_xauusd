@@ -1,0 +1,47 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_008_STATE_CONDITIONED_PROFIT_LOCK",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+  "parent": "HOLD_EXIT005 + frozen ENTRY017-024 ownership",
+  "discovery": {
+    "LATE_IGNITION": {
+      "max_horizon_ms": 5000,
+      "floor_abs": -0.5,
+      "trail": 0.6
+    }
+  },
+  "replication": {
+    "jan_heldout": {
+      "net_improvement": 3.8945,
+      "gp_improvement": 2.1205,
+      "gl_reduction_pct": 14.253,
+      "winner_retention_pct": 100
+    },
+    "feb": {
+      "net_improvement": -3.33,
+      "gp_improvement": -6.2335,
+      "gl_reduction_pct": 14.999,
+      "winner_retention_pct": 99.6441
+    },
+    "mar": {
+      "net_improvement": 12.253,
+      "gp_improvement": 1.6215,
+      "gl_reduction_pct": 36.6496,
+      "winner_retention_pct": 99.4924
+    }
+  },
+  "decision": "REJECT_PROFIT_LOCK_GRID",
+  "conclusion": "Simple absolute-floor + peak-giveback trailing is not net-robust because February loses too much gross profit despite strong GL compression. Move to an MFE/renewal hazard that only tightens after favorable excursion is proven and decays with renewal age.",
+  "source_sha256": "95d57bab1c8487810aee739d8980e1925f9235fc0826800695eb1fd314ae4dda",
+  "result_sha256": "9fd7ded80bf9d33016dfd829672ac96ac6f22ebb4509dd45e0d7d0bb3a657d2d",
+  "drive": {
+    "source": "1YtUufWBHzH_Mwjfy0Z7ZwcnNPhVmKbx8",
+    "discovery": "1uYso-U-LSGOJbCeK3kp584jG4-jh3R_t",
+    "jan_rep": "1WNh6UCzbktC4vEVRwDOotxdvLJKTJ20J",
+    "feb_rep": "1wu4-A_vFFLY1rKf6mypGx9RVNFlDRqUi",
+    "mar_rep": "1fyIdSkaowcfhm82AVXGCP8u1tYKjXVcV",
+    "result": "1A0w76RprfMIY4i-2KbDnqq0XNTdd_W83",
+    "manifest": "1gUjdHaHZdl0pAdtXZRW8B21zJ5DuQVzJ"
+  },
+  "next_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_009_MFE_RENEWAL_HAZARD",
+  "august_accessed": false
+}
