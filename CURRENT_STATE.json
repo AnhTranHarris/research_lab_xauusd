@@ -4505,5 +4505,39 @@
     "lineage_note_commit": "eba45c2f5aa8a9942c66ecee5e560fbaf0aa0d5d",
     "causal_baseline_commit": "cfa07b728d47c2c9b0629119bb408b6065bae713",
     "causal_baseline_note_commit": "f53f49400abbbb050ca076f8934f24070f99eccb"
+  },
+  "execution_transport_policy": {
+    "mode": "ORDINARY_CHAT_CHECKPOINT_BATCHING",
+    "status": "AUTHORITATIVE_SUPERSEDING_POLICY",
+    "work_mode": "DO_NOT_USE_UNLESS_USER_EXPLICITLY_REVERSES",
+    "supersedes": "ONE_SCIENTIFIC_STAGE_PER_ASSISTANT_TURN_THEN_STOP",
+    "default_batch_stages": "approximately 3-5 meaningful scientific stages per assistant turn when bounded",
+    "heavy_stage_exception": "1-2 stages when memory, connector volume, or response size materially raises delivery-timeout risk; do not create artificial micro-replies",
+    "per_stage_micro_barrier": [
+      "persist local result",
+      "persist manifest",
+      "persist hashes/dependency identities",
+      "advance exact resume pointer",
+      "mirror decision-critical/implementation-relevant artifacts to Drive/GitHub before another heavy stage where practical"
+    ],
+    "chat_output": "one compact report at batch barrier; no per-stage micro-replies unless user requests",
+    "large_data_rule": "stream/process one month or one bounded chunk at a time; avoid unnecessary multi-month in-memory loads",
+    "timeout_recovery": [
+      "read live durable state first",
+      "inspect artifacts created after last visible reply",
+      "salvage completed work",
+      "never rerun identical VERIFIED_DURABLE work solely because message delivery failed",
+      "resume first genuinely incomplete stage"
+    ],
+    "stop_early_for": [
+      "material reproducible breakthrough",
+      "hard blocker requiring user action",
+      "protocol or drawdown violation",
+      "transport risk from unusually heavy tool/output load",
+      "user-requested status or handoff"
+    ],
+    "scientific_invariants_unchanged": true,
+    "august_sealed": true,
+    "master_protocol_section": "107"
   }
 }
