@@ -1,0 +1,365 @@
+{
+  "audit_sha256": "351701886b17071173e82ac3218c80be5fec838f1139e9f115b12995be71564b",
+  "elapsed_s": 7.856,
+  "execution": "Independent February Dukascopy midpoint, modeled fixed halfspread .10 each side, no true broker spread/slippage; one position strict event stream",
+  "feb_armed_raw_count": 24210,
+  "feb_market_sha256": "ed3b3545c990c88d78519594c17c8915b0f679adcb0a94920ba7524f1f6d5c5d",
+  "feb_raw_cache_sha256": "c855f777d57c25ecbf49768afa1ab07eab138dd1e07ce30b246e42a788e42586",
+  "frozen_ids": [
+    "AT07",
+    "AT11"
+  ],
+  "january_contract_sha256": "d6a2ec4ca4ffccad16cd79fe33a2040f555b2bedce03a9f789bf10eb75a76f41",
+  "january_discovery_script_sha256": "ca00ad43ea37146a2e8dfffb421ff8bd3be89e5083b935b07a00358c4e99569f",
+  "january_discovery_sha256": "ba6cb2a9971b3ff65f56d01f9e6efa1f4780d1ba272c26ac373239c7f0901a49",
+  "market_ticks": 7538339,
+  "next": "STOP_FOR_HISTORICAL_FEB_REPLICATION_VERDICT__ONLY_IF_PREDECLARED_JAN_MAR_CAMPAIGN_CONTINUE_MARCH_WITHOUT_RETUNE",
+  "original_parent_all_32862_raw_pnl_exit_hold_parity": true,
+  "parent": {
+    "gl": -13668.407500006775,
+    "gp": 9217.450999985955,
+    "maxdd": 4472.950500020631,
+    "net": -4450.956500020821,
+    "pf": 0.6743617352629694,
+    "trades": 28188,
+    "winners": 18834
+  },
+  "raw_candidates": 32862,
+  "stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_FEB_EXACT_TICK_REPLICATION",
+  "status": "VERIFIED_FEB_FROZEN_REPLICATION",
+  "time_walls": {
+    "april_accessed": false,
+    "august_accessed": false,
+    "february_replication_only": true,
+    "january_original_predeclared_only": true,
+    "march_accessed": false,
+    "may_jul_accessed": false
+  },
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
+  "unit_tests": [
+    "original_stop_order",
+    "unqualified_parent_invariant",
+    "time_limit_stop_precedence",
+    "equal_time_entry_blocked"
+  ],
+  "variants": [
+    {
+      "daily": [
+        {
+          "net": -318.49250000186476,
+          "trades": 2613,
+          "utc_day_index": 20486
+        },
+        {
+          "net": -196.02000000156113,
+          "trades": 2134,
+          "utc_day_index": 20487
+        },
+        {
+          "net": -256.3780000013621,
+          "trades": 1799,
+          "utc_day_index": 20488
+        },
+        {
+          "net": -312.71550000160914,
+          "trades": 2229,
+          "utc_day_index": 20489
+        },
+        {
+          "net": -215.01400000117428,
+          "trades": 1583,
+          "utc_day_index": 20490
+        },
+        {
+          "net": -44.45900000005349,
+          "trades": 70,
+          "utc_day_index": 20492
+        },
+        {
+          "net": -145.64000000097712,
+          "trades": 1287,
+          "utc_day_index": 20493
+        },
+        {
+          "net": -215.6200000009503,
+          "trades": 1260,
+          "utc_day_index": 20494
+        },
+        {
+          "net": -98.0360000009232,
+          "trades": 1229,
+          "utc_day_index": 20495
+        },
+        {
+          "net": -268.3025000009384,
+          "trades": 1285,
+          "utc_day_index": 20496
+        },
+        {
+          "net": -203.16400000103022,
+          "trades": 1386,
+          "utc_day_index": 20497
+        },
+        {
+          "net": -21.639000000056512,
+          "trades": 75,
+          "utc_day_index": 20499
+        },
+        {
+          "net": -193.9615000005333,
+          "trades": 736,
+          "utc_day_index": 20500
+        },
+        {
+          "net": -217.30900000099882,
+          "trades": 1342,
+          "utc_day_index": 20501
+        },
+        {
+          "net": -210.4015000007339,
+          "trades": 986,
+          "utc_day_index": 20502
+        },
+        {
+          "net": -173.5560000007299,
+          "trades": 987,
+          "utc_day_index": 20503
+        },
+        {
+          "net": -239.05300000079114,
+          "trades": 1076,
+          "utc_day_index": 20504
+        },
+        {
+          "net": -3.983000000052016,
+          "trades": 70,
+          "utc_day_index": 20506
+        },
+        {
+          "net": -275.6015000008956,
+          "trades": 1215,
+          "utc_day_index": 20507
+        },
+        {
+          "net": -223.91600000098606,
+          "trades": 1279,
+          "utc_day_index": 20508
+        },
+        {
+          "net": -184.14550000084364,
+          "trades": 1144,
+          "utc_day_index": 20509
+        },
+        {
+          "net": -214.6950000009092,
+          "trades": 1251,
+          "utc_day_index": 20510
+        },
+        {
+          "net": -220.3260000008422,
+          "trades": 1152,
+          "utc_day_index": 20511
+        }
+      ],
+      "delta": {
+        "dd_improvement": -1.4719999999952051,
+        "gl_improvement": 0.0,
+        "gp": -1.4719999999942956,
+        "net": -1.4719999999952051,
+        "pf": -0.00010769359927209621,
+        "trades": 0,
+        "winners": 0
+      },
+      "frozen_delay_ms": 750,
+      "frozen_profile": "RENEWAL_PLUS_EFFICIENCY",
+      "frozen_width": 0.08,
+      "id": "AT07",
+      "material_net_and_gl_feb": false,
+      "max_quote_gap_overshoot": 7.140000000000327,
+      "original_jan_strict": true,
+      "original_parent_winner_forfeited": 0,
+      "raw_decision_count": 5090,
+      "raw_promoted": 713,
+      "reason_counts": {
+        "hard_initial": 5557,
+        "harvest_trail": 20121,
+        "maxhold": 1894,
+        "runner_trail": 616
+      },
+      "results": {
+        "gl": -13668.407500006775,
+        "gp": 9215.97899998596,
+        "maxdd": 4474.422500020626,
+        "net": -4452.4285000208165,
+        "pf": 0.6742540416636973,
+        "trades": 28188,
+        "winners": 18834
+      },
+      "retention": {
+        "trades_pct": 100.0,
+        "winners_pct": 100.0
+      },
+      "selected_promoted": 616,
+      "strict_eligible_feb": false
+    },
+    {
+      "daily": [
+        {
+          "net": -319.5775000018639,
+          "trades": 2613,
+          "utc_day_index": 20486
+        },
+        {
+          "net": -195.16000000156237,
+          "trades": 2134,
+          "utc_day_index": 20487
+        },
+        {
+          "net": -256.1930000013617,
+          "trades": 1799,
+          "utc_day_index": 20488
+        },
+        {
+          "net": -311.9690000016117,
+          "trades": 2229,
+          "utc_day_index": 20489
+        },
+        {
+          "net": -216.17400000117595,
+          "trades": 1583,
+          "utc_day_index": 20490
+        },
+        {
+          "net": -44.45900000005349,
+          "trades": 70,
+          "utc_day_index": 20492
+        },
+        {
+          "net": -144.5700000009765,
+          "trades": 1287,
+          "utc_day_index": 20493
+        },
+        {
+          "net": -215.14050000095085,
+          "trades": 1260,
+          "utc_day_index": 20494
+        },
+        {
+          "net": -98.24750000092354,
+          "trades": 1229,
+          "utc_day_index": 20495
+        },
+        {
+          "net": -268.27250000093954,
+          "trades": 1285,
+          "utc_day_index": 20496
+        },
+        {
+          "net": -203.4640000010313,
+          "trades": 1386,
+          "utc_day_index": 20497
+        },
+        {
+          "net": -21.639000000056512,
+          "trades": 75,
+          "utc_day_index": 20499
+        },
+        {
+          "net": -193.9615000005333,
+          "trades": 736,
+          "utc_day_index": 20500
+        },
+        {
+          "net": -217.51250000099753,
+          "trades": 1342,
+          "utc_day_index": 20501
+        },
+        {
+          "net": -210.4015000007339,
+          "trades": 986,
+          "utc_day_index": 20502
+        },
+        {
+          "net": -173.41450000072928,
+          "trades": 987,
+          "utc_day_index": 20503
+        },
+        {
+          "net": -239.05300000079114,
+          "trades": 1076,
+          "utc_day_index": 20504
+        },
+        {
+          "net": -3.983000000052016,
+          "trades": 70,
+          "utc_day_index": 20506
+        },
+        {
+          "net": -275.2715000008957,
+          "trades": 1215,
+          "utc_day_index": 20507
+        },
+        {
+          "net": -223.96250000098735,
+          "trades": 1279,
+          "utc_day_index": 20508
+        },
+        {
+          "net": -183.5655000008437,
+          "trades": 1144,
+          "utc_day_index": 20509
+        },
+        {
+          "net": -214.60000000090986,
+          "trades": 1251,
+          "utc_day_index": 20510
+        },
+        {
+          "net": -220.6260000008424,
+          "trades": 1152,
+          "utc_day_index": 20511
+        }
+      ],
+      "delta": {
+        "dd_improvement": -0.261000000002241,
+        "gl_improvement": 0.0,
+        "gp": -0.261000000002241,
+        "net": -0.261000000002241,
+        "pf": -1.9095128675483686e-05,
+        "trades": 0,
+        "winners": 0
+      },
+      "frozen_delay_ms": 750,
+      "frozen_profile": "RENEWAL_PLUS_EFFICIENCY_STRONG_OWNER",
+      "frozen_width": 0.08,
+      "id": "AT11",
+      "material_net_and_gl_feb": false,
+      "max_quote_gap_overshoot": 7.140000000000327,
+      "original_jan_strict": true,
+      "original_parent_winner_forfeited": 0,
+      "raw_decision_count": 5090,
+      "raw_promoted": 269,
+      "reason_counts": {
+        "hard_initial": 5557,
+        "harvest_trail": 20487,
+        "maxhold": 1894,
+        "runner_trail": 250
+      },
+      "results": {
+        "gl": -13668.407500006775,
+        "gp": 9217.189999985952,
+        "maxdd": 4473.211500020633,
+        "net": -4451.2175000208235,
+        "pf": 0.6743426401342939,
+        "trades": 28188,
+        "winners": 18834
+      },
+      "retention": {
+        "trades_pct": 100.0,
+        "winners_pct": 100.0
+      },
+      "selected_promoted": 250,
+      "strict_eligible_feb": false
+    }
+  ]
+}
