@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_021_RECOVERY_TRAJECTORY_OWNER",
+    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_022_ENTRY_HOLD_ARCHITECTURE_SYNTHESIS",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -2999,7 +2999,14 @@
       "conclusion": "Exact post-close→new-signal bridge state improves +1s executable entry accuracy in every replication while keeping +5s conditional persistence approximately neutral. Old event features add entry accuracy only with density loss and hold degradation. Retain bridge-only frontier; no promotion/integration yet.",
       "source_sha256": "3395da77cb1b95a96e66caf42d68c16f763097df701270c94aa990603ec3565a",
       "result_sha256": "2f44ac5cecb0f4d02b9d3a191142ad8e66de369ce17623fafb0a7b2cc95b13f7",
-      "august_accessed": false
+      "august_accessed": false,
+      "frozen_model": {
+        "github_commit": "0e0da284ca847409cb8e2603624d1c5b9eb23ee0",
+        "drive_model_id": "1rqKJiDD1sHVv4u-yKJLfr57IuYLa6-RZ",
+        "drive_freeze_helper_id": "102DWpFZqoonlE5b0LR52IivbFLm7KjXh",
+        "model_sha256": "57e1a27941b7aefba27bcc5eb35bfd7e8aa1a3e72df6e658a4048e806003e50a",
+        "note_update_commit": "0de2dbc428ec30442c93ad2818bd23f4611367c8"
+      }
     },
     "entry_018_bridge_persistence_owner": {
       "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_FRONTIER",
@@ -3123,6 +3130,43 @@
         }
       },
       "conclusion": "A +4s observed-only certification state materially improves subsequent +5s directional accuracy in every replication. Diagnostic only; do not alter exits yet.",
+      "august_accessed": false
+    },
+    "mt5_artifact_completeness_gate": {
+      "status": "MANDATORY",
+      "rule": "Every carried-forward implementation dependency must have durable source/helper/model/result/manifest/cache identities plus a Google Docs MT5 Build Capsule. Chat-only or ephemeral /mnt/data dependencies are forbidden. Handoff/session audits must verify files exist, are non-empty/readable, hashes/identities agree, and documents cross-reference them. Missing bodies fail closed as MT5_ARTIFACT_INCOMPLETE or SOURCE_EQUIVALENCE_BLOCKED.",
+      "master_protocol_updated": true,
+      "max_chat_handoff_updated": true
+    },
+    "entry_021_recovery_trajectory_owner": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_SUBCLASS_BREAKTHROUGH_CANDIDATE",
+      "result_commit": "92f36316b4d431672f07f2d7eae1ef0a4fd3ffe4",
+      "model_commit": "b7254f3cc6a0144054ecce2c39898652b695e1ba",
+      "manifest_commit": "d8993203aeb73509317f28013b1ba019f08d71e0",
+      "note_commit": "33c7103e7279e4f1b20e2f683ed940b98988cbaf",
+      "drive_source_id": "1n33q03gZxiIK1fI1-iH4STdPfUqBaqe1",
+      "drive_result_id": "1jMkQ59w-xJ1TYSGHTURNHjbCNrSaualg",
+      "drive_model_id": "1CkI_SUcGevLDqadWJW9m-WRn5f1SsrFf",
+      "drive_manifest_id": "10M36gcJ_LgeEtkkIkSXVd_O_4_k0vsXI",
+      "exact_rule": "At +4.5s inside ENTRY020 RECOVERY_UNCERTAIN, DELAYED_RUNNER if local executable MAE observed from +4.0s to +4.5s > -$0.24; else FAILED_IGNITION_CANDIDATE.",
+      "replication": {
+        "jan_heldout": {
+          "accuracy_delta_pp": 42.7751196172,
+          "runner_recall_pct": 82.3529411765,
+          "coverage_pct": 34.5454545455
+        },
+        "feb": {
+          "accuracy_delta_pp": 43.0186170213,
+          "runner_recall_pct": 75.7575757576,
+          "coverage_pct": 34.0425531915
+        },
+        "mar": {
+          "accuracy_delta_pp": 34.1107236269,
+          "runner_recall_pct": 88.8888888889,
+          "coverage_pct": 41.8918918919
+        }
+      },
+      "conclusion": "Delayed-runner geometry is strongly separable within the +4s uncertified recovery population; retain as diagnostic frontier only, no exit change.",
       "august_accessed": false
     }
   },
