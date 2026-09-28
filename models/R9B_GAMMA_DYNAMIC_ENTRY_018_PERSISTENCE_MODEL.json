@@ -1,0 +1,97 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_018_BRIDGE_PERSISTENCE_OWNER",
+  "status": "FROZEN_DIAGNOSTIC_MODEL",
+  "decision_time_ms": 1000,
+  "reference_half_spread": 0.1,
+  "feature_indexes": [
+    23,
+    7,
+    9,
+    10,
+    19,
+    22,
+    4,
+    5
+  ],
+  "feature_names": [
+    "exec_pnl_1s",
+    "efficiency_1s",
+    "breakeven_occupancy_1s",
+    "turn_count_1s",
+    "breakeven_recross_count_1s",
+    "second_half_acceleration_1s",
+    "mfe_1s",
+    "mae_1s"
+  ],
+  "preprocessing": "No scaling. All features are in selected-action coordinates. exec_pnl_1s = selected-direction midpoint displacement at +1s - 2*H.",
+  "model_type": "sklearn DecisionTreeClassifier",
+  "hyperparameters": {
+    "max_depth": 1,
+    "min_samples_leaf": 20,
+    "class_weight": {
+      "0": 3,
+      "1": 1
+    },
+    "random_state": 118
+  },
+  "classes": [
+    0,
+    1
+  ],
+  "children_left": [
+    1,
+    -1,
+    -1
+  ],
+  "children_right": [
+    2,
+    -1,
+    -1
+  ],
+  "feature": [
+    0,
+    -2,
+    -2
+  ],
+  "threshold": [
+    0.27175000309944153,
+    -2,
+    -2
+  ],
+  "n_node_samples": [
+    111,
+    74,
+    37
+  ],
+  "weighted_n_node_samples": [
+    181,
+    128,
+    53
+  ],
+  "class_probability": [
+    [
+      0.580110497237569,
+      0.419889502762431
+    ],
+    [
+      0.6328125,
+      0.3671875
+    ],
+    [
+      0.4528301886792453,
+      0.5471698113207547
+    ]
+  ],
+  "decision_probability_threshold": 0.4,
+  "equivalent_rule": {
+    "if": "exec_pnl_1s > 0.27175000309944153",
+    "then": "HOLD_PERSIST",
+    "else": "HARVEST_CANDIDATE",
+    "raw_mid_equivalent": "selected-direction midpoint displacement at +1s > 0.4717500030994415 because 2*H = 0.20",
+    "important": "Diagnostic ownership label only; it does not authorize an exit."
+  },
+  "training_contract": "January days 0-13 correct ENTRY017 ignitions only; profile selected by Jan days0-6 fit / days7-13 validation and then refit on the full first14.",
+  "target": "same-direction executable PnL remains >0 at +5s; training label only",
+  "model_sha256": "86523ba17d90c3f14af0ea5f55e7d98779efc3569c342a9edc349c1e43e84877",
+  "august_accessed": false
+}
