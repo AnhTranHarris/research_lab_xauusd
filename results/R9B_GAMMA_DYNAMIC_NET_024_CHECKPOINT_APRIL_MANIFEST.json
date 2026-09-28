@@ -1,0 +1,79 @@
+{
+  "august_accessed": false,
+  "checkpoint": "APRIL_FROZEN_CALIBRATION_PASS",
+  "core_semantics": "completed H1; two-hour alignment-conditioned opposing veto; one-position full-raw CAUSAL014 replay; no future H1/hold information",
+  "input_identity_source": "Dukascopy Jan-Apr input sha256 in individual raw month manifests",
+  "next_stage": "MAY_FROZEN_FORWARD",
+  "source_artifacts": {
+    "net024_results/NET024_APRIL_FROZEN.json": {
+      "sha256": "14bfd582043bddce8679c81cb7ae2e466b511bf5e573a546a490c37e427807b4",
+      "size": 1458
+    },
+    "net024_results/NET024_DISCOVERY_FROZEN.json": {
+      "sha256": "994be634c52ad5ccbc17a147f8921ff6cf64ea9d8ce02093a8e7b5b516939089",
+      "size": 6069
+    },
+    "net024_results/NET024_RAW_01.manifest.json": {
+      "sha256": "7ccd3114eae25dd7b01abf9ea483121bfa17cb826d73c4904d682fcb1a471368",
+      "size": 1160
+    },
+    "net024_results/NET024_RAW_01.npz": {
+      "sha256": "7b8eff38f79a8246309e0d276158eb1dded9210deb54b79a3c8be189a9d9960d",
+      "size": 444883
+    },
+    "net024_results/NET024_RAW_02.manifest.json": {
+      "sha256": "ddc190dbc257962a3be6373772929f1e3eb3ed695794e080f2bf649a52f95546",
+      "size": 1159
+    },
+    "net024_results/NET024_RAW_02.npz": {
+      "sha256": "c855f777d57c25ecbf49768afa1ab07eab138dd1e07ce30b246e42a788e42586",
+      "size": 428798
+    },
+    "net024_results/NET024_RAW_03.manifest.json": {
+      "sha256": "0297c4757af8af5c4c86aa6525c8b7aa1d80636632d6df824f3da0dbf53968e3",
+      "size": 1170
+    },
+    "net024_results/NET024_RAW_03.npz": {
+      "sha256": "cbbc07490bbd8f5be6fffa90a5d338c1985259cd16e9edd73bf8760bcf66b64f",
+      "size": 532461
+    },
+    "net024_results/NET024_RAW_04.manifest.json": {
+      "sha256": "579e58ccc9c4b89485294b4b91bf9ed333cc7c9f50c4ba206bcf316b11ee4e6d",
+      "size": 1158
+    },
+    "net024_results/NET024_RAW_04.npz": {
+      "sha256": "60bfb8064b9394d1f34cc1115e77826be0a3a2b5c3a0aae2434d49ab9698e82b",
+      "size": 431907
+    },
+    "net024_results/NET024_SCREEN_01.json": {
+      "sha256": "db59d56209bbf3751758186bcae286bdff75ae2b04aa683dce5ecda855f5b3fc",
+      "size": 13733
+    },
+    "net024_results/NET024_SCREEN_02.json": {
+      "sha256": "4cbd3c935465ba8045d868d238df5e6094b78799542412d164f3c646635b909b",
+      "size": 13751
+    },
+    "net024_results/NET024_SCREEN_03.json": {
+      "sha256": "cfa63251c648f7398fd92089241be7759d736cc31cae37840c54aca94f9e222c",
+      "size": 13721
+    },
+    "net024_results/NET024_SESSION_CONTRACT.json": {
+      "sha256": "da8dbdcf64fc9014dfdab53ad9dec88c940493827c070200a893cdb0333b51ad",
+      "size": 1346
+    },
+    "net024_src/freeze_discovery.py": {
+      "sha256": "fc7d242209474a13a084f38ebb8fa19809db36474c2b9e8ece5f3530a24a145b",
+      "size": 3744
+    },
+    "net024_src/net024_april_frozen.py": {
+      "sha256": "532c7f8d18ee968ab80cf1f1ed805673cc8944680624dde42f88691e5fc9f718",
+      "size": 2398
+    },
+    "net024_src/net024_h1_permission.py": {
+      "sha256": "d0910568189e562fda08394ee89bde9789934fbb4aa50dade32b17d61ea6c03f",
+      "size": 9936
+    }
+  },
+  "status": "VERIFIED_LOCAL_READY_FOR_FROZEN_FORWARD",
+  "unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION"
+}
