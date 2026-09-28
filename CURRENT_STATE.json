@@ -50,7 +50,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
-    "current_unit_state": "HISTORICAL_RECONCILED_THROUGH_RUNNER_DISCOVERY_NEXT_EXIT_TRAJECTORY_SOURCE_CLOSURE",
+    "current_unit_state": "JAN_EXIT_REASON_CLOSED_NEXT_ARMED_TRAJECTORY_PREDECLARATION",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4596,7 +4596,7 @@
       "note": "Frozen rule worked consistently as tiny context-dependent loss compression but all monthly PF values declined, GP and winners fell, and net remained negative; no build-ready claims. July source raw-cache generic next hint RAW_08 is inert metadata; never accessed August."
     },
     "hold_exit_022_state_dependent_harvest_failure_rebuild": {
-      "status": "VERIFIED_DURABLE_HISTORICAL_RECONCILIATION_THROUGH_RUNNER_DISCOVERY",
+      "status": "VERIFIED_DURABLE_JAN_EXIT_REASON_SOURCE_CLOSURE",
       "parent": "CAUSAL_RECERT_014",
       "net024_context": "OPTIONAL_CAUSAL_H1_OWNER_ABLATION_ONLY_NOT_ALWAYS_ON_GATE",
       "entry_hold_017_024": "FROZEN_DIAGNOSTIC_STATE_SEMANTICS_ENGAGING_LIFECYCLE_ONLY_AFTER_SOURCE_RECERT",
@@ -4619,7 +4619,7 @@
       "calibration_window": "APRIL",
       "forward_window": "MAY_JUL_FROZEN",
       "july_historical_contamination_note": "Old July research forensics mean not every new mechanism can claim July as truly untouched; label appropriately.",
-      "first_incomplete_stage": "HOLD_EXIT_022_EXIT_REASON_TRAJECTORY_HARVEST_VS_RUNNER_SOURCE_CLOSURE",
+      "first_incomplete_stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_JAN_DISCOVERY_PREDECLARATION",
       "mql5_build_blockers": "Reconstruct missing ENTRY017/021/023 dedicated source bodies if used, golden-parity certify all carried state semantics; dynamic exit requires full tick replay and resulting entry opportunity reevaluation.",
       "test_rules": "one position, chronological raw candidate stream, avoid future features, apply actual newly chosen exit timestamp before selecting next entry; run with/without H1 context",
       "august_accessed": false,
@@ -5012,7 +5012,38 @@
         "may_jul_accessed": false,
         "august_accessed": false
       },
-      "reconciliation_note": "Recovered already-computed local HOLD_EXIT_022 stages after live GitHub pointer lag. SHA/manifests matched local results. No stage was recomputed. Library /R9_Gamma_Checkpoints/HOLD_EXIT_022 and GitHub now contain source/results/manifests. This turn was durability/state reconciliation only, per one-scientific-stage rule."
+      "reconciliation_note": "Recovered already-computed local HOLD_EXIT_022 stages after live GitHub pointer lag. SHA/manifests matched local results. No stage was recomputed. Library /R9_Gamma_Checkpoints/HOLD_EXIT_022 and GitHub now contain source/results/manifests. This turn was durability/state reconciliation only, per one-scientific-stage rule.",
+      "exit_reason_source_closure_jan": {
+        "status": "VERIFIED_DURABLE_JAN_DIAGNOSTIC_ONLY",
+        "source_git_commit": "ef42326caa10f6b5e563ce3c87e1dfcd83b054df",
+        "result_git_commit": "79a53f98eecadecb22a87b553dd79e0721399213",
+        "manifest_git_commit": "f350c3f0e23fc7eabf1448d43e69102b9a47cceb",
+        "note_git_commit": "a3a4aeafc3ec09447219b5a23890d2d295dc87be",
+        "exact_parent_raw_pnl_exit_time_hold_and_selected_trade_parity": true,
+        "jan_selected": {
+          "trades": 28088,
+          "winners": 19087,
+          "net": -4510.0870000207515
+        },
+        "exit_reason": {
+          "hard_stop": {
+            "trades": 4557,
+            "net": -8407.2605
+          },
+          "trail": {
+            "trades": 20593,
+            "net": 6699.218
+          },
+          "timeout": {
+            "trades": 2938,
+            "net": -2802.0445
+          }
+        },
+        "terminal_labels_are_ex_post_only": true,
+        "library_path": "/R9_Gamma_Checkpoints/HOLD_EXIT_022",
+        "august_accessed": false,
+        "no_candidate_promoted": true
+      }
     }
   },
   "gamma2_benchmark_recovery": {
