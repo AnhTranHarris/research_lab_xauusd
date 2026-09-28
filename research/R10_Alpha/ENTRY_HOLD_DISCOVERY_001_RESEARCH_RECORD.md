@@ -1,3 +1,5 @@
+> **QUARANTINED / NOT AN ACTIVE ALPHA RESEARCH PARENT — owner-directed pre-bootstrap reset, September 28, 2026.** This was one of six exploratory configurations tested under a subsequently invalidated Gamma-era startup path. Results remain read-only historical negatives, not approved EA science or a baseline. New reset research starts at [CLEAN_RESTART_INITIAL_ENTRY_HOLD_RESEARCH_RECORD.md](CLEAN_RESTART_INITIAL_ENTRY_HOLD_RESEARCH_RECORD.md). The original research body below is preserved.
+
 # R10 Alpha — Initial ENTRY + HOLD accuracy discovery 001: completed, negative
 
 **Evidence as of 2026-09-28.** Status: exploratory January, six preregistered combinations REJECTED. This is **not** an approved Alpha EA candidate, does **not** satisfy the owner's >10% candidate gate, contains **no new MQL5 build** and **no new Coinexx report**. R9 SYNTH is an aspirational teacher, not execution truth.
