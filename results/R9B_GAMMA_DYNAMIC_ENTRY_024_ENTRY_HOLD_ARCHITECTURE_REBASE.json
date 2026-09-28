@@ -1,0 +1,45 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_024_ENTRY_HOLD_ARCHITECTURE_REBASE",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_GATE_PASS",
+  "parent_chain": [
+    "ENTRY017",
+    "ENTRY018",
+    "ENTRY019",
+    "ENTRY020",
+    "ENTRY021",
+    "ENTRY023"
+  ],
+  "gate": {
+    "min_all_5s_winner_recall_pct": 83.7445573295,
+    "min_persist_5s_accuracy_pct": 77.972972973,
+    "max_terminal_fail_5s_positive_pct": 10.2449888641,
+    "max_unresolved_weak_reject_winner_share_pct": 3.3185840708,
+    "ready_for_exit_research": true
+  },
+  "monthly": {
+    "jan": {
+      "all_5s_winner_recall_pct": 85.1219512195,
+      "persist_5s_accuracy_pct": 79.8627002288,
+      "terminal_fail_5s_positive_pct": 8.5141903172
+    },
+    "feb": {
+      "all_5s_winner_recall_pct": 83.7445573295,
+      "persist_5s_accuracy_pct": 77.972972973,
+      "terminal_fail_5s_positive_pct": 10.2449888641
+    },
+    "mar": {
+      "all_5s_winner_recall_pct": 83.8495575221,
+      "persist_5s_accuracy_pct": 81.0695187166,
+      "terminal_fail_5s_positive_pct": 9.1627172196
+    }
+  },
+  "conclusion": "With ENTRY023 late ignition included, the isolated second-wave entry/hold architecture now captures 83.7-85.1% of +5s winners at 78.0-81.1% persistence-state accuracy, while terminal failure states are only 8.5-10.2% positive at +5s. Entry/hold research gate passes; freeze this architecture and begin economic hold/exit research without changing the diagnostic state semantics.",
+  "decision": "FREEZE_ENTRY_HOLD_ARCHITECTURE_AND_BEGIN_EXIT_RESEARCH",
+  "next_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_001_STATE_CONDITIONED_ECONOMIC_LIFECYCLE",
+  "source_sha256": "9cd7a5301d5b7b080d28e68c28320f096d2bbbe6b19c57616a976557b719d438",
+  "result_sha256": "64b6a3149fb4fa5a6164fa8fc05ba4f179065d11c48bf4e61e2336bc0fae2207",
+  "drive_source_id": "1SvuRmLx7egRdmwuIZntWc7vlcQopT1zo",
+  "drive_result_id": "14-v4zLi14ejZIRiEz9qh3LYueKK_JDfb",
+  "drive_manifest_id": "1vZQlrtAd2ni7KMj0SPVh1UcR35y8nddp",
+  "august_accessed": false
+}
