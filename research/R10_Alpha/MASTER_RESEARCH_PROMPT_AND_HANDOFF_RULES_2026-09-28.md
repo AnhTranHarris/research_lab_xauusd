@@ -2,7 +2,9 @@
 
 **Scope:** XAUUSD, January–July 2026; August SEALED. **Branch:** `alpha`. **Status:** owner-governing workflow only. This file does not imply a candidate passed, an EA was built or MT5 was run.
 
-**Authorities:** [Live Master Protocol (Sections 112–114)](https://docs.google.com/document/d/1ycB5bQ3P24w7BZz54RwgJbc5CX5aRcqgr0KiI0Iidkw/edit); [Master Research Prompt / Reconstruction Protocol](https://docs.google.com/document/d/13xrtChGvE2MCpezzi2wN9alxHYE2NkGOweu8Fi2EJnk/edit); [Active Alpha handoff](https://docs.google.com/document/d/14ElgUCCXZeu7y4go9RAR5-v06rU_yOPqskQCCsqPRA4/edit); [CURRENT_STATE](../../CURRENT_STATE.json). Read newer explicit user directions before stale January-only/prelaunch text.
+**Authorities:** [Live Master Protocol (active canonical prompt Section 99; governance Sections 112, 114–115)](https://docs.google.com/document/d/1ycB5bQ3P24w7BZz54RwgJbc5CX5aRcqgr0KiI0Iidkw/edit); [Master Research Prompt / Reconstruction Protocol](https://docs.google.com/document/d/13xrtChGvE2MCpezzi2wN9alxHYE2NkGOweu8Fi2EJnk/edit); [Active Alpha handoff](https://docs.google.com/document/d/14ElgUCCXZeu7y4go9RAR5-v06rU_yOPqskQCCsqPRA4/edit); [CURRENT_STATE](../../CURRENT_STATE.json). Read newer explicit user directions before stale January-only/prelaunch text.
+
+**Live canonical Alpha prompt mirror:** [MASTER_RESEARCH_PROMPT_CANONICAL.md](MASTER_RESEARCH_PROMPT_CANONICAL.md) replaces the former Gamma startup prompt inside Section 99. The old R9B Gamma prompt was archived under [archives/GAMMA_SECTION99_ORIGINAL_MASTER_PROMPT_ARCHIVE_2026-09-28.md](archives/GAMMA_SECTION99_ORIGINAL_MASTER_PROMPT_ARCHIVE_2026-09-28.md).
 
 ## 1. Storage and MT5 report hard limit
 
