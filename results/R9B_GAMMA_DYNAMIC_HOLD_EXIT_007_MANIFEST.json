@@ -1,0 +1,10 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_007_POST_RESOLUTION_STATE_MONETIZATION",
+  "status": "VERIFIED_DURABLE",
+  "source_sha256": "e7d7b947082794803b954f7881ba6757723e3e812fa0602de049594743b697ae",
+  "result_sha256": "83202cb6c249e7e32cfc762ca7f46aa8e24677da52b7a034fdf3e7d4930a9be2",
+  "model_sha256": "6d07d31ca7fdd179887b40caa67c1bf98f844fa92b3b0d627f9e97c04419b14f",
+  "drive_result_id": "13_ItjHegyXwGag5FKdw5RCacDo7ebgoX",
+  "drive_manifest_id": "1GmRztjLhhsY2S1bt3lCKZjeHSgqIp0gX",
+  "august_accessed": false
+}
