@@ -1,0 +1,1000 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_NET_004_STRUCTURAL_STATE_SPECIALIST",
+  "phase": "JAN_MAR_LEAVE_ONE_MONTH_OUT_DISCOVERY_THEN_APRIL_CALIBRATION",
+  "status": "COMPLETED_LOCAL_SCREEN",
+  "parent": "Frozen NET002 H1 BOS 8h trade geometry. Router may only abstain; it cannot change direction, entry timestamp or exit horizon.",
+  "features": [
+    "break_strength_atr",
+    "body_frac",
+    "close_location",
+    "adverse_wick_frac",
+    "atr_ratio",
+    "eff3",
+    "eff6",
+    "h1_align3",
+    "h1_align6",
+    "m15_align4",
+    "m15_align8",
+    "m15_conflict4",
+    "m15_conflict8",
+    "m15_eff4",
+    "m15_eff8"
+  ],
+  "eligible_candidates": 0,
+  "frozen_candidate": null,
+  "april": null,
+  "april_gate_pass": false,
+  "model": null,
+  "decision": "REJECT_STRUCTURAL_STATE_ROUTER",
+  "next_unit": "R9B_GAMMA_DYNAMIC_NET_005_ORTHOGONAL_H4_SPECIALIST",
+  "top": [
+    {
+      "mode": "durability",
+      "depth": 1,
+      "leaf": 12,
+      "w0": 1.0,
+      "threshold": 0.6,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 85,
+            "winners": 40,
+            "win_rate_pct": 47.05882352941176,
+            "net": 375.625,
+            "gp": 2476.488999999997,
+            "gl": -2100.863999999997,
+            "pf": 1.1787954860476455,
+            "avg": 4.419117647058823
+          },
+          "coverage_pct": 85.85858585858585
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 375.625,
+      "min_pf": 1.1787954860476455,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "full",
+      "depth": 1,
+      "leaf": 8,
+      "w0": 1.5,
+      "threshold": 0.6,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 11,
+            "winners": 6,
+            "win_rate_pct": 54.54545454545454,
+            "net": 329.1950000000006,
+            "gp": 512.9159999999993,
+            "gl": -183.72099999999864,
+            "pf": 2.7918202056379133,
+            "avg": 29.926818181818238
+          },
+          "coverage_pct": 10.377358490566039
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 329.1950000000006,
+      "min_pf": 2.7918202056379133,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "full",
+      "depth": 1,
+      "leaf": 8,
+      "w0": 1.5,
+      "threshold": 0.65,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 11,
+            "winners": 6,
+            "win_rate_pct": 54.54545454545454,
+            "net": 329.1950000000006,
+            "gp": 512.9159999999993,
+            "gl": -183.72099999999864,
+            "pf": 2.7918202056379133,
+            "avg": 29.926818181818238
+          },
+          "coverage_pct": 10.377358490566039
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 329.1950000000006,
+      "min_pf": 2.7918202056379133,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "full",
+      "depth": 1,
+      "leaf": 12,
+      "w0": 1.5,
+      "threshold": 0.6,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 11,
+            "winners": 6,
+            "win_rate_pct": 54.54545454545454,
+            "net": 329.1950000000006,
+            "gp": 512.9159999999993,
+            "gl": -183.72099999999864,
+            "pf": 2.7918202056379133,
+            "avg": 29.926818181818238
+          },
+          "coverage_pct": 10.377358490566039
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 329.1950000000006,
+      "min_pf": 2.7918202056379133,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "full",
+      "depth": 1,
+      "leaf": 12,
+      "w0": 1.5,
+      "threshold": 0.65,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 11,
+            "winners": 6,
+            "win_rate_pct": 54.54545454545454,
+            "net": 329.1950000000006,
+            "gp": 512.9159999999993,
+            "gl": -183.72099999999864,
+            "pf": 2.7918202056379133,
+            "avg": 29.926818181818238
+          },
+          "coverage_pct": 10.377358490566039
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 329.1950000000006,
+      "min_pf": 2.7918202056379133,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "full",
+      "depth": 1,
+      "leaf": 12,
+      "w0": 2.0,
+      "threshold": 0.55,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 11,
+            "winners": 6,
+            "win_rate_pct": 54.54545454545454,
+            "net": 329.1950000000006,
+            "gp": 512.9159999999993,
+            "gl": -183.72099999999864,
+            "pf": 2.7918202056379133,
+            "avg": 29.926818181818238
+          },
+          "coverage_pct": 10.377358490566039
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 329.1950000000006,
+      "min_pf": 2.7918202056379133,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "full",
+      "depth": 1,
+      "leaf": 12,
+      "w0": 2.0,
+      "threshold": 0.6,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 11,
+            "winners": 6,
+            "win_rate_pct": 54.54545454545454,
+            "net": 329.1950000000006,
+            "gp": 512.9159999999993,
+            "gl": -183.72099999999864,
+            "pf": 2.7918202056379133,
+            "avg": 29.926818181818238
+          },
+          "coverage_pct": 10.377358490566039
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 329.1950000000006,
+      "min_pf": 2.7918202056379133,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "full",
+      "depth": 1,
+      "leaf": 12,
+      "w0": 2.0,
+      "threshold": 0.65,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 11,
+            "winners": 6,
+            "win_rate_pct": 54.54545454545454,
+            "net": 329.1950000000006,
+            "gp": 512.9159999999993,
+            "gl": -183.72099999999864,
+            "pf": 2.7918202056379133,
+            "avg": 29.926818181818238
+          },
+          "coverage_pct": 10.377358490566039
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 329.1950000000006,
+      "min_pf": 2.7918202056379133,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "full",
+      "depth": 1,
+      "leaf": 12,
+      "w0": 3.0,
+      "threshold": 0.45,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 11,
+            "winners": 6,
+            "win_rate_pct": 54.54545454545454,
+            "net": 329.1950000000006,
+            "gp": 512.9159999999993,
+            "gl": -183.72099999999864,
+            "pf": 2.7918202056379133,
+            "avg": 29.926818181818238
+          },
+          "coverage_pct": 10.377358490566039
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 329.1950000000006,
+      "min_pf": 2.7918202056379133,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "full",
+      "depth": 1,
+      "leaf": 12,
+      "w0": 3.0,
+      "threshold": 0.5,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 11,
+            "winners": 6,
+            "win_rate_pct": 54.54545454545454,
+            "net": 329.1950000000006,
+            "gp": 512.9159999999993,
+            "gl": -183.72099999999864,
+            "pf": 2.7918202056379133,
+            "avg": 29.926818181818238
+          },
+          "coverage_pct": 10.377358490566039
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 329.1950000000006,
+      "min_pf": 2.7918202056379133,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "full",
+      "depth": 1,
+      "leaf": 12,
+      "w0": 3.0,
+      "threshold": 0.55,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 11,
+            "winners": 6,
+            "win_rate_pct": 54.54545454545454,
+            "net": 329.1950000000006,
+            "gp": 512.9159999999993,
+            "gl": -183.72099999999864,
+            "pf": 2.7918202056379133,
+            "avg": 29.926818181818238
+          },
+          "coverage_pct": 10.377358490566039
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 329.1950000000006,
+      "min_pf": 2.7918202056379133,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "full",
+      "depth": 1,
+      "leaf": 12,
+      "w0": 3.0,
+      "threshold": 0.6,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 11,
+            "winners": 6,
+            "win_rate_pct": 54.54545454545454,
+            "net": 329.1950000000006,
+            "gp": 512.9159999999993,
+            "gl": -183.72099999999864,
+            "pf": 2.7918202056379133,
+            "avg": 29.926818181818238
+          },
+          "coverage_pct": 10.377358490566039
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 329.1950000000006,
+      "min_pf": 2.7918202056379133,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "acceptance",
+      "depth": 1,
+      "leaf": 8,
+      "w0": 3.0,
+      "threshold": 0.6,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 0.0,
+      "min_pf": 999,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "acceptance",
+      "depth": 1,
+      "leaf": 8,
+      "w0": 3.0,
+      "threshold": 0.65,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 0.0,
+      "min_pf": 999,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "acceptance",
+      "depth": 1,
+      "leaf": 12,
+      "w0": 3.0,
+      "threshold": 0.6,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 0.0,
+      "min_pf": 999,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "acceptance",
+      "depth": 1,
+      "leaf": 12,
+      "w0": 3.0,
+      "threshold": 0.65,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 0.0,
+      "min_pf": 999,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "acceptance",
+      "depth": 1,
+      "leaf": 16,
+      "w0": 3.0,
+      "threshold": 0.6,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 0.0,
+      "min_pf": 999,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "acceptance",
+      "depth": 1,
+      "leaf": 16,
+      "w0": 3.0,
+      "threshold": 0.65,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "2": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        },
+        "3": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
+            "avg": null
+          },
+          "coverage_pct": 0.0
+        }
+      },
+      "eligible": false,
+      "min_net": 0.0,
+      "sum_net": 0.0,
+      "min_pf": 999,
+      "min_coverage": 0.0
+    },
+    {
+      "mode": "acceptance",
+      "depth": 1,
+      "leaf": 24,
+      "w0": 3.0,
+      "threshold": 0.6,
+      "replication": {
+        "1": {
+          "metrics": {
+            "trades": 0,
+            "winners": 0,
+            "win_rate_pct": 0.0,
+            "net": 0.0,
+            "gp": 0.0,
+            "gl": 0.0,
+            "pf": null,
