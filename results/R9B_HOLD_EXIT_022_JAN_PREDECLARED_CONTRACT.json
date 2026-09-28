@@ -1,0 +1,37 @@
+{
+  "august_accessed": false,
+  "evidence_state": "PREDECLARED_SOURCE_AND_CONTRACT_TESTS_SYNTHETIC_PASS_HEAVY_RUN_NOT_STARTED",
+  "first_stage": "JAN_POSTENTRY_SOURCE_GOLDEN_AND_EARLY_FAILURE_DISCOVERY",
+  "freeze_before_results": {
+    "executable_pnl_lte": [
+      -0.25,
+      -0.5,
+      -0.75
+    ],
+    "horizons_ms": [
+      1000,
+      2000,
+      4000
+    ],
+    "observed_net_mfe_lte": [
+      0.05,
+      0.2
+    ],
+    "screen_size": 18
+  },
+  "known_bad_optional_cache": "R9B_FAST_CACHE/m01.npz zip central directory fails; use original raw gzip; logged",
+  "next_if_pass": "FEB_MARCH_DISCOVERY_AND_SOURCE_PARITY",
+  "no_legacy_model_shortcut": "Entry017/021/023 are NOT naively treated as equivalent on CAUSAL014 event population",
+  "original_market": "Jan 2026 Dukascopy 9,135,062 ticks",
+  "parent": "CAUSAL_RECERT_014",
+  "parent_fixture": {
+    "net": -4510.0870000207515,
+    "raw": 34362,
+    "selected": 28088,
+    "winners": 19087
+  },
+  "phase": "JANUARY_DISCOVERY_ONLY",
+  "policy": "At first observed tick after horizon, and BEFORE frozen original CAUSAL014 exit, if contemporaneous executable PnL and MFE-so-far pass thresholds, close there. Otherwise keep original stop/trail/maxhold; independently modify all RAW event lifecycles BEFORE chronological one-position portfolio selection.",
+  "quote_source": "fixed modeled halfspread 0.10, parent SAME convention; preliminary research ONLY, not variable bid/ask/slippage",
+  "unity": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD"
+}
