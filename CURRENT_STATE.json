@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_ENTRY_024_ENTRY_HOLD_ARCHITECTURE_REBASE",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_001_STATE_CONDITIONED_ECONOMIC_LIFECYCLE",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -3220,6 +3220,26 @@
       "source_sha256": "377cac8fba17f93865986ac5c787736aa7e1cf07286757bc174de42c9c3c6aeb",
       "result_sha256": "db25ee4f4431affa65fd138c0239afaab3ee5eb71cff991da9049af566894308",
       "model_sha256": "3625783393e11d5a88d2e2dd0efce970bac6ed72fbfadd1909f3a591a3999329",
+      "august_accessed": false
+    },
+    "entry_024_entry_hold_architecture_rebase": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_GATE_PASS",
+      "result_commit": "8c85de13ad8be8ff5a5a3935c444e8e5c2a49390",
+      "note_commit": "3dc94e39ed1c6f114ae16d8ef973c29d189a0c81",
+      "manifest_commit": "8efa1ca5f3a6f799151fdb587faec3e6207b093d",
+      "drive_source_id": "1SvuRmLx7egRdmwuIZntWc7vlcQopT1zo",
+      "drive_result_id": "14-v4zLi14ejZIRiEz9qh3LYueKK_JDfb",
+      "drive_manifest_id": "1vZQlrtAd2ni7KMj0SPVh1UcR35y8nddp",
+      "gate": {
+        "min_all_5s_winner_recall_pct": 83.7445573295,
+        "min_persist_5s_accuracy_pct": 77.972972973,
+        "max_terminal_fail_5s_positive_pct": 10.2449888641,
+        "max_unresolved_weak_reject_winner_share_pct": 3.3185840708,
+        "ready_for_exit_research": true
+      },
+      "conclusion": "Entry/hold architecture is frozen for the next phase. HOLD/EXIT research must consume ENTRY017/018/019/020/021/023 state semantics exactly unless a later explicit recertification replaces them.",
+      "source_sha256": "9cd7a5301d5b7b080d28e68c28320f096d2bbbe6b19c57616a976557b719d438",
+      "result_sha256": "64b6a3149fb4fa5a6164fa8fc05ba4f179065d11c48bf4e61e2336bc0fae2207",
       "august_accessed": false
     }
   },
