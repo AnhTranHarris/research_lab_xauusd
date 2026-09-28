@@ -20,7 +20,7 @@
 * Discovered and retitled **35 Gamma-era Google Docs**, including Gamma 015+ Roadmap, old Gamma CURRENT Governing Handoff, Gamma Controller Queue, Gamma Backend Status, old Gamma MT5 build specifications, old MT5 Vault snapshots, and associated Gamma research notes.
 * All 35 renamed with `ZZ_RETIRED_GAMMA__` prefix, **preserving original file IDs and historical records**.
 * All 35 also received a header tombstone (all write operations returned success; core high-risk sample readbacks verified): RETIRED; all prior `ACTIVE`, `CURRENT`, `NEXT`, `APPROVED` and `RESUME` claims within these files refer to a former, now-dead lineage and are NOT actionable for R10 Alpha.
-* A further **R9 Rebuild — Entry-Weighted Multi-Specialist Research** document (1Ryzl9Ic2s1bkZgsWkKZ9btqq4p4OmV80-UBh3z4) contains 218 Gamma references and an old ACTIVE research status; it was separately renamed `ZZ_RETIRED_GAMMA_R9__...` and prefixed with a hard retirement warning. Thus **36 historical research documents** were marked retired in this pass (35 Gamma-era + this additional R9 research manuscript).
+* A further **R9 Rebuild — Entry-Weighted Multi-Specialist Research** document (1Ryzl9Ic2s1bkZgsWkKZ9btKfktqq4p4OmV80-UBh3z4) contains 218 Gamma references and an old ACTIVE research status; it was separately renamed `ZZ_RETIRED_GAMMA_R9__...` and prefixed with a hard retirement warning. Thus **36 historical research documents** were marked retired in this pass (35 Gamma-era + this additional R9 research manuscript).
 * Gamma historical files were NOT treated as the canonical scientific starting point. Original R9 REAL/SYNTH test reports, R9 OVERFIT teacher references and the two R10 Alpha correlation quick-reference docs remain intact.
 
 ## Alpha GitHub branch entrypoint fixes
