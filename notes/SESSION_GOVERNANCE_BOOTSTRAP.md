@@ -13,7 +13,7 @@
 Never consult `main/CURRENT_STATE.json`, `notes/R9B_GAMMA*`, Gamma controller queues, Gamma handoffs, Gamma 015+ Roadmap, retired 20%-only reporting rule, or Gamma MT5 build specs as current authority. Refer to a particular historical failed Gamma idea only to avoid repeating an invalid test, with its evidence status clearly recorded. Historical R9 REAL/SYNTH and OVERFIT sources are NOT Gamma strategy continuity.
 
 ## Verified current scientific pointer
-As of 2026-09-28: Alpha tick-engine validated for Dukascopy Jan–Jul; ENTRY_HOLD_DISCOVERY_001 exploratory January completed and six variants rejected, **not** a >10% candidate; next scientific unit in CURRENT_STATE is delayed-acceptance/confirmation ENTRY_HOLD_DISCOVERY_002. Follow exact live state if it changes. No owner-approved Alpha cumulative EA designated, no new authorized MQL5 build, no new Coinexx test.
+As of 2026-09-28: Alpha tick engine verified on Jan–Jul source manifests. OWNER RESET: former Alpha ENTRY_HOLD_DISCOVERY_001 six-config study and proposed 002 are QUARANTINED due earlier incorrect Gamma startup. The newly preregistered Gamma-independent clock-defined initial January ENTRY+HOLD accuracy study has COMPLETED NEGATIVE; independent original R9 REAL/SYNTH eight-day tick markouts were reproduced from sixteen SHA-matching GZIP archives. Current live first incomplete unit is CLEAN_ALPHA_ENTRY_HOLD_001_COST_AWARE_ENTRY_EXCURSION_AND_SURVIVAL_PREREGISTRATION; always verify alpha/CURRENT_STATE.json for newer state. No owner-approved Alpha EA, qualifying 10% candidate, MQL5 version or fresh Coinexx tester result. August SEALED.
 August remains SEALED. Daily/weekly/monthly evidence; no synthetic R9 fills passed as executable XAUUSD economics.
 
 ## Promotion and hardware reporting rules
