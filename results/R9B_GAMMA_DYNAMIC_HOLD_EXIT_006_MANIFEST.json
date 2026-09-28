@@ -1,0 +1,10 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_006_RECOVERY_WAITING_SPECIALIST",
+  "status": "VERIFIED_DURABLE",
+  "source_sha256": "ca9df6797703a807b6519716d644d82ffc59d38117afe639b72596ee7e09b777",
+  "result_sha256": "69ac1b4de304969cabdd50d18fa670643926c26353a52d9309b6c6c4964f13b2",
+  "drive_source_id": "1dY3TEq7Ye7oAFftRh9sw0dweU7qTYJP0",
+  "drive_result_id": "1N3dZdfTgpVsYtvGUh6yDqKhEjV0ZriMn",
+  "drive_manifest_id": "172vKJDGosEIxi6mHUscUslJsAc1ApKYw",
+  "august_accessed": false
+}
