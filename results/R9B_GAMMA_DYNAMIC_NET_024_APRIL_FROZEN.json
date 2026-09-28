@@ -1,0 +1,45 @@
+{
+  "april_raw_cache_sha256": "60bfb8064b9394d1f34cc1115e77826be0a3a2b5c3a0aae2434d49ab9698e82b",
+  "august_accessed": false,
+  "baseline": {
+    "gross_loss": -10883.57500000631,
+    "gross_profit": 6147.829499986381,
+    "maxdd": 4744.660500019903,
+    "net": -4735.74550001993,
+    "pf": 0.564872250155194,
+    "trades": 26683,
+    "win_rate": 0.6771352546565229,
+    "winners": 18068
+  },
+  "candidate": {
+    "gross_loss": -10642.421000006208,
+    "gross_profit": 5977.367999986737,
+    "maxdd": 4673.968000019445,
+    "net": -4665.053000019471,
+    "pf": 0.5616549091586632,
+    "trades": 26112,
+    "win_rate": 0.6749387254901961,
+    "winners": 17624
+  },
+  "decision": "PROCEED_FROZEN_MAY_JUL_FORWARD",
+  "delta": {
+    "gross_loss_improvement": 241.15400000010231,
+    "gross_profit_change": -170.46149999964382,
+    "net": 70.6925000004585,
+    "trades": -571,
+    "winners": -444
+  },
+  "discovery_sha256": "994be634c52ad5ccbc17a147f8921ff6cf64ea9d8ce02093a8e7b5b516939089",
+  "frozen_rule": "veto_contra_weak_align|2",
+  "month": 4,
+  "next_stage": "NET024_FROZEN_FORWARD_MAY",
+  "pass_predeclared_gate": true,
+  "retention": {
+    "trade_pct": 97.86006071281341,
+    "winner_pct": 97.54261678104938
+  },
+  "source_sha256": "d0910568189e562fda08394ee89bde9789934fbb4aa50dade32b17d61ea6c03f",
+  "stage": "APRIL_FROZEN_CALIBRATION",
+  "status": "REPRODUCED_FROZEN_APRIL",
+  "unit": "R9B_GAMMA_DYNAMIC_NET_024_H1_OWNERSHIP_SEQUENTIAL_PERMISSION"
+}
