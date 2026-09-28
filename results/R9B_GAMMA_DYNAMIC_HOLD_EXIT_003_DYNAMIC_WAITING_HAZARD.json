@@ -1,0 +1,41 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_003_DYNAMIC_WAITING_HAZARD",
+  "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED_TWO_BRANCH_POLICY",
+  "parent": "Frozen ENTRY017-024 ownership + HOLD_EXIT001 horizon map",
+  "recovery_screen": {
+    "screen_count": 672,
+    "eligible_count": 0
+  },
+  "late_screen": {
+    "screen_count": 672,
+    "eligible_count": 8,
+    "best": {
+      "checkpoint_ms": 2000,
+      "feature_set": "path",
+      "depth": 2,
+      "min_samples_leaf": 12,
+      "class_weight_0": 1,
+      "threshold": 0.35,
+      "jan_fit_net_improvement": 4.1315,
+      "jan_fit_gl_reduction_pct": 8.6968,
+      "jan_validation_net_improvement": 1.327,
+      "jan_validation_gl_reduction_pct": 3.7667
+    }
+  },
+  "conclusion": "A generic economic WAIT-vs-CUT teacher produced no robust recovery-branch policy. The late branch has a January-stable signal, but frozen February net reverses. Do not integrate. Rebuild branch-specific hazard around future ownership identity (valuable recovery/delayed vs failed; late ignition vs no-late) while keeping features causal.",
+  "decision": "NO_ROBUST_TWO_BRANCH_DYNAMIC_POLICY",
+  "next_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_004_BRANCH_SPECIFIC_WAITING_REBUILD",
+  "source_sha256": {
+    "cache_builder": "8f47337382c1f3ffa5c4983f718ca48c3edff9209008e5483f4dfed2e7eb537c",
+    "screen": "15f65604602a10f444cbaa25e64d60b442669f8e0c4dd924b2365d4576961046"
+  },
+  "result_sha256": "e545233e956f4439e868d36b2be8fd2db1fee30459508a1585af434f1915122a",
+  "drive": {
+    "cache_builder": "1rVR2Z5em-8EdIZQsmQZHTWsyl21YjTFA",
+    "screen": "1lT6d6HDcZjbG6JvB1k4jZU6j38Cf4cRn",
+    "result": "1eohZTnes3Z6Ucz_okOQVQvPsDtFnsUrC",
+    "model": "1IUAzFbz5_IdDnyhukp8XvpUyNdEcwd1Z",
+    "manifest": "1VWr2bLWeM_IgcA4SnTdWNoN4iDi6uxQA"
+  },
+  "august_accessed": false
+}
