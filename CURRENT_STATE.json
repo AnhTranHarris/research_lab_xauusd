@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_009_MFE_RENEWAL_HAZARD",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_010_RUNNER_CAPTURE_REBUILD",
     "current_unit_state": "READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -3411,6 +3411,24 @@
       "result_sha256": "9fd7ded80bf9d33016dfd829672ac96ac6f22ebb4509dd45e0d7d0bb3a657d2d",
       "drive_result_id": "1A0w76RprfMIY4i-2KbDnqq0XNTdd_W83",
       "drive_manifest_id": "1gUjdHaHZdl0pAdtXZRW8B21zJ5DuQVzJ",
+      "august_accessed": false
+    },
+    "hold_exit_009_mfe_renewal_hazard": {
+      "status": "VERIFIED_DURABLE_DIAGNOSTIC_REJECTED",
+      "result_commit": "43b65b289e8e58c05d0fdfed4f39476676e38d9f",
+      "note_commit": "b12bb3f8b206a378426523d57a2c7a0611714eeb",
+      "manifest_commit": "898362be6e8cec06c61267d123848954fc40506e",
+      "discovery_rule": {
+        "max_horizon_ms": 5000,
+        "activation": 0.4,
+        "giveback": 0.2,
+        "stale_ms": 0
+      },
+      "conclusion": "MFE renewal hazard reduces GL and increases winner count but clips GP in Jan-heldout/Feb; reject and pivot to winner-side runner capture.",
+      "source_sha256": "5b600d79d043d7ba2c586e237e896edb46bdec7cca7964d4c4222335a9cd5eb9",
+      "result_sha256": "3c11e5963c108aec0768a76f60c342596869e0c0969edd67ebf3eaf68fe59316",
+      "drive_result_id": "1OXjS6C7VYoYohqtun65-Q4gXHlqudlyv",
+      "drive_manifest_id": "1ZaZQZ4vzkFyfXVknksTDeMt6of1Qn9B2",
       "august_accessed": false
     }
   },
