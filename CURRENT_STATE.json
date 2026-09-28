@@ -48,7 +48,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
-    "current_unit_state": "JAN_ONLY_FAST_CONCORDANCE_REPLAY_VERIFIED_NEXT_SOURCE_REBUILD_PLAN",
+    "current_unit_state": "JAN_PARENT_KEYED_CHILD_SOURCE_MAPPING_REPAIRED_NEXT_V2_REPLAY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -5255,7 +5255,7 @@
     },
     "historical_net002_net007_source_reconciliation": {
       "status": "JAN_SOURCE_STRUCTURAL_MAPPING_AND_POSTHOC_LOSS_ATTRIBUTION_VERIFIED_NEXT_COMPOSITION_PREDECLARATION",
-      "first_incomplete_stage": "NET002_NET007_JAN_FAST_SOURCE_CLOSURE_GAPS_AND_CORRECTION_PLAN",
+      "first_incomplete_stage": "NET002_NET007_JAN_V2_FAST_DIFFERENTIAL_REPLAY",
       "source_families": [
         "NET002 completed H1/H4 break of structure and ATR/body quality",
         "NET003 H1-break-M15-retest/reclaim",
@@ -5461,6 +5461,33 @@
           "possible_research_bug": "Filtering original selected trades instead of filtering all raw events and greedily reselecting misses eligible new entries; also raw generator quota state remains unchanged by this screen.",
           "august_sealed": true,
           "not_forward_validated": true
+        },
+        "parent_keyed_v2": {
+          "status": "VERIFIED_DURABLE_JANUARY_STRUCTURAL_CHILD_CONTEXT_CORRECTION",
+          "root_cause": "global most-recent M15 child asof join then reject different H1 BOS suppresses earlier valid same-parent child; join must be keyed by H1 BOS before time filter",
+          "code": "scripts/r9b_jan_parent_keyed_child_v2.py",
+          "code_blob": "58509327d80237ffb9b003c7b825ae8f316e17ef",
+          "code_commit": "f2f85680c2a8f10e363c28db584936bdf809a66f",
+          "result": "results/R9B_GAMMA_NET002_007_JAN_PARENT_KEYED_CHILD_V2_SUMMARY.json",
+          "result_blob": "6b013e7c323e4b184830cc88a228cf5bb40fadbd",
+          "output_npz_sha256": "35e37b0028cf386aaf4107acdd98e2995f3989ea58f465720c74bf0d880e1e08",
+          "retest_raw_pre": 11458,
+          "retest_raw_post": 12153,
+          "retest_raw_restored": 695,
+          "retest_selected_restored": 549,
+          "failure_raw_pre": 13349,
+          "failure_raw_post": 20501,
+          "failure_raw_restored": 7152,
+          "failure_selected_restored": 5756,
+          "parent_raw": 34362,
+          "parent_selected": 28088,
+          "parent_net": -4510.0870000207515,
+          "original_no_pnl_delta": true,
+          "no_forward_claim": true,
+          "source_data": "JAN_ONLY",
+          "old_january_child_context_tests": "STALE_REQUIRES_REPLAY_FROM_V2",
+          "library_path": "/R9_Gamma_Checkpoints/NET002_NET007_JAN_MAPPING",
+          "august_sealed": true
         }
       }
     },
@@ -5493,7 +5520,7 @@
       ],
       "august_accessed": false
     },
-    "first_incomplete_stage": "NET002_NET007_JAN_FAST_SOURCE_CLOSURE_GAPS_AND_CORRECTION_PLAN",
+    "first_incomplete_stage": "NET002_NET007_JAN_V2_FAST_DIFFERENTIAL_REPLAY",
     "session_handoff_20260928_max_chat": {
       "status": "DURABLE_GOOGLE_DOCS_HANDOFF_VERIFIED",
       "date": "2026-09-28",
