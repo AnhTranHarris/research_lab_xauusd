@@ -1,1 +1,13 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+{
+  "august_accessed": false,
+  "canonical_replay_source_sha256": "4a23916632d5591bf1d25107f2b316432d410648fa3a1935f5fff2e483da52f1",
+  "gate_pass": true,
+  "month": 3,
+  "next": "HOLD_EXIT_022_RUNNER_DISCOVERY_VERDICT",
+  "original_control_parity_pass": true,
+  "parent_event_sha256": "cbbc07490bbd8f5be6fffa90a5d338c1985259cd16e9edd73bf8760bcf66b64f",
+  "raw_source_sha256": "814ba35e72f219a58badd806ed5c0f30ef0fb4ffe56a48205d873706513bd177",
+  "replicator_source_sha256": "47becf4376c187597ec7c4abe61d816b144e75e7281671f889d3cb14e0f36151",
+  "result_sha256": "3c254b05ad26b7885f05dba4a32408b50b74c63e73cf808c0b30ed8e8d1b5730",
+  "status": "COMPLETED_LOCAL"
+}
