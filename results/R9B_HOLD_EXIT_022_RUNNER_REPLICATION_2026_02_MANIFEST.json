@@ -1,0 +1,13 @@
+{
+  "august_accessed": false,
+  "canonical_replay_source_sha256": "4a23916632d5591bf1d25107f2b316432d410648fa3a1935f5fff2e483da52f1",
+  "gate_pass": false,
+  "month": 2,
+  "next": "HOLD_EXIT_022_RUNNER_REPLICATION_MARCH",
+  "original_control_parity_pass": true,
+  "parent_event_sha256": "c855f777d57c25ecbf49768afa1ab07eab138dd1e07ce30b246e42a788e42586",
+  "raw_source_sha256": "ed3b3545c990c88d78519594c17c8915b0f679adcb0a94920ba7524f1f6d5c5d",
+  "replicator_source_sha256": "47becf4376c187597ec7c4abe61d816b144e75e7281671f889d3cb14e0f36151",
+  "result_sha256": "e49bda83feee49e3de376285d3de9f457caaadbc4f69040088f63c571381f48e",
+  "status": "COMPLETED_LOCAL"
+}
