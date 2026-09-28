@@ -1,0 +1,56 @@
+{
+  "status": "FAST_JAN_GOLDEN_AND_FAILURE_INJECTION_PASS",
+  "source_contract": "JAN_ONLY_IMMUTABLE_SOURCE_CACHE",
+  "cache_hashes": {
+    "causal_parent": "3fa88617bcc157ec4e6fcc2e62d48f888d93c380c8d18d1f2c79fcd4cc69ce6a",
+    "net004_descriptors": "ac5c996d1b8126906a2ca2f17af26614737d7c24ab3dfeb4beefb5fbb8a96567"
+  },
+  "cache_bytes": 1199210,
+  "control": {
+    "raw": 34362,
+    "selected": 28088,
+    "winners": 19087,
+    "net": -4510.0870000207515,
+    "gp": 7001.463999985857,
+    "gl": -11511.55100000661,
+    "dd": 4554.885500020489
+  },
+  "context_identity": {
+    "raw_uniques": 34362,
+    "h1_attached": 33438,
+    "h4_complete": 34362,
+    "h4_non_neutral": 31211,
+    "retest_attached": 11458,
+    "failed_attached": 13349,
+    "net004_attached": 33438
+  },
+  "mutation_tests": [
+    {
+      "fixture": "FUTURE_NET004_TIMESTAMP",
+      "rejected": true
+    },
+    {
+      "fixture": "WRONG_CHILD_ORIGIN_BOS",
+      "rejected": true
+    },
+    {
+      "fixture": "SAME_TICK_OR_PRIOR_POSITION_OVERLAP",
+      "rejected": true
+    },
+    {
+      "fixture": "MISSING_DESCRIPTOR_ORIGIN",
+      "rejected": true
+    },
+    {
+      "fixture": "TAMPERED_GOLDEN_CASH_PNL",
+      "rejected": true
+    }
+  ],
+  "elapsed_seconds": 0.393594,
+  "full_jan_raw_gzip_loaded": false,
+  "april_may_jul_loaded": false,
+  "august_accessed": false,
+  "not_oos_validation": true,
+  "not_mql5_certification": true,
+  "next": "NET002_NET007_JAN_CACHED_SOURCE_CONCORDANCE_REPLAY"
+}
