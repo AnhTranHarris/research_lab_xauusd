@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_013_BANK_THEN_REQUALIFIED_REENTRY",
-    "current_unit_state": "REPLICATION_MONTH3_VERIFIED_DURABLE_FINALIZATION_NEXT",
+    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_014_REENTRY_FEATURE_REBUILD",
+    "current_unit_state": "READY_FEATURE_REBUILD_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3486,7 +3486,7 @@
       "august_accessed": false
     },
     "hold_exit_013_bank_then_requalified_reentry": {
-      "status": "REPLICATION_COMPLETE_FINALIZATION_PENDING",
+      "status": "REJECTED_FROZEN_REPLICATION",
       "parent": "HOLD_EXIT005 + frozen ENTRY017-024 ownership; STRONG_RUNNER banked at +1s",
       "mechanism": "Bank original STRONG_RUNNER at +1s, remain flat, then map capacity of a fresh same-direction re-entry at later causal checkpoints with a new $0.20 round-trip cost.",
       "source_sha256": "23374802026bb170516772488224f723a11b5ed117579e79a952b1a2e41f86f0",
@@ -3499,7 +3499,7 @@
         "CAPACITY_MONTH_3",
         "CAPACITY_MAP_SUMMARY"
       ],
-      "first_incomplete_unit": "FINALIZE_REPLICATION_DECISION",
+      "first_incomplete_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_014_REENTRY_FEATURE_REBUILD_DISCOVERY",
       "august_accessed": false,
       "month1": {
         "cache_sha256": "a6dffae970dff76a562350236ea3befe99c293849e88240d3b4312dc38610632",
@@ -3617,6 +3617,16 @@
           "status": "VERIFIED_DURABLE_SALVAGED_AFTER_TIMEOUT"
         },
         "recovery_note": "March result already existed durably in Drive despite stale handoff/current-state pointer. Validated and salvaged; do not rerun March. Next scientific stage is finalization/robustness decision only."
+      },
+      "robust": false,
+      "decision": "REJECT_SELECTOR",
+      "finalization": {
+        "github_result_path": "results/R9B_GAMMA_DYNAMIC_HOLD_EXIT_013_BANK_THEN_REQUALIFIED_REENTRY.json",
+        "github_commit": "05e056f454b4bc98cc9ff2fa421fe02d3087366c",
+        "finalization_sha256": "4715b4c19083a423c78da207cebb67b0d765e004a88f779b6bc56c4775adbc85",
+        "reason": "March frozen replication negative; PF < 1.",
+        "next_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_014_REENTRY_FEATURE_REBUILD",
+        "august_accessed": false
       }
     },
     "session_handoff_20260927": {
