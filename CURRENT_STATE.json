@@ -52,7 +52,7 @@
     "dataset_sha_verified_in_alpha": true,
     "forward_validation_split": "JAN_2026_EXPLORATORY_USED__FUTURE_MONTHS_STRATEGY_HOLDOUT_STATUS_UNCOMMITTED__FREEZE_BEFORE_FUTURE_MONTH_USE",
     "first_incomplete_stage": "ALPHA_ENTRY_HOLD_DISCOVERY_002_PREREGISTER_DELAYED_ACCEPTANCE_AND_VOLATILITY_AWARE_EXECUTION",
-    "next_action": "R10 ALPHA ONLY; Gamma/Gamma2/Gamma Dynamic are DEAD research lineages. Resume alpha/CURRENT_STATE's first incomplete Entry+Hold 002 after reading Alpha Section 99 and Alpha-only lock. Never run a Gamma unit or treat a Gamma EA as approved parent. Owner-approved Alpha cumulative EA remains NOT YET DESIGNATED; no 10% gate can be claimed on an invented control. Use only compact Coinexx M1 report if/when human-authorized.",
+    "next_action": "R10 ALPHA ONLY. Read ALPHA_ENTRY_001_BOOTSTRAP_CONTAMINATION_AUDIT.md before EntryHold002. 001 = quarantined negative January exploratory evidence, not Alpha approval or proven independent breakthrough. Predeclare independent Entry/Hold002 causal hypothesis and source provenance. No Gamma dependencies, no Gamma-derived baseline. Owner-approved cumulative EA NOT DESIGNATED, so formal >10% gate NOT EVALUABLE. Preserve August seal.",
     "dataset_verified_scope": "FULL 7 MARKET GZIP SHA256+CRC+PARSE+TIMESTAMP ORDER+MONTH MEMBERSHIP+BID<=ASK; NUMERIC MEMMAP REPLAY CACHES 57,527,562 TICKS",
     "infrastructure_smoke_runs": 1,
     "infrastructure_smoke_status": "SEVEN_MONTH_CONTIGUOUS_DETERMINISTIC_M1_PROBE_REPLAYED__UNVALIDATED_STRATEGY_RESULTS_EXCLUDED",
@@ -266,5 +266,32 @@
     "owner_approval_required_after_m1_coinexx_report": true,
     "new_ticklogger_upload": "FORBIDDEN_NO_NEW_TICK_LOGS",
     "existing_historical_r9_real_synth_logs": "READ_ONLY_REFERENCE"
+  },
+  "first_alpha_bootstrap_forensic_audit": {
+    "report": "research/R10_Alpha/ALPHA_ENTRY_001_BOOTSTRAP_CONTAMINATION_AUDIT.md",
+    "completed_utc": "2026-09-28",
+    "method": "COMMITTED_CODE_DOCUMENT_AND_RESULT_REVIEW_ONLY_NOT_FRESH_TICK_REEXECUTION",
+    "governance": "CONFIRMED_SEVERE_GAMMA_STARTUP_CONTAMINATION__REPAIRED_BY_ALPHA_ONLY_LOCK",
+    "inherited_gamma_named_repo_blobs": 246,
+    "alpha_added_gamma_named_audit_archives": 4,
+    "alpha_py_files_static_imports_inspected": 10,
+    "detected_direct_gamma_imports": 0,
+    "original_dukas_data_integrity": "7_MONTH_SHA_CRC_PARSE_AUDIT_PRESENT_NO_EVIDENCE_OF_GAMMA_INPUT_SUBSTITUTION",
+    "strategy_research": {
+      "month": "2026-01",
+      "entry_hold_001_variants": 6,
+      "all_rejected": true,
+      "quarantine": "NEGATIVE_IN_SAMPLE_FORENSIC_ONLY_NEVER_APPROVED_EA_PARENT",
+      "possible_hypothesis_provenance_influence": "CANNOT_DISPROVE_COMPLETELY"
+    },
+    "alpha_promotion": {
+      "candidate_passed": 0,
+      "mql5_authorized": 0,
+      "broker_mt5_test_new": 0,
+      "approved_ea": "NOT_DESIGNATED"
+    },
+    "oos": "DO_NOT_CLAIM_UNTOUCHED_MAY_JUL_OR_COMPLETE_JAN_JUL_STRATEGY_OOS_WITHOUT_PRECOMMIT_NEW_PROTOCOL",
+    "next_step": "ENTRY_HOLD_002_INDEPENDENT_PREREGISTRATION_WITH_ALPHA_ONLY_BOOTSTRAP_AND_NO_GAMMA_CODE_OR_GAMMA_RESULTS_AS_PARENT",
+    "user_facing_summary": "Governance polluted; raw input not shown altered; six failed research variants quarantine; no proven approved Gamma carryover."
   }
 }
