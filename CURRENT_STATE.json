@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_014_NEW_MECHANISM_RESEARCH",
-    "current_unit_state": "QUOTE_VOLUME_IMBALANCE_MICROPRICE_DISCOVERY_READY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_015_VOLUME_BUCKET_FLOW",
+    "current_unit_state": "READY_JAN_MAR_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4135,6 +4135,51 @@
       "data_capability_note": "Dukascopy tick CSV contains ask_volume and bid_volume columns; quote-volume imbalance/microprice research is now directly testable.",
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_014_QUOTE_IMBALANCE_MICROPRICE",
       "august_accessed": false
+    },
+    "net014_quote_imbalance_microprice": {
+      "status": "REJECTED_APRIL_CALIBRATION",
+      "decision": "REJECT_QVI_EVENT_FILTER",
+      "result_sha256": "89ca672757010846d10db7066dc48992fb04fbafa2bf484914ff5199ad88db24",
+      "source_sha256": "68717cc690a6ab2dacbdb5104b6684aa822896da3294a145574eea3f9fbfc4f8",
+      "capacity_finding": "Quote-volume imbalance and microprice skew carry a real but very small 1-2 second directional signal relative to XAUUSD spread; use only as sparse event context, not standalone scalping.",
+      "frozen_candidate": {
+        "mode": "micro",
+        "depth": 3,
+        "leaf": 5,
+        "class_weight_0": 1,
+        "threshold": 0.5
+      },
+      "jan": {
+        "trades": 29,
+        "winners": 16,
+        "net": 342.79699999999866,
+        "pf": 2.0026880934134317,
+        "coverage_pct": 22.137404580152673
+      },
+      "feb": {
+        "trades": 31,
+        "winners": 19,
+        "net": 315.567,
+        "pf": 1.8105636009637343,
+        "coverage_pct": 30.097087378640776
+      },
+      "mar": {
+        "trades": 37,
+        "winners": 21,
+        "net": 420.2679999999964,
+        "pf": 1.6444958349179795,
+        "coverage_pct": 27.40740740740741
+      },
+      "april": {
+        "trades": 35,
+        "winners": 17,
+        "net": -246.31299999999737,
+        "pf": 0.6204309260811707,
+        "coverage_pct": 27.77777777777778
+      },
+      "may_july_accessed": false,
+      "august_accessed": false,
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_015_VOLUME_BUCKET_FLOW"
     }
   },
   "gamma2_benchmark_recovery": {
