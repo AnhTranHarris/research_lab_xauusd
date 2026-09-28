@@ -32,7 +32,7 @@
     "campaign": "R9B_GAMMA_2_MONETIZATION",
     "objective": "Search for causal reconstructible strategies/mechanisms/combinations that add durable value to the current-best Gamma parent and close the REAL→R9 SYNTH gap. Use R9 overfit/SYNTH as tick-by-tick teacher/capacity map only; never as future execution input.",
     "priorities": [
-      "HOLD_EXIT_022 causal sequence-confirmed structural invalidation as a distinct loss-tail mechanism; Jan-Mar discovery and no generic early-cut reskin",
+      "HOLD_EXIT_022 causal HARVEST/MEDIUM/RUNNER profit geometry and event-time persistence source audit, January source-golden",
       "HOLD_EXIT_022 bankable HARVEST/MEDIUM/RUNNER economics with original CAUSAL014 chronology and optional NET024 H1 owner ablation",
       "Restore source-equivalent ENTRY017/021/023 diagnostics on identical CAUSAL014 event population before promoted MQL5 state machine",
       "No production MQL5 work before verified integrated positive economic value and source closure",
@@ -47,7 +47,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
-    "current_unit_state": "JAN_DISCOVERY_FAIL_FAST_REJECT_EARLY_CUT_NEXT_CAUSAL_HARVEST_READY",
+    "current_unit_state": "JAN_STRUCTURAL_INVALIDATION_REJECTED_HARVEST_SOURCE_AUDIT_READY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4616,7 +4616,7 @@
       "calibration_window": "APRIL",
       "forward_window": "MAY_JUL_FROZEN",
       "july_historical_contamination_note": "Old July research forensics mean not every new mechanism can claim July as truly untouched; label appropriately.",
-      "first_incomplete_stage": "HOLD_EXIT_022_CAUSAL_SEQUENCE_INVALIDATION_AND_HARVEST_DESIGN",
+      "first_incomplete_stage": "HOLD_EXIT_022_CAUSAL_HARVEST_RUNNER_PROOF_DESIGN",
       "mql5_build_blockers": "Reconstruct missing ENTRY017/021/023 dedicated source bodies if used, golden-parity certify all carried state semantics; dynamic exit requires full tick replay and resulting entry opportunity reevaluation.",
       "test_rules": "one position, chronological raw candidate stream, avoid future features, apply actual newly chosen exit timestamp before selecting next entry; run with/without H1 context",
       "august_accessed": false,
@@ -4684,7 +4684,49 @@
         "ENTRY021 dedicated model/source body parity if transplanted",
         "ENTRY023 dedicated model/source body parity if transplanted"
       ],
-      "data_quality_note": "Prior optional R9B_FAST_CACHE/m01.npz corrupted ZIP, fail-closed and logged. January primary Dukascopy raw gzip SHA passed and HOLD022 independent observation cache ZIP validated; legacy cache not used."
+      "data_quality_note": "Prior optional R9B_FAST_CACHE/m01.npz corrupted ZIP, fail-closed and logged. January primary Dukascopy raw gzip SHA passed and HOLD022 independent observation cache ZIP validated; legacy cache not used.",
+      "january_structural_invalidation": {
+        "status": "VERIFIED_DURABLE_REJECTED_DISCOVERY",
+        "parent_golden": {
+          "trades": 28088,
+          "winners": 19087,
+          "net": -4510.0870000207515,
+          "gross_loss": -11511.55100000661,
+          "pf": 0.6082120471847657
+        },
+        "independent_causal_level_reconstruction_match": true,
+        "predeclared_variants": 27,
+        "variants_with_positive_net_delta": 0,
+        "variants_passing_combined_gate": 0,
+        "least_net_damaging": {
+          "owner": "strong_only",
+          "buffer_price": 0.25,
+          "confirmation_ms": 1500,
+          "net_delta": -59.324499998957435,
+          "gross_loss_reduction": 45.75100000075872,
+          "winner_retention_pct": 98.48064127416566
+        },
+        "most_gl_compressive": {
+          "owner": "all",
+          "buffer_price": 0,
+          "confirmation_ms": 0,
+          "net_delta": -921.1679999932157,
+          "gross_loss_reduction": 319.2620000045499,
+          "winner_retention_pct": 85.47702624823178
+        },
+        "source_commit": "b06b9cb57741cb7a52c29b1bfbfd8956da14207d",
+        "predeclared_contract_commit": "bcee0d74fd832b137d32a9cdc3cf52211d6d3f5e",
+        "result_commit": "484cf21373c766024b4459e2e964b6b0f0587dd9",
+        "manifest_commit": "70733f397b61a9c03b38466a6c0b4f22c4a2fa96",
+        "note_commit": "98b7482f62443caf7f62f074643b1b8fc657d611",
+        "source_sha256": "710b3729a5e24b22eb11de9f20014709cb4931095b45352b0eb4cf0d489be0af",
+        "result_sha256": "9bdd1c3dd85dfe7719e3d00eeebee9122fe59e8f91c06bbacf55f55af16e0e6a",
+        "causal_cache_sha256": "eb1752974724a3c7d11466e0182b2d7949ebb9974c466fb860691327fc5047c9",
+        "note_sha256": "9cf2483e9e5a78c70359794aa8d3f936423d74d6bc96b5cbc65cba1433aa3ccd",
+        "library_checkpoint": "/R9_Gamma_Checkpoints/HOLD_EXIT_022",
+        "aug_accessed": false,
+        "decision": "Original sweep-level adversarial quote return is not standalone early-exit alpha; do not run same 27 rules on calibration/forward."
+      }
     }
   },
   "gamma2_benchmark_recovery": {
