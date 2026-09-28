@@ -44,8 +44,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_008_REGIME_DURATION_CHANGEPOINT",
-    "current_unit_state": "READY_CAUSAL_DISCOVERY",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_008_INTRINSIC_TIME_ROTATION_SLEEVE",
+    "current_unit_state": "READY_JAN_MAR_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4033,6 +4033,65 @@
       "rationale": "Durable audit shows prior acceptance/sweep and ordinal-transition work completed/rejected, but planned causal duration/change-point stage was not completed. Structural baseline/retest/H4/hierarchical/failure variants are now exhausted. Test run-length/CUSUM-style durability state without future data.",
       "validation": "Jan-Mar discovery; April calibration; May-Jul frozen forward only after freeze; August sealed.",
       "august_accessed": false
+    },
+    "net006_structural_phase_router": {
+      "status": "REJECTED_APRIL_CALIBRATION",
+      "result_sha256": "1654f369c17bb91c7490405d7f67ae1b4446a571da39222ea216f9c59423c16e",
+      "april": {
+        "trades": 6,
+        "winners": 1,
+        "net": -272.0670000000009,
+        "pf": 0.017975289391329106
+      },
+      "may_july_accessed": false,
+      "august_accessed": false
+    },
+    "net007_failed_auction_fade": {
+      "status": "REJECTED_FROZEN_FORWARD",
+      "discovery_result_sha256": "9000b47943b20851fd02d6b6b9955741c07e24b1c8d312a735376950c95c1ff7",
+      "forward_result_sha256": "c28822f239b9f8e5f18ef2797930c707e07c4545d07d1bb573ac36a143cb1123",
+      "frozen_rule": {
+        "tf_min": 60,
+        "lookback": 3,
+        "sweep_atr": 0.2,
+        "reclaim_atr": 0.1,
+        "min_wick_frac": 0.25,
+        "boundary": "wick",
+        "hold_bars": 8
+      },
+      "april": {
+        "trades": 22,
+        "winners": 11,
+        "net": 152.8670000000002,
+        "pf": 1.4959768212994888
+      },
+      "may": {
+        "trades": 23,
+        "winners": 9,
+        "net": -261.39899999999943,
+        "pf": 0.47889143397106704
+      },
+      "june": {
+        "trades": 31,
+        "winners": 11,
+        "net": -279.97800000000234,
+        "pf": 0.6443020976391214
+      },
+      "july": {
+        "trades": 33,
+        "winners": 21,
+        "net": 266.7100000000014,
+        "pf": 1.990345698265946
+      },
+      "may_july_aggregate": {
+        "trades": 87,
+        "winners": 41,
+        "net": -274.66700000000037,
+        "pf": 0.8237115016552699
+      },
+      "decision": "REJECT_FAILED_AUCTION_FADE_FROZEN_FORWARD",
+      "august_accessed": false,
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_008_INTRINSIC_TIME_ROTATION_SLEEVE"
     }
   },
   "gamma2_benchmark_recovery": {
