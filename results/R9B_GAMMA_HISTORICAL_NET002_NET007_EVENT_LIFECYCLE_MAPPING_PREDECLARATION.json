@@ -1,0 +1,149 @@
+{
+  "schema": "r9b-gamma-historical-event-lifecycle-predeclaration-v1",
+  "unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
+  "stage": "NET002_NET007_EVENT_LIFECYCLE_MAPPING_PREDECLARATION",
+  "status": "PREDECLARED_SOURCE_AUDITED_NO_MARKET_EXECUTION",
+  "date_utc": "2026-09-28",
+  "parent": {
+    "authoritative": "CAUSAL_RECERT_014",
+    "event_generator": "scripts/causal014/r8_sweep_lifecycle_screen.py",
+    "generator_blob": "411542bd842d31089142ac8a6016af6a2117e663",
+    "lifecycle": "scripts/causal014/r9b_sweep_structure_exit_candidate.py",
+    "lifecycle_blob": "e171190bc209890908f2e593e2909a0220d55f6f",
+    "cache_helper": "scripts/causal014/r9b_screen.py",
+    "helper_blob": "9cfc940c0aea3329d1f3775e34a4110c69254aa4",
+    "january_reference": {
+      "raw_events": 34362,
+      "selected_trades": 28088,
+      "winners": 19087,
+      "net": -4510.0870000207515
+    },
+    "jan_jul_reference": {
+      "selected_trades": 197574,
+      "winners": 133142,
+      "net": -35399.913,
+      "gross_profit": 47325.469,
+      "gross_loss": -82725.382,
+      "profit_factor": 0.572079
+    },
+    "execution": "At raw sweep event tick, enter modeled side at midpoint +/-0.10; selected trades use original lifecycle, original event sequence, strictly next raw signal timestamp greater than prior selected exit. Raw independent exits MUST be computed before chronological nonoverlap. Do not inherit 8-hour exit from structural standalone source.",
+    "float_order": "ask=ask_raw/1000; bid=bid_raw/1000; mid=(ask+bid)*0.5; do not use (ask_raw+bid_raw)/2000, which caused 610 January raw mismatches",
+    "risk_geometry": "alignment>=3: stop 1.0, arm favorable executable +0.10, trail 0.04; otherwise: stop 3.0, arm +0.18, trail 0.05. Both 60 s max. On each later tick test pre-existing stop/time first; observed executable quote on exit; only then update favorable ratchet."
+  },
+  "source_inventory_commit": "ac74cfd7edc478d678f876f64601ff105019af30",
+  "source_inventory_result_blob": "dd9292efb62dda0e4411fb3362e4401a8eddad93",
+  "source_components": [
+    {
+      "id": "NET002",
+      "path": "scripts/r9b_net_002_h1_h4_bos.py",
+      "blob": "069265e00cd3a2df644061a561be6dd69e4d105c",
+      "role": "COMPLETED_H1_H4_BOS_CONTEXT_ONLY",
+      "availability": "Completed H1/H4 bar time end[i] <= CAUSAL014 candidate decision-tick timestamp. Compute prior-N completed body/wick extremum; close, body-direction, ATR and buffer from just-completed parent bar. No unfinished bar. Preserve source ATR simple rolling TR including completed signal bar, not CAUSAL014's M5 ATR implementation.",
+      "attach": "as-of owner/context annotation on CAUSAL014 raw event, never exact event identity merely because its direction matches",
+      "prohibited": "Do not add standalone 8h BOS PnL to CAUSAL014 or turn old standalone failed May-Jul BOS into automatic gate."
+    },
+    {
+      "id": "NET003",
+      "path": "scripts/r9b_net_003_h1_retest_reclaim.py",
+      "blob": "08ef7513b46076a98fc702c61c5f40d3f365229c",
+      "role": "COMPLETED_M15_RETEST_RECLAIM_CHILD_EVENT",
+      "availability": "Only after completed H1 BOS; first qualifying M15 completed bar at end[j] strictly after H1 BOS end; satisfy bounded retest touch, capped penetration, completed close back across boundary by reclaim threshold and optional owner-direction candle. State first becomes visible at M15 end, executable only on first actual tick t>=end[j].",
+      "attach": "If state completed before a later CAUSAL014 raw event, annotate as-of state with originating H1 BOS ID and child time. If it occurs after a CAUSAL014 event, it CANNOT classify or retroactively permit that earlier trade. Standalone child action, if ever evaluated, is an independent fresh tick-priced event population.",
+      "prohibited": "No retroactive event re-label, no matched-profit inference, no automatic 240m hold transplant."
+    },
+    {
+      "id": "NET004",
+      "path": "scripts/r9b_net_004_structural_state.py",
+      "blob": "2fb13845d4a1ec8033619eeb55c791941dd27935",
+      "role": "TRANSPARENT_CAUSAL_CONTEXT_DESCRIPTORS",
+      "availability": "Only BOS strength, body/close/wick geometry, ATR ratio, completed H1 efficiency/alignment and M15 completed close-based alignment/conflict/efficiency calculated on available bars. Null when insufficient historical bars. Source target uses 8h future PnL as supervised label, never as a live feature.",
+      "attach": "Join descriptors to original BOS identity, then as-of to CAUSAL014 event with explicit last-completed timestamp; no interpolation from later bars.",
+      "prohibited": "Old decision tree/router (zero replicated Jan-Mar eligible) has no authority; target and full-horizon returns are labels only."
+    },
+    {
+      "id": "NET005",
+      "path": "scripts/r9b_net_005_h4_specialist.py",
+      "blob": "44b9863cad02e9f59ede350e142b220e32ea2934",
+      "role": "INDEPENDENT_H4_TRADE_POPULATION_NOT_PARENT_LABEL",
+      "availability": "H4 BOS at completed H4 candle close, may supply causal context; fresh H4 execution would occur only on first tick at/after its own timestamp.",
+      "attach": "Maintain a separate origin_source/event_id for prospective H4 candidates; optional state descriptor only until new portfolio experiment is separately predeclared.",
+      "prohibited": "Do not merge H4 source trade profits or fixed holds arithmetically into the CAUSAL014 ledger."
+    },
+    {
+      "id": "NET006",
+      "path": "scripts/r9b_net_006_hierarchical_owner.py",
+      "blob": "0024553d9d3247bea7fdfbafbe887f36987d0a13",
+      "role": "PERSISTENT_COMPLETED_H4_OWNER_AND_AGE_CONTEXT",
+      "availability": "H4 owner updated at completed H4 BOS, persists until opposing BOS; age is count of completed H4 bars since last owner BOS, capped at source sentinel. Three-completed-H4-close net direction and latest completed body direction distinct from owner direction.",
+      "attach": "Use latest H4 end <= raw event timestamp (source uses searchsorted(..., side='right')-1); at H4/H1 simultaneous close, H4 state available only at/after boundary and before actual execution tick; do not allow signal predating H4 close. Preserve neutral owner=0 and uninitialized sentinel.",
+      "prohibited": "Rejected standalone H4 owner+H1 BOS gating is not automatic filter; no month-boundary fabricated owner state."
+    },
+    {
+      "id": "NET007",
+      "path": "scripts/r9b_net_007_failed_acceptance.py",
+      "blob": "c1149ffa282aab96462baaf8b051432caf119202",
+      "role": "FAILED_ACCEPTANCE_TRANSITION_STATE_ONLY",
+      "availability": "After H1 BOS, first completed M15 close on wrong side of broken H1 body boundary by frozen ATR depth; optional opposing candle body; transition visible at M15 end, never at earlier H1 breakout or earlier R9 event.",
+      "attach": "Preserve original H1 BOS ID, boundary, side, failure time and eligibility. Attach as-of only to later CAUSAL014 raw events. A possible FLIP is a separate new order event at first actual tick after M15 closure, with its own costs and lifecycle.",
+      "prohibited": "Zero-eligible original Jan-Mar immediate reversal screen is rejected; no immediate reversal profitability claim."
+    }
+  ],
+  "mapping_contract": {
+    "time_base": "UTC epoch milliseconds for all event_time, decision_time, first_executable_tick and exit_time",
+    "event_id": "(month,origin_source,source_order_index,signal_time_ms,side); original CAUSAL014 raw event ID remains immutable",
+    "original_event_join": "Use exact raw CAUSAL014 IDs and original time/direction; never equate H1/H4/M15 structural event with CAUSAL014 solely by nearby time. Diagnostics may separately report distance-to-owner and lead/lag.",
+    "asof_join": "Select greatest completed-state end timestamp <= CAUSAL014 candidate decision timestamp; record context source event_id, completed_time_ms, age_ms, side, boundary and state. Absent/insufficient/too-old state is MISSING or NEUTRAL, not future-filled. No model-fitting or threshold optimization in mapping stage.",
+    "simultaneous_event_rule": "State at a bar close is visible only to a raw tick decision at or after that close. At equal timestamp, enforce completed-bar availability and original stream order; no backdated new order.",
+    "month_boundary_rule": "First-month cache truncation may leave H4 owner age unknown. Preserve and flag unknown until verified prior completed context is available; do not reset old owner to favorable state, and do not read August.",
+    "candidate_types": [
+      "ORIGINAL_CAUSAL014_RAW",
+      "H1_H4_CONTEXT_ONLY",
+      "M15_RETEST_CHILD",
+      "M15_FAILED_ACCEPTANCE_CHILD",
+      "INDEPENDENT_H4_TRADE_EVENT"
+    ],
+    "lifecycle_rule": "Context-only additions must retain exact raw CAUSAL014 entry, stop/trail/time and strict selected-account nonoverlap for zero-delta mapping parity. Independent child trades must remain SHADOW_ONLY until their own causal entry/exit/portfolio contract is frozen and certified.",
+    "diagnostic_metrics": [
+      "eligible_raw_count",
+      "context_coverage",
+      "neutral_count",
+      "missing_count",
+      "owner_direction_agreement",
+      "owner_age_distribution",
+      "retest_child_count",
+      "failed_acceptance_count",
+      "earliest_visibility_violation_count",
+      "unmatched_structural_count",
+      "exact_raw_pnl_exit_time_parity",
+      "exact_selected_trade_set_parity",
+      "historical_source_hash_parity"
+    ],
+    "no_future_columns": [
+      "eventual_exit_reason",
+      "future_MFE",
+      "future_MAE",
+      "future_price_path",
+      "standalone_future_PnL",
+      "model_target_label",
+      "post_event_completed_bar_as_pre_event_feature"
+    ]
+  },
+  "next_execution_plan": [
+    "Build a pure causal as-of mapping implementation; no new strategy rules.",
+    "January first: regenerate original raw CAUSAL014 population and assert 34,362 raw events; preserve 28,088 selected trades, 19,087 winners and January net -4510.0870000207515 to source-exact tolerance before any map is allowed.",
+    "Enumerate H1/H4 BOS owners and M15 child transitions with event-level completed timestamps. Produce mapping coverage and noncausality assertions without altering trade outcomes.",
+    "Report structured field-level audit and state counts. Only after source and event parity passes consider frozen historical combination hypotheses, each in one chronological portfolio ledger with unchanged execution-price rules.",
+    "Keep April and May-Jul evaluation walls; August SEALED. No MT5 production build or Gamma promotion from mapping work."
+  ],
+  "prior_failures": [
+    "NET002 immediate 8h H1 BOS failed May-Jul",
+    "NET003 standalone reclaim failed May-Jul",
+    "NET004 fitted state router had no replicated Jan-Mar eligible candidates",
+    "NET006 standalone H4 gate failed strict Jan-Mar",
+    "NET007 original immediate reversal zero eligible Jan-Mar",
+    "HOLD_EXIT_022 AT07/AT11 Jan-Mar rejected; do not rerun April"
+  ],
+  "promotion_decision": "NO_PROMOTION; SOURCE_TO_EVENT_PREDECLARATION_ONLY",
+  "august_sealed": true,
+  "production_mql5_authorized": false
+}
