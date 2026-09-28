@@ -45,7 +45,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_013_BANK_THEN_REQUALIFIED_REENTRY",
-    "current_unit_state": "SELECTOR_DISCOVERY_DURABLE_NEXT_REPLICATION_MONTH1",
+    "current_unit_state": "REPLICATION_STARTED_NEXT_MONTH1",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -3563,6 +3563,25 @@
           "validation_pf": 4.359
         },
         "first_incomplete_unit": "REPLICATION_MONTH_1"
+      },
+      "replication_phase": {
+        "status": "STARTED_POLLING_SAFE",
+        "frozen_rule": {
+          "checkpoint_ms": 10000,
+          "hold_ms": 20000,
+          "mode": "path",
+          "depth": 4,
+          "leaf": 2,
+          "class_weight_0": 3,
+          "threshold": 0.35
+        },
+        "source_sha256": "854742a9be08c3032d4119ce68e497d7e0f6da9b65f1fd66655f1be7c130311a",
+        "model_sha256": "db2141b5492b75833feae09d289341ef9cfc19561ebfd78839b3cf5d20c2db0b",
+        "drive_source_id": "1jEXaAk00WlACzDWOolcVHOptH-UluV8Q",
+        "drive_started_id": "1_XvPMleMrmeIWxt2glQH2awg6V9CUVwO",
+        "drive_model_id": "1zghPewU1SiiCWKiqPeoA0PsGG8LK3mGA",
+        "completed_months": [],
+        "first_incomplete_month": 1
       }
     }
   },
