@@ -44,7 +44,7 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_NET_017_SESSION_RANGE_EXPANSION",
+    "current_unit": "R9B_GAMMA_DYNAMIC_NET_018_SESSION_RANGE_STATE_ROUTER",
     "current_unit_state": "READY_JAN_MAR_DISCOVERY",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
@@ -4235,6 +4235,43 @@
       "may_july_accessed": false,
       "august_accessed": false,
       "next_unit": "R9B_GAMMA_DYNAMIC_NET_017_SESSION_RANGE_EXPANSION"
+    },
+    "net017_session_range_expansion": {
+      "status": "REJECTED_APRIL_CALIBRATION",
+      "decision": "REJECT_SESSION_RANGE_EXPANSION",
+      "result_sha256": "a7f11c9bf1ebf54535454bd22f21754dd0c141d05cf54cf32c357ace070cd64f",
+      "source_sha256": "0063c7306e3e14242d0353870feeb820d37b4ea412b08c066d9e791164d8a8f7",
+      "eligible_candidates": 8,
+      "frozen_candidate": {
+        "transition": "BOTH",
+        "tf_min": 5,
+        "break_frac": 0.1,
+        "min_body_frac": 0.4,
+        "hold_min": 240
+      },
+      "jan": {
+        "trades": 26,
+        "net": 43.06700000000092,
+        "pf": 1.1564991460445542
+      },
+      "feb": {
+        "trades": 22,
+        "net": 148.20899999999983,
+        "pf": 1.515927690963459
+      },
+      "mar": {
+        "trades": 28,
+        "net": 64.64100000000235,
+        "pf": 1.1149150861049872
+      },
+      "april": {
+        "trades": 29,
+        "net": -63.55499999999938,
+        "pf": 0.8264335515373978
+      },
+      "may_july_accessed": false,
+      "august_accessed": false,
+      "next_unit": "R9B_GAMMA_DYNAMIC_NET_018_SESSION_RANGE_STATE_ROUTER"
     }
   },
   "gamma2_benchmark_recovery": {
