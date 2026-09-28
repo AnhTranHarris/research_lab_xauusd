@@ -48,7 +48,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
-    "current_unit_state": "JAN_RUNNER_PARTIAL_VALUE_REPLICATION_READY",
+    "current_unit_state": "FEB_RUNNER_FROZEN_REPLICATION_FAILED_MARCH_REMAINING",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4617,7 +4617,7 @@
       "calibration_window": "APRIL",
       "forward_window": "MAY_JUL_FROZEN",
       "july_historical_contamination_note": "Old July research forensics mean not every new mechanism can claim July as truly untouched; label appropriately.",
-      "first_incomplete_stage": "HOLD_EXIT_022_RUNNER_WEAK_0P10_FEB_MAR_DISCOVERY_REPLICATION",
+      "first_incomplete_stage": "HOLD_EXIT_022_RUNNER_WEAK_0P10_MARCH_DISCOVERY_REPLICATION",
       "mql5_build_blockers": "Reconstruct missing ENTRY017/021/023 dedicated source bodies if used, golden-parity certify all carried state semantics; dynamic exit requires full tick replay and resulting entry opportunity reevaluation.",
       "test_rules": "one position, chronological raw candidate stream, avoid future features, apply actual newly chosen exit timestamp before selecting next entry; run with/without H1 context",
       "august_accessed": false,
@@ -4796,6 +4796,35 @@
         "aug_accessed": false,
         "library_path": "/R9_Gamma_Checkpoints/HOLD_EXIT_022",
         "next": "Feb and Mar discovery replicate Jan partial weak-only .10 with strict frozen semantics; do not tune April/May-Jul."
+      },
+      "runner_replicate_feb": {
+        "status": "VERIFIED_DURABLE_FAILED_FEB_DISCOVERY",
+        "rule": {
+          "weak_trail": 0.1,
+          "strong_trail": 0.04
+        },
+        "feb": {
+          "parent_trades": 28188,
+          "parent_winners": 18834,
+          "parent_net": -4450.956500020821,
+          "parent_GL": -13668.407500006782,
+          "candidate_trades": 28185,
+          "candidate_winners": 18350,
+          "candidate_net": -4497.166500020741,
+          "candidate_GL": -13774.328500007114,
+          "delta_net": -46.20999999992,
+          "delta_GL": -105.92100000033133,
+          "winner_retention_pct": 97.43017946267389,
+          "trade_retention_pct": 99.98935717326522
+        },
+        "raw_source_exact_pnl_and_exit_parity": true,
+        "source_commit": "ebbe3ba10e7cacc314e6b56c2fae2061f357429d",
+        "frozen_contract_commit": "efbf4fe0eac0da29f830669c4caa0f0431485d1d",
+        "result_commit": "eb3a52f9b25a9a92af036542377e5639de1e776a",
+        "manifest_commit": "92dc5335af40612613cb0a9f5d634d27a2e759e9",
+        "result_sha256": "e49bda83feee49e3de376285d3de9f457caaadbc4f69040088f63c571381f48e",
+        "next": "March same frozen candidate once per precommitted Jan-Mar discovery campaign; February gate failed so no April promotion unless another independently justified candidate appears.",
+        "august_accessed": false
       }
     }
   },
