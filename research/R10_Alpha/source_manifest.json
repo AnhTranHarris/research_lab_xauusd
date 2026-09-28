@@ -120,5 +120,17 @@
     "github": "research/R10_Alpha/R9_REAL_SYNTH_CORRELATION_FAST_REFERENCE.md",
     "historical_corpus_folder": "https://drive.google.com/drive/folders/1ES78vXb2mFsOsa50BiwCLsT6BXgLe-Oe",
     "single_month_pnl_correlation_aggregation_replay": "NOT_PERFORMED"
+  },
+  "correlation_v2": {
+    "status": "DIRECT_EIGHT_COMPLETE_SESSION_TICK_ALIGNMENT_AND_FULL149_DAILY_EVENT_RECONCILIATION_VERIFIED__NOT_FULL_149_DAY_PRICE_TICK_REPLAY",
+    "drive_doc": "https://docs.google.com/document/d/1vT8JxT7pG7Ry-TMjEZRYGY3nAJC1slS8AnW3ieL033A/edit",
+    "github_state": "research/R10_Alpha/R9_REAL_SYNTH_TICKWISE_CORRELATION_FAST_REFERENCE_V2.md",
+    "github_audit": "results/R10_Alpha_R9_TICKWISE_CORRELATION_FAST_AUDIT_V2.json",
+    "reproducible_script": "scripts/r10_alpha_r9_tickwise_corr.py",
+    "source_original_REAL_compressed_sha256": "ad82ee99ba60f6c7dcc5b85654971fecb9f4a5047dc6f97aa97083b3c60a663c",
+    "source_original_SYNTH_compressed_sha256": "cd3a7dc68d2b260ea5f4a847bfef88bcb328d8687f3f8b35ce0d19602f88d6aa",
+    "source_original_sha_provenance": "previous Drive six-part reconstructions, not newly recomputed across all 12 source parts this turn",
+    "newly_verified_daily_sample_files": 16,
+    "newly_verified_full_event_index_days": 149
   }
 }
