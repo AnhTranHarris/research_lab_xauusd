@@ -1,0 +1,13 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_021_RECOVERY_TRAJECTORY_OWNER",
+  "status": "VERIFIED_DURABLE",
+  "source_sha256": "0b87ad40f72c51f1ed0cea72f24f340691cb127b9b31fb47d6cbbc7abbc6ffca",
+  "result_sha256": "f79c4aa185b3e5708cc4cd60fdc07f08d4f1084025e9806a971eea00c6da7fa3",
+  "model_sha256": "f28c7726fedbe1aa44553c38923a8d48271fcab293363f2307b049f863623111",
+  "parent_model_sha256": "2c0dbc29e91b1083e6344fbc033c4eb56db3c267e6159119eab35a5621e6f84c",
+  "drive_source_id": "1n33q03gZxiIK1fI1-iH4STdPfUqBaqe1",
+  "drive_result_id": "1jMkQ59w-xJ1TYSGHTURNHjbCNrSaualg",
+  "drive_model_id": "1CkI_SUcGevLDqadWJW9m-WRn5f1SsrFf",
+  "drive_manifest_id": "10M36gcJ_LgeEtkkIkSXVd_O_4_k0vsXI",
+  "august_accessed": false
+}
