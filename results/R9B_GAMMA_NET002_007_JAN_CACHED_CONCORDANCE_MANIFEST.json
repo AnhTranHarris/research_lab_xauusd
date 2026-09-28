@@ -1,0 +1,11 @@
+{
+  "stage": "NET002_NET007_JAN_CACHED_SOURCE_CONCORDANCE_REPLAY",
+  "status": "COMPLETED_LOCAL_READY_FOR_DURABILITY",
+  "source_sha256": "76d74f95e070f38930d53838488e693c8b59a23d42b108f71323a726b71b378e",
+  "source_helper_sha256": "08a61fad92e0c5cf53b7811a891b5c265f512af2a820362d40de636151a9637e",
+  "parent_data_npz_sha256": "3fa88617bcc157ec4e6fcc2e62d48f888d93c380c8d18d1f2c79fcd4cc69ce6a",
+  "descriptor_data_npz_sha256": "ac5c996d1b8126906a2ca2f17af26614737d7c24ab3dfeb4beefb5fbb8a96567",
+  "result_sha256": "01abef302bab9020820de2252ab54f5f748d286242bdc657e98413d8115197a4",
+  "next": "NET002_NET007_JAN_FAST_SOURCE_CLOSURE_GAPS_AND_CORRECTION_PLAN",
+  "august_sealed": true
+}
