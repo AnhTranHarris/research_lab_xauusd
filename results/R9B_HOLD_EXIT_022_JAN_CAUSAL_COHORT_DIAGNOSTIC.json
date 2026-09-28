@@ -1,0 +1,722 @@
+{
+  "august_accessed": false,
+  "cohorts": [
+    {
+      "horizon_ms": 1000,
+      "observable_state": "negative_no_net_mfe",
+      "original_parent_outcome": {
+        "count": 10617,
+        "gross_loss": -5692.503500002606,
+        "gross_profit": 2514.758999994783,
+        "mean_pnl": -0.2993071960071417,
+        "net": -3177.7445000078233,
+        "win_rate": 0.6628991240463408,
+        "winners": 7038
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 1000,
+      "observable_state": "negative_with_net_mfe",
+      "original_parent_outcome": {
+        "count": 412,
+        "gross_loss": -260.70600000008017,
+        "gross_profit": 154.046999999764,
+        "mean_pnl": -0.2588810679619324,
+        "net": -106.65900000031615,
+        "win_rate": 0.7524271844660194,
+        "winners": 310
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 1000,
+      "observable_state": "positive_now",
+      "original_parent_outcome": {
+        "count": 1583,
+        "gross_loss": -194.6880000001438,
+        "gross_profit": 647.3534999989724,
+        "mean_pnl": 0.28595420088365675,
+        "net": 452.66549999882864,
+        "win_rate": 0.8837650031585597,
+        "winners": 1399
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 1000,
+      "observable_state": "deep_negative_-0.5_or_worse",
+      "original_parent_outcome": {
+        "count": 1607,
+        "gross_loss": -1837.4545000005264,
+        "gross_profit": 437.2819999993544,
+        "mean_pnl": -0.8712958929689931,
+        "net": -1400.172500001172,
+        "win_rate": 0.5476042314872434,
+        "winners": 880
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 1000,
+      "observable_state": "deep_negative_-0.75_or_worse",
+      "original_parent_outcome": {
+        "count": 691,
+        "gross_loss": -1016.032000000263,
+        "gross_profit": 190.66199999973924,
+        "mean_pnl": -1.1944573082496726,
+        "net": -825.3700000005238,
+        "win_rate": 0.4804630969609262,
+        "winners": 332
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 1000,
+      "observable_state": "negative_no_net_mfe",
+      "original_parent_outcome": {
+        "count": 9768,
+        "gross_loss": -4264.152000002901,
+        "gross_profit": 1672.7984999956698,
+        "mean_pnl": -0.2652900798533202,
+        "net": -2591.3535000072316,
+        "win_rate": 0.5975634725634725,
+        "winners": 5837
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 1000,
+      "observable_state": "negative_with_net_mfe",
+      "original_parent_outcome": {
+        "count": 178,
+        "gross_loss": -73.33150000005116,
+        "gross_profit": 41.45649999991656,
+        "mean_pnl": -0.17907303370862138,
+        "net": -31.875000000134605,
+        "win_rate": 0.6123595505617978,
+        "winners": 109
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 1000,
+      "observable_state": "positive_now",
+      "original_parent_outcome": {
+        "count": 1222,
+        "gross_loss": -88.98150000011447,
+        "gross_profit": 417.76149999920835,
+        "mean_pnl": 0.2690507364968035,
+        "net": 328.7799999990939,
+        "win_rate": 0.8690671031096563,
+        "winners": 1062
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 1000,
+      "observable_state": "deep_negative_-0.5_or_worse",
+      "original_parent_outcome": {
+        "count": 1331,
+        "gross_loss": -1070.5290000006116,
+        "gross_profit": 181.86999999965064,
+        "mean_pnl": -0.6676626596551172,
+        "net": -888.659000000961,
+        "win_rate": 0.35537190082644626,
+        "winners": 473
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 1000,
+      "observable_state": "deep_negative_-0.75_or_worse",
+      "original_parent_outcome": {
+        "count": 420,
+        "gross_loss": -416.47350000023016,
+        "gross_profit": 42.30099999992308,
+        "mean_pnl": -0.8908869047626359,
+        "net": -374.1725000003071,
+        "win_rate": 0.23809523809523808,
+        "winners": 100
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 2000,
+      "observable_state": "negative_no_net_mfe",
+      "original_parent_outcome": {
+        "count": 9216,
+        "gross_loss": -5401.247500002473,
+        "gross_profit": 2040.3054999956858,
+        "mean_pnl": -0.3646855468757365,
+        "net": -3360.9420000067876,
+        "win_rate": 0.6327039930555556,
+        "winners": 5831
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 2000,
+      "observable_state": "negative_with_net_mfe",
+      "original_parent_outcome": {
+        "count": 639,
+        "gross_loss": -380.91700000013316,
+        "gross_profit": 195.06949999964309,
+        "mean_pnl": -0.29084115806023486,
+        "net": -185.84750000049007,
+        "win_rate": 0.7261345852895149,
+        "winners": 464
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 2000,
+      "observable_state": "positive_now",
+      "original_parent_outcome": {
+        "count": 1476,
+        "gross_loss": -157.84300000012536,
+        "gross_profit": 540.0884999990185,
+        "mean_pnl": 0.25897391598840996,
+        "net": 382.24549999889314,
+        "win_rate": 0.8875338753387534,
+        "winners": 1310
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 2000,
+      "observable_state": "deep_negative_-0.5_or_worse",
+      "original_parent_outcome": {
+        "count": 2180,
+        "gross_loss": -2419.688500000746,
+        "gross_profit": 490.93199999912395,
+        "mean_pnl": -0.8847506880741386,
+        "net": -1928.756500001622,
+        "win_rate": 0.5325688073394496,
+        "winners": 1161
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 2000,
+      "observable_state": "deep_negative_-0.75_or_worse",
+      "original_parent_outcome": {
+        "count": 1047,
+        "gross_loss": -1517.503500000401,
+        "gross_profit": 230.61149999962527,
+        "mean_pnl": -1.2291232091697952,
+        "net": -1286.8920000007756,
+        "win_rate": 0.46418338108882523,
+        "winners": 486
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 2000,
+      "observable_state": "negative_no_net_mfe",
+      "original_parent_outcome": {
+        "count": 8155,
+        "gross_loss": -3784.850500002588,
+        "gross_profit": 1271.130499996535,
+        "mean_pnl": -0.3082427958315209,
+        "net": -2513.720000006053,
+        "win_rate": 0.5725321888412017,
+        "winners": 4669
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 2000,
+      "observable_state": "negative_with_net_mfe",
+      "original_parent_outcome": {
+        "count": 289,
+        "gross_loss": -103.66700000006676,
+        "gross_profit": 61.34749999984888,
+        "mean_pnl": -0.14643425605611726,
+        "net": -42.319500000217886,
+        "win_rate": 0.671280276816609,
+        "winners": 194
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 2000,
+      "observable_state": "positive_now",
+      "original_parent_outcome": {
+        "count": 1001,
+        "gross_loss": -74.47000000008848,
+        "gross_profit": 337.4689999993607,
+        "mean_pnl": 0.26273626373553666,
+        "net": 262.9989999992722,
+        "win_rate": 0.8811188811188811,
+        "winners": 882
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 2000,
+      "observable_state": "deep_negative_-0.5_or_worse",
+      "original_parent_outcome": {
+        "count": 1536,
+        "gross_loss": -1268.7135000007593,
+        "gross_profit": 162.728999999601,
+        "mean_pnl": -0.720041992188254,
+        "net": -1105.9845000011583,
+        "win_rate": 0.3346354166666667,
+        "winners": 514
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 2000,
+      "observable_state": "deep_negative_-0.75_or_worse",
+      "original_parent_outcome": {
+        "count": 498,
+        "gross_loss": -503.8855000002959,
+        "gross_profit": 41.21249999990596,
+        "mean_pnl": -0.9290622489967669,
+        "net": -462.67300000038995,
+        "win_rate": 0.2248995983935743,
+        "winners": 112
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 4000,
+      "observable_state": "negative_no_net_mfe",
+      "original_parent_outcome": {
+        "count": 7529,
+        "gross_loss": -4938.117500002276,
+        "gross_profit": 1541.0544999967024,
+        "mean_pnl": -0.4511971045298942,
+        "net": -3397.0630000055735,
+        "win_rate": 0.5873289945543897,
+        "winners": 4422
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 4000,
+      "observable_state": "negative_with_net_mfe",
+      "original_parent_outcome": {
+        "count": 875,
+        "gross_loss": -548.4410000002026,
+        "gross_profit": 229.92799999953604,
+        "mean_pnl": -0.364014857143619,
+        "net": -318.5130000006666,
+        "win_rate": 0.6868571428571428,
+        "winners": 601
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 4000,
+      "observable_state": "positive_now",
+      "original_parent_outcome": {
+        "count": 1208,
+        "gross_loss": -141.13200000010875,
+        "gross_profit": 388.8114999992349,
+        "mean_pnl": 0.2050326986747733,
+        "net": 247.67949999912616,
+        "win_rate": 0.8741721854304636,
+        "winners": 1056
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 4000,
+      "observable_state": "deep_negative_-0.5_or_worse",
+      "original_parent_outcome": {
+        "count": 2674,
+        "gross_loss": -2954.6870000009694,
+        "gross_profit": 538.6219999990017,
+        "mean_pnl": -0.9035396409880209,
+        "net": -2416.0650000019677,
+        "win_rate": 0.5018698578908003,
+        "winners": 1342
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 4000,
+      "observable_state": "deep_negative_-0.75_or_worse",
+      "original_parent_outcome": {
+        "count": 1452,
+        "gross_loss": -2049.8820000006017,
+        "gross_profit": 271.28649999952177,
+        "mean_pnl": -1.224928030303774,
+        "net": -1778.59550000108,
+        "win_rate": 0.4455922865013774,
+        "winners": 647
+      },
+      "owner": "weak_align"
+    },
+    {
+      "horizon_ms": 4000,
+      "observable_state": "negative_no_net_mfe",
+      "original_parent_outcome": {
+        "count": 6221,
+        "gross_loss": -3081.188000002132,
+        "gross_profit": 857.8624999975382,
+        "mean_pnl": -0.35739037132367685,
+        "net": -2223.325500004594,
+        "win_rate": 0.5372126667738306,
+        "winners": 3342
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 4000,
+      "observable_state": "negative_with_net_mfe",
+      "original_parent_outcome": {
+        "count": 368,
+        "gross_loss": -150.5125000000944,
+        "gross_profit": 70.66099999981816,
+        "mean_pnl": -0.2169877717398811,
+        "net": -79.85150000027625,
+        "win_rate": 0.6467391304347826,
+        "winners": 238
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 4000,
+      "observable_state": "positive_now",
+      "original_parent_outcome": {
+        "count": 749,
+        "gross_loss": -68.98850000006769,
+        "gross_profit": 234.02199999951335,
+        "mean_pnl": 0.22033845126761772,
+        "net": 165.03349999944567,
+        "win_rate": 0.8825100133511349,
+        "winners": 661
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 4000,
+      "observable_state": "deep_negative_-0.5_or_worse",
+      "original_parent_outcome": {
+        "count": 1693,
+        "gross_loss": -1350.5360000008159,
+        "gross_profit": 171.26999999955933,
+        "mean_pnl": -0.6965540460728036,
+        "net": -1179.2660000012565,
+        "win_rate": 0.34258712344949793,
+        "winners": 580
+      },
+      "owner": "strong_align"
+    },
+    {
+      "horizon_ms": 4000,
+      "observable_state": "deep_negative_-0.75_or_worse",
+      "original_parent_outcome": {
+        "count": 637,
+        "gross_loss": -626.3595000003752,
+        "gross_profit": 41.631999999896834,
+        "mean_pnl": -0.9179395604403114,
+        "net": -584.7275000004784,
+        "win_rate": 0.21350078492935637,
+        "winners": 136
+      },
+      "owner": "strong_align"
+    }
+  ],
+  "nature": "ex post diagnostic only; future outcomes never become execution features",
+  "parent_gross_loss": -11511.55100000661,
+  "parent_net": -4510.0870000207515,
+  "selected_baseline_count": 28088,
+  "sequence_conditions": [
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.030435374867280308,
+      "from_ms": 1000,
+      "observed_path": "worsening_negative_no_mfe",
+      "original_parent_outcome": {
+        "count": 4735,
+        "gross_loss": -3268.1000000013655,
+        "gross_profit": 1037.9954999978581,
+        "mean_pnl": -0.4709829989447745,
+        "net": -2230.1045000035074,
+        "win_rate": 0.6054910242872228,
+        "winners": 2867
+      },
+      "owner": "weak_align",
+      "to_ms": 2000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.06018526785639034,
+      "from_ms": 1000,
+      "observed_path": "worsening_negative_with_mfe",
+      "original_parent_outcome": {
+        "count": 448,
+        "gross_loss": -294.06750000010106,
+        "gross_profit": 132.83599999976104,
+        "mean_pnl": -0.3598917410721875,
+        "net": -161.23150000034002,
+        "win_rate": 0.7008928571428571,
+        "winners": 314
+      },
+      "owner": "weak_align",
+      "to_ms": 2000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.003919081464555573,
+      "from_ms": 1000,
+      "observed_path": "recovering_still_negative",
+      "original_parent_outcome": {
+        "count": 3658,
+        "gross_loss": -1790.2525000008545,
+        "gross_profit": 862.6824999981818,
+        "mean_pnl": -0.2535729907060341,
+        "net": -927.5700000026727,
+        "win_rate": 0.6793329688354292,
+        "winners": 2485
+      },
+      "owner": "weak_align",
+      "to_ms": 2000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.010391005545430295,
+      "from_ms": 1000,
+      "observed_path": "worsening_negative_no_mfe",
+      "original_parent_outcome": {
+        "count": 4147,
+        "gross_loss": -2260.313500001499,
+        "gross_profit": 602.7964999983878,
+        "mean_pnl": -0.39969061972585274,
+        "net": -1657.5170000031112,
+        "win_rate": 0.5186882083433808,
+        "winners": 2151
+      },
+      "owner": "strong_align",
+      "to_ms": 2000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.07954336734626348,
+      "from_ms": 1000,
+      "observed_path": "worsening_negative_with_mfe",
+      "original_parent_outcome": {
+        "count": 196,
+        "gross_loss": -78.73650000004909,
+        "gross_profit": 41.31799999989562,
+        "mean_pnl": -0.1909107142864973,
+        "net": -37.41850000015347,
+        "win_rate": 0.6479591836734694,
+        "winners": 127
+      },
+      "owner": "strong_align",
+      "to_ms": 2000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.014995443116805767,
+      "from_ms": 1000,
+      "observed_path": "recovering_still_negative",
+      "original_parent_outcome": {
+        "count": 3182,
+        "gross_loss": -1215.2660000008445,
+        "gross_profit": 541.0034999985019,
+        "mean_pnl": -0.211898962917141,
+        "net": -674.2625000023427,
+        "win_rate": 0.6341923318667505,
+        "winners": 2018
+      },
+      "owner": "strong_align",
+      "to_ms": 2000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.035961426137017194,
+      "from_ms": 2000,
+      "observed_path": "worsening_negative_no_mfe",
+      "original_parent_outcome": {
+        "count": 4109,
+        "gross_loss": -3190.4375000013606,
+        "gross_profit": 798.7784999983041,
+        "mean_pnl": -0.5820537843765043,
+        "net": -2391.6590000030565,
+        "win_rate": 0.5492820637624726,
+        "winners": 2257
+      },
+      "owner": "weak_align",
+      "to_ms": 4000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.0960597014917871,
+      "from_ms": 2000,
+      "observed_path": "worsening_negative_with_mfe",
+      "original_parent_outcome": {
+        "count": 603,
+        "gross_loss": -395.8240000001406,
+        "gross_profit": 156.62849999968785,
+        "mean_pnl": -0.3966757877287773,
+        "net": -239.19550000045274,
+        "win_rate": 0.6832504145936982,
+        "winners": 412
+      },
+      "owner": "weak_align",
+      "to_ms": 4000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.014807610023709507,
+      "from_ms": 2000,
+      "observed_path": "recovering_still_negative",
+      "original_parent_outcome": {
+        "count": 3272,
+        "gross_loss": -1706.2085000008383,
+        "gross_profit": 742.9634999984028,
+        "mean_pnl": -0.29439028117433846,
+        "net": -963.2450000024355,
+        "win_rate": 0.648838630806846,
+        "winners": 2123
+      },
+      "owner": "weak_align",
+      "to_ms": 4000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.021365704936812623,
+      "from_ms": 2000,
+      "observed_path": "worsening_negative_no_mfe",
+      "original_parent_outcome": {
+        "count": 3362,
+        "gross_loss": -1944.1085000012663,
+        "gross_profit": 427.35099999881277,
+        "mean_pnl": -0.4511473825111402,
+        "net": -1516.7575000024535,
+        "win_rate": 0.48096371207614513,
+        "winners": 1617
+      },
+      "owner": "strong_align",
+      "to_ms": 4000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.038068749999266994,
+      "from_ms": 2000,
+      "observed_path": "worsening_negative_with_mfe",
+      "original_parent_outcome": {
+        "count": 240,
+        "gross_loss": -109.73900000006688,
+        "gross_profit": 41.16349999988961,
+        "mean_pnl": -0.2857312500007386,
+        "net": -68.57550000017727,
+        "win_rate": 0.6125,
+        "winners": 147
+      },
+      "owner": "strong_align",
+      "to_ms": 4000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.0054845005733026335,
+      "from_ms": 2000,
+      "observed_path": "recovering_still_negative",
+      "original_parent_outcome": {
+        "count": 2613,
+        "gross_loss": -1037.3530000007804,
+        "gross_profit": 409.95799999881183,
+        "mean_pnl": -0.24010524301644415,
+        "net": -627.3950000019686,
+        "win_rate": 0.6119402985074627,
+        "winners": 1599
+      },
+      "owner": "strong_align",
+      "to_ms": 4000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.03683001482663217,
+      "from_ms": 1000,
+      "observed_path": "worsening_negative_no_mfe",
+      "original_parent_outcome": {
+        "count": 4721,
+        "gross_loss": -3658.2490000015705,
+        "gross_profit": 907.2019999980666,
+        "mean_pnl": -0.5827254818901724,
+        "net": -2751.047000003504,
+        "win_rate": 0.5475534844312646,
+        "winners": 2585
+      },
+      "owner": "weak_align",
+      "to_ms": 4000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.10135489220487803,
+      "from_ms": 1000,
+      "observed_path": "worsening_negative_with_mfe",
+      "original_parent_outcome": {
+        "count": 603,
+        "gross_loss": -426.1165000001529,
+        "gross_profit": 158.20299999967847,
+        "mean_pnl": -0.4443009950256624,
+        "net": -267.9135000004744,
+        "win_rate": 0.6699834162520729,
+        "winners": 404
+      },
+      "owner": "weak_align",
+      "to_ms": 4000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.0032007311970396256,
+      "from_ms": 1000,
+      "observed_path": "recovering_still_negative",
+      "original_parent_outcome": {
+        "count": 2872,
+        "gross_loss": -1304.7295000006861,
+        "gross_profit": 665.0074999985718,
+        "mean_pnl": -0.22274442897009553,
+        "net": -639.7220000021143,
+        "win_rate": 0.66991643454039,
+        "winners": 1924
+      },
+      "owner": "weak_align",
+      "to_ms": 4000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.014031233385771348,
+      "from_ms": 1000,
+      "observed_path": "worsening_negative_no_mfe",
+      "original_parent_outcome": {
+        "count": 3762,
+        "gross_loss": -2214.4645000014652,
+        "gross_profit": 474.2484999986873,
+        "mean_pnl": -0.4625773524728277,
+        "net": -1740.216000002778,
+        "win_rate": 0.47341839447102607,
+        "winners": 1781
+      },
+      "owner": "strong_align",
+      "to_ms": 4000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.07485840707892097,
+      "from_ms": 1000,
+      "observed_path": "worsening_negative_with_mfe",
+      "original_parent_outcome": {
+        "count": 226,
+        "gross_loss": -103.78250000006392,
+        "gross_profit": 41.85099999988961,
+        "mean_pnl": -0.27403318584147923,
+        "net": -61.93150000017431,
+        "win_rate": 0.6194690265486725,
+        "winners": 140
+      },
+      "owner": "strong_align",
+      "to_ms": 4000
+    },
+    {
+      "avg_net_change_when_originally_exiting_at_later_checkpoint": -0.010987764412354882,
+      "from_ms": 1000,
+      "observed_path": "recovering_still_negative",
+      "original_parent_outcome": {
+        "count": 2411,
+        "gross_loss": -842.5605000006462,
+        "gross_profit": 387.253499998862,
+        "mean_pnl": -0.1888457071761859,
+        "net": -455.3070000017842,
+        "win_rate": 0.6412277063459145,
+        "winners": 1546
+      },
+      "owner": "strong_align",
+      "to_ms": 4000
+    }
+  ],
+  "stage": "JAN_EXPLORE_UNPROMOTED_CAUSAL_OBSERVABLE_COHORTS",
+  "state_cache_sha256": "4ddcf58584ba34101009364bc4f5e4515f27b514b48273621ebfb8a6ab45096a",
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD"
+}
