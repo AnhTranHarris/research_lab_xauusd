@@ -1,0 +1,21 @@
+{
+  "august_accessed": false,
+  "cohort_diagnostic_SHA256": "b41bd6e73b62f2bd72c975d6dd46d9d2eca0ed7a99f9ffab74fb2aba46dd4364",
+  "cohort_source_SHA256": "ce6310b3bca7f492f471fa7b5bce3fc5ad2a760e85752c1b9590606fb01c6ee9",
+  "january_result_SHA256": "b3cb258bfcfcd05ef0d167c2eeeab7e4ae4848373e4ffb70693c9014d1d728d4",
+  "january_result_manifest_SHA256": "e176b30c01f236d94bb217d61a75d8b4eecf02d433517268cfd0bd3b85e422af",
+  "january_state_cache_SHA256": "4ddcf58584ba34101009364bc4f5e4515f27b514b48273621ebfb8a6ab45096a",
+  "next": "HOLD_EXIT_022_SEQUENCE_INVALIDATION_OR_BANKABLE_HARVEST_NEXT_HYPOTHESIS",
+  "predeclared_contract_SHA256": "95bd88262fffbd31db36d206c32319540db4f888447adffc5717ca125c0d6279",
+  "research_note_SHA256": "3cb9c9a652b6e1893847ab077e6ff396d6b990e75182afd3f9a46e75b561246c",
+  "source_SHA256": "22a4669aee415a61f4e9264f57649373a1f8fe827916ddab582f3757fadd74db",
+  "stage": "JAN_HOLD_EXIT_022_REJECT_GLOBAL_EARLY_LOSS",
+  "status": "COMPLETED_LOCAL",
+  "tests": {
+    "january_golden_pass": true,
+    "n_improved_net": 0,
+    "n_improved_pf": 0,
+    "n_predeclared": 18
+  },
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD"
+}
