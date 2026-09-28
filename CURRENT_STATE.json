@@ -32,13 +32,11 @@
     "campaign": "R9B_GAMMA_2_MONETIZATION",
     "objective": "Search for causal reconstructible strategies/mechanisms/combinations that add durable value to the current-best Gamma parent and close the REAL→R9 SYNTH gap. Use R9 overfit/SYNTH as tick-by-tick teacher/capacity map only; never as future execution input.",
     "priorities": [
-      "HOLD_EXIT_022 exit-reason trajectory HARVEST-vs-RUNNER source closure on CAUSAL014 event population; recover historical mechanism definitions without reusing rejected rules",
-      "Reconstruct source-equivalent ENTRY017/021/023 state semantics only if required for the exit-trajectory mechanism",
-      "After source closure, perform one bounded causal trajectory discovery stage; do not release April/May-Jul until frozen gates require them",
-      "Investigate incremental state-owned runner/harvest action only if enough causal observability can be reconstructed and original correct source golden remains exact",
-      "Repair/reconstruct ENTRY017/021/023 missing dedicated Python source bodies when an integrated Hold/Exit model actually requires them; prove golden regression and complete source closure",
-      "Jan-Mar discovery, Apr calibration, May-Jul frozen forward for viable candidates; August sealed",
-      "No production MQL5 work before verified integrated positive economic value and source closure",
+      "Historical archaeology: inventory NET002-NET007 exact source, state owners, multi-indicator combinations, code hashes and rejected/accepted history; find genuine lost composition",
+      "Prove source-to-CAUSAL014 event-set and lifecycle mappings before porting any retained component; no historical profit claim without tick-level portfolio parity",
+      "Track historical ENTRY017/021/023 dedicated state-body source gaps separately; reconstruct if actually required for active mechanism",
+      "One bounded scientific stage at a time: inventories first, then causally falsifiable integrated specialist experiments; August SEALED",
+      "Never test the failed HOLD_EXIT_022 armed-runner-only AT07/AT11 on April or forward months; Feb frozen gate failed and Jan-Mar GL improvement zero",
       "orthogonal FADE/rotation sleeves for rejected Gamma_2 events rather than simple abstention",
       "monthly trade count and winning-trade count remain first-class investor metrics",
       "compare every new layer against Gamma_2 alone as current active baseline"
@@ -49,8 +47,8 @@
       "no arithmetic PnL addition; all combinations chronological",
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
-    "current_unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
-    "current_unit_state": "FEB_FAIL_BOTH_NEXT_MARCH_FROZEN_DIAGNOSTIC",
+    "current_unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
+    "current_unit_state": "HOLD_EXIT_022_REJECTED_JAN_MAR_VERIFIED_NEXT_NET002_007_SOURCE_AUDIT",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -4596,7 +4594,7 @@
       "note": "Frozen rule worked consistently as tiny context-dependent loss compression but all monthly PF values declined, GP and winners fell, and net remained negative; no build-ready claims. July source raw-cache generic next hint RAW_08 is inert metadata; never accessed August."
     },
     "hold_exit_022_state_dependent_harvest_failure_rebuild": {
-      "status": "VERIFIED_DURABLE_FROZEN_FEB_FAILURE_BOTH",
+      "status": "VERIFIED_HISTORICAL_DISCOVERY_CLOSED_FAIL_FROZEN_FEB_IMMATERIAL_JAN_MAR",
       "parent": "CAUSAL_RECERT_014",
       "net024_context": "OPTIONAL_CAUSAL_H1_OWNER_ABLATION_ONLY_NOT_ALWAYS_ON_GATE",
       "entry_hold_017_024": "FROZEN_DIAGNOSTIC_STATE_SEMANTICS_ENGAGING_LIFECYCLE_ONLY_AFTER_SOURCE_RECERT",
@@ -4619,7 +4617,7 @@
       "calibration_window": "APRIL",
       "forward_window": "MAY_JUL_FROZEN",
       "july_historical_contamination_note": "Old July research forensics mean not every new mechanism can claim July as truly untouched; label appropriately.",
-      "first_incomplete_stage": "HOLD_EXIT_022_ARMED_TRAJECTORY_MAR_FROZEN_DIAGNOSTIC",
+      "first_incomplete_stage": null,
       "mql5_build_blockers": "Reconstruct missing ENTRY017/021/023 dedicated source bodies if used, golden-parity certify all carried state semantics; dynamic exit requires full tick replay and resulting entry opportunity reevaluation.",
       "test_rules": "one position, chronological raw candidate stream, avoid future features, apply actual newly chosen exit timestamp before selecting next entry; run with/without H1 context",
       "august_accessed": false,
@@ -5163,7 +5161,110 @@
         "august_accessed": false,
         "april_accessed": false,
         "may_jul_accessed": false
-      }
+      },
+      "armed_trajectory_mar_frozen_diagnostic": {
+        "status": "VERIFIED_DURABLE_FROZEN_MARCH_DIAGNOSTIC_ONLY",
+        "original_raw_41595_pnl_exit_hold_exact": true,
+        "market_ticks": 9433179,
+        "raw_armed": 31300,
+        "parent": {
+          "trades": 35573,
+          "winners": 24169,
+          "net": -6589.631500026144,
+          "gp": 9916.168999982023,
+          "gl": -16505.80050000824,
+          "maxdd": 6594.313500026137
+        },
+        "at07": {
+          "promoted_raw": 869,
+          "promoted_selected": 754,
+          "net_delta": 1.5134999999881984,
+          "gl_improvement": 0,
+          "strict_march": true,
+          "material": false
+        },
+        "at11": {
+          "promoted_raw": 349,
+          "promoted_selected": 315,
+          "net_delta": 2.028999999994994,
+          "gl_improvement": 0,
+          "strict_march": true,
+          "material": false
+        },
+        "january_contract_sha256": "d6a2ec4ca4ffccad16cd79fe33a2040f555b2bedce03a9f789bf10eb75a76f41",
+        "march_raw_sha256": "cbbc07490bbd8f5be6fffa90a5d338c1985259cd16e9edd73bf8760bcf66b64f",
+        "march_market_sha256": "814ba35e72f219a58badd806ed5c0f30ef0fb4ffe56a48205d873706513bd177",
+        "script_sha256": "ed36271e2bf6346ee5d8661bc51c00a48e649448b24ad41504da7a0f6064cdf7",
+        "result_sha256": "b7d8c6f0addc8ae14f0818c39ff5bcbaed0cab98cce80939a2b52f6601023b74",
+        "manifest_sha256": "1e1d51a753bb72433c0b35d0d7709d00b5ed532c3d2f424fd63054c663786743",
+        "audit_npz_sha256": "fc75f2b4901dc0f54ccad5ba6d6e6a0c99e05cdfcc006f86346fc3b899d79903",
+        "library": "/R9_Gamma_Checkpoints/HOLD_EXIT_022",
+        "august_accessed": false,
+        "april_accessed": false,
+        "may_jul_accessed": false
+      },
+      "armed_trajectory_jan_mar_frozen_verdict": {
+        "status": "VERIFIED_REJECTED_STANDALONE_NO_APRIL_PROMOTION",
+        "parent": {
+          "trades": 91849,
+          "winners": 62090,
+          "net": -15550.675000067717,
+          "gp": 26135.083999953866,
+          "gl": -41685.75900002158,
+          "pf": 0.6269547353075744,
+          "chronological_maxdd": 15554.8170000677
+        },
+        "at07": {
+          "jan_delta": 0.143499999994674,
+          "feb_delta": -1.4719999999952051,
+          "mar_delta": 1.5134999999881984,
+          "total_delta": 0.18499999998857675,
+          "gl_improvement": 0,
+          "months_strict_pass": [
+            true,
+            false,
+            true
+          ]
+        },
+        "at11": {
+          "jan_delta": 2.143999999994776,
+          "feb_delta": -0.261000000002241,
+          "mar_delta": 2.028999999994994,
+          "total_delta": 3.91199999998571,
+          "gl_improvement": 0,
+          "months_strict_pass": [
+            true,
+            false,
+            true
+          ]
+        },
+        "same_trade_and_winner_counts": true,
+        "mechanism": "armed causal renewal plus optional 750ms efficiency then nonloosing runner trail width 0.08",
+        "no_material_loss_containment": true,
+        "verdict_sha256": "fc82c7d5c842e8ce3b7d73bb631b96f2d7ff71a1860bf90e9bc56673be5c31e4",
+        "manifest_sha256": "82dcea5e8391c260544793c6353bdac745cf146e04b59dcac193d7def217fb34",
+        "no_more_after_mar": true,
+        "april_accessed": false,
+        "may_jul_accessed": false,
+        "august_accessed": false
+      },
+      "next_stage": "HISTORICAL_NET002_NET007_STRUCTURAL_INDICATOR_COMBINATION_SOURCE_TO_PARENT_ARCHAEOLOGY"
+    },
+    "historical_net002_net007_source_reconciliation": {
+      "status": "PENDING_COMPONENT_CODE_AND_PORTFOLIO_CAUSAL_PARITY",
+      "first_incomplete_stage": "NET002_NET007_SOURCE_INVENTORY_AND_CAUSAL014_COMPOSITION_PROVENANCE",
+      "source_families": [
+        "NET002 completed H1/H4 break of structure and ATR/body quality",
+        "NET003 H1-break-M15-retest/reclaim",
+        "NET004 structural regime state",
+        "NET005 H4 specialist",
+        "NET006 completed H4 owner to H1 BOS",
+        "NET007 failed higher timeframe acceptance"
+      ],
+      "question": "Which historically tested distinct structural ownership and indicator combinations actually survived source parity, and which were omitted from CAUSAL014? Compare exact code, entry event populations, lifecycle and chronological portfolio behavior before making any profitability claim.",
+      "acceptance": "Preserve versioned source and subcomponent causality. Rebuild independent causal tick event populations. No unverified historical gain inherited, no combined standalone PnL arithmetic, no direct MT5 promotion.",
+      "starting_parent": "CAUSAL_RECERT_014 source-negative; past structure code existence does not imply positive edge",
+      "august_accessed": false
     }
   },
   "gamma2_benchmark_recovery": {
