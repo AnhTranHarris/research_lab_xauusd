@@ -1,12 +1,13 @@
 {
   "unit": "R9B_GAMMA_DYNAMIC_ENTRY_023_LATE_IGNITION_OWNER",
-  "status": "VERIFIED_DURABLE",
+  "status": "COMPLETED_LOCAL",
   "source_sha256": "377cac8fba17f93865986ac5c787736aa7e1cf07286757bc174de42c9c3c6aeb",
   "result_sha256": "db25ee4f4431affa65fd138c0239afaab3ee5eb71cff991da9049af566894308",
   "model_sha256": "3625783393e11d5a88d2e2dd0efce970bac6ed72fbfadd1909f3a591a3999329",
-  "drive_source_id": "1A4pIpK7VjXHZMvi-2_ZbRuRzRgvmv84K",
-  "drive_result_id": "1alEs7jaxbJoLgGZo-po1NvBLLZjZH846",
-  "drive_model_id": "1WJJbap_jb_oR3ayJjnSs-a8tpe-1IeE-",
-  "drive_manifest_id": "10Wa3nkfN3BukY7vX7sCnTCS8ex3eD2S4",
+  "input_sha256": {
+    "1": "d9fd18c8d8f7c5845f2162e8d7efbb01dd6b14fb56fc867f220c8d46923feda3",
+    "2": "d0a5f4cdf05298d7784eff3c2f7a7974b5228f2bb6a3a445a386ac110c049761",
+    "3": "15f94df2cd044d0763b3ef9db4c8795b466a8f363052801ecea53f76f41aff75"
+  },
   "august_accessed": false
 }
