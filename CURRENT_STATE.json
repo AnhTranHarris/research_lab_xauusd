@@ -48,7 +48,7 @@
       "preserve sweep/reclaim entry ownership and structure-aware lifecycle until a superior causal replacement is certified"
     ],
     "current_unit": "R9B_GAMMA_HISTORICAL_NET002_NET007_STRUCTURAL_COMBINATION_SOURCE_RECONCILIATION",
-    "current_unit_state": "JAN_PARENT_KEYED_CHILD_SOURCE_MAPPING_REPAIRED_NEXT_V2_REPLAY",
+    "current_unit_state": "JAN_V2_PARENT_KEYED_CHILD_IDENTITY_AND_FAST_REPLAY_VERIFIED_NEXT_DEBUGGER_HANDOFF",
     "source_equivalence_note": "Historical Gamma_2 exact source equivalence remains unresolved and source-exhausted. All three helper roles are rebuilt. Corrected causal Jan-Jul baseline 014 is VERIFIED_DURABLE and is now the reproducible Gamma research restart point. Historical 81.188% Gamma_2 remains forensic comparison/oracle only.",
     "durable_commits": {
       "semantics_004_result": "42a3478352f622386d8ccb019967ad3822b141ca",
@@ -5255,7 +5255,7 @@
     },
     "historical_net002_net007_source_reconciliation": {
       "status": "JAN_SOURCE_STRUCTURAL_MAPPING_AND_POSTHOC_LOSS_ATTRIBUTION_VERIFIED_NEXT_COMPOSITION_PREDECLARATION",
-      "first_incomplete_stage": "NET002_NET007_JAN_V2_FAST_DIFFERENTIAL_REPLAY",
+      "first_incomplete_stage": "NET002_NET007_JAN_FAST_PARITY_QUICKSTART_AND_SOURCE_REPAIR_HANDOFF",
       "source_families": [
         "NET002 completed H1/H4 break of structure and ATR/body quality",
         "NET003 H1-break-M15-retest/reclaim",
@@ -5488,6 +5488,51 @@
           "old_january_child_context_tests": "STALE_REQUIRES_REPLAY_FROM_V2",
           "library_path": "/R9_Gamma_Checkpoints/NET002_NET007_JAN_MAPPING",
           "august_sealed": true
+        },
+        "v2_differential": {
+          "status": "JANUARY_CAUSAL_PARENT_EXACT_AND_2_MUTATIONS_PASS_VERIFIED_DURABLE",
+          "source": "scripts/r9b_jan_v2_differential.py",
+          "source_blob": "9708ae82a24c29d2e83fae86100a47112963b74c",
+          "result": "results/R9B_GAMMA_NET002_007_JAN_V2_DIFFERENTIAL.json",
+          "result_blob": "991bced12ba7bfb9c386501f606853bc66b33833",
+          "result_sha256": "e10235c4b05178656a0b57754b196bd0cd08a0ecb6fa5af3104ada9acb34f973",
+          "frozen_masks": [
+            "A0_original_raw",
+            "A1_H1_H4_concordant",
+            "A2_M15_retest_context",
+            "A3_M15_failed_acceptance_context",
+            "A4_H1_NET004_plus_H4_visible"
+          ],
+          "selected_v2": [
+            28088,
+            6360,
+            4592,
+            9187,
+            25644
+          ],
+          "net_v2": [
+            -4510.0870000207515,
+            -907.8280000046452,
+            -828.2440000033503,
+            -1488.8340000067765,
+            -4082.265500018916
+          ],
+          "diff_vs_v1_selected": [
+            0,
+            0,
+            178,
+            3421,
+            0
+          ],
+          "mutations_rejected": [
+            "suppressed visible retest child",
+            "suppressed visible failed-acceptance child"
+          ],
+          "original_parent_no_changes": true,
+          "method": "raw independent CAUSAL014 exit first, strict chronological raw-first single-position re-selection; source-time-only eligibility, no changes to generator quota/cooldown",
+          "test_time_seconds": 0.344899,
+          "forward_claims": false,
+          "august_sealed": true
         }
       }
     },
@@ -5520,7 +5565,7 @@
       ],
       "august_accessed": false
     },
-    "first_incomplete_stage": "NET002_NET007_JAN_V2_FAST_DIFFERENTIAL_REPLAY",
+    "first_incomplete_stage": "NET002_NET007_JAN_FAST_PARITY_QUICKSTART_AND_SOURCE_REPAIR_HANDOFF",
     "session_handoff_20260928_max_chat": {
       "status": "DURABLE_GOOGLE_DOCS_HANDOFF_VERIFIED",
       "date": "2026-09-28",
