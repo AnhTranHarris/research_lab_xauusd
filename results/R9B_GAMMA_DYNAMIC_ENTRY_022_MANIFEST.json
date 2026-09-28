@@ -1,0 +1,10 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_ENTRY_022_ENTRY_HOLD_ARCHITECTURE_SYNTHESIS",
+  "status": "VERIFIED_DURABLE",
+  "source_sha256": "d596455d6a21ae55163330bba730d7e4c058fdbd0e4688325ea4b7bb1099ad94",
+  "result_sha256": "d18e9bdd7bf3f0e56a8abf6b735bfd240b8ba07f9f3ca5d26f0f3cb621eabdc6",
+  "drive_source_id": "11QflbpJqQGj_RIcDWtQISIQ0FfOwmybJ",
+  "drive_result_id": "1fYlx5vbpzQL9m50wIaohkqD3brozo4cE",
+  "drive_manifest_id": "1rumVvfXFGzXqiDXGEaiLVSTOwPxX4g9a",
+  "august_accessed": false
+}
