@@ -1,0 +1,66 @@
+{
+  "unit": "R9B_GAMMA_DYNAMIC_NET_003_H1_H4_RETEST_RECLAIM_RECONSTRUCTION",
+  "phase": "MAY_JUL_FROZEN_FORWARD",
+  "status": "COMPLETED_LOCAL_FROZEN_FORWARD",
+  "frozen_candidate": {
+    "wait_min": 720,
+    "touch_buffer_atr": 0.2,
+    "max_penetration_atr": 0.05,
+    "reclaim_atr": 0.2,
+    "require_owner_body": true,
+    "hold_min": 240
+  },
+  "selection_contract": "Frozen on Jan-Mar discovery and April calibration. May-Jul evaluated once with no retuning.",
+  "monthly": {
+    "5": {
+      "trades": 38,
+      "winners": 16,
+      "win_rate_pct": 42.10526315789473,
+      "net": -10.4170000000031,
+      "gp": 333.79499999999825,
+      "gl": -344.21200000000135,
+      "pf": 0.9697366739102558,
+      "avg": -0.27413157894745
+    },
+    "6": {
+      "trades": 41,
+      "winners": 22,
+      "win_rate_pct": 53.65853658536586,
+      "net": 168.887000000002,
+      "gp": 511.4760000000015,
+      "gl": -342.5889999999995,
+      "pf": 1.4929726290102783,
+      "avg": 4.119195121951268
+    },
+    "7": {
+      "trades": 40,
+      "winners": 17,
+      "win_rate_pct": 42.5,
+      "net": -104.21000000000049,
+      "gp": 196.90999999999894,
+      "gl": -301.11999999999944,
+      "pf": 0.653925345377256,
+      "avg": -2.6052500000000123
+    }
+  },
+  "aggregate": {
+    "trades": 119,
+    "winners": 55,
+    "win_rate_pct": 46.21848739495798,
+    "net": 54.2599999999984,
+    "gp": 1042.1809999999987,
+    "gl": -987.9210000000003,
+    "pf": 1.0549234199900583,
+    "avg": 0.4559663865546084
+  },
+  "robust_all_forward_months": false,
+  "decision": "REJECT_RETEST_RECLAIM_FROZEN_FORWARD",
+  "next_unit": "R9B_GAMMA_DYNAMIC_NET_004_STRUCTURAL_STATE_SPECIALIST",
+  "discovery_result_sha256": "3f3945b268dbf749ddf577a0b5b8a7d9f70829b6c28aad00885d0c662003c271",
+  "cache_sha256": {
+    "5": "abe0eb7190b66b1b1e66c8c629c32c47a6766396dccfbb254c15c78a5a1b4238",
+    "6": "1d5b301e67f01c6b48297618ffdaa05e8bd0eb3ce855ca92c495b6b6310f16d2",
+    "7": "c920c65f4ef186c1f2585e787822d39b4781c543df657e706e86fb0bddf1b732"
+  },
+  "august_accessed": false
+}
