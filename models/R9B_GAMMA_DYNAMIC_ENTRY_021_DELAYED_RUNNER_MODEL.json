@@ -2,14 +2,41 @@
   "unit": "R9B_GAMMA_DYNAMIC_ENTRY_021_RECOVERY_TRAJECTORY_OWNER",
   "role": "DELAYED_RUNNER classifier inside ENTRY020 RECOVERY_UNCERTAIN",
   "checkpoint_ms": 4500,
-  "exact_rule": {
-    "feature": "local_mae_exec_between_4s_and_4_5s",
-    "threshold_gt": -0.23999999463558197,
-    "then": "DELAYED_RUNNER",
-    "else": "FAILED_IGNITION_CANDIDATE",
-    "diagnostic_only": true
+  "feature_set": "trajectory",
+  "feature_meaning": {
+    "0": "current_exec_pnl",
+    "1": "exec_pnl_change_since_4s",
+    "2": "local_mfe_exec",
+    "3": "local_mae_exec",
+    "4": "giveback_from_local_mfe",
+    "5": "recovery_from_local_mae",
+    "6": "trajectory_efficiency",
+    "7": "travel_since_4s",
+    "8": "positive_breakeven_occupancy",
+    "9": "turn_count_since_4s",
+    "10": "age_since_local_mfe_s"
+  },
+  "hyperparameters": {
+    "max_depth": 1,
+    "min_samples_leaf": 5,
+    "class_weight_0": 1.0,
+    "random_state": 131
   },
   "tree": {
+    "checkpoint_ms": 4500,
+    "feature_indexes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
     "classes": [
       0,
       1
@@ -31,8 +58,8 @@
     ],
     "threshold": [
       -0.23999999463558197,
-      -2,
-      -2
+      -2.0,
+      -2.0
     ],
     "n_node_samples": [
       29,
@@ -41,12 +68,12 @@
     ],
     "class_probability": [
       [
-        0.5862068966,
-        0.4137931034
+        0.5862068965517241,
+        0.41379310344827586
       ],
       [
-        1,
-        0
+        1.0,
+        0.0
       ],
       [
         0.4,
@@ -55,8 +82,6 @@
     ],
     "probability_threshold": 0.35
   },
-  "training": "January days0-13 ENTRY019 RECOVERY_RUNNER events that fail ENTRY020 +4s certification; +5s outcome label only.",
-  "source_sha256": "0b87ad40f72c51f1ed0cea72f24f340691cb127b9b31fb47d6cbbc7abbc6ffca",
-  "model_sha256": "f28c7726fedbe1aa44553c38923a8d48271fcab293363f2307b049f863623111",
+  "training": "January days0-13 ENTRY019 RECOVERY_RUNNER events that fail ENTRY020 +4s certification. +5s persistence is label only.",
   "august_accessed": false
 }
