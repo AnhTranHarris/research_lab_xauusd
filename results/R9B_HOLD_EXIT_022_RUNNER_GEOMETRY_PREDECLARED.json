@@ -1,0 +1,43 @@
+{
+  "august_sealed": true,
+  "base_parent": "CAUSAL_RECERT_014",
+  "calibration": "April",
+  "discovery": "Jan--Mar",
+  "fixture_revision": "Original synthetic short position lacked terminal quote before end of artificial stream, test assertion wrongly required finite exit. Added end tick at 60 seconds; fixture now passes before market compute; no market result affected.",
+  "frozen_forward": "May--July",
+  "golden": {
+    "net": -4510.0870000207515,
+    "raw": 34362,
+    "trades": 28088,
+    "winners": 19087
+  },
+  "modified": "post-activation trailing stop width only, based on causal event alignment; no retrospective exit events",
+  "owner_modes": [
+    "weak_only",
+    "strong_only",
+    "both"
+  ],
+  "partial_value_gate": "positive Jan net+GP, gross loss deterioration <=5%, winner/trade >=95%; do not promote, seek distinct control",
+  "source_sha256": "4a23916632d5591bf1d25107f2b316432d410648fa3a1935f5fff2e483da52f1",
+  "stage": "JAN_RUNNER_TRAIL_GEOMETRY_SOURCE_EXACT",
+  "status": "PREDECLARED_BEFORE_MARKET_REPLAY",
+  "strict_gate": "positive Jan net improvement, no gross loss deterioration, >=95% winner+trade retention; then replicate Feb and Mar before calibration",
+  "unchanged": {
+    "activation_strong": 0.1,
+    "activation_weak": 0.18,
+    "entry_signal": "exact CAUSAL014 raw chronological event generator",
+    "halfspread_per_side": 0.1,
+    "maxhold_s": 60,
+    "one_position": true,
+    "stop_strong": 1.0,
+    "stop_weak": 3.0
+  },
+  "unit": "R9B_GAMMA_DYNAMIC_HOLD_EXIT_022_STATE_DEPENDENT_HARVEST_FAILURE_REBUILD",
+  "variants": 12,
+  "width_price": [
+    0.025,
+    0.1,
+    0.2,
+    0.4
+  ]
+}
